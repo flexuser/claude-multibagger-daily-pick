@@ -1,0 +1,2230 @@
+{
+ "EMMVEE.NS": {
+  "fetched": "2026-10-04",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [
+    {
+     "date": "2026-10-01",
+     "cats": [
+      "regulatory"
+     ],
+     "type": "Pendency of Litigation(s)/dispute(s) or the outcome impactin",
+     "text": "Emmvee Photovoltaic Power Limited has informed the Exchange about show cause notice received from GST department.",
+     "url": "https://nsearchives.nseindia.com/corporate/EMMVEE_01102026190343_Regulation_30_stock_exchange_Show_cause_notice_01102026.pdf"
+    },
+    {
+     "date": "2026-07-01",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "Emmvee Photovoltaic Power Limited has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeove",
+     "url": "https://nsearchives.nseindia.com/corporate/team_sandeshc_24062026132149_21.pdf"
+    }
+   ],
+   "event_score": 0,
+   "event_counts": {
+    "regulatory": 1,
+    "acquisition": 1
+   },
+   "neg_events": 1,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": 0.0,
+   "promoter_now": 80.03,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "ACUTAAS.NS": {
+  "fetched": "2026-10-04",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [
+    {
+     "date": "2026-09-24",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Acquisition",
+     "text": "Acutaas Chemicals Limited has informed the Exchange about Acquisition",
+     "url": "https://nsearchives.nseindia.com/corporate/AMIORG_24092026195234_EnchemAcquisitionIntimationSWSigned.pdf"
+    }
+   ],
+   "event_score": 10,
+   "event_counts": {
+    "acquisition": 1
+   },
+   "neg_events": 0,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": 0.0,
+   "promoter_now": 32.66,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "AZAD.NS": {
+  "fetched": "2026-10-04",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [],
+   "event_score": 0,
+   "event_counts": {},
+   "neg_events": 0,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": 0.42,
+   "promoter_now": 55.84,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "RUBICON.NS": {
+  "fetched": "2026-10-04",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [
+    {
+     "date": "2026-07-22",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Updates",
+     "text": "Filing of Scheme of Merger of Kia Health Tech Private Limited (Wholly Owned Subsidiary) with Rubicon Research Limited   For Disclosure Purposes Only, in terms of the Exemption under Paragraph 4 of SEB",
+     "url": "https://nsearchives.nseindia.com/corporate/9823522970_22072026195714_RRLSEIntimationKIARubicon_Merger22ndJuly_2026.pdf"
+    },
+    {
+     "date": "2026-07-22",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Press Release",
+     "text": "Rubicon Research Limited has informed the Exchange regarding a press release dated July 22, 2026, titled \"Intimation under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) R",
+     "url": "https://nsearchives.nseindia.com/corporate/9823522970_22072026152611_RRLSEIntimationInvatechAcquisition22Jul2026.pdf"
+    },
+    {
+     "date": "2026-07-20",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Outcome of Board Meeting",
+     "text": "Rubicon Research Limited has informed the Exchange regarding Outcome of Board Meeting held on July 20, 2026.1. Date of 27th Annual General Meeting and Record Date for payment of final dividend on equi",
+     "url": "https://nsearchives.nseindia.com/corporate/9823522970_20072026173221_RRLOutcomeofBM20072026.pdf"
+    },
+    {
+     "date": "2026-06-19",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "Rubicon Research Limited has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) read with Regulation 31(5) of SEBI (Substantial Acquisition of Shares and Takeovers) Regulations, 201",
+     "url": "https://nsearchives.nseindia.com/corporate/team_sandeshc_08052026124655_RUBICON.zip"
+    },
+    {
+     "date": "2026-06-10",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "Rubicon Research Limited\u00a0has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regul",
+     "url": "https://nsearchives.nseindia.com/corporate/team_bbodade_29052026162229_RUBICON2.zip"
+    }
+   ],
+   "event_score": 10,
+   "event_counts": {
+    "acquisition": 5
+   },
+   "neg_events": 0,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": -0.23,
+   "promoter_now": 59.76,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "NEULANDLAB.NS": {
+  "fetched": "2026-10-04",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [
+    {
+     "date": "2026-08-05",
+     "cats": [
+      "expansion"
+     ],
+     "type": "Capacity addition",
+     "text": "Disclosure under Regulation 30 of SEBI Listing Regulations - Enhancement of manufacturing capacity",
+     "url": "https://nsearchives.nseindia.com/corporate/NEULANDLAB_05082026163655_SignedSEIntimation.pdf"
+    }
+   ],
+   "event_score": 12,
+   "event_counts": {
+    "expansion": 1
+   },
+   "neg_events": 0,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": -0.06,
+   "promoter_now": 32.62,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "PRIVISCL.NS": {
+  "fetched": "2026-10-04",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [
+    {
+     "date": "2026-09-24",
+     "cats": [
+      "distress"
+     ],
+     "type": "Shareholders meeting",
+     "text": "Privi Speciality Chemicals Limited has informed the Exchange regarding Notice of Shareholders Meeting Convened in accordance with the order of Hon'ble NCLT, to be held on October 27, 2026 @12:30pm",
+     "url": "https://nsearchives.nseindia.com/corporate/FAIRCHEMDP_24092026185207_LettertoSENoticeofShholdeMeeting.pdf"
+    }
+   ],
+   "event_score": 0,
+   "event_counts": {
+    "distress": 1
+   },
+   "neg_events": 1,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": -9.29,
+   "promoter_now": 60.6,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "PARADEEP.NS": {
+  "fetched": "2026-10-04",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [
+    {
+     "date": "2026-06-12",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "Zuari Industries Limited\u00a0has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regul",
+     "url": "https://nsearchives.nseindia.com/corporate/team_bbodade_04052026160755_PARADEEP.pdf"
+    }
+   ],
+   "event_score": 10,
+   "event_counts": {
+    "acquisition": 1
+   },
+   "neg_events": 0,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": 0.66,
+   "promoter_now": 57.86,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "RRKABEL.NS": {
+  "fetched": "2026-10-04",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [
+    {
+     "date": "2026-09-25",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Acquisition",
+     "text": "RRKABEL: R R Kabel Limited has informed the Exchange about the execution of the Business Transfer Agreement for purchase and acquisition of the Business Undertaking of U M Cables Limited by the Compan",
+     "url": "https://nsearchives.nseindia.com/corporate/RRKL1995_25092026165354_Intimation_Reg_30_BTA.pdf"
+    },
+    {
+     "date": "2026-09-25",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Press Release",
+     "text": "RRKABEL: R R Kabel Limited has informed the Exchange about a press release regarding the acquisition of U M Cables' Optical Fibre Cable Business.",
+     "url": "https://nsearchives.nseindia.com/corporate/RRKL1995_25092026162141_Press_Release_25_September_2026.pdf"
+    },
+    {
+     "date": "2026-09-24",
+     "cats": [
+      "acquisition",
+      "approval"
+     ],
+     "type": "Outcome of Board Meeting",
+     "text": "R R Kabel Limited has informed the Exchange regarding the Board's approval for acquisition of the Business Undertaking of U M Cables Limited.",
+     "url": "https://nsearchives.nseindia.com/corporate/RRKL1995_24092026214959_Outcome_of_BM_acquisition_of_unit_-_Final.pdf"
+    },
+    {
+     "date": "2026-08-29",
+     "cats": [
+      "regulatory"
+     ],
+     "type": "Pendency of Litigation(s)/dispute(s) or the outcome impactin",
+     "text": "RRKABEL: R R Kabel Limited has informed the Exchange regarding receipt of a Show Cause-cum-Demand Notice from the GST Department under Regulation 30 of the SEBI Listing Regulations.",
+     "url": "https://nsearchives.nseindia.com/corporate/RRKL1995_29082026180828_Intimation_GST_SCN_27_08_26.pdf"
+    },
+    {
+     "date": "2026-07-27",
+     "cats": [
+      "approval"
+     ],
+     "type": "Outcome of Board Meeting",
+     "text": "R R Kabel Limited has submitted to the Exchange, the outcome of the Board Meeting for approval of Unaudited Standalone and Consolidated Financial Results for the quarter ended 30 June 2026.",
+     "url": "https://nsearchives.nseindia.com/corporate/RRKL1995_27072026150520_Results_Standalone_Consolidated_-Q1_FY_2027.pdf"
+    }
+   ],
+   "event_score": 0,
+   "event_counts": {
+    "acquisition": 3,
+    "approval": 2,
+    "regulatory": 1
+   },
+   "neg_events": 1,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": -0.38,
+   "promoter_now": 61.38,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "HSCL.NS": {
+  "fetched": "2026-10-04",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [
+    {
+     "date": "2026-09-24",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "General Updates",
+     "text": "Himadri Speciality Chemical Limited has informed the Exchange about Divestment of stake in a Step-down Subsidiary by Trancemarine and Confreight Logistics Private Limited, a Subsidiary of the Company",
+     "url": "https://nsearchives.nseindia.com/corporate/HSCL_24092026112651_IntimationDivestmentofstake.pdf"
+    },
+    {
+     "date": "2026-09-21",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Demerger",
+     "text": "Himadri Speciality Chemical Limited has informed the Exchange about Scheme of Arrangement between Dalmia Bharat Refractories Limited ( Demerged Company ) and Himadri Speciality Chemical Ltd ( Resultin",
+     "url": "https://nsearchives.nseindia.com/corporate/HSCL_21092026100728_Boardoutcome21092026.pdf"
+    },
+    {
+     "date": "2026-09-18",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Updates",
+     "text": "This is to inform you that a meeting of the Board of Directors ( Board ) of Himadri Speciality Chemical Ltd ( Company ) is scheduled to be held on Monday, 21 September 2026, inter-alia, to consider an",
+     "url": "https://nsearchives.nseindia.com/corporate/HSCL_18092026224508_NoticeofBmstockex21092026.pdf"
+    },
+    {
+     "date": "2026-09-18",
+     "cats": [
+      "approval"
+     ],
+     "type": "Outcome of Board Meeting",
+     "text": "Himadri Speciality Chemical Limited has informed the Exchange that the Board of Directors ( Board ) at its meeting held today i.e., on 18 September 2026, inter-alia has considered and approved the alt",
+     "url": "https://nsearchives.nseindia.com/corporate/HSCL_18092026202435_OutcomeofBoardmeeting_HSCL18092026.pdf"
+    },
+    {
+     "date": "2026-08-31",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Acquisition",
+     "text": "Himadri Speciality Chemical Limited has informed the Exchange about incorporation of foreign Wholly Owned Subsidiary in Dubai, UAE",
+     "url": "https://nsearchives.nseindia.com/corporate/HSCL_31082026191144_HSCLUpdateonincorporation31082026.pdf"
+    },
+    {
+     "date": "2026-08-25",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Acquisition",
+     "text": "Himadri Speciality Chemical Limited has informed the Exchange about Update on investment in Sicona Battery Technologies Pty Ltd",
+     "url": "https://nsearchives.nseindia.com/corporate/HSCL_25082026194208_HSCLUpdateoninvestmentinSicona25082026.pdf"
+    },
+    {
+     "date": "2026-06-18",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Acquisition",
+     "text": "Himadri Speciality Chemical Limited has informed the Exchange about Acquisition",
+     "url": "https://nsearchives.nseindia.com/corporate/HSCL_18062026190106_InvestinIBC_18062026.pdf"
+    }
+   ],
+   "event_score": 16,
+   "event_counts": {
+    "acquisition": 6,
+    "approval": 1
+   },
+   "neg_events": 0,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": 0.93,
+   "promoter_now": 52.5,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "CARTRADE.NS": {
+  "fetched": "2026-10-04",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [],
+   "event_score": 0,
+   "event_counts": {},
+   "neg_events": 0,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": 0.0,
+   "promoter_now": 0.0,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "THANGAMAYL.NS": {
+  "fetched": "2026-10-04",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [
+    {
+     "date": "2026-07-20",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "Thangamayil Jewellery Limited has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers)",
+     "url": "https://nsearchives.nseindia.com/corporate/team_sandeshc_14072026123518_THANGAMAYIL.pdf"
+    }
+   ],
+   "event_score": 10,
+   "event_counts": {
+    "acquisition": 1
+   },
+   "neg_events": 0,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": 0.08,
+   "promoter_now": 61.61,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "TDPOWERSYS.NS": {
+  "fetched": "2026-10-04",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [
+    {
+     "date": "2026-10-02",
+     "cats": [
+      "approval"
+     ],
+     "type": "Updates",
+     "text": "TD Power Systems Limited has informed the Exchange regarding 'Receipt of listing approval for 12,50,000 equity shares allotted on preferential basis'.",
+     "url": "https://nsearchives.nseindia.com/corporate/TDPOWERSYS_02102026145009_Final_for_Upload.pdf"
+    },
+    {
+     "date": "2026-10-01",
+     "cats": [
+      "order_win"
+     ],
+     "type": "Bagging/Receiving of orders/contracts",
+     "text": "TD Power Systems Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
+     "url": "https://nsearchives.nseindia.com/corporate/TDPOWERSYS_01102026113919_Covering-SG.pdf"
+    },
+    {
+     "date": "2026-09-12",
+     "cats": [
+      "approval"
+     ],
+     "type": "General Updates",
+     "text": "TD Power Systems Limited has informed the Exchange about receipt of In-principle approval for the issue of 12,50,000 equity shares to Promoters on a preferential basis",
+     "url": "https://nsearchives.nseindia.com/corporate/TDPOWERSYS_12092026153035_Inprincipal_Intimation_Reg_30.pdf"
+    },
+    {
+     "date": "2026-08-12",
+     "cats": [
+      "bonus_split"
+     ],
+     "type": "Record Date",
+     "text": "TD Power Systems Limited has informed the Exchange that Record date for the purpose of Split/Subdivision  is 24-Aug-2026.",
+     "url": "https://nsearchives.nseindia.com/corporate/TDPOWERSYS_12082026202314_COvering-sg.pdf"
+    }
+   ],
+   "event_score": 30,
+   "event_counts": {
+    "approval": 2,
+    "order_win": 1,
+    "bonus_split": 1
+   },
+   "neg_events": 0,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": -0.01,
+   "promoter_now": 26.87,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "SCI.NS": {
+  "fetched": "2026-10-04",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [],
+   "event_score": 0,
+   "event_counts": {},
+   "neg_events": 0,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": 0.0,
+   "promoter_now": 63.75,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "OLECTRA.NS": {
+  "fetched": "2026-10-04",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [],
+   "event_score": 0,
+   "event_counts": {},
+   "neg_events": 0,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": 0.0,
+   "promoter_now": 50.02,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "BLS.NS": {
+  "fetched": "2026-10-04",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [
+    {
+     "date": "2026-09-30",
+     "cats": [
+      "governance"
+     ],
+     "type": "Resignation of Statutory Auditor",
+     "text": "BLS International Services Limited has informed the Exchange about Resignation of Statutory Auditor",
+     "url": "https://nsearchives.nseindia.com/corporate/BLS_ROSA_99452_KMP_Doc.zip"
+    },
+    {
+     "date": "2026-08-20",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Acquisition",
+     "text": "BLS International Services Limited has informed the Exchange about Acquisition of additional equity stake in BLS E-Services Limited",
+     "url": "https://nsearchives.nseindia.com/corporate/BLS_20082026175655_Disclosure_under_Regulation_30_Acquisition_of_shares_Signed.pdf"
+    },
+    {
+     "date": "2026-08-18",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Amalgamation/Merger",
+     "text": "BLS International Services Limited has informed the Exchange about Merger of Step down Subsidiary of the Company",
+     "url": "https://nsearchives.nseindia.com/corporate/BLS_18082026184734_Intimation_of_merger.pdf"
+    },
+    {
+     "date": "2026-07-09",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Acquisition",
+     "text": "BLS International Services Limited has informed the Exchange that BLS International FZE, Wholly owned subsidiary of the Company has subscribed 100% share capital of BLS International Services Japan Co",
+     "url": "https://nsearchives.nseindia.com/corporate/BLS_09072026141714_Intimation_acquisition_or_incorporation.pdf"
+    },
+    {
+     "date": "2026-07-02",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Acquisition",
+     "text": "BLS International Services Limited has informed the Exchange about Acquisition of equity share capital of  Atyati Technologies Private Limited by BLS E-Services Limited, a listed subsidiary of the Com",
+     "url": "https://nsearchives.nseindia.com/corporate/BLS_02072026192346_Intimation_of_acquisition_of_shares_Atyati.pdf"
+    },
+    {
+     "date": "2026-06-17",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "Shikhar Aggarwal\u00a0has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regulations,",
+     "url": "https://nsearchives.nseindia.com/corporate/team_bbodade_13052026184224_BLS.pdf"
+    }
+   ],
+   "event_score": 0,
+   "event_counts": {
+    "governance": 1,
+    "acquisition": 5
+   },
+   "neg_events": 1,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": 0.0,
+   "promoter_now": 70.39,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "NETWEB.NS": {
+  "fetched": "2026-10-04",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [
+    {
+     "date": "2026-08-20",
+     "cats": [
+      "approval"
+     ],
+     "type": "Allotment of Securities",
+     "text": "Netweb Technologies India Limited has informed the Exchange regarding allotment of 2505219 securities pursuant to Qualified Institution Placement at its meeting held on August 20, 2026",
+     "url": "https://nsearchives.nseindia.com/corporate/NETWEB1234_20082026235154_Allotment_Intimation__1_.pdf"
+    },
+    {
+     "date": "2026-08-17",
+     "cats": [
+      "approval"
+     ],
+     "type": "General Updates",
+     "text": "Netweb Technologies India Limited has informed the Exchange about Qualified Institution Placement of Equity Shares",
+     "url": "https://nsearchives.nseindia.com/corporate/NETWEB1234_17082026193948_Outcome_Fund_Raising.pdf"
+    }
+   ],
+   "event_score": 12,
+   "event_counts": {
+    "approval": 2
+   },
+   "neg_events": 0,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": -4.05,
+   "promoter_now": 66.98,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "HBLENGINE.NS": {
+  "fetched": "2026-10-04",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [
+    {
+     "date": "2026-08-03",
+     "cats": [
+      "order_win"
+     ],
+     "type": "Bagging/Receiving of orders/contracts",
+     "text": "HBL Engineering Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
+     "url": "https://nsearchives.nseindia.com/corporate/HBLPOWER_03082026091920_KavachorderAugust2026.pdf"
+    },
+    {
+     "date": "2026-06-19",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "HBL Engineering Limited has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regula",
+     "url": "https://nsearchives.nseindia.com/corporate/team_sandeshc_11052026112438_46.pdf"
+    }
+   ],
+   "event_score": 24,
+   "event_counts": {
+    "order_win": 1,
+    "acquisition": 1
+   },
+   "neg_events": 0,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": 0.0,
+   "promoter_now": 59.11,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "CAPLIPOINT.NS": {
+  "fetched": "2026-10-04",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [
+    {
+     "date": "2026-09-01",
+     "cats": [
+      "approval"
+     ],
+     "type": "Updates",
+     "text": "Caplin Point Laboratories Limited has informed the Exchange regarding 'Receipt of Good Manufacturing Practices (GMP) Compliance Certification by Caplin One Labs Limited (COL), a subsidiary company, fr",
+     "url": "https://nsearchives.nseindia.com/corporate/CAPLINPOINT_01092026175916_INVIMA_Facility_Approval_SD.pdf"
+    },
+    {
+     "date": "2026-06-16",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "Caplin Point Laboratories Limited\u00a0has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeove",
+     "url": "https://nsearchives.nseindia.com/corporate/team_bbodade_06052026162232_CAPLIPOINT.pdf"
+    }
+   ],
+   "event_score": 16,
+   "event_counts": {
+    "approval": 1,
+    "acquisition": 1
+   },
+   "neg_events": 0,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": 0.01,
+   "promoter_now": 70.57,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "SYRMA.NS": {
+  "fetched": "2026-10-04",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [
+    {
+     "date": "2026-06-17",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "Veena Kumari Tandon, Jasbir singh Gujral has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and",
+     "url": "https://nsearchives.nseindia.com/corporate/team_bbodade_08052026164922_SYRMA.pdf"
+    },
+    {
+     "date": "2026-06-12",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "Veena Kumari Tandon\u00a0has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regulatio",
+     "url": "https://nsearchives.nseindia.com/corporate/team_bbodade_04052026170003_SYRMA.pdf"
+    }
+   ],
+   "event_score": 10,
+   "event_counts": {
+    "acquisition": 2
+   },
+   "neg_events": 0,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": -0.69,
+   "promoter_now": 42.28,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "CHAMBLFERT.NS": {
+  "fetched": "2026-10-04",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [
+    {
+     "date": "2026-07-09",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "Nilgiri Plantations Limited\u00a0has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) R",
+     "url": "https://nsearchives.nseindia.com/corporate/team_bbodade_11062026165251_CHAMBLFERT2.pdf"
+    },
+    {
+     "date": "2026-07-06",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "Earthstone Holding (Two) Private Limited\u00a0has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and",
+     "url": "https://nsearchives.nseindia.com/corporate/team_bbodade_28042026160247_CHAMBLFERT.pdf"
+    },
+    {
+     "date": "2026-06-30",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "The Birla Cotton Spinning and Weaving Mills Limited has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of",
+     "url": "https://nsearchives.nseindia.com/corporate/team_sandeshc_12052026114111_birla.pdf"
+    },
+    {
+     "date": "2026-06-30",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "CM Airtime Promotion LLP has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regul",
+     "url": "https://nsearchives.nseindia.com/corporate/team_sandeshc_12052026112945_cmairtime.pdf"
+    },
+    {
+     "date": "2026-06-29",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "Paxton Estate Management Services Limited\u00a0has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares an",
+     "url": "https://nsearchives.nseindia.com/corporate/team_bbodade_11052026191557_CHAMBLFERT1.pdf"
+    },
+    {
+     "date": "2026-06-29",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "Pramanand Commercial Private Limited\u00a0has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Tak",
+     "url": "https://nsearchives.nseindia.com/corporate/team_bbodade_11052026190939_CHAMBLFERT.pdf"
+    },
+    {
+     "date": "2026-06-19",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "ZUARI INTERNATIONAL LIMITED\u00a0has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) R",
+     "url": "https://nsearchives.nseindia.com/corporate/team_bbodade_11052026163944_CHAMBLFERT.pdf"
+    },
+    {
+     "date": "2026-06-19",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "Premium Exchange and Finance Ltd\u00a0has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeover",
+     "url": "https://nsearchives.nseindia.com/corporate/team_bbodade_27042026162023_CHAMBLFERT.pdf"
+    },
+    {
+     "date": "2026-06-18",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "Shalini Nopany has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regulations, 20",
+     "url": "https://nsearchives.nseindia.com/corporate/team_sandeshc_16062026120940_32.pdf"
+    },
+    {
+     "date": "2026-06-16",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "Shital Commercial Limited has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regu",
+     "url": "https://nsearchives.nseindia.com/corporate/team_sandeshc_12062026113806_Shital.pdf"
+    },
+    {
+     "date": "2026-06-16",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "New India Retailing & Investment Limited\u00a0has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and",
+     "url": "https://nsearchives.nseindia.com/corporate/team_bbodade_11062026165643_CHAMBLFERT3.pdf"
+    },
+    {
+     "date": "2026-06-16",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "Pavapuri Trading & Investment Company Limited\u00a0has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Share",
+     "url": "https://nsearchives.nseindia.com/corporate/team_bbodade_11062026165829_CHAMBLFERT4.pdf"
+    },
+    {
+     "date": "2026-06-16",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "Manbhawani Investment Limited\u00a0has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers)",
+     "url": "https://nsearchives.nseindia.com/corporate/team_bbodade_11062026164844_CHAMBLFERT1.pdf"
+    },
+    {
+     "date": "2026-06-16",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "Manavta Holdings Limited\u00a0has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regu",
+     "url": "https://nsearchives.nseindia.com/corporate/team_bbodade_11062026164442_CHAMBLFERT.pdf"
+    },
+    {
+     "date": "2026-06-15",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "SIL Properties Limited has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regulat",
+     "url": "https://nsearchives.nseindia.com/corporate/team_sandeshc_10062026132148_SIL.pdf"
+    },
+    {
+     "date": "2026-06-15",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "Sonali Commercial Limited has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regu",
+     "url": "https://nsearchives.nseindia.com/corporate/team_sandeshc_10062026132044_Sonali.pdf"
+    },
+    {
+     "date": "2026-06-15",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "Yashovardhan Investment & Trading Company Limited has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Sh",
+     "url": "https://nsearchives.nseindia.com/corporate/team_sandeshc_10062026131120_Yasho.pdf"
+    },
+    {
+     "date": "2026-06-15",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "Hargaon Investment & Trading Company Limited has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares",
+     "url": "https://nsearchives.nseindia.com/corporate/team_sandeshc_10062026130637_HargaonInvt.pdf"
+    },
+    {
+     "date": "2026-06-15",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "La Monde Trading & Investments Private Limited has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Share",
+     "url": "https://nsearchives.nseindia.com/corporate/team_sandeshc_10062026130325_45.pdf"
+    },
+    {
+     "date": "2026-06-15",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "Ganges Securities Limited has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regu",
+     "url": "https://nsearchives.nseindia.com/corporate/team_sandeshc_10062026125644_Ganges.pdf"
+    },
+    {
+     "date": "2026-06-15",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "Deepshikha Trading Company Private Limited has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares an",
+     "url": "https://nsearchives.nseindia.com/corporate/team_sandeshc_10062026125546_Deepshikha.pdf"
+    },
+    {
+     "date": "2026-06-15",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "Urvi Mittal has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regulations, 2011.",
+     "url": "https://nsearchives.nseindia.com/corporate/team_sandeshc_10062026124141_Urvi.pdf"
+    },
+    {
+     "date": "2026-06-15",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "Nandini Nopany\u00a0has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regulations, 2",
+     "url": "https://nsearchives.nseindia.com/corporate/team_bbodade_09062026164535_CHAMBLFERT2.pdf"
+    },
+    {
+     "date": "2026-06-15",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "Chandra Shekhar Nopany (HUF)\u00a0has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers)",
+     "url": "https://nsearchives.nseindia.com/corporate/team_bbodade_09062026164354_CHAMBLFERT1.pdf"
+    },
+    {
+     "date": "2026-06-15",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "Shekhar Family Trust\u00a0has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regulati",
+     "url": "https://nsearchives.nseindia.com/corporate/team_bbodade_09062026163919_CHAMBLFERT.pdf"
+    },
+    {
+     "date": "2026-06-15",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "Shruti Family Trust has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regulation",
+     "url": "https://nsearchives.nseindia.com/corporate/team_sandeshc_09062026134030_ShrutiFT.pdf"
+    },
+    {
+     "date": "2026-06-15",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "Chandra Shekhar Nopany has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regulat",
+     "url": "https://nsearchives.nseindia.com/corporate/team_sandeshc_09062026133818_CSN.pdf"
+    },
+    {
+     "date": "2026-06-15",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "Arhant Vikram Nopany has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regulatio",
+     "url": "https://nsearchives.nseindia.com/corporate/team_sandeshc_09062026132927_Arhant.pdf"
+    },
+    {
+     "date": "2026-06-12",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "Champaran Marketing Company Limited has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeo",
+     "url": "https://nsearchives.nseindia.com/corporate/team_sandeshc_12062026114621_Champaran.pdf"
+    },
+    {
+     "date": "2026-06-12",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "Shruti Vora has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regulations, 2011.",
+     "url": "https://nsearchives.nseindia.com/corporate/team_sandeshc_11062026133140_Svora.pdf"
+    },
+    {
+     "date": "2026-06-12",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "Shree Vihar Properties Limited has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers)",
+     "url": "https://nsearchives.nseindia.com/corporate/team_sandeshc_11062026131147_28.pdf"
+    },
+    {
+     "date": "2026-06-12",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "Ronson Traders Limited has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regulat",
+     "url": "https://nsearchives.nseindia.com/corporate/team_sandeshc_11062026120622_Ronson.pdf"
+    },
+    {
+     "date": "2026-06-12",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "RTM Investment & Trading Company Limited has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and",
+     "url": "https://nsearchives.nseindia.com/corporate/team_sandeshc_11062026120040_45.pdf"
+    },
+    {
+     "date": "2026-06-12",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "RTM Properties Limited has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regulat",
+     "url": "https://nsearchives.nseindia.com/corporate/team_sandeshc_11062026115140_47.pdf"
+    },
+    {
+     "date": "2026-06-12",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "SCM Investment & Trading Company Limited has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and",
+     "url": "https://nsearchives.nseindia.com/corporate/team_sandeshc_11062026114940_SCM.pdf"
+    },
+    {
+     "date": "2026-06-12",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "Sidh Enterprises Limited has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regul",
+     "url": "https://nsearchives.nseindia.com/corporate/team_sandeshc_11062026114824_Sidh.pdf"
+    },
+    {
+     "date": "2026-06-10",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "Shobhana Bhartia\u00a0has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regulations,",
+     "url": "https://nsearchives.nseindia.com/corporate/team_bbodade_29052026163322_CHAMBLFERT1.pdf"
+    },
+    {
+     "date": "2026-06-10",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "SIMON INDIA LIMITED\u00a0has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regulatio",
+     "url": "https://nsearchives.nseindia.com/corporate/team_bbodade_29052026162908_CHAMBLFERT.pdf"
+    },
+    {
+     "date": "2026-06-10",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "HT Discretionary Trust\u00a0has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regula",
+     "url": "https://nsearchives.nseindia.com/corporate/team_bbodade_29052026160537_CHAMBLFERT1.pdf"
+    },
+    {
+     "date": "2026-06-10",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "Earthstone Discretionary Trust\u00a0has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers",
+     "url": "https://nsearchives.nseindia.com/corporate/team_bbodade_29052026160352_CHAMBLFERT.pdf"
+    },
+    {
+     "date": "2026-06-09",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "Zuari Industries Limited\u00a0has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regul",
+     "url": "https://nsearchives.nseindia.com/corporate/team_bbodade_30042026165436_CHAMBLFERT.pdf"
+    },
+    {
+     "date": "2026-06-09",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "SIL Investments Limited\u00a0has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regul",
+     "url": "https://nsearchives.nseindia.com/corporate/team_bbodade_26052026172946_CHAMBLFERT.pdf"
+    },
+    {
+     "date": "2026-06-05",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "Earthstone Holding(Three) LLP has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers)",
+     "url": "https://nsearchives.nseindia.com/corporate/team_sandeshc_30042026112651_EH3LLP.pdf"
+    }
+   ],
+   "event_score": 10,
+   "event_counts": {
+    "acquisition": 43
+   },
+   "neg_events": 0,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": 0.84,
+   "promoter_now": 61.34,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "FORCEMOT.NS": {
+  "fetched": "2026-10-04",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [],
+   "event_score": 0,
+   "event_counts": {},
+   "neg_events": 0,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": 0.0,
+   "promoter_now": 61.63,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "VIJAYA.NS": {
+  "fetched": "2026-10-04",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [
+    {
+     "date": "2026-09-11",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "General Updates",
+     "text": "Vijaya Diagnostic Centre Limited has informed the Exchange about General Updates - Investor Presentation - 100% Acquisition of  integrated diagnostic business undertaking of Arya Wellness Centre, Guwa",
+     "url": "https://nsearchives.nseindia.com/corporate/VIJAYA_11092026205743_Stx_VDCL_Inv_Pres_Signed.pdf"
+    },
+    {
+     "date": "2026-09-11",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Press Release",
+     "text": "Vijaya Diagnostic Centre Limited has informed the Exchange regarding a press release dated September 11, 2026, titled \"100% acquisition of integrated diagnostic business undertaking of Arya Wellness C",
+     "url": "https://nsearchives.nseindia.com/corporate/VIJAYA_11092026204548_Stx_VDCL_PR_Signed.pdf"
+    }
+   ],
+   "event_score": 10,
+   "event_counts": {
+    "acquisition": 2
+   },
+   "neg_events": 0,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": -0.12,
+   "promoter_now": 52.51,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "EIHOTEL.NS": {
+  "fetched": "2026-10-04",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [],
+   "event_score": 0,
+   "event_counts": {},
+   "neg_events": 0,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": 0.0,
+   "promoter_now": 32.85,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "CASTROLIND.NS": {
+  "fetched": "2026-10-04",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [
+    {
+     "date": "2026-06-17",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "Castrol Limited, UK has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regulation",
+     "url": "https://nsearchives.nseindia.com/corporate/team_sandeshc_24042026123624_41.pdf"
+    }
+   ],
+   "event_score": 10,
+   "event_counts": {
+    "acquisition": 1
+   },
+   "neg_events": 0,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": 0.0,
+   "promoter_now": 51.0,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "JAINREC.NS": {
+  "fetched": "2026-10-04",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [
+    {
+     "date": "2026-08-26",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "General Updates",
+     "text": "Jain Resource Recycling Limited has informed the Exchange about Acquisition of Equity shares of Jain Ikon Global Ventures FZC, Subsidiary of the Company pursuant to Loan Conversion Agreement",
+     "url": "https://nsearchives.nseindia.com/corporate/JAINMETAL_26082026120510_Conv_of_Loan_Intimation__1_.pdf"
+    },
+    {
+     "date": "2026-06-22",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "Kamlesh Jain has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regulations, 2011",
+     "url": "https://nsearchives.nseindia.com/corporate/team_sandeshc_13052026111628_SAST1.pdf"
+    }
+   ],
+   "event_score": 10,
+   "event_counts": {
+    "acquisition": 2
+   },
+   "neg_events": 0,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": 0.0,
+   "promoter_now": 73.59,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "HONASA.NS": {
+  "fetched": "2026-10-04",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [
+    {
+     "date": "2026-08-25",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "General Updates",
+     "text": "Update on proposed acquisition of Fluence Pharma Private Limited",
+     "url": "https://nsearchives.nseindia.com/corporate/HONASA16_25082026205717_FluenceUpdate.pdf"
+    },
+    {
+     "date": "2026-07-07",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "General Updates",
+     "text": "Incorporation of a wholly owned subsidiary Honasa Health Private Limited",
+     "url": "https://nsearchives.nseindia.com/corporate/HONASA16_07072026172555_Update_on_Incorporation_of_WoS.pdf"
+    },
+    {
+     "date": "2026-06-23",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Press Release",
+     "text": "Honasa Consumer Limited has informed the Exchange regarding a press release dated Jun 23, 2026, titled \"Honasa Consumer Limited Enters Nutraceuticals with Majority Stake Acquisition in Fluence Pharma\"",
+     "url": "https://nsearchives.nseindia.com/corporate/HONASA16_23062026181955_PressRelease.pdf"
+    },
+    {
+     "date": "2026-06-23",
+     "cats": [
+      "acquisition",
+      "approval"
+     ],
+     "type": "Acquisition",
+     "text": "Honasa Consumer Limited has informed the Exchange about approval for acquisition of Fluence Pharma Private Limited and incorporation of a wholly owned subsidiary",
+     "url": "https://nsearchives.nseindia.com/corporate/HONASA16_23062026180950_STX_Acq_Inc.pdf"
+    },
+    {
+     "date": "2026-06-11",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "Varun Alagh has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regulations, 2011.",
+     "url": "https://nsearchives.nseindia.com/corporate/team_sandeshc_01062026115011_47.pdf"
+    }
+   ],
+   "event_score": 16,
+   "event_counts": {
+    "acquisition": 5,
+    "approval": 1
+   },
+   "neg_events": 0,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": 0.48,
+   "promoter_now": 35.47,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "CEMPRO.NS": {
+  "fetched": "2026-10-04",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [
+    {
+     "date": "2026-06-05",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "Renew Exim DMCC and Valiant Investment DMCC has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares a",
+     "url": "https://nsearchives.nseindia.com/corporate/team_sandeshc_22052026130421_CEMPRO1.zip"
+    }
+   ],
+   "event_score": 10,
+   "event_counts": {
+    "acquisition": 1
+   },
+   "neg_events": 0,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": 0.0,
+   "promoter_now": 67.46,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "PVRINOX.NS": {
+  "fetched": "2026-10-04",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [
+    {
+     "date": "2026-09-29",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "ATC Logistical Solutions Private Ltd has submitted\u00a0 the Exchange a copy of Disclosure under Regulation 29(2) of SEBI (SAST) Regulations,",
+     "url": "https://nsearchives.nseindia.com/corporate/team_bbodade_28092026180722_PVRINOX8.pdf"
+    },
+    {
+     "date": "2026-09-28",
+     "cats": [
+      "buyback"
+     ],
+     "type": "Copy of Newspaper Publication",
+     "text": "PVR INOX Limited has submitted to the Exchange a copy of newspaper advertisement pertaining to Post Buyback Public Announcement.",
+     "url": "https://nsearchives.nseindia.com/corporate/PVRINOXLTD_28092026165903_PVRINOXPostOfferPublicAnnouncement28092026.pdf"
+    },
+    {
+     "date": "2026-09-28",
+     "cats": [
+      "buyback"
+     ],
+     "type": "Post Buyback Public Announcement",
+     "text": "PVR INOX Limited has informed the Exchange about post Buyback Public Announcement.",
+     "url": "https://nsearchives.nseindia.com/corporate/PVRINOXLTD_28092026165647_PVRINOXPostOfferPublicAnnouncement28092026.pdf"
+    },
+    {
+     "date": "2026-09-09",
+     "cats": [
+      "buyback"
+     ],
+     "type": "Copy of Newspaper Publication",
+     "text": "PVR INOX Limited has informed the Exchange about Copy of Newspaper Publication for dispatch of Letter of Offer with respect to buyback.",
+     "url": "https://nsearchives.nseindia.com/corporate/PVRINOXLTD_09092026152848_PVRINOXDispatchNewspaperAnnouncement09092026.pdf"
+    },
+    {
+     "date": "2026-09-07",
+     "cats": [
+      "buyback"
+     ],
+     "type": "Buyback",
+     "text": "PVR INOX Limited has submitted to Stock Exchange the Letter of offer for Buy-back of equity shares.",
+     "url": "https://nsearchives.nseindia.com/corporate/PVRINOXLTD_07092026210319_PVRINOXLOF07092026.pdf"
+    },
+    {
+     "date": "2026-09-04",
+     "cats": [
+      "buyback"
+     ],
+     "type": "Public Announcement - Buyback of Shares",
+     "text": "PVR INOX Limited has informed the Exchange about issuance of a Corrigendum to the Public Announcement dated September 01, 2026 ( Corrigendum to the PA ) for the notice of the Eligible Shareholders.",
+     "url": "https://nsearchives.nseindia.com/corporate/PVRINOXLTD_04092026163925_PVRINOXCorrigendum04092026.pdf"
+    },
+    {
+     "date": "2026-09-02",
+     "cats": [
+      "buyback"
+     ],
+     "type": "Copy of Newspaper Publication",
+     "text": "PVR INOX Limited has informed the Exchange about copy of newspaper advertisement pertaining to public announcement of Buy-back..",
+     "url": "https://nsearchives.nseindia.com/corporate/PVRINOXLTD_02092026160552_PVRINOXPublicAnnouncement02092026.pdf"
+    },
+    {
+     "date": "2026-09-02",
+     "cats": [
+      "buyback"
+     ],
+     "type": "Public Announcement - Buyback of Shares",
+     "text": "PVR INOX Limited has informed the Exchange about public Announcement for Buy-back of equity shares of the Company.",
+     "url": "https://nsearchives.nseindia.com/corporate/PVRINOXLTD_02092026145929_PVRINOXPublicAnnouncement02092026.pdf"
+    },
+    {
+     "date": "2026-09-02",
+     "cats": [
+      "buyback"
+     ],
+     "type": "General Updates",
+     "text": "PVR INOX Limited has submitted to the Stock Exchange a copy of Board Resolution passed on  August 31, 2026 pertaining to Buy-back of equity shares of the Company.",
+     "url": "https://nsearchives.nseindia.com/corporate/PVRINOXLTD_02092026143409_PVRINOXBoardResolutionBuyback02092026.pdf"
+    },
+    {
+     "date": "2026-08-31",
+     "cats": [
+      "buyback"
+     ],
+     "type": "Record Date",
+     "text": "PVR INOX Limited has informed the Exchange that Record date for the purpose of Buyback  is 04-Sep-2026.",
+     "url": "https://nsearchives.nseindia.com/corporate/PVRINOXLTD_31082026184723_OutcomeofBoardmeeting31082026.pdf"
+    },
+    {
+     "date": "2026-08-31",
+     "cats": [
+      "buyback"
+     ],
+     "type": "Outcome of Board Meeting",
+     "text": "PVR INOX Limited has informed the Exchange regarding Outcome of Board Meeting held on August 31, 2026 to consider and approve buyback of the equity shares of the Company as well as matters incidental",
+     "url": "https://nsearchives.nseindia.com/corporate/PVRINOXLTD_31082026184245_OutcomeofBoardmeeting31082026.pdf"
+    },
+    {
+     "date": "2026-07-06",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "Pavan Kumar Jain, Siddharth Jain, Nayantara Jain, GFL Limited, INOX Infrastructure Limited has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Boar",
+     "url": "https://nsearchives.nseindia.com/corporate/team_sandeshc_30062026122632_45.pdf"
+    }
+   ],
+   "event_score": 14,
+   "event_counts": {
+    "acquisition": 2,
+    "buyback": 10
+   },
+   "neg_events": 0,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": 0.0,
+   "promoter_now": 27.53,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "CHENNPETRO.NS": {
+  "fetched": "2026-10-04",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [],
+   "event_score": 0,
+   "event_counts": {},
+   "neg_events": 0,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": 0.0,
+   "promoter_now": 67.29,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "BBOX.NS": {
+  "fetched": "2026-10-04",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [],
+   "event_score": 0,
+   "event_counts": {},
+   "neg_events": 0,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": -0.29,
+   "promoter_now": 69.95,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "ZENTEC.NS": {
+  "fetched": "2026-10-04",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [
+    {
+     "date": "2026-08-10",
+     "cats": [
+      "order_win"
+     ],
+     "type": "Bagging/Receiving of orders/contracts",
+     "text": "Zen Technologies Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
+     "url": "https://nsearchives.nseindia.com/corporate/ZENTEC_10082026200818_Receipt_of_Order_Signed.pdf"
+    },
+    {
+     "date": "2026-07-21",
+     "cats": [
+      "order_win"
+     ],
+     "type": "Bagging/Receiving of orders/contracts",
+     "text": "Zen Technologies Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
+     "url": "https://nsearchives.nseindia.com/corporate/ZENTEC_21072026144239_Receipt_of_Order__2_.pdf"
+    }
+   ],
+   "event_score": 28,
+   "event_counts": {
+    "order_win": 2
+   },
+   "neg_events": 0,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": -0.54,
+   "promoter_now": 48.51,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "GESHIP.NS": {
+  "fetched": "2026-10-04",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [
+    {
+     "date": "2026-09-03",
+     "cats": [
+      "buyback"
+     ],
+     "type": "Buyback",
+     "text": "The Great Eastern Shipping Company Limited has informed the Exchange about Commencement of Buyback on September 04, 2026",
+     "url": "https://nsearchives.nseindia.com/corporate/GESHIP_03092026160700_commencementofbuyback.pdf"
+    },
+    {
+     "date": "2026-09-02",
+     "cats": [
+      "buyback"
+     ],
+     "type": "Updates",
+     "text": "The Great Eastern Shipping Company Limited has informed the Exchange about that the Company has, on September 01, 2026, sent an intimation through electronic mode regarding the open market buyback off",
+     "url": "https://nsearchives.nseindia.com/corporate/GESHIP_02092026151209_letter.pdf"
+    },
+    {
+     "date": "2026-08-31",
+     "cats": [
+      "buyback"
+     ],
+     "type": "Buyback",
+     "text": "The Great Eastern Shipping Company Limited has informed the Exchange about Board Resolution pertaining to Buyback",
+     "url": "https://nsearchives.nseindia.com/corporate/GESHIP_31082026180834_seletter.pdf"
+    }
+   ],
+   "event_score": 4,
+   "event_counts": {
+    "buyback": 3
+   },
+   "neg_events": 0,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": 0.0,
+   "promoter_now": 30.07,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "SAGILITY.NS": {
+  "fetched": "2026-10-04",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [
+    {
+     "date": "2026-06-18",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "Sagility B.V. has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regulations, 201",
+     "url": "https://nsearchives.nseindia.com/corporate/team_sandeshc_16062026121542_29.pdf"
+    },
+    {
+     "date": "2026-06-11",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Press Release",
+     "text": "SAGILITY LIMITED has informed the Exchange regarding a press release dated Jun 11, 2026, titled \"Sagility acquires CareSeed to accelerate AI-led quality operations and Medicare Advantage performance t",
+     "url": "https://nsearchives.nseindia.com/corporate/SAGILITY_11062026205607_PressRelease11062026signed.pdf"
+    },
+    {
+     "date": "2026-06-11",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "General Updates",
+     "text": "Sagility acquires CareSeed to accelerate AI-led quality operations and Medicare Advantage performance transformation",
+     "url": "https://nsearchives.nseindia.com/corporate/SAGILITY_11062026205035_IntimationCareSeedAcq11062026signed.pdf"
+    }
+   ],
+   "event_score": 10,
+   "event_counts": {
+    "acquisition": 3
+   },
+   "neg_events": 0,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": -16.43,
+   "promoter_now": 50.95,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "SAILIFE.NS": {
+  "fetched": "2026-10-04",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [
+    {
+     "date": "2026-06-05",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "Krishnam Raju Kanumuri has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regulat",
+     "url": "https://nsearchives.nseindia.com/corporate/team_sandeshc_03062026121513_48.pdf"
+    }
+   ],
+   "event_score": 10,
+   "event_counts": {
+    "acquisition": 1
+   },
+   "neg_events": 0,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": -0.62,
+   "promoter_now": 34.53,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "LALPATHLAB.NS": {
+  "fetched": "2026-10-04",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [
+    {
+     "date": "2026-09-26",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "General Updates",
+     "text": "Dr. Lal Path Labs Ltd. has informed the Exchange about General Updates - Update on acquisition-SHL",
+     "url": "https://nsearchives.nseindia.com/corporate/LALPATHLAB_26092026165355_Update_on_Acquisition_Ghana.pdf"
+    },
+    {
+     "date": "2026-09-24",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "General Updates",
+     "text": "Dr. Lal Path Labs Ltd. has informed the Exchange about acquisition of 70% stake in SN Genelab Private Limited ( S N Gene ) from its existing Shareholders. Post acquisition, S N Gene shall become a Sub",
+     "url": "https://nsearchives.nseindia.com/corporate/LALPATHLAB_24092026172628_Outcome.pdf"
+    },
+    {
+     "date": "2026-07-24",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "General Updates",
+     "text": "Dr. Lal Path Labs Ltd. has informed the Exchange about Acquisition(s) :1. Took note that the Board of Dr Lal PathLabs FZCO, Dubai, Wholly Owned Subsidiary of the Company, approved acquisition of stake",
+     "url": "https://nsearchives.nseindia.com/corporate/LALPATHLAB_24072026134427_BMOUTCOME_24072026.pdf"
+    },
+    {
+     "date": "2026-06-12",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "General Updates",
+     "text": "Dr. Lal Path Labs Ltd. has informed the Exchange about General Updates- Update on Incorporation of Wholly Owned Subsidiary Company",
+     "url": "https://nsearchives.nseindia.com/corporate/LALPATHLAB_12062026203153_Dubai_Incorporation_STX_Intimation.pdf"
+    }
+   ],
+   "event_score": 10,
+   "event_counts": {
+    "acquisition": 4
+   },
+   "neg_events": 0,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": -0.02,
+   "promoter_now": 53.19,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "AEGISVOPAK.NS": {
+  "fetched": "2026-10-04",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [
+    {
+     "date": "2026-09-25",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "General Updates",
+     "text": "Aegis Vopak Terminals Limited has informed the Exchange about Incorporation of a wholly owned subsidiary",
+     "url": "https://nsearchives.nseindia.com/corporate/AVTL_25092026232140_AVTL_Incorporation_of_WOS_Signed.pdf"
+    },
+    {
+     "date": "2026-08-24",
+     "cats": [
+      "expansion"
+     ],
+     "type": "Capacity addition",
+     "text": "Aegis Vopak Terminals Limited has informed the Exchange about Capacity addition at Pipavav by Aegis Terminal (Pipavav) Limited (ATPL), subsidiary company.",
+     "url": "https://nsearchives.nseindia.com/corporate/AVTL_24082026183613_AVTL_Amnomia_Terminal_BTA_Exceution_S.pdf"
+    },
+    {
+     "date": "2026-06-16",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "AEGIS LOGISTICS LIMITED has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regula",
+     "url": "https://nsearchives.nseindia.com/corporate/team_sandeshc_06052026133817_11.pdf"
+    },
+    {
+     "date": "2026-06-10",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "VOPAK INDIA B.V. has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regulations,",
+     "url": "https://nsearchives.nseindia.com/corporate/team_sandeshc_29052026124206_Voapk.pdf"
+    }
+   ],
+   "event_score": 22,
+   "event_counts": {
+    "acquisition": 3,
+    "expansion": 1
+   },
+   "neg_events": 0,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": 0.0,
+   "promoter_now": 86.93,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "AVANTIFEED.NS": {
+  "fetched": "2026-10-04",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [
+    {
+     "date": "2026-06-17",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "Srinivasa Cystine Private Limited, Nuthaklki Ram Prasad HUF, Indra Kumar Alluri has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India",
+     "url": "https://nsearchives.nseindia.com/corporate/team_sandeshc_07052026124054_32.pdf"
+    }
+   ],
+   "event_score": 10,
+   "event_counts": {
+    "acquisition": 1
+   },
+   "neg_events": 0,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": 0.0,
+   "promoter_now": 43.23,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "ACE.NS": {
+  "fetched": "2026-10-04",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [
+    {
+     "date": "2026-06-18",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "Anuradha Garg has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regulations, 201",
+     "url": "https://nsearchives.nseindia.com/corporate/team_sandeshc_16062026114821_44.PDF"
+    },
+    {
+     "date": "2026-06-18",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "Mona Agarwal has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regulations, 2011",
+     "url": "https://nsearchives.nseindia.com/corporate/team_sandeshc_16062026113057_49.PDF"
+    },
+    {
+     "date": "2026-06-15",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "Surbhi Garg\u00a0\u00a0has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regulations, 201",
+     "url": "https://nsearchives.nseindia.com/corporate/team_bbodade_09062026171806_ACE.pdf"
+    },
+    {
+     "date": "2026-06-15",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "Sorab Agarwal\u00a0has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regulations, 20",
+     "url": "https://nsearchives.nseindia.com/corporate/team_bbodade_09062026165411_ACE.pdf"
+    },
+    {
+     "date": "2026-06-15",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "Vijay Agarwal has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regulations, 201",
+     "url": "https://nsearchives.nseindia.com/corporate/team_sandeshc_09062026131258_27.pdf"
+    }
+   ],
+   "event_score": 10,
+   "event_counts": {
+    "acquisition": 5
+   },
+   "neg_events": 0,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": 0.01,
+   "promoter_now": 65.42,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "MTARTECH.NS": {
+  "fetched": "2026-10-04",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [
+    {
+     "date": "2026-08-26",
+     "cats": [
+      "order_win"
+     ],
+     "type": "Bagging/Receiving of orders/contracts",
+     "text": "Mtar Technologies Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
+     "url": "https://nsearchives.nseindia.com/corporate/MTARTECH_26082026090645_Disclosure-_bagging_of_orders_Final.pdf"
+    },
+    {
+     "date": "2026-07-30",
+     "cats": [
+      "order_win"
+     ],
+     "type": "Bagging/Receiving of orders/contracts",
+     "text": "Mtar Technologies Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
+     "url": "https://nsearchives.nseindia.com/corporate/MTARTECH_30072026085905_Baggingoforders_sw.pdf"
+    },
+    {
+     "date": "2026-06-12",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "P. Srinivas Reddy has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regulations,",
+     "url": "https://nsearchives.nseindia.com/corporate/team_sandeshc_03062026133951_10.pdf"
+    }
+   ],
+   "event_score": 38,
+   "event_counts": {
+    "order_win": 2,
+    "acquisition": 1
+   },
+   "neg_events": 0,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": -2.29,
+   "promoter_now": 29.36,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "ENDURANCE.NS": {
+  "fetched": "2026-10-04",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [
+    {
+     "date": "2026-09-29",
+     "cats": [
+      "acquisition",
+      "export"
+     ],
+     "type": "Acquisition",
+     "text": "Endurance Technologies Limited has informed the Exchange about acquisition of remaining 32% stake in Stoeferle GmbH and Stoeferle Automotive GmbH by Endurance Overseas SpA, Italy, a wholly-owned subsi",
+     "url": "https://nsearchives.nseindia.com/corporate/ENDURANCE_29092026171139_Intimation29.pdf"
+    },
+    {
+     "date": "2026-07-01",
+     "cats": [
+      "acquisition",
+      "export"
+     ],
+     "type": "Acquisition",
+     "text": "Endurance Technologies Limited has informed the Exchange about update on acquisition of additional stake in Stoeferle GmbH and Stoeferle Automotive GmbH by Endurance Overseas SpA, Italy ( EOSpA ), a w",
+     "url": "https://nsearchives.nseindia.com/corporate/ENDURANCE_01072026192929_2026_07_01_-_Update_on_Stoeferle.pdf"
+    },
+    {
+     "date": "2026-06-18",
+     "cats": [
+      "expansion"
+     ],
+     "type": "Capacity addition",
+     "text": "Endurance Technologies Limited has informed the Exchange about capacity addition for manufacturing Lithium-Ion Battery packs at the Company's existing facility at Mindewadi, Pune.",
+     "url": "https://nsearchives.nseindia.com/corporate/ENDURANCE_18062026185024_2026_06_18_-_Capacity_addition_battery_packs__Mindewadi_-_Final.pdf"
+    }
+   ],
+   "event_score": 38,
+   "event_counts": {
+    "acquisition": 2,
+    "export": 2,
+    "expansion": 1
+   },
+   "neg_events": 0,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": 0.0,
+   "promoter_now": 75.0,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ }
+}
