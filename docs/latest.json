@@ -1,0 +1,580 @@
+{
+ "generated": "2026-10-04",
+ "demo": true,
+ "universe": 60,
+ "liquid": 60,
+ "with_data": 60,
+ "eligible": 32,
+ "fund_stats": {
+  "attempted": 0,
+  "failed": 0
+ },
+ "rejected": {
+  "too many red flags": 18,
+  "growth below threshold": 7,
+  "promoter pledge too high": 3
+ },
+ "signals": {
+  "attempted": 0,
+  "ok": {},
+  "blocked": false,
+  "checked": 40,
+  "demo": true
+ },
+ "weights": {
+  "runway": 12,
+  "moat": 8,
+  "proof": 16,
+  "leverage": 14,
+  "quality": 10,
+  "discovery": 6,
+  "valuation": 8,
+  "confirm": 6,
+  "ownership": 10,
+  "catalyst": 10
+ },
+ "pillar_names": {
+  "runway": "Runway (theme + small base)",
+  "moat": "Moat (proxy)",
+  "proof": "Proof (growth acceleration)",
+  "leverage": "Operating leverage",
+  "quality": "Capital quality",
+  "discovery": "Still undiscovered",
+  "valuation": "Valuation vs growth",
+  "confirm": "Market confirmation",
+  "ownership": "Ownership and smart money",
+  "catalyst": "Expansion and catalysts"
+ },
+ "verify": [
+  "Order book and its growth vs revenue (latest investor presentation or concall). Filing summaries are short; open the linked PDFs",
+  "Export share and export margins (annual report segment note). Only export order announcements are detected, not margins",
+  "Capex plan, how it is funded, and expected capacity timeline",
+  "FII and DII trend from the latest shareholding pattern, if it shows n/a above",
+  "Customer concentration and dependence on government orders",
+  "Governance: auditor changes, related-party dealings, promoter track record",
+  "Whether the growth is organic or came from a one-off order or acquisition"
+ ],
+ "pick": {
+  "ticker": "DEMO42.NS",
+  "name": "Demo Company 42",
+  "sector": "Synthetic",
+  "blurb": "Synthetic company for previewing the page.",
+  "score": 84.4,
+  "pillars": {
+   "runway": 75.7414,
+   "moat": 89.9769,
+   "proof": 97.4443,
+   "leverage": 99.2856,
+   "quality": 95.2953,
+   "discovery": 86.4498,
+   "valuation": 77.9818,
+   "confirm": 46.8411,
+   "ownership": 71.983,
+   "catalyst": 76.7628
+  },
+  "flags": [],
+  "evidence": [
+   {
+    "group": "Runway",
+    "label": "Structural theme",
+    "value": "Defence and aerospace",
+    "ok": true,
+    "why": "Business description matches a long-cycle growth theme (keyword match, so confirm by reading it)."
+   },
+   {
+    "group": "Runway",
+    "label": "Revenue base",
+    "value": "Rs 890 cr",
+    "ok": true,
+    "why": "Small base means a big opportunity can move the numbers."
+   },
+   {
+    "group": "Runway",
+    "label": "Revenue CAGR, 3 years",
+    "value": "32.4%",
+    "ok": true,
+    "why": "Sustained growth of 20%+ compounds fast."
+   },
+   {
+    "group": "Proof",
+    "label": "Latest quarter revenue, YoY",
+    "value": "59.3%",
+    "ok": true,
+    "why": "Growth is continuing in the most recent results."
+   },
+   {
+    "group": "Proof",
+    "label": "Growth acceleration vs 3y trend",
+    "value": "26.9 pp",
+    "ok": true,
+    "why": "Latest quarter growing faster than the 3-year pace. Closest free proxy for a rising order book."
+   },
+   {
+    "group": "Proof",
+    "label": "Latest quarter margin vs year ago",
+    "value": "4.8 pp",
+    "ok": true,
+    "why": "Margins expanding as volumes grow."
+   },
+   {
+    "group": "Leverage",
+    "label": "Operating margin",
+    "value": "19.0%",
+    "ok": true,
+    "why": "Healthy margin leaves room to absorb costs."
+   },
+   {
+    "group": "Leverage",
+    "label": "Margin change over 3 years",
+    "value": "6.6 pp",
+    "ok": true,
+    "why": "Operating leverage: earnings growing faster than sales."
+   },
+   {
+    "group": "Leverage",
+    "label": "Profit CAGR vs revenue CAGR",
+    "value": "51.1% vs 32.4%",
+    "ok": true,
+    "why": "Profit outgrowing sales is the signature of a re-rating."
+   },
+   {
+    "group": "Quality",
+    "label": "ROCE",
+    "value": "31.1% (+7.7 pp in 3y)",
+    "ok": true,
+    "why": "Returns on capital show if growth creates value."
+   },
+   {
+    "group": "Quality",
+    "label": "Debt / equity",
+    "value": "0.08",
+    "ok": true,
+    "why": "Low debt lets the company fund growth safely."
+   },
+   {
+    "group": "Quality",
+    "label": "Operating cash flow / profit, 3 years",
+    "value": "1.16x",
+    "ok": true,
+    "why": "Earnings quality: are profits turning into cash?"
+   },
+   {
+    "group": "Quality",
+    "label": "Interest coverage",
+    "value": "9.9x",
+    "ok": true,
+    "why": "Can earnings comfortably service the debt?"
+   },
+   {
+    "group": "Quality",
+    "label": "Receivable days change, 3 years",
+    "value": "3%",
+    "ok": true,
+    "why": "Rising receivable days can mean aggressive sales booking or weak customers."
+   },
+   {
+    "group": "Quality",
+    "label": "Share count change, 3 years",
+    "value": "0.1%",
+    "ok": true,
+    "why": "Little dilution means holders keep their share of the upside."
+   },
+   {
+    "group": "Quality",
+    "label": "Free cash flow",
+    "value": "positive",
+    "ok": true,
+    "why": "Growth that funds itself."
+   },
+   {
+    "group": "Quality",
+    "label": "Promoter / insider holding",
+    "value": "51.8%",
+    "ok": true,
+    "why": "Owners with skin in the game."
+   },
+   {
+    "group": "Undiscovered",
+    "label": "Market cap",
+    "value": "Rs 1,149 cr",
+    "ok": true,
+    "why": "Smaller companies have more room to multiply."
+   },
+   {
+    "group": "Undiscovered",
+    "label": "Institutional holding",
+    "value": "11.2%",
+    "ok": true,
+    "why": "Low institutional ownership leaves room for new buyers."
+   },
+   {
+    "group": "Undiscovered",
+    "label": "Analysts covering",
+    "value": "5",
+    "ok": true,
+    "why": "Few analysts, less crowded."
+   },
+   {
+    "group": "Ownership",
+    "label": "Promoter holding change, ~1 year",
+    "value": "1.8 pp",
+    "ok": true,
+    "why": "Promoters adding to their stake is a strong vote of confidence."
+   },
+   {
+    "group": "Ownership",
+    "label": "Promoter shares pledged",
+    "value": "0.0% (+0.0 pp in a year)",
+    "ok": true,
+    "why": "Low pledge means no forced-selling risk."
+   },
+   {
+    "group": "Ownership",
+    "label": "Promoter/director open-market buying, 6 months",
+    "value": "Rs +1.6 cr (2 buys, 0 sells)",
+    "ok": true,
+    "why": "Insiders buying with their own money, from SEBI insider-trading disclosures."
+   },
+   {
+    "group": "Ownership",
+    "label": "FII holding change, ~1 year",
+    "value": "2.4 pp",
+    "ok": true,
+    "why": "Foreign funds building a position."
+   },
+   {
+    "group": "Ownership",
+    "label": "DII holding change, ~1 year",
+    "value": "1.8 pp",
+    "ok": true,
+    "why": "Domestic funds building a position."
+   },
+   {
+    "group": "Catalysts",
+    "label": "Capex as % of revenue",
+    "value": "9.7%",
+    "ok": true,
+    "why": "Heavy reinvestment signals an expansion phase."
+   },
+   {
+    "group": "Catalysts",
+    "label": "Capital work in progress growth",
+    "value": "112%",
+    "ok": true,
+    "why": "Plants under construction today become capacity tomorrow."
+   },
+   {
+    "group": "Catalysts",
+    "label": "Gross fixed assets growth",
+    "value": "41%",
+    "ok": true,
+    "why": "Capacity actually added."
+   },
+   {
+    "group": "Catalysts",
+    "label": "Acquisition in last 2 years",
+    "value": "yes",
+    "ok": true,
+    "why": "From cash-flow business purchases or a goodwill jump. Check whether it is value-adding."
+   },
+   {
+    "group": "Catalysts",
+    "label": "Order wins, last 120 days",
+    "value": "2",
+    "ok": true,
+    "why": "Counted from exchange filings."
+   },
+   {
+    "group": "Catalysts",
+    "label": "Expansion / capacity filings",
+    "value": "1",
+    "ok": true,
+    "why": "Announced plants, capacity additions or doubling."
+   },
+   {
+    "group": "Catalysts",
+    "label": "Export-related filings",
+    "value": "1",
+    "ok": true,
+    "why": "Export orders or overseas customers. Export margins are not available."
+   },
+   {
+    "group": "Catalysts",
+    "label": "Bonus or split in last year",
+    "value": "none",
+    "ok": null,
+    "why": "Improves liquidity and signals management confidence, but creates no value by itself. Worth only a few points in the score."
+   },
+   {
+    "group": "Valuation",
+    "label": "PE / PEG",
+    "value": "28.2 / 1.80",
+    "ok": true,
+    "why": "Is the price reasonable for the growth?"
+   },
+   {
+    "group": "Market",
+    "label": "Price vs 200-day average",
+    "value": "2.6%",
+    "ok": true,
+    "why": "Uptrend, but not stretched."
+   },
+   {
+    "group": "Market",
+    "label": "6-month return vs Nifty",
+    "value": "7.4 pp",
+    "ok": true,
+    "why": "Market is already starting to notice."
+   },
+   {
+    "group": "Market",
+    "label": "Volume, last month vs 6-month avg",
+    "value": "0.85x",
+    "ok": false,
+    "why": "Rising volume hints at accumulation."
+   }
+  ],
+  "thesis": "Operates in defence and aerospace. Revenue of Rs 890 cr has compounded at 32% a year over three years. The latest quarter grew 59% year on year. Operating margin moved +6.6 pp while ROCE sits at 31%. Only 5 analysts cover it and institutions hold 11%, so it may not be widely discovered.",
+  "news": [
+   "Synthetic headline for preview only"
+  ],
+  "events": [
+   {
+    "date": "2026-09-24",
+    "labels": [
+     "Order win"
+    ],
+    "neg": false,
+    "text": "Synthetic order announcement for preview",
+    "url": null
+   },
+   {
+    "date": "2026-09-14",
+    "labels": [
+     "Expansion"
+    ],
+    "neg": false,
+    "text": "Synthetic capacity expansion announcement for preview",
+    "url": null
+   },
+   {
+    "date": "2026-09-04",
+    "labels": [
+     "Export",
+     "Order win"
+    ],
+    "neg": false,
+    "text": "Synthetic export order for preview",
+    "url": null
+   }
+  ],
+  "diligence": {
+   "status": "ok",
+   "provider": "demo",
+   "model": "synthetic",
+   "method": "synthetic demo (no AI was called)",
+   "date": "2026-10-04",
+   "verdict": "green",
+   "summary": "Synthetic due-diligence text for previewing the layout.",
+   "management": "Synthetic management note.",
+   "controversies": "Synthetic: none found.",
+   "business_update": "Synthetic business update.",
+   "order_book": "Synthetic order book note.",
+   "strengths": [
+    "Synthetic strength"
+   ],
+   "risks": [
+    "Synthetic risk"
+   ],
+   "sources": [
+    "https://example.com/synthetic"
+   ]
+  },
+  "exit_triggers": [
+   "Quarterly revenue growth falls below 30% year on year (now 59%).",
+   "Operating margin drops below 15% (now 19%).",
+   "ROCE falls below 22% (now 31%).",
+   "Promoter pledge appears or rises above 10%, or promoter holding falls more than 2 pp.",
+   "Operating cash flow stays below half of profit for two years running.",
+   "Weekly close below the 200-day average on rising volume.",
+   "Order book or order inflow stops growing faster than revenue at the next concall."
+  ],
+  "held_from_yesterday": false,
+  "price": 114.54,
+  "price_date": "2026-10-04",
+  "spark": [
+   96.72,
+   98.66,
+   102.16,
+   101.46,
+   101.59,
+   101.42,
+   102.82,
+   101.93,
+   102.6,
+   104.52,
+   110.36,
+   108.67,
+   108.56,
+   111.12,
+   107.79,
+   111.17,
+   111.22,
+   112.33,
+   115.15,
+   117.59,
+   118.78,
+   117.18,
+   115.69,
+   113.93,
+   115.71,
+   114.4,
+   114.35,
+   117.7,
+   119.1,
+   120.4,
+   117.26,
+   112.88,
+   114.67,
+   115.62,
+   117.79,
+   118.49,
+   116.42,
+   113.14,
+   113.52,
+   114.98,
+   117.91,
+   117.03,
+   113.3,
+   107.51,
+   106.55,
+   104.15,
+   106.45,
+   106.35,
+   104.22,
+   105.58,
+   103.19,
+   102.76,
+   100.27,
+   99.97,
+   103.58,
+   101.29,
+   102.41,
+   107.32,
+   111.62,
+   107.93,
+   105.44,
+   104.19,
+   101.02,
+   99.91,
+   106.05,
+   113.68,
+   107.11,
+   106.27,
+   104.41,
+   106.67,
+   106.99,
+   101.64,
+   100.84,
+   105.06,
+   106.39,
+   102.21,
+   105.43,
+   105.78,
+   106.15,
+   106.95,
+   105.79,
+   106.08,
+   101.2,
+   105.11,
+   105.51,
+   109.25,
+   109.15,
+   112.88,
+   117.18,
+   111.59,
+   119.73,
+   118.74,
+   119.94,
+   119.69,
+   119.08,
+   119.85,
+   123.86,
+   120.78,
+   119.0,
+   114.45,
+   116.13,
+   113.49,
+   111.99,
+   115.84,
+   118.96,
+   117.14,
+   118.47,
+   116.48,
+   123.42,
+   126.35,
+   122.36,
+   122.05,
+   123.58,
+   117.19,
+   114.69,
+   111.84,
+   108.09,
+   109.85,
+   105.05,
+   115.84,
+   112.66,
+   117.77,
+   115.24,
+   118.42,
+   117.56
+  ],
+  "streak": 1,
+  "mcap_cr": 1149.4835,
+  "fundamentals_as_of": "2026-10-04"
+ },
+ "bench": [
+  {
+   "ticker": "DEMO28.NS",
+   "name": "Demo Company 28",
+   "score": 82.1,
+   "line": "Operates in defence and aerospace. Revenue of Rs 370 cr has compounded at 43% a year over three years. The latest quarter grew 58% year on year. Operating margin moved +4.5 pp while ROCE sits at 29%. Only 5 analysts cove",
+   "mcap_cr": 1237.7687,
+   "weakest": "ownership"
+  },
+  {
+   "ticker": "DEMO35.NS",
+   "name": "Demo Company 35",
+   "score": 80.8,
+   "line": "Operates in defence and aerospace. Revenue of Rs 847 cr has compounded at 40% a year over three years. The latest quarter grew 45% year on year. Operating margin moved +5.6 pp while ROCE sits at 30%. Only 1 analysts cove",
+   "mcap_cr": 1875.0305,
+   "weakest": "catalyst"
+  },
+  {
+   "ticker": "DEMO56.NS",
+   "name": "Demo Company 56",
+   "score": 79.6,
+   "line": "Operates in defence and aerospace. Revenue of Rs 1,076 cr has compounded at 37% a year over three years. The latest quarter grew 60% year on year. Operating margin moved +4.7 pp while ROCE sits at 25%. Only 5 analysts co",
+   "mcap_cr": 1949.6803,
+   "weakest": "confirm"
+  },
+  {
+   "ticker": "DEMO49.NS",
+   "name": "Demo Company 49",
+   "score": 79.1,
+   "line": "Operates in defence and aerospace. Revenue of Rs 311 cr has compounded at 32% a year over three years. The latest quarter grew 54% year on year. Operating margin moved +3.1 pp while ROCE sits at 23%. Only 5 analysts cove",
+   "mcap_cr": 2338.1407,
+   "weakest": "confirm"
+  }
+ ],
+ "track": [],
+ "track_summary": {
+  "episodes": 0,
+  "measured": 0,
+  "beat": 0,
+  "avg_excess": null
+ },
+ "dd_rejected": [],
+ "dd_blocked": false,
+ "dd_provider": "demo / synthetic"
+}

@@ -1,0 +1,5 @@
+# Optional: extra Yahoo tickers to always include, one per line.
+# Use this if the NSE download is blocked, or to add stocks outside the index lists.
+# Example:
+# ASTRAMICRO.NS
+# CUPID.NS
