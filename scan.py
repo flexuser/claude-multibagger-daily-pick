@@ -202,6 +202,10 @@ def load_universe():
     if extra.exists():
         tickers += [ln.strip() for ln in extra.read_text().splitlines() if ln.strip() and not ln.startswith("#")]
     tickers = list(dict.fromkeys(tickers))
+    before = len(tickers)
+    tickers = [t for t in tickers if "DUMMY" not in t.upper() and re.fullmatch(r"[A-Za-z0-9&\-]+\.(NS|BO)", t.strip())]
+    if len(tickers) < before:
+        print(f"Universe: dropped {before - len(tickers)} placeholder or invalid symbols (e.g. DUMMY... entries)")
     if not tickers:
         sys.exit("No universe available. Add tickers to universe_extra.txt (one per line, e.g. ASTRAMICRO.NS).")
     return tickers
@@ -232,7 +236,9 @@ def tech_from_series(close, volume):
 
 
 def fetch_prices_real(tickers):
+    import logging
     import yfinance as yf
+    logging.getLogger("yfinance").setLevel(logging.CRITICAL)  # we print our own summary below
     out = {}
     for i in range(0, len(tickers), 80):
         chunk = tickers[i:i + 80]
@@ -252,6 +258,10 @@ def fetch_prices_real(tickers):
                 pass
         print(f"  prices {min(i + 80, len(tickers))}/{len(tickers)}")
         time.sleep(1)
+    missing = [t for t in tickers if t not in out]
+    if missing:
+        print(f"  no usable price history for {len(missing)} of {len(tickers)} tickers "
+              f"(delisted, renamed, newly listed or <130 days of data), e.g. {', '.join(missing[:8])}")
     nifty = None
     try:
         n = yf.download("^NSEI", period="1y", interval="1d", auto_adjust=True, progress=False)
@@ -317,7 +327,7 @@ def fetch_fund_real(tk):
 
     op_margin = op_margin_chg = None
     if opi is not None and rev is not None:
-        j = pd.concat([opi, rev], axis=1, keys=["o", "r"]).dropna()
+        j = pd.concat([opi, rev], axis=1, sort=True, keys=["o", "r"]).dropna()
         j = j[j["r"] > 0]
         if len(j):
             m = ((j["o"] / j["r"]) * 100).sort_index(ascending=False)
@@ -327,7 +337,7 @@ def fetch_fund_real(tk):
 
     roce = roce_chg = None
     if ebit is not None and assets is not None and cl is not None:
-        j = pd.concat([ebit, assets, cl], axis=1, keys=["e", "a", "c"]).dropna()
+        j = pd.concat([ebit, assets, cl], axis=1, sort=True, keys=["e", "a", "c"]).dropna()
         j["k"] = j["a"] - j["c"]
         j = j[j["k"] > 0]
         if len(j):
@@ -348,7 +358,7 @@ def fetch_fund_real(tk):
     qni = _row(qinc, "Net Income", "Net Income Common Stockholders")
     q_opm_chg = None
     if qrev is not None and qop is not None:
-        j = pd.concat([qop, qrev], axis=1, keys=["o", "r"]).dropna()
+        j = pd.concat([qop, qrev], axis=1, sort=True, keys=["o", "r"]).dropna()
         j = j[j["r"] > 0].sort_index(ascending=False)
         if len(j) >= 5:
             q_opm_chg = float(j["o"].iloc[0] / j["r"].iloc[0] * 100 - j["o"].iloc[4] / j["r"].iloc[4] * 100)
@@ -394,7 +404,7 @@ def fetch_fund_real(tk):
     cfo = _row(cf, "Operating Cash Flow", "Cash Flow From Continuing Operating Activities")
     cfo_pat = None
     if cfo is not None and ni is not None:
-        jj = pd.concat([cfo, ni], axis=1, keys=["c", "n"]).dropna().sort_index(ascending=False).head(3)
+        jj = pd.concat([cfo, ni], axis=1, sort=True, keys=["c", "n"]).dropna().sort_index(ascending=False).head(3)
         if len(jj) >= 2 and jj["n"].sum() > 0:
             cfo_pat = float(jj["c"].sum() / jj["n"].sum())
     intexp = _row(inc, "Interest Expense", "Interest Expense Non Operating")
@@ -404,7 +414,7 @@ def fetch_fund_real(tk):
     recv = _row(bs, "Accounts Receivable", "Receivables", "Gross Accounts Receivable")
     recv_days = recv_days_chg_pct = None
     if recv is not None and rev is not None:
-        jj = pd.concat([recv, rev], axis=1, keys=["a", "r"]).dropna()
+        jj = pd.concat([recv, rev], axis=1, sort=True, keys=["a", "r"]).dropna()
         jj = jj[jj["r"] > 0].sort_index(ascending=False)
         if len(jj):
             dd_ = (jj["a"] / jj["r"]) * 365
@@ -859,6 +869,11 @@ def main():
                 cache[tk] = fetch_fund_real(tk)
                 fails = 0
             except Exception as e:
+                msg = str(e)
+                if any(w in msg for w in ("404", "Not Found", "No data found", "delisted")):
+                    # genuinely unknown to Yahoo: park it for a week instead of retrying every run
+                    cache[tk] = dict(failed=True, error=msg[:80], fetched=today)
+                    continue
                 fails += 1
                 fund_stats["failed"] += 1
                 print(f"  {tk} failed: {str(e)[:80]}")
@@ -876,7 +891,7 @@ def main():
         scored_, rejected_ = [], {}
         for tk, t in liquid.items():
             f = cache.get(tk)
-            if not f:
+            if not f or f.get("failed"):
                 continue
             m = {**f, **{k: v for k, v in t.items() if k != "spark"}}
             m["nifty_6m"] = nifty["ret_6m"] if nifty else None
@@ -896,7 +911,7 @@ def main():
 
     sigs = {}
     scored, rejected = evaluate(sigs)
-    print(f"With fundamentals: {sum(1 for k in liquid if k in cache)}; eligible before signals: {len(scored)}")
+    print(f"With fundamentals: {sum(1 for k in liquid if k in cache and not cache[k].get('failed'))}; eligible before signals: {len(scored)}")
 
     # ---- pass 2: event + ownership signals for the strongest candidates
     status = dict(attempted=0, ok={}, blocked=False, checked=0, demo=a.demo)
@@ -937,7 +952,7 @@ def main():
 
     picks = load_json(PICKS_JSON, [])
     result = dict(generated=today, demo=a.demo, universe=universe_n, liquid=len(liquid),
-                  with_data=sum(1 for k in liquid if k in cache), eligible=len(scored), fund_stats=fund_stats,
+                  with_data=sum(1 for k in liquid if k in cache and not cache[k].get('failed')), eligible=len(scored), fund_stats=fund_stats,
                   rejected=rejected, signals=status, weights=WEIGHTS, pillar_names=PILLAR_NAMES, verify=VERIFY,
                   pick=None, bench=[], track=[], track_summary={}, dd_rejected=[], dd_blocked=False, dd_provider=None)
 
