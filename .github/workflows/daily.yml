@@ -1,0 +1,55 @@
+name: Daily multibagger scan
+
+on:
+  schedule:
+    - cron: "45 11 * * 1-5"   # 17:15 IST, Mon-Fri, after the NSE close
+  workflow_dispatch:
+    inputs:
+      max_fetch:
+        description: "Max fundamentals to refresh this run (use 300 for the first few runs)"
+        default: "150"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scan
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Run offline tests
+        run: |
+          python tests/test_signals.py
+          python tests/test_diligence.py
+
+      - name: Run scanner
+        env:
+          # All optional. Add them under Settings > Secrets and variables > Actions.
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}          # free key: aistudio.google.com/apikey
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}    # optional paid alternative
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}                  # phone alert via the free ntfy app
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python scan.py --max-fetch "${{ github.event.inputs.max_fetch || '150' }}"
+
+      - name: Commit results
+        run: |
+          git config user.name "scanner-bot"
+          git config user.email "scanner-bot@users.noreply.github.com"
+          git add data docs
+          git diff --cached --quiet || git commit -m "Scan $(date -u +%F)"
+          git pull --rebase origin "${GITHUB_REF_NAME}" || true
+          git push
