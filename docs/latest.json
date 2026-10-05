@@ -2,11 +2,11 @@
  "generated": "2026-10-05",
  "demo": false,
  "universe": 650,
- "liquid": 641,
- "with_data": 641,
+ "liquid": 639,
+ "with_data": 639,
  "eligible": 33,
  "fund_stats": {
-  "attempted": 41,
+  "attempted": 0,
   "failed": 0
  },
  "rejected": {
@@ -16,16 +16,15 @@
   "not operationally profitable": 22,
   "market cap outside range": 98,
   "negative filing (governance/distress/regulatory)": 6,
-  "suspect data": 11,
-  "stale financials": 1
+  "suspect data": 11
  },
  "signals": {
-  "attempted": 5,
+  "attempted": 1,
   "ok": {
-   "announcements": 5,
-   "pledge": 5,
-   "shareholding": 5,
-   "insider": 5
+   "announcements": 1,
+   "pledge": 1,
+   "shareholding": 1,
+   "insider": 1
   },
   "blocked": false,
   "checked": 40,
@@ -78,7 +77,7 @@
    "quality": 70.4323,
    "discovery": 51.2032,
    "valuation": 50.0,
-   "confirm": 88.05,
+   "confirm": 87.7625,
    "ownership": 34.1857,
    "catalyst": 67.2
   },
@@ -334,21 +333,21 @@
    {
     "group": "Market",
     "label": "Price vs 200-day average",
-    "value": "37.2%",
+    "value": "39.8%",
     "ok": true,
     "why": "Uptrend, but not stretched."
    },
    {
     "group": "Market",
     "label": "6-month return vs Nifty",
-    "value": "107.0 pp",
+    "value": "111.2 pp",
     "ok": true,
     "why": "Market is already starting to notice."
    },
    {
     "group": "Market",
     "label": "Volume, last month vs 6-month avg",
-    "value": "1.24x",
+    "value": "1.21x",
     "ok": true,
     "why": "Rising volume hints at accumulation."
    }
@@ -456,8 +455,8 @@
    "Order book or order inflow stops growing faster than revenue at the next concall."
   ],
   "held_from_yesterday": false,
-  "price": 3378.8,
-  "price_date": "2026-10-05",
+  "price": 3432.8,
+  "price_date": "2026-10-01",
   "spark": [
    1451.1,
    1441.3,
@@ -601,8 +600,7 @@
    3547.8,
    3485.6,
    3494.5,
-   3432.8,
-   3378.8
+   3432.8
   ],
   "streak": 2,
   "mcap_cr": 14913.1559,
@@ -612,7 +610,7 @@
   {
    "ticker": "MANORAMA.NS",
    "name": "MANORAMA INDUSTRIES LTD",
-   "score": 72.3,
+   "score": 72.1,
    "line": "Revenue of Rs 1,362 cr has compounded at 58% a year over three years. The latest quarter grew 74% year on year. Operating margin moved +11.6 pp while ROCE sits at 47%. Only 2 analysts cover it and institutions hold 4%, s",
    "mcap_cr": 12319.5965,
    "weakest": "ownership"
@@ -620,7 +618,7 @@
   {
    "ticker": "PREMIERENE.NS",
    "name": "PREMIER ENERGIES LIMITED",
-   "score": 66.6,
+   "score": 66.5,
    "line": "Operates in electronics and semiconductors and energy transition. Revenue of Rs 7,807 cr has compounded at 76% a year over three years. The latest quarter grew 52% year on year. Operating margin moved +21.4 pp while ROCE",
    "mcap_cr": 39761.1532,
    "weakest": "ownership"
@@ -628,31 +626,31 @@
   {
    "ticker": "TIPSMUSIC.NS",
    "name": "TIPS MUSIC LIMITED",
-   "score": 66.2,
+   "score": 66.1,
    "line": "Revenue of Rs 376 cr has compounded at 26% a year over three years. The latest quarter grew 36% year on year. Operating margin moved -7.5 pp while ROCE sits at 110%. Only 3 analysts cover it and institutions hold 7%, so ",
    "mcap_cr": 8224.6861,
    "weakest": "catalyst"
   },
   {
-   "ticker": "ATLANTAELE.NS",
-   "name": "ATLANTA ELECTRICALS LTD",
-   "score": 66.1,
-   "line": "Operates in energy transition and railways and infrastructure. Revenue of Rs 1,826 cr has compounded at 28% a year over three years. The latest quarter grew 48% year on year. Operating margin moved +1.9 pp while ROCE sit",
-   "mcap_cr": 14005.9509,
+   "ticker": "SJS.NS",
+   "name": "SJS ENTERPRISES LIMITED",
+   "score": 66.0,
+   "line": "Operates in export manufacturing. Revenue of Rs 952 cr has compounded at 30% a year over three years. The latest quarter grew 30% year on year. Operating margin moved +3.5 pp while ROCE sits at 26%. Only 5 analysts cover",
+   "mcap_cr": 6657.5921,
    "weakest": "ownership"
   }
  ],
  "track": [
   {
    "start": "2026-10-05",
-   "last": "2026-10-05",
-   "days": 1,
+   "last": "2026-10-01",
+   "days": 2,
    "ticker": "SEDEMAC.NS",
    "name": "SEDEMAC MECHATRONICS LTD",
    "price": 3381.4,
    "score": 73.6,
-   "ret": -0.0769,
-   "nifty_ret": 0.0277,
+   "ret": 1.5201,
+   "nifty_ret": -0.5531,
    "active": true
   },
   {
@@ -663,16 +661,16 @@
    "name": "ACUTAAS CHEMICALS LIMITED",
    "price": 3196.5,
    "score": 65.6,
-   "ret": -2.1273,
-   "nifty_ret": 0.584,
+   "ret": 0.0,
+   "nifty_ret": 0.0,
    "active": false
   }
  ],
  "track_summary": {
   "episodes": 2,
   "measured": 2,
-  "beat": 0,
-  "avg_excess": -1.408
+  "beat": 1,
+  "avg_excess": 1.0366
  },
  "dd_rejected": [],
  "dd_blocked": false,
@@ -681,7 +679,7 @@
   {
    "ticker": "EMMVEE.NS",
    "name": "EMMVEE PHOTOVOLTAIC PWR L",
-   "score": 70.1,
+   "score": 70.5,
    "events": [
     {
      "date": "2026-10-01",
@@ -696,7 +694,7 @@
   {
    "ticker": "PRIVISCL.NS",
    "name": "PRIVI SPECIALITY CHE LTD",
-   "score": 59.1,
+   "score": 59.3,
    "events": [
     {
      "date": "2026-09-24",
@@ -711,7 +709,7 @@
   {
    "ticker": "RRKABEL.NS",
    "name": "R R KABEL LIMITED",
-   "score": 59.5,
+   "score": 59.3,
    "events": [
     {
      "date": "2026-08-29",
@@ -726,7 +724,7 @@
   {
    "ticker": "CAPILLARY.NS",
    "name": "CAPILLARY TECHNO INDIA L",
-   "score": 60.5,
+   "score": 60.9,
    "events": [
     {
      "date": "2026-07-31",
@@ -741,7 +739,7 @@
   {
    "ticker": "UTLSOLAR.NS",
    "name": "FUJIYAMA POWER SYSTEMS L",
-   "score": 73.6,
+   "score": 73.3,
    "events": [
     {
      "date": "2026-06-18",
