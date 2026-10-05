@@ -92,12 +92,12 @@
  ],
  "updated": "2026-10-05",
  "status": {
-  "attempted": 40,
+  "attempted": 5,
   "ok": {
-   "announcements": 40,
-   "pledge": 40,
-   "shareholding": 40,
-   "insider": 40
+   "announcements": 5,
+   "pledge": 5,
+   "shareholding": 5,
+   "insider": 5
   },
   "blocked": false,
   "checked": 0,

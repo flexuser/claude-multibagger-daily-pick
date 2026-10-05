@@ -3588,5 +3588,392 @@
    "pit_buys": 0,
    "pit_sells": 0
   }
+ },
+ "TIPSMUSIC.NS": {
+  "fetched": "2026-10-05",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [
+    {
+     "date": "2026-10-01",
+     "cats": [
+      "buyback"
+     ],
+     "type": "Post Buyback Public Announcement",
+     "text": "Tips Music Limited has informed the Exchange about post Buyback Public Announcement",
+     "url": "https://nsearchives.nseindia.com/corporate/TIPSINDLTD_01102026120430_TIPSMUSICpap.pdf"
+    },
+    {
+     "date": "2026-09-30",
+     "cats": [
+      "buyback"
+     ],
+     "type": "Closure of Buy Back",
+     "text": "Tips Music Limited has informed the Exchange regarding Closure of Buy Back with effect from September 30, 2026",
+     "url": "https://nsearchives.nseindia.com/corporate/TIPSINDLTD_30092026172745_TIPSMUSIC_POSTPApf.pdf"
+    },
+    {
+     "date": "2026-09-09",
+     "cats": [
+      "buyback"
+     ],
+     "type": "Corrigendum",
+     "text": "Tips Music Limited has informed the Exchange regarding Corrigendum to the Public Announcement in relation to the buyback of equity shares",
+     "url": "https://nsearchives.nseindia.com/corporate/TIPSINDLTD_09092026113217_TIPSMUSIC_CPA.pdf"
+    },
+    {
+     "date": "2026-09-04",
+     "cats": [
+      "buyback"
+     ],
+     "type": "Public Announcement - Buyback of Shares",
+     "text": "Tips Music Limited has informed the Exchange about public Announcement and Shareholders Resolution - Buyback of Shares",
+     "url": "https://nsearchives.nseindia.com/corporate/TIPSINDLTD_04092026130547_TIPSMUSIC_BB_PAp.pdf"
+    },
+    {
+     "date": "2026-07-22",
+     "cats": [
+      "buyback"
+     ],
+     "type": "Buyback",
+     "text": "Tips Music Limited has informed the Exchange about Deferred the proposal for the Buyback of fully paid-up equity shares of the Company. The said proposal will be considered and approved at the meeting",
+     "url": "https://nsearchives.nseindia.com/corporate/TIPSINDLTD_22072026135104_TIPSMUSICoutcomePf.pdf"
+    },
+    {
+     "date": "2026-06-19",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "Tips Music Limited has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regulations",
+     "url": "https://nsearchives.nseindia.com/corporate/team_sandeshc_11052026110731_Disclsoure.pdf"
+    }
+   ],
+   "event_score": 14,
+   "event_counts": {
+    "buyback": 5,
+    "acquisition": 1
+   },
+   "neg_events": 0,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": 0.0,
+   "promoter_now": 64.15,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "THYROCARE.NS": {
+  "fetched": "2026-10-05",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [
+    {
+     "date": "2026-09-21",
+     "cats": [
+      "acquisition",
+      "approval"
+     ],
+     "type": "Sale or disposal",
+     "text": "Thyrocare Technologies Limited has informed about the sale of the entire shareholding held by the Company in Nueclear Healthcare Limited (a material wholly owned subsidiary), subject to the approval o",
+     "url": "https://nsearchives.nseindia.com/corporate/THYROCARE_21092026150858_Outcome_Intimation-BM.pdf"
+    },
+    {
+     "date": "2026-09-21",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Acquisition",
+     "text": "Please find attached intimation regarding Acquisition of Compulsorily Convertible Preference Shares of Trovera Healthcare Private Limited as part-consideration for the sale of Nueclear Healthcare Limi",
+     "url": "https://nsearchives.nseindia.com/corporate/THYROCARE_21092026150326_Outcome_Intimation-BM.pdf"
+    },
+    {
+     "date": "2026-09-04",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "API Holdings limited\u00a0has submitted to the Exchange a copy of Disclosures under Regulation 10(6)-Report to stock Exchange in respect of any acquisition made in reliance upon exemption provided for in r",
+     "url": "https://nsearchives.nseindia.com/corporate/team_bbodade_04092026162536_THYROCARE.pdf"
+    },
+    {
+     "date": "2026-09-01",
+     "cats": [
+      "acquisition",
+      "approval"
+     ],
+     "type": "Updates",
+     "text": "Thyrocare Technologies Limited has informed the Exchange regarding Communication Received from API Holdings Limited regarding Approval of Scheme of Amalgamation of Docon Technologies Private Limited w",
+     "url": "https://nsearchives.nseindia.com/corporate/THYROCARE_01092026172441_SE_Intimation-Reg-30_signed.pdf"
+    },
+    {
+     "date": "2026-08-18",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "Thyrocare Technologies Limited has Submitted to the Exchange a copy of Disclosure under Regulation 31(1) and 31(2) of SEBI (SAST) Regulations, 2011.",
+     "url": "https://nsearchives.nseindia.com/corporate/team_bbodade_18082026110634_THYROCARE31.pdf"
+    },
+    {
+     "date": "2026-08-18",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "Docon Technologies Private Ltd has submitted to\u00a0 the Exchange a copy of Disclosure under Regulation 31(1) and 31(2) of SEBI (SAST) Regulations, 2011.",
+     "url": "https://nsearchives.nseindia.com/corporate/team_bbodade_18082026110951_THYROCARE.pdf"
+    },
+    {
+     "date": "2026-07-23",
+     "cats": [
+      "acquisition",
+      "approval"
+     ],
+     "type": "General Updates",
+     "text": "Please refer the enclosed intimation regarding the in-principle approval of the Board of Directors of the Company for evaluation of the proposed restructuring of the radiology business undertaking of",
+     "url": "https://nsearchives.nseindia.com/corporate/THYROCARE_23072026163123_NHLDemerger.pdf"
+    }
+   ],
+   "event_score": 22,
+   "event_counts": {
+    "acquisition": 7,
+    "approval": 3
+   },
+   "neg_events": 0,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": -10.14,
+   "promoter_now": 60.92,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "UNIMECH.NS": {
+  "fetched": "2026-10-05",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [
+    {
+     "date": "2026-08-03",
+     "cats": [
+      "approval"
+     ],
+     "type": "Issue of Securities",
+     "text": "Unimech Aerospace and Manufacturing Limited has informed the Exchange about the issuance of Equity Shares and/or other eligible securities by way of Qualified Institutions Placement ( QIP ).",
+     "url": "https://nsearchives.nseindia.com/corporate/UNIMECH_03082026182415_BM_QIP_outcome.pdf"
+    },
+    {
+     "date": "2026-06-12",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "Ramakrishna Kamojhala\u00a0has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regulat",
+     "url": "https://nsearchives.nseindia.com/corporate/team_bbodade_04052026161401_UNIMECH.pdf"
+    },
+    {
+     "date": "2026-06-12",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "Ramakrishna Kamojhala has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) and 31 (5) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeover",
+     "url": "https://nsearchives.nseindia.com/corporate/team_sandeshc_03062026124912_34.pdf"
+    }
+   ],
+   "event_score": 16,
+   "event_counts": {
+    "approval": 1,
+    "acquisition": 2
+   },
+   "neg_events": 0,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": 0.0,
+   "promoter_now": 79.82,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "VIKRAMSOLR.NS": {
+  "fetched": "2026-10-05",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [
+    {
+     "date": "2026-09-28",
+     "cats": [
+      "order_win"
+     ],
+     "type": "Bagging/Receiving of orders/contracts",
+     "text": "Vikram Solar Limited has informed the Exchange about Bagging/Receiving of orders/contracts for 400 MW of high efficiency solar modules",
+     "url": "https://nsearchives.nseindia.com/corporate/VSLCS_28092026155441_VSLREG30INTIMATION28092026.pdf"
+    },
+    {
+     "date": "2026-08-26",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Acquisition",
+     "text": "Vikram Solar Limited has informed the Exchange about Acquisition",
+     "url": "https://nsearchives.nseindia.com/corporate/VSLCS_26082026211507_IntimationReg30.pdf"
+    },
+    {
+     "date": "2026-07-06",
+     "cats": [
+      "expansion"
+     ],
+     "type": "Press Release",
+     "text": "Vikram Solar Limited has informed the Exchange regarding a press release dated July 06, 2026, titled \"Press Release for successful roll out of the First Module from the New Manufacturing Mega Facility",
+     "url": "https://nsearchives.nseindia.com/corporate/VSLCS_06072026103823_VSLINTIMATIONDATED06072026.pdf"
+    },
+    {
+     "date": "2026-06-30",
+     "cats": [
+      "distress"
+     ],
+     "type": "Corporate Insolvency Resolution Process",
+     "text": "Vikram Solar Limited has informed the Exchange about NCLAT order dated June 29, 2026 for setting aside NCLT order dated June 12, 2026",
+     "url": "https://nsearchives.nseindia.com/corporate/VSLCS_30062026173927_VSL_submission_of_NCLAT_order_dated_June_29_2026.pdf"
+    },
+    {
+     "date": "2026-06-29",
+     "cats": [
+      "distress"
+     ],
+     "type": "Corporate Insolvency Resolution Process",
+     "text": "Vikram Solar Limited has informed the Exchange about update on Corporate Insolvency Resolution Process",
+     "url": "https://nsearchives.nseindia.com/corporate/VSLCS_29062026172834_VSLINTIMATIONDTED29062026.pdf"
+    },
+    {
+     "date": "2026-06-25",
+     "cats": [
+      "distress"
+     ],
+     "type": "Corporate Insolvency Resolution Process",
+     "text": "Vikram Solar Limited has informed the Exchange about the submission of Order copy of the NCLAT in the Corporate Insolvency Resolution Process",
+     "url": "https://nsearchives.nseindia.com/corporate/VSLCS_25062026125422_VSL_submission_of_NCLAT_order_June_24_2026_signed.pdf"
+    },
+    {
+     "date": "2026-06-24",
+     "cats": [
+      "distress"
+     ],
+     "type": "Corporate Insolvency Resolution Process",
+     "text": "Vikram Solar Limited has informed the Exchange about the updates on theproceedings before the Hon ble NCLAT",
+     "url": "https://nsearchives.nseindia.com/corporate/VSLCS_24062026201441_VSL_intimation_of_the_updates_on_proceedings_June_24_2026_final.pdf"
+    },
+    {
+     "date": "2026-06-22",
+     "cats": [
+      "distress"
+     ],
+     "type": "Corporate Insolvency Resolution Process",
+     "text": "Vikram Solar Limited has informed the Exchange about Public Announcement on  Corporate Insolvency Resolution Process",
+     "url": "https://nsearchives.nseindia.com/corporate/VSLCS_22062026182405_VSL_Intimation_of_Public_Announcement_22_June_2026.pdf"
+    },
+    {
+     "date": "2026-06-19",
+     "cats": [
+      "distress"
+     ],
+     "type": "Corporate Insolvency Resolution Process",
+     "text": "Vikram Solar Limited has informed the Exchange about copy of the order passed by Hon'ble National Company Law Tribunal, Kolkata Bench",
+     "url": "https://nsearchives.nseindia.com/corporate/VSLCS_19062026181440_VSLINTIMATION19062026.pdf"
+    },
+    {
+     "date": "2026-06-19",
+     "cats": [
+      "distress"
+     ],
+     "type": "Corporate Insolvency Resolution Process",
+     "text": "Vikram Solar Limited has informed the Exchange about Corporate Insolvency Resolution Process",
+     "url": "https://nsearchives.nseindia.com/corporate/VSLCS_19062026171601_VSLINTIMATIONUR30DTED19062026.pdf"
+    }
+   ],
+   "event_score": 0,
+   "event_counts": {
+    "order_win": 1,
+    "acquisition": 1,
+    "expansion": 1,
+    "distress": 7
+   },
+   "neg_events": 7,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": -0.11,
+   "promoter_now": 63.01,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "V2RETAIL.NS": {
+  "fetched": "2026-10-05",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [
+    {
+     "date": "2026-10-02",
+     "cats": [
+      "expansion"
+     ],
+     "type": "General Updates",
+     "text": "V2 Retail Limited has informed the Exchange about General Updates regarding Q2 FY27 Business UpdateNetwork Expansion Continues Ahead of the Festive Quarter",
+     "url": "https://nsearchives.nseindia.com/corporate/V2RETAIL_02102026145252_Business_Update_Q2FY27.pdf"
+    },
+    {
+     "date": "2026-06-17",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "V2 Retail Limited has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regulations,",
+     "url": "https://nsearchives.nseindia.com/corporate/team_sandeshc_24042026122141_Disclosure_31.pdf"
+    }
+   ],
+   "event_score": 22,
+   "event_counts": {
+    "expansion": 1,
+    "acquisition": 1
+   },
+   "neg_events": 0,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": 0.0,
+   "promoter_now": 51.43,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
  }
 }

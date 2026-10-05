@@ -3,29 +3,29 @@
  "demo": false,
  "universe": 650,
  "liquid": 641,
- "with_data": 600,
- "eligible": 32,
+ "with_data": 641,
+ "eligible": 33,
  "fund_stats": {
-  "attempted": 300,
+  "attempted": 41,
   "failed": 0
  },
  "rejected": {
-  "too many red flags": 45,
-  "growth below threshold": 80,
-  "financial company (ratios not comparable)": 87,
-  "not operationally profitable": 19,
+  "too many red flags": 48,
+  "growth below threshold": 86,
+  "financial company (ratios not comparable)": 89,
+  "not operationally profitable": 22,
   "market cap outside range": 98,
   "negative filing (governance/distress/regulatory)": 6,
-  "suspect data": 10,
+  "suspect data": 11,
   "stale financials": 1
  },
  "signals": {
-  "attempted": 40,
+  "attempted": 5,
   "ok": {
-   "announcements": 40,
-   "pledge": 40,
-   "shareholding": 40,
-   "insider": 40
+   "announcements": 5,
+   "pledge": 5,
+   "shareholding": 5,
+   "insider": 5
   },
   "blocked": false,
   "checked": 40,
@@ -75,10 +75,10 @@
    "moat": 59.2835,
    "proof": 100.0,
    "leverage": 100.0,
-   "quality": 70.4326,
+   "quality": 70.4323,
    "discovery": 51.2032,
    "valuation": 50.0,
-   "confirm": 88.075,
+   "confirm": 88.05,
    "ownership": 34.1857,
    "catalyst": 67.2
   },
@@ -334,14 +334,14 @@
    {
     "group": "Market",
     "label": "Price vs 200-day average",
-    "value": "37.3%",
+    "value": "37.2%",
     "ok": true,
     "why": "Uptrend, but not stretched."
    },
    {
     "group": "Market",
     "label": "6-month return vs Nifty",
-    "value": "107.2 pp",
+    "value": "107.0 pp",
     "ok": true,
     "why": "Market is already starting to notice."
    },
@@ -444,7 +444,8 @@
    "provider": "gemini",
    "model": "gemini-3.1-flash-lite",
    "method": "DuckDuckGo snippets (weaker)",
-   "date": "2026-10-05"
+   "date": "2026-10-05",
+   "cached": true
   },
   "exit_triggers": [
    "Operating margin drops below 12% (now 16%).",
@@ -455,7 +456,7 @@
    "Order book or order inflow stops growing faster than revenue at the next concall."
   ],
   "held_from_yesterday": false,
-  "price": 3381.4,
+  "price": 3378.8,
   "price_date": "2026-10-05",
   "spark": [
    1451.1,
@@ -601,9 +602,9 @@
    3485.6,
    3494.5,
    3432.8,
-   3381.4
+   3378.8
   ],
-  "streak": 1,
+  "streak": 2,
   "mcap_cr": 14913.1559,
   "fundamentals_as_of": "2026-10-05"
  },
@@ -619,25 +620,25 @@
   {
    "ticker": "PREMIERENE.NS",
    "name": "PREMIER ENERGIES LIMITED",
-   "score": 66.5,
+   "score": 66.6,
    "line": "Operates in electronics and semiconductors and energy transition. Revenue of Rs 7,807 cr has compounded at 76% a year over three years. The latest quarter grew 52% year on year. Operating margin moved +21.4 pp while ROCE",
    "mcap_cr": 39761.1532,
    "weakest": "ownership"
   },
   {
-   "ticker": "ATLANTAELE.NS",
-   "name": "ATLANTA ELECTRICALS LTD",
-   "score": 66.0,
-   "line": "Operates in energy transition and railways and infrastructure. Revenue of Rs 1,826 cr has compounded at 28% a year over three years. The latest quarter grew 48% year on year. Operating margin moved +1.9 pp while ROCE sit",
-   "mcap_cr": 14005.9509,
-   "weakest": "ownership"
+   "ticker": "TIPSMUSIC.NS",
+   "name": "TIPS MUSIC LIMITED",
+   "score": 66.2,
+   "line": "Revenue of Rs 376 cr has compounded at 26% a year over three years. The latest quarter grew 36% year on year. Operating margin moved -7.5 pp while ROCE sits at 110%. Only 3 analysts cover it and institutions hold 7%, so ",
+   "mcap_cr": 8224.6861,
+   "weakest": "catalyst"
   },
   {
-   "ticker": "SJS.NS",
-   "name": "SJS ENTERPRISES LIMITED",
-   "score": 65.4,
-   "line": "Operates in export manufacturing. Revenue of Rs 952 cr has compounded at 30% a year over three years. The latest quarter grew 30% year on year. Operating margin moved +3.5 pp while ROCE sits at 26%. Only 5 analysts cover",
-   "mcap_cr": 6657.5921,
+   "ticker": "ATLANTAELE.NS",
+   "name": "ATLANTA ELECTRICALS LTD",
+   "score": 66.1,
+   "line": "Operates in energy transition and railways and infrastructure. Revenue of Rs 1,826 cr has compounded at 28% a year over three years. The latest quarter grew 48% year on year. Operating margin moved +1.9 pp while ROCE sit",
+   "mcap_cr": 14005.9509,
    "weakest": "ownership"
   }
  ],
@@ -650,8 +651,8 @@
    "name": "SEDEMAC MECHATRONICS LTD",
    "price": 3381.4,
    "score": 73.6,
-   "ret": 0.0,
-   "nifty_ret": 0.0,
+   "ret": -0.0769,
+   "nifty_ret": 0.0277,
    "active": true
   },
   {
@@ -662,8 +663,8 @@
    "name": "ACUTAAS CHEMICALS LIMITED",
    "price": 3196.5,
    "score": 65.6,
-   "ret": -1.9834,
-   "nifty_ret": 0.5562,
+   "ret": -2.1273,
+   "nifty_ret": 0.584,
    "active": false
   }
  ],
@@ -671,27 +672,12 @@
   "episodes": 2,
   "measured": 2,
   "beat": 0,
-  "avg_excess": -1.2698
+  "avg_excess": -1.408
  },
  "dd_rejected": [],
  "dd_blocked": false,
  "dd_provider": "gemini / gemini-3.1-flash-lite",
  "neg_filing_rejects": [
-  {
-   "ticker": "BLS.NS",
-   "name": "BLS INTL SERVS LTD",
-   "score": 57.0,
-   "events": [
-    {
-     "date": "2026-09-30",
-     "labels": [
-      "Governance"
-     ],
-     "text": "BLS International Services Limited has informed the Exchange about Resignation of Statutory Auditor",
-     "url": "https://nsearchives.nseindia.com/corporate/BLS_ROSA_99452_KMP_Doc.zip"
-    }
-   ]
-  },
   {
    "ticker": "EMMVEE.NS",
    "name": "EMMVEE PHOTOVOLTAIC PWR L",
@@ -755,7 +741,7 @@
   {
    "ticker": "UTLSOLAR.NS",
    "name": "FUJIYAMA POWER SYSTEMS L",
-   "score": 73.5,
+   "score": 73.6,
    "events": [
     {
      "date": "2026-06-18",
@@ -764,6 +750,29 @@
      ],
      "text": "Fujiyama Power Systems Limited has informed the Exchange about a Show Cause Notice received from the Office of Noida Customs Commissionerate",
      "url": "https://nsearchives.nseindia.com/corporate/UTLSOLAR2024_18062026182342_NSE_BSE_Show_Cause_Notice_CustomOffice.pdf"
+    }
+   ]
+  },
+  {
+   "ticker": "VIKRAMSOLR.NS",
+   "name": "VIKRAM SOLAR LIMITED",
+   "score": 60.4,
+   "events": [
+    {
+     "date": "2026-06-30",
+     "labels": [
+      "Distress"
+     ],
+     "text": "Vikram Solar Limited has informed the Exchange about NCLAT order dated June 29, 2026 for setting aside NCLT order dated June 12, 2026",
+     "url": "https://nsearchives.nseindia.com/corporate/VSLCS_30062026173927_VSL_submission_of_NCLAT_order_dated_June_29_2026.pdf"
+    },
+    {
+     "date": "2026-06-29",
+     "labels": [
+      "Distress"
+     ],
+     "text": "Vikram Solar Limited has informed the Exchange about update on Corporate Insolvency Resolution Process",
+     "url": "https://nsearchives.nseindia.com/corporate/VSLCS_29062026172834_VSLINTIMATIONDTED29062026.pdf"
     }
    ]
   }
