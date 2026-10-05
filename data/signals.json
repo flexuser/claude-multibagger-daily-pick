@@ -1,6 +1,6 @@
 {
  "EMMVEE.NS": {
-  "fetched": "2026-10-04",
+  "fetched": "2026-10-05",
   "data": {
    "status": {
     "announcements": true,
@@ -44,7 +44,7 @@
   }
  },
  "ACUTAAS.NS": {
-  "fetched": "2026-10-04",
+  "fetched": "2026-10-05",
   "data": {
    "status": {
     "announcements": true,
@@ -78,7 +78,7 @@
   }
  },
  "AZAD.NS": {
-  "fetched": "2026-10-04",
+  "fetched": "2026-10-05",
   "data": {
    "status": {
     "announcements": true,
@@ -100,7 +100,7 @@
   }
  },
  "RUBICON.NS": {
-  "fetched": "2026-10-04",
+  "fetched": "2026-10-05",
   "data": {
    "status": {
     "announcements": true,
@@ -170,7 +170,7 @@
   }
  },
  "NEULANDLAB.NS": {
-  "fetched": "2026-10-04",
+  "fetched": "2026-10-05",
   "data": {
    "status": {
     "announcements": true,
@@ -204,7 +204,7 @@
   }
  },
  "PRIVISCL.NS": {
-  "fetched": "2026-10-04",
+  "fetched": "2026-10-05",
   "data": {
    "status": {
     "announcements": true,
@@ -238,7 +238,7 @@
   }
  },
  "PARADEEP.NS": {
-  "fetched": "2026-10-04",
+  "fetched": "2026-10-05",
   "data": {
    "status": {
     "announcements": true,
@@ -272,7 +272,7 @@
   }
  },
  "RRKABEL.NS": {
-  "fetched": "2026-10-04",
+  "fetched": "2026-10-05",
   "data": {
    "status": {
     "announcements": true,
@@ -345,7 +345,7 @@
   }
  },
  "HSCL.NS": {
-  "fetched": "2026-10-04",
+  "fetched": "2026-10-05",
   "data": {
    "status": {
     "announcements": true,
@@ -434,7 +434,7 @@
   }
  },
  "CARTRADE.NS": {
-  "fetched": "2026-10-04",
+  "fetched": "2026-10-05",
   "data": {
    "status": {
     "announcements": true,
@@ -456,7 +456,7 @@
   }
  },
  "THANGAMAYL.NS": {
-  "fetched": "2026-10-04",
+  "fetched": "2026-10-05",
   "data": {
    "status": {
     "announcements": true,
@@ -490,7 +490,7 @@
   }
  },
  "TDPOWERSYS.NS": {
-  "fetched": "2026-10-04",
+  "fetched": "2026-10-05",
   "data": {
    "status": {
     "announcements": true,
@@ -553,7 +553,7 @@
   }
  },
  "SCI.NS": {
-  "fetched": "2026-10-04",
+  "fetched": "2026-10-05",
   "data": {
    "status": {
     "announcements": true,
@@ -597,7 +597,7 @@
   }
  },
  "BLS.NS": {
-  "fetched": "2026-10-04",
+  "fetched": "2026-10-05",
   "data": {
    "status": {
     "announcements": true,
@@ -2222,6 +2222,1368 @@
    "pledge_chg": null,
    "promoter_chg": 0.0,
    "promoter_now": 75.0,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "UTLSOLAR.NS": {
+  "fetched": "2026-10-05",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [
+    {
+     "date": "2026-09-04",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Acquisition",
+     "text": "Fujiyama Power Systems Limited has informed the Exchange about Acquisition",
+     "url": "https://nsearchives.nseindia.com/corporate/UTLSOLAR2024_04092026172912_nsebseacquisitionzayo.pdf"
+    },
+    {
+     "date": "2026-08-24",
+     "cats": [
+      "expansion"
+     ],
+     "type": "Capacity addition",
+     "text": "Fujiyama Power Systems Limited has informed the Exchange about establishment of 1 GWh Tubular Batteries  manufacturing facility at Hathras, Uttar Pradesh",
+     "url": "https://nsearchives.nseindia.com/corporate/UTLSOLAR2024_24082026195932_NSEOutcome_Board_MeetingReg_30.pdf"
+    },
+    {
+     "date": "2026-08-07",
+     "cats": [
+      "expansion"
+     ],
+     "type": "Press Release",
+     "text": "Fujiyama Power Systems Limited has informed the Exchange regarding a press release, titled \"Commissioning of 2 GW Power Electronics Manufacturing Facility at Ratlam\"",
+     "url": "https://nsearchives.nseindia.com/corporate/UTLSOLAR2024_07082026191859_NSE_BSE_PressRelease.pdf"
+    },
+    {
+     "date": "2026-06-18",
+     "cats": [
+      "regulatory"
+     ],
+     "type": "Pendency of Litigation(s)/dispute(s) or the outcome impactin",
+     "text": "Fujiyama Power Systems Limited has informed the Exchange about a Show Cause Notice received from the Office of Noida Customs Commissionerate",
+     "url": "https://nsearchives.nseindia.com/corporate/UTLSOLAR2024_18062026182342_NSE_BSE_Show_Cause_Notice_CustomOffice.pdf"
+    }
+   ],
+   "event_score": 9,
+   "event_counts": {
+    "acquisition": 1,
+    "expansion": 2,
+    "regulatory": 1
+   },
+   "neg_events": 1,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": -0.14,
+   "promoter_now": 86.63,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "SEDEMAC.NS": {
+  "fetched": "2026-10-05",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [
+    {
+     "date": "2026-09-28",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "Xponentia Group has Submitted to the Exchange a copy of Disclosure under Regulation 29 (2) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regulations,",
+     "url": "https://nsearchives.nseindia.com/corporate/team_sandeshc_28092026123357_SAST5.pdf"
+    },
+    {
+     "date": "2026-06-19",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "Manish Sharma has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regulations, 201",
+     "url": "https://nsearchives.nseindia.com/corporate/team_sandeshc_08052026120153_43.pdf"
+    },
+    {
+     "date": "2026-06-19",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "Prof. Shashikanth Suryanarayanan has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeover",
+     "url": "https://nsearchives.nseindia.com/corporate/team_sandeshc_08052026120054_44.pdf"
+    },
+    {
+     "date": "2026-06-17",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "Amit Arun Dixit\u00a0\u00a0has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regulations,",
+     "url": "https://nsearchives.nseindia.com/corporate/team_bbodade_08052026181612_SEDEMAC.pdf"
+    },
+    {
+     "date": "2026-06-11",
+     "cats": [
+      "approval"
+     ],
+     "type": "General Updates",
+     "text": "SEDEMAC Mechatronics Limited has informed the Exchange about Intimation of In-principle approval for listing of equity shares under SEDEMAC Employee Stock Option Plan 2014",
+     "url": "https://nsearchives.nseindia.com/corporate/SEDEMAC2007_11062026120931_20260611-IntimationofESOPapproval.pdf"
+    },
+    {
+     "date": "2026-06-08",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "Anaykumar Avinash Joshi\u00a0has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regul",
+     "url": "https://nsearchives.nseindia.com/corporate/team_bbodade_30042026164348_SEDEMAC.pdf"
+    }
+   ],
+   "event_score": 16,
+   "event_counts": {
+    "acquisition": 5,
+    "approval": 1
+   },
+   "neg_events": 0,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": -0.01,
+   "promoter_now": 26.23,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "MANORAMA.NS": {
+  "fetched": "2026-10-05",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [
+    {
+     "date": "2026-07-21",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "General Updates",
+     "text": "Manorama Industries Limited has informed the Exchange about Incorporation of Wholly Owned Subsidiary Company in Republic of Chad",
+     "url": "https://nsearchives.nseindia.com/corporate/MANORAMA_21072026160958_signedintimationwoschad.pdf"
+    },
+    {
+     "date": "2026-07-09",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Outcome of Board Meeting",
+     "text": "Manorama Industries Limited has informed the Exchange regarding Outcome of Board Meeting held on July 09, 2026 in respect of incorporation of Wholly Owned Subsidiary Company in CHAD.",
+     "url": "https://nsearchives.nseindia.com/corporate/MANORAMA_09072026221335_SignedoutcomefinalBM.pdf"
+    },
+    {
+     "date": "2026-07-07",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "Ashish Ramesh Saraf\u00a0has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regulatio",
+     "url": "https://nsearchives.nseindia.com/corporate/team_bbodade_07072026163714_MANORAMA.pdf"
+    }
+   ],
+   "event_score": 10,
+   "event_counts": {
+    "acquisition": 3
+   },
+   "neg_events": 0,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": -0.09,
+   "promoter_now": 54.32,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "PREMIERENE.NS": {
+  "fetched": "2026-10-05",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [
+    {
+     "date": "2026-09-23",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "General Updates",
+     "text": "Premier Energies Limited has informed the Exchange about Incorporation of a Wholly Owned Subsidiary  in Singapore",
+     "url": "https://nsearchives.nseindia.com/corporate/PEL2024_23092026175138_SE_Intimation_-_Incorporation.pdf"
+    },
+    {
+     "date": "2026-09-01",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Acquisition",
+     "text": "Premier Energies Limited has informed the Exchange about Intra-group shareholding reorganization",
+     "url": "https://nsearchives.nseindia.com/corporate/PEL2024_01092026184102_SE_Intimation.pdf"
+    },
+    {
+     "date": "2026-08-18",
+     "cats": [
+      "rating_up"
+     ],
+     "type": "Press Release",
+     "text": "Premier Energies Limited has informed the Exchange regarding a press release dated August 18, 2026, titled \"CRISIL Upgrades Premier Energies  Long-Term Credit Rating to  A+/Positive \".",
+     "url": "https://nsearchives.nseindia.com/corporate/PEL2024_18082026101240_SE_Intimation_signed.pdf"
+    },
+    {
+     "date": "2026-07-16",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "General Updates",
+     "text": "Premier Energies Limited has informed the Exchange about Incorporation of a Wholly Owned Subsidiary",
+     "url": "https://nsearchives.nseindia.com/corporate/PEL2024_16072026162103_SE_Intimation_-_Incorporation.pdf"
+    }
+   ],
+   "event_score": 16,
+   "event_counts": {
+    "acquisition": 3,
+    "rating_up": 1
+   },
+   "neg_events": 0,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": -5.76,
+   "promoter_now": 58.49,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "SJS.NS": {
+  "fetched": "2026-10-05",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [
+    {
+     "date": "2026-09-30",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "General Updates",
+     "text": "S.J.S. Enterprises Limited has informed the Exchange about investment through Rights Issue in SJS Display Electronics Private Limited ( SDEPL ), a wholly owned subsidiary of the Company.",
+     "url": "https://nsearchives.nseindia.com/corporate/SJS_30092026175008_UpdateWOSRightsIssue.pdf"
+    },
+    {
+     "date": "2026-08-31",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "General Updates",
+     "text": "S.J.S. Enterprises Limited has informed the Exchange about Update on incorporation of Wholly owned subsidiary Company.",
+     "url": "https://nsearchives.nseindia.com/corporate/SJS_31082026180748_SDEPLIncorporationofWOS.pdf"
+    },
+    {
+     "date": "2026-08-05",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Acquisition",
+     "text": "S.J.S. Enterprises Limited has informed the Exchange about update on Acquisition",
+     "url": "https://nsearchives.nseindia.com/corporate/SJS_05082026175511_SJSDBRenewsAcquisition.pdf"
+    },
+    {
+     "date": "2026-08-04",
+     "cats": [
+      "expansion",
+      "acquisition"
+     ],
+     "type": "General Updates",
+     "text": "S.J.S. Enterprises Limited has informed the Exchange about capacity expansion by SJS Decoplast Private Ltd ('Wholly Owned Subsidiary\") of the Company.",
+     "url": "https://nsearchives.nseindia.com/corporate/SJS_04082026171127_Reg30Intimationofcapacityexpansion.pdf"
+    }
+   ],
+   "event_score": 22,
+   "event_counts": {
+    "acquisition": 4,
+    "expansion": 1
+   },
+   "neg_events": 0,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": -1.45,
+   "promoter_now": 20.15,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "ATLANTAELE.NS": {
+  "fetched": "2026-10-05",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [
+    {
+     "date": "2026-08-18",
+     "cats": [
+      "order_win"
+     ],
+     "type": "Press Release",
+     "text": "Atlanta Electricals Limited has informed the Exchange regarding a press release dated August 18, 2026, titled \"Press Releasse on Receipt of Letter of Intent\".",
+     "url": "https://nsearchives.nseindia.com/corporate/ATLANTAIPO123_18082026180135_Press_Release_Submission_to_Exchnage.pdf"
+    },
+    {
+     "date": "2026-08-18",
+     "cats": [
+      "order_win"
+     ],
+     "type": "Bagging/Receiving of orders/contracts",
+     "text": "Atlanta Electricals Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
+     "url": "https://nsearchives.nseindia.com/corporate/ATLANTAIPO123_18082026175213_Atlanta_Order_receipt_intimation_18th_August_2026_Sign.pdf"
+    }
+   ],
+   "event_score": 28,
+   "event_counts": {
+    "order_win": 2
+   },
+   "neg_events": 0,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": 0.0,
+   "promoter_now": 87.27,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "GPPL.NS": {
+  "fetched": "2026-10-05",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [
+    {
+     "date": "2026-09-09",
+     "cats": [
+      "approval"
+     ],
+     "type": "Shareholders meeting",
+     "text": "The previous submission of AGM proceedings did not include the resolutions proposed for approval of shareholders. Hence the proceedings of the AGM are being re-submitted herewith.",
+     "url": "https://nsearchives.nseindia.com/corporate/GPPL_09092026195321_AGM_Proceedings.pdf"
+    },
+    {
+     "date": "2026-06-09",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "Gujarat Pipavav Port Limited\u00a0has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) R",
+     "url": "https://nsearchives.nseindia.com/corporate/team_bbodade_27052026164045_GPPL.pdf"
+    }
+   ],
+   "event_score": 16,
+   "event_counts": {
+    "approval": 1,
+    "acquisition": 1
+   },
+   "neg_events": 0,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": 0.0,
+   "promoter_now": 44.01,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "PRICOLLTD.NS": {
+  "fetched": "2026-10-05",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [
+    {
+     "date": "2026-06-27",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Press Release",
+     "text": "Pricol Limited submitted the copy of media note with respect to Scheme of Demerger",
+     "url": "https://nsearchives.nseindia.com/corporate/PRICOLLTD_27062026153703_sedisclosure.pdf"
+    },
+    {
+     "date": "2026-06-27",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Demerger",
+     "text": "Pricol Limited has informed the Exchange about Demerger",
+     "url": "https://nsearchives.nseindia.com/corporate/PRICOLLTD_27062026153350_sedisclosure.pdf"
+    }
+   ],
+   "event_score": 10,
+   "event_counts": {
+    "acquisition": 2
+   },
+   "neg_events": 0,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": 0.0,
+   "promoter_now": 38.51,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "QPOWER.NS": {
+  "fetched": "2026-10-05",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [
+    {
+     "date": "2026-07-03",
+     "cats": [
+      "order_win"
+     ],
+     "type": "Bagging/Receiving of orders/contracts",
+     "text": "Quality Power Electrical Equipments Limited has informed the Exchange about Bagging/Receiving of orders/contracts by a material subsidiary for the supply of 400 KV Instrument Transformers.",
+     "url": "https://nsearchives.nseindia.com/corporate/QPOWER1234_03072026190342_IntimationOfReceiptOfOrderMehru03072026Sign.pdf"
+    },
+    {
+     "date": "2026-06-09",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Press Release",
+     "text": "Quality Power Electrical Equipments Limited has informed the Exchange regarding a press release dated Jun 09, 2026, titled \"Press Release in connection with the execution of Term Sheet for the acquisi",
+     "url": "https://nsearchives.nseindia.com/corporate/QPOWER1234_09062026184400_IntimationofPressRelease09062026Sign.pdf"
+    }
+   ],
+   "event_score": 24,
+   "event_counts": {
+    "order_win": 1,
+    "acquisition": 1
+   },
+   "neg_events": 0,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": 0.0,
+   "promoter_now": 73.91,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "GOLDIAM.NS": {
+  "fetched": "2026-10-05",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [
+    {
+     "date": "2026-09-19",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Updates",
+     "text": "Goldiam International Limited has informed the Exchange regarding 'This is to inform that the Company has received an aggregate of Rs.12.60 crores (net TDS) from Goldiam Jewellery Limited (GJL)-Wholly",
+     "url": "https://nsearchives.nseindia.com/corporate/GOLDIAM_19092026142748_Dividend_Intimation_-19-9-26.pdf"
+    },
+    {
+     "date": "2026-09-08",
+     "cats": [
+      "order_win"
+     ],
+     "type": "Bagging/Receiving of orders/contracts",
+     "text": "Goldiam International Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
+     "url": "https://nsearchives.nseindia.com/corporate/GOLDIAM_08092026125633_Intimation_of_export_order-8-9-26.pdf"
+    },
+    {
+     "date": "2026-08-18",
+     "cats": [
+      "order_win"
+     ],
+     "type": "Bagging/Receiving of orders/contracts",
+     "text": "Goldiam International Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
+     "url": "https://nsearchives.nseindia.com/corporate/GOLDIAM_18082026113440_Intimation_of_export_order_18-8-26.pdf"
+    },
+    {
+     "date": "2026-07-15",
+     "cats": [
+      "order_win"
+     ],
+     "type": "Bagging/Receiving of orders/contracts",
+     "text": "Goldiam International Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
+     "url": "https://nsearchives.nseindia.com/corporate/GOLDIAM_15072026122825_Intimation_of_new_export_Order_under_Regulation_15-7-26.pdf"
+    },
+    {
+     "date": "2026-07-13",
+     "cats": [
+      "bonus_split"
+     ],
+     "type": "Bonus",
+     "text": "Goldiam International Limited has informed the Exchange about Bonus- Allotment of bonus equity shares",
+     "url": "https://nsearchives.nseindia.com/corporate/GOLDIAM_13072026145351_Intimation_of_Allotment_of_Bonus_shares-13-7-26.pdf"
+    },
+    {
+     "date": "2026-07-01",
+     "cats": [
+      "bonus_split"
+     ],
+     "type": "Record Date",
+     "text": "Goldiam International Limited has informed the Exchange that Record date for the purpose of Bonus  is 10-Jul-2026.",
+     "url": "https://nsearchives.nseindia.com/corporate/GOLDIAM_01072026183021_Intimation_of_Record_Date-1-7-26.pdf"
+    }
+   ],
+   "event_score": 56,
+   "event_counts": {
+    "acquisition": 1,
+    "order_win": 3,
+    "bonus_split": 2
+   },
+   "neg_events": 0,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": 0.0,
+   "promoter_now": 58.51,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "CAPILLARY.NS": {
+  "fetched": "2026-10-05",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [
+    {
+     "date": "2026-09-24",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "Kotak mahindra Asset Management Company Ltd\u00a0 has submitted to the Exchange a copy of Disclosure under Regulation 29(1) of SEBI (SAST) Regulations, 2011.",
+     "url": "https://nsearchives.nseindia.com/corporate/team_bbodade_14082026190950_CAPILLARY.pdf"
+    },
+    {
+     "date": "2026-08-04",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Press Release",
+     "text": "Capillary Technologies India Limited has informed the Exchange regarding a press release dated August 04, 2026, titled \"Capillary Technologies Acquires the CustomerGlu Platform.\".",
+     "url": "https://nsearchives.nseindia.com/corporate/CAPILLARY12_04082026140444_Disclosure_on_press_release.pdf"
+    },
+    {
+     "date": "2026-07-31",
+     "cats": [
+      "governance"
+     ],
+     "type": "Initiation of Forensic Audit",
+     "text": "Capillary Technologies India Limited has informed the Exchange about Initiation of Forensic Audit",
+     "url": "https://nsearchives.nseindia.com/corporate/CAPILLARY12_31072026143127_Forensic_Audit.pdf"
+    }
+   ],
+   "event_score": 0,
+   "event_counts": {
+    "acquisition": 2,
+    "governance": 1
+   },
+   "neg_events": 1,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": -0.71,
+   "promoter_now": 51.45,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "JSLL.NS": {
+  "fetched": "2026-10-05",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [
+    {
+     "date": "2026-10-01",
+     "cats": [
+      "approval"
+     ],
+     "type": "General Updates",
+     "text": "Jeena Sikho Lifecare Limited has informed the Exchange about Receipt of NABH Accreditation for Raipur Hospital.",
+     "url": "https://nsearchives.nseindia.com/corporate/JEENASIKHO_01102026182857_Intimation_accrediation_raipur_sign.pdf"
+    },
+    {
+     "date": "2026-09-30",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "General Updates",
+     "text": "Jeena Sikho Lifecare Limited has informed the Exchange about Disclosure under Regulation 29(2) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regulatio",
+     "url": "https://nsearchives.nseindia.com/corporate/JEENASIKHO_30092026131005_Intimation_Bhavna_Grover_30092026-_Sign.pdf"
+    },
+    {
+     "date": "2026-09-29",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "General Updates",
+     "text": "Jeena Sikho Lifecare Limited has informed the Exchange about Disclosure under Regulation 29(2) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regulatio",
+     "url": "https://nsearchives.nseindia.com/corporate/JEENASIKHO_29092026131925_Intimation_Bhavna_Grover_signed.pdf"
+    },
+    {
+     "date": "2026-09-23",
+     "cats": [
+      "approval"
+     ],
+     "type": "General Updates",
+     "text": "Jeena Sikho Lifecare Limited has informed the Exchange about Intimation of In-Principle Approval Received from BSE Limited for Listing of Up to a Maximum Of 6,50,000 Equity Shares of Rs. 2/-Each of Je",
+     "url": "https://nsearchives.nseindia.com/corporate/JEENASIKHO_23092026122437_Intimation_for_In-Principle_BSE-_Sign.pdf"
+    },
+    {
+     "date": "2026-09-08",
+     "cats": [
+      "approval"
+     ],
+     "type": "General Updates",
+     "text": "Jeena Sikho Lifecare Limited has informed the Exchange about Receipt of NABH Accreditation for Pune Hospital",
+     "url": "https://nsearchives.nseindia.com/corporate/JEENASIKHO_08092026162745_Intimation_accrediation_Pune-_Sign.pdf"
+    },
+    {
+     "date": "2026-08-13",
+     "cats": [
+      "expansion"
+     ],
+     "type": "Capacity addition",
+     "text": "Jeena Sikho Lifecare Limited has informed the Exchange about Disclosure pursuant to Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015   Proposal for Establi",
+     "url": "https://nsearchives.nseindia.com/corporate/JEENASIKHO_13082026171343_Intimation_Capacity_addition_Bareilly-_Sign.pdf"
+    },
+    {
+     "date": "2026-08-07",
+     "cats": [
+      "approval"
+     ],
+     "type": "Appointment",
+     "text": "Jeena Sikho Lifecare Limited has informed the Exchange regarding Appointment of Mr. Karan Vir Bindra as Non- Executive Independent Director of the company w.e.f. August 25, 2026, subject to approval o",
+     "url": "https://nsearchives.nseindia.com/corporate/JEENASIKHO_07082026193420_Outcome_of_BM_-_Sign.pdf"
+    },
+    {
+     "date": "2026-08-05",
+     "cats": [
+      "approval"
+     ],
+     "type": "Arrangements for strategic, technical, manufacturing, or mar",
+     "text": "Jeena Sikho Lifecare Limited has informed the Exchange about update on Execution of Room Block & Services License Agreement through Establishment of Integrated Wellness Centre at Ajna Resorts, Manali,",
+     "url": "https://nsearchives.nseindia.com/corporate/JEENASIKHO_05082026175801_Intimation_Ajna_Resorts_update_-_Sign.pdf"
+    },
+    {
+     "date": "2026-08-04",
+     "cats": [
+      "expansion",
+      "approval"
+     ],
+     "type": "Capacity addition",
+     "text": "Jeena Sikho Lifecare Limited has informed the Exchange about Intimation under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015   Approval for Execution of",
+     "url": "https://nsearchives.nseindia.com/corporate/JEENASIKHO_04082026172946_Intimation_Ajna_signed.pdf"
+    },
+    {
+     "date": "2026-07-25",
+     "cats": [
+      "expansion"
+     ],
+     "type": "Capacity addition",
+     "text": "Jeena Sikho Lifecare Limited has informed the Exchange about Disclosure pursuant to Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 (\"SEBI Listing Regulat",
+     "url": "https://nsearchives.nseindia.com/corporate/JEENASIKHO_25072026124943_Intimation_Capacity_addition_Noida_-_Sign.pdf"
+    },
+    {
+     "date": "2026-07-22",
+     "cats": [
+      "expansion"
+     ],
+     "type": "Capacity addition",
+     "text": "Jeena Sikho Lifecare Limited has informed the Exchange about Disclosure pursuant to Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 (\"SEBI Listing Regulat",
+     "url": "https://nsearchives.nseindia.com/corporate/JEENASIKHO_22072026174505_Intimation_Capacity_addition_WB-_Sign.pdf"
+    },
+    {
+     "date": "2026-07-15",
+     "cats": [
+      "approval"
+     ],
+     "type": "Appointment",
+     "text": "Jeena Sikho Lifecare Limited has informed the Exchange regarding Appointment of Mr. Ankush Kaushal as an Additional Director (Executive Category) and Whole Time Director of the Company, subject to the",
+     "url": "https://nsearchives.nseindia.com/corporate/JEENASIKHO_15072026180603_Outcome_of_BM_15072026_signed.pdf"
+    },
+    {
+     "date": "2026-06-12",
+     "cats": [
+      "expansion"
+     ],
+     "type": "Capacity addition",
+     "text": "Jeena Sikho Lifecare Limited has informed the Exchange about Disclosure pursuant to Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 ( SEBI Listing Regulat",
+     "url": "https://nsearchives.nseindia.com/corporate/JEENASIKHO_12062026152335_Intimation_Capacity_addition_Lucknow.pdf"
+    },
+    {
+     "date": "2026-06-11",
+     "cats": [
+      "expansion"
+     ],
+     "type": "Capacity addition",
+     "text": "Jeena Sikho Lifecare Limited has informed the Exchange about Proposal for Establishment of a new Day Care Clinic in Ayodhya, Uttar Pradesh",
+     "url": "https://nsearchives.nseindia.com/corporate/JEENASIKHO_11062026151451_Intimation_Capacity_addition_Ayodhya-_Sign.pdf"
+    }
+   ],
+   "event_score": 46,
+   "event_counts": {
+    "approval": 7,
+    "acquisition": 2,
+    "expansion": 6
+   },
+   "neg_events": 0,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": 0.09,
+   "promoter_now": 63.62,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "ELLEN.NS": {
+  "fetched": "2026-10-05",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [],
+   "event_score": 0,
+   "event_counts": {},
+   "neg_events": 0,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": -0.01,
+   "promoter_now": 77.15,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "IMFA.NS": {
+  "fetched": "2026-10-05",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [
+    {
+     "date": "2026-06-29",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "Indian Metals & Ferro Alloys Limited has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Take",
+     "url": "https://nsearchives.nseindia.com/corporate/team_sandeshc_11052026122209_IMFAL_0001.pdf"
+    }
+   ],
+   "event_score": 10,
+   "event_counts": {
+    "acquisition": 1
+   },
+   "neg_events": 0,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": 0.0,
+   "promoter_now": 58.69,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "LUMAXTECH.NS": {
+  "fetched": "2026-10-05",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [
+    {
+     "date": "2026-08-10",
+     "cats": [
+      "expansion"
+     ],
+     "type": "General Updates",
+     "text": "Lumax Auto Technologies Limited has informed the Exchange that the Board of Directors at its meeting held on August 10, 2026 have considered and approved the setting up of a new manufacturing Plant of",
+     "url": "https://nsearchives.nseindia.com/corporate/LUMAXTECH_10082026173353_LATLOutcome10082026.pdf"
+    },
+    {
+     "date": "2026-06-29",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Acquisition",
+     "text": "Lumax Auto Technologies Limited has informed the Exchange about completion of the acquisition of remaining Equity Stake of 15.97% in Lumax FAE Technologies Private Limited",
+     "url": "https://nsearchives.nseindia.com/corporate/LUMAXTECH_29062026175942_LATLLFAEIntimation29062026.pdf"
+    },
+    {
+     "date": "2026-06-12",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "Anmol Jain has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regulations, 2011.",
+     "url": "https://nsearchives.nseindia.com/corporate/team_sandeshc_03062026124423_LATL.pdf"
+    }
+   ],
+   "event_score": 22,
+   "event_counts": {
+    "expansion": 1,
+    "acquisition": 2
+   },
+   "neg_events": 0,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": 0.0,
+   "promoter_now": 55.98,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "PRECWIRE.NS": {
+  "fetched": "2026-10-05",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [
+    {
+     "date": "2026-09-12",
+     "cats": [
+      "approval"
+     ],
+     "type": "Updates",
+     "text": "Precision Wires India Limited has informed the Exchange regarding 'Intimation regarding receipt of In Principal Approval'.",
+     "url": "https://nsearchives.nseindia.com/corporate/PRECWIRE_12092026123026_lettermerged.pdf"
+    },
+    {
+     "date": "2026-09-10",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "General Updates",
+     "text": "Enclosed herewith additional disclosure in relation to the proposed acquisition of land as per the objects of the Preferential Issue.",
+     "url": "https://nsearchives.nseindia.com/corporate/PRECWIRE_10092026180853_Letter-signed.pdf"
+    },
+    {
+     "date": "2026-07-10",
+     "cats": [
+      "approval"
+     ],
+     "type": "Granting/withdrawal/surrender/cancellation/suspension of key",
+     "text": "This is to inform you that the Company has received Factory License on July 09, 2026 for the Zaroli Unit.",
+     "url": "https://nsearchives.nseindia.com/corporate/PRECWIRE_10072026164819_Factory_license_Intimation.pdf"
+    },
+    {
+     "date": "2026-07-06",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "Milan Mahendra Mehta\u00a0has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regulati",
+     "url": "https://nsearchives.nseindia.com/corporate/team_bbodade_28042026172428_PRECWIRE.pdf"
+    }
+   ],
+   "event_score": 22,
+   "event_counts": {
+    "approval": 2,
+    "acquisition": 2
+   },
+   "neg_events": 0,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": -0.87,
+   "promoter_now": 56.62,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "RATEGAIN.NS": {
+  "fetched": "2026-10-05",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [
+    {
+     "date": "2026-06-30",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "Bhanu Chopra has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) and 31 (5) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regula",
+     "url": "https://nsearchives.nseindia.com/corporate/team_sandeshc_23062026132932_32.pdf"
+    }
+   ],
+   "event_score": 10,
+   "event_counts": {
+    "acquisition": 1
+   },
+   "neg_events": 0,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": 0.62,
+   "promoter_now": 48.78,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "SHILPAMED.NS": {
+  "fetched": "2026-10-05",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [
+    {
+     "date": "2026-09-18",
+     "cats": [
+      "approval"
+     ],
+     "type": "General Updates",
+     "text": "Shilpa Medicare Limited has informed the Exchange about USFDA Inspection of Shilpa Medicare Limited, Unit VII, Analytical Services Division, Hyderabad.",
+     "url": "https://nsearchives.nseindia.com/corporate/SHILPAMED_18092026185924_Intimation_on_USFDA.pdf"
+    },
+    {
+     "date": "2026-09-11",
+     "cats": [
+      "approval"
+     ],
+     "type": "Press Release",
+     "text": "Shilpa Medicare Limited has informed the Exchange regarding a press release dated September 11, 2026, titled \"Shilpa Medicare's Novel Complex Injectable OERIS  (Ondansetron Extended-Release Injection,",
+     "url": "https://nsearchives.nseindia.com/corporate/SHILPAMED_11092026132116_Press_release_Orion.pdf"
+    },
+    {
+     "date": "2026-08-03",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Appointment",
+     "text": "Shilpa Medicare Limited has informed the Exchange regarding Appointment of Mr Dr. Uday N. Harle as Chief Executive Officer (CEO) of Shilpa Biologicals Private Limited, a Wholly Owned Subsidiary of Shi",
+     "url": "https://nsearchives.nseindia.com/corporate/SHILPAMED_03082026095522_SEIntimation.pdf"
+    },
+    {
+     "date": "2026-06-30",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Press Release",
+     "text": "Shilpa Medicare Limited has informed the Exchange regarding a press release dated Jun 30, 2026, titled \"Shilpa Biologicals Pvt Ltd, a wholly owned subsidiary of Shilpa Medicare enters into a Co-develo",
+     "url": "https://nsearchives.nseindia.com/corporate/SHILPAMED_30062026102257_SEintimation_Orion_SML_-_Nivolumab.pdf"
+    },
+    {
+     "date": "2026-06-24",
+     "cats": [
+      "expansion"
+     ],
+     "type": "Press Release",
+     "text": "Shilpa Medicare Limited has informed the Exchange regarding a press release, titled \"Press release on announcement of commissioning of a state-of-art Antibody Drug Conjugate (ADC) GMP Manufacturing Fa",
+     "url": "https://nsearchives.nseindia.com/corporate/SHILPAMED_24062026085455_Press_release.pdf"
+    }
+   ],
+   "event_score": 34,
+   "event_counts": {
+    "approval": 2,
+    "acquisition": 2,
+    "expansion": 1
+   },
+   "neg_events": 0,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": -4.1,
+   "promoter_now": 40.13,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "BLACKBUCK.NS": {
+  "fetched": "2026-10-05",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [
+    {
+     "date": "2026-09-28",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "General Updates",
+     "text": "BLACKBUCK LIMITED has informed the Exchange about Investment in wholly owned subsidiary through Rights Issue",
+     "url": "https://nsearchives.nseindia.com/corporate/ZINKA2015_28092026155703_Intimation_Right_Issue_in_Subsidiary.pdf"
+    },
+    {
+     "date": "2026-09-24",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "General Updates",
+     "text": "BLACKBUCK LIMITED has informed the Exchange about Incorporation of Wholly Owned Subsidiary",
+     "url": "https://nsearchives.nseindia.com/corporate/ZINKA2015_24092026175344_Announcement_under_Regulation_30.pdf"
+    }
+   ],
+   "event_score": 10,
+   "event_counts": {
+    "acquisition": 2
+   },
+   "neg_events": 0,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": -2.43,
+   "promoter_now": 25.0,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "AMAGI.NS": {
+  "fetched": "2026-10-05",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [
+    {
+     "date": "2026-09-01",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Sale or disposal",
+     "text": "Amagi Media Labs Limited has informed the Exchange about voluntary liquidation of Argoid Analytics Private Limited, a wholly owned subsidiary of the Company with the effect from August 31, 2026.",
+     "url": "https://nsearchives.nseindia.com/corporate/AMAGI_01092026153849_Argoidliquidation.pdf"
+    },
+    {
+     "date": "2026-08-13",
+     "cats": [
+      "approval"
+     ],
+     "type": "Appointment",
+     "text": "The Board of Directors at their Meeting held on August 13, 2026 approved and recommended the appointment of M/s. BMP & Co. LLP, Company Secretaries (Firm Registration No. L2017KR003200) as the Secreta",
+     "url": "https://nsearchives.nseindia.com/corporate/AMAGI_13082026122826_OutcomeofBM.pdf"
+    },
+    {
+     "date": "2026-07-29",
+     "cats": [
+      "expansion"
+     ],
+     "type": "Press Release",
+     "text": "Amagi Media Labs Limited has informed the Exchange regarding a press release dated July 29, 2026, titled \"Amagi Appoints Martin Wacker to LeadSales for DACH, Strengthening European Expansion\".",
+     "url": "https://nsearchives.nseindia.com/corporate/AMAGI_29072026173710_PressRelease.pdf"
+    }
+   ],
+   "event_score": 28,
+   "event_counts": {
+    "acquisition": 1,
+    "approval": 1,
+    "expansion": 1
+   },
+   "neg_events": 0,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": 0.0,
+   "promoter_now": 14.92,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "SHAILY.NS": {
+  "fetched": "2026-10-05",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [],
+   "event_score": 0,
+   "event_counts": {},
+   "neg_events": 0,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": -2.63,
+   "promoter_now": 41.09,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "GRWRHITECH.NS": {
+  "fetched": "2026-10-05",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [
+    {
+     "date": "2026-06-15",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "Monika Garware has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regulations, 20",
+     "url": "https://nsearchives.nseindia.com/corporate/team_sandeshc_09062026131814_25.pdf"
+    }
+   ],
+   "event_score": 10,
+   "event_counts": {
+    "acquisition": 1
+   },
+   "neg_events": 0,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": 0.0,
+   "promoter_now": 60.72,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "SKIPPER.NS": {
+  "fetched": "2026-10-05",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [
+    {
+     "date": "2026-09-23",
+     "cats": [
+      "order_win"
+     ],
+     "type": "Bagging/Receiving of orders/contracts",
+     "text": "Skipper Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
+     "url": "https://nsearchives.nseindia.com/corporate/skipper_23092026104600_Press_ReleaseOrder.pdf"
+    }
+   ],
+   "event_score": 14,
+   "event_counts": {
+    "order_win": 1
+   },
+   "neg_events": 0,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": -5.0,
+   "promoter_now": 61.48,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "KMEW.NS": {
+  "fetched": "2026-10-05",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [
+    {
+     "date": "2026-09-19",
+     "cats": [
+      "order_win"
+     ],
+     "type": "Bagging/Receiving of orders/contracts",
+     "text": "Knowledge Marine & Engineering Works Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
+     "url": "https://nsearchives.nseindia.com/corporate/KMEW_19092026224407_Intimation_MbpA_Green_Tug-s.pdf"
+    },
+    {
+     "date": "2026-08-14",
+     "cats": [
+      "bonus_split"
+     ],
+     "type": "Stock split",
+     "text": "Knowledge Marine & Engineering Works Limited has informed the Exchange that the Board of Directors at its meeting held on August 14, 2026, has considered and approved subdivision of 1 equity shares of",
+     "url": "https://nsearchives.nseindia.com/corporate/KMEW_14082026170113_BM_Outcome.pdf"
+    },
+    {
+     "date": "2026-08-10",
+     "cats": [
+      "order_win"
+     ],
+     "type": "Bagging/Receiving of orders/contracts",
+     "text": "Knowledge Marine & Engineering Works Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
+     "url": "https://nsearchives.nseindia.com/corporate/KMEW_10082026180220_Intimation_for_PPA-s-.pdf"
+    },
+    {
+     "date": "2026-06-20",
+     "cats": [
+      "order_win"
+     ],
+     "type": "Bagging/Receiving of orders/contracts",
+     "text": "Knowledge Marine & Engineering Works Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
+     "url": "https://nsearchives.nseindia.com/corporate/KMEW_20062026233911_Intimation_of_IWAI_20_Pax_Award.pdf"
+    },
+    {
+     "date": "2026-06-15",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "Kanak Sujay Kewalramani has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regula",
+     "url": "https://nsearchives.nseindia.com/corporate/team_sandeshc_23042026131919_Disc.pdf"
+    }
+   ],
+   "event_score": 56,
+   "event_counts": {
+    "order_win": 3,
+    "bonus_split": 1,
+    "acquisition": 1
+   },
+   "neg_events": 0,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": -3.64,
+   "promoter_now": 49.99,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "SHADOWFAX.NS": {
+  "fetched": "2026-10-05",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [],
+   "event_score": 0,
+   "event_counts": {},
+   "neg_events": 0,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": -0.2,
+   "promoter_now": 16.51,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "SHILCTECH.NS": {
+  "fetched": "2026-10-05",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [],
+   "event_score": 0,
+   "event_counts": {},
+   "neg_events": 0,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": 0.0,
+   "promoter_now": 62.12,
    "pit_net_cr": 0.0,
    "pit_buys": 0,
    "pit_sells": 0

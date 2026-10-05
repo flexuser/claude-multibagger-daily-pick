@@ -1,22 +1,23 @@
 {
- "generated": "2026-10-04",
+ "generated": "2026-10-05",
  "demo": false,
  "universe": 650,
- "liquid": 639,
- "with_data": 300,
- "eligible": 35,
+ "liquid": 641,
+ "with_data": 600,
+ "eligible": 32,
  "fund_stats": {
   "attempted": 300,
   "failed": 0
  },
  "rejected": {
-  "too many red flags": 23,
-  "growth below threshold": 42,
-  "financial company (ratios not comparable)": 46,
-  "not operationally profitable": 12,
-  "market cap outside range": 44,
-  "negative filing (governance/distress/regulatory)": 4,
-  "suspect data": 2
+  "too many red flags": 45,
+  "growth below threshold": 80,
+  "financial company (ratios not comparable)": 87,
+  "not operationally profitable": 19,
+  "market cap outside range": 98,
+  "negative filing (governance/distress/regulatory)": 6,
+  "suspect data": 10,
+  "stale financials": 1
  },
  "signals": {
   "attempted": 40,
@@ -64,137 +65,137 @@
   "Whether the growth is organic or came from a one-off order or acquisition"
  ],
  "pick": {
-  "ticker": "ACUTAAS.NS",
-  "name": "ACUTAAS CHEMICALS LIMITED",
-  "sector": "Specialty Chemicals",
-  "blurb": "Acutaas Chemicals Limited engages in the research and development, manufacture, and sale of pharmaceutical intermediates in India and internationally. The company offers pharma intermediates for use in regulated and generic active pharmaceutical ingredients, as well as new chemical entities. It also provides specialty ",
-  "score": 65.6,
+  "ticker": "SEDEMAC.NS",
+  "name": "SEDEMAC MECHATRONICS LTD",
+  "sector": "Auto Parts",
+  "blurb": "SEDEMAC Mechatronics Limited provides electronic control units to original equipment manufacturers in the mobility and industrial markets in India, the United States, and Europe. It operates in two segments, Mobility and Industrial. The Mobility segment offers motor control technology and transmission controls, which c",
+  "score": 73.6,
   "pillars": {
-   "runway": 85.2636,
-   "moat": 80.1273,
-   "proof": 47.5051,
-   "leverage": 84.4244,
-   "quality": 72.2169,
-   "discovery": 30.8867,
-   "valuation": 68.9514,
-   "confirm": 64.2801,
-   "ownership": 34.2857,
-   "catalyst": 76.2304
+   "runway": 77.9767,
+   "moat": 59.2835,
+   "proof": 100.0,
+   "leverage": 100.0,
+   "quality": 70.4326,
+   "discovery": 51.2032,
+   "valuation": 50.0,
+   "confirm": 88.075,
+   "ownership": 34.1857,
+   "catalyst": 67.2
   },
   "flags": [
    {
-    "sev": "high",
-    "text": "Share count up 12% in 3 years (dilution)."
+    "sev": "med",
+    "text": "Free cash flow negative: growth may need outside funding."
    },
    {
     "sev": "med",
-    "text": "Free cash flow negative: growth may need outside funding."
+    "text": "Receivable days up 251% in 3 years: customers are paying slower."
    }
   ],
   "evidence": [
    {
     "group": "Runway",
     "label": "Structural theme",
-    "value": "Electronics and semiconductors, Energy transition, Specialty chemicals and CDMO",
+    "value": "Energy transition",
     "ok": true,
     "why": "Business description matches a long-cycle growth theme (keyword match, so confirm by reading it)."
    },
    {
     "group": "Runway",
     "label": "Revenue base",
-    "value": "Rs 1,329 cr",
+    "value": "Rs 1,055 cr",
     "ok": true,
     "why": "Small base means a big opportunity can move the numbers."
    },
    {
     "group": "Runway",
     "label": "Revenue CAGR, 3 years",
-    "value": "29.4%",
+    "value": "35.7%",
     "ok": true,
     "why": "Sustained growth of 20%+ compounds fast."
    },
    {
     "group": "Proof",
     "label": "Latest quarter revenue, YoY",
-    "value": "9.3%",
-    "ok": false,
+    "value": "n/a",
+    "ok": null,
     "why": "Growth is continuing in the most recent results."
    },
    {
     "group": "Proof",
     "label": "Growth acceleration vs 3y trend",
-    "value": "-20.1 pp",
-    "ok": false,
+    "value": "n/a",
+    "ok": null,
     "why": "Latest quarter growing faster than the 3-year pace. Closest free proxy for a rising order book."
    },
    {
     "group": "Proof",
     "label": "Latest quarter margin vs year ago",
-    "value": "5.6 pp",
-    "ok": true,
+    "value": "n/a",
+    "ok": null,
     "why": "Margins expanding as volumes grow."
    },
    {
     "group": "Leverage",
     "label": "Operating margin",
-    "value": "33.5%",
+    "value": "15.6%",
     "ok": true,
     "why": "Healthy margin leaves room to absorb costs."
    },
    {
     "group": "Leverage",
     "label": "Margin change over 3 years",
-    "value": "15.4 pp",
+    "value": "9.6 pp",
     "ok": true,
     "why": "Operating leverage: earnings growing faster than sales."
    },
    {
     "group": "Leverage",
     "label": "Profit CAGR vs revenue CAGR",
-    "value": "62.3% vs 29.4%",
+    "value": "129.5% vs 35.7%",
     "ok": true,
     "why": "Profit outgrowing sales is the signature of a re-rating."
    },
    {
     "group": "Quality",
     "label": "ROCE",
-    "value": "27.7% (+8.7 pp in 3y)",
+    "value": "31.0% (+17.1 pp in 3y)",
     "ok": true,
     "why": "Returns on capital show if growth creates value."
    },
    {
     "group": "Quality",
     "label": "Debt / equity",
-    "value": "0.02",
+    "value": "0.16",
     "ok": true,
     "why": "Low debt lets the company fund growth safely."
    },
    {
     "group": "Quality",
     "label": "Operating cash flow / profit, 3 years",
-    "value": "0.96x",
+    "value": "1.79x",
     "ok": true,
     "why": "Earnings quality: are profits turning into cash?"
    },
    {
     "group": "Quality",
     "label": "Interest coverage",
-    "value": "176.5x",
+    "value": "18.6x",
     "ok": true,
     "why": "Can earnings comfortably service the debt?"
    },
    {
     "group": "Quality",
     "label": "Receivable days change, 3 years",
-    "value": "-27%",
-    "ok": true,
+    "value": "251%",
+    "ok": false,
     "why": "Rising receivable days can mean aggressive sales booking or weak customers."
    },
    {
     "group": "Quality",
     "label": "Share count change, 3 years",
-    "value": "12.3%",
-    "ok": false,
+    "value": "0.0%",
+    "ok": true,
     "why": "Little dilution means holders keep their share of the upside."
    },
    {
@@ -207,35 +208,35 @@
    {
     "group": "Quality",
     "label": "Promoter / insider holding",
-    "value": "38.3%",
-    "ok": false,
+    "value": "40.5%",
+    "ok": true,
     "why": "Owners with skin in the game."
    },
    {
     "group": "Undiscovered",
     "label": "Market cap",
-    "value": "Rs 26,199 cr",
+    "value": "Rs 14,913 cr",
     "ok": false,
     "why": "Smaller companies have more room to multiply."
    },
    {
     "group": "Undiscovered",
     "label": "Institutional holding",
-    "value": "28.4%",
+    "value": "37.1%",
     "ok": false,
     "why": "Low institutional ownership leaves room for new buyers."
    },
    {
     "group": "Undiscovered",
     "label": "Analysts covering",
-    "value": "9",
-    "ok": false,
+    "value": "3",
+    "ok": true,
     "why": "Few analysts, less crowded."
    },
    {
     "group": "Ownership",
     "label": "Promoter holding change, ~1 year",
-    "value": "0.0 pp",
+    "value": "-0.0 pp",
     "ok": false,
     "why": "Promoters adding to their stake is a strong vote of confidence."
    },
@@ -270,29 +271,29 @@
    {
     "group": "Catalysts",
     "label": "Capex as % of revenue",
-    "value": "24.7%",
+    "value": "16.6%",
     "ok": true,
     "why": "Heavy reinvestment signals an expansion phase."
    },
    {
     "group": "Catalysts",
     "label": "Capital work in progress growth",
-    "value": "92%",
+    "value": "738%",
     "ok": true,
     "why": "Plants under construction today become capacity tomorrow."
    },
    {
     "group": "Catalysts",
     "label": "Gross fixed assets growth",
-    "value": "43%",
+    "value": "86%",
     "ok": true,
     "why": "Capacity actually added."
    },
    {
     "group": "Catalysts",
     "label": "Acquisition in last 2 years",
-    "value": "yes",
-    "ok": true,
+    "value": "no",
+    "ok": false,
     "why": "From cash-flow business purchases or a goodwill jump. Check whether it is value-adding."
    },
    {
@@ -326,253 +327,333 @@
    {
     "group": "Valuation",
     "label": "PE / PEG",
-    "value": "68.1 / 1.09",
+    "value": "124.4 / 0.96",
     "ok": true,
     "why": "Is the price reasonable for the growth?"
    },
    {
     "group": "Market",
     "label": "Price vs 200-day average",
-    "value": "18.8%",
+    "value": "37.3%",
     "ok": true,
     "why": "Uptrend, but not stretched."
    },
    {
     "group": "Market",
     "label": "6-month return vs Nifty",
-    "value": "38.0 pp",
+    "value": "107.2 pp",
     "ok": true,
     "why": "Market is already starting to notice."
    },
    {
     "group": "Market",
     "label": "Volume, last month vs 6-month avg",
-    "value": "0.85x",
-    "ok": false,
+    "value": "1.24x",
+    "ok": true,
     "why": "Rising volume hints at accumulation."
    }
   ],
-  "thesis": "Operates in electronics and semiconductors and energy transition. Revenue of Rs 1,329 cr has compounded at 29% a year over three years. The latest quarter grew 9% year on year. Operating margin moved +15.4 pp while ROCE sits at 28%. Only 9 analysts cover it and institutions hold 28%, so it may not be widely discovered.",
+  "thesis": "Operates in energy transition. Revenue of Rs 1,055 cr has compounded at 36% a year over three years. Operating margin moved +9.6 pp while ROCE sits at 31%. Only 3 analysts cover it and institutions hold 37%, so it may not be widely discovered.",
   "news": [],
   "events": [
    {
-    "date": "2026-09-24",
+    "date": "2026-09-28",
     "labels": [
      "Acquisition"
     ],
     "neg": false,
-    "text": "Acutaas Chemicals Limited has informed the Exchange about Acquisition",
-    "url": "https://nsearchives.nseindia.com/corporate/AMIORG_24092026195234_EnchemAcquisitionIntimationSWSigned.pdf"
+    "text": "Xponentia Group has Submitted to the Exchange a copy of Disclosure under Regulation 29 (2) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regulations,",
+    "url": "https://nsearchives.nseindia.com/corporate/team_sandeshc_28092026123357_SAST5.pdf"
+   },
+   {
+    "date": "2026-06-19",
+    "labels": [
+     "Acquisition"
+    ],
+    "neg": false,
+    "text": "Manish Sharma has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regulations, 201",
+    "url": "https://nsearchives.nseindia.com/corporate/team_sandeshc_08052026120153_43.pdf"
+   },
+   {
+    "date": "2026-06-19",
+    "labels": [
+     "Acquisition"
+    ],
+    "neg": false,
+    "text": "Prof. Shashikanth Suryanarayanan has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeover",
+    "url": "https://nsearchives.nseindia.com/corporate/team_sandeshc_08052026120054_44.pdf"
+   },
+   {
+    "date": "2026-06-17",
+    "labels": [
+     "Acquisition"
+    ],
+    "neg": false,
+    "text": "Amit Arun Dixit\u00a0\u00a0has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regulations,",
+    "url": "https://nsearchives.nseindia.com/corporate/team_bbodade_08052026181612_SEDEMAC.pdf"
+   },
+   {
+    "date": "2026-06-11",
+    "labels": [
+     "Approval"
+    ],
+    "neg": false,
+    "text": "SEDEMAC Mechatronics Limited has informed the Exchange about Intimation of In-principle approval for listing of equity shares under SEDEMAC Employee Stock Option Plan 2014",
+    "url": "https://nsearchives.nseindia.com/corporate/SEDEMAC2007_11062026120931_20260611-IntimationofESOPapproval.pdf"
+   },
+   {
+    "date": "2026-06-08",
+    "labels": [
+     "Acquisition"
+    ],
+    "neg": false,
+    "text": "Anaykumar Avinash Joshi\u00a0has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regul",
+    "url": "https://nsearchives.nseindia.com/corporate/team_bbodade_30042026164348_SEDEMAC.pdf"
    }
   ],
   "diligence": {
    "verdict": "yellow",
-   "summary": "Acutaas Chemicals is a specialty chemicals manufacturer exhibiting high margins and strong ROCE, but its recent valuation (PE 68) and negative free cash flow raise concerns regarding capital efficiency. The company is currently undergoing a significant internal restructuring involving the transfer of promoter control to a family trust.",
-   "management": "The company is led by the Vaghasia family. Recent filings indicate a transition of control from individual promoters to the 'Vaghasia Family Trust' for succession planning purposes, a common but often opaque mechanism in Indian corporate governance.",
-   "controversies": "SEBI granted an exemption to the Vaghasia Family Trust regarding the open offer requirements for the acquisition of control in September 2025. No other major litigation, ED/tax investigations, or auditor resignations were identified, though the low promoter holding (38%) warrants monitoring.",
-   "business_update": "The company recently announced an acquisition (Sept 2026) to expand its footprint. Financials show high operating margins (33.5%), though the 12% share dilution over three years and negative free cash flow suggest that growth is being funded by equity rather than internal accruals.",
+   "summary": "Sedemac Mechatronics is a technology-focused auto component manufacturer specializing in electronic control units and controllers for two-wheelers and off-road vehicles. While the company demonstrates strong growth and high ROCE, it faces scrutiny regarding tax litigation and rising working capital intensity.",
+   "management": "The company is led by promoter Manish Sharma and a professional management team. It is backed by private equity firm Xponentia Capital, which has been trimming its stake post-listing. Management has maintained a clean record regarding share pledges, with formal disclosures confirming no encumbrances.",
+   "controversies": "The company is currently contesting an Income Tax penalty of Rs 74.93 lakh related to FY 2017-18 R&D deductions. Additionally, it received a minor GST demand of Rs 40,036 in September 2026, though a much larger initial notice was dropped by authorities. No major auditor resignations or governance failures have been reported.",
+   "business_update": "In Q4 FY26, the company reported significant capex of Rs 227 crore to support capacity expansion. Management emphasizes that as an auto-component supplier, they operate on a rolling supply basis rather than a traditional long-term order book model.",
    "order_book": "not found",
    "strengths": [
-    "High operating margins of 33.5%",
-    "Strong ROCE of 28%",
-    "Low debt-to-equity ratio of 0.02"
+    "Strong ROCE of 31% indicating efficient capital utilization",
+    "Low debt-to-equity ratio of 0.16",
+    "High institutional interest (37% holding)",
+    "Strong revenue CAGR of 36% over the last 3 years"
    ],
    "risks": [
-    "High valuation (PE 68) relative to growth",
-    "Negative free cash flow indicating capital-intensive growth",
-    "Promoter holding is relatively low at 38%",
-    "Dilution of equity by 12% over the last three years"
+    "Negative free cash flow suggesting high capital intensity",
+    "Significant increase in receivable days (251% over 3 years) indicating potential collection issues",
+    "Ongoing tax litigation regarding R&D deductions",
+    "High valuation (PE 124) leaves little margin for error"
    ],
    "sources": [
-    "https://www.sebi.gov.in/sebi_data/attachdocs/sep-2025/exemption_order_acutaas_chemicals1.pdf",
-    "https://economictimes.indiatimes.com/acutaas-chemicals-ltd/stocksupdate/companyid-2015548.cms",
-    "https://www.linkedin.com/pulse/sebi-exemption-order-acutaas-chemicals-limited-filfox-law-group-erdcf",
-    "https://www.linkedin.com/posts/alagarassociates_sebi-exemption-order-acutaas-chemicals-activity-7379781939148484608-i1YF"
+    "https://www.sebi.gov.in/filings/public-issues/feb-2026/sedemac-mechatronics-limited-rhp_100355.html",
+    "https://www.bseindia.com/xml-data/corpfiling/AttachHis/07681afd-b20a-4c03-94b4-62f595d231ea.pdf",
+    "https://scanx.trade/stock-market-news/companies/sedemac-mechatronics-receives-40-036-gst-order-tamil-nadu/50506411",
+    "https://www.sedemac.com/static/media/SEDEMAC_AnnualReport_2024-25.1e8736c84c62450d11d1.pdf",
+    "https://www.arthneeti.com/insights/sedemac-mechatronics-ltd-q4-fy26-earnings",
+    "https://scanx.trade/stock-market-news/companies/sedemag-mechatronics-limited-receives-74-93-lakh-penalty-order-from-income-tax-department/36004514",
+    "https://trendlyne.com/equity/share-holding/3443160/SEDEMAC/latest/sedemac-mechatronics-ltd/",
+    "https://www.indiainfoline.com/company/sedemac-mechatronics-ltd/share-holding"
    ],
    "status": "ok",
    "provider": "gemini",
    "model": "gemini-3.1-flash-lite",
    "method": "DuckDuckGo snippets (weaker)",
-   "date": "2026-10-04"
+   "date": "2026-10-05"
   },
   "exit_triggers": [
-   "Quarterly revenue growth falls below 10% year on year (now 9%).",
-   "Operating margin drops below 29% (now 33%).",
-   "ROCE falls below 19% (now 28%).",
+   "Operating margin drops below 12% (now 16%).",
+   "ROCE falls below 22% (now 31%).",
    "Promoter pledge appears or rises above 10%, or promoter holding falls more than 2 pp.",
    "Operating cash flow stays below half of profit for two years running.",
    "Weekly close below the 200-day average on rising volume.",
    "Order book or order inflow stops growing faster than revenue at the next concall."
   ],
   "held_from_yesterday": false,
-  "price": 3196.5,
-  "price_date": "2026-10-01",
+  "price": 3381.4,
+  "price_date": "2026-10-05",
   "spark": [
-   1402.35,
-   1400.45,
-   1466.4,
-   1495.78,
-   1552.24,
-   1762.28,
-   1738.9,
-   1730.01,
-   1688.04,
-   1726.41,
-   1832.93,
-   1763.68,
-   1754.59,
-   1680.84,
-   1708.12,
-   1718.71,
-   1700.53,
-   1782.77,
-   1787.36,
-   1772.47,
-   1734.1,
-   1706.32,
-   1664.95,
-   1658.26,
-   1629.48,
-   1660.66,
-   1647.27,
-   1693.63,
-   1651.66,
-   1654.76,
-   1749.49,
-   1768.28,
-   1761.88,
-   1683.94,
-   1682.04,
-   1708.72,
-   1680.94,
-   1601.3,
-   1652.16,
-   1861.01,
-   1911.07,
-   1968.23,
-   1979.02,
-   2001.2,
-   2031.98,
-   2016.09,
-   2074.35,
-   2100.83,
-   2145.2,
-   2164.28,
-   2157.19,
-   2102.93,
-   2249.02,
-   2226.23,
-   2186.06,
-   2163.38,
-   2256.11,
-   2398.01,
-   2433.48,
-   2543.1,
-   2330.36,
-   2210.75,
-   2334.15,
-   2360.43,
-   2289.99,
-   2359.93,
-   2372.63,
-   2384.92,
-   2492.74,
-   2500.53,
-   2592.16,
-   2654.71,
-   2723.66,
-   2808.2,
-   2825.69,
-   2728.96,
-   2884.34,
-   2998.16,
-   2921.61,
-   2998.36,
-   3130.16,
-   3035.33,
-   3162.33,
-   3313.72,
-   3204.6,
-   3142.95,
-   2994.26,
-   3133.96,
-   3247.17,
-   3266.16,
-   3297.53,
-   3523.56,
-   3689.04,
-   3512.17,
-   3451.92,
-   3398.26,
-   3457.11,
-   3581.12,
-   3653.47,
-   3656.86,
-   3257.06,
-   3295.24,
-   3231.38,
-   3114.07,
-   3280.35,
-   3295.43,
-   3243.57,
-   3108.28,
-   3195.81,
-   3226.49,
-   3166.63,
-   3310.92,
-   3326.71,
-   3158.24,
-   3132.56,
-   3166.13,
-   3179.72,
-   3448.82,
-   3381.17,
-   3342.2,
-   3440.3,
-   3213.7,
-   3283.7,
-   3214.4,
-   3279.4
+   1451.1,
+   1441.3,
+   1465.5,
+   1471.0,
+   1503.6,
+   1533.1,
+   1505.7,
+   1501.2,
+   1469.5,
+   1503.8,
+   1539.2,
+   1524.0,
+   1513.4,
+   1545.2,
+   1530.0,
+   1680.2,
+   1705.2,
+   1634.1,
+   1637.7,
+   1647.6,
+   1658.4,
+   1705.8,
+   1672.4,
+   1654.4,
+   1635.5,
+   1639.3,
+   1696.8,
+   1667.9,
+   1717.7,
+   1891.5,
+   1895.5,
+   1819.0,
+   1841.0,
+   1841.0,
+   1936.1,
+   1950.1,
+   1890.6,
+   1935.2,
+   2026.1,
+   1999.3,
+   1974.4,
+   2012.6,
+   2002.9,
+   1982.0,
+   1972.8,
+   2039.6,
+   2079.4,
+   1992.1,
+   1983.3,
+   2064.4,
+   2117.3,
+   2157.4,
+   2157.4,
+   2144.9,
+   2201.4,
+   2326.0,
+   2386.5,
+   2416.4,
+   2373.4,
+   2366.7,
+   2624.9,
+   2544.7,
+   2642.5,
+   2770.7,
+   2734.9,
+   2778.2,
+   2698.0,
+   2730.8,
+   2696.1,
+   2857.2,
+   2849.8,
+   2865.4,
+   2666.2,
+   2666.2,
+   2716.8,
+   2895.1,
+   2859.0,
+   2825.6,
+   2865.2,
+   2789.8,
+   2737.0,
+   2705.6,
+   2803.6,
+   2745.4,
+   2719.6,
+   2717.2,
+   2622.4,
+   2717.2,
+   2712.3,
+   2678.0,
+   2675.2,
+   2775.2,
+   2749.9,
+   2689.2,
+   2778.3,
+   2705.4,
+   2657.8,
+   2648.8,
+   2684.4,
+   2752.1,
+   2795.9,
+   2846.4,
+   2794.3,
+   2810.4,
+   2908.3,
+   3096.2,
+   3050.0,
+   3059.8,
+   3152.9,
+   3240.2,
+   3244.7,
+   3222.7,
+   3261.4,
+   3253.1,
+   3151.0,
+   3081.8,
+   3065.0,
+   3026.5,
+   3011.6,
+   3089.4,
+   2988.6,
+   2866.5,
+   2905.9,
+   2814.4,
+   2876.2,
+   2867.5,
+   2850.4,
+   2915.7,
+   2906.2,
+   2906.2,
+   2950.7,
+   3122.4,
+   3110.6,
+   3147.8,
+   3088.0,
+   3034.3,
+   3035.2,
+   3313.6,
+   3444.9,
+   3547.8,
+   3485.6,
+   3494.5,
+   3432.8,
+   3381.4
   ],
   "streak": 1,
-  "mcap_cr": 26198.7582,
-  "fundamentals_as_of": "2026-10-04"
+  "mcap_cr": 14913.1559,
+  "fundamentals_as_of": "2026-10-05"
  },
  "bench": [
   {
-   "ticker": "AZAD.NS",
-   "name": "AZAD ENGINEERING LIMITED",
-   "score": 64.7,
-   "line": "Operates in defence and aerospace and export manufacturing. Revenue of Rs 595 cr has compounded at 35% a year over three years. The latest quarter grew 36% year on year. Operating margin moved +4.8 pp while ROCE sits at ",
-   "mcap_cr": 18425.1711,
+   "ticker": "MANORAMA.NS",
+   "name": "MANORAMA INDUSTRIES LTD",
+   "score": 72.3,
+   "line": "Revenue of Rs 1,362 cr has compounded at 58% a year over three years. The latest quarter grew 74% year on year. Operating margin moved +11.6 pp while ROCE sits at 47%. Only 2 analysts cover it and institutions hold 4%, s",
+   "mcap_cr": 12319.5965,
    "weakest": "ownership"
   },
   {
-   "ticker": "NEULANDLAB.NS",
-   "name": "NEULAND LAB LTD.",
-   "score": 63.3,
-   "line": "Revenue of Rs 1,932 cr has compounded at 19% a year over three years. The latest quarter grew 119% year on year. Operating margin moved +5.2 pp while ROCE sits at 23%. Only 4 analysts cover it and institutions hold 28%, ",
-   "mcap_cr": 27622.7523,
-   "weakest": "runway"
+   "ticker": "PREMIERENE.NS",
+   "name": "PREMIER ENERGIES LIMITED",
+   "score": 66.5,
+   "line": "Operates in electronics and semiconductors and energy transition. Revenue of Rs 7,807 cr has compounded at 76% a year over three years. The latest quarter grew 52% year on year. Operating margin moved +21.4 pp while ROCE",
+   "mcap_cr": 39761.1532,
+   "weakest": "ownership"
   },
   {
-   "ticker": "RUBICON.NS",
-   "name": "RUBICON RESEARCH LIMITED",
-   "score": 63.2,
-   "line": "Operates in energy transition. Revenue of Rs 1,731 cr has compounded at 37% a year over three years. The latest quarter grew 49% year on year. Operating margin moved +3.2 pp while ROCE sits at 24%. Only 2 analysts cover ",
-   "mcap_cr": 26948.5933,
-   "weakest": "valuation"
+   "ticker": "ATLANTAELE.NS",
+   "name": "ATLANTA ELECTRICALS LTD",
+   "score": 66.0,
+   "line": "Operates in energy transition and railways and infrastructure. Revenue of Rs 1,826 cr has compounded at 28% a year over three years. The latest quarter grew 48% year on year. Operating margin moved +1.9 pp while ROCE sit",
+   "mcap_cr": 14005.9509,
+   "weakest": "ownership"
   },
   {
-   "ticker": "PARADEEP.NS",
-   "name": "PARADEEP PHOSPHATES LTD",
-   "score": 60.5,
-   "line": "Revenue of Rs 10,191 cr has compounded at 29% a year over three years. The latest quarter grew 46% year on year. Operating margin moved +1.6 pp while ROCE sits at 21%. Only 4 analysts cover it and institutions hold 23%, ",
-   "mcap_cr": 15681.6556,
-   "weakest": "runway"
+   "ticker": "SJS.NS",
+   "name": "SJS ENTERPRISES LIMITED",
+   "score": 65.4,
+   "line": "Operates in export manufacturing. Revenue of Rs 952 cr has compounded at 30% a year over three years. The latest quarter grew 30% year on year. Operating margin moved +3.5 pp while ROCE sits at 26%. Only 5 analysts cover",
+   "mcap_cr": 6657.5921,
+   "weakest": "ownership"
   }
  ],
  "track": [
+  {
+   "start": "2026-10-05",
+   "last": "2026-10-05",
+   "days": 1,
+   "ticker": "SEDEMAC.NS",
+   "name": "SEDEMAC MECHATRONICS LTD",
+   "price": 3381.4,
+   "score": 73.6,
+   "ret": 0.0,
+   "nifty_ret": 0.0,
+   "active": true
+  },
   {
    "start": "2026-10-01",
    "last": "2026-10-01",
@@ -581,18 +662,110 @@
    "name": "ACUTAAS CHEMICALS LIMITED",
    "price": 3196.5,
    "score": 65.6,
-   "ret": 0.0,
-   "nifty_ret": 0.0,
-   "active": true
+   "ret": -1.9834,
+   "nifty_ret": 0.5562,
+   "active": false
   }
  ],
  "track_summary": {
-  "episodes": 1,
-  "measured": 1,
+  "episodes": 2,
+  "measured": 2,
   "beat": 0,
-  "avg_excess": 0.0
+  "avg_excess": -1.2698
  },
  "dd_rejected": [],
  "dd_blocked": false,
- "dd_provider": "gemini / gemini-3.1-flash-lite"
+ "dd_provider": "gemini / gemini-3.1-flash-lite",
+ "neg_filing_rejects": [
+  {
+   "ticker": "BLS.NS",
+   "name": "BLS INTL SERVS LTD",
+   "score": 57.0,
+   "events": [
+    {
+     "date": "2026-09-30",
+     "labels": [
+      "Governance"
+     ],
+     "text": "BLS International Services Limited has informed the Exchange about Resignation of Statutory Auditor",
+     "url": "https://nsearchives.nseindia.com/corporate/BLS_ROSA_99452_KMP_Doc.zip"
+    }
+   ]
+  },
+  {
+   "ticker": "EMMVEE.NS",
+   "name": "EMMVEE PHOTOVOLTAIC PWR L",
+   "score": 70.1,
+   "events": [
+    {
+     "date": "2026-10-01",
+     "labels": [
+      "Regulatory"
+     ],
+     "text": "Emmvee Photovoltaic Power Limited has informed the Exchange about show cause notice received from GST department.",
+     "url": "https://nsearchives.nseindia.com/corporate/EMMVEE_01102026190343_Regulation_30_stock_exchange_Show_cause_notice_01102026.pdf"
+    }
+   ]
+  },
+  {
+   "ticker": "PRIVISCL.NS",
+   "name": "PRIVI SPECIALITY CHE LTD",
+   "score": 59.1,
+   "events": [
+    {
+     "date": "2026-09-24",
+     "labels": [
+      "Distress"
+     ],
+     "text": "Privi Speciality Chemicals Limited has informed the Exchange regarding Notice of Shareholders Meeting Convened in accordance with the order of Hon'ble NCLT, to be held on October 27, 2026 @12:30pm",
+     "url": "https://nsearchives.nseindia.com/corporate/FAIRCHEMDP_24092026185207_LettertoSENoticeofShholdeMeeting.pdf"
+    }
+   ]
+  },
+  {
+   "ticker": "RRKABEL.NS",
+   "name": "R R KABEL LIMITED",
+   "score": 59.5,
+   "events": [
+    {
+     "date": "2026-08-29",
+     "labels": [
+      "Regulatory"
+     ],
+     "text": "RRKABEL: R R Kabel Limited has informed the Exchange regarding receipt of a Show Cause-cum-Demand Notice from the GST Department under Regulation 30 of the SEBI Listing Regulations.",
+     "url": "https://nsearchives.nseindia.com/corporate/RRKL1995_29082026180828_Intimation_GST_SCN_27_08_26.pdf"
+    }
+   ]
+  },
+  {
+   "ticker": "CAPILLARY.NS",
+   "name": "CAPILLARY TECHNO INDIA L",
+   "score": 60.5,
+   "events": [
+    {
+     "date": "2026-07-31",
+     "labels": [
+      "Governance"
+     ],
+     "text": "Capillary Technologies India Limited has informed the Exchange about Initiation of Forensic Audit",
+     "url": "https://nsearchives.nseindia.com/corporate/CAPILLARY12_31072026143127_Forensic_Audit.pdf"
+    }
+   ]
+  },
+  {
+   "ticker": "UTLSOLAR.NS",
+   "name": "FUJIYAMA POWER SYSTEMS L",
+   "score": 73.5,
+   "events": [
+    {
+     "date": "2026-06-18",
+     "labels": [
+      "Regulatory"
+     ],
+     "text": "Fujiyama Power Systems Limited has informed the Exchange about a Show Cause Notice received from the Office of Noida Customs Commissionerate",
+     "url": "https://nsearchives.nseindia.com/corporate/UTLSOLAR2024_18062026182342_NSE_BSE_Show_Cause_Notice_CustomOffice.pdf"
+    }
+   ]
+  }
+ ]
 }
