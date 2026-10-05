@@ -33,7 +33,7 @@ import pandas as pd
 import requests
 
 from render import render_page
-from signals import NSEClient, fetch_signals, LABELS
+from signals import NSEClient, fetch_signals, LABELS, NEGATIVE
 import diligence
 import notify
 
@@ -159,8 +159,11 @@ def load_json(path, default):
 
 
 def save_json(path, obj):
-    Path(path).parent.mkdir(parents=True, exist_ok=True)
-    Path(path).write_text(json.dumps(clean(obj), indent=1))
+    path = Path(path)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    tmp = path.with_suffix(path.suffix + ".tmp")
+    tmp.write_text(json.dumps(clean(obj), indent=1))
+    tmp.replace(path)  # atomic rename
 
 
 # ---------------------------------------------------------------- universe
@@ -863,31 +866,45 @@ def main():
                       key=lambda k: (k in cache, (cache.get(k) or {}).get("fetched") or ""))[:a.max_fetch]
         print(f"Refreshing fundamentals for {len(todo)} tickers")
         fails = 0
-        for i, tk in enumerate(todo, 1):
-            fund_stats["attempted"] += 1
-            try:
-                cache[tk] = fetch_fund_real(tk)
-                fails = 0
-            except Exception as e:
-                msg = str(e)
-                if any(w in msg for w in ("404", "Not Found", "No data found", "delisted")):
-                    # genuinely unknown to Yahoo: park it for a week instead of retrying every run
-                    cache[tk] = dict(failed=True, error=msg[:80], fetched=today)
-                    continue
-                fails += 1
-                fund_stats["failed"] += 1
-                print(f"  {tk} failed: {str(e)[:80]}")
-                if fails >= 15:
-                    print("Too many consecutive failures (likely rate-limited); stopping early.")
-                    break
-            if i % 20 == 0:
-                print(f"  fundamentals {i}/{len(todo)}")
-                save_json(CACHE_JSON, cache)
+        import signal
+
+        def _stop(signum, frame):
+            raise KeyboardInterrupt  # lets the finally block below save progress when the run is cancelled
+        try:
+            signal.signal(signal.SIGTERM, _stop)
+        except Exception:
+            pass
+        try:
+            for i, tk in enumerate(todo, 1):
+                fund_stats["attempted"] += 1
+                try:
+                    cache[tk] = fetch_fund_real(tk)
+                    fails = 0
+                except Exception as e:
+                    msg = str(e)
+                    if any(w in msg for w in ("404", "Not Found", "No data found", "delisted")):
+                        # genuinely unknown to Yahoo: park it for a week instead of retrying every run
+                        cache[tk] = dict(failed=True, error=msg[:80], fetched=today)
+                        continue
+                    fails += 1
+                    fund_stats["failed"] += 1
+                    print(f"  {tk} failed: {str(e)[:80]}")
+                    if fails >= 15:
+                        print("Too many consecutive failures (likely rate-limited); stopping early.")
+                        break
+                if i % 10 == 0:
+                    print(f"  fundamentals {i}/{len(todo)}")
+                    save_json(CACHE_JSON, cache)
+        finally:
+            save_json(CACHE_JSON, cache)
             time.sleep(a.delay)
         save_json(CACHE_JSON, cache)
 
     # ---- score (pass 1: price + fundamentals only)
+    neg_detail = []
+
     def evaluate(sigs):
+        neg_detail.clear()
         scored_, rejected_ = [], {}
         for tk, t in liquid.items():
             f = cache.get(tk)
@@ -904,6 +921,10 @@ def main():
                 continue
             if not ok:
                 rejected_[why] = rejected_.get(why, 0) + 1
+                if why.startswith("negative filing"):
+                    bad = [e for e in (m.get("events") or []) if any(c in NEGATIVE for c in e["cats"])][:2]
+                    neg_detail.append(dict(ticker=tk, name=m.get("name"), score=round(sc, 1), events=[
+                        dict(date=e["date"], labels=[LABELS[c] for c in e["cats"] if c in NEGATIVE], text=e["text"], url=e.get("url")) for e in bad]))
                 continue
             scored_.append(dict(ticker=tk, m=m, pil=pil, score=sc, flags=fl, spark=t["spark"]))
         scored_.sort(key=lambda x: -x["score"])
@@ -949,12 +970,16 @@ def main():
         if checked:  # rank only companies whose live signals we actually saw
             scored = [x for x in scored if x["ticker"] in checked]
         print(f"Signals seen for {len(checked)}; eligible after signals: {len(scored)}; rejected: {rejected}")
+        for d in neg_detail:
+            for e in d["events"]:
+                print(f"  NEGATIVE FILING {d['ticker']} {e['date']} [{', '.join(e['labels'])}]: {e['text'][:110]}")
 
     picks = load_json(PICKS_JSON, [])
     result = dict(generated=today, demo=a.demo, universe=universe_n, liquid=len(liquid),
                   with_data=sum(1 for k in liquid if k in cache and not cache[k].get('failed')), eligible=len(scored), fund_stats=fund_stats,
                   rejected=rejected, signals=status, weights=WEIGHTS, pillar_names=PILLAR_NAMES, verify=VERIFY,
-                  pick=None, bench=[], track=[], track_summary={}, dd_rejected=[], dd_blocked=False, dd_provider=None)
+                  pick=None, bench=[], track=[], track_summary={}, dd_rejected=[], dd_blocked=False, dd_provider=None,
+                  neg_filing_rejects=neg_detail[:10])
 
     # ---- stability: keep yesterday's pick unless clearly beaten
     order = list(scored)

@@ -190,6 +190,15 @@ def render_page(r):
             h.append(f'<h3>{e(d["name"] or d["ticker"])} <span class="tk">{e(d["ticker"])}, score {d["score"]:.0f}</span></h3><p class="note" style="margin:0">{e(d["reason"])}</p>{_links(d.get("sources"))}')
         h.append('<p class="note">These scored higher but the research found serious concerns. Verify before dismissing or trusting that result.</p></div>')
 
+    if r.get("neg_filing_rejects"):
+        h.append('<div class="panel"><h2>Rejected for negative filings</h2><p class="note">Matched by keywords, so some may be routine text. Open the filing before dismissing a company.</p>')
+        for d in r["neg_filing_rejects"]:
+            h.append(f'<h3>{e(d["name"] or d["ticker"])} <span class="tk">{e(d["ticker"])}, score {d["score"]:.0f}</span></h3>')
+            for ev in d["events"]:
+                link = f' <a href="{e(ev["url"])}" rel="noopener">filing</a>' if ev.get("url") and str(ev["url"]).startswith("http") else ""
+                h.append(f'<p class="note" style="margin:0"><b class="neg">{e(", ".join(ev["labels"]))}</b> {e(ev["date"])}{link}<br>{e(ev["text"])}</p>')
+        h.append('</div>')
+
     if p and r["bench"]:
         h.append('<div class="panel"><h2>Next in line</h2><p class="note">Not yet due-diligenced.</p>')
         for b in r["bench"]:
