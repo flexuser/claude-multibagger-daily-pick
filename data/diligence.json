@@ -1,0 +1,32 @@
+{
+ "ACUTAAS.NS": {
+  "verdict": "yellow",
+  "summary": "Acutaas Chemicals is a specialty chemicals manufacturer exhibiting high margins and strong ROCE, but its recent valuation (PE 68) and negative free cash flow raise concerns regarding capital efficiency. The company is currently undergoing a significant internal restructuring involving the transfer of promoter control to a family trust.",
+  "management": "The company is led by the Vaghasia family. Recent filings indicate a transition of control from individual promoters to the 'Vaghasia Family Trust' for succession planning purposes, a common but often opaque mechanism in Indian corporate governance.",
+  "controversies": "SEBI granted an exemption to the Vaghasia Family Trust regarding the open offer requirements for the acquisition of control in September 2025. No other major litigation, ED/tax investigations, or auditor resignations were identified, though the low promoter holding (38%) warrants monitoring.",
+  "business_update": "The company recently announced an acquisition (Sept 2026) to expand its footprint. Financials show high operating margins (33.5%), though the 12% share dilution over three years and negative free cash flow suggest that growth is being funded by equity rather than internal accruals.",
+  "order_book": "not found",
+  "strengths": [
+   "High operating margins of 33.5%",
+   "Strong ROCE of 28%",
+   "Low debt-to-equity ratio of 0.02"
+  ],
+  "risks": [
+   "High valuation (PE 68) relative to growth",
+   "Negative free cash flow indicating capital-intensive growth",
+   "Promoter holding is relatively low at 38%",
+   "Dilution of equity by 12% over the last three years"
+  ],
+  "sources": [
+   "https://www.sebi.gov.in/sebi_data/attachdocs/sep-2025/exemption_order_acutaas_chemicals1.pdf",
+   "https://economictimes.indiatimes.com/acutaas-chemicals-ltd/stocksupdate/companyid-2015548.cms",
+   "https://www.linkedin.com/pulse/sebi-exemption-order-acutaas-chemicals-limited-filfox-law-group-erdcf",
+   "https://www.linkedin.com/posts/alagarassociates_sebi-exemption-order-acutaas-chemicals-activity-7379781939148484608-i1YF"
+  ],
+  "status": "ok",
+  "provider": "gemini",
+  "model": "gemini-3.1-flash-lite",
+  "method": "DuckDuckGo snippets (weaker)",
+  "date": "2026-10-04"
+ }
+}
