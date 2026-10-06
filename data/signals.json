@@ -1,6 +1,6 @@
 {
  "EMMVEE.NS": {
-  "fetched": "2026-10-05",
+  "fetched": "2026-10-06",
   "data": {
    "status": {
     "announcements": true,
@@ -44,7 +44,7 @@
   }
  },
  "ACUTAAS.NS": {
-  "fetched": "2026-10-05",
+  "fetched": "2026-10-06",
   "data": {
    "status": {
     "announcements": true,
@@ -78,7 +78,7 @@
   }
  },
  "AZAD.NS": {
-  "fetched": "2026-10-05",
+  "fetched": "2026-10-06",
   "data": {
    "status": {
     "announcements": true,
@@ -90,7 +90,7 @@
    "event_score": 0,
    "event_counts": {},
    "neg_events": 0,
-   "pledge": null,
+   "pledge": 0.0,
    "pledge_chg": null,
    "promoter_chg": 0.42,
    "promoter_now": 55.84,
@@ -100,7 +100,7 @@
   }
  },
  "RUBICON.NS": {
-  "fetched": "2026-10-05",
+  "fetched": "2026-10-06",
   "data": {
    "status": {
     "announcements": true,
@@ -170,7 +170,7 @@
   }
  },
  "NEULANDLAB.NS": {
-  "fetched": "2026-10-05",
+  "fetched": "2026-10-06",
   "data": {
    "status": {
     "announcements": true,
@@ -194,7 +194,7 @@
     "expansion": 1
    },
    "neg_events": 0,
-   "pledge": null,
+   "pledge": 2.29,
    "pledge_chg": null,
    "promoter_chg": -0.06,
    "promoter_now": 32.62,
@@ -204,7 +204,7 @@
   }
  },
  "PRIVISCL.NS": {
-  "fetched": "2026-10-05",
+  "fetched": "2026-10-06",
   "data": {
    "status": {
     "announcements": true,
@@ -213,6 +213,15 @@
     "insider": true
    },
    "events": [
+    {
+     "date": "2026-10-06",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "General Updates",
+     "text": "Privi Speciality Chemicals Limited has informed the Exchange about Notice of Meeting of Equity Shareholders (Meeting) of the Company in the matter of Scheme of Amalgamation scheduled to be held on  on",
+     "url": "https://nsearchives.nseindia.com/corporate/FAIRCHEMDP_06102026111909_NoticetoNSE.pdf"
+    },
     {
      "date": "2026-09-24",
      "cats": [
@@ -225,10 +234,11 @@
    ],
    "event_score": 0,
    "event_counts": {
+    "acquisition": 1,
     "distress": 1
    },
    "neg_events": 1,
-   "pledge": null,
+   "pledge": 0.0,
    "pledge_chg": null,
    "promoter_chg": -9.29,
    "promoter_now": 60.6,
@@ -238,7 +248,7 @@
   }
  },
  "PARADEEP.NS": {
-  "fetched": "2026-10-05",
+  "fetched": "2026-10-06",
   "data": {
    "status": {
     "announcements": true,
@@ -262,7 +272,7 @@
     "acquisition": 1
    },
    "neg_events": 0,
-   "pledge": null,
+   "pledge": 15.33,
    "pledge_chg": null,
    "promoter_chg": 0.66,
    "promoter_now": 57.86,
@@ -272,7 +282,7 @@
   }
  },
  "RRKABEL.NS": {
-  "fetched": "2026-10-05",
+  "fetched": "2026-10-06",
   "data": {
    "status": {
     "announcements": true,
@@ -345,7 +355,7 @@
   }
  },
  "HSCL.NS": {
-  "fetched": "2026-10-05",
+  "fetched": "2026-10-06",
   "data": {
    "status": {
     "announcements": true,
@@ -424,7 +434,7 @@
     "approval": 1
    },
    "neg_events": 0,
-   "pledge": null,
+   "pledge": 0.0,
    "pledge_chg": null,
    "promoter_chg": 0.93,
    "promoter_now": 52.5,
@@ -434,7 +444,7 @@
   }
  },
  "CARTRADE.NS": {
-  "fetched": "2026-10-05",
+  "fetched": "2026-10-06",
   "data": {
    "status": {
     "announcements": true,
@@ -490,7 +500,7 @@
   }
  },
  "TDPOWERSYS.NS": {
-  "fetched": "2026-10-05",
+  "fetched": "2026-10-06",
   "data": {
    "status": {
     "announcements": true,
@@ -543,7 +553,7 @@
     "bonus_split": 1
    },
    "neg_events": 0,
-   "pledge": null,
+   "pledge": 0.0,
    "pledge_chg": null,
    "promoter_chg": -0.01,
    "promoter_now": 26.87,
@@ -553,7 +563,7 @@
   }
  },
  "SCI.NS": {
-  "fetched": "2026-10-05",
+  "fetched": "2026-10-06",
   "data": {
    "status": {
     "announcements": true,
@@ -565,7 +575,7 @@
    "event_score": 0,
    "event_counts": {},
    "neg_events": 0,
-   "pledge": null,
+   "pledge": 0.0,
    "pledge_chg": null,
    "promoter_chg": 0.0,
    "promoter_now": 63.75,
@@ -2228,7 +2238,7 @@
   }
  },
  "UTLSOLAR.NS": {
-  "fetched": "2026-10-05",
+  "fetched": "2026-10-06",
   "data": {
    "status": {
     "announcements": true,
@@ -2291,7 +2301,7 @@
   }
  },
  "SEDEMAC.NS": {
-  "fetched": "2026-10-05",
+  "fetched": "2026-10-06",
   "data": {
    "status": {
     "announcements": true,
@@ -2371,7 +2381,7 @@
   }
  },
  "MANORAMA.NS": {
-  "fetched": "2026-10-05",
+  "fetched": "2026-10-06",
   "data": {
    "status": {
     "announcements": true,
@@ -2423,7 +2433,7 @@
   }
  },
  "PREMIERENE.NS": {
-  "fetched": "2026-10-05",
+  "fetched": "2026-10-06",
   "data": {
    "status": {
     "announcements": true,
@@ -2485,7 +2495,7 @@
   }
  },
  "SJS.NS": {
-  "fetched": "2026-10-05",
+  "fetched": "2026-10-06",
   "data": {
    "status": {
     "announcements": true,
@@ -2538,7 +2548,7 @@
     "expansion": 1
    },
    "neg_events": 0,
-   "pledge": null,
+   "pledge": 4.5,
    "pledge_chg": null,
    "promoter_chg": -1.45,
    "promoter_now": 20.15,
@@ -2548,7 +2558,7 @@
   }
  },
  "ATLANTAELE.NS": {
-  "fetched": "2026-10-05",
+  "fetched": "2026-10-06",
   "data": {
    "status": {
     "announcements": true,
@@ -2591,7 +2601,7 @@
   }
  },
  "GPPL.NS": {
-  "fetched": "2026-10-05",
+  "fetched": "2026-10-06",
   "data": {
    "status": {
     "announcements": true,
@@ -2625,7 +2635,7 @@
     "acquisition": 1
    },
    "neg_events": 0,
-   "pledge": null,
+   "pledge": 0.0,
    "pledge_chg": null,
    "promoter_chg": 0.0,
    "promoter_now": 44.01,
@@ -2635,7 +2645,7 @@
   }
  },
  "PRICOLLTD.NS": {
-  "fetched": "2026-10-05",
+  "fetched": "2026-10-06",
   "data": {
    "status": {
     "announcements": true,
@@ -2678,7 +2688,7 @@
   }
  },
  "QPOWER.NS": {
-  "fetched": "2026-10-05",
+  "fetched": "2026-10-06",
   "data": {
    "status": {
     "announcements": true,
@@ -2722,7 +2732,7 @@
   }
  },
  "GOLDIAM.NS": {
-  "fetched": "2026-10-05",
+  "fetched": "2026-10-06",
   "data": {
    "status": {
     "announcements": true,
@@ -2793,7 +2803,7 @@
     "bonus_split": 2
    },
    "neg_events": 0,
-   "pledge": null,
+   "pledge": 0.0,
    "pledge_chg": null,
    "promoter_chg": 0.0,
    "promoter_now": 58.51,
@@ -2803,7 +2813,7 @@
   }
  },
  "CAPILLARY.NS": {
-  "fetched": "2026-10-05",
+  "fetched": "2026-10-06",
   "data": {
    "status": {
     "announcements": true,
@@ -2856,7 +2866,7 @@
   }
  },
  "JSLL.NS": {
-  "fetched": "2026-10-05",
+  "fetched": "2026-10-06",
   "data": {
    "status": {
     "announcements": true,
@@ -3010,7 +3020,7 @@
   }
  },
  "ELLEN.NS": {
-  "fetched": "2026-10-05",
+  "fetched": "2026-10-06",
   "data": {
    "status": {
     "announcements": true,
@@ -3032,7 +3042,7 @@
   }
  },
  "IMFA.NS": {
-  "fetched": "2026-10-05",
+  "fetched": "2026-10-06",
   "data": {
    "status": {
     "announcements": true,
@@ -3056,7 +3066,7 @@
     "acquisition": 1
    },
    "neg_events": 0,
-   "pledge": null,
+   "pledge": 0.0,
    "pledge_chg": null,
    "promoter_chg": 0.0,
    "promoter_now": 58.69,
@@ -3066,7 +3076,7 @@
   }
  },
  "LUMAXTECH.NS": {
-  "fetched": "2026-10-05",
+  "fetched": "2026-10-06",
   "data": {
    "status": {
     "announcements": true,
@@ -3109,7 +3119,7 @@
     "acquisition": 2
    },
    "neg_events": 0,
-   "pledge": null,
+   "pledge": 0.0,
    "pledge_chg": null,
    "promoter_chg": 0.0,
    "promoter_now": 55.98,
@@ -3119,7 +3129,7 @@
   }
  },
  "PRECWIRE.NS": {
-  "fetched": "2026-10-05",
+  "fetched": "2026-10-06",
   "data": {
    "status": {
     "announcements": true,
@@ -3171,7 +3181,7 @@
     "acquisition": 2
    },
    "neg_events": 0,
-   "pledge": null,
+   "pledge": 0.0,
    "pledge_chg": null,
    "promoter_chg": -0.87,
    "promoter_now": 56.62,
@@ -3181,7 +3191,7 @@
   }
  },
  "RATEGAIN.NS": {
-  "fetched": "2026-10-05",
+  "fetched": "2026-10-06",
   "data": {
    "status": {
     "announcements": true,
@@ -3215,7 +3225,7 @@
   }
  },
  "SHILPAMED.NS": {
-  "fetched": "2026-10-05",
+  "fetched": "2026-10-06",
   "data": {
    "status": {
     "announcements": true,
@@ -3277,7 +3287,7 @@
     "expansion": 1
    },
    "neg_events": 0,
-   "pledge": null,
+   "pledge": 8.73,
    "pledge_chg": null,
    "promoter_chg": -4.1,
    "promoter_now": 40.13,
@@ -3287,7 +3297,7 @@
   }
  },
  "BLACKBUCK.NS": {
-  "fetched": "2026-10-05",
+  "fetched": "2026-10-06",
   "data": {
    "status": {
     "announcements": true,
@@ -3320,7 +3330,7 @@
     "acquisition": 2
    },
    "neg_events": 0,
-   "pledge": null,
+   "pledge": 1.38,
    "pledge_chg": null,
    "promoter_chg": -2.43,
    "promoter_now": 25.0,
@@ -3330,7 +3340,7 @@
   }
  },
  "AMAGI.NS": {
-  "fetched": "2026-10-05",
+  "fetched": "2026-10-06",
   "data": {
    "status": {
     "announcements": true,
@@ -3374,7 +3384,7 @@
     "expansion": 1
    },
    "neg_events": 0,
-   "pledge": null,
+   "pledge": 3.1,
    "pledge_chg": null,
    "promoter_chg": 0.0,
    "promoter_now": 14.92,
@@ -3384,7 +3394,7 @@
   }
  },
  "SHAILY.NS": {
-  "fetched": "2026-10-05",
+  "fetched": "2026-10-06",
   "data": {
    "status": {
     "announcements": true,
@@ -3406,7 +3416,7 @@
   }
  },
  "GRWRHITECH.NS": {
-  "fetched": "2026-10-05",
+  "fetched": "2026-10-06",
   "data": {
    "status": {
     "announcements": true,
@@ -3590,7 +3600,7 @@
   }
  },
  "TIPSMUSIC.NS": {
-  "fetched": "2026-10-05",
+  "fetched": "2026-10-06",
   "data": {
    "status": {
     "announcements": true,
@@ -3660,7 +3670,7 @@
     "acquisition": 1
    },
    "neg_events": 0,
-   "pledge": null,
+   "pledge": 0.0,
    "pledge_chg": null,
    "promoter_chg": 0.0,
    "promoter_now": 64.15,
@@ -3670,7 +3680,7 @@
   }
  },
  "THYROCARE.NS": {
-  "fetched": "2026-10-05",
+  "fetched": "2026-10-06",
   "data": {
    "status": {
     "announcements": true,
@@ -3752,7 +3762,7 @@
     "approval": 3
    },
    "neg_events": 0,
-   "pledge": null,
+   "pledge": 100.0,
    "pledge_chg": null,
    "promoter_chg": -10.14,
    "promoter_now": 60.92,
@@ -3762,7 +3772,7 @@
   }
  },
  "UNIMECH.NS": {
-  "fetched": "2026-10-05",
+  "fetched": "2026-10-06",
   "data": {
    "status": {
     "announcements": true,
@@ -3815,7 +3825,7 @@
   }
  },
  "VIKRAMSOLR.NS": {
-  "fetched": "2026-10-05",
+  "fetched": "2026-10-06",
   "data": {
    "status": {
     "announcements": true,
@@ -3923,7 +3933,7 @@
     "distress": 7
    },
    "neg_events": 7,
-   "pledge": null,
+   "pledge": 9.24,
    "pledge_chg": null,
    "promoter_chg": -0.11,
    "promoter_now": 63.01,
@@ -3933,7 +3943,7 @@
   }
  },
  "V2RETAIL.NS": {
-  "fetched": "2026-10-05",
+  "fetched": "2026-10-06",
   "data": {
    "status": {
     "announcements": true,
@@ -3967,7 +3977,7 @@
     "acquisition": 1
    },
    "neg_events": 0,
-   "pledge": null,
+   "pledge": 1.79,
    "pledge_chg": null,
    "promoter_chg": 0.0,
    "promoter_now": 51.43,
@@ -3977,7 +3987,7 @@
   }
  },
  "SUPRIYA.NS": {
-  "fetched": "2026-10-05",
+  "fetched": "2026-10-06",
   "data": {
    "status": {
     "announcements": true,
