@@ -1,6 +1,6 @@
 {
  "EMMVEE.NS": {
-  "fetched": "2026-10-06",
+  "fetched": "2026-10-07",
   "data": {
    "status": {
     "announcements": true,
@@ -44,7 +44,7 @@
   }
  },
  "ACUTAAS.NS": {
-  "fetched": "2026-10-06",
+  "fetched": "2026-10-07",
   "data": {
    "status": {
     "announcements": true,
@@ -78,7 +78,7 @@
   }
  },
  "AZAD.NS": {
-  "fetched": "2026-10-06",
+  "fetched": "2026-10-07",
   "data": {
    "status": {
     "announcements": true,
@@ -100,7 +100,7 @@
   }
  },
  "RUBICON.NS": {
-  "fetched": "2026-10-06",
+  "fetched": "2026-10-07",
   "data": {
    "status": {
     "announcements": true,
@@ -170,7 +170,7 @@
   }
  },
  "NEULANDLAB.NS": {
-  "fetched": "2026-10-06",
+  "fetched": "2026-10-07",
   "data": {
    "status": {
     "announcements": true,
@@ -204,7 +204,7 @@
   }
  },
  "PRIVISCL.NS": {
-  "fetched": "2026-10-06",
+  "fetched": "2026-10-07",
   "data": {
    "status": {
     "announcements": true,
@@ -248,7 +248,7 @@
   }
  },
  "PARADEEP.NS": {
-  "fetched": "2026-10-06",
+  "fetched": "2026-10-07",
   "data": {
    "status": {
     "announcements": true,
@@ -282,7 +282,7 @@
   }
  },
  "RRKABEL.NS": {
-  "fetched": "2026-10-06",
+  "fetched": "2026-10-07",
   "data": {
    "status": {
     "announcements": true,
@@ -355,7 +355,7 @@
   }
  },
  "HSCL.NS": {
-  "fetched": "2026-10-06",
+  "fetched": "2026-10-07",
   "data": {
    "status": {
     "announcements": true,
@@ -444,7 +444,7 @@
   }
  },
  "CARTRADE.NS": {
-  "fetched": "2026-10-06",
+  "fetched": "2026-10-07",
   "data": {
    "status": {
     "announcements": true,
@@ -500,7 +500,7 @@
   }
  },
  "TDPOWERSYS.NS": {
-  "fetched": "2026-10-06",
+  "fetched": "2026-10-07",
   "data": {
    "status": {
     "announcements": true,
@@ -509,6 +509,15 @@
     "insider": true
    },
    "events": [
+    {
+     "date": "2026-10-07",
+     "cats": [
+      "approval"
+     ],
+     "type": "Updates",
+     "text": "TD Power Systems Limited has informed the Exchange regarding 'Receipt of Trading Approval For 12,50,000 Equity Shares Allotted On Preferential Basis'.",
+     "url": "https://nsearchives.nseindia.com/corporate/TDPOWERSYS_07102026114016_Trading_Approval-_sg.pdf"
+    },
     {
      "date": "2026-10-02",
      "cats": [
@@ -548,22 +557,22 @@
    ],
    "event_score": 30,
    "event_counts": {
-    "approval": 2,
+    "approval": 3,
     "order_win": 1,
     "bonus_split": 1
    },
    "neg_events": 0,
    "pledge": 0.0,
    "pledge_chg": null,
-   "promoter_chg": -0.01,
-   "promoter_now": 26.87,
+   "promoter_chg": 0.28,
+   "promoter_now": 27.16,
    "pit_net_cr": 0.0,
    "pit_buys": 0,
    "pit_sells": 0
   }
  },
  "SCI.NS": {
-  "fetched": "2026-10-06",
+  "fetched": "2026-10-07",
   "data": {
    "status": {
     "announcements": true,
@@ -2238,7 +2247,7 @@
   }
  },
  "UTLSOLAR.NS": {
-  "fetched": "2026-10-06",
+  "fetched": "2026-10-07",
   "data": {
    "status": {
     "announcements": true,
@@ -2301,7 +2310,7 @@
   }
  },
  "SEDEMAC.NS": {
-  "fetched": "2026-10-06",
+  "fetched": "2026-10-07",
   "data": {
    "status": {
     "announcements": true,
@@ -2310,6 +2319,15 @@
     "insider": true
    },
    "events": [
+    {
+     "date": "2026-10-07",
+     "cats": [
+      "approval"
+     ],
+     "type": "General Updates",
+     "text": "SEDEMAC Mechatronics Limited has informed the Exchange about Intimation of In-Principle approval for listing of equity shares under SEDEMAC Mechatronics Employee Stock Option Scheme - 2025",
+     "url": "https://nsearchives.nseindia.com/corporate/SEDEMAC2007_07102026134435_20261007-IntimationofESOPapproval.pdf"
+    },
     {
      "date": "2026-09-28",
      "cats": [
@@ -2365,10 +2383,10 @@
      "url": "https://nsearchives.nseindia.com/corporate/team_bbodade_30042026164348_SEDEMAC.pdf"
     }
    ],
-   "event_score": 16,
+   "event_score": 22,
    "event_counts": {
-    "acquisition": 5,
-    "approval": 1
+    "approval": 2,
+    "acquisition": 5
    },
    "neg_events": 0,
    "pledge": null,
@@ -2381,7 +2399,7 @@
   }
  },
  "MANORAMA.NS": {
-  "fetched": "2026-10-06",
+  "fetched": "2026-10-07",
   "data": {
    "status": {
     "announcements": true,
@@ -2433,7 +2451,7 @@
   }
  },
  "PREMIERENE.NS": {
-  "fetched": "2026-10-06",
+  "fetched": "2026-10-07",
   "data": {
    "status": {
     "announcements": true,
@@ -2495,7 +2513,7 @@
   }
  },
  "SJS.NS": {
-  "fetched": "2026-10-06",
+  "fetched": "2026-10-07",
   "data": {
    "status": {
     "announcements": true,
@@ -2504,6 +2522,15 @@
     "insider": true
    },
    "events": [
+    {
+     "date": "2026-10-07",
+     "cats": [
+      "expansion"
+     ],
+     "type": "Capacity addition",
+     "text": "S.J.S. Enterprises Limited has informed the Exchange about Capacity addition",
+     "url": "https://nsearchives.nseindia.com/corporate/SJS_07102026194608_Reg30SJSEnterprisesCapacityAddition.pdf"
+    },
     {
      "date": "2026-09-30",
      "cats": [
@@ -2542,10 +2569,10 @@
      "url": "https://nsearchives.nseindia.com/corporate/SJS_04082026171127_Reg30Intimationofcapacityexpansion.pdf"
     }
    ],
-   "event_score": 22,
+   "event_score": 34,
    "event_counts": {
-    "acquisition": 4,
-    "expansion": 1
+    "expansion": 2,
+    "acquisition": 4
    },
    "neg_events": 0,
    "pledge": 4.5,
@@ -2558,7 +2585,7 @@
   }
  },
  "ATLANTAELE.NS": {
-  "fetched": "2026-10-06",
+  "fetched": "2026-10-07",
   "data": {
    "status": {
     "announcements": true,
@@ -2601,7 +2628,7 @@
   }
  },
  "GPPL.NS": {
-  "fetched": "2026-10-06",
+  "fetched": "2026-10-07",
   "data": {
    "status": {
     "announcements": true,
@@ -2645,7 +2672,7 @@
   }
  },
  "PRICOLLTD.NS": {
-  "fetched": "2026-10-06",
+  "fetched": "2026-10-07",
   "data": {
    "status": {
     "announcements": true,
@@ -2688,7 +2715,7 @@
   }
  },
  "QPOWER.NS": {
-  "fetched": "2026-10-06",
+  "fetched": "2026-10-07",
   "data": {
    "status": {
     "announcements": true,
@@ -2732,7 +2759,7 @@
   }
  },
  "GOLDIAM.NS": {
-  "fetched": "2026-10-06",
+  "fetched": "2026-10-07",
   "data": {
    "status": {
     "announcements": true,
@@ -2813,7 +2840,7 @@
   }
  },
  "CAPILLARY.NS": {
-  "fetched": "2026-10-06",
+  "fetched": "2026-10-07",
   "data": {
    "status": {
     "announcements": true,
@@ -2866,7 +2893,7 @@
   }
  },
  "JSLL.NS": {
-  "fetched": "2026-10-06",
+  "fetched": "2026-10-07",
   "data": {
    "status": {
     "announcements": true,
@@ -3020,7 +3047,7 @@
   }
  },
  "ELLEN.NS": {
-  "fetched": "2026-10-06",
+  "fetched": "2026-10-07",
   "data": {
    "status": {
     "announcements": true,
@@ -3042,7 +3069,7 @@
   }
  },
  "IMFA.NS": {
-  "fetched": "2026-10-06",
+  "fetched": "2026-10-07",
   "data": {
    "status": {
     "announcements": true,
@@ -3076,7 +3103,7 @@
   }
  },
  "LUMAXTECH.NS": {
-  "fetched": "2026-10-06",
+  "fetched": "2026-10-07",
   "data": {
    "status": {
     "announcements": true,
@@ -3129,7 +3156,7 @@
   }
  },
  "PRECWIRE.NS": {
-  "fetched": "2026-10-06",
+  "fetched": "2026-10-07",
   "data": {
    "status": {
     "announcements": true,
@@ -3191,7 +3218,7 @@
   }
  },
  "RATEGAIN.NS": {
-  "fetched": "2026-10-06",
+  "fetched": "2026-10-07",
   "data": {
    "status": {
     "announcements": true,
@@ -3225,7 +3252,7 @@
   }
  },
  "SHILPAMED.NS": {
-  "fetched": "2026-10-06",
+  "fetched": "2026-10-07",
   "data": {
    "status": {
     "announcements": true,
@@ -3287,7 +3314,7 @@
     "expansion": 1
    },
    "neg_events": 0,
-   "pledge": 8.73,
+   "pledge": 4.9,
    "pledge_chg": null,
    "promoter_chg": -4.1,
    "promoter_now": 40.13,
@@ -3297,7 +3324,7 @@
   }
  },
  "BLACKBUCK.NS": {
-  "fetched": "2026-10-06",
+  "fetched": "2026-10-07",
   "data": {
    "status": {
     "announcements": true,
@@ -3340,7 +3367,7 @@
   }
  },
  "AMAGI.NS": {
-  "fetched": "2026-10-06",
+  "fetched": "2026-10-07",
   "data": {
    "status": {
     "announcements": true,
@@ -3394,7 +3421,7 @@
   }
  },
  "SHAILY.NS": {
-  "fetched": "2026-10-06",
+  "fetched": "2026-10-07",
   "data": {
    "status": {
     "announcements": true,
@@ -3416,7 +3443,7 @@
   }
  },
  "GRWRHITECH.NS": {
-  "fetched": "2026-10-06",
+  "fetched": "2026-10-07",
   "data": {
    "status": {
     "announcements": true,
@@ -3600,7 +3627,7 @@
   }
  },
  "TIPSMUSIC.NS": {
-  "fetched": "2026-10-06",
+  "fetched": "2026-10-07",
   "data": {
    "status": {
     "announcements": true,
@@ -3680,7 +3707,7 @@
   }
  },
  "THYROCARE.NS": {
-  "fetched": "2026-10-06",
+  "fetched": "2026-10-07",
   "data": {
    "status": {
     "announcements": true,
@@ -3772,7 +3799,7 @@
   }
  },
  "UNIMECH.NS": {
-  "fetched": "2026-10-06",
+  "fetched": "2026-10-07",
   "data": {
    "status": {
     "announcements": true,
@@ -3825,7 +3852,7 @@
   }
  },
  "VIKRAMSOLR.NS": {
-  "fetched": "2026-10-06",
+  "fetched": "2026-10-07",
   "data": {
    "status": {
     "announcements": true,
@@ -3943,7 +3970,7 @@
   }
  },
  "V2RETAIL.NS": {
-  "fetched": "2026-10-06",
+  "fetched": "2026-10-07",
   "data": {
    "status": {
     "announcements": true,
@@ -3987,7 +4014,7 @@
   }
  },
  "SUPRIYA.NS": {
-  "fetched": "2026-10-06",
+  "fetched": "2026-10-07",
   "data": {
    "status": {
     "announcements": true,
