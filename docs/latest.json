@@ -20,13 +20,8 @@
   "stale financials": 1
  },
  "signals": {
-  "attempted": 40,
-  "ok": {
-   "announcements": 40,
-   "pledge": 40,
-   "shareholding": 40,
-   "insider": 40
-  },
+  "attempted": 0,
+  "ok": {},
   "blocked": false,
   "checked": 40,
   "demo": false
@@ -604,7 +599,7 @@
    3232.1,
    3229.8
   ],
-  "streak": 6,
+  "streak": 7,
   "mcap_cr": 14913.1559,
   "fundamentals_as_of": "2026-10-05"
  },
