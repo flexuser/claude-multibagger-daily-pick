@@ -1,6 +1,6 @@
 {
  "EMMVEE.NS": {
-  "fetched": "2026-10-08",
+  "fetched": "2026-10-09",
   "data": {
    "status": {
     "announcements": true,
@@ -44,7 +44,7 @@
   }
  },
  "ACUTAAS.NS": {
-  "fetched": "2026-10-08",
+  "fetched": "2026-10-09",
   "data": {
    "status": {
     "announcements": true,
@@ -78,7 +78,7 @@
   }
  },
  "AZAD.NS": {
-  "fetched": "2026-10-08",
+  "fetched": "2026-10-09",
   "data": {
    "status": {
     "announcements": true,
@@ -100,7 +100,7 @@
   }
  },
  "RUBICON.NS": {
-  "fetched": "2026-10-08",
+  "fetched": "2026-10-09",
   "data": {
    "status": {
     "announcements": true,
@@ -170,7 +170,7 @@
   }
  },
  "NEULANDLAB.NS": {
-  "fetched": "2026-10-08",
+  "fetched": "2026-10-09",
   "data": {
    "status": {
     "announcements": true,
@@ -204,7 +204,7 @@
   }
  },
  "PRIVISCL.NS": {
-  "fetched": "2026-10-08",
+  "fetched": "2026-10-09",
   "data": {
    "status": {
     "announcements": true,
@@ -248,7 +248,7 @@
   }
  },
  "PARADEEP.NS": {
-  "fetched": "2026-10-08",
+  "fetched": "2026-10-09",
   "data": {
    "status": {
     "announcements": true,
@@ -282,7 +282,7 @@
   }
  },
  "RRKABEL.NS": {
-  "fetched": "2026-10-08",
+  "fetched": "2026-10-09",
   "data": {
    "status": {
     "announcements": true,
@@ -355,7 +355,7 @@
   }
  },
  "HSCL.NS": {
-  "fetched": "2026-10-08",
+  "fetched": "2026-10-09",
   "data": {
    "status": {
     "announcements": true,
@@ -444,7 +444,7 @@
   }
  },
  "CARTRADE.NS": {
-  "fetched": "2026-10-08",
+  "fetched": "2026-10-09",
   "data": {
    "status": {
     "announcements": true,
@@ -466,7 +466,7 @@
   }
  },
  "THANGAMAYL.NS": {
-  "fetched": "2026-10-08",
+  "fetched": "2026-10-09",
   "data": {
    "status": {
     "announcements": true,
@@ -500,7 +500,7 @@
   }
  },
  "TDPOWERSYS.NS": {
-  "fetched": "2026-10-08",
+  "fetched": "2026-10-09",
   "data": {
    "status": {
     "announcements": true,
@@ -572,7 +572,7 @@
   }
  },
  "SCI.NS": {
-  "fetched": "2026-10-07",
+  "fetched": "2026-10-09",
   "data": {
    "status": {
     "announcements": true,
@@ -2247,7 +2247,7 @@
   }
  },
  "UTLSOLAR.NS": {
-  "fetched": "2026-10-08",
+  "fetched": "2026-10-09",
   "data": {
    "status": {
     "announcements": true,
@@ -2310,7 +2310,7 @@
   }
  },
  "SEDEMAC.NS": {
-  "fetched": "2026-10-08",
+  "fetched": "2026-10-09",
   "data": {
    "status": {
     "announcements": true,
@@ -2390,7 +2390,7 @@
   }
  },
  "MANORAMA.NS": {
-  "fetched": "2026-10-08",
+  "fetched": "2026-10-09",
   "data": {
    "status": {
     "announcements": true,
@@ -2442,7 +2442,7 @@
   }
  },
  "PREMIERENE.NS": {
-  "fetched": "2026-10-08",
+  "fetched": "2026-10-09",
   "data": {
    "status": {
     "announcements": true,
@@ -2504,7 +2504,7 @@
   }
  },
  "SJS.NS": {
-  "fetched": "2026-10-08",
+  "fetched": "2026-10-09",
   "data": {
    "status": {
     "announcements": true,
@@ -2576,7 +2576,7 @@
   }
  },
  "ATLANTAELE.NS": {
-  "fetched": "2026-10-08",
+  "fetched": "2026-10-09",
   "data": {
    "status": {
     "announcements": true,
@@ -2619,7 +2619,7 @@
   }
  },
  "GPPL.NS": {
-  "fetched": "2026-10-08",
+  "fetched": "2026-10-09",
   "data": {
    "status": {
     "announcements": true,
@@ -2636,21 +2636,11 @@
      "type": "Shareholders meeting",
      "text": "The previous submission of AGM proceedings did not include the resolutions proposed for approval of shareholders. Hence the proceedings of the AGM are being re-submitted herewith.",
      "url": "https://nsearchives.nseindia.com/corporate/GPPL_09092026195321_AGM_Proceedings.pdf"
-    },
-    {
-     "date": "2026-06-09",
-     "cats": [
-      "acquisition"
-     ],
-     "type": "Disclosure under SEBI Takeover Regulations",
-     "text": "Gujarat Pipavav Port Limited\u00a0has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) R",
-     "url": "https://nsearchives.nseindia.com/corporate/team_bbodade_27052026164045_GPPL.pdf"
     }
    ],
-   "event_score": 16,
+   "event_score": 6,
    "event_counts": {
-    "approval": 1,
-    "acquisition": 1
+    "approval": 1
    },
    "neg_events": 0,
    "pledge": 0.0,
@@ -2663,7 +2653,7 @@
   }
  },
  "PRICOLLTD.NS": {
-  "fetched": "2026-10-08",
+  "fetched": "2026-10-09",
   "data": {
    "status": {
     "announcements": true,
@@ -2706,7 +2696,7 @@
   }
  },
  "QPOWER.NS": {
-  "fetched": "2026-10-08",
+  "fetched": "2026-10-09",
   "data": {
    "status": {
     "announcements": true,
@@ -2723,21 +2713,11 @@
      "type": "Bagging/Receiving of orders/contracts",
      "text": "Quality Power Electrical Equipments Limited has informed the Exchange about Bagging/Receiving of orders/contracts by a material subsidiary for the supply of 400 KV Instrument Transformers.",
      "url": "https://nsearchives.nseindia.com/corporate/QPOWER1234_03072026190342_IntimationOfReceiptOfOrderMehru03072026Sign.pdf"
-    },
-    {
-     "date": "2026-06-09",
-     "cats": [
-      "acquisition"
-     ],
-     "type": "Press Release",
-     "text": "Quality Power Electrical Equipments Limited has informed the Exchange regarding a press release dated Jun 09, 2026, titled \"Press Release in connection with the execution of Term Sheet for the acquisi",
-     "url": "https://nsearchives.nseindia.com/corporate/QPOWER1234_09062026184400_IntimationofPressRelease09062026Sign.pdf"
     }
    ],
-   "event_score": 24,
+   "event_score": 14,
    "event_counts": {
-    "order_win": 1,
-    "acquisition": 1
+    "order_win": 1
    },
    "neg_events": 0,
    "pledge": null,
@@ -2750,7 +2730,7 @@
   }
  },
  "GOLDIAM.NS": {
-  "fetched": "2026-10-08",
+  "fetched": "2026-10-09",
   "data": {
    "status": {
     "announcements": true,
@@ -2831,7 +2811,7 @@
   }
  },
  "CAPILLARY.NS": {
-  "fetched": "2026-10-08",
+  "fetched": "2026-10-09",
   "data": {
    "status": {
     "announcements": true,
@@ -2884,7 +2864,7 @@
   }
  },
  "JSLL.NS": {
-  "fetched": "2026-10-08",
+  "fetched": "2026-10-09",
   "data": {
    "status": {
     "announcements": true,
@@ -3038,7 +3018,7 @@
   }
  },
  "ELLEN.NS": {
-  "fetched": "2026-10-08",
+  "fetched": "2026-10-09",
   "data": {
    "status": {
     "announcements": true,
@@ -3060,7 +3040,7 @@
   }
  },
  "IMFA.NS": {
-  "fetched": "2026-10-08",
+  "fetched": "2026-10-09",
   "data": {
    "status": {
     "announcements": true,
@@ -3094,7 +3074,7 @@
   }
  },
  "LUMAXTECH.NS": {
-  "fetched": "2026-10-08",
+  "fetched": "2026-10-09",
   "data": {
    "status": {
     "announcements": true,
@@ -3147,7 +3127,7 @@
   }
  },
  "PRECWIRE.NS": {
-  "fetched": "2026-10-08",
+  "fetched": "2026-10-09",
   "data": {
    "status": {
     "announcements": true,
@@ -3209,7 +3189,7 @@
   }
  },
  "RATEGAIN.NS": {
-  "fetched": "2026-10-08",
+  "fetched": "2026-10-09",
   "data": {
    "status": {
     "announcements": true,
@@ -3243,7 +3223,7 @@
   }
  },
  "SHILPAMED.NS": {
-  "fetched": "2026-10-08",
+  "fetched": "2026-10-09",
   "data": {
    "status": {
     "announcements": true,
@@ -3315,7 +3295,7 @@
   }
  },
  "BLACKBUCK.NS": {
-  "fetched": "2026-10-08",
+  "fetched": "2026-10-09",
   "data": {
    "status": {
     "announcements": true,
@@ -3358,7 +3338,7 @@
   }
  },
  "AMAGI.NS": {
-  "fetched": "2026-10-08",
+  "fetched": "2026-10-09",
   "data": {
    "status": {
     "announcements": true,
@@ -3412,7 +3392,7 @@
   }
  },
  "SHAILY.NS": {
-  "fetched": "2026-10-08",
+  "fetched": "2026-10-09",
   "data": {
    "status": {
     "announcements": true,
@@ -3434,7 +3414,7 @@
   }
  },
  "GRWRHITECH.NS": {
-  "fetched": "2026-10-08",
+  "fetched": "2026-10-09",
   "data": {
    "status": {
     "announcements": true,
@@ -3618,7 +3598,7 @@
   }
  },
  "TIPSMUSIC.NS": {
-  "fetched": "2026-10-08",
+  "fetched": "2026-10-09",
   "data": {
    "status": {
     "announcements": true,
@@ -3698,7 +3678,7 @@
   }
  },
  "THYROCARE.NS": {
-  "fetched": "2026-10-08",
+  "fetched": "2026-10-09",
   "data": {
    "status": {
     "announcements": true,
@@ -3780,7 +3760,7 @@
     "approval": 3
    },
    "neg_events": 0,
-   "pledge": 100.0,
+   "pledge": 0.0,
    "pledge_chg": null,
    "promoter_chg": -9.91,
    "promoter_now": 51.02,
@@ -3790,7 +3770,7 @@
   }
  },
  "UNIMECH.NS": {
-  "fetched": "2026-10-08",
+  "fetched": "2026-10-09",
   "data": {
    "status": {
     "announcements": true,
@@ -3843,7 +3823,7 @@
   }
  },
  "VIKRAMSOLR.NS": {
-  "fetched": "2026-10-08",
+  "fetched": "2026-10-09",
   "data": {
    "status": {
     "announcements": true,
@@ -3961,7 +3941,7 @@
   }
  },
  "V2RETAIL.NS": {
-  "fetched": "2026-10-08",
+  "fetched": "2026-10-09",
   "data": {
    "status": {
     "announcements": true,
