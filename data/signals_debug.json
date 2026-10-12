@@ -90,17 +90,35 @@
   "xbrl",
   "xbrlFileSize"
  ],
- "updated": "2026-10-04",
+ "updated": "2026-10-09",
  "status": {
-  "attempted": 40,
-  "ok": {
-   "announcements": 40,
-   "pledge": 40,
-   "shareholding": 40,
-   "insider": 40
-  },
+  "attempted": 0,
+  "ok": {},
   "blocked": false,
   "checked": 0,
   "demo": false
- }
+ },
+ "pledge": [
+  "broadcastDt",
+  "comName",
+  "compBroadcastDate",
+  "disclosureFromDate",
+  "disclosureToDate",
+  "nbfcNonPromoShare",
+  "nbfcPromoShare",
+  "noOfPledgeShare",
+  "noOfSecPledgeShare",
+  "numSharesPledged",
+  "percPromoterHolding",
+  "percPromoterShares",
+  "percSharesPledged",
+  "percTotShares",
+  "sharesCollateral",
+  "shp",
+  "totDematShares",
+  "totIssuedShares",
+  "totPromoterHolding",
+  "totPromoterShares",
+  "totPublicHolding"
+ ]
 }
