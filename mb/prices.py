@@ -8,6 +8,8 @@ from typing import Optional
 import numpy as np
 import pandas as pd
 
+from mb.validate import price_series_sanity
+
 
 def _rsi(close: pd.Series, period: int = 14) -> Optional[float]:
     if len(close) < period + 2:
@@ -26,6 +28,9 @@ def tech_from_series(close: pd.Series, volume: pd.Series) -> Optional[dict]:
     close = close.dropna()
     if len(close) < 130:
         return None
+    ok, reason = price_series_sanity(close, volume)
+    if not ok:
+        return None  # drop series with impossible gaps / bad ticks
     last = float(close.iloc[-1])
     ma50 = float(close.rolling(50).mean().iloc[-1]) if len(close) >= 50 else float(close.mean())
     ma200 = (

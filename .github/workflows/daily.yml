@@ -35,6 +35,7 @@ jobs:
           python tests/test_signals.py
           python tests/test_diligence.py
           python tests/test_scoring.py
+          python tests/test_validate.py
           python tests/test_pipeline.py
           python scan.py --demo --no-notify
 

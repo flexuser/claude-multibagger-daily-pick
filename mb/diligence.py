@@ -155,8 +155,18 @@ def normalize(obj, extra_urls=()):
     if verdict == "green" and not srcs:
         out["verdict"] = "yellow"
         out["risks"].append("The model cited no sources, so its green verdict is treated as unverified.")
-    if not out["summary"]:
+    # Required narrative: summary must be real text
+    if not out["summary"] or len(out["summary"]) < 20:
         return None
+    # Optional narrative fields: normalize empty to "not found" so render never sees None
+    for k in (
+        "management", "management_vision", "controversies", "business_update",
+        "order_book", "policy_and_demand", "sector_outlook", "guidance",
+    ):
+        if not out.get(k):
+            out[k] = "not found"
+    # Schema marker for downstream
+    out["_schema"] = "diligence_v2"
     return out
 
 

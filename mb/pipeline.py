@@ -30,6 +30,7 @@ from mb.fundamentals import fetch_fundamentals
 from mb.scoring import score_pillars, composite, red_flags, eligible
 from mb.evidence import build_evidence, build_thesis, exit_triggers
 from mb.context import theme_peer_rs, attach_context
+from mb.validate import sanitize_metrics
 from mb.signals import NSEClient, fetch_signals, LABELS, NEGATIVE
 from mb import diligence
 from mb import notify
@@ -225,6 +226,7 @@ def run(
         html = render_page(result)
         (DOCS / "index.html").write_text(html)
         save_json(DOCS / "latest.json", result)
+        save_json(DATA / "scan_progress.json", dict(stage="done", date=today))
         print("No liquid candidates; wrote empty page.")
         return result
 
@@ -264,6 +266,10 @@ def run(
                 if i % 10 == 0:
                     print(f"  fundamentals {i}/{len(todo)}")
                     save_json(CACHE_JSON, cache)
+                    save_json(DATA / "scan_progress.json", dict(
+                        stage="fundamentals", done=i, total=len(todo),
+                        date=today, last_ticker=tk,
+                    ))
                 time.sleep(delay)
         finally:
             save_json(CACHE_JSON, cache)
@@ -293,6 +299,7 @@ def run(
             if m.get("delivery_pct") is None and t.get("delivery_pct") is not None:
                 m["delivery_pct"] = t["delivery_pct"]
             attach_context(m, theme_rs_map, nifty)
+            m = sanitize_metrics(m)
             pil = score_pillars(m)
             sc = composite(pil)
             fl = red_flags(m)
@@ -527,6 +534,7 @@ def run(
     html = render_page(result)
     (DOCS / "index.html").write_text(html)
     save_json(DOCS / "latest.json", result)
+    save_json(DATA / "scan_progress.json", dict(stage="done", date=today))
 
     if not no_notify and not demo:
         sent = notify.send(result)
