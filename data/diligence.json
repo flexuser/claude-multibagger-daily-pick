@@ -31,37 +31,35 @@
  },
  "SEDEMAC.NS": {
   "verdict": "yellow",
-  "summary": "Sedemac Mechatronics is a technology-focused auto component manufacturer specializing in electronic control units and controllers for two-wheelers and off-road vehicles. While the company demonstrates strong growth and high ROCE, it faces scrutiny regarding tax litigation and rising working capital intensity.",
-  "management": "The company is led by promoter Manish Sharma and a professional management team. It is backed by private equity firm Xponentia Capital, which has been trimming its stake post-listing. Management has maintained a clean record regarding share pledges, with formal disclosures confirming no encumbrances.",
-  "controversies": "The company is currently contesting an Income Tax penalty of Rs 74.93 lakh related to FY 2017-18 R&D deductions. Additionally, it received a minor GST demand of Rs 40,036 in September 2026, though a much larger initial notice was dropped by authorities. No major auditor resignations or governance failures have been reported.",
-  "business_update": "In Q4 FY26, the company reported significant capex of Rs 227 crore to support capacity expansion. Management emphasizes that as an auto-component supplier, they operate on a rolling supply basis rather than a traditional long-term order book model.",
+  "summary": "Sedemac Mechatronics is a technology-focused auto component manufacturer specializing in electronic control units (ECUs) and motor control units (MCUs) for two-wheelers. While the company demonstrates strong growth and high ROCE, the recent surge in receivable days and negative free cash flow, combined with ongoing tax litigation, warrants caution.",
+  "management": "The company was founded by alumni from IIT Bombay, including Shashikanth Suryanarayanan. Management has transitioned from a private entity to a listed company, but the recent block deal by early investors (Xponentia Group) suggests a potential exit strategy that retail investors should monitor closely.",
+  "controversies": "The company is currently contesting a Rs 74.93 lakh penalty from the Income Tax Department (FY 2017-18) regarding R&D deduction disallowances. Additionally, it recently settled GST demand notices in Tamil Nadu for FY22-24, where most allegations were dropped, leaving a minor demand of Rs 40,036.",
+  "business_update": "Q1 FY27 performance was driven by the adoption of SLC-based ISG ECUs in high-volume motorcycles and increased E2W MCU volumes. The company reported a capex of Rs 227 crore in Q4 FY26 to support capacity expansion, though it does not maintain a traditional order book due to the nature of its supply contracts.",
   "order_book": "not found",
   "strengths": [
-   "Strong ROCE of 31% indicating efficient capital utilization",
-   "Low debt-to-equity ratio of 0.16",
-   "High institutional interest (37% holding)",
-   "Strong revenue CAGR of 36% over the last 3 years"
+   "High ROCE of 31.0% indicating efficient capital utilization",
+   "Strong technical positioning in the growing EV and high-end ICE two-wheeler component space",
+   "Robust revenue CAGR of 35.7%"
   ],
   "risks": [
-   "Negative free cash flow suggesting high capital intensity",
-   "Significant increase in receivable days (251% over 3 years) indicating potential collection issues",
-   "Ongoing tax litigation regarding R&D deductions",
-   "High valuation (PE 124) leaves little margin for error"
+   "Negative free cash flow and significant increase in receivable days (251%) suggesting potential working capital stress",
+   "Ongoing tax litigation and regulatory scrutiny",
+   "Potential overhang from large block deals by early-stage private equity investors"
   ],
   "sources": [
-   "https://www.sebi.gov.in/filings/public-issues/feb-2026/sedemac-mechatronics-limited-rhp_100355.html",
-   "https://www.bseindia.com/xml-data/corpfiling/AttachHis/07681afd-b20a-4c03-94b4-62f595d231ea.pdf",
-   "https://scanx.trade/stock-market-news/companies/sedemac-mechatronics-receives-40-036-gst-order-tamil-nadu/50506411",
    "https://www.sedemac.com/static/media/SEDEMAC_AnnualReport_2024-25.1e8736c84c62450d11d1.pdf",
-   "https://www.arthneeti.com/insights/sedemac-mechatronics-ltd-q4-fy26-earnings",
+   "https://scanx.trade/stock-market-news/companies/sedemac-mechatronics-receives-40-036-gst-order-tamil-nadu/50506411",
    "https://scanx.trade/stock-market-news/companies/sedemag-mechatronics-limited-receives-74-93-lakh-penalty-order-from-income-tax-department/36004514",
-   "https://trendlyne.com/equity/share-holding/3443160/SEDEMAC/latest/sedemac-mechatronics-ltd/",
-   "https://www.indiainfoline.com/company/sedemac-mechatronics-ltd/share-holding"
+   "https://economictimes.indiatimes.com/sedemac-mechatronics-ltd/stocksupdate/companyid-2289157.cms",
+   "https://www.arthneeti.com/insights/sedemac-mechatronics-ltd-q4-fy26-earnings",
+   "https://trendlyne.com/latest-news/only-news/3443160/13510413/sedemac-mechatronics-ltd/",
+   "https://indianstockalerts.com/news/sedemac-intimation-under-regulation-30-of-the-sebi-listing-26199",
+   "https://scanx.trade/stock-market-news/companies/sedemac-mechatronics-shareholders-approve-fy26-audited-financials-agm/50510279"
   ],
   "status": "ok",
   "provider": "gemini",
   "model": "gemini-3.1-flash-lite",
   "method": "DuckDuckGo snippets (weaker)",
-  "date": "2026-10-05"
+  "date": "2026-10-12"
  }
 }
