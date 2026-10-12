@@ -121,7 +121,7 @@ def render_page(r):
                      'This is normal while the fundamentals cache is still filling up (each run refreshes a limited batch). '
                      'Run the workflow a few more times, or check the log for failures.</p></div>')
     else:
-        streak = f' On top for {p["streak"]} scans in a row.' if p["streak"] > 1 else ' New today.'
+        streak = f' On top for {p["streak"]} scans in a row.' if p.get("streak", 1) > 1 else ' New today.'
         held = " Kept from yesterday because no rival beat it by a clear margin." if p.get("held_from_yesterday") else ""
         dd = p.get("diligence") or {}
         chip = f'<span class="chip {dd["verdict"]}">DD {dd["verdict"].upper()}</span>' if dd.get("status") == "ok" else '<span class="chip none">DD not run</span>'
@@ -130,13 +130,13 @@ def render_page(r):
                  f'<div class="tk">{e(p["ticker"])} | {e(p.get("sector") or "")}</div><div style="margin-top:6px">{chip}</div></div>'
                  f'<div class="score">{p["score"]:.0f}<small>of 100</small></div></div>'
                  f'{_spark(p.get("spark"))}'
-                 f'<div class="tk">Price Rs {p["price"]:,.2f} as of {e(p["price_date"])}. Fundamentals as of {e(p.get("fundamentals_as_of") or "n/a")}.{streak}{held}</div>'
+                 f'<div class="tk">Price Rs {(p.get("price") or 0):,.2f} as of {e(p.get("price_date") or "n/a")}. Fundamentals as of {e(p.get("fundamentals_as_of") or "n/a")}.{streak}{held}</div>'
                  f'<p class="thesis">{e(p["thesis"])}</p></div>')
 
         h.append(_dd_panel(dd))
 
         h.append('<div class="panel"><h2>Score breakdown</h2>')
-        for k, v in p["pillars"].items():
+        for k, v in (p.get("pillars") or {}).items():
             w = r["weights"][k]
             name = r["pillar_names"][k]
             h.append(f'<div class="pil"><b>{e(name)} <span class="note">weight {w}</span></b>'
@@ -147,7 +147,7 @@ def render_page(r):
 
         h.append('<div class="panel"><h2>Proof</h2><div class="scroll"><table>')
         group = None
-        for ev in p["evidence"]:
+        for ev in (p.get("evidence") or []):
             if ev["group"] != group:
                 group = ev["group"]
                 h.append(f'<tr class="grp"><td colspan="3">{e(group)}</td></tr>')
@@ -169,9 +169,9 @@ def render_page(r):
         elif sg.get("checked"):
             h.append('<div class="panel"><h2>Filings that matter</h2><p>No expansion, order, acquisition or export filings found in the last 120 days.</p></div>')
 
-        if p["flags"]:
+        if p.get("flags"):
             h.append('<div class="panel"><h2>Red flags</h2>' + "".join(
-                f'<div class="flag {f["sev"]}">{e(f["text"])}</div>' for f in p["flags"]) + '</div>')
+                f'<div class="flag {f["sev"]}">{e(f["text"])}</div>' for f in (p.get("flags") or [])) + '</div>')
 
         if p.get("exit_triggers"):
             h.append('<div class="panel"><h2>What would prove this wrong</h2><p class="note">Write these down before you buy. Check them each quarter.</p><ul>'

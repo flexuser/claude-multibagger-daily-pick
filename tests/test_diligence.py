@@ -2,8 +2,8 @@
 import sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-import diligence as D
-import notify
+from mb import diligence as D
+from mb import notify
 
 CTX = dict(ticker="TEST.NS", name="Test Co", sector="Industrials", mcap_cr=2000, facts="x", flags="", events="")
 GOOD = ('Here you go:\n```json\n{"verdict":"green","summary":"Makes parts.","management":"ok","controversies":"not found",'

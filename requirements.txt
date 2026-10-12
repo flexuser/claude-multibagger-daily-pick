@@ -3,3 +3,4 @@ pandas>=2.0
 numpy>=1.26
 requests>=2.31
 ddgs>=9.0
+nselib>=2.0

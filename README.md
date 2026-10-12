@@ -1,70 +1,114 @@
-# Daily multibagger scanner
+# Daily multibagger scanner (v2)
 
 Every weekday after the NSE close this scans NSE small, mid and micro caps, scores each on ten pillars,
 runs AI due diligence on the top finalists, and publishes **one candidate with its proof** to GitHub Pages
 (readable on your phone). Every pick is logged, so the page shows a live track record against the Nifty.
 
+**Free-tier only:** Yahoo Finance (yfinance) + NSE public endpoints + optional [nselib](https://github.com/RuchiTanmay/nselib) for delivery %, Gemini free tier for AI diligence.
+
+## Architecture (refactored)
+
+```
+scan.py                 # thin CLI
+mb/
+  config.py             # ALL thresholds & weights in one place
+  utils.py              # numerics, JSON I/O
+  universe.py           # NSE index constituents
+  prices.py             # yfinance bulk prices + optional nselib delivery %
+  fundamentals.py       # Yahoo statements → flat metrics
+  scoring.py            # 10 pillars, red flags, hard gates
+  evidence.py           # human-readable proof rows + thesis + exits
+  signals.py            # NSE announcements / ownership (fail-soft)
+  diligence.py          # Gemini / Claude gate (never changes the score)
+  notify.py             # ntfy + Telegram
+  render.py             # mobile-first GitHub Pages HTML
+  pipeline.py           # orchestration
+```
+
 ## What it checks
 
 | Layer | What | Source |
 |---|---|---|
-| Liquidity and technicals | turnover, 200-day trend, 6-month strength vs Nifty, volume build-up | Yahoo prices |
-| Growth and proof | revenue and profit CAGR, latest-quarter growth and acceleration, margin trend | Yahoo statements |
-| Capital and earnings quality | ROCE and trend, debt, dilution, **cash flow vs profit**, **interest coverage**, **receivable days** | Yahoo statements |
+| Liquidity and technicals | turnover, 200-day trend, 6-month strength vs Nifty, volume, delivery % | Yahoo + nselib |
+| Growth and proof | revenue/profit CAGR, quarterly acceleration, margin trend | Yahoo statements |
+| Capital and earnings quality | ROCE, debt, dilution, cash flow vs profit, interest coverage, receivables | Yahoo |
 | Runway and moat (proxies) | theme keywords, small revenue base, ROCE stability | Yahoo + keywords |
 | Discovery | market cap, institutional holding, analyst count | Yahoo |
-| Ownership | promoter holding trend, pledge, insider buying, FII/DII trend | NSE (undocumented endpoints) |
-| Catalysts | order wins, expansion and capacity doubling, acquisitions, export orders, approvals, bonus/split, negatives | NSE filings + capex/CWIP/goodwill |
-| **AI due diligence** | management record, SEBI/litigation, auditor issues, order book and capex commentary | Gemini or Claude with web search |
+| Ownership | promoter trend, pledge, insider buying, FII/DII | NSE (undocumented) |
+| Catalysts | order wins, expansion, capacity doubling, acquisitions, exports, approvals, negatives | NSE filings + CWIP |
+| **AI due diligence** | management, SEBI/litigation, auditor, order book / capex commentary | Gemini (free) or Claude |
 
-Hard rejects: financial companies, stale or suspect data, tiny or huge caps, unprofitable or slow growers, pledge above 25%,
-negative filings (pledge invocation, distress, governance, SEBI), more than one high red flag, and an AI **red** verdict.
+### Hard rejects (tuned for multibagger quality)
+
+- Financial companies
+- Stale or suspect data
+- Market cap outside Rs 400–25,000 cr
+- Unprofitable or slow growers (<15% growth)
+- ROCE < 12%, D/E > 1.2, dilution > 12%
+- Promoter pledge > 20%
+- Negative filings (pledge invocation, distress, governance, SEBI)
+- More than one high red flag
+- AI **red** verdict
+
 The AI never changes the score. It only gates, and a "green" with no cited source is downgraded to "yellow".
-Yesterday's pick is kept unless beaten by 3+ points, so the pick doesn't flip on noise.
+Yesterday's pick is kept unless beaten by 3.5+ points (hysteresis).
 
-## Set up (about 15 minutes)
+## Set up (~15 minutes)
 
-1. Create a GitHub repo and upload everything here (keep `.github/workflows/daily.yml`).
+1. Create a GitHub repo and upload everything (keep `.github/workflows/daily.yml`).
 2. **Settings > Actions > General > Workflow permissions**: Read and write.
-3. **Settings > Pages**: Deploy from a branch, `main`, folder `/docs`.
-4. **Settings > Secrets and variables > Actions**, add what you want (all optional):
-   - `GEMINI_API_KEY`: free key from https://aistudio.google.com/apikey (AI due diligence)
-   - `ANTHROPIC_API_KEY`: paid alternative or backup (uses Claude with web search)
-   - `NTFY_TOPIC`: pick any hard-to-guess name, install the free ntfy app, subscribe to it, get the daily pick as a phone alert
-   - `TELEGRAM_BOT_TOKEN` and `TELEGRAM_CHAT_ID`: alternative alert channel
-5. **Actions > Daily multibagger scan > Run workflow** with `max_fetch` = `300`. Repeat 2 to 4 times over a couple of days
-   to fill the fundamentals cache. After that it only tops up the oldest entries.
+3. **Settings > Pages**: Deploy from branch `main`, folder `/docs`.
+4. **Settings > Secrets and variables > Actions** (all optional):
+   - `GEMINI_API_KEY` — free key from https://aistudio.google.com/apikey
+   - `ANTHROPIC_API_KEY` — paid alternative / backup
+   - `NTFY_TOPIC` — free phone alerts via the ntfy app
+   - `TELEGRAM_BOT_TOKEN` + `TELEGRAM_CHAT_ID`
+5. **Actions > Daily multibagger scan > Run workflow** with `max_fetch = 300`. Repeat 2–4 times over a couple of days to fill the fundamentals cache. After that it only tops up the oldest entries.
 6. Your page: `https://<username>.github.io/<repo>/`
 
-## First real run: verify the data before trusting it
+## Local usage
 
-Nothing here has been run against live Yahoo, NSE or Gemini from where it was built. Check one company you know:
+```bash
+pip install -r requirements.txt
 
-    pip install -r requirements.txt
-    python scan.py --check ASTRAMICRO.NS
+python scan.py --demo                 # synthetic companies, no network
+python scan.py --check ASTRAMICRO.NS  # one ticker: every metric + pillars + flags
+python scan.py --max-fetch 50         # real scan (gradual fundamentals refresh)
 
-It prints every metric, the pillar scores and the flags. Compare a few numbers with the company's results.
-After the first workflow run, open `data/signals_debug.json`: it shows which NSE sources worked and the field names
-returned, so a broken parser can be fixed quickly. If the page says AI due diligence "failed", the reason is printed there
-(commonly a model name your key can't use: set the `GEMINI_MODELS` environment variable to a comma-separated list).
+python tests/test_signals.py
+python tests/test_diligence.py
+python tests/test_pipeline.py
+```
 
-## Preview and tests
+## Tuning
 
-    python scan.py --demo                 # synthetic companies, no network or keys
-    python tests/test_signals.py          # parsers
-    python tests/test_diligence.py        # AI module and notifications, mocked
-    python tests/test_pipeline.py         # gate, stability, track record
+Edit **`mb/config.py` only**:
 
-## If something fails
+- `CFG` — market-cap band, growth floor, pledge limit, hysteresis, pillar coverage, …
+- `WEIGHTS` — pillar importance (proof and quality are weighted highest by default)
+- `THEMES` / `MOAT_WORDS` — keyword maps for runway/moat
 
-- **NSE list blocked**: add tickers to `universe_extra.txt` or commit `data/universe.csv` with a `ticker` column.
-- **NSE signals blocked on GitHub**: the page says so and ranks on price and fundamentals only.
-- **Yahoo rate limits**: the run stops early after 15 failures in a row and keeps what it has. Re-run later.
-- **No pick yet**: normal until the cache fills.
+After ~20 live picks, compare track-record excess return and consider re-weighting empirically.
+
+## Data sources (all free)
+
+| Source | Used for | Notes |
+|---|---|---|
+| **yfinance** | Prices, financial statements, ratios | Primary; gradual cache avoids rate limits |
+| **NSE public CSVs / JSON** | Universe, announcements, shareholding, insider | Fail-soft; sometimes blocked on cloud IPs |
+| **nselib** (optional) | Delivery % enrichment for top candidates | `pip install nselib` |
+| **Gemini free tier** | Qualitative due diligence gate | Set `GEMINI_API_KEY` |
+
+## What changed in v2
+
+- Modular package (`mb/`) instead of a 1,100-line `scan.py`
+- Central config; stricter multibagger gates (ROCE, D/E, dilution, growth floor, mcap band)
+- Higher weight on **proof** and **quality** pillars
+- Optional **nselib** delivery-% confirmation
+- Acquisition-led growth flagged as medium risk
+- Demo end-to-end test in CI
+- Cleaner evidence / thesis / exit-trigger text
 
 ## Limits
 
-Order book size, export margins and filing PDFs are not parsed by the numbers pipeline; the AI step reports what it finds
-with sources, and you must open them. Runway and moat are proxies. The score weights are reasoned starting points, not fitted
-to history, so the track record is the real test (give it 20+ picks). Free data can be wrong. This is a screening aid,
-not investment advice, and most early-stage picks fail. Tune `CFG` and `WEIGHTS` at the top of `scan.py`.
+Order book size, export margins and filing PDFs are not parsed by the numbers pipeline; the AI step reports what it finds with sources — you must open them. Runway and moat are proxies. Free data can be wrong. This is a screening aid, not investment advice, and most early-stage picks fail.
