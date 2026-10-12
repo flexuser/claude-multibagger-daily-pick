@@ -1,42 +1,253 @@
 {
- "generated": "2026-10-09",
+ "generated": "2026-10-12",
  "demo": false,
- "universe": 650,
- "liquid": 639,
- "with_data": 639,
- "eligible": 33,
+ "universe": 651,
+ "liquid": 637,
+ "with_data": 637,
+ "eligible": 27,
  "fund_stats": {
-  "attempted": 0,
+  "attempted": 299,
   "failed": 0
  },
  "rejected": {
-  "too many red flags": 48,
-  "growth below threshold": 86,
-  "financial company (ratios not comparable)": 89,
-  "not operationally profitable": 22,
-  "market cap outside range": 98,
-  "negative filing (governance/distress/regulatory)": 6,
-  "suspect data": 11,
-  "stale financials": 1
+  "ROCE below 12%": 79,
+  "margin or ROCE looks like a data error": 8,
+  "operating margin too low": 41,
+  "mcap 25801 cr outside band": 1,
+  "insufficient growth": 77,
+  "mcap 28744 cr outside band": 1,
+  "mcap 50853 cr outside band": 1,
+  "mcap 50660 cr outside band": 1,
+  "mcap 31683 cr outside band": 1,
+  "mcap 34493 cr outside band": 1,
+  "mcap 27877 cr outside band": 1,
+  "mcap 25392 cr outside band": 1,
+  "debt too high": 10,
+  "mcap 58131 cr outside band": 1,
+  "negative filing": 5,
+  "mcap 25447 cr outside band": 1,
+  "mcap 27236 cr outside band": 1,
+  "mcap 26553 cr outside band": 1,
+  "2 high red flags": 17,
+  "mcap 26052 cr outside band": 1,
+  "already heavily covered": 6,
+  "already heavily institutional": 4,
+  "mcap 28004 cr outside band": 1,
+  "mcap 48300 cr outside band": 1,
+  "mcap 30991 cr outside band": 1,
+  "mcap 32939 cr outside band": 1,
+  "mcap 35322 cr outside band": 1,
+  "mcap 26904 cr outside band": 1,
+  "mcap 50597 cr outside band": 1,
+  "mcap 39810 cr outside band": 1,
+  "mcap 33504 cr outside band": 1,
+  "mcap 28758 cr outside band": 1,
+  "mcap 89277 cr outside band": 1,
+  "mcap 25989 cr outside band": 1,
+  "mcap 29220 cr outside band": 1,
+  "excessive dilution": 16,
+  "mcap 33166 cr outside band": 1,
+  "mcap 32195 cr outside band": 1,
+  "mcap 29447 cr outside band": 1,
+  "mcap 30125 cr outside band": 1,
+  "mcap 30527 cr outside band": 1,
+  "mcap 43658 cr outside band": 1,
+  "mcap 29742 cr outside band": 1,
+  "mcap 26584 cr outside band": 1,
+  "revenue growth looks like a data error": 12,
+  "mcap 31369 cr outside band": 1,
+  "mcap 40379 cr outside band": 1,
+  "mcap 40922 cr outside band": 1,
+  "mcap 26181 cr outside band": 1,
+  "mcap 39830 cr outside band": 1,
+  "mcap 30983 cr outside band": 1,
+  "mcap 65452 cr outside band": 1,
+  "mcap 30517 cr outside band": 1,
+  "mcap 25841 cr outside band": 1,
+  "mcap 31669 cr outside band": 1,
+  "mcap 26471 cr outside band": 1,
+  "mcap 28482 cr outside band": 1,
+  "mcap 30232 cr outside band": 1,
+  "mcap 49135 cr outside band": 1,
+  "mcap 32839 cr outside band": 1,
+  "mcap 51930 cr outside band": 1,
+  "mcap 33286 cr outside band": 1,
+  "mcap 25835 cr outside band": 1,
+  "mcap 29230 cr outside band": 1,
+  "mcap 30557 cr outside band": 1,
+  "mcap 29104 cr outside band": 1,
+  "mcap 73637 cr outside band": 1,
+  "mcap 32552 cr outside band": 1,
+  "mcap 59971 cr outside band": 1,
+  "mcap 73038 cr outside band": 1,
+  "mcap 54929 cr outside band": 1,
+  "mcap 62106 cr outside band": 1,
+  "mcap 104015 cr outside band": 1,
+  "mcap 42422 cr outside band": 1,
+  "mcap 62556 cr outside band": 1,
+  "mcap 49136 cr outside band": 1,
+  "mcap 75236 cr outside band": 1,
+  "mcap 60381 cr outside band": 1,
+  "mcap 38479 cr outside band": 1,
+  "mcap 98614 cr outside band": 1,
+  "mcap 68020 cr outside band": 1,
+  "mcap 38588 cr outside band": 1,
+  "mcap 60610 cr outside band": 1,
+  "mcap 63825 cr outside band": 1,
+  "mcap 54977 cr outside band": 1,
+  "mcap 40212 cr outside band": 1,
+  "mcap 88694 cr outside band": 1,
+  "mcap 153211 cr outside band": 1,
+  "mcap 76020 cr outside band": 1,
+  "mcap 119188 cr outside band": 1,
+  "mcap 57051 cr outside band": 1,
+  "mcap 32075 cr outside band": 1,
+  "mcap 32762 cr outside band": 1,
+  "mcap 32738 cr outside band": 1,
+  "mcap 81621 cr outside band": 1,
+  "mcap 48503 cr outside band": 1,
+  "mcap 33675 cr outside band": 1,
+  "mcap 49866 cr outside band": 1,
+  "mcap 66798 cr outside band": 1,
+  "mcap 30583 cr outside band": 1,
+  "mcap 77480 cr outside band": 1,
+  "mcap 35064 cr outside band": 1,
+  "mcap 33936 cr outside band": 1,
+  "mcap 29740 cr outside band": 1,
+  "mcap 33473 cr outside band": 1,
+  "mcap 96730 cr outside band": 1,
+  "mcap 81548 cr outside band": 1,
+  "mcap 47398 cr outside band": 1,
+  "mcap 58796 cr outside band": 1,
+  "mcap 109329 cr outside band": 1,
+  "mcap 96333 cr outside band": 1,
+  "mcap 55202 cr outside band": 1,
+  "mcap 43276 cr outside band": 1,
+  "mcap 64048 cr outside band": 1,
+  "mcap 35162 cr outside band": 1,
+  "mcap 27983 cr outside band": 1,
+  "mcap 33257 cr outside band": 1,
+  "mcap 46663 cr outside band": 1,
+  "mcap 50667 cr outside band": 1,
+  "mcap 51227 cr outside band": 1,
+  "mcap 65806 cr outside band": 1,
+  "mcap 102192 cr outside band": 1,
+  "mcap 30206 cr outside band": 1,
+  "mcap 45948 cr outside band": 1,
+  "mcap 73027 cr outside band": 1,
+  "mcap 32677 cr outside band": 1,
+  "mcap 80018 cr outside band": 1,
+  "mcap 151648 cr outside band": 1,
+  "mcap 66025 cr outside band": 1,
+  "mcap 70854 cr outside band": 1,
+  "mcap 33167 cr outside band": 1,
+  "mcap 108680 cr outside band": 1,
+  "mcap 104626 cr outside band": 1,
+  "mcap 60350 cr outside band": 1,
+  "mcap 36996 cr outside band": 1,
+  "mcap 30741 cr outside band": 1,
+  "mcap 100266 cr outside band": 1,
+  "mcap 69219 cr outside band": 1,
+  "mcap 78493 cr outside band": 1,
+  "mcap 49797 cr outside band": 1,
+  "mcap 38174 cr outside band": 1,
+  "mcap 89795 cr outside band": 1,
+  "mcap 83485 cr outside band": 1,
+  "mcap 61388 cr outside band": 1,
+  "mcap 29290 cr outside band": 1,
+  "mcap 36650 cr outside band": 1,
+  "mcap 44384 cr outside band": 1,
+  "mcap 57607 cr outside band": 1,
+  "mcap 66420 cr outside band": 1,
+  "mcap 34481 cr outside band": 1,
+  "mcap 122009 cr outside band": 1,
+  "mcap 27866 cr outside band": 1,
+  "mcap 106355 cr outside band": 1,
+  "mcap 119354 cr outside band": 1,
+  "mcap 245220 cr outside band": 1,
+  "mcap 51597 cr outside band": 1,
+  "mcap 101472 cr outside band": 1,
+  "mcap 113622 cr outside band": 1,
+  "mcap 91938 cr outside band": 1,
+  "mcap 52251 cr outside band": 1,
+  "mcap 45607 cr outside band": 1,
+  "mcap 102468 cr outside band": 1,
+  "mcap 102808 cr outside band": 1,
+  "mcap 46582 cr outside band": 1,
+  "mcap 103887 cr outside band": 1,
+  "mcap 61088 cr outside band": 1,
+  "mcap 43972 cr outside band": 1,
+  "mcap 81343 cr outside band": 1,
+  "mcap 71973 cr outside band": 1,
+  "mcap 35130 cr outside band": 1,
+  "mcap 65183 cr outside band": 1,
+  "mcap 35083 cr outside band": 1,
+  "mcap 62308 cr outside band": 1,
+  "mcap 67569 cr outside band": 1,
+  "mcap 64285 cr outside band": 1,
+  "mcap 72709 cr outside band": 1,
+  "mcap 107766 cr outside band": 1,
+  "mcap 91849 cr outside band": 1,
+  "mcap 45180 cr outside band": 1,
+  "mcap 33638 cr outside band": 1,
+  "mcap 41827 cr outside band": 1,
+  "mcap 38293 cr outside band": 1,
+  "mcap 86818 cr outside band": 1,
+  "mcap 43455 cr outside band": 1,
+  "mcap 68996 cr outside band": 1,
+  "mcap 47276 cr outside band": 1,
+  "mcap 39761 cr outside band": 1,
+  "mcap 62865 cr outside band": 1,
+  "mcap 77917 cr outside band": 1,
+  "mcap 57472 cr outside band": 1,
+  "mcap 41248 cr outside band": 1,
+  "mcap 53830 cr outside band": 1,
+  "mcap 72744 cr outside band": 1,
+  "mcap 60053 cr outside band": 1,
+  "mcap 79017 cr outside band": 1,
+  "mcap 72796 cr outside band": 1,
+  "mcap 46931 cr outside band": 1,
+  "mcap 43156 cr outside band": 1,
+  "mcap 53927 cr outside band": 1,
+  "mcap 62998 cr outside band": 1,
+  "mcap 47669 cr outside band": 1,
+  "mcap 36710 cr outside band": 1,
+  "mcap 62293 cr outside band": 1,
+  "mcap 44864 cr outside band": 1,
+  "mcap 63630 cr outside band": 1,
+  "mcap 42843 cr outside band": 1,
+  "mcap 31250 cr outside band": 1,
+  "mcap 94963 cr outside band": 1,
+  "mcap 46187 cr outside band": 1,
+  "mcap 35044 cr outside band": 1,
+  "mcap 67434 cr outside band": 1,
+  "mcap 66451 cr outside band": 1,
+  "3 high red flags": 1,
+  "latest annual results are dated 2025-03-31": 1
  },
  "signals": {
-  "attempted": 0,
-  "ok": {},
+  "attempted": 35,
+  "ok": {
+   "announcements": 35,
+   "pledge": 35,
+   "shareholding": 35,
+   "insider": 35
+  },
   "blocked": false,
-  "checked": 40,
+  "checked": 35,
   "demo": false
  },
  "weights": {
-  "runway": 12,
-  "moat": 8,
-  "proof": 16,
-  "leverage": 14,
-  "quality": 10,
-  "discovery": 6,
-  "valuation": 8,
+  "runway": 10,
+  "moat": 9,
+  "proof": 18,
+  "leverage": 12,
+  "quality": 14,
+  "discovery": 7,
+  "valuation": 7,
   "confirm": 6,
-  "ownership": 10,
-  "catalyst": 10
+  "ownership": 9,
+  "catalyst": 8
  },
  "pillar_names": {
   "runway": "Runway (theme + small base)",
@@ -64,18 +275,18 @@
   "name": "SEDEMAC MECHATRONICS LTD",
   "sector": "Auto Parts",
   "blurb": "SEDEMAC Mechatronics Limited provides electronic control units to original equipment manufacturers in the mobility and industrial markets in India, the United States, and Europe. It operates in two segments, Mobility and Industrial. The Mobility segment offers motor control technology and transmission controls, which c",
-  "score": 73.6,
+  "score": 69.5,
   "pillars": {
-   "runway": 77.9767,
-   "moat": 59.2835,
-   "proof": 100.0,
+   "runway": 71.4,
+   "moat": 59.3,
+   "proof": 92.4,
    "leverage": 100.0,
-   "quality": 70.4323,
-   "discovery": 51.2032,
-   "valuation": 50.0,
-   "confirm": 85.8429,
-   "ownership": 34.1857,
-   "catalyst": 68.4
+   "quality": 67.7,
+   "discovery": 38.6,
+   "valuation": 45.3,
+   "confirm": 89.9,
+   "ownership": 26.6,
+   "catalyst": 66.2
   },
   "flags": [
    {
@@ -84,7 +295,7 @@
    },
    {
     "sev": "med",
-    "text": "Receivable days up 251% in 3 years: customers are paying slower."
+    "text": "Receivable days up 251% \u2014 collections may be weakening."
    }
   ],
   "evidence": [
@@ -93,21 +304,21 @@
     "label": "Structural theme",
     "value": "Energy transition",
     "ok": true,
-    "why": "Business description matches a long-cycle growth theme (keyword match, so confirm by reading it)."
+    "why": "Business description matches a long-cycle growth theme (keyword match \u2014 confirm by reading it)."
    },
    {
     "group": "Runway",
     "label": "Revenue base",
-    "value": "Rs 1,055 cr",
+    "value": "Rs 1055 cr",
     "ok": true,
-    "why": "Small base means a big opportunity can move the numbers."
+    "why": "Small base means a real opportunity can still move the numbers materially."
    },
    {
     "group": "Runway",
     "label": "Revenue CAGR, 3 years",
     "value": "35.7%",
     "ok": true,
-    "why": "Sustained growth of 20%+ compounds fast."
+    "why": "Sustained growth of ~20%+ compounds into multi-bagger territory over a cycle."
    },
    {
     "group": "Proof",
@@ -121,7 +332,7 @@
     "label": "Growth acceleration vs 3y trend",
     "value": "n/a",
     "ok": null,
-    "why": "Latest quarter growing faster than the 3-year pace. Closest free proxy for a rising order book."
+    "why": "Latest quarter growing faster than the 3-year pace \u2014 closest free proxy for a rising order book."
    },
    {
     "group": "Proof",
@@ -135,11 +346,11 @@
     "label": "Operating margin",
     "value": "15.6%",
     "ok": true,
-    "why": "Healthy margin leaves room to absorb costs."
+    "why": "Healthy margin leaves room to absorb cost shocks."
    },
    {
     "group": "Leverage",
-    "label": "Margin change over 3 years",
+    "label": "Margin change over ~3 years",
     "value": "9.6 pp",
     "ok": true,
     "why": "Operating leverage: earnings growing faster than sales."
@@ -149,310 +360,145 @@
     "label": "Profit CAGR vs revenue CAGR",
     "value": "129.5% vs 35.7%",
     "ok": true,
-    "why": "Profit outgrowing sales is the signature of a re-rating."
+    "why": "Profit outgrowing sales is a classic re-rating signature."
    },
    {
     "group": "Quality",
     "label": "ROCE",
-    "value": "31.0% (+17.1 pp in 3y)",
+    "value": "31.0% (+17.1 pp in ~3y)",
     "ok": true,
-    "why": "Returns on capital show if growth creates value."
+    "why": "Returns on capital show whether growth creates shareholder value."
    },
    {
     "group": "Quality",
     "label": "Debt / equity",
     "value": "0.16",
     "ok": true,
-    "why": "Low debt lets the company fund growth safely."
+    "why": "Low debt lets the company fund growth without dilutive equity or distress risk."
    },
    {
     "group": "Quality",
-    "label": "Operating cash flow / profit, 3 years",
+    "label": "Operating cash flow / profit, ~3y",
     "value": "1.79x",
     "ok": true,
-    "why": "Earnings quality: are profits turning into cash?"
+    "why": "Earnings quality: are reported profits turning into cash?"
    },
    {
     "group": "Quality",
     "label": "Interest coverage",
     "value": "18.6x",
     "ok": true,
-    "why": "Can earnings comfortably service the debt?"
+    "why": "Can earnings comfortably service any debt?"
    },
    {
     "group": "Quality",
-    "label": "Receivable days change, 3 years",
-    "value": "251%",
-    "ok": false,
-    "why": "Rising receivable days can mean aggressive sales booking or weak customers."
-   },
-   {
-    "group": "Quality",
-    "label": "Share count change, 3 years",
+    "label": "Share dilution, ~3y",
     "value": "0.0%",
     "ok": true,
-    "why": "Little dilution means holders keep their share of the upside."
+    "why": "Heavy equity issuance steals upside from existing owners."
    },
    {
-    "group": "Quality",
-    "label": "Free cash flow",
-    "value": "negative",
-    "ok": false,
-    "why": "Growth that funds itself."
-   },
-   {
-    "group": "Quality",
-    "label": "Promoter / insider holding",
-    "value": "40.5%",
-    "ok": true,
-    "why": "Owners with skin in the game."
-   },
-   {
-    "group": "Undiscovered",
+    "group": "Discovery",
     "label": "Market cap",
-    "value": "Rs 14,913 cr",
+    "value": "Rs 14913 cr",
     "ok": false,
-    "why": "Smaller companies have more room to multiply."
+    "why": "Still small enough that a multi-year growth story can re-rate the stock."
    },
    {
-    "group": "Undiscovered",
+    "group": "Discovery",
     "label": "Institutional holding",
     "value": "37.1%",
     "ok": false,
-    "why": "Low institutional ownership leaves room for new buyers."
+    "why": "Low institutional ownership leaves room for discovery."
    },
    {
-    "group": "Undiscovered",
-    "label": "Analysts covering",
-    "value": "3",
+    "group": "Ownership",
+    "label": "Promoter holding",
+    "value": "40.5%",
     "ok": true,
-    "why": "Few analysts, less crowded."
+    "why": "Skin in the game from the controlling shareholders."
    },
    {
     "group": "Ownership",
-    "label": "Promoter holding change, ~1 year",
-    "value": "-0.0 pp",
-    "ok": false,
-    "why": "Promoters adding to their stake is a strong vote of confidence."
-   },
-   {
-    "group": "Ownership",
-    "label": "Promoter shares pledged",
+    "label": "Promoter pledge",
     "value": "n/a",
     "ok": null,
-    "why": "Low pledge means no forced-selling risk."
+    "why": "Pledged shares can be force-sold in a market fall."
    },
    {
-    "group": "Ownership",
-    "label": "Promoter/director open-market buying, 6 months",
-    "value": "Rs +0.0 cr (0 buys, 0 sells)",
+    "group": "Catalyst",
+    "label": "Event score (order wins, expansion, \u2026)",
+    "value": "16",
     "ok": false,
-    "why": "Insiders buying with their own money, from SEBI insider-trading disclosures."
+    "why": "Recent exchange filings that point to capacity or demand expansion."
    },
    {
-    "group": "Ownership",
-    "label": "FII holding change, ~1 year",
-    "value": "n/a",
-    "ok": null,
-    "why": "Foreign funds building a position."
-   },
-   {
-    "group": "Ownership",
-    "label": "DII holding change, ~1 year",
-    "value": "n/a",
-    "ok": null,
-    "why": "Domestic funds building a position."
-   },
-   {
-    "group": "Catalysts",
-    "label": "Capex as % of revenue",
-    "value": "16.6%",
+    "group": "Confirm",
+    "label": "Avg delivery % (1M)",
+    "value": "89711.1%",
     "ok": true,
-    "why": "Heavy reinvestment signals an expansion phase."
-   },
-   {
-    "group": "Catalysts",
-    "label": "Capital work in progress growth",
-    "value": "738%",
-    "ok": true,
-    "why": "Plants under construction today become capacity tomorrow."
-   },
-   {
-    "group": "Catalysts",
-    "label": "Gross fixed assets growth",
-    "value": "86%",
-    "ok": true,
-    "why": "Capacity actually added."
-   },
-   {
-    "group": "Catalysts",
-    "label": "Acquisition in last 2 years",
-    "value": "no",
-    "ok": false,
-    "why": "From cash-flow business purchases or a goodwill jump. Check whether it is value-adding."
-   },
-   {
-    "group": "Catalysts",
-    "label": "Order wins, last 120 days",
-    "value": "0",
-    "ok": false,
-    "why": "Counted from exchange filings."
-   },
-   {
-    "group": "Catalysts",
-    "label": "Expansion / capacity filings",
-    "value": "0",
-    "ok": false,
-    "why": "Announced plants, capacity additions or doubling."
-   },
-   {
-    "group": "Catalysts",
-    "label": "Export-related filings",
-    "value": "0",
-    "ok": false,
-    "why": "Export orders or overseas customers. Export margins are not available."
-   },
-   {
-    "group": "Catalysts",
-    "label": "Bonus or split in last year",
-    "value": "none",
-    "ok": null,
-    "why": "Improves liquidity and signals management confidence, but creates no value by itself. Worth only a few points in the score."
-   },
-   {
-    "group": "Valuation",
-    "label": "PE / PEG",
-    "value": "124.4 / 0.96",
-    "ok": true,
-    "why": "Is the price reasonable for the growth?"
-   },
-   {
-    "group": "Market",
-    "label": "Price vs 200-day average",
-    "value": "29.8%",
-    "ok": true,
-    "why": "Uptrend, but not stretched."
-   },
-   {
-    "group": "Market",
-    "label": "6-month return vs Nifty",
-    "value": "102.5 pp",
-    "ok": true,
-    "why": "Market is already starting to notice."
-   },
-   {
-    "group": "Market",
-    "label": "Volume, last month vs 6-month avg",
-    "value": "1.32x",
-    "ok": true,
-    "why": "Rising volume hints at accumulation."
+    "why": "High delivery suggests genuine investor interest, not just day-trading churn."
    }
   ],
-  "thesis": "Operates in energy transition. Revenue of Rs 1,055 cr has compounded at 36% a year over three years. Operating margin moved +9.6 pp while ROCE sits at 31%. Only 3 analysts cover it and institutions hold 37%, so it may not be widely discovered.",
+  "thesis": "Plays the Energy transition theme with ~36% revenue CAGR on a 31% ROCE base with a clean balance sheet.",
   "news": [],
+  "exit_triggers": [
+   "Promoter pledge rises above 20% or promoter holding falls >3 pp in a year",
+   "Two consecutive quarters of revenue decline or margin compression >200 bps",
+   "Debt/equity crosses 1.5x without a clear, funded capacity plan",
+   "Credible SEBI / governance / auditor red flag in exchange filings",
+   "Thesis invalidated: structural theme demand collapses or customer concentration risk materialises"
+  ],
   "events": [
    {
     "date": "2026-10-07",
+    "text": "SEDEMAC Mechatronics Limited has informed the Exchange about Intimation of In-Principle approval for listing of equity shares under SEDEMAC Mechatronics Employee Stock Option Scheme - 2025",
+    "url": "https://nsearchives.nseindia.com/corporate/SEDEMAC2007_07102026134435_20261007-IntimationofESOPapproval.pdf",
     "labels": [
      "Approval"
     ],
-    "neg": false,
-    "text": "SEDEMAC Mechatronics Limited has informed the Exchange about Intimation of In-Principle approval for listing of equity shares under SEDEMAC Mechatronics Employee Stock Option Scheme - 2025",
-    "url": "https://nsearchives.nseindia.com/corporate/SEDEMAC2007_07102026134435_20261007-IntimationofESOPapproval.pdf"
+    "neg": false
    },
    {
     "date": "2026-09-28",
-    "labels": [
-     "Acquisition"
-    ],
-    "neg": false,
     "text": "Xponentia Group has Submitted to the Exchange a copy of Disclosure under Regulation 29 (2) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regulations,",
-    "url": "https://nsearchives.nseindia.com/corporate/team_sandeshc_28092026123357_SAST5.pdf"
-   },
-   {
-    "date": "2026-06-19",
+    "url": "https://nsearchives.nseindia.com/corporate/team_sandeshc_28092026123357_SAST5.pdf",
     "labels": [
      "Acquisition"
     ],
-    "neg": false,
+    "neg": false
+   },
+   {
+    "date": "2026-06-19",
     "text": "Manish Sharma has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regulations, 201",
-    "url": "https://nsearchives.nseindia.com/corporate/team_sandeshc_08052026120153_43.pdf"
-   },
-   {
-    "date": "2026-06-19",
+    "url": "https://nsearchives.nseindia.com/corporate/team_sandeshc_08052026120153_43.pdf",
     "labels": [
      "Acquisition"
     ],
-    "neg": false,
+    "neg": false
+   },
+   {
+    "date": "2026-06-19",
     "text": "Prof. Shashikanth Suryanarayanan has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeover",
-    "url": "https://nsearchives.nseindia.com/corporate/team_sandeshc_08052026120054_44.pdf"
+    "url": "https://nsearchives.nseindia.com/corporate/team_sandeshc_08052026120054_44.pdf",
+    "labels": [
+     "Acquisition"
+    ],
+    "neg": false
    },
    {
     "date": "2026-06-17",
+    "text": "Amit Arun Dixit\u00a0\u00a0has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regulations,",
+    "url": "https://nsearchives.nseindia.com/corporate/team_bbodade_08052026181612_SEDEMAC.pdf",
     "labels": [
      "Acquisition"
     ],
-    "neg": false,
-    "text": "Amit Arun Dixit\u00a0\u00a0has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regulations,",
-    "url": "https://nsearchives.nseindia.com/corporate/team_bbodade_08052026181612_SEDEMAC.pdf"
-   },
-   {
-    "date": "2026-06-11",
-    "labels": [
-     "Approval"
-    ],
-    "neg": false,
-    "text": "SEDEMAC Mechatronics Limited has informed the Exchange about Intimation of In-principle approval for listing of equity shares under SEDEMAC Employee Stock Option Plan 2014",
-    "url": "https://nsearchives.nseindia.com/corporate/SEDEMAC2007_11062026120931_20260611-IntimationofESOPapproval.pdf"
+    "neg": false
    }
   ],
-  "diligence": {
-   "verdict": "yellow",
-   "summary": "Sedemac Mechatronics is a technology-focused auto component manufacturer specializing in electronic control units and controllers for two-wheelers and off-road vehicles. While the company demonstrates strong growth and high ROCE, it faces scrutiny regarding tax litigation and rising working capital intensity.",
-   "management": "The company is led by promoter Manish Sharma and a professional management team. It is backed by private equity firm Xponentia Capital, which has been trimming its stake post-listing. Management has maintained a clean record regarding share pledges, with formal disclosures confirming no encumbrances.",
-   "controversies": "The company is currently contesting an Income Tax penalty of Rs 74.93 lakh related to FY 2017-18 R&D deductions. Additionally, it received a minor GST demand of Rs 40,036 in September 2026, though a much larger initial notice was dropped by authorities. No major auditor resignations or governance failures have been reported.",
-   "business_update": "In Q4 FY26, the company reported significant capex of Rs 227 crore to support capacity expansion. Management emphasizes that as an auto-component supplier, they operate on a rolling supply basis rather than a traditional long-term order book model.",
-   "order_book": "not found",
-   "strengths": [
-    "Strong ROCE of 31% indicating efficient capital utilization",
-    "Low debt-to-equity ratio of 0.16",
-    "High institutional interest (37% holding)",
-    "Strong revenue CAGR of 36% over the last 3 years"
-   ],
-   "risks": [
-    "Negative free cash flow suggesting high capital intensity",
-    "Significant increase in receivable days (251% over 3 years) indicating potential collection issues",
-    "Ongoing tax litigation regarding R&D deductions",
-    "High valuation (PE 124) leaves little margin for error"
-   ],
-   "sources": [
-    "https://www.sebi.gov.in/filings/public-issues/feb-2026/sedemac-mechatronics-limited-rhp_100355.html",
-    "https://www.bseindia.com/xml-data/corpfiling/AttachHis/07681afd-b20a-4c03-94b4-62f595d231ea.pdf",
-    "https://scanx.trade/stock-market-news/companies/sedemac-mechatronics-receives-40-036-gst-order-tamil-nadu/50506411",
-    "https://www.sedemac.com/static/media/SEDEMAC_AnnualReport_2024-25.1e8736c84c62450d11d1.pdf",
-    "https://www.arthneeti.com/insights/sedemac-mechatronics-ltd-q4-fy26-earnings",
-    "https://scanx.trade/stock-market-news/companies/sedemag-mechatronics-limited-receives-74-93-lakh-penalty-order-from-income-tax-department/36004514",
-    "https://trendlyne.com/equity/share-holding/3443160/SEDEMAC/latest/sedemac-mechatronics-ltd/",
-    "https://www.indiainfoline.com/company/sedemac-mechatronics-ltd/share-holding"
-   ],
-   "status": "ok",
-   "provider": "gemini",
-   "model": "gemini-3.1-flash-lite",
-   "method": "DuckDuckGo snippets (weaker)",
-   "date": "2026-10-05",
-   "cached": true
-  },
-  "exit_triggers": [
-   "Operating margin drops below 12% (now 16%).",
-   "ROCE falls below 22% (now 31%).",
-   "Promoter pledge appears or rises above 10%, or promoter holding falls more than 2 pp.",
-   "Operating cash flow stays below half of profit for two years running.",
-   "Weekly close below the 200-day average on rising volume.",
-   "Order book or order inflow stops growing faster than revenue at the next concall."
-  ],
-  "held_from_yesterday": false,
-  "price": 3229.8,
-  "price_date": "2026-10-09",
+  "price": 3233.9,
+  "price_date": "2026-10-12",
+  "fundamentals_as_of": "2026-10-05",
   "spark": [
    1451.1,
    1441.3,
@@ -597,86 +643,133 @@
    3399.6,
    3425.6,
    3232.1,
-   3229.8
+   3229.8,
+   3233.9
   ],
+  "diligence": {
+   "verdict": "yellow",
+   "summary": "Sedemac Mechatronics is a technology-focused auto component manufacturer specializing in electronic control units (ECUs) and motor control units (MCUs) for two-wheelers. While the company demonstrates strong growth and high ROCE, the recent surge in receivable days and negative free cash flow, combined with ongoing tax litigation, warrants caution.",
+   "management": "The company was founded by alumni from IIT Bombay, including Shashikanth Suryanarayanan. Management has transitioned from a private entity to a listed company, but the recent block deal by early investors (Xponentia Group) suggests a potential exit strategy that retail investors should monitor closely.",
+   "controversies": "The company is currently contesting a Rs 74.93 lakh penalty from the Income Tax Department (FY 2017-18) regarding R&D deduction disallowances. Additionally, it recently settled GST demand notices in Tamil Nadu for FY22-24, where most allegations were dropped, leaving a minor demand of Rs 40,036.",
+   "business_update": "Q1 FY27 performance was driven by the adoption of SLC-based ISG ECUs in high-volume motorcycles and increased E2W MCU volumes. The company reported a capex of Rs 227 crore in Q4 FY26 to support capacity expansion, though it does not maintain a traditional order book due to the nature of its supply contracts.",
+   "order_book": "not found",
+   "strengths": [
+    "High ROCE of 31.0% indicating efficient capital utilization",
+    "Strong technical positioning in the growing EV and high-end ICE two-wheeler component space",
+    "Robust revenue CAGR of 35.7%"
+   ],
+   "risks": [
+    "Negative free cash flow and significant increase in receivable days (251%) suggesting potential working capital stress",
+    "Ongoing tax litigation and regulatory scrutiny",
+    "Potential overhang from large block deals by early-stage private equity investors"
+   ],
+   "sources": [
+    "https://www.sedemac.com/static/media/SEDEMAC_AnnualReport_2024-25.1e8736c84c62450d11d1.pdf",
+    "https://scanx.trade/stock-market-news/companies/sedemac-mechatronics-receives-40-036-gst-order-tamil-nadu/50506411",
+    "https://scanx.trade/stock-market-news/companies/sedemag-mechatronics-limited-receives-74-93-lakh-penalty-order-from-income-tax-department/36004514",
+    "https://economictimes.indiatimes.com/sedemac-mechatronics-ltd/stocksupdate/companyid-2289157.cms",
+    "https://www.arthneeti.com/insights/sedemac-mechatronics-ltd-q4-fy26-earnings",
+    "https://trendlyne.com/latest-news/only-news/3443160/13510413/sedemac-mechatronics-ltd/",
+    "https://indianstockalerts.com/news/sedemac-intimation-under-regulation-30-of-the-sebi-listing-26199",
+    "https://scanx.trade/stock-market-news/companies/sedemac-mechatronics-shareholders-approve-fy26-audited-financials-agm/50510279"
+   ],
+   "status": "ok",
+   "provider": "gemini",
+   "model": "gemini-3.1-flash-lite",
+   "method": "DuckDuckGo snippets (weaker)",
+   "date": "2026-10-12"
+  },
   "streak": 7,
-  "mcap_cr": 14913.1559,
-  "fundamentals_as_of": "2026-10-05"
+  "held_from_yesterday": true,
+  "themes": [
+   "Energy transition"
+  ],
+  "rs_6m": 103.2961,
+  "q_accel": null
  },
  "bench": [
   {
    "ticker": "MANORAMA.NS",
    "name": "MANORAMA INDUSTRIES LTD",
-   "score": 72.6,
-   "line": "Revenue of Rs 1,362 cr has compounded at 58% a year over three years. The latest quarter grew 74% year on year. Operating margin moved +11.6 pp while ROCE sits at 47%. Only 2 analysts cover it and institutions hold 4%, s",
-   "mcap_cr": 12319.5965,
-   "weakest": "ownership"
+   "score": 72.2,
+   "price": 1985.4,
+   "sector": "Packaged Foods",
+   "line": "rev CAGR 58% \u00b7 ROCE 47%"
   },
   {
    "ticker": "TIPSMUSIC.NS",
    "name": "TIPS MUSIC LIMITED",
-   "score": 68.4,
-   "line": "Revenue of Rs 376 cr has compounded at 26% a year over three years. The latest quarter grew 36% year on year. Operating margin moved -7.5 pp while ROCE sits at 110%. Only 3 analysts cover it and institutions hold 7%, so ",
-   "mcap_cr": 8224.6861,
-   "weakest": "catalyst"
+   "score": 67.5,
+   "price": 690.55,
+   "sector": "Entertainment",
+   "line": "rev CAGR 26% \u00b7 ROCE 110%"
   },
   {
-   "ticker": "SJS.NS",
-   "name": "SJS ENTERPRISES LIMITED",
-   "score": 67.8,
-   "line": "Operates in export manufacturing. Revenue of Rs 952 cr has compounded at 30% a year over three years. The latest quarter grew 30% year on year. Operating margin moved +3.5 pp while ROCE sits at 26%. Only 5 analysts cover",
-   "mcap_cr": 6657.5921,
-   "weakest": "ownership"
+   "ticker": "JSLL.NS",
+   "name": "JEENA SIKHO LIFECARE LTD",
+   "score": 66.0,
+   "price": 391.6,
+   "sector": "Medical Care Facilities",
+   "line": "rev CAGR 58% \u00b7 ROCE 54%"
   },
   {
-   "ticker": "AZAD.NS",
-   "name": "AZAD ENGINEERING LIMITED",
-   "score": 67.1,
-   "line": "Operates in defence and aerospace and export manufacturing. Revenue of Rs 595 cr has compounded at 35% a year over three years. The latest quarter grew 36% year on year. Operating margin moved +4.8 pp while ROCE sits at ",
-   "mcap_cr": 18425.1711,
-   "weakest": "moat"
+   "ticker": "ATLANTAELE.NS",
+   "name": "ATLANTA ELECTRICALS LTD",
+   "score": 64.5,
+   "price": 1866.0,
+   "sector": "Electrical Equipment & Parts",
+   "line": "Energy transition, Railways and infrastructure \u00b7 rev CAGR 28% \u00b7 ROCE 32%"
   }
  ],
  "track": [
   {
-   "start": "2026-10-05",
-   "last": "2026-10-09",
-   "days": 6,
-   "ticker": "SEDEMAC.NS",
-   "name": "SEDEMAC MECHATRONICS LTD",
-   "price": 3381.4,
-   "score": 73.6,
-   "ret": -4.4834,
-   "nifty_ret": -0.1162,
-   "active": true
-  },
-  {
    "start": "2026-10-01",
-   "last": "2026-10-01",
-   "days": 1,
    "ticker": "ACUTAAS.NS",
    "name": "ACUTAAS CHEMICALS LIMITED",
-   "price": 3196.5,
-   "score": 65.6,
-   "ret": -1.1231,
-   "nifty_ret": 0.4393,
+   "days": 1,
+   "ret": -1.4078,
+   "nifty_ret": -0.2406,
    "active": false
+  },
+  {
+   "start": "2026-10-05",
+   "ticker": "SEDEMAC.NS",
+   "name": "SEDEMAC MECHATRONICS LTD",
+   "days": 7,
+   "ret": -4.3621,
+   "nifty_ret": -0.7924,
+   "active": true
   }
  ],
  "track_summary": {
   "episodes": 2,
   "measured": 2,
   "beat": 0,
-  "avg_excess": -2.9648
+  "avg_excess": -2.3685
  },
  "dd_rejected": [],
  "dd_blocked": false,
  "dd_provider": "gemini / gemini-3.1-flash-lite",
  "neg_filing_rejects": [
   {
+   "ticker": "BLS.NS",
+   "name": "BLS INTL SERVS LTD",
+   "score": 57.3,
+   "events": [
+    {
+     "date": "2026-09-30",
+     "labels": [
+      "Governance"
+     ],
+     "text": "BLS International Services Limited has informed the Exchange about Resignation of Statutory Auditor",
+     "url": "https://nsearchives.nseindia.com/corporate/BLS_ROSA_99452_KMP_Doc.zip"
+    }
+   ]
+  },
+  {
    "ticker": "EMMVEE.NS",
    "name": "EMMVEE PHOTOVOLTAIC PWR L",
-   "score": 70.4,
+   "score": 68.8,
    "events": [
     {
      "date": "2026-10-01",
@@ -691,7 +784,7 @@
   {
    "ticker": "PRIVISCL.NS",
    "name": "PRIVI SPECIALITY CHE LTD",
-   "score": 62.2,
+   "score": 56.2,
    "events": [
     {
      "date": "2026-09-24",
@@ -704,39 +797,9 @@
    ]
   },
   {
-   "ticker": "RRKABEL.NS",
-   "name": "R R KABEL LIMITED",
-   "score": 59.7,
-   "events": [
-    {
-     "date": "2026-08-29",
-     "labels": [
-      "Regulatory"
-     ],
-     "text": "RRKABEL: R R Kabel Limited has informed the Exchange regarding receipt of a Show Cause-cum-Demand Notice from the GST Department under Regulation 30 of the SEBI Listing Regulations.",
-     "url": "https://nsearchives.nseindia.com/corporate/RRKL1995_29082026180828_Intimation_GST_SCN_27_08_26.pdf"
-    }
-   ]
-  },
-  {
-   "ticker": "CAPILLARY.NS",
-   "name": "CAPILLARY TECHNO INDIA L",
-   "score": 61.1,
-   "events": [
-    {
-     "date": "2026-07-31",
-     "labels": [
-      "Governance"
-     ],
-     "text": "Capillary Technologies India Limited has informed the Exchange about Initiation of Forensic Audit",
-     "url": "https://nsearchives.nseindia.com/corporate/CAPILLARY12_31072026143127_Forensic_Audit.pdf"
-    }
-   ]
-  },
-  {
    "ticker": "UTLSOLAR.NS",
    "name": "FUJIYAMA POWER SYSTEMS L",
-   "score": 73.4,
+   "score": 71.9,
    "events": [
     {
      "date": "2026-06-18",
@@ -751,7 +814,7 @@
   {
    "ticker": "VIKRAMSOLR.NS",
    "name": "VIKRAM SOLAR LIMITED",
-   "score": 61.2,
+   "score": 59.7,
    "events": [
     {
      "date": "2026-06-30",
