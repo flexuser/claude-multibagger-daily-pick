@@ -62,16 +62,17 @@ CFG = dict(
 # Higher weight on proof / quality / catalyst for true multibagger edge
 # ---------------------------------------------------------------------------
 WEIGHTS = dict(
-    runway=10,       # theme + still-small revenue base
-    moat=9,          # ROCE, margins, keyword proxies
-    proof=18,        # growth + acceleration (most important)
-    leverage=12,     # operating leverage / profit vs sales
-    quality=14,      # capital quality, cash conversion, coverage
-    discovery=7,     # still under-owned / under-covered
-    valuation=7,     # PE/PEG not extreme
-    confirm=6,       # price/volume confirmation
-    ownership=9,     # promoter + smart-money trends
-    catalyst=8,      # expansion, orders, capex
+    runway=9,        # theme + still-small revenue base + policy keyword hits
+    moat=8,          # ROCE, margins, keyword proxies
+    proof=16,        # growth + acceleration (most important)
+    leverage=11,     # operating leverage / profit vs sales
+    quality=13,      # capital quality, cash conversion, coverage
+    discovery=6,     # still under-owned / under-covered
+    valuation=6,     # PE/PEG not extreme
+    confirm=8,       # price/volume/RSI/structure confirmation
+    ownership=8,     # promoter + smart-money trends
+    catalyst=7,      # expansion, orders, capex
+    context=8,       # sector/theme RS, news sentiment, market regime
 )
 
 PILLAR_NAMES = dict(
@@ -85,6 +86,7 @@ PILLAR_NAMES = dict(
     confirm="Market confirmation",
     ownership="Ownership and smart money",
     catalyst="Expansion and catalysts",
+    context="Context (sector, news, regime)",
 )
 
 # ---------------------------------------------------------------------------
@@ -142,6 +144,9 @@ VERIFY = [
     "Customer concentration and dependence on government orders",
     "Governance: auditor changes, related-party dealings, promoter track record",
     "Whether the growth is organic or came from a one-off order or acquisition",
+    "Government policy / PLI / tariff exposure: does demand depend on a scheme that can change?",
+    "Management commentary and guidance from the latest concall — not just the press release",
+    "Sector cycle: is the whole theme already crowded in price (theme relative strength on the page)",
 ]
 
 # NSE index constituent CSV sources (primary, fallback)

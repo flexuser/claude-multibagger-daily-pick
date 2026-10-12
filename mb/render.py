@@ -99,6 +99,16 @@ def _dd_panel(dd):
         h.append("<h3>Sources</h3>" + _links(dd["sources"]))
     h.append(f'<p class="note" style="margin-top:10px">Written by an AI ({e(str(dd.get("provider")))} / {e(str(dd.get("model")))}, {e(str(dd.get("method")))}) on {e(str(dd.get("date")))}. '
              'It can be wrong. Open the sources and confirm anything you rely on. It never changes the score, it only blocks a pick when it finds serious problems.</p></div>')
+    
+    for label, key in (
+        ("Management vision", "management_vision"),
+        ("Policy & demand", "policy_and_demand"),
+        ("Sector outlook", "sector_outlook"),
+        ("Guidance", "guidance"),
+    ):
+        val = dd.get(key)
+        if val and str(val).lower() not in ("not found", "n/a", ""):
+            h.append(f'<h3>{e(label)}</h3><p>{e(str(val))}</p>')
     return "".join(h)
 
 
@@ -109,6 +119,8 @@ def render_page(r):
     h.append('<h1>Daily multibagger candidate</h1>')
     h.append(f'<p class="meta">Scan of {r["generated"]}. {r["universe"]} stocks in the universe, {r["liquid"]} liquid enough, '
              f'{r["with_data"]} with fundamentals, {r["eligible"]} passed the filters.</p>')
+    if r.get("market_regime"):
+        h.append(f'<p class="meta">Nifty regime: <b>{e(str(r["market_regime"]))}</b> (above 200DMA: {e(str(r.get("nifty_above_200")))}%). Soft context only — not a timing system.</p>')
     if r.get("demo"):
         h.append('<div class="banner">DEMO DATA. These are synthetic companies for previewing the layout, not real stocks.</div>')
 

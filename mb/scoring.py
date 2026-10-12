@@ -64,15 +64,52 @@ def score_pillars(m: dict) -> dict[str, Optional[float]]:
 
     theme_n = len(m.get("themes") or [])
 
-    # Delivery % (from nselib enrichment) boosts confirmation when high
     deliv = m.get("delivery_pct")
     deliv_score = ramp(deliv, 30, 60) if deliv is not None else None
+
+    # RSI: prefer not extreme overbought for entry quality
+    rsi = m.get("rsi_14")
+    rsi_score = None
+    if rsi is not None:
+        if 40 <= rsi <= 65:
+            rsi_score = 90.0
+        elif 30 <= rsi < 40 or 65 < rsi <= 75:
+            rsi_score = 60.0
+        elif rsi < 30:
+            rsi_score = 45.0  # oversold — possible value, not momentum confirm
+        else:
+            rsi_score = 25.0  # extended
+
+    # Trend structure (higher highs/lows)
+    struct = m.get("trend_structure")
+    struct_score = 80.0 if struct == 1 else (35.0 if struct == 0 else None)
+
+    # Golden cross proxy
+    ma_x = m.get("ma50_vs_200")
+    ma_score = ramp(ma_x, -5, 8) if ma_x is not None else None
+
+    # Policy keyword hits in blurb/news/filings (soft)
+    pol = m.get("policy_hits")
+    pol_score = ramp(pol, 0, 3) if pol is not None else None
+
+    # Theme peer relative strength (sector sentiment proxy)
+    theme_rs = m.get("theme_rs_6m")
+    theme_rs_score = ramp(theme_rs, -15, 20) if theme_rs is not None else None
+
+    # News headline sentiment
+    ns = m.get("news_sentiment")
+    ns_score = ramp(ns, 30, 75) if ns is not None else None
+
+    # Market regime: mild penalty in risk_off (not a hard reject)
+    regime = m.get("market_regime")
+    regime_score = {"risk_on": 75.0, "neutral": 55.0, "risk_off": 30.0}.get(regime)
 
     return dict(
         runway=avg([
             min(theme_n, 2) / 2 * 100,
             ramp_inv(m.get("revenue_cr"), 300, 4000),
             ramp(m.get("rev_cagr"), 12, 40),
+            pol_score,
         ]),
         moat=avg([
             ramp(m.get("roce"), 12, 30),
@@ -118,6 +155,9 @@ def score_pillars(m: dict) -> dict[str, Optional[float]]:
             ramp(rs, -8, 35),
             ramp(m.get("vol_ratio"), 0.85, 1.5),
             deliv_score,
+            rsi_score,
+            struct_score,
+            ma_score,
         ]),
         ownership=avg([
             ramp(m.get("promoter_chg"), -1.5, 3),
@@ -133,6 +173,13 @@ def score_pillars(m: dict) -> dict[str, Optional[float]]:
             ramp(m.get("cwip_growth"), 15, 100),
             ramp(m.get("gppe_growth"), 5, 40),
             None if m.get("acquisition") is None else (75 if m["acquisition"] else 25),
+        ]),
+        context=avg([
+            theme_rs_score,
+            ns_score,
+            regime_score,
+            pol_score,
+            ramp(m.get("ret_1m"), -10, 15),
         ]),
     )
 

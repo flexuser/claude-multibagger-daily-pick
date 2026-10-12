@@ -29,6 +29,7 @@ from mb.prices import fetch_prices, enrich_delivery
 from mb.fundamentals import fetch_fundamentals
 from mb.scoring import score_pillars, composite, red_flags, eligible
 from mb.evidence import build_evidence, build_thesis, exit_triggers
+from mb.context import theme_peer_rs, attach_context
 from mb.signals import NSEClient, fetch_signals, LABELS, NEGATIVE
 from mb import diligence
 from mb import notify
@@ -94,9 +95,13 @@ def demo_diligence(ctx: dict) -> dict:
         verdict="green",
         summary=f"Synthetic clean diligence for {ctx.get('name')}.",
         management="Synthetic management record clean.",
+        management_vision="Synthetic capacity doubling plan over 3 years.",
         controversies="not found",
         business_update="Synthetic order book growing.",
         order_book="Synthetic Rs 800 cr order book.",
+        policy_and_demand="Synthetic exposure to structural theme incentives.",
+        sector_outlook="Synthetic sector demand healthy.",
+        guidance="Synthetic double-digit growth guided.",
         strengths=["Synthetic strength"], risks=["Synthetic risk"],
         sources=["https://example.com/synthetic"],
     )
@@ -113,7 +118,9 @@ def dd_context(s_: dict) -> dict:
         f"mcap Rs {g('mcap_cr', 0)} cr | rev Rs {g('revenue_cr', 0)} cr | "
         f"rev CAGR {g('rev_cagr', 1)}% | q YoY {g('q_rev_yoy', 1)}% | "
         f"ROCE {g('roce', 1)}% | OPM {g('op_margin', 1)}% | D/E {g('de', 2)} | "
-        f"CFO/PAT {g('cfo_pat', 2)}x | pledge {g('pledge', 1)}%"
+        f"CFO/PAT {g('cfo_pat', 2)}x | pledge {g('pledge', 1)}% | "
+        f"RSI {g('rsi_14', 0)} | theme RS {g('theme_rs_6m', 1)} pp | "
+        f"news sentiment {g('news_sentiment', 0)}"
     )
     flags = "; ".join(f["text"] for f in s_.get("flags") or [])
     events = "; ".join(
@@ -123,6 +130,8 @@ def dd_context(s_: dict) -> dict:
     return dict(
         ticker=s_["ticker"], name=m.get("name"), sector=m.get("sector"),
         mcap_cr=m.get("mcap_cr"), facts=facts, flags=flags, events=events,
+        themes=", ".join(m.get("themes") or []),
+        regime=m.get("market_regime") or "n/a",
     )
 
 
@@ -262,6 +271,8 @@ def run(
     # ---- score pass 1
     neg_detail: list = []
 
+    theme_rs_map = theme_peer_rs(liquid, cache)
+
     def evaluate(sigs: dict) -> tuple[list, dict]:
         neg_detail.clear()
         scored_, rejected_ = [], {}
@@ -272,15 +283,16 @@ def run(
             if t.get("price") is None:
                 continue
             m = {**f, **{k: v for k, v in t.items() if k != "spark"}}
+            m["ticker"] = tk
             m["nifty_6m"] = nifty["ret_6m"] if nifty else None
             sig = {k: v for k, v in (sigs.get(tk) or {}).items() if k != "status"}
             m.update(sig)
             # signals.py uses neg_events; scoring uses neg_count
             if m.get("neg_count") is None and m.get("neg_events") is not None:
                 m["neg_count"] = m["neg_events"]
-            # delivery from price enrichment may already be on t
             if m.get("delivery_pct") is None and t.get("delivery_pct") is not None:
                 m["delivery_pct"] = t["delivery_pct"]
+            attach_context(m, theme_rs_map, nifty)
             pil = score_pillars(m)
             sc = composite(pil)
             fl = red_flags(m)

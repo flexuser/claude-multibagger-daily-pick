@@ -138,6 +138,41 @@ def build_evidence(m: dict) -> list[dict]:
             m["delivery_pct"] >= 45,
             "High delivery suggests genuine investor interest, not just day-trading churn.",
         )
+    if m.get("rsi_14") is not None:
+        add(
+            "Confirm", "RSI (14)",
+            fmt(m.get("rsi_14"), 1),
+            35 <= m["rsi_14"] <= 70,
+            "Avoid chasing extreme overbought readings when possible.",
+        )
+    if m.get("theme_rs_6m") is not None:
+        add(
+            "Context", "6m return vs theme peers",
+            fmt(m.get("theme_rs_6m"), 1, " pp"),
+            m["theme_rs_6m"] > 0,
+            "Positive means the stock is outperforming others in the same structural theme (sector sentiment proxy).",
+        )
+    if m.get("news_sentiment") is not None:
+        add(
+            "Context", "Headline sentiment (keyword)",
+            fmt(m.get("news_sentiment"), 0),
+            m["news_sentiment"] >= 50,
+            "Crude keyword score on recent Yahoo headlines — not a full NLP model.",
+        )
+    if m.get("policy_hits"):
+        add(
+            "Context", "Policy / PLI keyword hits",
+            str(int(m["policy_hits"])),
+            m["policy_hits"] >= 1,
+            "Mentions of PLI, Make in India, defence budget, etc. in blurb/news/filings — confirm real dependency.",
+        )
+    if m.get("market_regime"):
+        add(
+            "Context", "Nifty market regime",
+            str(m["market_regime"]),
+            m["market_regime"] != "risk_off",
+            "Risk-off regimes make small-cap multi-bagger paths harder near-term.",
+        )
     return E
 
 
