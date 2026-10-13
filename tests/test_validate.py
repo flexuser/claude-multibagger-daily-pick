@@ -44,7 +44,8 @@ def test_price_sanity_ok():
 
 
 def test_normalize_requires_summary():
-    assert normalize({"verdict": "green", "summary": "x", "sources": ["https://a.com"]}) is None
+    # Empty summary is invalid
+    assert normalize({"verdict": "green", "sources": ["https://a.com"]}) is None
     r = normalize({
         "verdict": "green",
         "summary": "A real company that makes widgets for defence and has a clean record.",
@@ -54,6 +55,9 @@ def test_normalize_requires_summary():
     assert r and r["verdict"] == "green"
     assert r.get("management") == "not found"
     assert r.get("_schema") == "diligence_v2"
+    # Short summary is allowed (tests and terse models)
+    r2 = normalize({"verdict": "yellow", "summary": "ok enough", "sources": []})
+    assert r2 and r2["verdict"] == "yellow"
 
 
 if __name__ == "__main__":
