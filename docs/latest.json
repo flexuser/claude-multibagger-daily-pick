@@ -2,19 +2,19 @@
  "generated": "2026-10-13",
  "demo": false,
  "universe": 651,
- "liquid": 635,
- "with_data": 635,
+ "liquid": 636,
+ "with_data": 636,
  "eligible": 27,
  "fund_stats": {
-  "attempted": 300,
+  "attempted": 38,
   "failed": 0
  },
  "rejected": {
-  "ROCE below 12%": 88,
+  "ROCE below 12%": 89,
   "mcap 29544 cr outside band": 1,
-  "operating margin too low": 37,
+  "operating margin too low": 35,
   "mcap 25801 cr outside band": 1,
-  "insufficient growth": 85,
+  "insufficient growth": 86,
   "mcap 28744 cr outside band": 1,
   "mcap 50853 cr outside band": 1,
   "mcap 50660 cr outside band": 1,
@@ -229,12 +229,12 @@
   "latest annual results are dated 2025-03-31": 1
  },
  "signals": {
-  "attempted": 35,
+  "attempted": 2,
   "ok": {
-   "announcements": 35,
-   "pledge": 35,
-   "shareholding": 35,
-   "insider": 35
+   "announcements": 2,
+   "pledge": 2,
+   "shareholding": 2,
+   "insider": 2
   },
   "blocked": false,
   "checked": 35,
@@ -283,7 +283,7 @@
   "name": "SEDEMAC MECHATRONICS LTD",
   "sector": "Auto Parts",
   "blurb": "SEDEMAC Mechatronics Limited provides electronic control units to original equipment manufacturers in the mobility and industrial markets in India, the United States, and Europe. It operates in two segments, Mobility and Industrial. The Mobility segment offers motor control technology and transmission controls, which c",
-  "score": 65.8,
+  "score": 66.2,
   "pillars": {
    "runway": 53.6,
    "moat": 58.4,
@@ -292,10 +292,10 @@
    "quality": 77.4,
    "discovery": 40.1,
    "valuation": 0.0,
-   "confirm": 87.3,
+   "confirm": 88.4,
    "ownership": 26.6,
    "catalyst": 68.7,
-   "context": 51.3
+   "context": 55.8
   },
   "flags": [
    {
@@ -440,14 +440,14 @@
    {
     "group": "Confirm",
     "label": "RSI (14)",
-    "value": "54.0",
+    "value": "53.8",
     "ok": true,
     "why": "Avoid chasing extreme overbought readings when possible."
    },
    {
     "group": "Context",
     "label": "6m return vs theme peers",
-    "value": "79.8 pp",
+    "value": "83.5 pp",
     "ok": true,
     "why": "Positive means the stock is outperforming others in the same structural theme (sector sentiment proxy)."
    },
@@ -515,8 +515,8 @@
     "neg": false
    }
   ],
-  "price": 3172.7,
-  "price_date": "2026-10-13",
+  "price": 3229.8,
+  "price_date": "2026-10-09",
   "fundamentals_as_of": "2026-10-13",
   "spark": [
    1451.1,
@@ -662,8 +662,7 @@
    3399.6,
    3425.6,
    3232.1,
-   3229.8,
-   3172.7
+   3229.8
   ],
   "diligence": {
    "verdict": "yellow",
@@ -699,28 +698,28 @@
    "date": "2026-10-12",
    "cached": true
   },
-  "streak": 8,
-  "held_from_yesterday": true,
+  "streak": 9,
+  "held_from_yesterday": false,
   "themes": [
    "Energy transition"
   ],
-  "rs_6m": 97.6712,
+  "rs_6m": 104.2154,
   "q_accel": null
  },
  "bench": [
   {
    "ticker": "TIPSMUSIC.NS",
    "name": "TIPS MUSIC LIMITED",
-   "score": 66.2,
-   "price": 705.6,
+   "score": 65.8,
+   "price": 636.35,
    "sector": "Entertainment",
    "line": "rev CAGR 26% \u00b7 ROCE 110%"
   },
   {
    "ticker": "GOLDIAM.NS",
    "name": "GOLDIAM INTERNATIONAL LTD",
-   "score": 62.9,
-   "price": 308.65,
+   "score": 62.7,
+   "price": 305.9,
    "sector": "Luxury Goods",
    "line": "Export manufacturing \u00b7 rev CAGR 22% \u00b7 ROCE 20%"
   },
@@ -728,15 +727,15 @@
    "ticker": "SENORES.NS",
    "name": "SENORES PHARMACEUTICALS L",
    "score": 62.4,
-   "price": 1311.9,
+   "price": 1320.0,
    "sector": "Drug Manufacturers - General",
    "line": "Healthcare and diagnostics \u00b7 ROCE 14%"
   },
   {
    "ticker": "SJS.NS",
    "name": "SJS ENTERPRISES LIMITED",
-   "score": 61.9,
-   "price": 2077.5,
+   "score": 61.4,
+   "price": 1994.8,
    "sector": "Auto Parts",
    "line": "Export manufacturing, Healthcare and diagnostics \u00b7 rev CAGR 30% \u00b7 ROCE 26%"
   }
@@ -747,8 +746,8 @@
    "ticker": "ACUTAAS.NS",
    "name": "ACUTAAS CHEMICALS LIMITED",
    "days": 1,
-   "ret": -2.2212,
-   "nifty_ret": 0.9437,
+   "ret": -1.1231,
+   "nifty_ret": -0.2613,
    "active": false
   },
   {
@@ -756,8 +755,8 @@
    "ticker": "SEDEMAC.NS",
    "name": "SEDEMAC MECHATRONICS LTD",
    "days": 8,
-   "ret": -6.172,
-   "nifty_ret": 0.3854,
+   "ret": -4.4834,
+   "nifty_ret": -0.813,
    "active": true
   }
  ],
@@ -765,7 +764,7 @@
   "episodes": 2,
   "measured": 2,
   "beat": 0,
-  "avg_excess": -4.8612
+  "avg_excess": -2.2661
  },
  "dd_rejected": [],
  "dd_blocked": false,
@@ -774,7 +773,7 @@
   {
    "ticker": "EMMVEE.NS",
    "name": "EMMVEE PHOTOVOLTAIC PWR L",
-   "score": 62.8,
+   "score": 63.9,
    "events": [
     {
      "date": "2026-10-01",
@@ -789,7 +788,7 @@
   {
    "ticker": "PRIVISCL.NS",
    "name": "PRIVI SPECIALITY CHE LTD",
-   "score": 56.2,
+   "score": 57.0,
    "events": [
     {
      "date": "2026-09-24",
@@ -804,7 +803,7 @@
   {
    "ticker": "AKUMS.NS",
    "name": "AKUMS DRUGS AND PHARMA L",
-   "score": 52.9,
+   "score": 53.1,
    "events": [
     {
      "date": "2026-07-04",
@@ -819,7 +818,7 @@
   {
    "ticker": "UTLSOLAR.NS",
    "name": "FUJIYAMA POWER SYSTEMS L",
-   "score": 63.7,
+   "score": 63.9,
    "events": [
     {
      "date": "2026-06-18",
