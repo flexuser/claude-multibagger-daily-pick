@@ -1,6 +1,6 @@
 {
  "EMMVEE.NS": {
-  "fetched": "2026-10-12",
+  "fetched": "2026-10-13",
   "data": {
    "status": {
     "announcements": true,
@@ -204,7 +204,7 @@
   }
  },
  "PRIVISCL.NS": {
-  "fetched": "2026-10-12",
+  "fetched": "2026-10-13",
   "data": {
    "status": {
     "announcements": true,
@@ -238,7 +238,7 @@
     "distress": 1
    },
    "neg_events": 1,
-   "pledge": null,
+   "pledge": 0.0,
    "pledge_chg": null,
    "promoter_chg": -9.29,
    "promoter_now": 60.6,
@@ -572,7 +572,7 @@
   }
  },
  "SCI.NS": {
-  "fetched": "2026-10-12",
+  "fetched": "2026-10-13",
   "data": {
    "status": {
     "announcements": true,
@@ -584,7 +584,7 @@
    "event_score": 0,
    "event_counts": {},
    "neg_events": 0,
-   "pledge": null,
+   "pledge": 0.0,
    "pledge_chg": null,
    "promoter_chg": 0.0,
    "promoter_now": 63.75,
@@ -1369,7 +1369,7 @@
   }
  },
  "CASTROLIND.NS": {
-  "fetched": "2026-10-12",
+  "fetched": "2026-10-13",
   "data": {
    "status": {
     "announcements": true,
@@ -1393,7 +1393,7 @@
     "acquisition": 1
    },
    "neg_events": 0,
-   "pledge": null,
+   "pledge": 0.0,
    "pledge_chg": null,
    "promoter_chg": 0.0,
    "promoter_now": 51.0,
@@ -1686,7 +1686,7 @@
   }
  },
  "CHENNPETRO.NS": {
-  "fetched": "2026-10-12",
+  "fetched": "2026-10-13",
   "data": {
    "status": {
     "announcements": true,
@@ -1698,7 +1698,7 @@
    "event_score": 0,
    "event_counts": {},
    "neg_events": 0,
-   "pledge": null,
+   "pledge": 0.0,
    "pledge_chg": null,
    "promoter_chg": 0.0,
    "promoter_now": 67.29,
@@ -1773,7 +1773,7 @@
   }
  },
  "GESHIP.NS": {
-  "fetched": "2026-10-04",
+  "fetched": "2026-10-13",
   "data": {
    "status": {
     "announcements": true,
@@ -1815,7 +1815,7 @@
     "buyback": 3
    },
    "neg_events": 0,
-   "pledge": null,
+   "pledge": 0.0,
    "pledge_chg": null,
    "promoter_chg": 0.0,
    "promoter_now": 30.07,
@@ -2247,7 +2247,7 @@
   }
  },
  "UTLSOLAR.NS": {
-  "fetched": "2026-10-12",
+  "fetched": "2026-10-13",
   "data": {
    "status": {
     "announcements": true,
@@ -2310,7 +2310,7 @@
   }
  },
  "SEDEMAC.NS": {
-  "fetched": "2026-10-12",
+  "fetched": "2026-10-13",
   "data": {
    "status": {
     "announcements": true,
@@ -2381,7 +2381,7 @@
   }
  },
  "MANORAMA.NS": {
-  "fetched": "2026-10-12",
+  "fetched": "2026-10-13",
   "data": {
    "status": {
     "announcements": true,
@@ -2425,8 +2425,8 @@
    "neg_events": 0,
    "pledge": null,
    "pledge_chg": null,
-   "promoter_chg": -0.09,
-   "promoter_now": 54.32,
+   "promoter_chg": -2.94,
+   "promoter_now": 51.38,
    "pit_net_cr": 0.0,
    "pit_buys": 0,
    "pit_sells": 0
@@ -2495,7 +2495,7 @@
   }
  },
  "SJS.NS": {
-  "fetched": "2026-10-12",
+  "fetched": "2026-10-13",
   "data": {
    "status": {
     "announcements": true,
@@ -2567,7 +2567,7 @@
     "acquisition": 5
    },
    "neg_events": 0,
-   "pledge": null,
+   "pledge": 4.5,
    "pledge_chg": null,
    "promoter_chg": -1.45,
    "promoter_now": 20.15,
@@ -2577,7 +2577,7 @@
   }
  },
  "ATLANTAELE.NS": {
-  "fetched": "2026-10-12",
+  "fetched": "2026-10-13",
   "data": {
    "status": {
     "announcements": true,
@@ -2620,7 +2620,7 @@
   }
  },
  "GPPL.NS": {
-  "fetched": "2026-10-12",
+  "fetched": "2026-10-13",
   "data": {
    "status": {
     "announcements": true,
@@ -2644,7 +2644,7 @@
     "approval": 1
    },
    "neg_events": 0,
-   "pledge": null,
+   "pledge": 0.0,
    "pledge_chg": null,
    "promoter_chg": 0.0,
    "promoter_now": 44.01,
@@ -2697,7 +2697,7 @@
   }
  },
  "QPOWER.NS": {
-  "fetched": "2026-10-12",
+  "fetched": "2026-10-13",
   "data": {
    "status": {
     "announcements": true,
@@ -2731,7 +2731,7 @@
   }
  },
  "GOLDIAM.NS": {
-  "fetched": "2026-10-12",
+  "fetched": "2026-10-13",
   "data": {
    "status": {
     "announcements": true,
@@ -2802,7 +2802,7 @@
     "bonus_split": 2
    },
    "neg_events": 0,
-   "pledge": null,
+   "pledge": 0.0,
    "pledge_chg": null,
    "promoter_chg": 0.0,
    "promoter_now": 58.51,
@@ -2865,7 +2865,7 @@
   }
  },
  "JSLL.NS": {
-  "fetched": "2026-10-12",
+  "fetched": "2026-10-13",
   "data": {
    "status": {
     "announcements": true,
@@ -3001,7 +3001,7 @@
   }
  },
  "ELLEN.NS": {
-  "fetched": "2026-10-12",
+  "fetched": "2026-10-13",
   "data": {
    "status": {
     "announcements": true,
@@ -3366,7 +3366,7 @@
   }
  },
  "SHAILY.NS": {
-  "fetched": "2026-10-12",
+  "fetched": "2026-10-13",
   "data": {
    "status": {
     "announcements": true,
@@ -3388,7 +3388,7 @@
   }
  },
  "GRWRHITECH.NS": {
-  "fetched": "2026-10-12",
+  "fetched": "2026-10-13",
   "data": {
    "status": {
     "announcements": true,
@@ -3572,7 +3572,7 @@
   }
  },
  "TIPSMUSIC.NS": {
-  "fetched": "2026-10-12",
+  "fetched": "2026-10-13",
   "data": {
    "status": {
     "announcements": true,
@@ -3642,7 +3642,7 @@
     "acquisition": 1
    },
    "neg_events": 0,
-   "pledge": null,
+   "pledge": 0.0,
    "pledge_chg": null,
    "promoter_chg": 0.0,
    "promoter_now": 64.15,
@@ -3652,7 +3652,7 @@
   }
  },
  "THYROCARE.NS": {
-  "fetched": "2026-10-12",
+  "fetched": "2026-10-13",
   "data": {
    "status": {
     "announcements": true,
@@ -3734,7 +3734,7 @@
     "approval": 3
    },
    "neg_events": 0,
-   "pledge": null,
+   "pledge": 0.0,
    "pledge_chg": null,
    "promoter_chg": -9.91,
    "promoter_now": 51.02,
@@ -3959,7 +3959,7 @@
   }
  },
  "SUPRIYA.NS": {
-  "fetched": "2026-10-12",
+  "fetched": "2026-10-13",
   "data": {
    "status": {
     "announcements": true,
@@ -4015,7 +4015,7 @@
   }
  },
  "TRANSRAILL.NS": {
-  "fetched": "2026-10-12",
+  "fetched": "2026-10-13",
   "data": {
    "status": {
     "announcements": true,
@@ -4167,7 +4167,7 @@
   }
  },
  "WAAREERTL.NS": {
-  "fetched": "2026-10-12",
+  "fetched": "2026-10-13",
   "data": {
    "status": {
     "announcements": true,
@@ -4301,7 +4301,7 @@
   }
  },
  "EBGNG.NS": {
-  "fetched": "2026-10-12",
+  "fetched": "2026-10-13",
   "data": {
    "status": {
     "announcements": true,
@@ -4397,7 +4397,7 @@
   }
  },
  "LOTUSDEV.NS": {
-  "fetched": "2026-10-12",
+  "fetched": "2026-10-13",
   "data": {
    "status": {
     "announcements": true,
@@ -4439,10 +4439,374 @@
     "acquisition": 3
    },
    "neg_events": 0,
-   "pledge": null,
+   "pledge": 0.01,
    "pledge_chg": null,
    "promoter_chg": -1.99,
    "promoter_now": 79.87,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "SENORES.NS": {
+  "fetched": "2026-10-13",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [
+    {
+     "date": "2026-09-11",
+     "cats": [
+      "approval"
+     ],
+     "type": "General Updates",
+     "text": "Senores Pharmaceuticals Limited has informed the Exchange about Successful Completion of USFDA Inspection",
+     "url": "https://nsearchives.nseindia.com/corporate/SENORES_11092026134434_Intimation.pdf"
+    },
+    {
+     "date": "2026-08-26",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "General Updates",
+     "text": "Proposed incorporation of a Wholly Owned Subsidiary (WOS) in Mexico",
+     "url": "https://nsearchives.nseindia.com/corporate/SENORES_26082026184856_Outcome_signed.pdf"
+    },
+    {
+     "date": "2026-08-26",
+     "cats": [
+      "approval"
+     ],
+     "type": "General Updates",
+     "text": "Approval of Senores Pharmaceuticals Employee Stock Option Scheme 2026 ( ESOS 2026 /  SCHEME )",
+     "url": "https://nsearchives.nseindia.com/corporate/SENORES_26082026184653_Outcome_signed.pdf"
+    }
+   ],
+   "event_score": 22,
+   "event_counts": {
+    "approval": 2,
+    "acquisition": 1
+   },
+   "neg_events": 0,
+   "pledge": 2.81,
+   "pledge_chg": null,
+   "promoter_chg": 0.04,
+   "promoter_now": 45.82,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "WEBELSOLAR.NS": {
+  "fetched": "2026-10-13",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [
+    {
+     "date": "2026-09-23",
+     "cats": [
+      "expansion"
+     ],
+     "type": "Press Release",
+     "text": "Websol Energy System Limited has informed the Exchange regarding a press release dated September 23, 2026, titled \"West Bengal Government Allots Land to Websol for Greenfield 4 GW Solar Cell and Modul",
+     "url": "https://nsearchives.nseindia.com/corporate/WEBELSOLAR_23092026224345_Reg_30_-_Press_Release.pdf"
+    },
+    {
+     "date": "2026-07-07",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "Websol Energy System Limited has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) R",
+     "url": "https://nsearchives.nseindia.com/corporate/team_sandeshc_02072026123209_31.pdf"
+    }
+   ],
+   "event_score": 22,
+   "event_counts": {
+    "expansion": 1,
+    "acquisition": 1
+   },
+   "neg_events": 0,
+   "pledge": 15.64,
+   "pledge_chg": null,
+   "promoter_chg": 2.01,
+   "promoter_now": 29.72,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "OMNI.NS": {
+  "fetched": "2026-10-13",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [],
+   "event_score": 0,
+   "event_counts": {},
+   "neg_events": 0,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": 0.0,
+   "promoter_now": 74.19,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "ALKYLAMINE.NS": {
+  "fetched": "2026-10-13",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [],
+   "event_score": 0,
+   "event_counts": {},
+   "neg_events": 0,
+   "pledge": 0.0,
+   "pledge_chg": null,
+   "promoter_chg": 0.01,
+   "promoter_now": 72.04,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "ENGINERSIN.NS": {
+  "fetched": "2026-10-13",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [
+    {
+     "date": "2026-09-22",
+     "cats": [
+      "expansion"
+     ],
+     "type": "Press Release",
+     "text": "Engineers India Limited has informed the Exchange regarding a press release dated September 22, 2026, titled \"Press Release - EIL to Execute Dangote s Mega Greenfield Refinery & PetrochemicalPlant in",
+     "url": "https://nsearchives.nseindia.com/corporate/ENGINERSIN_22092026120820_Pressreleaseonkenya22092026.pdf"
+    },
+    {
+     "date": "2026-07-07",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "Neha Sharma, Ministry of Petroleum & Natural Gas, Section Officer (Oil Refinery) on behalf of President of India has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securi",
+     "url": "https://nsearchives.nseindia.com/corporate/team_sandeshc_02072026114350_50.PDF"
+    }
+   ],
+   "event_score": 22,
+   "event_counts": {
+    "expansion": 1,
+    "acquisition": 1
+   },
+   "neg_events": 0,
+   "pledge": 0.0,
+   "pledge_chg": null,
+   "promoter_chg": 0.0,
+   "promoter_now": 51.32,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "STYLAMIND.NS": {
+  "fetched": "2026-10-13",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [
+    {
+     "date": "2026-06-19",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Disclosure under SEBI Takeover Regulations",
+     "text": "Stylam Industries Limited\u00a0has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regu",
+     "url": "https://nsearchives.nseindia.com/corporate/team_bbodade_24042026164522_STYLAMIND.pdf"
+    }
+   ],
+   "event_score": 10,
+   "event_counts": {
+    "acquisition": 1
+   },
+   "neg_events": 0,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": 4.67,
+   "promoter_now": 56.86,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "AVALON.NS": {
+  "fetched": "2026-10-13",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [],
+   "event_score": 0,
+   "event_counts": {},
+   "neg_events": 0,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": -0.21,
+   "promoter_now": 44.39,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "PGHL.NS": {
+  "fetched": "2026-10-13",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [
+    {
+     "date": "2026-09-04",
+     "cats": [
+      "approval"
+     ],
+     "type": "Updates",
+     "text": "Procter & Gamble Health Limited has informed the Exchange regarding 'This is in reference to our letter dated May 26, 2026, regarding re-appointment of Mr. S.Madhavan as Independent Director of the Co",
+     "url": "https://nsearchives.nseindia.com/corporate/PGHL_04092026173958_PGHLAGMOutcome-_2026.pdf"
+    },
+    {
+     "date": "2026-06-25",
+     "cats": [
+      "export"
+     ],
+     "type": "Appointment",
+     "text": "Procter & Gamble Health Limited has informed the Exchange regarding Appointment of  Mr. Abhijit Roy as Sales Leader (South and East region) and Exports Leader of the company w.e.f. July 01, 2026.",
+     "url": "https://nsearchives.nseindia.com/corporate/PGHL_25062026194512_PGHL-_SMP_change_June_2026_3.pdf"
+    }
+   ],
+   "event_score": 14,
+   "event_counts": {
+    "approval": 1,
+    "export": 1
+   },
+   "neg_events": 0,
+   "pledge": 0.0,
+   "pledge_chg": null,
+   "promoter_chg": 0.0,
+   "promoter_now": 51.82,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "PARAS.NS": {
+  "fetched": "2026-10-13",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [
+    {
+     "date": "2026-09-28",
+     "cats": [
+      "order_win"
+     ],
+     "type": "Bagging/Receiving of orders/contracts",
+     "text": "We are pleased to inform that PARAS has received an order from the Defence Research and Development Organisation (DRDO), Ministry of Defence, valued at approximately Rs.26.59 crore (including taxes)",
+     "url": "https://nsearchives.nseindia.com/corporate/PARAS_28092026132508_Intimation_DRDO_Order_CC_signed.pdf"
+    }
+   ],
+   "event_score": 14,
+   "event_counts": {
+    "order_win": 1
+   },
+   "neg_events": 0,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": 0.0,
+   "promoter_now": 53.2,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "AKUMS.NS": {
+  "fetched": "2026-10-13",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [
+    {
+     "date": "2026-07-23",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "General Updates",
+     "text": "Intimation under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015   Acquisition of Oriflame India s Manufacturing business",
+     "url": "https://nsearchives.nseindia.com/corporate/NSEAKUMS10_23072026231459_AKUMSSEINTIMATION.pdf"
+    },
+    {
+     "date": "2026-07-04",
+     "cats": [
+      "acquisition",
+      "regulatory"
+     ],
+     "type": "Action(s) taken or orders passed",
+     "text": "Update on penalty imposed by the Deputy Commissioner of State Tax, Gujarat, on Maxcure Nutravedics Limited, wholly owned subsidiary of the Company",
+     "url": "https://nsearchives.nseindia.com/corporate/NSEAKUMS10_04072026175954_AKUMSGSTMAXCURE.pdf"
+    }
+   ],
+   "event_score": 0,
+   "event_counts": {
+    "acquisition": 2,
+    "regulatory": 1
+   },
+   "neg_events": 1,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": 0.0,
+   "promoter_now": 75.26,
    "pit_net_cr": 0.0,
    "pit_buys": 0,
    "pit_sells": 0
