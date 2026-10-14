@@ -1,12 +1,15 @@
-name: Daily multibagger scan
+name: Daily multibagger + short-term scan
 
 on:
   schedule:
-    - cron: "45 11 * * 1-5"   # 17:15 IST, Mon-Fri, after the NSE close
+    - cron: "45 11 * * 1-5"   # 17:15 IST, Mon-Fri, after NSE close
   workflow_dispatch:
     inputs:
       max_fetch:
-        description: "Max fundamentals to refresh this run (use 300 for the first few runs)"
+        description: "Max fundamentals to refresh (multibagger)"
+        default: "150"
+      max_scan:
+        description: "Max tickers for short-term scan"
         default: "150"
 
 permissions:
@@ -37,17 +40,25 @@ jobs:
           python tests/test_scoring.py
           python tests/test_validate.py
           python tests/test_pipeline.py
+          python tests/test_short_term.py
           python scan.py --demo --no-notify
+          python scan.py --short --demo --no-notify
 
-      - name: Run scanner
+      - name: Run multibagger scanner
         env:
-          # All optional. Add them under Settings > Secrets and variables > Actions.
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}          # free key: aistudio.google.com/apikey
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}    # optional paid alternative
-          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}                  # phone alert via the free ntfy app
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python scan.py --max-fetch "${{ github.event.inputs.max_fetch || '150' }}"
+
+      - name: Run short-term scanner
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python scan.py --short --max-scan "${{ github.event.inputs.max_scan || '150' }}"
 
       - name: Commit results
         if: always()

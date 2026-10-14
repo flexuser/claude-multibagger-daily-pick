@@ -1,0 +1,16 @@
+{
+ "date": "2026-10-14",
+ "regime": "risk_off",
+ "nifty": {
+  "last": 22723.6992,
+  "ret_6m": -6.2217,
+  "ret_3m": -5.6041,
+  "ret_1m": -1.7082,
+  "above_200dma": -6.2,
+  "ma50_vs_200": -2.5,
+  "regime": "risk_off"
+ },
+ "signals": [],
+ "total_scanned": 119,
+ "mode": "short"
+}

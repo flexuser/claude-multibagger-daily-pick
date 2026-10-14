@@ -661,10 +661,9 @@ def run_short(
         signals = scan_short_term(
             ohlcv_map,
             market_regime=regime,
-            min_confidence=SHORT_TERM.get("min_confidence", 58),
-            cfg=SHORT_TERM,
+            cfg=SHORT_TERM,          # threshold chosen automatically by regime
         )
-        print(f"Generated {len(signals)} short-term BUY signals")
+        print(f"Generated {len(signals)} short-term BUY signals (regime={regime})")
 
     # Persist
     payload = {

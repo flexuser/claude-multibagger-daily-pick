@@ -2,67 +2,15 @@
  "date": "2026-10-14",
  "regime": "risk_off",
  "nifty": {
-  "last": 22745.0996,
-  "ret_6m": -6.1334,
-  "ret_3m": -5.5152,
-  "ret_1m": -1.6156,
-  "above_200dma": -6.1,
+  "last": 22723.6992,
+  "ret_6m": -6.2217,
+  "ret_3m": -5.6041,
+  "ret_1m": -1.7082,
+  "above_200dma": -6.2,
   "ma50_vs_200": -2.5,
   "regime": "risk_off"
  },
- "signals": [
-  {
-   "ticker": "DEMOA.NS",
-   "signal": "BUY",
-   "entry": 312.5,
-   "stop_loss": 289.0,
-   "t1": 328.0,
-   "t2": 345.0,
-   "t3": 368.0,
-   "confidence": 78.5,
-   "holding_days": "3-12 trading days",
-   "risk_reward_t1": 1.6,
-   "atr": 9.8,
-   "rsi": 58.2,
-   "volume_surge": 1.9,
-   "regime": "risk_off",
-   "reasons": [
-    "Breakout above 308.0",
-    "Volume surge 1.90x",
-    "RSI healthy (58.2)",
-    "Above 20 DMA",
-    "Above 50 DMA"
-   ],
-   "invalidation": "Daily close below 289.00",
-   "resistance": 308.0,
-   "support": 286.5
-  },
-  {
-   "ticker": "DEMOB.NS",
-   "signal": "BUY",
-   "entry": 187.2,
-   "stop_loss": 174.5,
-   "t1": 196.0,
-   "t2": 206.5,
-   "t3": 218.0,
-   "confidence": 71.0,
-   "holding_days": "3-12 trading days",
-   "risk_reward_t1": 1.5,
-   "atr": 5.4,
-   "rsi": 61.4,
-   "volume_surge": 1.55,
-   "regime": "risk_off",
-   "reasons": [
-    "Breakout above 185.0",
-    "Volume surge 1.55x",
-    "RSI healthy (61.4)",
-    "Above 20 DMA"
-   ],
-   "invalidation": "Daily close below 174.50",
-   "resistance": 185.0,
-   "support": 172.0
-  }
- ],
- "total_scanned": 0,
+ "signals": [],
+ "total_scanned": 119,
  "mode": "short"
 }

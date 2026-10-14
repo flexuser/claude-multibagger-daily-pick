@@ -178,7 +178,7 @@ SHORT_TERM = dict(
     # Liquidity
     min_price=30.0,
     min_avg_turnover_cr=1.5,
-    min_volume_surge=1.35,
+    min_volume_surge=1.25,          # slightly easier volume confirmation
 
     # ATR & Risk
     atr_period=14,
@@ -189,16 +189,17 @@ SHORT_TERM = dict(
 
     # Filters
     rsi_period=14,
-    rsi_max=72,
-    rsi_min=35,
-    min_confidence=58,
+    rsi_max=74,
+    rsi_min=32,
+    min_confidence=55,              # base threshold
+    min_confidence_risk_off=68,     # higher bar when market is weak
 
     # Structure
     swing_lookback=7,
-    breakout_buffer_pct=0.12,
+    breakout_buffer_pct=0.10,
 
-    # Regime
-    allow_regimes=["risk_on", "neutral"],
+    # Regime – allow all, but risk_off demands higher confidence
+    allow_regimes=["risk_on", "neutral", "risk_off"],
 
     # How many top liquid names to scan for short-term signals
     max_scan=180,

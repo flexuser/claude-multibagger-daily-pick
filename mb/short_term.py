@@ -44,7 +44,7 @@ ST_CFG = {
     # Liquidity
     "min_price": 30.0,
     "min_avg_turnover_cr": 1.5,
-    "min_volume_surge": 1.35,
+    "min_volume_surge": 1.25,          # was 1.35 – slightly easier
 
     # ATR & Risk
     "atr_period": 14,
@@ -55,16 +55,19 @@ ST_CFG = {
 
     # Filters
     "rsi_period": 14,
-    "rsi_max": 72,
-    "rsi_min": 35,
-    "min_confidence": 58,
+    "rsi_max": 74,
+    "rsi_min": 32,
+    "min_confidence": 55,               # base threshold
+
+    # When market is risk_off, demand higher quality
+    "min_confidence_risk_off": 68,
 
     # Structure
     "swing_lookback": 7,
-    "breakout_buffer_pct": 0.12,
+    "breakout_buffer_pct": 0.10,
 
-    # Regime
-    "allow_regimes": {"risk_on", "neutral"},
+    # Regime – now allows all, but applies different confidence bars
+    "allow_regimes": {"risk_on", "neutral", "risk_off"},
 }
 
 
@@ -221,13 +224,14 @@ def generate_signal(
     if last < C["min_price"]:
         return ShortTermSignal(ticker=ticker, signal="NONE", reasons=["Price too low"])
 
-    # ----- Regime filter -----
-    if market_regime not in C["allow_regimes"]:
+    # ----- Regime handling -----
+    # We now allow all regimes. In risk_off we just raise the confidence bar later.
+    if market_regime not in C.get("allow_regimes", {"risk_on", "neutral", "risk_off"}):
         return ShortTermSignal(
             ticker=ticker,
             signal="NONE",
             regime=market_regime,
-            reasons=[f"Regime '{market_regime}' not allowed for new longs"],
+            reasons=[f"Regime '{market_regime}' not recognised"],
         )
 
     # ----- Swing S/R -----
@@ -304,12 +308,18 @@ def generate_signal(
     # ----- Final confidence -----
     conf_score = max(0.0, min(100.0, conf_score))
 
-    if conf_score < C["min_confidence"]:
+    # Higher bar when market is risk_off
+    required_conf = C.get("min_confidence", 55)
+    if market_regime == "risk_off":
+        required_conf = C.get("min_confidence_risk_off", 68)
+        reasons.append("Risk-off regime → higher quality required")
+
+    if conf_score < required_conf:
         return ShortTermSignal(
             ticker=ticker,
             signal="NONE",
             confidence=round(conf_score, 1),
-            reasons=reasons + ["Confidence below threshold"],
+            reasons=reasons + [f"Confidence {conf_score:.0f} < required {required_conf}"],
             regime=market_regime,
             resistance=round(resistance, 2),
             support=round(support, 2),
@@ -392,13 +402,21 @@ def position_size(
 def scan_short_term(
     ohlcv_map: Dict[str, pd.DataFrame],
     market_regime: str = "neutral",
-    min_confidence: float = 58.0,
+    min_confidence: Optional[float] = None,
     cfg: Optional[dict] = None,
 ) -> List[Dict[str, Any]]:
     """
     Scan multiple stocks and return sorted list of valid BUY signals.
     ohlcv_map: {ticker: OHLCV DataFrame}
     """
+    C = {**ST_CFG, **(cfg or {})}
+    # Use regime-aware threshold if caller did not override
+    if min_confidence is None:
+        if market_regime == "risk_off":
+            min_confidence = C.get("min_confidence_risk_off", 68)
+        else:
+            min_confidence = C.get("min_confidence", 55)
+
     results = []
     for ticker, df in ohlcv_map.items():
         try:
