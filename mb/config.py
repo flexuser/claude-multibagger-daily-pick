@@ -169,3 +169,42 @@ UA = (
     "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) "
     "Chrome/124.0 Safari/537.36"
 )
+
+
+# ---------------------------------------------------------------------------
+# Short-term / Swing technical engine (1 day – 2 weeks)
+# ---------------------------------------------------------------------------
+SHORT_TERM = dict(
+    # Liquidity
+    min_price=30.0,
+    min_avg_turnover_cr=1.5,
+    min_volume_surge=1.35,
+
+    # ATR & Risk
+    atr_period=14,
+    sl_atr_mult=1.35,
+    t1_atr_mult=1.5,
+    t2_atr_mult=2.5,
+    t3_atr_mult=3.6,
+
+    # Filters
+    rsi_period=14,
+    rsi_max=72,
+    rsi_min=35,
+    min_confidence=58,
+
+    # Structure
+    swing_lookback=7,
+    breakout_buffer_pct=0.12,
+
+    # Regime
+    allow_regimes=["risk_on", "neutral"],
+
+    # How many top liquid names to scan for short-term signals
+    max_scan=180,
+    # Max signals to show on the page
+    max_show=12,
+)
+
+# Path for short-term signals cache
+SHORT_JSON = DATA / "short_signals.json"

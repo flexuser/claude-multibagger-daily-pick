@@ -1,114 +1,101 @@
-# Daily multibagger scanner (v2)
+# Daily Multibagger Scanner + Short-term Technical Signals
 
-Every weekday after the NSE close this scans NSE small, mid and micro caps, scores each on ten pillars,
-runs AI due diligence on the top finalists, and publishes **one candidate with its proof** to GitHub Pages
-(readable on your phone). Every pick is logged, so the page shows a live track record against the Nifty.
+Every weekday after the NSE close this scans NSE small, mid and micro caps for:
 
-**Free-tier only:** Yahoo Finance (yfinance) + NSE public endpoints + optional [nselib](https://github.com/RuchiTanmay/nselib) for delivery %, Gemini free tier for AI diligence.
+1. **Multibagger candidates** (multi-month / multi-year horizon) — original pipeline
+2. **Short-term / Swing signals** (1 day – 2 weeks holding) — new technical engine
 
-## Architecture (refactored)
+Both run on the free tier: Yahoo Finance (yfinance) + NSE public endpoints + optional nselib.
 
-```
-scan.py                 # thin CLI
-mb/
-  config.py             # ALL thresholds & weights in one place
-  utils.py              # numerics, JSON I/O
-  universe.py           # NSE index constituents
-  prices.py             # yfinance bulk prices + optional nselib delivery %
-  fundamentals.py       # Yahoo statements → flat metrics
-  scoring.py            # 10 pillars, red flags, hard gates
-  evidence.py           # human-readable proof rows + thesis + exits
-  signals.py            # NSE announcements / ownership (fail-soft)
-  diligence.py          # Gemini / Claude gate (never changes the score)
-  notify.py             # ntfy + Telegram
-  render.py             # mobile-first GitHub Pages HTML
-  pipeline.py           # orchestration
-```
-
-## What it checks
-
-| Layer | What | Source |
-|---|---|---|
-| Liquidity and technicals | turnover, 200-day trend, 6-month strength vs Nifty, volume, delivery % | Yahoo + nselib |
-| Growth and proof | revenue/profit CAGR, quarterly acceleration, margin trend | Yahoo statements |
-| Capital and earnings quality | ROCE, debt, dilution, cash flow vs profit, interest coverage, receivables | Yahoo |
-| Runway and moat (proxies) | theme keywords, small revenue base, ROCE stability | Yahoo + keywords |
-| Discovery | market cap, institutional holding, analyst count | Yahoo |
-| Ownership | promoter trend, pledge, insider buying, FII/DII | NSE (undocumented) |
-| Catalysts | order wins, expansion, capacity doubling, acquisitions, exports, approvals, negatives | NSE filings + CWIP |
-| **AI due diligence** | management, SEBI/litigation, auditor, order book / capex commentary | Gemini (free) or Claude |
-
-### Hard rejects (tuned for multibagger quality)
-
-- Financial companies
-- Stale or suspect data
-- Market cap outside Rs 400–25,000 cr
-- Unprofitable or slow growers (<15% growth)
-- ROCE < 12%, D/E > 1.2, dilution > 12%
-- Promoter pledge > 20%
-- Negative filings (pledge invocation, distress, governance, SEBI)
-- More than one high red flag
-- AI **red** verdict
-
-The AI never changes the score. It only gates, and a "green" with no cited source is downgraded to "yellow".
-Yesterday's pick is kept unless beaten by 3.5+ points (hysteresis).
-
-## Set up (~15 minutes)
-
-1. Create a GitHub repo and upload everything (keep `.github/workflows/daily.yml`).
-2. **Settings > Actions > General > Workflow permissions**: Read and write.
-3. **Settings > Pages**: Deploy from branch `main`, folder `/docs`.
-4. **Settings > Secrets and variables > Actions** (all optional):
-   - `GEMINI_API_KEY` — free key from https://aistudio.google.com/apikey
-   - `ANTHROPIC_API_KEY` — paid alternative / backup
-   - `NTFY_TOPIC` — free phone alerts via the ntfy app
-   - `TELEGRAM_BOT_TOKEN` + `TELEGRAM_CHAT_ID`
-5. **Actions > Daily multibagger scan > Run workflow** with `max_fetch = 300`. Repeat 2–4 times over a couple of days to fill the fundamentals cache. After that it only tops up the oldest entries.
-6. Your page: `https://<username>.github.io/<repo>/`
-
-## Local usage
+## Quick start
 
 ```bash
 pip install -r requirements.txt
 
-python scan.py --demo                 # synthetic companies, no network
-python scan.py --check ASTRAMICRO.NS  # one ticker: every metric + pillars + flags
-python scan.py --max-fetch 50         # real scan (gradual fundamentals refresh)
+# Multibagger mode (original)
+python scan.py --demo
+python scan.py --max-fetch 80
 
-python tests/test_signals.py
-python tests/test_diligence.py
-python tests/test_pipeline.py
+# Short-term / Swing mode (NEW)
+python scan.py --short --demo
+python scan.py --short                  # real scan (uses ~150-180 liquid names)
+python scan.py --short --max-scan 100
 ```
 
-## Tuning
+## Short-term signals
 
-Edit **`mb/config.py` only**:
+The short-term engine produces clean calls in this format:
 
-- `CFG` — market-cap band, growth floor, pledge limit, hysteresis, pillar coverage, …
-- `WEIGHTS` — pillar importance (proof and quality are weighted highest by default)
-- `THEMES` / `MOAT_WORDS` — keyword maps for runway/moat
+```
+BUY above 305.00
+SL  275.00
+T1  315   T2  330   T3  350
+Holding: 3-12 trading days
+Confidence: 78
+```
 
-After ~20 live picks, compare track-record excess return and consider re-weighting empirically.
+### Features included
 
-## Data sources (all free)
+- Dynamic Support / Resistance (swing highs & lows)
+- Volume-confirmed breakout detection
+- ATR-based Stop Loss & progressive Targets
+- RSI + trend structure filters
+- Market regime filter (risk_on / neutral / risk_off)
+- False-breakout protection
+- Confidence scoring (0-100)
+- Position sizing helper
+- Sector relative-strength soft filter
+- Clean mobile page at `docs/short.html`
 
-| Source | Used for | Notes |
-|---|---|---|
-| **yfinance** | Prices, financial statements, ratios | Primary; gradual cache avoids rate limits |
-| **NSE public CSVs / JSON** | Universe, announcements, shareholding, insider | Fail-soft; sometimes blocked on cloud IPs |
-| **nselib** (optional) | Delivery % enrichment for top candidates | `pip install nselib` |
-| **Gemini free tier** | Qualitative due diligence gate | Set `GEMINI_API_KEY` |
+## Architecture
 
-## What changed in v2
+```
+scan.py                 # CLI (supports --short)
+mb/
+  config.py             # ALL thresholds (including SHORT_TERM)
+  short_term.py         # NEW – professional short-term engine
+  prices.py             # yfinance + regime
+  pipeline.py           # orchestration (run + run_short)
+  render.py             # index.html + short.html
+  ...
+docs/
+  index.html            # Multibagger daily pick
+  short.html            # Short-term signals page
+  short_latest.json
+data/
+  short_signals.json
+```
 
-- Modular package (`mb/`) instead of a 1,100-line `scan.py`
-- Central config; stricter multibagger gates (ROCE, D/E, dilution, growth floor, mcap band)
-- Higher weight on **proof** and **quality** pillars
-- Optional **nselib** delivery-% confirmation
-- Acquisition-led growth flagged as medium risk
-- Demo end-to-end test in CI
-- Cleaner evidence / thesis / exit-trigger text
+## Configuration
+
+Edit `mb/config.py` → `SHORT_TERM` dict:
+
+- `min_confidence` – minimum score to show a signal (default 58)
+- `sl_atr_mult`, `t1_atr_mult` … – ATR multipliers for SL/targets
+- `min_volume_surge` – volume confirmation threshold
+- `max_scan` – how many liquid names to scan
+- `allow_regimes` – which market regimes permit new longs
+
+## Local usage examples
+
+```bash
+# Demo (no network)
+python scan.py --short --demo
+
+# Real short-term scan
+python scan.py --short --max-scan 120
+
+# Original multibagger flow
+python scan.py --max-fetch 100
+```
+
+## Notes
+
+- Short-term signals are technical only. They do not replace fundamental due diligence.
+- Always respect the Stop Loss.
+- Free data can be delayed or incomplete; treat this as a screening aid.
+- Most short-term trades fail if the broader market turns risk-off.
 
 ## Limits
 
-Order book size, export margins and filing PDFs are not parsed by the numbers pipeline; the AI step reports what it finds with sources — you must open them. Runway and moat are proxies. Free data can be wrong. This is a screening aid, not investment advice, and most early-stage picks fail.
+Order book size, export margins and filing PDFs are not parsed by the numbers pipeline. Runway and moat are proxies. Free data can be wrong. This is a screening aid, not investment advice.

@@ -574,3 +574,129 @@ def run_check(tk: str) -> None:
     print("--- Flags ---")
     for f in fl:
         print(f"  [{f['sev']}] {f['text']}")
+
+
+# ------------------------------------------------------------------
+# Short-term / Swing technical scanner
+# ------------------------------------------------------------------
+def run_short(
+    demo: bool = False,
+    max_scan: Optional[int] = None,
+    delay: float = 0.6,
+    no_notify: bool = False,
+) -> dict:
+    """
+    Run the short-term technical scanner (1 day – 2 weeks holding).
+    Produces BUY above X / SL Y / Targets A-B-C style signals.
+    """
+    from mb.config import SHORT_TERM, SHORT_JSON, DATA, DOCS
+    from mb.short_term import fetch_ohlcv, scan_short_term, generate_signal
+    from mb.prices import fetch_prices
+    from mb.universe import load_universe
+    from mb.render import render_short_page
+    import datetime as dt
+
+    today = dt.date.today().isoformat()
+    print(f"=== Short-term scanner {today} ===")
+
+    # 1. Market regime
+    from mb.prices import _nifty_regime
+    nifty = _nifty_regime()
+    regime = (nifty or {}).get("regime", "neutral")
+    print(f"Market regime: {regime}")
+
+    if demo:
+        # Synthetic signals for demo
+        signals = [
+            {
+                "ticker": "DEMOA.NS",
+                "signal": "BUY",
+                "entry": 312.50,
+                "stop_loss": 289.00,
+                "t1": 328.00,
+                "t2": 345.00,
+                "t3": 368.00,
+                "confidence": 78.5,
+                "holding_days": "3-12 trading days",
+                "risk_reward_t1": 1.6,
+                "atr": 9.8,
+                "rsi": 58.2,
+                "volume_surge": 1.9,
+                "regime": regime,
+                "reasons": ["Breakout above 308.0", "Volume surge 1.90x", "RSI healthy (58.2)", "Above 20 DMA", "Above 50 DMA"],
+                "invalidation": "Daily close below 289.00",
+                "resistance": 308.0,
+                "support": 286.5,
+            },
+            {
+                "ticker": "DEMOB.NS",
+                "signal": "BUY",
+                "entry": 187.20,
+                "stop_loss": 174.50,
+                "t1": 196.00,
+                "t2": 206.50,
+                "t3": 218.00,
+                "confidence": 71.0,
+                "holding_days": "3-12 trading days",
+                "risk_reward_t1": 1.5,
+                "atr": 5.4,
+                "rsi": 61.4,
+                "volume_surge": 1.55,
+                "regime": regime,
+                "reasons": ["Breakout above 185.0", "Volume surge 1.55x", "RSI healthy (61.4)", "Above 20 DMA"],
+                "invalidation": "Daily close below 174.50",
+                "resistance": 185.0,
+                "support": 172.0,
+            },
+        ]
+        print("Demo mode: 2 synthetic short-term signals generated")
+    else:
+        # Real scan
+        universe = load_universe()
+        tickers = [t for t in universe if t.endswith(".NS")][: (max_scan or SHORT_TERM.get("max_scan", 180))]
+        print(f"Fetching OHLCV for {len(tickers)} tickers...")
+        ohlcv_map = fetch_ohlcv(tickers, period="6mo", interval="1d", delay=delay)
+        print(f"Got clean OHLCV for {len(ohlcv_map)} tickers")
+
+        signals = scan_short_term(
+            ohlcv_map,
+            market_regime=regime,
+            min_confidence=SHORT_TERM.get("min_confidence", 58),
+            cfg=SHORT_TERM,
+        )
+        print(f"Generated {len(signals)} short-term BUY signals")
+
+    # Persist
+    payload = {
+        "date": today,
+        "regime": regime,
+        "nifty": nifty,
+        "signals": signals[: SHORT_TERM.get("max_show", 12)],
+        "total_scanned": 0 if demo else len(ohlcv_map) if not demo else 0,
+        "mode": "short",
+    }
+    from mb.utils import save_json
+    save_json(SHORT_JSON, payload)
+    save_json(DOCS / "short_latest.json", payload)
+
+    # Render dedicated short-term page
+    html = render_short_page(payload)
+    (DOCS / "short.html").write_text(html, encoding="utf-8")
+    print(f"Wrote docs/short.html with {len(payload['signals'])} signals")
+
+    if not no_notify and not demo and signals:
+        try:
+            from mb import notify
+            # Simple text summary
+            lines = [f"Short-term signals ({today}) — regime: {regime}"]
+            for s in signals[:5]:
+                lines.append(
+                    f"• {s['ticker']}  BUY > {s['entry']} | SL {s['stop_loss']} | "
+                    f"T1 {s['t1']}  conf {s['confidence']}"
+                )
+            # Re-use existing notify if possible; otherwise just print
+            print("\n".join(lines))
+        except Exception:
+            pass
+
+    return payload

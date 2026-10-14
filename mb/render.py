@@ -251,3 +251,97 @@ def render_page(r):
              'Do your own research and size positions small.</p></div>')
     h.append('</div></body></html>')
     return "".join(h)
+
+
+def render_short_page(payload: dict) -> str:
+    """Render a clean mobile-first page for short-term technical signals."""
+    from html import escape as e
+    import datetime as dt
+
+    signals = payload.get("signals") or []
+    regime = payload.get("regime", "unknown")
+    date = payload.get("date", dt.date.today().isoformat())
+    nifty = payload.get("nifty") or {}
+
+    h = [
+        "<!DOCTYPE html><html lang='en'><head><meta charset='utf-8'>",
+        "<meta name='viewport' content='width=device-width,initial-scale=1'>",
+        f"<title>Short-term Signals — {e(date)}</title>",
+        f"<style>{CSS}</style></head><body><div class='wrap'>",
+        f"<h1>Short-term Technical Signals</h1>",
+        f"<p class='meta'>{e(date)} · Regime: <strong>{e(regime)}</strong>",
+    ]
+    if nifty.get("last"):
+        h.append(f" · Nifty {nifty['last']:.0f} ({nifty.get('ret_1m', 0):+.1f}% 1m)")
+    h.append("</p>")
+
+    h.append(
+        "<div class='panel'><p class='note'>"
+        "Signals are for <strong>1 day to ~2 weeks</strong> holding. "
+        "Entry = breakout level. SL = ATR-based. Targets = progressive ATR multiples. "
+        "Always use the stop-loss. This is a screening aid, not advice."
+        "</p></div>"
+    )
+
+    if not signals:
+        h.append("<div class='panel'><p>No high-confidence short-term BUY signals today.</p></div>")
+    else:
+        for i, s in enumerate(signals, 1):
+            conf = s.get("confidence", 0)
+            conf_cls = "g" if conf >= 72 else ("l" if conf >= 60 else "")
+            h.append("<div class='panel'>")
+            h.append("<div class='row'>")
+            h.append(f"<div><div class='nm'>{e(s.get('ticker','').replace('.NS',''))}</div>")
+            h.append(f"<div class='tk'>Confidence {conf:.0f}/100</div></div>")
+            h.append(f"<div class='score'>{conf:.0f}<small>score</small></div>")
+            h.append("</div>")
+
+            h.append("<table style='margin-top:10px'>")
+            h.append(f"<tr><th>Entry (Buy above)</th><td class='val'>{s.get('entry')}</td></tr>")
+            h.append(f"<tr><th>Stop Loss</th><td class='val' style='color:var(--bad)'>{s.get('stop_loss')}</td></tr>")
+            h.append(f"<tr><th>Target 1</th><td class='val' style='color:var(--good)'>{s.get('t1')}</td></tr>")
+            h.append(f"<tr><th>Target 2</th><td class='val' style='color:var(--good)'>{s.get('t2')}</td></tr>")
+            h.append(f"<tr><th>Target 3</th><td class='val' style='color:var(--good)'>{s.get('t3')}</td></tr>")
+            rr = s.get("risk_reward_t1")
+            if rr:
+                h.append(f"<tr><th>Risk:Reward (T1)</th><td class='val'>1 : {rr}</td></tr>")
+            h.append(f"<tr><th>Holding</th><td>{e(s.get('holding_days', '3-12 days'))}</td></tr>")
+            h.append(f"<tr><th>Invalidation</th><td class='note'>{e(s.get('invalidation',''))}</td></tr>")
+            h.append("</table>")
+
+            reasons = s.get("reasons") or []
+            if reasons:
+                h.append("<p style='margin-top:10px'><strong>Why</strong></p><ul>")
+                for rsn in reasons:
+                    h.append(f"<li>{e(str(rsn))}</li>")
+                h.append("</ul>")
+
+            meta = []
+            if s.get("rsi") is not None:
+                meta.append(f"RSI {s['rsi']}")
+            if s.get("volume_surge") is not None:
+                meta.append(f"Vol {s['volume_surge']}x")
+            if s.get("atr") is not None:
+                meta.append(f"ATR {s['atr']}")
+            if meta:
+                h.append(f"<p class='note'>{' · '.join(meta)}</p>")
+
+            h.append("</div>")
+
+    h.append(
+        "<div class='panel'><h2>How to use</h2>"
+        "<ul>"
+        "<li>Buy only on a clear break above the Entry level with volume.</li>"
+        "<li>Place Stop Loss immediately. Never move it against you.</li>"
+        "<li>Book partial profits at T1, trail the rest toward T2/T3.</li>"
+        "<li>If market regime turns risk_off, reduce size or stay in cash.</li>"
+        "<li>This is a technical screening tool. Combine with your own judgement.</li>"
+        "</ul></div>"
+    )
+
+    h.append(
+        f"<p class='meta'><a href='index.html'>← Multibagger daily pick</a> · "
+        f"Generated {e(date)}</p>"
+    )
+    h.append("</div></body></html>")
+    return "".join(h)
