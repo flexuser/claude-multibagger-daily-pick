@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>Short-term Signals — 2026-10-14</title><style>
+<!DOCTYPE html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>Swing Signals — 2026-10-14</title><style>
 :root{--bg:#ECF0F2;--surface:#F8FAFB;--ink:#0F1E29;--muted:#5A6B77;--line:#CDD6DC;--accent:#0B5FA5;
 --good:#1B7F55;--warn:#B26A00;--bad:#B3261E;--empty:#D8E0E5;--soft:#E2E9ED;
 --display:'Avenir Next','Segoe UI',system-ui,sans-serif;--body:system-ui,-apple-system,'Segoe UI',sans-serif}
@@ -6,40 +6,35 @@
 --accent:#5DB0F0;--good:#4CC38A;--warn:#E3A33B;--bad:#F2726B;--empty:#26333E;--soft:#1D2A35}}
 *{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.55 var(--body)}
-.wrap{max-width:720px;margin:0 auto;padding:18px 16px 60px}
+.wrap{max-width:720px;margin:0 auto;padding:16px 14px 50px}
 h1,h2,h3{font-family:var(--display);margin:0;letter-spacing:-.01em}
-h1{font-size:26px;line-height:1.15}h2{font-size:19px;margin:0 0 8px}h3{font-size:15px;margin:14px 0 4px}
-.meta{color:var(--muted);font-size:13px;margin:4px 0 14px}
-.panel{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px;margin-bottom:12px}
-.banner{background:var(--soft);border:1px dashed var(--warn);color:var(--warn);border-radius:10px;padding:8px 12px;margin-bottom:12px;font-weight:600}
-.row{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}
-.nm{font-family:var(--display);font-weight:700;font-size:22px;line-height:1.15}
-.tk{color:var(--muted);font-size:13px}
-.score{font-family:var(--display);font-weight:700;font-size:44px;line-height:1;text-align:right}
-.score small{display:block;font:500 11px var(--body);color:var(--muted);margin-top:3px}
-.thesis{margin:12px 0 4px}
-svg.spark{width:100%;height:80px;display:block;margin:10px 0 2px}
-.pil{display:grid;grid-template-columns:1fr auto;gap:2px 10px;padding:7px 0;border-top:1px solid var(--line)}
-.pil:first-of-type{border-top:0}.pil .v{font-family:var(--display);font-weight:700}
-.bar{grid-column:1/-1;height:6px;background:var(--empty);border-radius:3px;overflow:hidden}
-.bar span{display:block;height:100%;background:var(--accent)}.bar .g{background:var(--good)}.bar .l{background:var(--warn)}
-table{width:100%;border-collapse:collapse;font-size:14px}
-td,th{padding:7px 4px;border-top:1px solid var(--line);vertical-align:top;text-align:left}
-th{font-weight:600;color:var(--muted);font-size:12.5px;border-top:0}
-td.mk{width:22px;font-weight:700;text-align:center}.ok{color:var(--good)}.no{color:var(--warn)}.na{color:var(--muted)}
-td.val{white-space:nowrap;font-weight:600}
-.why{display:block;color:var(--muted);font-size:12.5px;font-weight:400}
-.grp td{background:var(--soft);font-weight:700;font-size:13px;border-top:1px solid var(--line)}
-.flag{padding:6px 0 6px 16px;position:relative;border-top:1px solid var(--line)}
-.flag:first-of-type{border-top:0}.flag:before{content:"";position:absolute;left:0;top:13px;width:8px;height:8px;border-radius:50%;background:var(--warn)}
-.flag.high:before{background:var(--bad)}
-ul{margin:6px 0 0;padding-left:20px}li{margin:4px 0}
-.note{color:var(--muted);font-size:12.5px}
+h1{font-size:22px;line-height:1.2}h2{font-size:17px;margin:0 0 8px}h3{font-size:14px;margin:12px 0 4px}
+.meta{color:var(--muted);font-size:12.5px;margin:3px 0 12px}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:13px;margin-bottom:11px}
+.row{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}
+.nm{font-family:var(--display);font-weight:700;font-size:20px;line-height:1.15}
+.tk{color:var(--muted);font-size:12.5px}
+.score{font-family:var(--display);font-weight:700;font-size:36px;line-height:1;text-align:right}
+.score small{display:block;font:500 11px var(--body);color:var(--muted);margin-top:2px}
+table{width:100%;border-collapse:collapse;font-size:13.5px}
+td,th{padding:6px 3px;border-top:1px solid var(--line);vertical-align:top;text-align:left}
+th{font-weight:600;color:var(--muted);font-size:12px;border-top:0}
+td.val{font-weight:600;white-space:nowrap}
 .pos{color:var(--good);font-weight:600}.neg{color:var(--bad);font-weight:600}
-.scroll{overflow-x:auto}
-.chip{display:inline-block;font-weight:700;font-size:12.5px;border:1px solid currentColor;border-radius:6px;padding:2px 9px}
+.note{color:var(--muted);font-size:12px}
+.chip{display:inline-block;font-weight:700;font-size:11.5px;border:1px solid currentColor;border-radius:5px;padding:1px 7px}
 .chip.green{color:var(--good)}.chip.yellow{color:var(--warn)}.chip.red{color:var(--bad)}.chip.none{color:var(--muted)}
-.dd h3{margin:12px 0 2px;color:var(--muted);font-size:12.5px;text-transform:uppercase;letter-spacing:.04em}
-.dd p{margin:0 0 4px}
-a{color:var(--accent);word-break:break-all}
-</style></head><body><div class='wrap'><h1>Short-term Technical Signals</h1><p class='meta'>2026-10-14 · Regime: <strong>risk_off</strong> · Nifty 22704 (-1.8% 1m)</p><div class='panel'><p class='note'>Signals are for <strong>1 day to ~2 weeks</strong> holding. Entry = breakout level. SL = ATR-based. Targets = progressive ATR multiples. Always use the stop-loss. This is a screening aid, not advice.</p></div><div class='panel'><div class='row'><div><div class='nm'>BBOX</div><div class='tk'>Confidence 73/100</div></div><div class='score'>73<small>score</small></div></div><table style='margin-top:10px'><tr><th>Entry (Buy above)</th><td class='val'>842.2</td></tr><tr><th>Stop Loss</th><td class='val' style='color:var(--bad)'>781.4</td></tr><tr><th>Target 1</th><td class='val' style='color:var(--good)'>909.75</td></tr><tr><th>Target 2</th><td class='val' style='color:var(--good)'>954.79</td></tr><tr><th>Target 3</th><td class='val' style='color:var(--good)'>1004.33</td></tr><tr><th>Risk:Reward (T1)</th><td class='val'>1 : 1.11</td></tr><tr><th>Holding</th><td>3-12 trading days</td></tr><tr><th>Invalidation</th><td class='note'>Daily close below 781.4</td></tr></table><p style='margin-top:10px'><strong>Why</strong></p><ul><li>Breakout above 841.36</li><li>Volume mild (0.55x)</li><li>RSI healthy (73.8)</li><li>Above 20 DMA</li><li>Above 50 DMA</li><li>HH-HL structure</li><li>Risk-off regime → higher quality required</li></ul><p class='note'>RSI 73.8 · Vol 0.55x · ATR 45.04</p></div><div class='panel'><div class='row'><div><div class='nm'>FSL</div><div class='tk'>Confidence 73/100</div></div><div class='score'>73<small>score</small></div></div><table style='margin-top:10px'><tr><th>Entry (Buy above)</th><td class='val'>292.29</td></tr><tr><th>Stop Loss</th><td class='val' style='color:var(--bad)'>277.75</td></tr><tr><th>Target 1</th><td class='val' style='color:var(--good)'>308.45</td></tr><tr><th>Target 2</th><td class='val' style='color:var(--good)'>319.22</td></tr><tr><th>Target 3</th><td class='val' style='color:var(--good)'>331.07</td></tr><tr><th>Risk:Reward (T1)</th><td class='val'>1 : 1.11</td></tr><tr><th>Holding</th><td>3-12 trading days</td></tr><tr><th>Invalidation</th><td class='note'>Daily close below 277.75</td></tr></table><p style='margin-top:10px'><strong>Why</strong></p><ul><li>Breakout above 292.00</li><li>Volume mild (0.40x)</li><li>RSI healthy (65.6)</li><li>Above 20 DMA</li><li>Above 50 DMA</li><li>HH-HL structure</li><li>Risk-off regime → higher quality required</li></ul><p class='note'>RSI 65.6 · Vol 0.4x · ATR 10.77</p></div><div class='panel'><div class='row'><div><div class='nm'>GLAND</div><div class='tk'>Confidence 73/100</div></div><div class='score'>73<small>score</small></div></div><table style='margin-top:10px'><tr><th>Entry (Buy above)</th><td class='val'>3045.04</td></tr><tr><th>Stop Loss</th><td class='val' style='color:var(--bad)'>2923.34</td></tr><tr><th>Target 1</th><td class='val' style='color:var(--good)'>3180.26</td></tr><tr><th>Target 2</th><td class='val' style='color:var(--good)'>3270.41</td></tr><tr><th>Target 3</th><td class='val' style='color:var(--good)'>3369.58</td></tr><tr><th>Risk:Reward (T1)</th><td class='val'>1 : 1.11</td></tr><tr><th>Holding</th><td>3-12 trading days</td></tr><tr><th>Invalidation</th><td class='note'>Daily close below 2923.34</td></tr></table><p style='margin-top:10px'><strong>Why</strong></p><ul><li>Breakout above 3042.00</li><li>Volume mild (0.17x)</li><li>RSI healthy (60.2)</li><li>Above 20 DMA</li><li>Above 50 DMA</li><li>HH-HL structure</li><li>Risk-off regime → higher quality required</li></ul><p class='note'>RSI 60.2 · Vol 0.17x · ATR 90.15</p></div><div class='panel'><h2>How to use</h2><ul><li>Buy only on a clear break above the Entry level with volume.</li><li>Place Stop Loss immediately. Never move it against you.</li><li>Book partial profits at T1, trail the rest toward T2/T3.</li><li>If market regime turns risk_off, reduce size or stay in cash.</li><li>This is a technical screening tool. Combine with your own judgement.</li></ul></div><p class='meta'><a href='index.html'>← Multibagger daily pick</a> · Generated 2026-10-14</p></div></body></html>
+ul{margin:5px 0 0;padding-left:18px}li{margin:3px 0}
+a{color:var(--accent)}
+.tabs{display:flex;gap:0;margin-bottom:14px;border-bottom:2px solid var(--line)}
+.tab{flex:1;text-align:center;padding:10px 6px;font-weight:600;font-size:14px;color:var(--muted);cursor:pointer;border:none;background:none;font-family:var(--body)}
+.tab.active{color:var(--accent);border-bottom:2px solid var(--accent);margin-bottom:-2px}
+.tab-panel{display:none}.tab-panel.active{display:block}
+.stale{background:var(--soft);border-left:3px solid var(--warn)}
+.fresh{border-left:3px solid var(--good)}
+.levels{display:grid;grid-template-columns:1fr 1fr;gap:6px 12px;margin-top:8px;font-size:13.5px}
+.levels div{display:flex;justify-content:space-between}
+.levels .l{color:var(--muted)}
+.levels .v{font-weight:700}
+.banner{background:var(--soft);border:1px dashed var(--warn);color:var(--warn);border-radius:8px;padding:7px 11px;margin-bottom:11px;font-size:13px;font-weight:600}
+</style></head><body><div class='wrap'><h1>Swing Signals</h1><p class='meta'>2026-10-14 · <a href='index.html'>Full scanner →</a></p><div class="banner">Swing signals · Holding <strong>1–12 trading days</strong> · Regime: risk_off</div><div class="panel"><p class="note"><strong>How to read:</strong> Buy only if current price is still near Entry. If price has already run past T1, the signal is stale — skip or trail only. Always use the Stop Loss. Daily data can lag live prices.</p></div><div class="panel fresh"><div class="row"><div><div class="nm">BBOX</div><div class="tk">Confidence 73/100 · Swing (1–12 days)</div></div><div class="score">73<small>score</small></div></div><div class="levels"><div><span class="l">Entry (Buy above)</span><span class="v">842.2</span></div><div><span class="l">Stop Loss</span><span class="v" style="color:var(--bad)">781.4</span></div><div><span class="l">Target 1</span><span class="v" style="color:var(--good)">909.75</span></div><div><span class="l">Target 2</span><span class="v" style="color:var(--good)">954.79</span></div><div><span class="l">Target 3</span><span class="v" style="color:var(--good)">1004.33</span></div><div><span class="l">Risk : Reward</span><span class="v">1 : 1.11</span></div></div><p style='margin-top:8px'><strong>Why</strong></p><ul><li>Breakout above 841.36</li><li>Volume mild (0.72x)</li><li>RSI healthy (72.9)</li><li>Above 20 DMA</li><li>Above 50 DMA</li></ul><p class="note" style="margin-top:6px">Invalidation: Daily close below 781.4</p></div><div class="panel fresh"><div class="row"><div><div class="nm">FSL</div><div class="tk">Confidence 73/100 · Swing (1–12 days)</div></div><div class="score">73<small>score</small></div></div><div class="levels"><div><span class="l">Entry (Buy above)</span><span class="v">292.29</span></div><div><span class="l">Stop Loss</span><span class="v" style="color:var(--bad)">277.75</span></div><div><span class="l">Target 1</span><span class="v" style="color:var(--good)">308.45</span></div><div><span class="l">Target 2</span><span class="v" style="color:var(--good)">319.22</span></div><div><span class="l">Target 3</span><span class="v" style="color:var(--good)">331.07</span></div><div><span class="l">Risk : Reward</span><span class="v">1 : 1.11</span></div></div><p style='margin-top:8px'><strong>Why</strong></p><ul><li>Breakout above 292.00</li><li>Volume mild (0.84x)</li><li>RSI healthy (66.7)</li><li>Above 20 DMA</li><li>Above 50 DMA</li></ul><p class="note" style="margin-top:6px">Invalidation: Daily close below 277.75</p></div><div class="panel fresh"><div class="row"><div><div class="nm">GLAND</div><div class="tk">Confidence 73/100 · Swing (1–12 days)</div></div><div class="score">73<small>score</small></div></div><div class="levels"><div><span class="l">Entry (Buy above)</span><span class="v">3045.04</span></div><div><span class="l">Stop Loss</span><span class="v" style="color:var(--bad)">2923.34</span></div><div><span class="l">Target 1</span><span class="v" style="color:var(--good)">3180.26</span></div><div><span class="l">Target 2</span><span class="v" style="color:var(--good)">3270.41</span></div><div><span class="l">Target 3</span><span class="v" style="color:var(--good)">3369.58</span></div><div><span class="l">Risk : Reward</span><span class="v">1 : 1.11</span></div></div><p style='margin-top:8px'><strong>Why</strong></p><ul><li>Breakout above 3042.00</li><li>Volume mild (0.29x)</li><li>RSI healthy (59.8)</li><li>Above 20 DMA</li><li>Above 50 DMA</li></ul><p class="note" style="margin-top:6px">Invalidation: Daily close below 2923.34</p></div><div class="panel fresh"><div class="row"><div><div class="nm">LEMONTREE</div><div class="tk">Confidence 73/100 · Swing (1–12 days)</div></div><div class="score">73<small>score</small></div></div><div class="levels"><div><span class="l">Entry (Buy above)</span><span class="v">108.98</span></div><div><span class="l">Stop Loss</span><span class="v" style="color:var(--bad)">104.99</span></div><div><span class="l">Target 1</span><span class="v" style="color:var(--good)">113.41</span></div><div><span class="l">Target 2</span><span class="v" style="color:var(--good)">116.36</span></div><div><span class="l">Target 3</span><span class="v" style="color:var(--good)">119.61</span></div><div><span class="l">Risk : Reward</span><span class="v">1 : 1.11</span></div></div><p style='margin-top:8px'><strong>Why</strong></p><ul><li>Breakout above 108.87</li><li>Volume mild (0.18x)</li><li>RSI healthy (58.9)</li><li>Above 20 DMA</li><li>Above 50 DMA</li></ul><p class="note" style="margin-top:6px">Invalidation: Daily close below 104.99</p></div><div class="panel"><p class="note">Technical screening only. Daily data can lag — always check live price before acting. Not investment advice.</p></div></div></body></html>
