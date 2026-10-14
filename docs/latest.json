@@ -229,8 +229,13 @@
   "latest annual results are dated 2025-03-31": 1
  },
  "signals": {
-  "attempted": 0,
-  "ok": {},
+  "attempted": 1,
+  "ok": {
+   "announcements": 1,
+   "pledge": 1,
+   "shareholding": 1,
+   "insider": 1
+  },
   "blocked": false,
   "checked": 35,
   "demo": false
@@ -287,10 +292,10 @@
    "quality": 77.4,
    "discovery": 40.1,
    "valuation": 0.0,
-   "confirm": 88.5,
+   "confirm": 87.8,
    "ownership": 26.6,
    "catalyst": 68.7,
-   "context": 51.1
+   "context": 51.4
   },
   "flags": [
    {
@@ -435,14 +440,14 @@
    {
     "group": "Confirm",
     "label": "RSI (14)",
-    "value": "58.0",
+    "value": "56.4",
     "ok": true,
     "why": "Avoid chasing extreme overbought readings when possible."
    },
    {
     "group": "Context",
     "label": "6m return vs theme peers",
-    "value": "77.1 pp",
+    "value": "78.1 pp",
     "ok": true,
     "why": "Positive means the stock is outperforming others in the same structural theme (sector sentiment proxy)."
    },
@@ -510,8 +515,8 @@
     "neg": false
    }
   ],
-  "price": 3204.9,
-  "price_date": "2026-10-14",
+  "price": 3165.6,
+  "price_date": "2026-10-13",
   "fundamentals_as_of": "2026-10-13",
   "spark": [
    1451.1,
@@ -659,8 +664,7 @@
    3232.1,
    3229.8,
    3223.2,
-   3165.6,
-   3204.9
+   3165.6
   ],
   "diligence": {
    "verdict": "yellow",
@@ -701,39 +705,39 @@
   "themes": [
    "Energy transition"
   ],
-  "rs_6m": 94.5385,
+  "rs_6m": 95.6004,
   "q_accel": null
  },
  "bench": [
   {
    "ticker": "TIPSMUSIC.NS",
    "name": "TIPS MUSIC LIMITED",
-   "score": 67.7,
-   "price": 718.25,
+   "score": 67.5,
+   "price": 706.95,
    "sector": "Entertainment",
    "line": "rev CAGR 26% \u00b7 ROCE 110%"
   },
   {
-   "ticker": "SENORES.NS",
-   "name": "SENORES PHARMACEUTICALS L",
-   "score": 62.3,
-   "price": 1281.5,
-   "sector": "Drug Manufacturers - General",
-   "line": "Healthcare and diagnostics \u00b7 ROCE 14%"
-  },
-  {
    "ticker": "GOLDIAM.NS",
    "name": "GOLDIAM INTERNATIONAL LTD",
-   "score": 62.0,
-   "price": 311.85,
+   "score": 63.4,
+   "price": 311.3,
    "sector": "Luxury Goods",
    "line": "Export manufacturing \u00b7 rev CAGR 22% \u00b7 ROCE 20%"
   },
   {
+   "ticker": "SENORES.NS",
+   "name": "SENORES PHARMACEUTICALS L",
+   "score": 62.8,
+   "price": 1321.0,
+   "sector": "Drug Manufacturers - General",
+   "line": "Healthcare and diagnostics \u00b7 ROCE 14%"
+  },
+  {
    "ticker": "SJS.NS",
    "name": "SJS ENTERPRISES LIMITED",
-   "score": 61.6,
-   "price": 2012.8,
+   "score": 62.1,
+   "price": 2076.8,
    "sector": "Auto Parts",
    "line": "Export manufacturing, Healthcare and diagnostics \u00b7 rev CAGR 30% \u00b7 ROCE 26%"
   }
@@ -744,8 +748,8 @@
    "ticker": "ACUTAAS.NS",
    "name": "ACUTAAS CHEMICALS LIMITED",
    "days": 1,
-   "ret": -1.1262,
-   "nifty_ret": 0.8953,
+   "ret": -0.6194,
+   "nifty_ret": 1.338,
    "active": false
   },
   {
@@ -753,8 +757,8 @@
    "ticker": "SEDEMAC.NS",
    "name": "SEDEMAC MECHATRONICS LTD",
    "days": 9,
-   "ret": -5.2197,
-   "nifty_ret": 0.3373,
+   "ret": -6.382,
+   "nifty_ret": 0.7775,
    "active": true
   }
  ],
@@ -762,7 +766,7 @@
   "episodes": 2,
   "measured": 2,
   "beat": 0,
-  "avg_excess": -3.7893
+  "avg_excess": -4.5584
  },
  "dd_rejected": [],
  "dd_blocked": false,
@@ -771,7 +775,7 @@
   {
    "ticker": "BLS.NS",
    "name": "BLS INTL SERVS LTD",
-   "score": 53.4,
+   "score": 53.2,
    "events": [
     {
      "date": "2026-09-30",
@@ -786,7 +790,7 @@
   {
    "ticker": "EMMVEE.NS",
    "name": "EMMVEE PHOTOVOLTAIC PWR L",
-   "score": 62.1,
+   "score": 62.6,
    "events": [
     {
      "date": "2026-10-01",
@@ -801,7 +805,7 @@
   {
    "ticker": "PRIVISCL.NS",
    "name": "PRIVI SPECIALITY CHE LTD",
-   "score": 57.1,
+   "score": 56.3,
    "events": [
     {
      "date": "2026-09-24",
@@ -816,7 +820,7 @@
   {
    "ticker": "AKUMS.NS",
    "name": "AKUMS DRUGS AND PHARMA L",
-   "score": 52.8,
+   "score": 52.7,
    "events": [
     {
      "date": "2026-07-04",
@@ -831,7 +835,7 @@
   {
    "ticker": "UTLSOLAR.NS",
    "name": "FUJIYAMA POWER SYSTEMS L",
-   "score": 64.3,
+   "score": 63.4,
    "events": [
     {
      "date": "2026-06-18",

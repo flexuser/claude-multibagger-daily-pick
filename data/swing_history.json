@@ -332,5 +332,32 @@
    "HH-HL structure",
    "Risk-off regime \u2192 higher quality required"
   ]
+ },
+ {
+  "date": "2026-10-14",
+  "ticker": "GALLANTT.NS",
+  "entry": 579.9,
+  "stop_loss": 545.74,
+  "t1": 617.86,
+  "t2": 643.16,
+  "t3": 670.99,
+  "confidence": 79.0,
+  "status": "active",
+  "outcome": null,
+  "hit_t1": false,
+  "hit_t2": false,
+  "hit_t3": false,
+  "days_held": 0,
+  "exit_price": null,
+  "exit_date": null,
+  "r_multiple": null,
+  "reasons": [
+   "Breakout above 579.32",
+   "Volume surge 3.46x",
+   "RSI healthy (62.0)",
+   "Above 20 DMA",
+   "Above 50 DMA",
+   "Risk-off regime \u2192 higher quality required"
+  ]
  }
 ]
