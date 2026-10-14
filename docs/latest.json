@@ -1,20 +1,20 @@
 {
- "generated": "2026-10-12",
+ "generated": "2026-10-13",
  "demo": false,
  "universe": 651,
- "liquid": 637,
- "with_data": 637,
+ "liquid": 636,
+ "with_data": 636,
  "eligible": 27,
  "fund_stats": {
-  "attempted": 299,
+  "attempted": 38,
   "failed": 0
  },
  "rejected": {
-  "ROCE below 12%": 79,
-  "margin or ROCE looks like a data error": 8,
-  "operating margin too low": 41,
+  "ROCE below 12%": 89,
+  "mcap 29544 cr outside band": 1,
+  "operating margin too low": 35,
   "mcap 25801 cr outside band": 1,
-  "insufficient growth": 77,
+  "insufficient growth": 86,
   "mcap 28744 cr outside band": 1,
   "mcap 50853 cr outside band": 1,
   "mcap 50660 cr outside band": 1,
@@ -22,13 +22,12 @@
   "mcap 34493 cr outside band": 1,
   "mcap 27877 cr outside band": 1,
   "mcap 25392 cr outside band": 1,
-  "debt too high": 10,
+  "debt too high": 8,
   "mcap 58131 cr outside band": 1,
-  "negative filing": 5,
   "mcap 25447 cr outside band": 1,
   "mcap 27236 cr outside band": 1,
   "mcap 26553 cr outside band": 1,
-  "2 high red flags": 17,
+  "2 high red flags": 15,
   "mcap 26052 cr outside band": 1,
   "already heavily covered": 6,
   "already heavily institutional": 4,
@@ -37,6 +36,7 @@
   "mcap 30991 cr outside band": 1,
   "mcap 32939 cr outside band": 1,
   "mcap 35322 cr outside band": 1,
+  "negative filing": 4,
   "mcap 26904 cr outside band": 1,
   "mcap 50597 cr outside band": 1,
   "mcap 39810 cr outside band": 1,
@@ -45,7 +45,7 @@
   "mcap 89277 cr outside band": 1,
   "mcap 25989 cr outside band": 1,
   "mcap 29220 cr outside band": 1,
-  "excessive dilution": 16,
+  "excessive dilution": 15,
   "mcap 33166 cr outside band": 1,
   "mcap 32195 cr outside band": 1,
   "mcap 29447 cr outside band": 1,
@@ -54,7 +54,7 @@
   "mcap 43658 cr outside band": 1,
   "mcap 29742 cr outside band": 1,
   "mcap 26584 cr outside band": 1,
-  "revenue growth looks like a data error": 12,
+  "mcap 34135 cr outside band": 1,
   "mcap 31369 cr outside band": 1,
   "mcap 40379 cr outside band": 1,
   "mcap 40922 cr outside band": 1,
@@ -78,6 +78,7 @@
   "mcap 29104 cr outside band": 1,
   "mcap 73637 cr outside band": 1,
   "mcap 32552 cr outside band": 1,
+  "mcap 43043 cr outside band": 1,
   "mcap 59971 cr outside band": 1,
   "mcap 73038 cr outside band": 1,
   "mcap 54929 cr outside band": 1,
@@ -90,6 +91,7 @@
   "mcap 60381 cr outside band": 1,
   "mcap 38479 cr outside band": 1,
   "mcap 98614 cr outside band": 1,
+  "mcap 46852 cr outside band": 1,
   "mcap 68020 cr outside band": 1,
   "mcap 38588 cr outside band": 1,
   "mcap 60610 cr outside band": 1,
@@ -129,125 +131,127 @@
   "mcap 33257 cr outside band": 1,
   "mcap 46663 cr outside band": 1,
   "mcap 50667 cr outside band": 1,
-  "mcap 51227 cr outside band": 1,
-  "mcap 65806 cr outside band": 1,
-  "mcap 102192 cr outside band": 1,
-  "mcap 30206 cr outside band": 1,
-  "mcap 45948 cr outside band": 1,
-  "mcap 73027 cr outside band": 1,
-  "mcap 32677 cr outside band": 1,
-  "mcap 80018 cr outside band": 1,
-  "mcap 151648 cr outside band": 1,
-  "mcap 66025 cr outside band": 1,
-  "mcap 70854 cr outside band": 1,
-  "mcap 33167 cr outside band": 1,
-  "mcap 108680 cr outside band": 1,
-  "mcap 104626 cr outside band": 1,
-  "mcap 60350 cr outside band": 1,
-  "mcap 36996 cr outside band": 1,
-  "mcap 30741 cr outside band": 1,
-  "mcap 100266 cr outside band": 1,
-  "mcap 69219 cr outside band": 1,
-  "mcap 78493 cr outside band": 1,
-  "mcap 49797 cr outside band": 1,
-  "mcap 38174 cr outside band": 1,
-  "mcap 89795 cr outside band": 1,
-  "mcap 83485 cr outside band": 1,
-  "mcap 61388 cr outside band": 1,
-  "mcap 29290 cr outside band": 1,
-  "mcap 36650 cr outside band": 1,
-  "mcap 44384 cr outside band": 1,
-  "mcap 57607 cr outside band": 1,
-  "mcap 66420 cr outside band": 1,
-  "mcap 34481 cr outside band": 1,
-  "mcap 122009 cr outside band": 1,
-  "mcap 27866 cr outside band": 1,
-  "mcap 106355 cr outside band": 1,
-  "mcap 119354 cr outside band": 1,
-  "mcap 245220 cr outside band": 1,
-  "mcap 51597 cr outside band": 1,
-  "mcap 101472 cr outside band": 1,
-  "mcap 113622 cr outside band": 1,
-  "mcap 91938 cr outside band": 1,
-  "mcap 52251 cr outside band": 1,
-  "mcap 45607 cr outside band": 1,
-  "mcap 102468 cr outside band": 1,
-  "mcap 102808 cr outside band": 1,
-  "mcap 46582 cr outside band": 1,
-  "mcap 103887 cr outside band": 1,
-  "mcap 61088 cr outside band": 1,
-  "mcap 43972 cr outside band": 1,
-  "mcap 81343 cr outside band": 1,
-  "mcap 71973 cr outside band": 1,
-  "mcap 35130 cr outside band": 1,
-  "mcap 65183 cr outside band": 1,
-  "mcap 35083 cr outside band": 1,
-  "mcap 62308 cr outside band": 1,
-  "mcap 67569 cr outside band": 1,
-  "mcap 64285 cr outside band": 1,
-  "mcap 72709 cr outside band": 1,
-  "mcap 107766 cr outside band": 1,
-  "mcap 91849 cr outside band": 1,
-  "mcap 45180 cr outside band": 1,
-  "mcap 33638 cr outside band": 1,
-  "mcap 41827 cr outside band": 1,
-  "mcap 38293 cr outside band": 1,
-  "mcap 86818 cr outside band": 1,
-  "mcap 43455 cr outside band": 1,
-  "mcap 68996 cr outside band": 1,
-  "mcap 47276 cr outside band": 1,
-  "mcap 39761 cr outside band": 1,
-  "mcap 62865 cr outside band": 1,
-  "mcap 77917 cr outside band": 1,
-  "mcap 57472 cr outside band": 1,
-  "mcap 41248 cr outside band": 1,
-  "mcap 53830 cr outside band": 1,
-  "mcap 72744 cr outside band": 1,
-  "mcap 60053 cr outside band": 1,
-  "mcap 79017 cr outside band": 1,
-  "mcap 72796 cr outside band": 1,
-  "mcap 46931 cr outside band": 1,
-  "mcap 43156 cr outside band": 1,
-  "mcap 53927 cr outside band": 1,
-  "mcap 62998 cr outside band": 1,
-  "mcap 47669 cr outside band": 1,
-  "mcap 36710 cr outside band": 1,
-  "mcap 62293 cr outside band": 1,
-  "mcap 44864 cr outside band": 1,
-  "mcap 63630 cr outside band": 1,
-  "mcap 42843 cr outside band": 1,
-  "mcap 31250 cr outside band": 1,
-  "mcap 94963 cr outside band": 1,
-  "mcap 46187 cr outside band": 1,
-  "mcap 35044 cr outside band": 1,
-  "mcap 67434 cr outside band": 1,
-  "mcap 66451 cr outside band": 1,
-  "3 high red flags": 1,
+  "mcap 50432 cr outside band": 1,
+  "mcap 66848 cr outside band": 1,
+  "mcap 98650 cr outside band": 1,
+  "mcap 34319 cr outside band": 1,
+  "mcap 44918 cr outside band": 1,
+  "mcap 69452 cr outside band": 1,
+  "mcap 32651 cr outside band": 1,
+  "mcap 84640 cr outside band": 1,
+  "mcap 145806 cr outside band": 1,
+  "mcap 65474 cr outside band": 1,
+  "mcap 68246 cr outside band": 1,
+  "mcap 32448 cr outside band": 1,
+  "mcap 112404 cr outside band": 1,
+  "mcap 104351 cr outside band": 1,
+  "mcap 59349 cr outside band": 1,
+  "mcap 37544 cr outside band": 1,
+  "mcap 30314 cr outside band": 1,
+  "mcap 99040 cr outside band": 1,
+  "mcap 68366 cr outside band": 1,
+  "mcap 78817 cr outside band": 1,
+  "mcap 47846 cr outside band": 1,
+  "mcap 37630 cr outside band": 1,
+  "mcap 84793 cr outside band": 1,
+  "mcap 79364 cr outside band": 1,
+  "mcap 59114 cr outside band": 1,
+  "mcap 27810 cr outside band": 1,
+  "mcap 37297 cr outside band": 1,
+  "mcap 44285 cr outside band": 1,
+  "mcap 58893 cr outside band": 1,
+  "mcap 66683 cr outside band": 1,
+  "mcap 36323 cr outside band": 1,
+  "mcap 118215 cr outside band": 1,
+  "mcap 30727 cr outside band": 1,
+  "mcap 110672 cr outside band": 1,
+  "mcap 113517 cr outside band": 1,
+  "mcap 249426 cr outside band": 1,
+  "mcap 51128 cr outside band": 1,
+  "mcap 102165 cr outside band": 1,
+  "mcap 108609 cr outside band": 1,
+  "mcap 88888 cr outside band": 1,
+  "mcap 51890 cr outside band": 1,
+  "mcap 45281 cr outside band": 1,
+  "mcap 97550 cr outside band": 1,
+  "mcap 100562 cr outside band": 1,
+  "mcap 45648 cr outside band": 1,
+  "mcap 111802 cr outside band": 1,
+  "mcap 63349 cr outside band": 1,
+  "mcap 46798 cr outside band": 1,
+  "mcap 84229 cr outside band": 1,
+  "mcap 73178 cr outside band": 1,
+  "mcap 33765 cr outside band": 1,
+  "mcap 62642 cr outside band": 1,
+  "mcap 78458 cr outside band": 1,
+  "mcap 34243 cr outside band": 1,
+  "mcap 58368 cr outside band": 1,
+  "mcap 68331 cr outside band": 1,
+  "mcap 62401 cr outside band": 1,
+  "mcap 72181 cr outside band": 1,
+  "mcap 109175 cr outside band": 1,
+  "mcap 92668 cr outside band": 1,
+  "mcap 49186 cr outside band": 1,
+  "mcap 32310 cr outside band": 1,
+  "mcap 41002 cr outside band": 1,
+  "mcap 39762 cr outside band": 1,
+  "mcap 93750 cr outside band": 1,
+  "mcap 43433 cr outside band": 1,
+  "mcap 67758 cr outside band": 1,
+  "mcap 47999 cr outside band": 1,
+  "mcap 40678 cr outside band": 1,
+  "mcap 63360 cr outside band": 1,
+  "mcap 80274 cr outside band": 1,
+  "mcap 60755 cr outside band": 1,
+  "mcap 40931 cr outside band": 1,
+  "mcap 54429 cr outside band": 1,
+  "mcap 73491 cr outside band": 1,
+  "mcap 56795 cr outside band": 1,
+  "mcap 79847 cr outside band": 1,
+  "mcap 71140 cr outside band": 1,
+  "mcap 46876 cr outside band": 1,
+  "mcap 44519 cr outside band": 1,
+  "mcap 54903 cr outside band": 1,
+  "mcap 60771 cr outside band": 1,
+  "mcap 47795 cr outside band": 1,
+  "mcap 31091 cr outside band": 1,
+  "mcap 37129 cr outside band": 1,
+  "mcap 59864 cr outside band": 1,
+  "mcap 42177 cr outside band": 1,
+  "mcap 63797 cr outside band": 1,
+  "mcap 44132 cr outside band": 1,
+  "mcap 31752 cr outside band": 1,
+  "mcap 96930 cr outside band": 1,
+  "mcap 45101 cr outside band": 1,
+  "mcap 34280 cr outside band": 1,
+  "mcap 70431 cr outside band": 1,
+  "mcap 65165 cr outside band": 1,
   "latest annual results are dated 2025-03-31": 1
  },
  "signals": {
-  "attempted": 35,
+  "attempted": 2,
   "ok": {
-   "announcements": 35,
-   "pledge": 35,
-   "shareholding": 35,
-   "insider": 35
+   "announcements": 2,
+   "pledge": 2,
+   "shareholding": 2,
+   "insider": 2
   },
   "blocked": false,
   "checked": 35,
   "demo": false
  },
  "weights": {
-  "runway": 10,
-  "moat": 9,
-  "proof": 18,
-  "leverage": 12,
-  "quality": 14,
-  "discovery": 7,
-  "valuation": 7,
-  "confirm": 6,
-  "ownership": 9,
-  "catalyst": 8
+  "runway": 9,
+  "moat": 8,
+  "proof": 16,
+  "leverage": 11,
+  "quality": 13,
+  "discovery": 6,
+  "valuation": 6,
+  "confirm": 8,
+  "ownership": 8,
+  "catalyst": 7,
+  "context": 8
  },
  "pillar_names": {
   "runway": "Runway (theme + small base)",
@@ -259,7 +263,8 @@
   "valuation": "Valuation vs growth",
   "confirm": "Market confirmation",
   "ownership": "Ownership and smart money",
-  "catalyst": "Expansion and catalysts"
+  "catalyst": "Expansion and catalysts",
+  "context": "Context (sector, news, regime)"
  },
  "verify": [
   "Order book and its growth vs revenue (latest investor presentation or concall). Filing summaries are short; open the linked PDFs",
@@ -268,34 +273,34 @@
   "FII and DII trend from the latest shareholding pattern, if it shows n/a above",
   "Customer concentration and dependence on government orders",
   "Governance: auditor changes, related-party dealings, promoter track record",
-  "Whether the growth is organic or came from a one-off order or acquisition"
+  "Whether the growth is organic or came from a one-off order or acquisition",
+  "Government policy / PLI / tariff exposure: does demand depend on a scheme that can change?",
+  "Management commentary and guidance from the latest concall \u2014 not just the press release",
+  "Sector cycle: is the whole theme already crowded in price (theme relative strength on the page)"
  ],
  "pick": {
   "ticker": "SEDEMAC.NS",
   "name": "SEDEMAC MECHATRONICS LTD",
   "sector": "Auto Parts",
   "blurb": "SEDEMAC Mechatronics Limited provides electronic control units to original equipment manufacturers in the mobility and industrial markets in India, the United States, and Europe. It operates in two segments, Mobility and Industrial. The Mobility segment offers motor control technology and transmission controls, which c",
-  "score": 69.5,
+  "score": 66.2,
   "pillars": {
-   "runway": 71.4,
-   "moat": 59.3,
+   "runway": 53.6,
+   "moat": 58.4,
    "proof": 92.4,
    "leverage": 100.0,
-   "quality": 67.7,
-   "discovery": 38.6,
-   "valuation": 45.3,
-   "confirm": 89.9,
+   "quality": 77.4,
+   "discovery": 40.1,
+   "valuation": 0.0,
+   "confirm": 88.4,
    "ownership": 26.6,
-   "catalyst": 66.2
+   "catalyst": 68.7,
+   "context": 55.8
   },
   "flags": [
    {
     "sev": "med",
     "text": "Free cash flow negative: growth may need outside funding."
-   },
-   {
-    "sev": "med",
-    "text": "Receivable days up 251% \u2014 collections may be weakening."
    }
   ],
   "evidence": [
@@ -344,14 +349,14 @@
    {
     "group": "Leverage",
     "label": "Operating margin",
-    "value": "15.6%",
+    "value": "15.0%",
     "ok": true,
     "why": "Healthy margin leaves room to absorb cost shocks."
    },
    {
     "group": "Leverage",
     "label": "Margin change over ~3 years",
-    "value": "9.6 pp",
+    "value": "6.1 pp",
     "ok": true,
     "why": "Operating leverage: earnings growing faster than sales."
    },
@@ -365,7 +370,7 @@
    {
     "group": "Quality",
     "label": "ROCE",
-    "value": "31.0% (+17.1 pp in ~3y)",
+    "value": "30.4% (+10.7 pp in ~3y)",
     "ok": true,
     "why": "Returns on capital show whether growth creates shareholder value."
    },
@@ -400,14 +405,14 @@
    {
     "group": "Discovery",
     "label": "Market cap",
-    "value": "Rs 14913 cr",
+    "value": "Rs 14008 cr",
     "ok": false,
     "why": "Still small enough that a multi-year growth story can re-rate the stock."
    },
    {
     "group": "Discovery",
     "label": "Institutional holding",
-    "value": "37.1%",
+    "value": "38.0%",
     "ok": false,
     "why": "Low institutional ownership leaves room for discovery."
    },
@@ -434,13 +439,27 @@
    },
    {
     "group": "Confirm",
-    "label": "Avg delivery % (1M)",
-    "value": "89711.1%",
+    "label": "RSI (14)",
+    "value": "53.8",
     "ok": true,
-    "why": "High delivery suggests genuine investor interest, not just day-trading churn."
+    "why": "Avoid chasing extreme overbought readings when possible."
+   },
+   {
+    "group": "Context",
+    "label": "6m return vs theme peers",
+    "value": "83.5 pp",
+    "ok": true,
+    "why": "Positive means the stock is outperforming others in the same structural theme (sector sentiment proxy)."
+   },
+   {
+    "group": "Context",
+    "label": "Nifty market regime",
+    "value": "risk_off",
+    "ok": false,
+    "why": "Risk-off regimes make small-cap multi-bagger paths harder near-term."
    }
   ],
-  "thesis": "Plays the Energy transition theme with ~36% revenue CAGR on a 31% ROCE base with a clean balance sheet.",
+  "thesis": "Plays the Energy transition theme with ~36% revenue CAGR on a 30% ROCE base with a clean balance sheet.",
   "news": [],
   "exit_triggers": [
    "Promoter pledge rises above 20% or promoter holding falls >3 pp in a year",
@@ -496,9 +515,9 @@
     "neg": false
    }
   ],
-  "price": 3233.9,
-  "price_date": "2026-10-12",
-  "fundamentals_as_of": "2026-10-05",
+  "price": 3229.8,
+  "price_date": "2026-10-09",
+  "fundamentals_as_of": "2026-10-13",
   "spark": [
    1451.1,
    1441.3,
@@ -643,8 +662,7 @@
    3399.6,
    3425.6,
    3232.1,
-   3229.8,
-   3233.9
+   3229.8
   ],
   "diligence": {
    "verdict": "yellow",
@@ -677,48 +695,49 @@
    "provider": "gemini",
    "model": "gemini-3.1-flash-lite",
    "method": "DuckDuckGo snippets (weaker)",
-   "date": "2026-10-12"
+   "date": "2026-10-12",
+   "cached": true
   },
-  "streak": 7,
-  "held_from_yesterday": true,
+  "streak": 9,
+  "held_from_yesterday": false,
   "themes": [
    "Energy transition"
   ],
-  "rs_6m": 103.2961,
+  "rs_6m": 104.2154,
   "q_accel": null
  },
  "bench": [
   {
-   "ticker": "MANORAMA.NS",
-   "name": "MANORAMA INDUSTRIES LTD",
-   "score": 72.2,
-   "price": 1985.4,
-   "sector": "Packaged Foods",
-   "line": "rev CAGR 58% \u00b7 ROCE 47%"
-  },
-  {
    "ticker": "TIPSMUSIC.NS",
    "name": "TIPS MUSIC LIMITED",
-   "score": 67.5,
-   "price": 690.55,
+   "score": 65.8,
+   "price": 636.35,
    "sector": "Entertainment",
    "line": "rev CAGR 26% \u00b7 ROCE 110%"
   },
   {
-   "ticker": "JSLL.NS",
-   "name": "JEENA SIKHO LIFECARE LTD",
-   "score": 66.0,
-   "price": 391.6,
-   "sector": "Medical Care Facilities",
-   "line": "rev CAGR 58% \u00b7 ROCE 54%"
+   "ticker": "GOLDIAM.NS",
+   "name": "GOLDIAM INTERNATIONAL LTD",
+   "score": 62.7,
+   "price": 305.9,
+   "sector": "Luxury Goods",
+   "line": "Export manufacturing \u00b7 rev CAGR 22% \u00b7 ROCE 20%"
   },
   {
-   "ticker": "ATLANTAELE.NS",
-   "name": "ATLANTA ELECTRICALS LTD",
-   "score": 64.5,
-   "price": 1866.0,
-   "sector": "Electrical Equipment & Parts",
-   "line": "Energy transition, Railways and infrastructure \u00b7 rev CAGR 28% \u00b7 ROCE 32%"
+   "ticker": "SENORES.NS",
+   "name": "SENORES PHARMACEUTICALS L",
+   "score": 62.4,
+   "price": 1320.0,
+   "sector": "Drug Manufacturers - General",
+   "line": "Healthcare and diagnostics \u00b7 ROCE 14%"
+  },
+  {
+   "ticker": "SJS.NS",
+   "name": "SJS ENTERPRISES LIMITED",
+   "score": 61.4,
+   "price": 1994.8,
+   "sector": "Auto Parts",
+   "line": "Export manufacturing, Healthcare and diagnostics \u00b7 rev CAGR 30% \u00b7 ROCE 26%"
   }
  ],
  "track": [
@@ -727,17 +746,17 @@
    "ticker": "ACUTAAS.NS",
    "name": "ACUTAAS CHEMICALS LIMITED",
    "days": 1,
-   "ret": -1.4078,
-   "nifty_ret": -0.2406,
+   "ret": -1.1231,
+   "nifty_ret": -0.2613,
    "active": false
   },
   {
    "start": "2026-10-05",
    "ticker": "SEDEMAC.NS",
    "name": "SEDEMAC MECHATRONICS LTD",
-   "days": 7,
-   "ret": -4.3621,
-   "nifty_ret": -0.7924,
+   "days": 8,
+   "ret": -4.4834,
+   "nifty_ret": -0.813,
    "active": true
   }
  ],
@@ -745,31 +764,16 @@
   "episodes": 2,
   "measured": 2,
   "beat": 0,
-  "avg_excess": -2.3685
+  "avg_excess": -2.2661
  },
  "dd_rejected": [],
  "dd_blocked": false,
  "dd_provider": "gemini / gemini-3.1-flash-lite",
  "neg_filing_rejects": [
   {
-   "ticker": "BLS.NS",
-   "name": "BLS INTL SERVS LTD",
-   "score": 57.3,
-   "events": [
-    {
-     "date": "2026-09-30",
-     "labels": [
-      "Governance"
-     ],
-     "text": "BLS International Services Limited has informed the Exchange about Resignation of Statutory Auditor",
-     "url": "https://nsearchives.nseindia.com/corporate/BLS_ROSA_99452_KMP_Doc.zip"
-    }
-   ]
-  },
-  {
    "ticker": "EMMVEE.NS",
    "name": "EMMVEE PHOTOVOLTAIC PWR L",
-   "score": 68.8,
+   "score": 63.9,
    "events": [
     {
      "date": "2026-10-01",
@@ -784,7 +788,7 @@
   {
    "ticker": "PRIVISCL.NS",
    "name": "PRIVI SPECIALITY CHE LTD",
-   "score": 56.2,
+   "score": 57.0,
    "events": [
     {
      "date": "2026-09-24",
@@ -797,9 +801,24 @@
    ]
   },
   {
+   "ticker": "AKUMS.NS",
+   "name": "AKUMS DRUGS AND PHARMA L",
+   "score": 53.1,
+   "events": [
+    {
+     "date": "2026-07-04",
+     "labels": [
+      "Regulatory"
+     ],
+     "text": "Update on penalty imposed by the Deputy Commissioner of State Tax, Gujarat, on Maxcure Nutravedics Limited, wholly owned subsidiary of the Company",
+     "url": "https://nsearchives.nseindia.com/corporate/NSEAKUMS10_04072026175954_AKUMSGSTMAXCURE.pdf"
+    }
+   ]
+  },
+  {
    "ticker": "UTLSOLAR.NS",
    "name": "FUJIYAMA POWER SYSTEMS L",
-   "score": 71.9,
+   "score": 63.9,
    "events": [
     {
      "date": "2026-06-18",
@@ -808,29 +827,6 @@
      ],
      "text": "Fujiyama Power Systems Limited has informed the Exchange about a Show Cause Notice received from the Office of Noida Customs Commissionerate",
      "url": "https://nsearchives.nseindia.com/corporate/UTLSOLAR2024_18062026182342_NSE_BSE_Show_Cause_Notice_CustomOffice.pdf"
-    }
-   ]
-  },
-  {
-   "ticker": "VIKRAMSOLR.NS",
-   "name": "VIKRAM SOLAR LIMITED",
-   "score": 59.7,
-   "events": [
-    {
-     "date": "2026-06-30",
-     "labels": [
-      "Distress"
-     ],
-     "text": "Vikram Solar Limited has informed the Exchange about NCLAT order dated June 29, 2026 for setting aside NCLT order dated June 12, 2026",
-     "url": "https://nsearchives.nseindia.com/corporate/VSLCS_30062026173927_VSL_submission_of_NCLAT_order_dated_June_29_2026.pdf"
-    },
-    {
-     "date": "2026-06-29",
-     "labels": [
-      "Distress"
-     ],
-     "text": "Vikram Solar Limited has informed the Exchange about update on Corporate Insolvency Resolution Process",
-     "url": "https://nsearchives.nseindia.com/corporate/VSLCS_29062026172834_VSLINTIMATIONDTED29062026.pdf"
     }
    ]
   }

@@ -62,5 +62,13 @@
   "price": 3233.9,
   "score": 69.5,
   "nifty": 22368.0
+ },
+ {
+  "date": "2026-10-13",
+  "ticker": "SEDEMAC.NS",
+  "name": "SEDEMAC MECHATRONICS LTD",
+  "price": 3172.7,
+  "score": 65.8,
+  "nifty": 22633.5508
  }
 ]
