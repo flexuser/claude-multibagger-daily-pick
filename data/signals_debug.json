@@ -90,14 +90,14 @@
   "xbrl",
   "xbrlFileSize"
  ],
- "updated": "2026-10-13",
+ "updated": "2026-10-14",
  "status": {
-  "attempted": 2,
+  "attempted": 35,
   "ok": {
-   "announcements": 2,
-   "pledge": 2,
-   "shareholding": 2,
-   "insider": 2
+   "announcements": 35,
+   "pledge": 35,
+   "shareholding": 35,
+   "insider": 35
   },
   "blocked": false,
   "checked": 0,
