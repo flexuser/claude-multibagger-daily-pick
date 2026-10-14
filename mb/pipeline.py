@@ -698,7 +698,7 @@ def run_short(
     }
     
     save_json(SHORT_JSON, payload)
-        save_json(DOCS / "short_latest.json", payload)
+    save_json(DOCS / "short_latest.json", payload)
 
     # Render short-only page + unified tabbed index
     from mb.render import render_short_page, render_page
