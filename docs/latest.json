@@ -229,13 +229,8 @@
   "latest annual results are dated 2025-03-31": 1
  },
  "signals": {
-  "attempted": 1,
-  "ok": {
-   "announcements": 1,
-   "pledge": 1,
-   "shareholding": 1,
-   "insider": 1
-  },
+  "attempted": 0,
+  "ok": {},
   "blocked": false,
   "checked": 35,
   "demo": false
