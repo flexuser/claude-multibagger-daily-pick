@@ -1,4 +1,12 @@
-"""Basic tests for the short-term technical engine."""
+"""Basic tests for the short-term technical engine.
+Run: python tests/test_short_term.py
+"""
+import sys
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+
 import numpy as np
 import pandas as pd
 from mb.short_term import generate_signal, compute_atr, find_swing_levels, position_size
