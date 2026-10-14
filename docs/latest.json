@@ -229,8 +229,13 @@
   "latest annual results are dated 2025-03-31": 1
  },
  "signals": {
-  "attempted": 0,
-  "ok": {},
+  "attempted": 1,
+  "ok": {
+   "announcements": 1,
+   "pledge": 1,
+   "shareholding": 1,
+   "insider": 1
+  },
   "blocked": false,
   "checked": 35,
   "demo": false
@@ -278,7 +283,7 @@
   "name": "SEDEMAC MECHATRONICS LTD",
   "sector": "Auto Parts",
   "blurb": "SEDEMAC Mechatronics Limited provides electronic control units to original equipment manufacturers in the mobility and industrial markets in India, the United States, and Europe. It operates in two segments, Mobility and Industrial. The Mobility segment offers motor control technology and transmission controls, which c",
-  "score": 66.0,
+  "score": 65.8,
   "pillars": {
    "runway": 53.6,
    "moat": 58.4,
@@ -287,10 +292,10 @@
    "quality": 77.4,
    "discovery": 40.1,
    "valuation": 0.0,
-   "confirm": 88.3,
+   "confirm": 88.5,
    "ownership": 26.6,
    "catalyst": 68.7,
-   "context": 53.2
+   "context": 51.1
   },
   "flags": [
    {
@@ -435,14 +440,14 @@
    {
     "group": "Confirm",
     "label": "RSI (14)",
-    "value": "59.5",
+    "value": "58.0",
     "ok": true,
     "why": "Avoid chasing extreme overbought readings when possible."
    },
    {
     "group": "Context",
     "label": "6m return vs theme peers",
-    "value": "82.2 pp",
+    "value": "77.1 pp",
     "ok": true,
     "why": "Positive means the stock is outperforming others in the same structural theme (sector sentiment proxy)."
    },
@@ -510,7 +515,7 @@
     "neg": false
    }
   ],
-  "price": 3218.4,
+  "price": 3204.9,
   "price_date": "2026-10-14",
   "fundamentals_as_of": "2026-10-13",
   "spark": [
@@ -659,7 +664,8 @@
    3232.1,
    3229.8,
    3223.2,
-   3218.4
+   3165.6,
+   3204.9
   ],
   "diligence": {
    "verdict": "yellow",
@@ -700,39 +706,39 @@
   "themes": [
    "Energy transition"
   ],
-  "rs_6m": 100.9176,
+  "rs_6m": 94.5385,
   "q_accel": null
  },
  "bench": [
   {
    "ticker": "TIPSMUSIC.NS",
    "name": "TIPS MUSIC LIMITED",
-   "score": 67.4,
-   "price": 701.55,
+   "score": 67.7,
+   "price": 718.25,
    "sector": "Entertainment",
    "line": "rev CAGR 26% \u00b7 ROCE 110%"
-  },
-  {
-   "ticker": "GOLDIAM.NS",
-   "name": "GOLDIAM INTERNATIONAL LTD",
-   "score": 63.6,
-   "price": 312.6,
-   "sector": "Luxury Goods",
-   "line": "Export manufacturing \u00b7 rev CAGR 22% \u00b7 ROCE 20%"
   },
   {
    "ticker": "SENORES.NS",
    "name": "SENORES PHARMACEUTICALS L",
    "score": 62.3,
-   "price": 1295.5,
+   "price": 1281.5,
    "sector": "Drug Manufacturers - General",
    "line": "Healthcare and diagnostics \u00b7 ROCE 14%"
+  },
+  {
+   "ticker": "GOLDIAM.NS",
+   "name": "GOLDIAM INTERNATIONAL LTD",
+   "score": 62.0,
+   "price": 311.85,
+   "sector": "Luxury Goods",
+   "line": "Export manufacturing \u00b7 rev CAGR 22% \u00b7 ROCE 20%"
   },
   {
    "ticker": "SJS.NS",
    "name": "SJS ENTERPRISES LIMITED",
    "score": 61.6,
-   "price": 2019.6,
+   "price": 2012.8,
    "sector": "Auto Parts",
    "line": "Export manufacturing, Healthcare and diagnostics \u00b7 rev CAGR 30% \u00b7 ROCE 26%"
   }
@@ -743,8 +749,8 @@
    "ticker": "ACUTAAS.NS",
    "name": "ACUTAAS CHEMICALS LIMITED",
    "days": 1,
-   "ret": -1.8771,
-   "nifty_ret": 0.7018,
+   "ret": -1.1262,
+   "nifty_ret": 0.8953,
    "active": false
   },
   {
@@ -752,8 +758,8 @@
    "ticker": "SEDEMAC.NS",
    "name": "SEDEMAC MECHATRONICS LTD",
    "days": 9,
-   "ret": -4.8205,
-   "nifty_ret": 0.1448,
+   "ret": -5.2197,
+   "nifty_ret": 0.3373,
    "active": true
   }
  ],
@@ -761,7 +767,7 @@
   "episodes": 2,
   "measured": 2,
   "beat": 0,
-  "avg_excess": -3.7721
+  "avg_excess": -3.7893
  },
  "dd_rejected": [],
  "dd_blocked": false,
@@ -800,7 +806,7 @@
   {
    "ticker": "PRIVISCL.NS",
    "name": "PRIVI SPECIALITY CHE LTD",
-   "score": 57.0,
+   "score": 57.1,
    "events": [
     {
      "date": "2026-09-24",
@@ -815,7 +821,7 @@
   {
    "ticker": "AKUMS.NS",
    "name": "AKUMS DRUGS AND PHARMA L",
-   "score": 52.5,
+   "score": 52.8,
    "events": [
     {
      "date": "2026-07-04",
@@ -830,7 +836,7 @@
   {
    "ticker": "UTLSOLAR.NS",
    "name": "FUJIYAMA POWER SYSTEMS L",
-   "score": 64.1,
+   "score": 64.3,
    "events": [
     {
      "date": "2026-06-18",
