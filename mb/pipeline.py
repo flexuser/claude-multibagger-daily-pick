@@ -22,7 +22,7 @@ from typing import Any, Optional
 from mb.config import (
     CFG, WEIGHTS, PILLAR_NAMES, VERIFY,
     DATA, DOCS, CACHE_JSON, PICKS_JSON, SIGNALS_JSON, DD_JSON, SIGNALS_DEBUG,
-    SHORT_JSON,
+    SHORT_JSON, SWING_HISTORY_JSON,
 )
 from mb.utils import load_json, save_json, num
 from mb.universe import load_universe
@@ -673,7 +673,6 @@ def run_short(
 
         # Multi-day history: update previous active signals + add today's
         from mb.short_term import update_swing_history, swing_stats
-        from mb.config import SWING_HISTORY_JSON
         prev_history = load_json(SWING_HISTORY_JSON, [])
         # Also fetch OHLCV for any active tickers not in today's scan
         active_tickers = [s["ticker"] for s in prev_history if s.get("status") == "active"]
@@ -697,9 +696,9 @@ def run_short(
         "total_scanned": 0 if demo else len(ohlcv_map) if not demo else 0,
         "mode": "short",
     }
-    from mb.utils import save_json
+    
     save_json(SHORT_JSON, payload)
-    save_json(DOCS / "short_latest.json", payload)
+        save_json(DOCS / "short_latest.json", payload)
 
     # Render short-only page + unified tabbed index
     from mb.render import render_short_page, render_page
