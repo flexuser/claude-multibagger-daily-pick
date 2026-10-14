@@ -22,6 +22,7 @@ from typing import Any, Optional
 from mb.config import (
     CFG, WEIGHTS, PILLAR_NAMES, VERIFY,
     DATA, DOCS, CACHE_JSON, PICKS_JSON, SIGNALS_JSON, DD_JSON, SIGNALS_DEBUG,
+    SHORT_JSON,
 )
 from mb.utils import load_json, save_json, num
 from mb.universe import load_universe
@@ -223,8 +224,9 @@ def run(
             pick=None, bench=[], track=[], track_summary={},
             dd_rejected=[], dd_blocked=False, dd_provider=None, neg_filing_rejects=[],
         )
-        html = render_page(result)
-        (DOCS / "index.html").write_text(html)
+        short_payload = load_json(SHORT_JSON, {})
+        html = render_page(result, short_payload=short_payload)
+        (DOCS / "index.html").write_text(html, encoding="utf-8")
         save_json(DOCS / "latest.json", result)
         save_json(DATA / "scan_progress.json", dict(stage="done", date=today))
         print("No liquid candidates; wrote empty page.")
@@ -530,9 +532,11 @@ def run(
     # Track record
     result["track"], result["track_summary"] = track_episodes(picks, prices, nifty)
 
-    # Render
-    html = render_page(result)
-    (DOCS / "index.html").write_text(html)
+    # Render unified tabbed page (includes swing signals if available)
+    from mb.config import SHORT_JSON
+    short_payload = load_json(SHORT_JSON, {})
+    html = render_page(result, short_payload=short_payload)
+    (DOCS / "index.html").write_text(html, encoding="utf-8")
     save_json(DOCS / "latest.json", result)
     save_json(DATA / "scan_progress.json", dict(stage="done", date=today))
 
@@ -678,10 +682,19 @@ def run_short(
     save_json(SHORT_JSON, payload)
     save_json(DOCS / "short_latest.json", payload)
 
-    # Render dedicated short-term page
-    html = render_short_page(payload)
-    (DOCS / "short.html").write_text(html, encoding="utf-8")
+    # Render short-only page + unified tabbed index
+    from mb.render import render_short_page, render_page
+    html_short = render_short_page(payload)
+    (DOCS / "short.html").write_text(html_short, encoding="utf-8")
     print(f"Wrote docs/short.html with {len(payload['signals'])} signals")
+
+    # Also refresh main index.html so both tabs are available
+    multi_result = load_json(DOCS / "latest.json", {})
+    if not multi_result:
+        multi_result = {"date": today, "pick": None, "track": []}
+    html_main = render_page(multi_result, short_payload=payload)
+    (DOCS / "index.html").write_text(html_main, encoding="utf-8")
+    print("Updated docs/index.html (tabbed view)")
 
     if not no_notify and not demo and signals:
         try:

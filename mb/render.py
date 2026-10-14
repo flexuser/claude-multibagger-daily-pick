@@ -1,6 +1,21 @@
-"""Renders docs/index.html from the scan result. Self-contained, mobile-first."""
-from html import escape as e
+"""
+Renders docs/index.html — clean tabbed UI for:
+  1. Multibagger daily pick
+  2. Swing / Short-term technical signals (1–12 trading days)
 
+Self-contained, mobile-first, no external CSS/JS dependencies.
+"""
+from __future__ import annotations
+
+from html import escape as e
+from typing import Any, Dict, List, Optional
+
+from mb.config import SHORT_JSON
+from mb.utils import load_json
+
+# ---------------------------------------------------------------------------
+# CSS
+# ---------------------------------------------------------------------------
 CSS = """
 :root{--bg:#ECF0F2;--surface:#F8FAFB;--ink:#0F1E29;--muted:#5A6B77;--line:#CDD6DC;--accent:#0B5FA5;
 --good:#1B7F55;--warn:#B26A00;--bad:#B3261E;--empty:#D8E0E5;--soft:#E2E9ED;
@@ -9,58 +24,38 @@ CSS = """
 --accent:#5DB0F0;--good:#4CC38A;--warn:#E3A33B;--bad:#F2726B;--empty:#26333E;--soft:#1D2A35}}
 *{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.55 var(--body)}
-.wrap{max-width:720px;margin:0 auto;padding:18px 16px 60px}
+.wrap{max-width:720px;margin:0 auto;padding:16px 14px 50px}
 h1,h2,h3{font-family:var(--display);margin:0;letter-spacing:-.01em}
-h1{font-size:26px;line-height:1.15}h2{font-size:19px;margin:0 0 8px}h3{font-size:15px;margin:14px 0 4px}
-.meta{color:var(--muted);font-size:13px;margin:4px 0 14px}
-.panel{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px;margin-bottom:12px}
-.banner{background:var(--soft);border:1px dashed var(--warn);color:var(--warn);border-radius:10px;padding:8px 12px;margin-bottom:12px;font-weight:600}
-.row{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}
-.nm{font-family:var(--display);font-weight:700;font-size:22px;line-height:1.15}
-.tk{color:var(--muted);font-size:13px}
-.score{font-family:var(--display);font-weight:700;font-size:44px;line-height:1;text-align:right}
-.score small{display:block;font:500 11px var(--body);color:var(--muted);margin-top:3px}
-.thesis{margin:12px 0 4px}
-svg.spark{width:100%;height:80px;display:block;margin:10px 0 2px}
-.pil{display:grid;grid-template-columns:1fr auto;gap:2px 10px;padding:7px 0;border-top:1px solid var(--line)}
-.pil:first-of-type{border-top:0}.pil .v{font-family:var(--display);font-weight:700}
-.bar{grid-column:1/-1;height:6px;background:var(--empty);border-radius:3px;overflow:hidden}
-.bar span{display:block;height:100%;background:var(--accent)}.bar .g{background:var(--good)}.bar .l{background:var(--warn)}
-table{width:100%;border-collapse:collapse;font-size:14px}
-td,th{padding:7px 4px;border-top:1px solid var(--line);vertical-align:top;text-align:left}
-th{font-weight:600;color:var(--muted);font-size:12.5px;border-top:0}
-td.mk{width:22px;font-weight:700;text-align:center}.ok{color:var(--good)}.no{color:var(--warn)}.na{color:var(--muted)}
-td.val{white-space:nowrap;font-weight:600}
-.why{display:block;color:var(--muted);font-size:12.5px;font-weight:400}
-.grp td{background:var(--soft);font-weight:700;font-size:13px;border-top:1px solid var(--line)}
-.flag{padding:6px 0 6px 16px;position:relative;border-top:1px solid var(--line)}
-.flag:first-of-type{border-top:0}.flag:before{content:"";position:absolute;left:0;top:13px;width:8px;height:8px;border-radius:50%;background:var(--warn)}
-.flag.high:before{background:var(--bad)}
-ul{margin:6px 0 0;padding-left:20px}li{margin:4px 0}
-.note{color:var(--muted);font-size:12.5px}
+h1{font-size:22px;line-height:1.2}h2{font-size:17px;margin:0 0 8px}h3{font-size:14px;margin:12px 0 4px}
+.meta{color:var(--muted);font-size:12.5px;margin:3px 0 12px}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:13px;margin-bottom:11px}
+.row{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}
+.nm{font-family:var(--display);font-weight:700;font-size:20px;line-height:1.15}
+.tk{color:var(--muted);font-size:12.5px}
+.score{font-family:var(--display);font-weight:700;font-size:36px;line-height:1;text-align:right}
+.score small{display:block;font:500 11px var(--body);color:var(--muted);margin-top:2px}
+table{width:100%;border-collapse:collapse;font-size:13.5px}
+td,th{padding:6px 3px;border-top:1px solid var(--line);vertical-align:top;text-align:left}
+th{font-weight:600;color:var(--muted);font-size:12px;border-top:0}
+td.val{font-weight:600;white-space:nowrap}
 .pos{color:var(--good);font-weight:600}.neg{color:var(--bad);font-weight:600}
-.scroll{overflow-x:auto}
-.chip{display:inline-block;font-weight:700;font-size:12.5px;border:1px solid currentColor;border-radius:6px;padding:2px 9px}
+.note{color:var(--muted);font-size:12px}
+.chip{display:inline-block;font-weight:700;font-size:11.5px;border:1px solid currentColor;border-radius:5px;padding:1px 7px}
 .chip.green{color:var(--good)}.chip.yellow{color:var(--warn)}.chip.red{color:var(--bad)}.chip.none{color:var(--muted)}
-.dd h3{margin:12px 0 2px;color:var(--muted);font-size:12.5px;text-transform:uppercase;letter-spacing:.04em}
-.dd p{margin:0 0 4px}
-a{color:var(--accent);word-break:break-all}
+ul{margin:5px 0 0;padding-left:18px}li{margin:3px 0}
+a{color:var(--accent)}
+.tabs{display:flex;gap:0;margin-bottom:14px;border-bottom:2px solid var(--line)}
+.tab{flex:1;text-align:center;padding:10px 6px;font-weight:600;font-size:14px;color:var(--muted);cursor:pointer;border:none;background:none;font-family:var(--body)}
+.tab.active{color:var(--accent);border-bottom:2px solid var(--accent);margin-bottom:-2px}
+.tab-panel{display:none}.tab-panel.active{display:block}
+.stale{background:var(--soft);border-left:3px solid var(--warn)}
+.fresh{border-left:3px solid var(--good)}
+.levels{display:grid;grid-template-columns:1fr 1fr;gap:6px 12px;margin-top:8px;font-size:13.5px}
+.levels div{display:flex;justify-content:space-between}
+.levels .l{color:var(--muted)}
+.levels .v{font-weight:700}
+.banner{background:var(--soft);border:1px dashed var(--warn);color:var(--warn);border-radius:8px;padding:7px 11px;margin-bottom:11px;font-size:13px;font-weight:600}
 """
-
-
-def _band(v):
-    return "g" if v is not None and v >= 65 else ("l" if v is not None and v < 40 else "")
-
-
-def _spark(vals):
-    if not vals or len(vals) < 3:
-        return ""
-    lo, hi = min(vals), max(vals)
-    rng = (hi - lo) or 1
-    pts = " ".join(f"{i * 300 / (len(vals) - 1):.1f},{74 - (v - lo) / rng * 68:.1f}" for i, v in enumerate(vals))
-    return (f'<svg class="spark" viewBox="0 0 300 80" preserveAspectRatio="none" role="img" aria-label="One year price chart">'
-            f'<polyline fill="none" stroke="var(--accent)" stroke-width="2" vector-effect="non-scaling-stroke" points="{pts}"/></svg>')
-
 
 def _pct(v):
     if v is None:
@@ -68,280 +63,215 @@ def _pct(v):
     return f'<span class="{"pos" if v >= 0 else "neg"}">{v:+.1f}%</span>'
 
 
-def _links(urls):
-    out = []
-    for u in urls or []:
-        if str(u).startswith(("http://", "https://")):
-            out.append(f'<li><a href="{e(u)}" rel="noopener noreferrer">{e(u[:70])}</a></li>')
-    return "<ul>" + "".join(out) + "</ul>" if out else ""
+def _multibagger_html(r: dict) -> str:
+    pick = r.get("pick")
+    h: List[str] = []
 
+    if not pick:
+        h.append('<div class="panel"><p>No multibagger pick today.</p></div>')
+        return "".join(h)
 
-def _dd_panel(dd):
-    if not dd:
-        return ""
-    if dd.get("status") != "ok":
-        label = "unavailable" if dd.get("status") == "unavailable" else "failed"
-        return ('<div class="panel"><h2>AI due diligence <span class="chip none">not run</span></h2>'
-                f'<p>{e(dd.get("reason", ""))}</p><p class="note">Status: {label}. Until it runs, treat management and litigation risk as unchecked, and read the "Verify before you act" list.</p></div>')
-    v = dd["verdict"]
-    meaning = {"green": "Nothing adverse found, with some corroboration.", "yellow": "Unresolved concerns or thin information. Read the risks.", "red": "Serious concerns found."}[v]
-    h = [f'<div class="panel dd"><h2>AI due diligence <span class="chip {v}">{v.upper()}</span></h2><p class="note">{e(meaning)}</p>',
-         f'<p>{e(dd["summary"])}</p>']
-    for title, key in (("Management", "management"), ("Controversies and litigation", "controversies"),
-                       ("Latest business update", "business_update"), ("Order book, capex, exports", "order_book")):
-        if dd.get(key):
-            h.append(f'<h3>{title}</h3><p>{e(dd[key])}</p>')
-    if dd.get("strengths"):
-        h.append("<h3>Strengths</h3><ul>" + "".join(f"<li>{e(x)}</li>" for x in dd["strengths"]) + "</ul>")
-    if dd.get("risks"):
-        h.append("<h3>Risks</h3><ul>" + "".join(f"<li>{e(x)}</li>" for x in dd["risks"]) + "</ul>")
-    if dd.get("sources"):
-        h.append("<h3>Sources</h3>" + _links(dd["sources"]))
-    h.append(f'<p class="note" style="margin-top:10px">Written by an AI ({e(str(dd.get("provider")))} / {e(str(dd.get("model")))}, {e(str(dd.get("method")))}) on {e(str(dd.get("date")))}. '
-             'It can be wrong. Open the sources and confirm anything you rely on. It never changes the score, it only blocks a pick when it finds serious problems.</p></div>')
-    
-    for label, key in (
-        ("Management vision", "management_vision"),
-        ("Policy & demand", "policy_and_demand"),
-        ("Sector outlook", "sector_outlook"),
-        ("Guidance", "guidance"),
-    ):
-        val = dd.get(key)
-        if val and str(val).lower() not in ("not found", "n/a", ""):
-            h.append(f'<h3>{e(label)}</h3><p>{e(str(val))}</p>')
+    m = pick.get("m") or pick
+    name = e(str(m.get("name") or pick.get("name") or ""))
+    ticker = e(str(pick.get("ticker") or "").replace(".NS", ""))
+    score = pick.get("score")
+    price = m.get("price")
+    thesis = e(str(pick.get("thesis") or m.get("thesis") or "")[:280])
+
+    h.append('<div class="panel">')
+    h.append('<div class="row">')
+    h.append(f'<div><div class="nm">{name}</div><div class="tk">{ticker} · Multibagger candidate</div></div>')
+    if score is not None:
+        h.append(f'<div class="score">{score:.0f}<small>score</small></div>')
+    h.append("</div>")
+
+    if price:
+        h.append(f'<p class="meta">Last ~₹{price} · Longer-term horizon (months+)</p>')
+
+    if thesis:
+        h.append(f'<p>{thesis}</p>')
+
+    pillars = pick.get("pillars") or {}
+    if pillars:
+        h.append("<table style='margin-top:8px'>")
+        for k, v in list(pillars.items())[:6]:
+            if v is None:
+                continue
+            h.append(f"<tr><th>{e(str(k))}</th><td class='val'>{v:.0f}</td></tr>")
+        h.append("</table>")
+
+    dd = pick.get("dd") or r.get("dd") or {}
+    if dd.get("verdict"):
+        v = dd["verdict"]
+        h.append(f'<p style="margin-top:10px">AI diligence: <span class="chip {v}">{v.upper()}</span></p>')
+        if dd.get("summary"):
+            h.append(f'<p class="note">{e(str(dd["summary"])[:220])}</p>')
+
+    h.append("</div>")
+
+    track = r.get("track") or []
+    if track:
+        h.append('<div class="panel"><h2>Track record</h2>')
+        h.append("<table><tr><th>Date</th><th>Stock</th><th>Return</th><th>vs Nifty</th></tr>")
+        for t in track[:6]:
+            h.append(
+                f"<tr><td>{e(str(t.get('start','')))}</td>"
+                f"<td>{e(str(t.get('ticker','')).replace('.NS',''))}</td>"
+                f"<td>{_pct(t.get('ret'))}</td>"
+                f"<td>{_pct(t.get('nifty_ret'))}</td></tr>"
+            )
+        h.append("</table></div>")
+
+    h.append(
+        '<div class="panel"><p class="note">'
+        "Screening aid only — not investment advice. Most early-stage picks fail. "
+        "Do your own research and size positions small."
+        "</p></div>"
+    )
     return "".join(h)
 
 
-def render_page(r):
-    h = [f'<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">'
-         f'<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">'
-         f'<title>Daily multibagger candidate</title><style>{CSS}</style></head><body><div class="wrap">']
-    h.append('<h1>Daily multibagger candidate</h1>')
-    h.append(f'<p class="meta">Scan of {r["generated"]}. {r["universe"]} stocks in the universe, {r["liquid"]} liquid enough, '
-             f'{r["with_data"]} with fundamentals, {r["eligible"]} passed the filters.</p>')
-    if r.get("market_regime"):
-        h.append(f'<p class="meta">Nifty regime: <b>{e(str(r["market_regime"]))}</b> (above 200DMA: {e(str(r.get("nifty_above_200")))}%). Soft context only — not a timing system.</p>')
-    if r.get("demo"):
-        h.append('<div class="banner">DEMO DATA. These are synthetic companies for previewing the layout, not real stocks.</div>')
+def _swing_html(short_payload: Optional[dict]) -> str:
+    h: List[str] = []
+    signals = (short_payload or {}).get("signals") or []
+    regime = (short_payload or {}).get("regime", "unknown")
 
-    p = r.get("pick")
-    if not p:
-        if r.get("dd_blocked"):
-            h.append('<div class="panel"><h2>No pick today</h2><p>The best-scoring candidates were all rejected by AI due diligence, so nothing is shown rather than a stock with serious concerns. See below.</p></div>')
-        else:
-            h.append('<div class="panel"><h2>No candidate today</h2><p>Nothing passed the hard filters with enough data. '
-                     'This is normal while the fundamentals cache is still filling up (each run refreshes a limited batch). '
-                     'Run the workflow a few more times, or check the log for failures.</p></div>')
-    else:
-        streak = f' On top for {p["streak"]} scans in a row.' if p.get("streak", 1) > 1 else ' New today.'
-        held = " Kept from yesterday because no rival beat it by a clear margin." if p.get("held_from_yesterday") else ""
-        dd = p.get("diligence") or {}
-        chip = f'<span class="chip {dd["verdict"]}">DD {dd["verdict"].upper()}</span>' if dd.get("status") == "ok" else '<span class="chip none">DD not run</span>'
-        h.append('<div class="panel">'
-                 f'<div class="row"><div><div class="nm">{e(p["name"] or p["ticker"])}</div>'
-                 f'<div class="tk">{e(p["ticker"])} | {e(p.get("sector") or "")}</div><div style="margin-top:6px">{chip}</div></div>'
-                 f'<div class="score">{p["score"]:.0f}<small>of 100</small></div></div>'
-                 f'{_spark(p.get("spark"))}'
-                 f'<div class="tk">Price Rs {(p.get("price") or 0):,.2f} as of {e(p.get("price_date") or "n/a")}. Fundamentals as of {e(p.get("fundamentals_as_of") or "n/a")}.{streak}{held}</div>'
-                 f'<p class="thesis">{e(p["thesis"])}</p></div>')
+    h.append(
+        f'<div class="banner">Swing signals · Holding <strong>1–12 trading days</strong> · Regime: {e(str(regime))}</div>'
+    )
 
-        h.append(_dd_panel(dd))
+    if not signals:
+        h.append(
+            '<div class="panel"><p>No high-confidence swing signals today.</p>'
+            '<p class="note">Signals appear when stocks break resistance with volume and clear the confidence filter.</p></div>'
+        )
+        return "".join(h)
 
-        h.append('<div class="panel"><h2>Score breakdown</h2>')
-        for k, v in (p.get("pillars") or {}).items():
-            w = r["weights"][k]
-            name = r["pillar_names"][k]
-            h.append(f'<div class="pil"><b>{e(name)} <span class="note">weight {w}</span></b>'
-                     f'<span class="v">{"n/a" if v is None else round(v)}</span>'
-                     f'<div class="bar"><span class="{_band(v)}" style="width:{0 if v is None else v:.0f}%"></span></div></div>')
-        h.append('<p class="note">Runway and moat are keyword and ratio proxies, since a scanner cannot read a business the way you can. They carry lower weight for that reason. '
-                 'A pillar with no data is left out and the rest are re-weighted.</p></div>')
+    h.append(
+        '<div class="panel"><p class="note">'
+        "<strong>How to read:</strong> Buy only if current price is still near Entry. "
+        "If price has already run past T1, the signal is stale — skip or trail only. "
+        "Always use the Stop Loss. Daily data can lag live prices."
+        "</p></div>"
+    )
 
-        h.append('<div class="panel"><h2>Proof</h2><div class="scroll"><table>')
-        group = None
-        for ev in (p.get("evidence") or []):
-            if ev["group"] != group:
-                group = ev["group"]
-                h.append(f'<tr class="grp"><td colspan="3">{e(group)}</td></tr>')
-            mk, cls = ("&#10003;", "ok") if ev["ok"] is True else (("&#10007;", "no") if ev["ok"] is False else ("-", "na"))
-            h.append(f'<tr><td class="mk {cls}">{mk}</td><td>{e(ev["label"])}<span class="why">{e(ev["why"])}</span></td>'
-                     f'<td class="val">{e(str(ev["value"]))}</td></tr>')
-        h.append('</table></div></div>')
+    for s in signals:
+        entry = s.get("entry")
+        sl = s.get("stop_loss")
+        t1 = s.get("t1")
+        t2 = s.get("t2")
+        t3 = s.get("t3")
+        conf = s.get("confidence", 0)
+        ticker = e(str(s.get("ticker", "")).replace(".NS", ""))
+        last_px = s.get("last_price") or s.get("price")
 
-        evs = p.get("events") or []
-        sg = r.get("signals") or {}
-        if evs:
-            h.append('<div class="panel"><h2>Filings that matter, last 120 days</h2>')
-            for ev in evs:
-                cls = "neg" if ev["neg"] else "pos"
-                link = f' <a href="{e(ev["url"])}" rel="noopener">filing</a>' if ev.get("url") and str(ev["url"]).startswith("http") else ""
-                h.append(f'<div class="flag {"high" if ev["neg"] else ""}"><b class="{cls}">{e(", ".join(ev["labels"]))}</b> '
-                         f'<span class="note">{e(ev["date"])}</span>{link}<br>{e(ev["text"])}</div>')
-            h.append('<p class="note">Matched by keywords on NSE filing summaries. Open each filing to confirm size and terms, since a keyword match can be routine.</p></div>')
-        elif sg.get("checked"):
-            h.append('<div class="panel"><h2>Filings that matter</h2><p>No expansion, order, acquisition or export filings found in the last 120 days.</p></div>')
+        status_cls = "fresh"
+        status_note = ""
+        if last_px and entry and t1:
+            if last_px > t1:
+                status_cls = "stale"
+                status_note = f" · Already past T1 (last ~{last_px})"
+            elif last_px > entry * 1.03:
+                status_note = f" · Moved up (last ~{last_px})"
 
-        if p.get("flags"):
-            h.append('<div class="panel"><h2>Red flags</h2>' + "".join(
-                f'<div class="flag {f["sev"]}">{e(f["text"])}</div>' for f in (p.get("flags") or [])) + '</div>')
+        h.append(f'<div class="panel {status_cls}">')
+        h.append('<div class="row">')
+        h.append(f'<div><div class="nm">{ticker}</div>')
+        h.append(f'<div class="tk">Confidence {conf:.0f}/100 · Swing (1–12 days){e(status_note)}</div></div>')
+        h.append(f'<div class="score">{conf:.0f}<small>score</small></div>')
+        h.append("</div>")
 
-        if p.get("exit_triggers"):
-            h.append('<div class="panel"><h2>What would prove this wrong</h2><p class="note">Write these down before you buy. Check them each quarter.</p><ul>'
-                     + "".join(f"<li>{e(t)}</li>" for t in p["exit_triggers"]) + '</ul></div>')
+        h.append('<div class="levels">')
+        h.append(f'<div><span class="l">Entry (Buy above)</span><span class="v">{entry}</span></div>')
+        h.append(f'<div><span class="l">Stop Loss</span><span class="v" style="color:var(--bad)">{sl}</span></div>')
+        h.append(f'<div><span class="l">Target 1</span><span class="v" style="color:var(--good)">{t1}</span></div>')
+        h.append(f'<div><span class="l">Target 2</span><span class="v" style="color:var(--good)">{t2}</span></div>')
+        if t3:
+            h.append(f'<div><span class="l">Target 3</span><span class="v" style="color:var(--good)">{t3}</span></div>')
+        rr = s.get("risk_reward_t1")
+        if rr:
+            h.append(f'<div><span class="l">Risk : Reward</span><span class="v">1 : {rr}</span></div>')
+        h.append("</div>")
 
-        if p.get("news"):
-            h.append('<div class="panel"><h2>Recent headlines</h2><ul>' + "".join(f"<li>{e(n)}</li>" for n in p["news"]) +
-                     '</ul><p class="note">Headlines come from Yahoo and can be generic. Read the originals.</p></div>')
+        reasons = s.get("reasons") or []
+        if reasons:
+            h.append("<p style='margin-top:8px'><strong>Why</strong></p><ul>")
+            for rsn in reasons[:5]:
+                h.append(f"<li>{e(str(rsn))}</li>")
+            h.append("</ul>")
 
-        h.append('<div class="panel"><h2>Verify before you act</h2><p>Automated checks cannot settle these. They are often where a promising number turns out to be a trap.</p><ul>'
-                 + "".join(f"<li>{e(v)}</li>" for v in r["verify"]) + '</ul></div>')
+        inv = s.get("invalidation")
+        if inv:
+            h.append(f'<p class="note" style="margin-top:6px">Invalidation: {e(str(inv))}</p>')
 
-    if r.get("dd_rejected"):
-        h.append('<div class="panel"><h2>Rejected by AI due diligence today</h2>')
-        for d in r["dd_rejected"]:
-            h.append(f'<h3>{e(d["name"] or d["ticker"])} <span class="tk">{e(d["ticker"])}, score {d["score"]:.0f}</span></h3><p class="note" style="margin:0">{e(d["reason"])}</p>{_links(d.get("sources"))}')
-        h.append('<p class="note">These scored higher but the research found serious concerns. Verify before dismissing or trusting that result.</p></div>')
+        h.append("</div>")
 
-    if r.get("neg_filing_rejects"):
-        h.append('<div class="panel"><h2>Rejected for negative filings</h2><p class="note">Matched by keywords, so some may be routine text. Open the filing before dismissing a company.</p>')
-        for d in r["neg_filing_rejects"]:
-            h.append(f'<h3>{e(d["name"] or d["ticker"])} <span class="tk">{e(d["ticker"])}, score {d["score"]:.0f}</span></h3>')
-            for ev in d["events"]:
-                link = f' <a href="{e(ev["url"])}" rel="noopener">filing</a>' if ev.get("url") and str(ev["url"]).startswith("http") else ""
-                h.append(f'<p class="note" style="margin:0"><b class="neg">{e(", ".join(ev["labels"]))}</b> {e(ev["date"])}{link}<br>{e(ev["text"])}</p>')
-        h.append('</div>')
+    h.append(
+        '<div class="panel"><p class="note">'
+        "Technical screening only. Daily data can lag — always check live price before acting. "
+        "Not investment advice."
+        "</p></div>"
+    )
+    return "".join(h)
 
-    if p and r["bench"]:
-        h.append('<div class="panel"><h2>Next in line</h2><p class="note">Not yet due-diligenced.</p>')
-        for b in r["bench"]:
-            h.append(f'<h3>{e(b["name"] or b["ticker"])} <span class="tk">{e(b["ticker"])}, score {b["score"]:.0f}</span></h3>'
-                     f'<p class="note" style="margin:0">{e(b["line"])}</p>')
-        h.append('</div>')
 
-    ts = r.get("track_summary") or {}
-    if r["track"]:
-        h.append('<div class="panel"><h2>Track record</h2>')
-        if ts.get("measured"):
-            ex = ts.get("avg_excess")
-            h.append(f'<p>{ts["episodes"]} picks so far. {ts["beat"]} of {ts["measured"]} beat the Nifty since being picked'
-                     + (f', average edge {ex:+.1f} pp' if ex is not None else '') + '.</p>')
-        h.append('<div class="scroll"><table><tr><th>Picked</th><th>Stock</th><th>Days on top</th><th>Since pick</th><th>Nifty</th></tr>')
-        for t in r["track"]:
-            h.append(f'<tr><td>{e(t["start"])}</td><td>{e(t["name"] or t["ticker"])}{" (now)" if t.get("active") else ""}</td><td>{t["days"]}</td>'
-                     f'<td>{_pct(t["ret"])}</td><td>{_pct(t["nifty_ret"])}</td></tr>')
-        h.append('</table></div><p class="note">One row per run of the same pick, logged at its scan-day price. Judge the scanner by this table over many months and at least 20 picks, not by any single result. '
-                 'The score weights are reasoned starting points, not fitted to history, so this record is the real test.</p></div>')
+def render_page(result: dict, short_payload: Optional[dict] = None) -> str:
+    """
+    Unified tabbed page.
+    `result` = multibagger scan result
+    `short_payload` = short-term signals (loaded automatically if None)
+    """
+    if short_payload is None:
+        short_payload = load_json(SHORT_JSON, {})
 
-    sg = r.get("signals") or {}
-    if sg.get("demo"):
-        cov = "Demo mode: signals are synthetic."
-    elif sg.get("checked"):
-        parts = ", ".join(f"{k} {v}/{sg['attempted']}" for k, v in (sg.get("ok") or {}).items()) if sg.get("attempted") else "reused from today's cache"
-        cov = f"Live NSE signals seen for {sg['checked']} candidates ({parts})." + (" NSE started blocking midway." if sg.get("blocked") else "")
-    else:
-        cov = "NSE signals were NOT available today (blocked or changed). Ranking uses price and fundamentals only, so ownership and catalyst pillars are missing."
-    fs = r.get("fund_stats") or {}
-    health = f" Fundamentals refreshed this run: {fs.get('attempted', 0)} tried, {fs.get('failed', 0)} failed." if fs.get("attempted") else ""
-    rej = ", ".join(f"{k}: {v}" for k, v in (r.get("rejected") or {}).items()) or "none"
-    h.append(f'<div class="panel"><h2>How it works</h2><p>Every liquid NSE small, mid and micro cap is scored on ten pillars: runway, moat, proof, operating leverage, '
-             f'capital and earnings quality, discovery stage, valuation, market confirmation, ownership and catalysts. Hard filters remove financial companies, stale or suspect data, tiny or huge companies, '
-             f'unprofitable or slow-growing ones, high pledge, negative filings, and multiple red flags. The finalists then get AI due diligence, and a red verdict blocks the pick. Filtered out today: {e(rej)}.</p>'
-             f'<p class="note">Signal coverage: {e(cov)} Event and ownership data is fetched only for the 40 strongest candidates each day.{e(health)}</p>'
-             '<p class="note">A screening aid, not investment advice. Most early-stage picks fail, free data can be wrong, and a high score only means the evidence lines up with the story. '
-             'Do your own research and size positions small.</p></div>')
-    h.append('</div></body></html>')
+    date = result.get("date") or (short_payload or {}).get("date") or ""
+    regime = (result.get("nifty") or {}).get("regime") or (short_payload or {}).get("regime") or ""
+
+    has_short = bool((short_payload or {}).get("signals"))
+    has_multi = bool(result.get("pick"))
+    default_tab = "swing" if has_short and not has_multi else "multi"
+
+    h: List[str] = [
+        "<!DOCTYPE html><html lang='en'><head><meta charset='utf-8'>",
+        "<meta name='viewport' content='width=device-width,initial-scale=1'>",
+        f"<title>Scanner — {e(str(date))}</title>",
+        f"<style>{CSS}</style></head><body><div class='wrap'>",
+        f"<h1>Daily Scanner</h1>",
+        f"<p class='meta'>{e(str(date))} · Market regime: <strong>{e(str(regime))}</strong></p>",
+        '<div class="tabs">',
+        f'<button class="tab {"active" if default_tab=="multi" else ""}" onclick="showTab(\'multi\',this)">Multibagger</button>',
+        f'<button class="tab {"active" if default_tab=="swing" else ""}" onclick="showTab(\'swing\',this)">Swing Signals</button>',
+        "</div>",
+        f'<div id="multi" class="tab-panel {"active" if default_tab=="multi" else ""}">',
+        _multibagger_html(result),
+        "</div>",
+        f'<div id="swing" class="tab-panel {"active" if default_tab=="swing" else ""}">',
+        _swing_html(short_payload),
+        "</div>",
+        """<script>
+function showTab(id, btn){
+  document.querySelectorAll('.tab-panel').forEach(p=>p.classList.remove('active'));
+  document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
+  btn.classList.add('active');
+}
+</script>""",
+        "</div></body></html>",
+    ]
     return "".join(h)
 
 
 def render_short_page(payload: dict) -> str:
-    """Render a clean mobile-first page for short-term technical signals."""
-    from html import escape as e
-    import datetime as dt
-
-    signals = payload.get("signals") or []
-    regime = payload.get("regime", "unknown")
-    date = payload.get("date", dt.date.today().isoformat())
-    nifty = payload.get("nifty") or {}
-
+    """Lightweight short-only page (still useful as direct link)."""
+    date = payload.get("date", "")
     h = [
         "<!DOCTYPE html><html lang='en'><head><meta charset='utf-8'>",
         "<meta name='viewport' content='width=device-width,initial-scale=1'>",
-        f"<title>Short-term Signals — {e(date)}</title>",
+        f"<title>Swing Signals — {e(str(date))}</title>",
         f"<style>{CSS}</style></head><body><div class='wrap'>",
-        f"<h1>Short-term Technical Signals</h1>",
-        f"<p class='meta'>{e(date)} · Regime: <strong>{e(regime)}</strong>",
+        f"<h1>Swing Signals</h1>",
+        f"<p class='meta'>{e(str(date))} · <a href='index.html'>Full scanner →</a></p>",
+        _swing_html(payload),
+        "</div></body></html>",
     ]
-    if nifty.get("last"):
-        h.append(f" · Nifty {nifty['last']:.0f} ({nifty.get('ret_1m', 0):+.1f}% 1m)")
-    h.append("</p>")
-
-    h.append(
-        "<div class='panel'><p class='note'>"
-        "Signals are for <strong>1 day to ~2 weeks</strong> holding. "
-        "Entry = breakout level. SL = ATR-based. Targets = progressive ATR multiples. "
-        "Always use the stop-loss. This is a screening aid, not advice."
-        "</p></div>"
-    )
-
-    if not signals:
-        h.append("<div class='panel'><p>No high-confidence short-term BUY signals today.</p></div>")
-    else:
-        for i, s in enumerate(signals, 1):
-            conf = s.get("confidence", 0)
-            conf_cls = "g" if conf >= 72 else ("l" if conf >= 60 else "")
-            h.append("<div class='panel'>")
-            h.append("<div class='row'>")
-            h.append(f"<div><div class='nm'>{e(s.get('ticker','').replace('.NS',''))}</div>")
-            h.append(f"<div class='tk'>Confidence {conf:.0f}/100</div></div>")
-            h.append(f"<div class='score'>{conf:.0f}<small>score</small></div>")
-            h.append("</div>")
-
-            h.append("<table style='margin-top:10px'>")
-            h.append(f"<tr><th>Entry (Buy above)</th><td class='val'>{s.get('entry')}</td></tr>")
-            h.append(f"<tr><th>Stop Loss</th><td class='val' style='color:var(--bad)'>{s.get('stop_loss')}</td></tr>")
-            h.append(f"<tr><th>Target 1</th><td class='val' style='color:var(--good)'>{s.get('t1')}</td></tr>")
-            h.append(f"<tr><th>Target 2</th><td class='val' style='color:var(--good)'>{s.get('t2')}</td></tr>")
-            h.append(f"<tr><th>Target 3</th><td class='val' style='color:var(--good)'>{s.get('t3')}</td></tr>")
-            rr = s.get("risk_reward_t1")
-            if rr:
-                h.append(f"<tr><th>Risk:Reward (T1)</th><td class='val'>1 : {rr}</td></tr>")
-            h.append(f"<tr><th>Holding</th><td>{e(s.get('holding_days', '3-12 days'))}</td></tr>")
-            h.append(f"<tr><th>Invalidation</th><td class='note'>{e(s.get('invalidation',''))}</td></tr>")
-            h.append("</table>")
-
-            reasons = s.get("reasons") or []
-            if reasons:
-                h.append("<p style='margin-top:10px'><strong>Why</strong></p><ul>")
-                for rsn in reasons:
-                    h.append(f"<li>{e(str(rsn))}</li>")
-                h.append("</ul>")
-
-            meta = []
-            if s.get("rsi") is not None:
-                meta.append(f"RSI {s['rsi']}")
-            if s.get("volume_surge") is not None:
-                meta.append(f"Vol {s['volume_surge']}x")
-            if s.get("atr") is not None:
-                meta.append(f"ATR {s['atr']}")
-            if meta:
-                h.append(f"<p class='note'>{' · '.join(meta)}</p>")
-
-            h.append("</div>")
-
-    h.append(
-        "<div class='panel'><h2>How to use</h2>"
-        "<ul>"
-        "<li>Buy only on a clear break above the Entry level with volume.</li>"
-        "<li>Place Stop Loss immediately. Never move it against you.</li>"
-        "<li>Book partial profits at T1, trail the rest toward T2/T3.</li>"
-        "<li>If market regime turns risk_off, reduce size or stay in cash.</li>"
-        "<li>This is a technical screening tool. Combine with your own judgement.</li>"
-        "</ul></div>"
-    )
-
-    h.append(
-        f"<p class='meta'><a href='index.html'>← Multibagger daily pick</a> · "
-        f"Generated {e(date)}</p>"
-    )
-    h.append("</div></body></html>")
     return "".join(h)
