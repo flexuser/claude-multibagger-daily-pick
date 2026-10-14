@@ -1,8 +1,6 @@
 name: Daily multibagger + short-term scan
 
 on:
-  schedule:
-    - cron: "45 11 * * 1-5"   # 17:15 IST, Mon-Fri, after NSE close
   workflow_dispatch:
     inputs:
       max_fetch:
