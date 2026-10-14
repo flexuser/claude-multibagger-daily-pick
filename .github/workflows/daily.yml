@@ -1,4 +1,4 @@
-name: Daily multibagger + short-term scan
+name: Daily multibagger + swing scan
 
 on:
   workflow_dispatch:
@@ -7,7 +7,7 @@ on:
         description: "Max fundamentals to refresh (multibagger)"
         default: "150"
       max_scan:
-        description: "Max tickers for short-term scan"
+        description: "Max tickers for short-term / swing scan"
         default: "150"
 
 permissions:
@@ -39,8 +39,6 @@ jobs:
           python tests/test_validate.py
           python tests/test_pipeline.py
           python tests/test_short_term.py
-          python scan.py --demo --no-notify
-          python scan.py --short --demo --no-notify
 
       - name: Run multibagger scanner
         env:
@@ -51,7 +49,7 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python scan.py --max-fetch "${{ github.event.inputs.max_fetch || '150' }}"
 
-      - name: Run short-term scanner
+      - name: Run short-term / swing scanner
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
