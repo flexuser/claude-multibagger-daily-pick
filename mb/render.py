@@ -85,8 +85,12 @@ def _multibagger_html(r: dict) -> str:
         h.append(f'<div class="score">{score:.0f}<small>score</small></div>')
     h.append("</div>")
 
-    if price:
-        h.append(f'<p class="meta">Last ~₹{price} · Longer-term horizon (months+)</p>')
+    if price is not None:
+        try:
+            price_fmt = f"{float(price):,.2f}"
+        except (TypeError, ValueError):
+            price_fmt = str(price)
+        h.append(f'<p class="meta">Last ~₹{price_fmt} · Longer-term horizon (months+)</p>')
 
     if thesis:
         h.append(f'<p>{thesis}</p>')
@@ -134,77 +138,84 @@ def _multibagger_html(r: dict) -> str:
 def _swing_html(short_payload: Optional[dict]) -> str:
     h: List[str] = []
     signals = (short_payload or {}).get("signals") or []
+    history = (short_payload or {}).get("history") or []
+    stats = (short_payload or {}).get("stats") or {}
     regime = (short_payload or {}).get("regime", "unknown")
 
     h.append(
         f'<div class="banner">Swing signals · Holding <strong>1–12 trading days</strong> · Regime: {e(str(regime))}</div>'
     )
 
+    # Stats bar
+    if stats.get("closed"):
+        wr = stats.get("win_rate")
+        avg_r = stats.get("avg_r")
+        h.append(
+            f'<div class="panel"><p class="note">'
+            f'<strong>Track record:</strong> {stats["closed"]} closed · '
+            f'Win rate {wr if wr is not None else "n/a"}% · '
+            f'Avg R {avg_r if avg_r is not None else "n/a"} · '
+            f'Targets hit {stats.get("t1_hits", 0)} · '
+            f'Stopped {stats.get("stopped", 0)}'
+            f'</p></div>'
+        )
+
+    # --- Today's new signals ---
+    h.append("<h2 style='margin:12px 0 8px'>Today's signals</h2>")
     if not signals:
         h.append(
-            '<div class="panel"><p>No high-confidence swing signals today.</p>'
-            '<p class="note">Signals appear when stocks break resistance with volume and clear the confidence filter.</p></div>'
+            '<div class="panel"><p>No new high-confidence swing signals today.</p></div>'
         )
-        return "".join(h)
+    else:
+        h.append(
+            '<div class="panel"><p class="note">'
+            "<strong>How to read:</strong> Buy only if current price is still near Entry. "
+            "If price has already run past T1, treat as stale. Always use the Stop Loss."
+            "</p></div>"
+        )
+        for s in signals:
+            h.append(_signal_card(s, is_today=True))
 
-    h.append(
-        '<div class="panel"><p class="note">'
-        "<strong>How to read:</strong> Buy only if current price is still near Entry. "
-        "If price has already run past T1, the signal is stale — skip or trail only. "
-        "Always use the Stop Loss. Daily data can lag live prices."
-        "</p></div>"
-    )
+    # --- Still active from previous days ---
+    active_prev = [
+        s for s in history
+        if s.get("status") == "active" and s.get("date") != (short_payload or {}).get("date")
+    ]
+    if active_prev:
+        h.append("<h2 style='margin:16px 0 8px'>Still active (from previous days)</h2>")
+        for s in active_prev:
+            h.append(_signal_card(s, is_today=False))
 
-    for s in signals:
-        entry = s.get("entry")
-        sl = s.get("stop_loss")
-        t1 = s.get("t1")
-        t2 = s.get("t2")
-        t3 = s.get("t3")
-        conf = s.get("confidence", 0)
-        ticker = e(str(s.get("ticker", "")).replace(".NS", ""))
-        last_px = s.get("last_price") or s.get("price")
-
-        status_cls = "fresh"
-        status_note = ""
-        if last_px and entry and t1:
-            if last_px > t1:
-                status_cls = "stale"
-                status_note = f" · Already past T1 (last ~{last_px})"
-            elif last_px > entry * 1.03:
-                status_note = f" · Moved up (last ~{last_px})"
-
-        h.append(f'<div class="panel {status_cls}">')
-        h.append('<div class="row">')
-        h.append(f'<div><div class="nm">{ticker}</div>')
-        h.append(f'<div class="tk">Confidence {conf:.0f}/100 · Swing (1–12 days){e(status_note)}</div></div>')
-        h.append(f'<div class="score">{conf:.0f}<small>score</small></div>')
-        h.append("</div>")
-
-        h.append('<div class="levels">')
-        h.append(f'<div><span class="l">Entry (Buy above)</span><span class="v">{entry}</span></div>')
-        h.append(f'<div><span class="l">Stop Loss</span><span class="v" style="color:var(--bad)">{sl}</span></div>')
-        h.append(f'<div><span class="l">Target 1</span><span class="v" style="color:var(--good)">{t1}</span></div>')
-        h.append(f'<div><span class="l">Target 2</span><span class="v" style="color:var(--good)">{t2}</span></div>')
-        if t3:
-            h.append(f'<div><span class="l">Target 3</span><span class="v" style="color:var(--good)">{t3}</span></div>')
-        rr = s.get("risk_reward_t1")
-        if rr:
-            h.append(f'<div><span class="l">Risk : Reward</span><span class="v">1 : {rr}</span></div>')
-        h.append("</div>")
-
-        reasons = s.get("reasons") or []
-        if reasons:
-            h.append("<p style='margin-top:8px'><strong>Why</strong></p><ul>")
-            for rsn in reasons[:5]:
-                h.append(f"<li>{e(str(rsn))}</li>")
-            h.append("</ul>")
-
-        inv = s.get("invalidation")
-        if inv:
-            h.append(f'<p class="note" style="margin-top:6px">Invalidation: {e(str(inv))}</p>')
-
-        h.append("</div>")
+    # --- Recent closed results ---
+    closed = [
+        s for s in history
+        if s.get("status") in ("stopped", "target_hit", "expired")
+    ]
+    closed = sorted(closed, key=lambda x: x.get("exit_date") or x.get("date") or "", reverse=True)[:12]
+    if closed:
+        h.append("<h2 style='margin:16px 0 8px'>Recent results</h2>")
+        h.append('<div class="panel"><table>')
+        h.append("<tr><th>Date</th><th>Stock</th><th>Result</th><th>R</th><th>Days</th></tr>")
+        for s in closed:
+            tk = e(str(s.get("ticker", "")).replace(".NS", ""))
+            outcome = s.get("outcome") or s.get("status") or ""
+            label = {
+                "t1_hit": "✅ T1 hit",
+                "t2_hit": "✅ T2 hit",
+                "t3_hit": "✅ T3 hit",
+                "stopped": "❌ Stopped",
+                "expired": "⏳ Expired",
+            }.get(outcome, outcome)
+            r_mult = s.get("r_multiple")
+            r_str = f"{r_mult:+.2f}R" if r_mult is not None else "—"
+            h.append(
+                f"<tr><td>{e(str(s.get('date','')))}</td>"
+                f"<td>{tk}</td>"
+                f"<td>{label}</td>"
+                f"<td>{r_str}</td>"
+                f"<td>{s.get('days_held', '—')}</td></tr>"
+            )
+        h.append("</table></div>")
 
     h.append(
         '<div class="panel"><p class="note">'
@@ -213,6 +224,65 @@ def _swing_html(short_payload: Optional[dict]) -> str:
         "</p></div>"
     )
     return "".join(h)
+
+
+def _signal_card(s: dict, is_today: bool = True) -> str:
+    """Render one signal card (today or still-active)."""
+    entry = s.get("entry")
+    sl = s.get("stop_loss")
+    t1 = s.get("t1")
+    t2 = s.get("t2")
+    t3 = s.get("t3")
+    conf = s.get("confidence", 0)
+    ticker = e(str(s.get("ticker", "")).replace(".NS", ""))
+    status = s.get("status", "active")
+    outcome = s.get("outcome")
+    days = s.get("days_held", 0)
+
+    status_cls = "fresh" if is_today else "stale"
+    status_note = ""
+    if not is_today:
+        status_note = f" · Day {days}"
+        if outcome == "t1_hit":
+            status_note += " · T1 already hit"
+        elif outcome == "t2_hit":
+            status_note += " · T2 already hit"
+
+    parts = [f'<div class="panel {status_cls}">']
+    parts.append('<div class="row">')
+    parts.append(f'<div><div class="nm">{ticker}</div>')
+    conf_txt = f"Confidence {conf:.0f}/100 · " if conf else ""
+    parts.append(f'<div class="tk">{conf_txt}Swing (1–12 days){e(status_note)}</div></div>')
+    if conf:
+        parts.append(f'<div class="score">{conf:.0f}<small>score</small></div>')
+    parts.append("</div>")
+
+    parts.append('<div class="levels">')
+    parts.append(f'<div><span class="l">Entry (Buy above)</span><span class="v">{entry}</span></div>')
+    parts.append(f'<div><span class="l">Stop Loss</span><span class="v" style="color:var(--bad)">{sl}</span></div>')
+    parts.append(f'<div><span class="l">Target 1</span><span class="v" style="color:var(--good)">{t1}</span></div>')
+    parts.append(f'<div><span class="l">Target 2</span><span class="v" style="color:var(--good)">{t2}</span></div>')
+    if t3:
+        parts.append(f'<div><span class="l">Target 3</span><span class="v" style="color:var(--good)">{t3}</span></div>')
+    rr = s.get("risk_reward_t1")
+    if rr:
+        parts.append(f'<div><span class="l">Risk : Reward</span><span class="v">1 : {rr}</span></div>')
+    parts.append("</div>")
+
+    reasons = s.get("reasons") or []
+    if reasons and is_today:
+        parts.append("<p style='margin-top:8px'><strong>Why</strong></p><ul>")
+        for rsn in reasons[:5]:
+            parts.append(f"<li>{e(str(rsn))}</li>")
+        parts.append("</ul>")
+
+    inv = s.get("invalidation")
+    if inv and is_today:
+        parts.append(f'<p class="note" style="margin-top:6px">Invalidation: {e(str(inv))}</p>')
+
+    parts.append("</div>")
+    return "".join(parts)
+
 
 
 def render_page(result: dict, short_payload: Optional[dict] = None) -> str:

@@ -209,3 +209,5 @@ SHORT_TERM = dict(
 
 # Path for short-term signals cache
 SHORT_JSON = DATA / "short_signals.json"
+# Multi-day swing signal history (active + closed outcomes)
+SWING_HISTORY_JSON = DATA / "swing_history.json"

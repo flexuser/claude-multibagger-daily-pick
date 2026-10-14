@@ -498,3 +498,207 @@ def fetch_ohlcv(
             logger.warning("OHLCV chunk failed: %s", e)
         time.sleep(delay)
     return out
+
+
+# ---------------------------------------------------------------------------
+# Multi-day Swing History Tracking
+# ---------------------------------------------------------------------------
+MAX_HOLDING_DAYS = 12
+HISTORY_KEEP = 80  # max closed records to retain
+
+
+def _check_outcome(sig: dict, ohlcv: Optional[pd.DataFrame], today: str) -> dict:
+    """
+    Update one historical signal using latest OHLCV.
+    Returns the updated signal dict with status and outcome fields.
+    """
+    if sig.get("status") in ("stopped", "target_hit", "expired"):
+        return sig  # already closed
+
+    entry = sig.get("entry")
+    sl = sig.get("stop_loss")
+    t1 = sig.get("t1")
+    t2 = sig.get("t2")
+    t3 = sig.get("t3")
+    entry_date = sig.get("date")
+
+    if not entry or not sl or ohlcv is None or ohlcv.empty:
+        # Can't evaluate — leave active
+        return sig
+
+    # Only look at bars after entry date
+    try:
+        df = ohlcv.copy()
+        if not isinstance(df.index, pd.DatetimeIndex):
+            df.index = pd.to_datetime(df.index)
+        df = df[df.index.strftime("%Y-%m-%d") > entry_date]
+    except Exception:
+        df = ohlcv.iloc[1:] if len(ohlcv) > 1 else ohlcv
+
+    if df.empty:
+        return sig
+
+    hit_sl = False
+    hit_t1 = hit_t2 = hit_t3 = False
+    exit_price = None
+    exit_date = None
+    outcome = None
+
+    for idx, row in df.iterrows():
+        high = float(row["High"])
+        low = float(row["Low"])
+        close = float(row["Close"])
+        d = str(idx)[:10]
+
+        # Conservative: if both SL and target touched same day, count as SL first
+        if low <= sl:
+            hit_sl = True
+            exit_price = sl
+            exit_date = d
+            outcome = "stopped"
+            break
+        if t1 and high >= t1:
+            hit_t1 = True
+            exit_price = t1
+            exit_date = d
+            outcome = "t1_hit"
+            # Continue to see if higher targets also hit same day / later
+        if t2 and high >= t2:
+            hit_t2 = True
+            exit_price = t2
+            exit_date = d
+            outcome = "t2_hit"
+        if t3 and high >= t3:
+            hit_t3 = True
+            exit_price = t3
+            exit_date = d
+            outcome = "t3_hit"
+            break
+
+    # Holding period check
+    try:
+        from datetime import datetime
+        d0 = datetime.strptime(entry_date, "%Y-%m-%d")
+        d1 = datetime.strptime(today, "%Y-%m-%d")
+        days_held = (d1 - d0).days
+    except Exception:
+        days_held = 0
+
+    sig = dict(sig)  # copy
+    sig["days_held"] = days_held
+    sig["hit_t1"] = hit_t1 or sig.get("hit_t1", False)
+    sig["hit_t2"] = hit_t2 or sig.get("hit_t2", False)
+    sig["hit_t3"] = hit_t3 or sig.get("hit_t3", False)
+
+    if outcome:
+        sig["status"] = "stopped" if outcome == "stopped" else "target_hit"
+        sig["outcome"] = outcome
+        sig["exit_price"] = exit_price
+        sig["exit_date"] = exit_date
+        # Simple R-multiple
+        risk = entry - sl
+        if risk > 0 and exit_price:
+            sig["r_multiple"] = round((exit_price - entry) / risk, 2)
+    elif days_held >= MAX_HOLDING_DAYS:
+        sig["status"] = "expired"
+        sig["outcome"] = "expired"
+        last_close = float(df["Close"].iloc[-1])
+        sig["exit_price"] = last_close
+        sig["exit_date"] = today
+        risk = entry - sl
+        if risk > 0:
+            sig["r_multiple"] = round((last_close - entry) / risk, 2)
+    else:
+        sig["status"] = "active"
+        # Mark highest target reached so far even while still active
+        if hit_t3:
+            sig["outcome"] = "t3_hit"
+        elif hit_t2:
+            sig["outcome"] = "t2_hit"
+        elif hit_t1:
+            sig["outcome"] = "t1_hit"
+
+    return sig
+
+
+def update_swing_history(
+    new_signals: List[Dict[str, Any]],
+    ohlcv_map: Dict[str, pd.DataFrame],
+    today: str,
+    history: Optional[List[Dict[str, Any]]] = None,
+) -> List[Dict[str, Any]]:
+    """
+    1. Update outcomes of previously active signals using latest OHLCV.
+    2. Append today's new signals as active.
+    3. Return full history list (active + recent closed).
+    """
+    history = list(history or [])
+
+    # Update existing open signals
+    updated = []
+    for sig in history:
+        if sig.get("status") == "active":
+            tk = sig.get("ticker")
+            ohlcv = ohlcv_map.get(tk)
+            updated.append(_check_outcome(sig, ohlcv, today))
+        else:
+            updated.append(sig)
+
+    # Avoid duplicate: if same ticker already active today, skip re-adding
+    active_tickers = {
+        s["ticker"] for s in updated
+        if s.get("status") == "active" and s.get("date") == today
+    }
+
+    for s in new_signals:
+        tk = s.get("ticker")
+        if tk in active_tickers:
+            continue
+        rec = {
+            "date": today,
+            "ticker": tk,
+            "entry": s.get("entry"),
+            "stop_loss": s.get("stop_loss"),
+            "t1": s.get("t1"),
+            "t2": s.get("t2"),
+            "t3": s.get("t3"),
+            "confidence": s.get("confidence"),
+            "status": "active",
+            "outcome": None,
+            "hit_t1": False,
+            "hit_t2": False,
+            "hit_t3": False,
+            "days_held": 0,
+            "exit_price": None,
+            "exit_date": None,
+            "r_multiple": None,
+            "reasons": s.get("reasons") or [],
+        }
+        updated.append(rec)
+
+    # Keep all active + most recent closed
+    active = [s for s in updated if s.get("status") == "active"]
+    closed = [s for s in updated if s.get("status") != "active"]
+    closed = sorted(closed, key=lambda x: x.get("exit_date") or x.get("date") or "", reverse=True)[:HISTORY_KEEP]
+
+    return active + closed
+
+
+def swing_stats(history: List[Dict[str, Any]]) -> Dict[str, Any]:
+    """Simple performance summary from closed signals."""
+    closed = [s for s in history if s.get("status") in ("stopped", "target_hit", "expired")]
+    if not closed:
+        return {"closed": 0, "win_rate": None, "avg_r": None, "t1_hits": 0, "stopped": 0}
+
+    wins = [s for s in closed if s.get("outcome") in ("t1_hit", "t2_hit", "t3_hit")]
+    stopped = [s for s in closed if s.get("outcome") == "stopped"]
+    r_list = [s["r_multiple"] for s in closed if s.get("r_multiple") is not None]
+
+    return {
+        "closed": len(closed),
+        "win_rate": round(100 * len(wins) / len(closed), 1) if closed else None,
+        "avg_r": round(sum(r_list) / len(r_list), 2) if r_list else None,
+        "t1_hits": len(wins),
+        "stopped": len(stopped),
+        "expired": len([s for s in closed if s.get("outcome") == "expired"]),
+    }

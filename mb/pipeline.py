@@ -654,6 +654,8 @@ def run_short(
             },
         ]
         print("Demo mode: 2 synthetic short-term signals generated")
+        history = []
+        stats = {}
     else:
         # Real scan
         universe = load_universe()
@@ -669,12 +671,29 @@ def run_short(
         )
         print(f"Generated {len(signals)} short-term BUY signals (regime={regime})")
 
+        # Multi-day history: update previous active signals + add today's
+        from mb.short_term import update_swing_history, swing_stats
+        from mb.config import SWING_HISTORY_JSON
+        prev_history = load_json(SWING_HISTORY_JSON, [])
+        # Also fetch OHLCV for any active tickers not in today's scan
+        active_tickers = [s["ticker"] for s in prev_history if s.get("status") == "active"]
+        missing = [t for t in active_tickers if t not in ohlcv_map]
+        if missing:
+            extra = fetch_ohlcv(missing, period="1mo", interval="1d", delay=delay)
+            ohlcv_map.update(extra)
+        history = update_swing_history(signals, ohlcv_map, today, prev_history)
+        save_json(SWING_HISTORY_JSON, history)
+        stats = swing_stats(history)
+        print(f"Swing history: {sum(1 for s in history if s.get('status')=='active')} active, "
+              f"{stats.get('closed',0)} closed, win_rate={stats.get('win_rate')}%")
     # Persist
     payload = {
         "date": today,
         "regime": regime,
         "nifty": nifty,
         "signals": signals[: SHORT_TERM.get("max_show", 12)],
+        "history": history,
+        "stats": stats,
         "total_scanned": 0 if demo else len(ohlcv_map) if not demo else 0,
         "mode": "short",
     }
