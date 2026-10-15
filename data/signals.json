@@ -616,7 +616,7 @@
   }
  },
  "BLS.NS": {
-  "fetched": "2026-10-14",
+  "fetched": "2026-10-15",
   "data": {
    "status": {
     "announcements": true,
@@ -686,7 +686,7 @@
     "acquisition": 5
    },
    "neg_events": 1,
-   "pledge": 0.0,
+   "pledge": null,
    "pledge_chg": null,
    "promoter_chg": 0.0,
    "promoter_now": 70.39,

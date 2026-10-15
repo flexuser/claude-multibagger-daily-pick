@@ -2,9 +2,9 @@
  "generated": "2026-10-15",
  "demo": false,
  "universe": 651,
- "liquid": 635,
- "with_data": 635,
- "eligible": 28,
+ "liquid": 636,
+ "with_data": 636,
+ "eligible": 27,
  "fund_stats": {
   "attempted": 0,
   "failed": 0
@@ -24,6 +24,7 @@
   "mcap 25392 cr outside band": 1,
   "debt too high": 8,
   "mcap 58131 cr outside band": 1,
+  "negative filing": 5,
   "mcap 25447 cr outside band": 1,
   "mcap 27236 cr outside band": 1,
   "mcap 26553 cr outside band": 1,
@@ -36,7 +37,6 @@
   "mcap 30991 cr outside band": 1,
   "mcap 32939 cr outside band": 1,
   "mcap 35322 cr outside band": 1,
-  "negative filing": 4,
   "mcap 26904 cr outside band": 1,
   "mcap 50597 cr outside band": 1,
   "mcap 39810 cr outside band": 1,
@@ -229,12 +229,12 @@
   "latest annual results are dated 2025-03-31": 1
  },
  "signals": {
-  "attempted": 35,
+  "attempted": 1,
   "ok": {
-   "announcements": 35,
-   "pledge": 35,
-   "shareholding": 35,
-   "insider": 35
+   "announcements": 1,
+   "pledge": 1,
+   "shareholding": 1,
+   "insider": 1
   },
   "blocked": false,
   "checked": 35,
@@ -283,7 +283,7 @@
   "name": "SEDEMAC MECHATRONICS LTD",
   "sector": "Auto Parts",
   "blurb": "SEDEMAC Mechatronics Limited provides electronic control units to original equipment manufacturers in the mobility and industrial markets in India, the United States, and Europe. It operates in two segments, Mobility and Industrial. The Mobility segment offers motor control technology and transmission controls, which c",
-  "score": 65.8,
+  "score": 65.2,
   "pillars": {
    "runway": 53.6,
    "moat": 58.4,
@@ -292,10 +292,10 @@
    "quality": 77.4,
    "discovery": 40.1,
    "valuation": 0.0,
-   "confirm": 88.5,
+   "confirm": 87.8,
    "ownership": 26.6,
    "catalyst": 68.7,
-   "context": 51.1
+   "context": 44.1
   },
   "flags": [
    {
@@ -440,14 +440,14 @@
    {
     "group": "Confirm",
     "label": "RSI (14)",
-    "value": "58.0",
+    "value": "41.3",
     "ok": true,
     "why": "Avoid chasing extreme overbought readings when possible."
    },
    {
     "group": "Context",
     "label": "6m return vs theme peers",
-    "value": "75.8 pp",
+    "value": "80.7 pp",
     "ok": true,
     "why": "Positive means the stock is outperforming others in the same structural theme (sector sentiment proxy)."
    },
@@ -515,8 +515,8 @@
     "neg": false
    }
   ],
-  "price": 3204.9,
-  "price_date": "2026-10-14",
+  "price": 3172.7,
+  "price_date": "2026-10-15",
   "fundamentals_as_of": "2026-10-13",
   "spark": [
    1451.1,
@@ -665,7 +665,8 @@
    3229.8,
    3223.2,
    3165.6,
-   3204.9
+   3204.9,
+   3172.7
   ],
   "diligence": {
    "verdict": "yellow",
@@ -701,20 +702,20 @@
    "date": "2026-10-12",
    "cached": true
   },
-  "streak": 10,
-  "held_from_yesterday": false,
+  "streak": 11,
+  "held_from_yesterday": true,
   "themes": [
    "Energy transition"
   ],
-  "rs_6m": 94.5385,
+  "rs_6m": 94.9993,
   "q_accel": null
  },
  "bench": [
   {
    "ticker": "TIPSMUSIC.NS",
    "name": "TIPS MUSIC LIMITED",
-   "score": 65.6,
-   "price": 706.95,
+   "score": 65.7,
+   "price": 714.0,
    "sector": "Entertainment",
    "line": "rev CAGR 26% \u00b7 ROCE 110%"
   },
@@ -722,25 +723,25 @@
    "ticker": "WEBELSOLAR.NS",
    "name": "WEBSOL ENERGY SYSTEM LTD",
    "score": 62.2,
-   "price": 69.09,
+   "price": 68.25,
    "sector": "Solar",
    "line": "Electronics and semiconductors, Energy transition \u00b7 ROCE 49%"
   },
   {
-   "ticker": "ATLANTAELE.NS",
-   "name": "ATLANTA ELECTRICALS LTD",
-   "score": 61.6,
-   "price": 1802.2,
-   "sector": "Electrical Equipment & Parts",
-   "line": "Energy transition, Railways and infrastructure \u00b7 rev CAGR 28% \u00b7 ROCE 32%"
-  },
-  {
    "ticker": "SENORES.NS",
    "name": "SENORES PHARMACEUTICALS L",
-   "score": 60.8,
-   "price": 1281.5,
+   "score": 61.4,
+   "price": 1285.5,
    "sector": "Drug Manufacturers - General",
    "line": "Healthcare and diagnostics \u00b7 ROCE 14%"
+  },
+  {
+   "ticker": "ATLANTAELE.NS",
+   "name": "ATLANTA ELECTRICALS LTD",
+   "score": 61.2,
+   "price": 1752.0,
+   "sector": "Electrical Equipment & Parts",
+   "line": "Energy transition, Railways and infrastructure \u00b7 rev CAGR 28% \u00b7 ROCE 32%"
   }
  ],
  "track": [
@@ -749,8 +750,8 @@
    "ticker": "ACUTAAS.NS",
    "name": "ACUTAAS CHEMICALS LIMITED",
    "days": 1,
-   "ret": -0.6194,
-   "nifty_ret": 0.8953,
+   "ret": -0.9323,
+   "nifty_ret": 2.1967,
    "active": false
   },
   {
@@ -758,8 +759,8 @@
    "ticker": "SEDEMAC.NS",
    "name": "SEDEMAC MECHATRONICS LTD",
    "days": 10,
-   "ret": -5.2197,
-   "nifty_ret": 0.3373,
+   "ret": -6.172,
+   "nifty_ret": 1.6315,
    "active": true
   }
  ],
@@ -767,16 +768,31 @@
   "episodes": 2,
   "measured": 2,
   "beat": 0,
-  "avg_excess": -3.5359
+  "avg_excess": -5.4663
  },
  "dd_rejected": [],
  "dd_blocked": false,
  "dd_provider": "gemini / gemini-3.1-flash-lite",
  "neg_filing_rejects": [
   {
+   "ticker": "BLS.NS",
+   "name": "BLS INTL SERVS LTD",
+   "score": 52.4,
+   "events": [
+    {
+     "date": "2026-09-30",
+     "labels": [
+      "Governance"
+     ],
+     "text": "BLS International Services Limited has informed the Exchange about Resignation of Statutory Auditor",
+     "url": "https://nsearchives.nseindia.com/corporate/BLS_ROSA_99452_KMP_Doc.zip"
+    }
+   ]
+  },
+  {
    "ticker": "EMMVEE.NS",
    "name": "EMMVEE PHOTOVOLTAIC PWR L",
-   "score": 62.1,
+   "score": 61.3,
    "events": [
     {
      "date": "2026-10-01",
@@ -806,7 +822,7 @@
   {
    "ticker": "AKUMS.NS",
    "name": "AKUMS DRUGS AND PHARMA L",
-   "score": 52.7,
+   "score": 52.6,
    "events": [
     {
      "date": "2026-07-04",
@@ -821,7 +837,7 @@
   {
    "ticker": "UTLSOLAR.NS",
    "name": "FUJIYAMA POWER SYSTEMS L",
-   "score": 64.3,
+   "score": 64.2,
    "events": [
     {
      "date": "2026-06-18",
