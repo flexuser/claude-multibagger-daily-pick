@@ -1,10 +1,10 @@
 {
- "generated": "2026-10-14",
+ "generated": "2026-10-15",
  "demo": false,
  "universe": 651,
- "liquid": 636,
- "with_data": 636,
- "eligible": 26,
+ "liquid": 635,
+ "with_data": 635,
+ "eligible": 28,
  "fund_stats": {
   "attempted": 0,
   "failed": 0
@@ -24,11 +24,10 @@
   "mcap 25392 cr outside band": 1,
   "debt too high": 8,
   "mcap 58131 cr outside band": 1,
-  "negative filing": 5,
   "mcap 25447 cr outside band": 1,
   "mcap 27236 cr outside band": 1,
   "mcap 26553 cr outside band": 1,
-  "2 high red flags": 15,
+  "2 high red flags": 14,
   "mcap 26052 cr outside band": 1,
   "already heavily covered": 6,
   "already heavily institutional": 4,
@@ -37,6 +36,7 @@
   "mcap 30991 cr outside band": 1,
   "mcap 32939 cr outside band": 1,
   "mcap 35322 cr outside band": 1,
+  "negative filing": 4,
   "mcap 26904 cr outside band": 1,
   "mcap 50597 cr outside band": 1,
   "mcap 39810 cr outside band": 1,
@@ -229,12 +229,12 @@
   "latest annual results are dated 2025-03-31": 1
  },
  "signals": {
-  "attempted": 1,
+  "attempted": 35,
   "ok": {
-   "announcements": 1,
-   "pledge": 1,
-   "shareholding": 1,
-   "insider": 1
+   "announcements": 35,
+   "pledge": 35,
+   "shareholding": 35,
+   "insider": 35
   },
   "blocked": false,
   "checked": 35,
@@ -447,7 +447,7 @@
    {
     "group": "Context",
     "label": "6m return vs theme peers",
-    "value": "77.1 pp",
+    "value": "75.8 pp",
     "ok": true,
     "why": "Positive means the stock is outperforming others in the same structural theme (sector sentiment proxy)."
    },
@@ -702,7 +702,7 @@
    "cached": true
   },
   "streak": 10,
-  "held_from_yesterday": true,
+  "held_from_yesterday": false,
   "themes": [
    "Energy transition"
   ],
@@ -713,34 +713,34 @@
   {
    "ticker": "TIPSMUSIC.NS",
    "name": "TIPS MUSIC LIMITED",
-   "score": 67.7,
-   "price": 718.25,
+   "score": 65.6,
+   "price": 706.95,
    "sector": "Entertainment",
    "line": "rev CAGR 26% \u00b7 ROCE 110%"
   },
   {
+   "ticker": "WEBELSOLAR.NS",
+   "name": "WEBSOL ENERGY SYSTEM LTD",
+   "score": 62.2,
+   "price": 69.09,
+   "sector": "Solar",
+   "line": "Electronics and semiconductors, Energy transition \u00b7 ROCE 49%"
+  },
+  {
+   "ticker": "ATLANTAELE.NS",
+   "name": "ATLANTA ELECTRICALS LTD",
+   "score": 61.6,
+   "price": 1802.2,
+   "sector": "Electrical Equipment & Parts",
+   "line": "Energy transition, Railways and infrastructure \u00b7 rev CAGR 28% \u00b7 ROCE 32%"
+  },
+  {
    "ticker": "SENORES.NS",
    "name": "SENORES PHARMACEUTICALS L",
-   "score": 62.3,
+   "score": 60.8,
    "price": 1281.5,
    "sector": "Drug Manufacturers - General",
    "line": "Healthcare and diagnostics \u00b7 ROCE 14%"
-  },
-  {
-   "ticker": "GOLDIAM.NS",
-   "name": "GOLDIAM INTERNATIONAL LTD",
-   "score": 62.0,
-   "price": 311.85,
-   "sector": "Luxury Goods",
-   "line": "Export manufacturing \u00b7 rev CAGR 22% \u00b7 ROCE 20%"
-  },
-  {
-   "ticker": "SJS.NS",
-   "name": "SJS ENTERPRISES LIMITED",
-   "score": 61.6,
-   "price": 2012.8,
-   "sector": "Auto Parts",
-   "line": "Export manufacturing, Healthcare and diagnostics \u00b7 rev CAGR 30% \u00b7 ROCE 26%"
   }
  ],
  "track": [
@@ -749,7 +749,7 @@
    "ticker": "ACUTAAS.NS",
    "name": "ACUTAAS CHEMICALS LIMITED",
    "days": 1,
-   "ret": -1.1262,
+   "ret": -0.6194,
    "nifty_ret": 0.8953,
    "active": false
   },
@@ -757,7 +757,7 @@
    "start": "2026-10-05",
    "ticker": "SEDEMAC.NS",
    "name": "SEDEMAC MECHATRONICS LTD",
-   "days": 9,
+   "days": 10,
    "ret": -5.2197,
    "nifty_ret": 0.3373,
    "active": true
@@ -767,27 +767,12 @@
   "episodes": 2,
   "measured": 2,
   "beat": 0,
-  "avg_excess": -3.7893
+  "avg_excess": -3.5359
  },
  "dd_rejected": [],
  "dd_blocked": false,
  "dd_provider": "gemini / gemini-3.1-flash-lite",
  "neg_filing_rejects": [
-  {
-   "ticker": "BLS.NS",
-   "name": "BLS INTL SERVS LTD",
-   "score": 53.4,
-   "events": [
-    {
-     "date": "2026-09-30",
-     "labels": [
-      "Governance"
-     ],
-     "text": "BLS International Services Limited has informed the Exchange about Resignation of Statutory Auditor",
-     "url": "https://nsearchives.nseindia.com/corporate/BLS_ROSA_99452_KMP_Doc.zip"
-    }
-   ]
-  },
   {
    "ticker": "EMMVEE.NS",
    "name": "EMMVEE PHOTOVOLTAIC PWR L",
@@ -806,7 +791,7 @@
   {
    "ticker": "PRIVISCL.NS",
    "name": "PRIVI SPECIALITY CHE LTD",
-   "score": 57.1,
+   "score": 54.0,
    "events": [
     {
      "date": "2026-09-24",
@@ -821,7 +806,7 @@
   {
    "ticker": "AKUMS.NS",
    "name": "AKUMS DRUGS AND PHARMA L",
-   "score": 52.8,
+   "score": 52.7,
    "events": [
     {
      "date": "2026-07-04",
