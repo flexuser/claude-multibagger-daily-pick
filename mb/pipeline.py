@@ -673,7 +673,8 @@ def run_short(
 
         # Multi-day history: update previous active signals + add today's
         from mb.short_term import update_swing_history, swing_stats
-        prev_history = load_json(SWING_HISTORY_JSON, [])
+        from mb.db import load_swing_history, save_swing_history, supabase_enabled
+        prev_history = load_swing_history()
         # Also fetch OHLCV for any active tickers not in today's scan
         active_tickers = [s["ticker"] for s in prev_history if s.get("status") == "active"]
         missing = [t for t in active_tickers if t not in ohlcv_map]
@@ -681,7 +682,11 @@ def run_short(
             extra = fetch_ohlcv(missing, period="1mo", interval="1d", delay=delay)
             ohlcv_map.update(extra)
         history = update_swing_history(signals, ohlcv_map, today, prev_history)
-        save_json(SWING_HISTORY_JSON, history)
+        save_swing_history(history)  # JSON always; Supabase if env set
+        if supabase_enabled():
+            print("Swing history backend: Supabase + JSON backup")
+        else:
+            print("Swing history backend: JSON only (set SUPABASE_URL + SUPABASE_KEY for DB)")
         stats = swing_stats(history)
         print(f"Swing history: {sum(1 for s in history if s.get('status')=='active')} active, "
               f"{stats.get('closed',0)} closed, win_rate={stats.get('win_rate')}%")

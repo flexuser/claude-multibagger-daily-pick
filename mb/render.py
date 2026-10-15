@@ -216,13 +216,14 @@ def _swing_html(short_payload: Optional[dict]) -> str:
         h.append("<h2 style='margin:16px 0 8px'>Open calls</h2>")
         h.append('<div class="panel"><table class="compact-table">')
         h.append(
-            "<tr><th>Stock</th><th>Entry</th><th>SL</th><th>T1</th><th>Day</th><th>Status</th></tr>"
+            "<tr><th>Stock</th><th>Entry</th><th>Now</th><th>SL</th><th>T1</th><th>Day</th><th>Status</th></tr>"
         )
         for s in sorted(active_prev, key=lambda x: -(x.get("confidence") or 0)):
             tk = e(str(s.get("ticker", "")).replace(".NS", ""))
             day = s.get("days_held", 0)
             outcome = s.get("outcome")
-            status = "Open"
+            last_px = s.get("last_price")
+            now_cell = f"{float(last_px):,.2f}" if last_px is not None else "—"
             if outcome == "t1_hit":
                 status = '<span class="badge ok">T1✓</span>'
             elif outcome == "t2_hit":
@@ -235,6 +236,7 @@ def _swing_html(short_payload: Optional[dict]) -> str:
             h.append(
                 f"<tr><td><strong>{tk}</strong></td>"
                 f"<td>{s.get('entry')}</td>"
+                f"<td>{now_cell}</td>"
                 f"<td class='neg'>{s.get('stop_loss')}</td>"
                 f"<td>{t1_cell}</td>"
                 f"<td>{day}</td>"
@@ -358,7 +360,25 @@ def _signal_card(s: dict, is_today: bool = True) -> str:
     parts.append("</div>")
 
     parts.append('<div class="levels">')
-    parts.append(f'<div><span class="l">Entry (Buy above)</span><span class="v">{entry}</span></div>')
+    # Entry + live/last price side by side for instant context
+    entry_txt = str(entry) if entry is not None else "—"
+    if last_px is not None:
+        try:
+            px_f = float(last_px)
+            en_f = float(entry) if entry is not None else None
+            delta = ""
+            if en_f and en_f > 0:
+                pct = (px_f - en_f) / en_f * 100
+                delta = f" ({pct:+.1f}%)"
+            now_html = f'<span class="v">{px_f:,.2f}{delta}</span>'
+        except (TypeError, ValueError):
+            now_html = f'<span class="v">{last_px}</span>'
+        parts.append(
+            f'<div><span class="l">Entry (Buy above)</span><span class="v">{entry_txt}</span></div>'
+            f'<div><span class="l">Now (as of {e(str(as_of) or "—")})</span>{now_html}</div>'
+        )
+    else:
+        parts.append(f'<div><span class="l">Entry (Buy above)</span><span class="v">{entry_txt}</span></div>')
     parts.append(f'<div><span class="l">Stop Loss</span><span class="v" style="color:var(--bad)">{sl}</span></div>')
 
     def tgt_html(label, val, hit, cls):

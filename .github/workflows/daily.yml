@@ -1,6 +1,8 @@
 name: Daily multibagger + swing scan
 
 on:
+  schedule:
+    - cron: "30 3 * * 1-5"   # 9:00 AM IST, Mon-Fri
   workflow_dispatch:
     inputs:
       max_fetch:
@@ -54,6 +56,8 @@ jobs:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
         run: python scan.py --short --max-scan "${{ github.event.inputs.max_scan || '150' }}"
 
       - name: Commit results
