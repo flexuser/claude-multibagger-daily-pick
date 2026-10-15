@@ -94,6 +94,8 @@ class ShortTermSignal:
     invalidation: Optional[str] = None
     resistance: Optional[float] = None
     support: Optional[float] = None
+    last_price: Optional[float] = None
+    as_of: Optional[str] = None
 
     def to_dict(self) -> Dict[str, Any]:
         d = asdict(self)
@@ -262,8 +264,17 @@ def generate_signal(
         reasons.append(f"Volume surge {vol_surge:.2f}x")
         conf_score += 20
     else:
-        reasons.append(f"Volume mild ({vol_surge:.2f}x)")
-        conf_score += 6
+        # Mild volume → not actionable for swing list
+        return ShortTermSignal(
+            ticker=ticker,
+            signal="NONE",
+            confidence=round(conf_score + 6, 1),
+            reasons=reasons + [f"Volume too weak ({vol_surge:.2f}x < {C['min_volume_surge']}x)"],
+            regime=market_regime,
+            resistance=round(resistance, 2),
+            support=round(support, 2),
+            last_price=round(last, 2),
+        )
 
     # ----- RSI filter -----
     if rsi is not None:
@@ -348,6 +359,41 @@ def generate_signal(
     risk = entry - sl
     rr_t1 = round((t1 - entry) / risk, 2) if risk > 0 else None
 
+    # Reject if price has already run past a usable entry (stale breakout)
+    # last = latest close in the OHLCV series used for this signal
+    if last >= t1:
+        return ShortTermSignal(
+            ticker=ticker,
+            signal="NONE",
+            confidence=round(conf_score, 1),
+            reasons=reasons + [f"Already past T1 (last {last:.2f} >= T1 {t1})"],
+            regime=market_regime,
+            resistance=round(resistance, 2),
+            support=round(support, 2),
+            last_price=round(last, 2),
+        )
+    if last > entry * 1.025:
+        return ShortTermSignal(
+            ticker=ticker,
+            signal="NONE",
+            confidence=round(conf_score, 1),
+            reasons=reasons + [f"Already extended (last {last:.2f} > entry+2.5%)"],
+            regime=market_regime,
+            resistance=round(resistance, 2),
+            support=round(support, 2),
+            last_price=round(last, 2),
+        )
+
+    # Prefer volume-confirmed setups for actionable list
+    if not volume_ok:
+        conf_score = min(conf_score, required_conf + 2)  # soft penalty already applied
+
+    as_of = None
+    try:
+        as_of = str(df.index[-1])[:10]
+    except Exception:
+        pass
+
     return ShortTermSignal(
         ticker=ticker,
         signal="BUY",
@@ -367,6 +413,8 @@ def generate_signal(
         invalidation=f"Daily close below {sl}",
         resistance=round(resistance, 2),
         support=round(support, 2),
+        last_price=round(last, 2),
+        as_of=as_of,
     )
 
 
@@ -531,7 +579,8 @@ def _check_outcome(sig: dict, ohlcv: Optional[pd.DataFrame], today: str) -> dict
         df = ohlcv.copy()
         if not isinstance(df.index, pd.DatetimeIndex):
             df.index = pd.to_datetime(df.index)
-        df = df[df.index.strftime("%Y-%m-%d") > entry_date]
+        # Include entry day so same-day target/SL hits are detected
+        df = df[df.index.strftime("%Y-%m-%d") >= entry_date]
     except Exception:
         df = ohlcv.iloc[1:] if len(ohlcv) > 1 else ohlcv
 
@@ -673,6 +722,8 @@ def update_swing_history(
             "exit_date": None,
             "r_multiple": None,
             "reasons": s.get("reasons") or [],
+            "last_price": s.get("last_price"),
+            "as_of": s.get("as_of"),
         }
         updated.append(rec)
 

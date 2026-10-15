@@ -696,7 +696,6 @@ def run_short(
         "total_scanned": 0 if demo else len(ohlcv_map) if not demo else 0,
         "mode": "short",
     }
-    
     save_json(SHORT_JSON, payload)
     save_json(DOCS / "short_latest.json", payload)
 

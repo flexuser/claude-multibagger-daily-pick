@@ -204,7 +204,7 @@ SHORT_TERM = dict(
     # How many top liquid names to scan for short-term signals
     max_scan=180,
     # Max signals to show on the page
-    max_show=12,
+    max_show=3,                   # only best 3 per day
 )
 
 # Path for short-term signals cache

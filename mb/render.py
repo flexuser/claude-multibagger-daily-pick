@@ -50,10 +50,33 @@ a{color:var(--accent)}
 .tab-panel{display:none}.tab-panel.active{display:block}
 .stale{background:var(--soft);border-left:3px solid var(--warn)}
 .fresh{border-left:3px solid var(--good)}
+.stale{border-left:3px solid var(--warn);opacity:.92}
 .levels{display:grid;grid-template-columns:1fr 1fr;gap:6px 12px;margin-top:8px;font-size:13.5px}
-.levels div{display:flex;justify-content:space-between}
+.levels div{display:flex;justify-content:space-between;align-items:center}
 .levels .l{color:var(--muted)}
 .levels .v{font-weight:700}
+.tgt-hit{background:rgba(27,127,85,.15);border-radius:6px;padding:2px 6px}
+.tgt-hit.t1{color:var(--good);border:1px solid var(--good)}
+.tgt-hit.t2{color:#0d9488;border:1px solid #0d9488}
+.tgt-hit.t3{color:#ca8a04;border:1px solid #ca8a04}
+.tgt-miss{opacity:.55}
+.stats-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-bottom:12px}
+@media(max-width:520px){.stats-grid{grid-template-columns:repeat(2,1fr)}}
+.stat{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:10px 8px;text-align:center}
+.stat .n{font-family:var(--display);font-weight:700;font-size:22px;line-height:1.1}
+.stat .l{font-size:11px;color:var(--muted);margin-top:2px}
+.stat.win .n{color:var(--good)}
+.stat.loss .n{color:var(--bad)}
+details.hist{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:10px 13px;margin-bottom:11px}
+details.hist summary{cursor:pointer;font-weight:600;font-size:14px;list-style:none}
+details.hist summary::-webkit-details-marker{display:none}
+details.hist summary::before{content:"▸ ";color:var(--muted)}
+details.hist[open] summary::before{content:"▾ "}
+.compact-table td,.compact-table th{padding:5px 4px;font-size:12.5px}
+.badge{display:inline-block;font-size:10.5px;font-weight:700;border-radius:4px;padding:1px 5px;margin-left:4px}
+.badge.ok{background:rgba(27,127,85,.18);color:var(--good)}
+.badge.bad{background:rgba(179,38,30,.15);color:var(--bad)}
+.badge.exp{background:var(--soft);color:var(--muted)}
 .banner{background:var(--soft);border:1px dashed var(--warn);color:var(--warn);border-radius:8px;padding:7px 11px;margin-bottom:11px;font-size:13px;font-weight:600}
 """
 
@@ -141,93 +164,156 @@ def _swing_html(short_payload: Optional[dict]) -> str:
     history = (short_payload or {}).get("history") or []
     stats = (short_payload or {}).get("stats") or {}
     regime = (short_payload or {}).get("regime", "unknown")
+    today = (short_payload or {}).get("date") or ""
 
     h.append(
-        f'<div class="banner">Swing signals · Holding <strong>1–12 trading days</strong> · Regime: {e(str(regime))}</div>'
+        f'<div class="banner">Swing · Hold <strong>1–12 trading days</strong> · Regime: {e(str(regime))} · Max 3 picks/day</div>'
     )
 
-    # Stats bar
-    if stats.get("closed"):
-        wr = stats.get("win_rate")
-        avg_r = stats.get("avg_r")
+    # ----- Accuracy dashboard -----
+    closed = int(stats.get("closed") or 0)
+    wr = stats.get("win_rate")
+    avg_r = stats.get("avg_r")
+    t1_hits = int(stats.get("t1_hits") or 0)
+    stopped = int(stats.get("stopped") or 0)
+    expired = int(stats.get("expired") or 0)
+    active_all = [s for s in history if s.get("status") == "active"]
+    active_prev = [s for s in active_all if s.get("date") != today]
+
+    h.append('<div class="stats-grid">')
+    wr_txt = f"{wr}%" if wr is not None else "—"
+    wr_cls = "win" if (wr or 0) >= 50 else ("loss" if wr is not None else "")
+    h.append(f'<div class="stat {wr_cls}"><div class="n">{wr_txt}</div><div class="l">Hit rate</div></div>')
+    h.append(f'<div class="stat"><div class="n">{avg_r if avg_r is not None else "—"}</div><div class="l">Avg R</div></div>')
+    h.append(f'<div class="stat win"><div class="n">{t1_hits}</div><div class="l">Targets hit</div></div>')
+    h.append(f'<div class="stat"><div class="n">{len(active_prev)}</div><div class="l">Open calls</div></div>')
+    h.append("</div>")
+    if closed:
         h.append(
-            f'<div class="panel"><p class="note">'
-            f'<strong>Track record:</strong> {stats["closed"]} closed · '
-            f'Win rate {wr if wr is not None else "n/a"}% · '
-            f'Avg R {avg_r if avg_r is not None else "n/a"} · '
-            f'Targets hit {stats.get("t1_hits", 0)} · '
-            f'Stopped {stats.get("stopped", 0)}'
-            f'</p></div>'
+            f'<p class="note" style="margin:-4px 0 12px">Based on <strong>{closed}</strong> closed signals · '
+            f'Stopped {stopped} · Expired {expired}. Hit rate = T1/T2/T3 before stop.</p>'
         )
 
-    # --- Today's new signals ---
-    h.append("<h2 style='margin:12px 0 8px'>Today's signals</h2>")
+    # ----- Today's signals (max 3) -----
+    h.append("<h2 style='margin:4px 0 8px'>Today's top 3</h2>")
     if not signals:
         h.append(
-            '<div class="panel"><p>No new high-confidence swing signals today.</p></div>'
+            '<div class="panel"><p>No high-confidence swing signals today. '
+            "Volume + breakout + not-already-extended filters are strict.</p></div>"
         )
     else:
         h.append(
             '<div class="panel"><p class="note">'
-            "<strong>How to read:</strong> Buy only if current price is still near Entry. "
-            "If price has already run past T1, treat as stale. Always use the Stop Loss."
+            "<strong>Rule:</strong> Act only if <em>live</em> price is still near Entry. "
+            "If last close already past T1, skip. Always use Stop Loss."
             "</p></div>"
         )
-        for s in signals:
+        for s in signals[:3]:
             h.append(_signal_card(s, is_today=True))
 
-    # --- Still active from previous days ---
-    active_prev = [
-        s for s in history
-        if s.get("status") == "active" and s.get("date") != (short_payload or {}).get("date")
-    ]
+    # ----- Open calls (compact table, not full cards) -----
     if active_prev:
-        h.append("<h2 style='margin:16px 0 8px'>Still active (from previous days)</h2>")
-        for s in active_prev:
-            h.append(_signal_card(s, is_today=False))
+        h.append("<h2 style='margin:16px 0 8px'>Open calls</h2>")
+        h.append('<div class="panel"><table class="compact-table">')
+        h.append(
+            "<tr><th>Stock</th><th>Entry</th><th>SL</th><th>T1</th><th>Day</th><th>Status</th></tr>"
+        )
+        for s in sorted(active_prev, key=lambda x: -(x.get("confidence") or 0)):
+            tk = e(str(s.get("ticker", "")).replace(".NS", ""))
+            day = s.get("days_held", 0)
+            outcome = s.get("outcome")
+            status = "Open"
+            if outcome == "t1_hit":
+                status = '<span class="badge ok">T1✓</span>'
+            elif outcome == "t2_hit":
+                status = '<span class="badge ok">T2✓</span>'
+            elif outcome == "t3_hit":
+                status = '<span class="badge ok">T3✓</span>'
+            else:
+                status = f"Day {day}"
+            t1_cell = _tgt_cell(s.get("t1"), s.get("hit_t1") or outcome in ("t1_hit", "t2_hit", "t3_hit"), "t1")
+            h.append(
+                f"<tr><td><strong>{tk}</strong></td>"
+                f"<td>{s.get('entry')}</td>"
+                f"<td class='neg'>{s.get('stop_loss')}</td>"
+                f"<td>{t1_cell}</td>"
+                f"<td>{day}</td>"
+                f"<td>{status}</td></tr>"
+            )
+        h.append("</table></div>")
 
-    # --- Recent closed results ---
-    closed = [
+    # ----- History (collapsible) -----
+    closed_list = [
         s for s in history
         if s.get("status") in ("stopped", "target_hit", "expired")
     ]
-    closed = sorted(closed, key=lambda x: x.get("exit_date") or x.get("date") or "", reverse=True)[:12]
-    if closed:
-        h.append("<h2 style='margin:16px 0 8px'>Recent results</h2>")
-        h.append('<div class="panel"><table>')
-        h.append("<tr><th>Date</th><th>Stock</th><th>Result</th><th>R</th><th>Days</th></tr>")
-        for s in closed:
+    closed_list = sorted(
+        closed_list,
+        key=lambda x: x.get("exit_date") or x.get("date") or "",
+        reverse=True,
+    )[:20]
+    if closed_list or closed:
+        h.append('<details class="hist">')
+        h.append(
+            f"<summary>Track record · {closed} closed · "
+            f"Hit rate {wr_txt}</summary>"
+        )
+        h.append('<table class="compact-table" style="margin-top:8px">')
+        h.append(
+            "<tr><th>Date</th><th>Stock</th><th>Result</th><th>R</th><th>Days</th>"
+            "<th>T1</th><th>T2</th><th>T3</th></tr>"
+        )
+        for s in closed_list:
             tk = e(str(s.get("ticker", "")).replace(".NS", ""))
             outcome = s.get("outcome") or s.get("status") or ""
             label = {
-                "t1_hit": "✅ T1 hit",
-                "t2_hit": "✅ T2 hit",
-                "t3_hit": "✅ T3 hit",
-                "stopped": "❌ Stopped",
-                "expired": "⏳ Expired",
-            }.get(outcome, outcome)
+                "t1_hit": '<span class="badge ok">T1 hit</span>',
+                "t2_hit": '<span class="badge ok">T2 hit</span>',
+                "t3_hit": '<span class="badge ok">T3 hit</span>',
+                "stopped": '<span class="badge bad">Stopped</span>',
+                "expired": '<span class="badge exp">Expired</span>',
+            }.get(outcome, e(str(outcome)))
             r_mult = s.get("r_multiple")
             r_str = f"{r_mult:+.2f}R" if r_mult is not None else "—"
+            r_cls = "pos" if (r_mult or 0) > 0 else ("neg" if r_mult is not None else "")
             h.append(
                 f"<tr><td>{e(str(s.get('date','')))}</td>"
                 f"<td>{tk}</td>"
                 f"<td>{label}</td>"
-                f"<td>{r_str}</td>"
-                f"<td>{s.get('days_held', '—')}</td></tr>"
+                f"<td class='{r_cls}'>{r_str}</td>"
+                f"<td>{s.get('days_held', '—')}</td>"
+                f"<td>{'✓' if s.get('hit_t1') or outcome in ('t1_hit','t2_hit','t3_hit') else '—'}</td>"
+                f"<td>{'✓' if s.get('hit_t2') or outcome in ('t2_hit','t3_hit') else '—'}</td>"
+                f"<td>{'✓' if s.get('hit_t3') or outcome == 't3_hit' else '—'}</td></tr>"
             )
-        h.append("</table></div>")
+        h.append("</table>")
+        h.append(
+            '<p class="note" style="margin-top:8px">'
+            "Prediction accuracy = % of closed signals that hit at least T1 before stop/expiry. "
+            "R = (exit − entry) / (entry − SL)."
+            "</p>"
+        )
+        h.append("</details>")
 
     h.append(
         '<div class="panel"><p class="note">'
-        "Technical screening only. Daily data can lag — always check live price before acting. "
+        "Technical screening only. Daily bars lag live prices — always verify on your broker. "
         "Not investment advice."
         "</p></div>"
     )
     return "".join(h)
 
 
+def _tgt_cell(val, hit: bool, level: str) -> str:
+    if val is None:
+        return "—"
+    if hit:
+        return f'<span class="tgt-hit {level}">{val} ✓</span>'
+    return str(val)
+
+
 def _signal_card(s: dict, is_today: bool = True) -> str:
-    """Render one signal card (today or still-active)."""
+    """Render one signal card with colour-coded targets if hit."""
     entry = s.get("entry")
     sl = s.get("stop_loss")
     t1 = s.get("t1")
@@ -235,18 +321,32 @@ def _signal_card(s: dict, is_today: bool = True) -> str:
     t3 = s.get("t3")
     conf = s.get("confidence", 0)
     ticker = e(str(s.get("ticker", "")).replace(".NS", ""))
-    status = s.get("status", "active")
     outcome = s.get("outcome")
     days = s.get("days_held", 0)
+    last_px = s.get("last_price") or s.get("price")
+    as_of = s.get("as_of") or ""
+    hit_t1 = bool(s.get("hit_t1") or outcome in ("t1_hit", "t2_hit", "t3_hit"))
+    hit_t2 = bool(s.get("hit_t2") or outcome in ("t2_hit", "t3_hit"))
+    hit_t3 = bool(s.get("hit_t3") or outcome == "t3_hit")
+    # Also infer from last price vs targets
+    if last_px and t1 and last_px >= t1:
+        hit_t1 = True
+    if last_px and t2 and last_px >= t2:
+        hit_t2 = True
+    if last_px and t3 and last_px >= t3:
+        hit_t3 = True
 
-    status_cls = "fresh" if is_today else "stale"
+    status_cls = "fresh"
     status_note = ""
+    if last_px and t1 and last_px >= t1:
+        status_cls = "stale"
+        status_note = f" · STALE last ~{last_px} (past T1)"
+    elif last_px:
+        status_note = f" · last ~{last_px}"
+    if as_of:
+        status_note += f" as of {as_of}"
     if not is_today:
-        status_note = f" · Day {days}"
-        if outcome == "t1_hit":
-            status_note += " · T1 already hit"
-        elif outcome == "t2_hit":
-            status_note += " · T2 already hit"
+        status_note += f" · Day {days}"
 
     parts = [f'<div class="panel {status_cls}">']
     parts.append('<div class="row">')
@@ -260,10 +360,21 @@ def _signal_card(s: dict, is_today: bool = True) -> str:
     parts.append('<div class="levels">')
     parts.append(f'<div><span class="l">Entry (Buy above)</span><span class="v">{entry}</span></div>')
     parts.append(f'<div><span class="l">Stop Loss</span><span class="v" style="color:var(--bad)">{sl}</span></div>')
-    parts.append(f'<div><span class="l">Target 1</span><span class="v" style="color:var(--good)">{t1}</span></div>')
-    parts.append(f'<div><span class="l">Target 2</span><span class="v" style="color:var(--good)">{t2}</span></div>')
+
+    def tgt_html(label, val, hit, cls):
+        if val is None:
+            return ""
+        if hit:
+            return (
+                f'<div><span class="l">{label}</span>'
+                f'<span class="v tgt-hit {cls}">{val} ✓</span></div>'
+            )
+        return f'<div><span class="l">{label}</span><span class="v">{val}</span></div>'
+
+    parts.append(tgt_html("Target 1", t1, hit_t1, "t1"))
+    parts.append(tgt_html("Target 2", t2, hit_t2, "t2"))
     if t3:
-        parts.append(f'<div><span class="l">Target 3</span><span class="v" style="color:var(--good)">{t3}</span></div>')
+        parts.append(tgt_html("Target 3", t3, hit_t3, "t3"))
     rr = s.get("risk_reward_t1")
     if rr:
         parts.append(f'<div><span class="l">Risk : Reward</span><span class="v">1 : {rr}</span></div>')
