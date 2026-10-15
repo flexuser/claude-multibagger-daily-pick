@@ -178,7 +178,7 @@ SHORT_TERM = dict(
     # Liquidity
     min_price=30.0,
     min_avg_turnover_cr=1.5,
-    min_volume_surge=1.25,          # slightly easier volume confirmation
+    min_volume_surge=1.15,          # confirmable interest, not extreme          # slightly easier volume confirmation
 
     # ATR & Risk
     atr_period=14,
@@ -192,7 +192,7 @@ SHORT_TERM = dict(
     rsi_max=74,
     rsi_min=32,
     min_confidence=55,              # base threshold
-    min_confidence_risk_off=68,     # higher bar when market is weak
+    min_confidence_risk_off=62,     # was 68; still stricter than normal     # higher bar when market is weak
 
     # Structure
     swing_lookback=7,

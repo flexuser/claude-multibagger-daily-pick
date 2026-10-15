@@ -44,7 +44,7 @@ ST_CFG = {
     # Liquidity
     "min_price": 30.0,
     "min_avg_turnover_cr": 1.5,
-    "min_volume_surge": 1.25,          # was 1.35 – slightly easier
+    "min_volume_surge": 1.15,
 
     # ATR & Risk
     "atr_period": 14,
@@ -60,7 +60,7 @@ ST_CFG = {
     "min_confidence": 55,               # base threshold
 
     # When market is risk_off, demand higher quality
-    "min_confidence_risk_off": 68,
+    "min_confidence_risk_off": 62,
 
     # Structure
     "swing_lookback": 7,
@@ -264,17 +264,8 @@ def generate_signal(
         reasons.append(f"Volume surge {vol_surge:.2f}x")
         conf_score += 20
     else:
-        # Mild volume → not actionable for swing list
-        return ShortTermSignal(
-            ticker=ticker,
-            signal="NONE",
-            confidence=round(conf_score + 6, 1),
-            reasons=reasons + [f"Volume too weak ({vol_surge:.2f}x < {C['min_volume_surge']}x)"],
-            regime=market_regime,
-            resistance=round(resistance, 2),
-            support=round(support, 2),
-            last_price=round(last, 2),
-        )
+        reasons.append(f"Volume mild ({vol_surge:.2f}x)")
+        conf_score += 4  # soft penalty; still can pass if structure is strong
 
     # ----- RSI filter -----
     if rsi is not None:
@@ -322,7 +313,7 @@ def generate_signal(
     # Higher bar when market is risk_off
     required_conf = C.get("min_confidence", 55)
     if market_regime == "risk_off":
-        required_conf = C.get("min_confidence_risk_off", 68)
+        required_conf = C.get("min_confidence_risk_off", 62)
         reasons.append("Risk-off regime → higher quality required")
 
     if conf_score < required_conf:
@@ -359,8 +350,7 @@ def generate_signal(
     risk = entry - sl
     rr_t1 = round((t1 - entry) / risk, 2) if risk > 0 else None
 
-    # Reject if price has already run past a usable entry (stale breakout)
-    # last = latest close in the OHLCV series used for this signal
+    # Reject only if already past T1 (true stale). Small extension above entry is OK.
     if last >= t1:
         return ShortTermSignal(
             ticker=ticker,
@@ -372,21 +362,17 @@ def generate_signal(
             support=round(support, 2),
             last_price=round(last, 2),
         )
-    if last > entry * 1.025:
+    if last > entry * 1.05:
         return ShortTermSignal(
             ticker=ticker,
             signal="NONE",
             confidence=round(conf_score, 1),
-            reasons=reasons + [f"Already extended (last {last:.2f} > entry+2.5%)"],
+            reasons=reasons + [f"Already extended (last {last:.2f} > entry+5%)"],
             regime=market_regime,
             resistance=round(resistance, 2),
             support=round(support, 2),
             last_price=round(last, 2),
         )
-
-    # Prefer volume-confirmed setups for actionable list
-    if not volume_ok:
-        conf_score = min(conf_score, required_conf + 2)  # soft penalty already applied
 
     as_of = None
     try:
@@ -452,31 +438,72 @@ def scan_short_term(
     market_regime: str = "neutral",
     min_confidence: Optional[float] = None,
     cfg: Optional[dict] = None,
+    debug: bool = False,
 ) -> List[Dict[str, Any]]:
     """
     Scan multiple stocks and return sorted list of valid BUY signals.
-    ohlcv_map: {ticker: OHLCV DataFrame}
+    If debug=True, also attaches near-miss list on the return via
+    scan_short_term.last_near_misses (list of dicts).
     """
     C = {**ST_CFG, **(cfg or {})}
-    # Use regime-aware threshold if caller did not override
     if min_confidence is None:
         if market_regime == "risk_off":
-            min_confidence = C.get("min_confidence_risk_off", 68)
+            min_confidence = C.get("min_confidence_risk_off", 62)
         else:
             min_confidence = C.get("min_confidence", 55)
 
     results = []
+    near_misses = []
+    reject_counts: Dict[str, int] = {}
+
     for ticker, df in ohlcv_map.items():
         try:
             sig = generate_signal(
                 ticker, df, market_regime=market_regime, cfg=cfg
             )
-            if sig.signal == "BUY" and sig.confidence >= min_confidence:
-                results.append(sig.to_dict())
+            d = sig.to_dict()
+            if sig.signal == "BUY" and (sig.confidence or 0) >= min_confidence:
+                results.append(d)
+            elif debug or (sig.confidence and sig.confidence >= 45):
+                # Near-miss: had some structure but failed a gate
+                reason = "unknown"
+                reasons = sig.reasons or []
+                joined = " | ".join(reasons)
+                if "Already past T1" in joined:
+                    reason = "past_T1"
+                elif "Already extended" in joined:
+                    reason = "extended"
+                elif "No breakout" in joined:
+                    reason = "no_breakout"
+                elif "Confidence" in joined and "< required" in joined:
+                    reason = "low_confidence"
+                elif "Volume" in joined:
+                    reason = "volume"
+                elif "Price too low" in joined:
+                    reason = "price"
+                elif sig.signal == "BUY":
+                    reason = "below_min_conf"
+                else:
+                    reason = "other"
+                reject_counts[reason] = reject_counts.get(reason, 0) + 1
+                if reason != "no_breakout":  # don't flood with non-breakouts
+                    near_misses.append({
+                        "ticker": ticker,
+                        "confidence": sig.confidence,
+                        "reject": reason,
+                        "last_price": d.get("last_price"),
+                        "entry": d.get("entry"),
+                        "t1": d.get("t1"),
+                        "reasons": reasons[:4],
+                    })
         except Exception as e:
             logger.warning("Short-term signal failed for %s: %s", ticker, e)
 
     results.sort(key=lambda x: x.get("confidence", 0), reverse=True)
+    near_misses.sort(key=lambda x: x.get("confidence") or 0, reverse=True)
+    # Expose for pipeline debug printing
+    scan_short_term.last_near_misses = near_misses[:25]
+    scan_short_term.last_reject_counts = reject_counts
     return results
 
 

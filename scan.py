@@ -40,6 +40,11 @@ def main() -> None:
         default=None,
         help="Max tickers to scan in short-term mode (default from config)",
     )
+    ap.add_argument(
+        "--debug",
+        action="store_true",
+        help="Print near-misses and reject breakdown (short mode)",
+    )
     a = ap.parse_args()
 
     if a.check:
@@ -47,7 +52,7 @@ def main() -> None:
         return
 
     if a.short:
-        run_short(demo=a.demo, max_scan=a.max_scan, delay=a.delay, no_notify=a.no_notify)
+        run_short(demo=a.demo, max_scan=a.max_scan, delay=a.delay, no_notify=a.no_notify, debug=a.debug)
         return
 
     run(demo=a.demo, max_fetch=a.max_fetch, delay=a.delay, no_notify=a.no_notify)

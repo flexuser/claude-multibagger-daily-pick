@@ -297,6 +297,34 @@ def _swing_html(short_payload: Optional[dict]) -> str:
         )
         h.append("</details>")
 
+    # Debug near-misses (only when scanner ran with --debug)
+    near = (short_payload or {}).get("near_misses") or []
+    counts = (short_payload or {}).get("reject_counts") or {}
+    if near or counts:
+        h.append('<details class="hist">')
+        h.append("<summary>Debug · near-misses (why nothing / few signals)</summary>")
+        if counts:
+            parts = ", ".join(f"{k}={v}" for k, v in sorted(counts.items(), key=lambda x: -x[1]))
+            h.append(f'<p class="note" style="margin-top:8px">Reject counts: {e(parts)}</p>')
+        if near:
+            h.append('<table class="compact-table" style="margin-top:6px">')
+            h.append("<tr><th>Stock</th><th>Conf</th><th>Why rejected</th><th>Last</th><th>Entry</th></tr>")
+            for n in near[:12]:
+                tk = e(str(n.get("ticker", "")).replace(".NS", ""))
+                h.append(
+                    f"<tr><td>{tk}</td>"
+                    f"<td>{n.get('confidence')}</td>"
+                    f"<td>{e(str(n.get('reject','')))}</td>"
+                    f"<td>{n.get('last_price')}</td>"
+                    f"<td>{n.get('entry') or '—'}</td></tr>"
+                )
+            h.append("</table>")
+        h.append(
+            '<p class="note">near-miss = breakout-ish or mid confidence but failed a gate. '
+            "Run with <code>--debug</code> to populate this.</p>"
+        )
+        h.append("</details>")
+
     h.append(
         '<div class="panel"><p class="note">'
         "Technical screening only. Daily bars lag live prices — always verify on your broker. "

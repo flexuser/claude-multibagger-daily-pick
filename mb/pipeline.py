@@ -588,6 +588,7 @@ def run_short(
     max_scan: Optional[int] = None,
     delay: float = 0.6,
     no_notify: bool = False,
+    debug: bool = False,
 ) -> dict:
     """
     Run the short-term technical scanner (1 day – 2 weeks holding).
@@ -667,9 +668,25 @@ def run_short(
         signals = scan_short_term(
             ohlcv_map,
             market_regime=regime,
-            cfg=SHORT_TERM,          # threshold chosen automatically by regime
+            cfg=SHORT_TERM,
+            debug=debug,
         )
         print(f"Generated {len(signals)} short-term BUY signals (regime={regime})")
+        near = getattr(scan_short_term, "last_near_misses", []) or []
+        counts = getattr(scan_short_term, "last_reject_counts", {}) or {}
+        if counts:
+            parts = ", ".join(f"{k}={v}" for k, v in sorted(counts.items(), key=lambda x: -x[1]))
+            print(f"Reject breakdown: {parts}")
+        if debug and near:
+            print(f"Near-misses (top {min(15, len(near))}):")
+            for n in near[:15]:
+                print(
+                    f"  • {n['ticker']}  conf={n.get('confidence')}  "
+                    f"reject={n.get('reject')}  last={n.get('last_price')}  "
+                    f"entry={n.get('entry')}  reasons={n.get('reasons')}"
+                )
+        elif debug:
+            print("Near-misses: none (most names had no breakout)")
 
         # Multi-day history: update previous active signals + add today's
         from mb.short_term import update_swing_history, swing_stats
@@ -691,15 +708,20 @@ def run_short(
         print(f"Swing history: {sum(1 for s in history if s.get('status')=='active')} active, "
               f"{stats.get('closed',0)} closed, win_rate={stats.get('win_rate')}%")
     # Persist
+    near = getattr(scan_short_term, "last_near_misses", []) or [] if not demo else []
+    counts = getattr(scan_short_term, "last_reject_counts", {}) or {} if not demo else {}
     payload = {
         "date": today,
         "regime": regime,
         "nifty": nifty,
-        "signals": signals[: SHORT_TERM.get("max_show", 12)],
+        "signals": signals[: SHORT_TERM.get("max_show", 3)],
         "history": history,
         "stats": stats,
+        "near_misses": near[:15] if debug else [],
+        "reject_counts": counts if debug else {},
         "total_scanned": 0 if demo else len(ohlcv_map) if not demo else 0,
         "mode": "short",
+        "debug": debug,
     }
     save_json(SHORT_JSON, payload)
     save_json(DOCS / "short_latest.json", payload)
