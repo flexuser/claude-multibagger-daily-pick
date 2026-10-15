@@ -2,8 +2,8 @@
  "generated": "2026-10-15",
  "demo": false,
  "universe": 651,
- "liquid": 635,
- "with_data": 635,
+ "liquid": 636,
+ "with_data": 636,
  "eligible": 27,
  "fund_stats": {
   "attempted": 0,
@@ -14,7 +14,7 @@
   "mcap 29544 cr outside band": 1,
   "operating margin too low": 35,
   "mcap 25801 cr outside band": 1,
-  "insufficient growth": 85,
+  "insufficient growth": 86,
   "mcap 28744 cr outside band": 1,
   "mcap 50853 cr outside band": 1,
   "mcap 50660 cr outside band": 1,
@@ -278,7 +278,7 @@
   "name": "SEDEMAC MECHATRONICS LTD",
   "sector": "Auto Parts",
   "blurb": "SEDEMAC Mechatronics Limited provides electronic control units to original equipment manufacturers in the mobility and industrial markets in India, the United States, and Europe. It operates in two segments, Mobility and Industrial. The Mobility segment offers motor control technology and transmission controls, which c",
-  "score": 65.2,
+  "score": 65.8,
   "pillars": {
    "runway": 53.6,
    "moat": 58.4,
@@ -287,10 +287,10 @@
    "quality": 77.4,
    "discovery": 40.1,
    "valuation": 0.0,
-   "confirm": 87.8,
+   "confirm": 88.5,
    "ownership": 26.6,
    "catalyst": 68.7,
-   "context": 44.0
+   "context": 51.1
   },
   "flags": [
    {
@@ -435,14 +435,14 @@
    {
     "group": "Confirm",
     "label": "RSI (14)",
-    "value": "41.2",
+    "value": "58.0",
     "ok": true,
     "why": "Avoid chasing extreme overbought readings when possible."
    },
    {
     "group": "Context",
     "label": "6m return vs theme peers",
-    "value": "81.2 pp",
+    "value": "77.1 pp",
     "ok": true,
     "why": "Positive means the stock is outperforming others in the same structural theme (sector sentiment proxy)."
    },
@@ -510,8 +510,8 @@
     "neg": false
    }
   ],
-  "price": 3170.1,
-  "price_date": "2026-10-15",
+  "price": 3204.9,
+  "price_date": "2026-10-14",
   "fundamentals_as_of": "2026-10-13",
   "spark": [
    1451.1,
@@ -660,8 +660,7 @@
    3229.8,
    3223.2,
    3165.6,
-   3204.9,
-   3170.1
+   3204.9
   ],
   "diligence": {
    "verdict": "yellow",
@@ -698,11 +697,11 @@
    "cached": true
   },
   "streak": 11,
-  "held_from_yesterday": true,
+  "held_from_yesterday": false,
   "themes": [
    "Energy transition"
   ],
-  "rs_6m": 94.8767,
+  "rs_6m": 94.5385,
   "q_accel": null
  },
  "bench": [
@@ -710,33 +709,33 @@
    "ticker": "TIPSMUSIC.NS",
    "name": "TIPS MUSIC LIMITED",
    "score": 65.8,
-   "price": 717.7,
+   "price": 718.25,
    "sector": "Entertainment",
    "line": "rev CAGR 26% \u00b7 ROCE 110%"
   },
   {
    "ticker": "WEBELSOLAR.NS",
    "name": "WEBSOL ENERGY SYSTEM LTD",
-   "score": 62.1,
-   "price": 67.8,
+   "score": 62.2,
+   "price": 69.09,
    "sector": "Solar",
    "line": "Electronics and semiconductors, Energy transition \u00b7 ROCE 49%"
   },
   {
    "ticker": "ATLANTAELE.NS",
    "name": "ATLANTA ELECTRICALS LTD",
-   "score": 60.9,
-   "price": 1727.1,
+   "score": 61.6,
+   "price": 1802.2,
    "sector": "Electrical Equipment & Parts",
    "line": "Energy transition, Railways and infrastructure \u00b7 rev CAGR 28% \u00b7 ROCE 32%"
   },
   {
-   "ticker": "SENORES.NS",
-   "name": "SENORES PHARMACEUTICALS L",
-   "score": 60.9,
-   "price": 1273.1,
-   "sector": "Drug Manufacturers - General",
-   "line": "Healthcare and diagnostics \u00b7 ROCE 14%"
+   "ticker": "QPOWER.NS",
+   "name": "QUALITY POWER ELEC EQUP L",
+   "score": 61.0,
+   "price": 1511.1,
+   "sector": "Electrical Equipment & Parts",
+   "line": "Energy transition \u00b7 rev CAGR 56% \u00b7 ROCE 38%"
   }
  ],
  "track": [
@@ -745,8 +744,8 @@
    "ticker": "ACUTAAS.NS",
    "name": "ACUTAAS CHEMICALS LIMITED",
    "days": 1,
-   "ret": -1.5392,
-   "nifty_ret": 2.221,
+   "ret": -1.1262,
+   "nifty_ret": 0.8953,
    "active": false
   },
   {
@@ -754,8 +753,8 @@
    "ticker": "SEDEMAC.NS",
    "name": "SEDEMAC MECHATRONICS LTD",
    "days": 10,
-   "ret": -6.2489,
-   "nifty_ret": 1.6557,
+   "ret": -5.2197,
+   "nifty_ret": 0.3373,
    "active": true
   }
  ],
@@ -763,7 +762,7 @@
   "episodes": 2,
   "measured": 2,
   "beat": 0,
-  "avg_excess": -5.8324
+  "avg_excess": -3.7893
  },
  "dd_rejected": [],
  "dd_blocked": false,
@@ -772,7 +771,7 @@
   {
    "ticker": "BLS.NS",
    "name": "BLS INTL SERVS LTD",
-   "score": 52.2,
+   "score": 51.5,
    "events": [
     {
      "date": "2026-09-30",
@@ -787,7 +786,7 @@
   {
    "ticker": "EMMVEE.NS",
    "name": "EMMVEE PHOTOVOLTAIC PWR L",
-   "score": 61.3,
+   "score": 62.1,
    "events": [
     {
      "date": "2026-10-01",
@@ -802,7 +801,7 @@
   {
    "ticker": "PRIVISCL.NS",
    "name": "PRIVI SPECIALITY CHE LTD",
-   "score": 54.2,
+   "score": 54.7,
    "events": [
     {
      "date": "2026-09-24",
@@ -817,7 +816,7 @@
   {
    "ticker": "AKUMS.NS",
    "name": "AKUMS DRUGS AND PHARMA L",
-   "score": 52.4,
+   "score": 52.8,
    "events": [
     {
      "date": "2026-07-04",
@@ -832,7 +831,7 @@
   {
    "ticker": "UTLSOLAR.NS",
    "name": "FUJIYAMA POWER SYSTEMS L",
-   "score": 64.1,
+   "score": 64.3,
    "events": [
     {
      "date": "2026-06-18",

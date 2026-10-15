@@ -7,7 +7,7 @@
   "t1": 113.92,
   "t2": 117.21,
   "t3": 120.83,
-  "confidence": 87.0,
+  "confidence": 87,
   "status": "active",
   "outcome": null,
   "hit_t1": false,
@@ -17,6 +17,8 @@
   "exit_price": null,
   "exit_date": null,
   "r_multiple": null,
+  "last_price": 113.7,
+  "as_of": "2026-10-15",
   "reasons": [
    "Breakout above 108.87",
    "Volume surge 1.25x",
@@ -25,9 +27,7 @@
    "Above 50 DMA",
    "HH-HL structure",
    "Risk-off regime \u2192 higher quality required"
-  ],
-  "last_price": 113.7,
-  "as_of": "2026-10-15"
+  ]
  },
  {
   "date": "2026-10-15",
@@ -37,7 +37,7 @@
   "t1": 464.36,
   "t2": 480.37,
   "t3": 497.98,
-  "confidence": 87.0,
+  "confidence": 87,
   "status": "active",
   "outcome": null,
   "hit_t1": false,
@@ -47,6 +47,8 @@
   "exit_price": null,
   "exit_date": null,
   "r_multiple": null,
+  "last_price": 444.6,
+  "as_of": "2026-10-15",
   "reasons": [
    "Breakout above 439.90",
    "Volume surge 1.22x",
@@ -55,9 +57,7 @@
    "Above 50 DMA",
    "HH-HL structure",
    "Risk-off regime \u2192 higher quality required"
-  ],
-  "last_price": 444.6,
-  "as_of": "2026-10-15"
+  ]
  },
  {
   "date": "2026-10-15",
@@ -67,7 +67,7 @@
   "t1": 198.41,
   "t2": 204.34,
   "t3": 210.87,
-  "confidence": 79.0,
+  "confidence": 79,
   "status": "active",
   "outcome": null,
   "hit_t1": false,
@@ -77,6 +77,8 @@
   "exit_price": null,
   "exit_date": null,
   "r_multiple": null,
+  "last_price": 190.3,
+  "as_of": "2026-10-15",
   "reasons": [
    "Breakout above 189.33",
    "Volume surge 1.28x",
@@ -84,9 +86,7 @@
    "Above 20 DMA",
    "Above 50 DMA",
    "Risk-off regime \u2192 higher quality required"
-  ],
-  "last_price": 190.3,
-  "as_of": "2026-10-15"
+  ]
  },
  {
   "date": "2026-10-15",
@@ -96,7 +96,7 @@
   "t1": 321.08,
   "t2": 333.03,
   "t3": 346.18,
-  "confidence": 79.0,
+  "confidence": 79,
   "status": "active",
   "outcome": null,
   "hit_t1": false,
@@ -106,6 +106,8 @@
   "exit_price": null,
   "exit_date": null,
   "r_multiple": null,
+  "last_price": 315.5,
+  "as_of": "2026-10-15",
   "reasons": [
    "Breakout above 302.85",
    "Volume surge 2.42x",
@@ -113,9 +115,7 @@
    "Above 20 DMA",
    "Above 50 DMA",
    "Risk-off regime \u2192 higher quality required"
-  ],
-  "last_price": 315.5,
-  "as_of": "2026-10-15"
+  ]
  },
  {
   "date": "2026-10-15",
@@ -125,7 +125,7 @@
   "t1": 524.6,
   "t2": 547.68,
   "t3": 573.06,
-  "confidence": 79.0,
+  "confidence": 79,
   "status": "active",
   "outcome": null,
   "hit_t1": false,
@@ -135,6 +135,8 @@
   "exit_price": null,
   "exit_date": null,
   "r_multiple": null,
+  "last_price": 492.6,
+  "as_of": "2026-10-15",
   "reasons": [
    "Breakout above 489.50",
    "Volume surge 1.19x",
@@ -142,9 +144,7 @@
    "Above 20 DMA",
    "Above 50 DMA",
    "Risk-off regime \u2192 higher quality required"
-  ],
-  "last_price": 492.6,
-  "as_of": "2026-10-15"
+  ]
  },
  {
   "date": "2026-10-15",
@@ -154,7 +154,7 @@
   "t1": 1648.43,
   "t2": 1701.4,
   "t3": 1759.67,
-  "confidence": 79.0,
+  "confidence": 79,
   "status": "active",
   "outcome": null,
   "hit_t1": false,
@@ -164,6 +164,8 @@
   "exit_price": null,
   "exit_date": null,
   "r_multiple": null,
+  "last_price": 1615.1,
+  "as_of": "2026-10-15",
   "reasons": [
    "Breakout above 1567.40",
    "Volume surge 1.28x",
@@ -171,9 +173,7 @@
    "Above 20 DMA",
    "Above 50 DMA",
    "Risk-off regime \u2192 higher quality required"
-  ],
-  "last_price": 1615.1,
-  "as_of": "2026-10-15"
+  ]
  },
  {
   "date": "2026-10-15",
@@ -183,7 +183,7 @@
   "t1": 6031.39,
   "t2": 6209.14,
   "t3": 6404.66,
-  "confidence": 79.0,
+  "confidence": 79,
   "status": "active",
   "outcome": null,
   "hit_t1": false,
@@ -193,6 +193,8 @@
   "exit_price": null,
   "exit_date": null,
   "r_multiple": null,
+  "last_price": 5877.5,
+  "as_of": "2026-10-15",
   "reasons": [
    "Breakout above 5759.00",
    "Volume surge 1.20x",
@@ -200,9 +202,7 @@
    "Above 20 DMA",
    "Above 50 DMA",
    "Risk-off regime \u2192 higher quality required"
-  ],
-  "last_price": 5877.5,
-  "as_of": "2026-10-15"
+  ]
  },
  {
   "date": "2026-10-15",
@@ -212,7 +212,7 @@
   "t1": 25502.33,
   "t2": 26404.48,
   "t3": 27396.83,
-  "confidence": 71.0,
+  "confidence": 71,
   "status": "active",
   "outcome": null,
   "hit_t1": false,
@@ -222,6 +222,8 @@
   "exit_price": null,
   "exit_date": null,
   "r_multiple": null,
+  "last_price": 24890,
+  "as_of": "2026-10-15",
   "reasons": [
    "Breakout above 24125.00",
    "Volume mild (0.29x)",
@@ -230,9 +232,7 @@
    "Above 50 DMA",
    "HH-HL structure",
    "Risk-off regime \u2192 higher quality required"
-  ],
-  "last_price": 24890.0,
-  "as_of": "2026-10-15"
+  ]
  },
  {
   "date": "2026-10-15",
@@ -242,7 +242,7 @@
   "t1": 1443.18,
   "t2": 1499.2,
   "t3": 1560.81,
-  "confidence": 71.0,
+  "confidence": 71,
   "status": "active",
   "outcome": null,
   "hit_t1": false,
@@ -252,6 +252,8 @@
   "exit_price": null,
   "exit_date": null,
   "r_multiple": null,
+  "last_price": 1369.6,
+  "as_of": "2026-10-15",
   "reasons": [
    "Breakout above 1357.80",
    "Volume mild (0.14x)",
@@ -260,9 +262,7 @@
    "Above 50 DMA",
    "HH-HL structure",
    "Risk-off regime \u2192 higher quality required"
-  ],
-  "last_price": 1369.6,
-  "as_of": "2026-10-15"
+  ]
  },
  {
   "date": "2026-10-15",
@@ -272,7 +272,7 @@
   "t1": 1198.38,
   "t2": 1231.2,
   "t3": 1267.31,
-  "confidence": 71.0,
+  "confidence": 71,
   "status": "active",
   "outcome": null,
   "hit_t1": false,
@@ -282,6 +282,8 @@
   "exit_price": null,
   "exit_date": null,
   "r_multiple": null,
+  "last_price": 1157.7,
+  "as_of": "2026-10-15",
   "reasons": [
    "Breakout above 1148.00",
    "Volume mild (0.56x)",
@@ -290,9 +292,7 @@
    "Above 50 DMA",
    "HH-HL structure",
    "Risk-off regime \u2192 higher quality required"
-  ],
-  "last_price": 1157.7,
-  "as_of": "2026-10-15"
+  ]
  },
  {
   "date": "2026-10-15",
@@ -302,6 +302,65 @@
   "t1": 1667.59,
   "t2": 1715.93,
   "t3": 1769.1,
+  "confidence": 71,
+  "status": "active",
+  "outcome": null,
+  "hit_t1": false,
+  "hit_t2": false,
+  "hit_t3": false,
+  "days_held": 0,
+  "exit_price": null,
+  "exit_date": null,
+  "r_multiple": null,
+  "last_price": 1613.8,
+  "as_of": "2026-10-15",
+  "reasons": [
+   "Breakout above 1593.50",
+   "Volume mild (0.15x)",
+   "RSI healthy (59.2)",
+   "Above 20 DMA",
+   "Above 50 DMA",
+   "HH-HL structure",
+   "Risk-off regime \u2192 higher quality required"
+  ]
+ },
+ {
+  "date": "2026-10-15",
+  "ticker": "JAYNECOIND.NS",
+  "entry": 96.48,
+  "stop_loss": 91.18,
+  "t1": 102.37,
+  "t2": 106.3,
+  "t3": 110.62,
+  "confidence": 63,
+  "status": "active",
+  "outcome": null,
+  "hit_t1": false,
+  "hit_t2": false,
+  "hit_t3": false,
+  "days_held": 0,
+  "exit_price": null,
+  "exit_date": null,
+  "r_multiple": null,
+  "last_price": 97.52,
+  "as_of": "2026-10-15",
+  "reasons": [
+   "Breakout above 96.38",
+   "Volume mild (0.60x)",
+   "RSI healthy (65.8)",
+   "Above 20 DMA",
+   "Above 50 DMA",
+   "Risk-off regime \u2192 higher quality required"
+  ]
+ },
+ {
+  "date": "2026-10-15",
+  "ticker": "GLAND.NS",
+  "entry": 3045.04,
+  "stop_loss": 2921.96,
+  "t1": 3181.8,
+  "t2": 3272.97,
+  "t3": 3373.26,
   "confidence": 71.0,
   "status": "active",
   "outcome": null,
@@ -313,44 +372,15 @@
   "exit_date": null,
   "r_multiple": null,
   "reasons": [
-   "Breakout above 1593.50",
-   "Volume mild (0.15x)",
-   "RSI healthy (59.2)",
+   "Breakout above 3042.00",
+   "Volume mild (0.44x)",
+   "RSI healthy (60.2)",
    "Above 20 DMA",
    "Above 50 DMA",
    "HH-HL structure",
    "Risk-off regime \u2192 higher quality required"
   ],
-  "last_price": 1613.8,
-  "as_of": "2026-10-15"
- },
- {
-  "date": "2026-10-15",
-  "ticker": "JAYNECOIND.NS",
-  "entry": 96.48,
-  "stop_loss": 91.18,
-  "t1": 102.37,
-  "t2": 106.3,
-  "t3": 110.62,
-  "confidence": 63.0,
-  "status": "active",
-  "outcome": null,
-  "hit_t1": false,
-  "hit_t2": false,
-  "hit_t3": false,
-  "days_held": 0,
-  "exit_price": null,
-  "exit_date": null,
-  "r_multiple": null,
-  "reasons": [
-   "Breakout above 96.38",
-   "Volume mild (0.60x)",
-   "RSI healthy (65.8)",
-   "Above 20 DMA",
-   "Above 50 DMA",
-   "Risk-off regime \u2192 higher quality required"
-  ],
-  "last_price": 97.52,
-  "as_of": "2026-10-15"
+  "last_price": 3052.3,
+  "as_of": "2026-10-14"
  }
 ]

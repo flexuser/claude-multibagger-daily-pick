@@ -2,103 +2,74 @@
  "date": "2026-10-15",
  "regime": "risk_off",
  "nifty": {
-  "last": 22926.5,
-  "ret_6m": -5.2497,
-  "ret_3m": -5.7853,
-  "ret_1m": -1.2538,
-  "above_200dma": -5.3,
-  "ma50_vs_200": -2.6,
+  "last": 22622.6992,
+  "ret_6m": -6.6385,
+  "ret_3m": -6.0236,
+  "ret_1m": -2.145,
+  "above_200dma": -6.6,
+  "ma50_vs_200": -2.5,
   "regime": "risk_off"
  },
  "signals": [
   {
+   "ticker": "GLAND.NS",
+   "signal": "BUY",
+   "entry": 3045.04,
+   "stop_loss": 2921.96,
+   "t1": 3181.8,
+   "t2": 3272.97,
+   "t3": 3373.26,
+   "confidence": 71.0,
+   "holding_days": "3-12 trading days",
+   "risk_reward_t1": 1.11,
+   "atr": 91.17,
+   "rsi": 60.2,
+   "volume_surge": 0.44,
+   "regime": "risk_off",
+   "reasons": [
+    "Breakout above 3042.00",
+    "Volume mild (0.44x)",
+    "RSI healthy (60.2)",
+    "Above 20 DMA",
+    "Above 50 DMA",
+    "HH-HL structure",
+    "Risk-off regime \u2192 higher quality required"
+   ],
+   "invalidation": "Daily close below 2921.96",
+   "resistance": 3042.0,
+   "support": 2841.1,
+   "last_price": 3052.3,
+   "as_of": "2026-10-14"
+  },
+  {
    "ticker": "LEMONTREE.NS",
    "signal": "BUY",
    "entry": 108.98,
-   "stop_loss": 104.54,
-   "t1": 113.92,
-   "t2": 117.21,
-   "t3": 120.83,
-   "confidence": 87.0,
+   "stop_loss": 104.99,
+   "t1": 113.41,
+   "t2": 116.36,
+   "t3": 119.61,
+   "confidence": 71.0,
    "holding_days": "3-12 trading days",
    "risk_reward_t1": 1.11,
-   "atr": 3.29,
-   "rsi": 68.8,
-   "volume_surge": 1.25,
+   "atr": 2.95,
+   "rsi": 60.1,
+   "volume_surge": 0.27,
    "regime": "risk_off",
    "reasons": [
     "Breakout above 108.87",
-    "Volume surge 1.25x",
-    "RSI healthy (68.8)",
+    "Volume mild (0.27x)",
+    "RSI healthy (60.1)",
     "Above 20 DMA",
     "Above 50 DMA",
     "HH-HL structure",
     "Risk-off regime \u2192 higher quality required"
    ],
-   "invalidation": "Daily close below 104.54",
+   "invalidation": "Daily close below 104.99",
    "resistance": 108.87,
    "support": 102.0,
-   "last_price": 113.7,
-   "as_of": "2026-10-15"
-  },
-  {
-   "ticker": "BHEL.NS",
-   "signal": "BUY",
-   "entry": 440.34,
-   "stop_loss": 418.73,
-   "t1": 464.36,
-   "t2": 480.37,
-   "t3": 497.98,
-   "confidence": 87.0,
-   "holding_days": "3-12 trading days",
-   "risk_reward_t1": 1.11,
-   "atr": 16.01,
-   "rsi": 61.5,
-   "volume_surge": 1.22,
-   "regime": "risk_off",
-   "reasons": [
-    "Breakout above 439.90",
-    "Volume surge 1.22x",
-    "RSI healthy (61.5)",
-    "Above 20 DMA",
-    "Above 50 DMA",
-    "HH-HL structure",
-    "Risk-off regime \u2192 higher quality required"
-   ],
-   "invalidation": "Daily close below 418.73",
-   "resistance": 439.9,
-   "support": 402.6,
-   "last_price": 444.6,
-   "as_of": "2026-10-15"
-  },
-  {
-   "ticker": "AWL.NS",
-   "signal": "BUY",
-   "entry": 189.52,
-   "stop_loss": 181.52,
-   "t1": 198.41,
-   "t2": 204.34,
-   "t3": 210.87,
-   "confidence": 79.0,
-   "holding_days": "3-12 trading days",
-   "risk_reward_t1": 1.11,
-   "atr": 5.93,
-   "rsi": 58.3,
-   "volume_surge": 1.28,
-   "regime": "risk_off",
-   "reasons": [
-    "Breakout above 189.33",
-    "Volume surge 1.28x",
-    "RSI healthy (58.3)",
-    "Above 20 DMA",
-    "Above 50 DMA",
-    "Risk-off regime \u2192 higher quality required"
-   ],
-   "invalidation": "Daily close below 181.52",
-   "resistance": 189.33,
-   "support": 172.6,
-   "last_price": 190.3,
-   "as_of": "2026-10-15"
+   "last_price": 111.46,
+   "as_of": "2026-10-14"
   }
  ],
  "history": [
@@ -110,7 +81,7 @@
    "t1": 113.92,
    "t2": 117.21,
    "t3": 120.83,
-   "confidence": 87.0,
+   "confidence": 87,
    "status": "active",
    "outcome": null,
    "hit_t1": false,
@@ -120,6 +91,8 @@
    "exit_price": null,
    "exit_date": null,
    "r_multiple": null,
+   "last_price": 113.7,
+   "as_of": "2026-10-15",
    "reasons": [
     "Breakout above 108.87",
     "Volume surge 1.25x",
@@ -128,9 +101,7 @@
     "Above 50 DMA",
     "HH-HL structure",
     "Risk-off regime \u2192 higher quality required"
-   ],
-   "last_price": 113.7,
-   "as_of": "2026-10-15"
+   ]
   },
   {
    "date": "2026-10-15",
@@ -140,7 +111,7 @@
    "t1": 464.36,
    "t2": 480.37,
    "t3": 497.98,
-   "confidence": 87.0,
+   "confidence": 87,
    "status": "active",
    "outcome": null,
    "hit_t1": false,
@@ -150,6 +121,8 @@
    "exit_price": null,
    "exit_date": null,
    "r_multiple": null,
+   "last_price": 444.6,
+   "as_of": "2026-10-15",
    "reasons": [
     "Breakout above 439.90",
     "Volume surge 1.22x",
@@ -158,9 +131,7 @@
     "Above 50 DMA",
     "HH-HL structure",
     "Risk-off regime \u2192 higher quality required"
-   ],
-   "last_price": 444.6,
-   "as_of": "2026-10-15"
+   ]
   },
   {
    "date": "2026-10-15",
@@ -170,7 +141,7 @@
    "t1": 198.41,
    "t2": 204.34,
    "t3": 210.87,
-   "confidence": 79.0,
+   "confidence": 79,
    "status": "active",
    "outcome": null,
    "hit_t1": false,
@@ -180,6 +151,8 @@
    "exit_price": null,
    "exit_date": null,
    "r_multiple": null,
+   "last_price": 190.3,
+   "as_of": "2026-10-15",
    "reasons": [
     "Breakout above 189.33",
     "Volume surge 1.28x",
@@ -187,9 +160,7 @@
     "Above 20 DMA",
     "Above 50 DMA",
     "Risk-off regime \u2192 higher quality required"
-   ],
-   "last_price": 190.3,
-   "as_of": "2026-10-15"
+   ]
   },
   {
    "date": "2026-10-15",
@@ -199,7 +170,7 @@
    "t1": 321.08,
    "t2": 333.03,
    "t3": 346.18,
-   "confidence": 79.0,
+   "confidence": 79,
    "status": "active",
    "outcome": null,
    "hit_t1": false,
@@ -209,6 +180,8 @@
    "exit_price": null,
    "exit_date": null,
    "r_multiple": null,
+   "last_price": 315.5,
+   "as_of": "2026-10-15",
    "reasons": [
     "Breakout above 302.85",
     "Volume surge 2.42x",
@@ -216,9 +189,7 @@
     "Above 20 DMA",
     "Above 50 DMA",
     "Risk-off regime \u2192 higher quality required"
-   ],
-   "last_price": 315.5,
-   "as_of": "2026-10-15"
+   ]
   },
   {
    "date": "2026-10-15",
@@ -228,7 +199,7 @@
    "t1": 524.6,
    "t2": 547.68,
    "t3": 573.06,
-   "confidence": 79.0,
+   "confidence": 79,
    "status": "active",
    "outcome": null,
    "hit_t1": false,
@@ -238,6 +209,8 @@
    "exit_price": null,
    "exit_date": null,
    "r_multiple": null,
+   "last_price": 492.6,
+   "as_of": "2026-10-15",
    "reasons": [
     "Breakout above 489.50",
     "Volume surge 1.19x",
@@ -245,9 +218,7 @@
     "Above 20 DMA",
     "Above 50 DMA",
     "Risk-off regime \u2192 higher quality required"
-   ],
-   "last_price": 492.6,
-   "as_of": "2026-10-15"
+   ]
   },
   {
    "date": "2026-10-15",
@@ -257,7 +228,7 @@
    "t1": 1648.43,
    "t2": 1701.4,
    "t3": 1759.67,
-   "confidence": 79.0,
+   "confidence": 79,
    "status": "active",
    "outcome": null,
    "hit_t1": false,
@@ -267,6 +238,8 @@
    "exit_price": null,
    "exit_date": null,
    "r_multiple": null,
+   "last_price": 1615.1,
+   "as_of": "2026-10-15",
    "reasons": [
     "Breakout above 1567.40",
     "Volume surge 1.28x",
@@ -274,9 +247,7 @@
     "Above 20 DMA",
     "Above 50 DMA",
     "Risk-off regime \u2192 higher quality required"
-   ],
-   "last_price": 1615.1,
-   "as_of": "2026-10-15"
+   ]
   },
   {
    "date": "2026-10-15",
@@ -286,7 +257,7 @@
    "t1": 6031.39,
    "t2": 6209.14,
    "t3": 6404.66,
-   "confidence": 79.0,
+   "confidence": 79,
    "status": "active",
    "outcome": null,
    "hit_t1": false,
@@ -296,6 +267,8 @@
    "exit_price": null,
    "exit_date": null,
    "r_multiple": null,
+   "last_price": 5877.5,
+   "as_of": "2026-10-15",
    "reasons": [
     "Breakout above 5759.00",
     "Volume surge 1.20x",
@@ -303,9 +276,7 @@
     "Above 20 DMA",
     "Above 50 DMA",
     "Risk-off regime \u2192 higher quality required"
-   ],
-   "last_price": 5877.5,
-   "as_of": "2026-10-15"
+   ]
   },
   {
    "date": "2026-10-15",
@@ -315,7 +286,7 @@
    "t1": 25502.33,
    "t2": 26404.48,
    "t3": 27396.83,
-   "confidence": 71.0,
+   "confidence": 71,
    "status": "active",
    "outcome": null,
    "hit_t1": false,
@@ -325,6 +296,8 @@
    "exit_price": null,
    "exit_date": null,
    "r_multiple": null,
+   "last_price": 24890,
+   "as_of": "2026-10-15",
    "reasons": [
     "Breakout above 24125.00",
     "Volume mild (0.29x)",
@@ -333,9 +306,7 @@
     "Above 50 DMA",
     "HH-HL structure",
     "Risk-off regime \u2192 higher quality required"
-   ],
-   "last_price": 24890.0,
-   "as_of": "2026-10-15"
+   ]
   },
   {
    "date": "2026-10-15",
@@ -345,7 +316,7 @@
    "t1": 1443.18,
    "t2": 1499.2,
    "t3": 1560.81,
-   "confidence": 71.0,
+   "confidence": 71,
    "status": "active",
    "outcome": null,
    "hit_t1": false,
@@ -355,6 +326,8 @@
    "exit_price": null,
    "exit_date": null,
    "r_multiple": null,
+   "last_price": 1369.6,
+   "as_of": "2026-10-15",
    "reasons": [
     "Breakout above 1357.80",
     "Volume mild (0.14x)",
@@ -363,9 +336,7 @@
     "Above 50 DMA",
     "HH-HL structure",
     "Risk-off regime \u2192 higher quality required"
-   ],
-   "last_price": 1369.6,
-   "as_of": "2026-10-15"
+   ]
   },
   {
    "date": "2026-10-15",
@@ -375,7 +346,7 @@
    "t1": 1198.38,
    "t2": 1231.2,
    "t3": 1267.31,
-   "confidence": 71.0,
+   "confidence": 71,
    "status": "active",
    "outcome": null,
    "hit_t1": false,
@@ -385,6 +356,8 @@
    "exit_price": null,
    "exit_date": null,
    "r_multiple": null,
+   "last_price": 1157.7,
+   "as_of": "2026-10-15",
    "reasons": [
     "Breakout above 1148.00",
     "Volume mild (0.56x)",
@@ -393,9 +366,7 @@
     "Above 50 DMA",
     "HH-HL structure",
     "Risk-off regime \u2192 higher quality required"
-   ],
-   "last_price": 1157.7,
-   "as_of": "2026-10-15"
+   ]
   },
   {
    "date": "2026-10-15",
@@ -405,6 +376,65 @@
    "t1": 1667.59,
    "t2": 1715.93,
    "t3": 1769.1,
+   "confidence": 71,
+   "status": "active",
+   "outcome": null,
+   "hit_t1": false,
+   "hit_t2": false,
+   "hit_t3": false,
+   "days_held": 0,
+   "exit_price": null,
+   "exit_date": null,
+   "r_multiple": null,
+   "last_price": 1613.8,
+   "as_of": "2026-10-15",
+   "reasons": [
+    "Breakout above 1593.50",
+    "Volume mild (0.15x)",
+    "RSI healthy (59.2)",
+    "Above 20 DMA",
+    "Above 50 DMA",
+    "HH-HL structure",
+    "Risk-off regime \u2192 higher quality required"
+   ]
+  },
+  {
+   "date": "2026-10-15",
+   "ticker": "JAYNECOIND.NS",
+   "entry": 96.48,
+   "stop_loss": 91.18,
+   "t1": 102.37,
+   "t2": 106.3,
+   "t3": 110.62,
+   "confidence": 63,
+   "status": "active",
+   "outcome": null,
+   "hit_t1": false,
+   "hit_t2": false,
+   "hit_t3": false,
+   "days_held": 0,
+   "exit_price": null,
+   "exit_date": null,
+   "r_multiple": null,
+   "last_price": 97.52,
+   "as_of": "2026-10-15",
+   "reasons": [
+    "Breakout above 96.38",
+    "Volume mild (0.60x)",
+    "RSI healthy (65.8)",
+    "Above 20 DMA",
+    "Above 50 DMA",
+    "Risk-off regime \u2192 higher quality required"
+   ]
+  },
+  {
+   "date": "2026-10-15",
+   "ticker": "GLAND.NS",
+   "entry": 3045.04,
+   "stop_loss": 2921.96,
+   "t1": 3181.8,
+   "t2": 3272.97,
+   "t3": 3373.26,
    "confidence": 71.0,
    "status": "active",
    "outcome": null,
@@ -416,45 +446,16 @@
    "exit_date": null,
    "r_multiple": null,
    "reasons": [
-    "Breakout above 1593.50",
-    "Volume mild (0.15x)",
-    "RSI healthy (59.2)",
+    "Breakout above 3042.00",
+    "Volume mild (0.44x)",
+    "RSI healthy (60.2)",
     "Above 20 DMA",
     "Above 50 DMA",
     "HH-HL structure",
     "Risk-off regime \u2192 higher quality required"
    ],
-   "last_price": 1613.8,
-   "as_of": "2026-10-15"
-  },
-  {
-   "date": "2026-10-15",
-   "ticker": "JAYNECOIND.NS",
-   "entry": 96.48,
-   "stop_loss": 91.18,
-   "t1": 102.37,
-   "t2": 106.3,
-   "t3": 110.62,
-   "confidence": 63.0,
-   "status": "active",
-   "outcome": null,
-   "hit_t1": false,
-   "hit_t2": false,
-   "hit_t3": false,
-   "days_held": 0,
-   "exit_price": null,
-   "exit_date": null,
-   "r_multiple": null,
-   "reasons": [
-    "Breakout above 96.38",
-    "Volume mild (0.60x)",
-    "RSI healthy (65.8)",
-    "Above 20 DMA",
-    "Above 50 DMA",
-    "Risk-off regime \u2192 higher quality required"
-   ],
-   "last_price": 97.52,
-   "as_of": "2026-10-15"
+   "last_price": 3052.3,
+   "as_of": "2026-10-14"
   }
  ],
  "stats": {
@@ -466,7 +467,7 @@
  },
  "near_misses": [],
  "reject_counts": {},
- "total_scanned": 499,
+ "total_scanned": 149,
  "mode": "short",
  "debug": false
 }
