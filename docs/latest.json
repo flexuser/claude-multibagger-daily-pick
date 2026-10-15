@@ -2,8 +2,8 @@
  "generated": "2026-10-15",
  "demo": false,
  "universe": 651,
- "liquid": 636,
- "with_data": 636,
+ "liquid": 635,
+ "with_data": 635,
  "eligible": 27,
  "fund_stats": {
   "attempted": 0,
@@ -14,7 +14,7 @@
   "mcap 29544 cr outside band": 1,
   "operating margin too low": 35,
   "mcap 25801 cr outside band": 1,
-  "insufficient growth": 86,
+  "insufficient growth": 85,
   "mcap 28744 cr outside band": 1,
   "mcap 50853 cr outside band": 1,
   "mcap 50660 cr outside band": 1,
@@ -287,10 +287,10 @@
    "quality": 77.4,
    "discovery": 40.1,
    "valuation": 0.0,
-   "confirm": 88.0,
+   "confirm": 87.8,
    "ownership": 26.6,
    "catalyst": 68.7,
-   "context": 44.3
+   "context": 44.0
   },
   "flags": [
    {
@@ -435,14 +435,14 @@
    {
     "group": "Confirm",
     "label": "RSI (14)",
-    "value": "41.7",
+    "value": "41.2",
     "ok": true,
     "why": "Avoid chasing extreme overbought readings when possible."
    },
    {
     "group": "Context",
     "label": "6m return vs theme peers",
-    "value": "81.3 pp",
+    "value": "81.2 pp",
     "ok": true,
     "why": "Positive means the stock is outperforming others in the same structural theme (sector sentiment proxy)."
    },
@@ -510,7 +510,7 @@
     "neg": false
    }
   ],
-  "price": 3179.5,
+  "price": 3170.1,
   "price_date": "2026-10-15",
   "fundamentals_as_of": "2026-10-13",
   "spark": [
@@ -661,7 +661,7 @@
    3223.2,
    3165.6,
    3204.9,
-   3179.5
+   3170.1
   ],
   "diligence": {
    "verdict": "yellow",
@@ -702,7 +702,7 @@
   "themes": [
    "Energy transition"
   ],
-  "rs_6m": 95.3063,
+  "rs_6m": 94.8767,
   "q_accel": null
  },
  "bench": [
@@ -710,33 +710,33 @@
    "ticker": "TIPSMUSIC.NS",
    "name": "TIPS MUSIC LIMITED",
    "score": 65.8,
-   "price": 716.35,
+   "price": 717.7,
    "sector": "Entertainment",
    "line": "rev CAGR 26% \u00b7 ROCE 110%"
   },
   {
    "ticker": "WEBELSOLAR.NS",
    "name": "WEBSOL ENERGY SYSTEM LTD",
-   "score": 62.2,
-   "price": 68.24,
+   "score": 62.1,
+   "price": 67.8,
    "sector": "Solar",
    "line": "Electronics and semiconductors, Energy transition \u00b7 ROCE 49%"
   },
   {
-   "ticker": "SENORES.NS",
-   "name": "SENORES PHARMACEUTICALS L",
-   "score": 61.5,
-   "price": 1295.0,
-   "sector": "Drug Manufacturers - General",
-   "line": "Healthcare and diagnostics \u00b7 ROCE 14%"
-  },
-  {
    "ticker": "ATLANTAELE.NS",
    "name": "ATLANTA ELECTRICALS LTD",
-   "score": 61.1,
-   "price": 1742.4,
+   "score": 60.9,
+   "price": 1727.1,
    "sector": "Electrical Equipment & Parts",
    "line": "Energy transition, Railways and infrastructure \u00b7 rev CAGR 28% \u00b7 ROCE 32%"
+  },
+  {
+   "ticker": "SENORES.NS",
+   "name": "SENORES PHARMACEUTICALS L",
+   "score": 60.9,
+   "price": 1273.1,
+   "sector": "Drug Manufacturers - General",
+   "line": "Healthcare and diagnostics \u00b7 ROCE 14%"
   }
  ],
  "track": [
@@ -745,8 +745,8 @@
    "ticker": "ACUTAAS.NS",
    "name": "ACUTAAS CHEMICALS LIMITED",
    "days": 1,
-   "ret": -0.998,
-   "nifty_ret": 2.2971,
+   "ret": -1.5392,
+   "nifty_ret": 2.221,
    "active": false
   },
   {
@@ -754,8 +754,8 @@
    "ticker": "SEDEMAC.NS",
    "name": "SEDEMAC MECHATRONICS LTD",
    "days": 10,
-   "ret": -5.9709,
-   "nifty_ret": 1.7313,
+   "ret": -6.2489,
+   "nifty_ret": 1.6557,
    "active": true
   }
  ],
@@ -763,7 +763,7 @@
   "episodes": 2,
   "measured": 2,
   "beat": 0,
-  "avg_excess": -5.4986
+  "avg_excess": -5.8324
  },
  "dd_rejected": [],
  "dd_blocked": false,
@@ -772,7 +772,7 @@
   {
    "ticker": "BLS.NS",
    "name": "BLS INTL SERVS LTD",
-   "score": 52.3,
+   "score": 52.2,
    "events": [
     {
      "date": "2026-09-30",
@@ -802,7 +802,7 @@
   {
    "ticker": "PRIVISCL.NS",
    "name": "PRIVI SPECIALITY CHE LTD",
-   "score": 54.0,
+   "score": 54.2,
    "events": [
     {
      "date": "2026-09-24",
@@ -817,7 +817,7 @@
   {
    "ticker": "AKUMS.NS",
    "name": "AKUMS DRUGS AND PHARMA L",
-   "score": 52.5,
+   "score": 52.4,
    "events": [
     {
      "date": "2026-07-04",
@@ -832,7 +832,7 @@
   {
    "ticker": "UTLSOLAR.NS",
    "name": "FUJIYAMA POWER SYSTEMS L",
-   "score": 64.2,
+   "score": 64.1,
    "events": [
     {
      "date": "2026-06-18",
