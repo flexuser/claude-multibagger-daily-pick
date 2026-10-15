@@ -92,13 +92,8 @@
  ],
  "updated": "2026-10-15",
  "status": {
-  "attempted": 1,
-  "ok": {
-   "announcements": 1,
-   "pledge": 1,
-   "shareholding": 1,
-   "insider": 1
-  },
+  "attempted": 0,
+  "ok": {},
   "blocked": false,
   "checked": 0,
   "demo": false

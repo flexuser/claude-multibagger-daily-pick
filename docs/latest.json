@@ -229,13 +229,8 @@
   "latest annual results are dated 2025-03-31": 1
  },
  "signals": {
-  "attempted": 1,
-  "ok": {
-   "announcements": 1,
-   "pledge": 1,
-   "shareholding": 1,
-   "insider": 1
-  },
+  "attempted": 0,
+  "ok": {},
   "blocked": false,
   "checked": 35,
   "demo": false
@@ -292,10 +287,10 @@
    "quality": 77.4,
    "discovery": 40.1,
    "valuation": 0.0,
-   "confirm": 87.8,
+   "confirm": 88.0,
    "ownership": 26.6,
    "catalyst": 68.7,
-   "context": 44.1
+   "context": 44.3
   },
   "flags": [
    {
@@ -440,14 +435,14 @@
    {
     "group": "Confirm",
     "label": "RSI (14)",
-    "value": "41.3",
+    "value": "41.7",
     "ok": true,
     "why": "Avoid chasing extreme overbought readings when possible."
    },
    {
     "group": "Context",
     "label": "6m return vs theme peers",
-    "value": "80.7 pp",
+    "value": "81.3 pp",
     "ok": true,
     "why": "Positive means the stock is outperforming others in the same structural theme (sector sentiment proxy)."
    },
@@ -515,7 +510,7 @@
     "neg": false
    }
   ],
-  "price": 3172.7,
+  "price": 3179.5,
   "price_date": "2026-10-15",
   "fundamentals_as_of": "2026-10-13",
   "spark": [
@@ -666,7 +661,7 @@
    3223.2,
    3165.6,
    3204.9,
-   3172.7
+   3179.5
   ],
   "diligence": {
    "verdict": "yellow",
@@ -707,15 +702,15 @@
   "themes": [
    "Energy transition"
   ],
-  "rs_6m": 94.9993,
+  "rs_6m": 95.3063,
   "q_accel": null
  },
  "bench": [
   {
    "ticker": "TIPSMUSIC.NS",
    "name": "TIPS MUSIC LIMITED",
-   "score": 65.7,
-   "price": 714.0,
+   "score": 65.8,
+   "price": 716.35,
    "sector": "Entertainment",
    "line": "rev CAGR 26% \u00b7 ROCE 110%"
   },
@@ -723,23 +718,23 @@
    "ticker": "WEBELSOLAR.NS",
    "name": "WEBSOL ENERGY SYSTEM LTD",
    "score": 62.2,
-   "price": 68.25,
+   "price": 68.24,
    "sector": "Solar",
    "line": "Electronics and semiconductors, Energy transition \u00b7 ROCE 49%"
   },
   {
    "ticker": "SENORES.NS",
    "name": "SENORES PHARMACEUTICALS L",
-   "score": 61.4,
-   "price": 1285.5,
+   "score": 61.5,
+   "price": 1295.0,
    "sector": "Drug Manufacturers - General",
    "line": "Healthcare and diagnostics \u00b7 ROCE 14%"
   },
   {
    "ticker": "ATLANTAELE.NS",
    "name": "ATLANTA ELECTRICALS LTD",
-   "score": 61.2,
-   "price": 1752.0,
+   "score": 61.1,
+   "price": 1742.4,
    "sector": "Electrical Equipment & Parts",
    "line": "Energy transition, Railways and infrastructure \u00b7 rev CAGR 28% \u00b7 ROCE 32%"
   }
@@ -750,8 +745,8 @@
    "ticker": "ACUTAAS.NS",
    "name": "ACUTAAS CHEMICALS LIMITED",
    "days": 1,
-   "ret": -0.9323,
-   "nifty_ret": 2.1967,
+   "ret": -0.998,
+   "nifty_ret": 2.2971,
    "active": false
   },
   {
@@ -759,8 +754,8 @@
    "ticker": "SEDEMAC.NS",
    "name": "SEDEMAC MECHATRONICS LTD",
    "days": 10,
-   "ret": -6.172,
-   "nifty_ret": 1.6315,
+   "ret": -5.9709,
+   "nifty_ret": 1.7313,
    "active": true
   }
  ],
@@ -768,7 +763,7 @@
   "episodes": 2,
   "measured": 2,
   "beat": 0,
-  "avg_excess": -5.4663
+  "avg_excess": -5.4986
  },
  "dd_rejected": [],
  "dd_blocked": false,
@@ -777,7 +772,7 @@
   {
    "ticker": "BLS.NS",
    "name": "BLS INTL SERVS LTD",
-   "score": 52.4,
+   "score": 52.3,
    "events": [
     {
      "date": "2026-09-30",
@@ -822,7 +817,7 @@
   {
    "ticker": "AKUMS.NS",
    "name": "AKUMS DRUGS AND PHARMA L",
-   "score": 52.6,
+   "score": 52.5,
    "events": [
     {
      "date": "2026-07-04",
