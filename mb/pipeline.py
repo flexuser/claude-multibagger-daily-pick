@@ -565,7 +565,6 @@ def run(
             universe=universe_n,
             liquid=len(liquid),
         )
-        from mb.utils import save_json
         save_json(SNAPSHOT_DIR / f"{today}.json", snap)
         result["rulebook_version"] = RULEBOOK_VERSION
         result["outcome_policy"] = (
