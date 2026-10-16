@@ -8,7 +8,7 @@ from mb.diligence import normalize
 
 
 def test_sanitize_clears_absurd():
-    # Extreme but plausible growth is retained and flagged (not erased)
+    # Extreme but plausible growth is retained and flagged (not erased as risk signal)
     m = sanitize_metrics(dict(rev_cagr=999, op_margin=15, pe=30, roce=20))
     assert m["rev_cagr"] == 999
     assert m["op_margin"] == 15

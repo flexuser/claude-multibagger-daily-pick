@@ -306,7 +306,6 @@ def run(
             if m.get("pledge") is None and (sigs.get(tk) or {}).get("pledge") is not None:
                 m["pledge"] = sigs[tk]["pledge"]
             fl = red_flags(m)
-            from mb.scoring import classify
             decision = classify(m, fl)
             m["_decision"] = decision
             if decision["outcome"] != "shortlist":
@@ -356,15 +355,28 @@ def run(
     status = dict(attempted=0, ok={}, blocked=False, checked=0, demo=demo)
     top = scored[: CFG["signal_top_n"]]
     if not top and not demo:
-        # Soft pass: rank by coverage of non-ownership fields for signal enrichment
+        # Soft pass for NSE enrichment: only names inside the shortlist mcap band
+        from mb.config import GATES
         soft = []
         for tk, trow in liquid.items():
             f = cache.get(tk)
             if not f or f.get("failed"):
                 continue
-            soft.append(dict(ticker=tk, score=float(f.get("roce") or 0)))
+            mc = f.get("mcap_cr")
+            if mc is None:
+                continue
+            if mc < GATES["min_mcap_cr"] or mc > GATES["max_mcap_cr"]:
+                continue
+            # Prefer higher ROCE + presence of recent growth fields
+            score = float(f.get("roce") or 0)
+            if f.get("q_rev_yoy") is not None:
+                score += 5
+            if f.get("cfo_pat") is not None:
+                score += 3
+            soft.append(dict(ticker=tk, score=score))
         soft.sort(key=lambda x: -x["score"])
         top = soft[: CFG["signal_top_n"]]
+        print(f"Soft signal candidates in mcap band: {len(top)} (of {len(soft)} ranked)")
     if top:
         if demo:
             for s_ in top:

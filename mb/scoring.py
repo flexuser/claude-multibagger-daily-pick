@@ -222,7 +222,7 @@ def classify(m: dict, flags: Optional[list] = None) -> dict[str, Any]:
     mc = m.get("mcap_cr")
     if mc is not None:
         if mc < G["min_mcap_cr"] or mc > G["max_mcap_cr"]:
-            fail.append(f"mcap {mc:.0f} cr outside shortlist band ({G['min_mcap_cr']}-{G['max_mcap_cr']})")
+            fail.append(f"mcap outside shortlist band ({G['min_mcap_cr']}-{G['max_mcap_cr']} cr)")
 
     # Growth: multi-year AND recent sales; op-profit evidence required
     if m.get("rev_cagr") is not None and m["rev_cagr"] < G["min_sales_cagr"]:
