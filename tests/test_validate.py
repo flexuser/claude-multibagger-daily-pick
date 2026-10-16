@@ -8,10 +8,15 @@ from mb.diligence import normalize
 
 
 def test_sanitize_clears_absurd():
+    # Extreme but plausible growth is retained and flagged (not erased)
     m = sanitize_metrics(dict(rev_cagr=999, op_margin=15, pe=30, roce=20))
-    assert m["rev_cagr"] is None
+    assert m["rev_cagr"] == 999
     assert m["op_margin"] == 15
-    assert "rev_cagr" in m["_sanity_cleared"]
+    assert "rev_cagr" in (m.get("_sanity_extreme") or [])
+    # Truly impossible values outside EXTREME_KEEP still clear
+    m2 = sanitize_metrics(dict(op_margin=999, pe=30))
+    assert m2["op_margin"] is None
+    assert "op_margin" in m2["_sanity_cleared"]
 
 
 def test_sanitize_nan():
