@@ -15,14 +15,37 @@ PICKS_JSON = DATA / "picks.json"
 SIGNALS_JSON = DATA / "signals.json"
 DD_JSON = DATA / "diligence.json"
 SIGNALS_DEBUG = DATA / "signals_debug.json"
+SNAPSHOT_DIR = DATA / "snapshots"
+RULEBOOK_VERSION = "2026-10-16.1"
+
+# Research-shortlist gates.
+# Safety rules → Fail. Cohort preferences → Watchlist if the rest is intact.
+GATES = dict(
+    min_mcap_cr=300,
+    max_mcap_cr=8000,
+    min_sales_cagr=15,
+    min_recent_sales=8,
+    min_roce=15,
+    min_cfo_pat=0.7,
+    watch_cfo_pat=0.4,
+    max_de_shortlist=0.5,
+    max_de_fail=1.2,
+    max_pledge=5,
+    min_promoter=40,
+    min_promoter_fail=25,
+    max_dilution=12,
+    max_pe=25,
+    max_peg=1.2,
+    max_recv_chg=80,
+)
 
 # ---------------------------------------------------------------------------
 # Universe & liquidity gates
 # ---------------------------------------------------------------------------
 CFG = dict(
     # Market-cap band (Rs crore). Below = nano / manipulative; above = hard to 10x.
-    min_mcap_cr=400,
-    max_mcap_cr=25000,
+    min_mcap_cr=300,  # aligned with GATES
+    max_mcap_cr=8000,  # aligned with GATES shortlist band
     # Avg daily turnover last ~3 months
     min_turnover_cr=1.5,
     min_price=20,
@@ -45,9 +68,9 @@ CFG = dict(
     # Annual results older than this = stale
     stale_annual_days=420,
     # Promoter pledge % above this = hard reject
-    max_pledge=20,
+    max_pledge=5,
     # Minimum ROCE for quality gate
-    min_roce=12,
+    min_roce=15,
     # Max debt/equity for quality gate
     max_de=1.2,
     # Max 3y dilution %
@@ -57,36 +80,22 @@ CFG = dict(
     max_analysts=12,
 )
 
-# ---------------------------------------------------------------------------
-# Pillar weights (sum does not need to be 100; composite is weighted avg)
-# Higher weight on proof / quality / catalyst for true multibagger edge
-# ---------------------------------------------------------------------------
+# Rank only names that already passed every shortlist gate.
+# A missing dimension is not reweighted; composite() returns None.
 WEIGHTS = dict(
-    runway=9,        # theme + still-small revenue base + policy keyword hits
-    moat=8,          # ROCE, margins, keyword proxies
-    proof=16,        # growth + acceleration (most important)
-    leverage=11,     # operating leverage / profit vs sales
-    quality=13,      # capital quality, cash conversion, coverage
-    discovery=6,     # still under-owned / under-covered
-    valuation=6,     # PE/PEG not extreme
-    confirm=8,       # price/volume/RSI/structure confirmation
-    ownership=8,     # promoter + smart-money trends
-    catalyst=7,      # expansion, orders, capex
-    context=8,       # sector/theme RS, news sentiment, market regime
+    quality=25,
+    growth=25,
+    cash=20,
+    price=20,
+    discovery=10,
 )
 
 PILLAR_NAMES = dict(
-    runway="Runway (theme + small base)",
-    moat="Moat (proxy)",
-    proof="Proof (growth acceleration)",
-    leverage="Operating leverage",
-    quality="Capital quality",
-    discovery="Still undiscovered",
-    valuation="Valuation vs growth",
-    confirm="Market confirmation",
-    ownership="Ownership and smart money",
-    catalyst="Expansion and catalysts",
-    context="Context (sector, news, regime)",
+    quality="Quality (ROCE)",
+    growth="Growth (history + recent)",
+    cash="Cash and balance sheet",
+    price="Price vs growth",
+    discovery="Discovery (tie-break only)",
 )
 
 # ---------------------------------------------------------------------------
@@ -178,7 +187,7 @@ SHORT_TERM = dict(
     # Liquidity
     min_price=30.0,
     min_avg_turnover_cr=1.5,
-    min_volume_surge=1.15,          # confirmable interest, not extreme          # slightly easier volume confirmation
+    min_volume_surge=1.15,
 
     # ATR & Risk
     atr_period=14,
@@ -192,7 +201,7 @@ SHORT_TERM = dict(
     rsi_max=74,
     rsi_min=32,
     min_confidence=55,              # base threshold
-    min_confidence_risk_off=62,     # was 68; still stricter than normal     # higher bar when market is weak
+    min_confidence_risk_off=62,
 
     # Structure
     swing_lookback=7,
@@ -204,7 +213,7 @@ SHORT_TERM = dict(
     # How many top liquid names to scan for short-term signals
     max_scan=180,
     # Max signals to show on the page
-    max_show=3,                   # only best 3 per day
+    max_show=3,
 )
 
 # Path for short-term signals cache

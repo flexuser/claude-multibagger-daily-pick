@@ -75,6 +75,22 @@ def classify_announcement(desc, text):
     # 'stake in' / 'acquire' also appears in routine promoter disclosures; require a deal-like word
     if "acquisition" in cats and not any(w in t for w in ("acqui", "takeover", "merger", "amalgam", "subsidiary", "arrangement")):
         cats.remove("acquisition")
+    # Investor SAST / Regulation 29 is not a company acquisition
+    if "acquisition" in cats and any(
+        w in t for w in (
+            "sast", "regulation 29", "regulation 31", "substantial acquisition",
+            "disclosure under", "shareholding", "encumbrance",
+        )
+    ):
+        cats.remove("acquisition")
+    # ESOP / listing / shareholder approvals are not commercial catalysts
+    if "approval" in cats and any(
+        w in t for w in (
+            "esop", "employee stock", "in-principle", "listing of equity",
+            "shareholder", "postal value", "stock option", "scheme",
+        )
+    ):
+        cats.remove("approval")
     return cats
 
 

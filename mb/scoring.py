@@ -1,18 +1,46 @@
+
 """
-Pillar scoring, red flags, and hard eligibility gates tuned for
-potential multi-year multibaggers in Indian small/mid caps.
+Research-shortlist scoring and classification (Phase 1).
+
+Outcomes:
+  fail      — verified disqualifier; never ranked
+  unknown   — critical field missing/stale/untrusted; never ranked
+  watchlist — may qualify later; ranked only as research backlog
+  shortlist — all mandatory gates pass (NOT a buy call)
+
+Thresholds are research-policy hypotheses until Phase 2 validation.
 """
 from __future__ import annotations
 
 import datetime as dt
 from typing import Any, Optional
 
-from mb.config import CFG, WEIGHTS
+from mb.config import CFG, GATES, WEIGHTS
 from mb.utils import avg, ramp, ramp_inv
 
 
+# Mandatory for Research shortlist. Advisory fields must not fill these holes.
+CRITICAL_FIELDS = (
+    "rev_cagr",          # multi-year sales growth
+    "q_rev_yoy",         # recent same-quarter YoY revenue
+    "q_profit_yoy",      # recent profit evidence (proxy for OP until explicit OP field)
+    "roce",
+    "cfo_pat",
+    "de",
+    "insider_pct",       # promoter holding
+    "dilution",
+    "pe",
+    "mcap_cr",
+)
+# pledge often only from NSE signals — missing means cannot shortlist (watchlist), not data error
+
+# Source trust: until filing parsers exist, free vendors are unverified.
+# Critical gates cannot PASS shortlist on a single unverified vendor alone
+# without explicit source_ok flag — but for Phase 1 practicality we tag
+# source and require presence; mark evidence_grade down if unverified.
+
+
 def trend_score(x: Optional[float]) -> Optional[float]:
-    """Price vs 200-DMA: mild premium is good; extreme premium is chase risk."""
     if x is None:
         return None
     if x < 0:
@@ -29,7 +57,7 @@ def icr_score(m: dict) -> Optional[float]:
 
 
 def data_suspect(m: dict) -> Optional[str]:
-    if (m.get("rev_cagr") or 0) > 150 or (m.get("q_rev_yoy") or 0) > 300:
+    if (m.get("rev_cagr") or 0) > 200 or (m.get("q_rev_yoy") or 0) > 400:
         return "revenue growth looks like a data error"
     if (m.get("op_margin") or 0) > 80 or (m.get("roce") or 0) > 150:
         return "margin or ROCE looks like a data error"
@@ -47,155 +75,60 @@ def stale_reason(m: dict) -> Optional[str]:
     return None
 
 
+def evidence_coverage(m: dict) -> float:
+    present = sum(1 for k in CRITICAL_FIELDS if m.get(k) is not None)
+    return present / max(1, len(CRITICAL_FIELDS))
+
+
 def score_pillars(m: dict) -> dict[str, Optional[float]]:
+    """Five independent dimensions. Each metric used once. No keywords/capex/events."""
     rs = None
     if m.get("ret_6m") is not None and m.get("nifty_6m") is not None:
         rs = m["ret_6m"] - m["nifty_6m"]
     m["rs_6m"] = rs
-
-    spread = None
-    if m.get("profit_cagr") is not None and m.get("rev_cagr") is not None:
-        spread = ramp(m["profit_cagr"] - m["rev_cagr"], -5, 15)
 
     accel = None
     if m.get("q_rev_yoy") is not None and m.get("rev_cagr") is not None:
         accel = m["q_rev_yoy"] - m["rev_cagr"]
     m["q_accel"] = accel
 
-    theme_n = len(m.get("themes") or [])
-
-    deliv = m.get("delivery_pct")
-    deliv_score = ramp(deliv, 30, 60) if deliv is not None else None
-
-    # RSI: prefer not extreme overbought for entry quality
-    rsi = m.get("rsi_14")
-    rsi_score = None
-    if rsi is not None:
-        if 40 <= rsi <= 65:
-            rsi_score = 90.0
-        elif 30 <= rsi < 40 or 65 < rsi <= 75:
-            rsi_score = 60.0
-        elif rsi < 30:
-            rsi_score = 45.0  # oversold — possible value, not momentum confirm
-        else:
-            rsi_score = 25.0  # extended
-
-    # Trend structure (higher highs/lows)
-    struct = m.get("trend_structure")
-    struct_score = 80.0 if struct == 1 else (35.0 if struct == 0 else None)
-
-    # Golden cross proxy
-    ma_x = m.get("ma50_vs_200")
-    ma_score = ramp(ma_x, -5, 8) if ma_x is not None else None
-
-    # Policy keyword hits in blurb/news/filings (soft)
-    pol = m.get("policy_hits")
-    pol_score = ramp(pol, 0, 3) if pol is not None else None
-
-    # Theme peer relative strength (sector sentiment proxy)
-    theme_rs = m.get("theme_rs_6m")
-    theme_rs_score = ramp(theme_rs, -15, 20) if theme_rs is not None else None
-
-    # News headline sentiment
-    ns = m.get("news_sentiment")
-    ns_score = ramp(ns, 30, 75) if ns is not None else None
-
-    # Market regime: mild penalty in risk_off (not a hard reject)
-    regime = m.get("market_regime")
-    regime_score = {"risk_on": 75.0, "neutral": 55.0, "risk_off": 30.0}.get(regime)
-
     return dict(
-        runway=avg([
-            min(theme_n, 2) / 2 * 100,
-            ramp_inv(m.get("revenue_cr"), 300, 4000),
-            ramp(m.get("rev_cagr"), 12, 40),
-            pol_score,
+        quality=ramp(m.get("roce"), 12, 30),
+        growth=avg([
+            ramp(m.get("rev_cagr"), 12, 35),
+            ramp(m.get("q_rev_yoy"), 8, 40),
+            ramp(m.get("q_profit_yoy"), 0, 45),
         ]),
-        moat=avg([
-            ramp(m.get("roce"), 12, 30),
-            ramp(m.get("op_margin"), 10, 25),
-            min(m.get("moat_kw") or 0, 3) / 3 * 100,
-            None if m.get("roce_chg") is None else (100 if m["roce_chg"] >= -2 else 30),
-        ]),
-        proof=avg([
-            ramp(m.get("rev_cagr"), 12, 40),
-            ramp(m.get("q_rev_yoy"), 8, 45),
-            ramp(accel, -5, 18),
-            ramp(m.get("q_opm_chg"), -1, 4),
-            ramp(m.get("profit_cagr"), 12, 40),
-        ]),
-        leverage=avg([
-            ramp(m.get("op_margin_chg"), -2, 6),
-            spread,
-            ramp(m.get("roce_chg"), -2, 8),
-            ramp(m.get("q_profit_yoy"), 0, 50),
-        ]),
-        quality=avg([
-            ramp(m.get("roce"), 12, 28),
-            ramp_inv(m.get("de"), 0, 1.2),
-            ramp_inv(m.get("dilution"), 0, 12),
-            ramp(m.get("insider_pct"), 30, 65),
-            None if m.get("fcf_positive") is None else (100 if m["fcf_positive"] else 25),
-            ramp(m.get("cfo_pat"), 0.5, 1.1),
+        cash=avg([
+            ramp(m.get("cfo_pat"), 0.5, 1.2),
+            ramp_inv(m.get("de"), 0, 0.8),
+            ramp_inv(m.get("recv_days_chg_pct"), 0, 60),
             icr_score(m),
-            ramp_inv(m.get("recv_days_chg_pct"), 0, 35),
+        ]),
+        price=avg([
+            ramp_inv(m.get("pe"), 8, 25),
+            ramp_inv(m.get("peg"), 0.4, 1.2) if m.get("peg") is not None else ramp_inv(m.get("pe"), 8, 25),
         ]),
         discovery=avg([
-            ramp_inv(m.get("mcap_cr"), 1200, 22000),
-            ramp_inv(m.get("inst_pct"), 5, 35),
-            ramp_inv(m.get("analysts"), 1, 12),
-        ]),
-        valuation=avg([
-            ramp_inv(m.get("peg"), 0.8, 2.5),
-            ramp_inv(m.get("pe"), 20, 80),
-        ]),
-        confirm=avg([
-            trend_score(m.get("above_200dma")),
-            ramp(m.get("from_52w_high"), -35, -5),
-            ramp(rs, -8, 35),
-            ramp(m.get("vol_ratio"), 0.85, 1.5),
-            deliv_score,
-            rsi_score,
-            struct_score,
-            ma_score,
-        ]),
-        ownership=avg([
-            ramp(m.get("promoter_chg"), -1.5, 3),
-            ramp_inv(m.get("pledge"), 0, 18),
-            ramp_inv(m.get("pledge_chg"), -2, 2),
-            ramp(m.get("fii_chg"), -1, 3),
-            ramp(m.get("dii_chg"), -1, 3),
-            ramp(m.get("pit_net_cr"), -1, 4),
-        ]),
-        catalyst=avg([
-            m.get("event_score"),
-            ramp(m.get("capex_rev_pct"), 4, 18),
-            ramp(m.get("cwip_growth"), 15, 100),
-            ramp(m.get("gppe_growth"), 5, 40),
-            None if m.get("acquisition") is None else (75 if m["acquisition"] else 25),
-        ]),
-        context=avg([
-            theme_rs_score,
-            ns_score,
-            regime_score,
-            pol_score,
-            ramp(m.get("ret_1m"), -10, 15),
+            ramp_inv(m.get("mcap_cr"), 800, 8000),
+            ramp_inv(m.get("inst_pct"), 5, 40) if m.get("inst_pct") is not None else ramp_inv(m.get("mcap_cr"), 800, 8000),
         ]),
     )
 
 
 def composite(p: dict) -> Optional[float]:
+    """No hidden reweighting: every WEIGHTS key must be a finite number."""
     num_, den = 0.0, 0.0
     for k, w in WEIGHTS.items():
         v = p.get(k)
         if v is None:
-            continue
+            return None
         try:
             fv = float(v)
         except (TypeError, ValueError):
-            continue
-        if fv != fv:  # NaN
-            continue
+            return None
+        if fv != fv:
+            return None
         num_ += fv * w
         den += w
     if not den:
@@ -230,7 +163,7 @@ def red_flags(m: dict) -> list[dict]:
         add("med", f"Promoter holding only {m['insider_pct']:.0f}%.")
     if m.get("above_200dma") is not None and m["above_200dma"] > 60:
         add("med", "Price is far above its 200-day average: chasing risk.")
-    if m.get("pledge") is not None and m["pledge"] > 15:
+    if m.get("pledge") is not None and m["pledge"] > 5:
         add("high", f"{m['pledge']:.0f}% of promoter shares are pledged.")
     if m.get("pledge_chg") is not None and m["pledge_chg"] > 4:
         add("high", f"Promoter pledge rose {m['pledge_chg']:.0f} pp over the past year.")
@@ -249,73 +182,168 @@ def red_flags(m: dict) -> list[dict]:
     return f
 
 
-def eligible(m: dict, pil: dict, flags: list[dict]) -> tuple[bool, str]:
+def classify(m: dict, flags: Optional[list] = None) -> dict[str, Any]:
     """
-    Hard gates for a credible multibagger candidate.
-    Returns (ok, reason_if_rejected).
+    Return outcome classification.
+
+    Manual exceptions must stay watchlist until evidence resolves the gap;
+    they cannot enter shortlist solely via override.
     """
-    # Sector
+    flags = flags or []
+    G = GATES
+    fail: list[str] = []
+    unknown: list[str] = []
+    watch: list[str] = []
+    needs: list[str] = []
+
     sector = (m.get("fin_sector") or m.get("sector") or "").lower()
     if any(w in sector for w in ("bank", "finance", "insurance", "nbfc", "housing finance")):
-        return False, "financial sector"
+        fail.append("financial sector excluded")
 
-    # Data quality
     sus = data_suspect(m)
     if sus:
-        return False, sus
+        fail.append(sus)
+
     stale = stale_reason(m)
     if stale:
-        return False, stale
+        unknown.append(stale)
 
-    # Size & liquidity already applied upstream; re-check mcap
+    # Critical presence
+    for k in CRITICAL_FIELDS:
+        if m.get(k) is None:
+            unknown.append(f"missing critical field: {k}")
+
+    # Pledge: required for shortlist; if missing → watchlist (often NSE not yet fetched)
+    if m.get("pledge") is None:
+        watch.append("pledge not verified")
+        needs.append("verified promoter pledge % from shareholding filing")
+
+    # Size
     mc = m.get("mcap_cr")
-    if mc is not None and (mc < CFG["min_mcap_cr"] or mc > CFG["max_mcap_cr"]):
-        return False, f"mcap {mc:.0f} cr outside band"
+    if mc is not None:
+        if mc < G["min_mcap_cr"] or mc > G["max_mcap_cr"]:
+            fail.append(f"mcap {mc:.0f} cr outside shortlist band ({G['min_mcap_cr']}-{G['max_mcap_cr']})")
 
-    # Growth floor — require either solid CAGR or strong recent quarter
-    growth_ok = (
-        (m.get("rev_cagr") is not None and m["rev_cagr"] >= CFG["min_growth"])
-        or (m.get("q_rev_yoy") is not None and m["q_rev_yoy"] >= CFG["min_growth"])
-        or (m.get("profit_cagr") is not None and m["profit_cagr"] >= CFG["min_growth"])
-    )
-    if not growth_ok:
-        return False, "insufficient growth"
+    # Growth: multi-year AND recent sales; op-profit evidence required
+    if m.get("rev_cagr") is not None and m["rev_cagr"] < G["min_sales_cagr"]:
+        fail.append(f"sales CAGR {m['rev_cagr']:.0f}% below {G['min_sales_cagr']}%")
 
-    # Profitability
-    if m.get("op_margin") is not None and m["op_margin"] < 5:
-        return False, "operating margin too low"
-    if m.get("roce") is not None and m["roce"] < CFG["min_roce"]:
-        return False, f"ROCE below {CFG['min_roce']}%"
+    if m.get("q_rev_yoy") is not None and m["q_rev_yoy"] < G["min_recent_sales"]:
+        watch.append(f"recent sales growth {m['q_rev_yoy']:.0f}% weak vs {G['min_recent_sales']}% floor")
+        needs.append("stronger same-quarter YoY revenue growth")
 
-    # Balance sheet quality
-    if m.get("de") is not None and m["de"] > CFG["max_de"]:
-        return False, "debt too high"
-    if m.get("dilution") is not None and m["dilution"] > CFG["max_dilution"]:
-        return False, "excessive dilution"
-    if m.get("pledge") is not None and m["pledge"] > CFG["max_pledge"]:
-        return False, f"pledge {m['pledge']:.0f}% above limit"
+    # Profit evidence: q_profit_yoy required; margin alone cannot substitute
+    if m.get("q_profit_yoy") is not None and m["q_profit_yoy"] < 0:
+        watch.append("recent profit growth negative")
+        needs.append("positive recent operating/profit growth")
 
-    # Negative filings from NSE signals
+    # Low-base / acquisition distortion
+    if (
+        m.get("profit_cagr") is not None
+        and m.get("rev_cagr") is not None
+        and m["profit_cagr"] > 80
+        and m["rev_cagr"] < 10
+    ):
+        fail.append("profit CAGR extreme vs weak sales — possible low-base or one-off")
+
+    # Quality
+    if m.get("roce") is not None and m["roce"] < G["min_roce"]:
+        fail.append(f"ROCE {m['roce']:.0f}% below {G['min_roce']}%")
+
+    # Cash
+    if m.get("cfo_pat") is not None:
+        if m["cfo_pat"] < G["watch_cfo_pat"]:
+            fail.append(f"CFO/PAT {m['cfo_pat']:.2f} too low")
+        elif m["cfo_pat"] < G["min_cfo_pat"]:
+            watch.append(f"CFO/PAT {m['cfo_pat']:.2f} below shortlist {G['min_cfo_pat']}")
+            needs.append(f"CFO/PAT at least {G['min_cfo_pat']}")
+
+    # Debt
+    if m.get("de") is not None:
+        if m["de"] > G["max_de_fail"]:
+            fail.append(f"debt/equity {m['de']:.2f} above fail limit")
+        elif m["de"] > G["max_de_shortlist"]:
+            watch.append(f"debt/equity {m['de']:.2f} above shortlist {G['max_de_shortlist']}")
+            needs.append(f"debt/equity ≤ {G['max_de_shortlist']}")
+
+    # Ownership
+    if m.get("pledge") is not None and m["pledge"] > G["max_pledge"]:
+        fail.append(f"pledge {m['pledge']:.0f}% above {G['max_pledge']}%")
+
+    if m.get("insider_pct") is not None:
+        if m["insider_pct"] < G["min_promoter_fail"]:
+            fail.append(f"promoter holding {m['insider_pct']:.0f}% too low")
+        elif m["insider_pct"] < G["min_promoter"]:
+            watch.append(f"promoter holding {m['insider_pct']:.0f}% below cohort preference {G['min_promoter']}%")
+            needs.append(f"promoter holding ≥ {G['min_promoter']}% or documented exception remains watchlist")
+
+    if m.get("dilution") is not None and m["dilution"] > G["max_dilution"]:
+        fail.append(f"dilution {m['dilution']:.0f}% above {G['max_dilution']}%")
+
+    # Valuation hypotheses
+    pe, peg = m.get("pe"), m.get("peg")
+    if pe is not None:
+        pe_ok = pe <= G["max_pe"] or (peg is not None and peg <= G["max_peg"] and pe <= 40)
+        if not pe_ok:
+            fail.append(f"valuation not acceptable (PE {pe:.0f}, PEG {peg})")
+
+    # Extreme but plausible working capital
+    if m.get("recv_days_chg_pct") is not None and m["recv_days_chg_pct"] > G["max_recv_chg"]:
+        fail.append(f"receivable days up {m['recv_days_chg_pct']:.0f}% — extreme deterioration")
+
+    # Governance critical negatives from filings
     neg = m.get("neg_count")
     if neg is None:
         neg = m.get("neg_events") or 0
     if neg and neg > 0:
-        return False, "negative filing"
+        fail.append("negative governance/regulatory filing")
 
-    # Red-flag budget
     high = sum(1 for f in flags if f.get("sev") == "high")
-    if high > CFG["max_high_flags"]:
-        return False, f"{high} high red flags"
+    if high > CFG.get("max_high_flags", 1):
+        fail.append(f"{high} high-severity red flags")
 
-    # Pillar coverage
-    present = sum(1 for v in pil.values() if v is not None)
-    if present < CFG["min_pillars"]:
-        return False, f"only {present} pillars populated"
+    # Manual override cannot create shortlist
+    if m.get("manual_exception"):
+        watch.append("manual exception — remains watchlist until evidence resolves gap")
+        needs.append("documented evidence resolving the failed cohort preference")
 
-    # Prefer still-undiscovered names (soft — only reject extreme cases)
-    if m.get("inst_pct") is not None and m["inst_pct"] > 55:
-        return False, "already heavily institutional"
-    if m.get("analysts") is not None and m["analysts"] > 20:
-        return False, "already heavily covered"
+    cov = evidence_coverage(m)
 
-    return True, ""
+    if fail:
+        outcome = "fail"
+    elif unknown:
+        outcome = "unknown"
+    elif watch:
+        outcome = "watchlist"
+    else:
+        outcome = "shortlist"
+
+    return dict(
+        outcome=outcome,
+        fail=fail,
+        unknown=unknown,
+        watch=watch,
+        needs=needs,  # what must change for watchlist → shortlist
+        coverage=round(cov, 3),
+        label={
+            "fail": "Fail",
+            "unknown": "Unknown",
+            "watchlist": "Watchlist",
+            "shortlist": "Research shortlist",
+        }[outcome],
+        disclaimer=(
+            "Research shortlist is not a buy call, target price, or portfolio instruction. "
+            "Thresholds are research-policy hypotheses until Phase 2 validation."
+            if outcome == "shortlist"
+            else None
+        ),
+    )
+
+
+def eligible(m: dict, pil: dict, flags: list[dict]) -> tuple[bool, str]:
+    """Backward-compatible wrapper: True only for research shortlist."""
+    d = classify(m, flags)
+    if d["outcome"] == "shortlist":
+        return True, ""
+    reasons = d["fail"] or d["unknown"] or d["watch"] or ["not shortlist"]
+    return False, reasons[0]

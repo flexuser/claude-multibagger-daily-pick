@@ -28,7 +28,7 @@ from mb.utils import load_json, save_json, num
 from mb.universe import load_universe
 from mb.prices import fetch_prices, enrich_delivery
 from mb.fundamentals import fetch_fundamentals
-from mb.scoring import score_pillars, composite, red_flags, eligible
+from mb.scoring import score_pillars, composite, red_flags, eligible, classify
 from mb.evidence import build_evidence, build_thesis, exit_triggers
 from mb.context import theme_peer_rs, attach_context
 from mb.validate import sanitize_metrics
@@ -65,7 +65,7 @@ def demo_data():
             name=name, sector=theme, blurb=f"Synthetic {theme} company for demo.",
             themes=[theme], moat_kw=2,
             mcap_cr=1500 + i * 800, revenue_cr=600 + i * 200,
-            pe=28 + i, peg=1.2 + i * 0.1,
+            pe=16 + i, peg=0.8,
             rev_cagr=22 + i * 3, profit_cagr=28 + i * 2,
             op_margin=14 + i, op_margin_chg=1.5, roce=18 + i, roce_chg=1,
             de=0.2, dilution=2, insider_pct=52, inst_pct=12, analysts=3,
@@ -302,21 +302,23 @@ def run(
                 m["delivery_pct"] = t["delivery_pct"]
             attach_context(m, theme_rs_map, nifty)
             m = sanitize_metrics(m)
-            pil = score_pillars(m)
-            sc = composite(pil)
+            # Merge ownership from signals if present
+            if m.get("pledge") is None and (sigs.get(tk) or {}).get("pledge") is not None:
+                m["pledge"] = sigs[tk]["pledge"]
             fl = red_flags(m)
-            ok, why = eligible(m, pil, fl)
-            if sc is None:
-                continue
-            if not ok:
+            from mb.scoring import classify
+            decision = classify(m, fl)
+            m["_decision"] = decision
+            if decision["outcome"] != "shortlist":
+                why = (decision["fail"] or decision["unknown"] or decision["watch"] or ["other"])[0]
                 rejected_[why] = rejected_.get(why, 0) + 1
-                if why.startswith("negative filing"):
+                if "negative" in why:
                     bad = [
                         e for e in (m.get("events") or [])
                         if any(c in NEGATIVE for c in e.get("cats", []))
                     ][:2]
                     neg_detail.append(dict(
-                        ticker=tk, name=m.get("name"), score=round(sc, 1),
+                        ticker=tk, name=m.get("name"), score=None,
                         events=[
                             dict(
                                 date=e.get("date"),
@@ -327,22 +329,42 @@ def run(
                         ],
                     ))
                 continue
+            pil = score_pillars(m)
+            sc = composite(pil)
+            if sc is None:
+                rejected_["incomplete dimensions"] = rejected_.get("incomplete dimensions", 0) + 1
+                continue
             scored_.append(dict(
                 ticker=tk, m=m, pil=pil, score=sc, flags=fl, spark=t.get("spark"),
+                decision=decision, coverage=decision.get("coverage"),
             ))
         scored_.sort(key=lambda x: -x["score"])
         return scored_, rejected_
 
     sigs: dict = {}
+    # Demo: ownership signals available immediately (no NSE)
+    if demo:
+        for tk in liquid:
+            sigs[tk] = demo_signals(tk)
     scored, rejected = evaluate(sigs)
     print(
         f"With fundamentals: {sum(1 for k in liquid if k in cache and not cache[k].get('failed'))}; "
-        f"eligible before signals: {len(scored)}"
+        f"eligible before signals: {len(scored)}; rejected_sample={list(rejected.items())[:5]}"
     )
 
-    # ---- NSE signals for top candidates
+    # ---- NSE signals for top candidates (and soft candidates if shortlist empty)
     status = dict(attempted=0, ok={}, blocked=False, checked=0, demo=demo)
     top = scored[: CFG["signal_top_n"]]
+    if not top and not demo:
+        # Soft pass: rank by coverage of non-ownership fields for signal enrichment
+        soft = []
+        for tk, trow in liquid.items():
+            f = cache.get(tk)
+            if not f or f.get("failed"):
+                continue
+            soft.append(dict(ticker=tk, score=float(f.get("roce") or 0)))
+        soft.sort(key=lambda x: -x["score"])
+        top = soft[: CFG["signal_top_n"]]
     if top:
         if demo:
             for s_ in top:
@@ -405,16 +427,9 @@ def run(
         neg_filing_rejects=neg_detail[:10],
     )
 
-    # ---- hysteresis
+    # No hysteresis: research shortlist is pure rank of names that passed gates
     order = list(scored)
     held = False
-    if picks and order:
-        prev = picks[-1]["ticker"]
-        for idx, s_ in enumerate(order[:8]):
-            if s_["ticker"] == prev and idx > 0 and order[0]["score"] - s_["score"] < CFG["hysteresis"]:
-                order.insert(0, order.pop(idx))
-                held = True
-                break
 
     # ---- AI due diligence gate
     dd_cache = load_json(DD_JSON, {})
@@ -529,8 +544,39 @@ def run(
     else:
         print("No pick today.")
 
+    # Immutable daily snapshot (Phase 1 bridge to Phase 2 live validation)
+    try:
+        from mb.config import RULEBOOK_VERSION, SNAPSHOT_DIR
+        SNAPSHOT_DIR.mkdir(parents=True, exist_ok=True)
+        snap = dict(
+            date=today,
+            rulebook_version=RULEBOOK_VERSION,
+            demo=demo,
+            shortlist=[
+                dict(
+                    ticker=s.get("ticker"),
+                    score=s.get("score"),
+                    coverage=s.get("coverage"),
+                    decision=s.get("decision"),
+                )
+                for s in order[:20]
+            ],
+            rejected_counts=rejected,
+            universe=universe_n,
+            liquid=len(liquid),
+        )
+        from mb.utils import save_json
+        save_json(SNAPSHOT_DIR / f"{today}.json", snap)
+        result["rulebook_version"] = RULEBOOK_VERSION
+        result["outcome_policy"] = (
+            "Research shortlist is not a buy call. Thresholds are hypotheses until Phase 2."
+        )
+    except Exception as e:
+        print(f"Snapshot write failed: {e}")
+
     # Track record
     result["track"], result["track_summary"] = track_episodes(picks, prices, nifty)
+
 
     # Render unified tabbed page (includes swing signals if available)
     from mb.config import SHORT_JSON

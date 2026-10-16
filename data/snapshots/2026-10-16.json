@@ -1,0 +1,85 @@
+{
+ "date": "2026-10-16",
+ "rulebook_version": "2026-10-16.1",
+ "demo": true,
+ "shortlist": [
+  {
+   "ticker": "DEMOE.NS",
+   "score": 66.1159,
+   "coverage": 1.0,
+   "decision": {
+    "outcome": "shortlist",
+    "fail": [],
+    "unknown": [],
+    "watch": [],
+    "needs": [],
+    "coverage": 1.0,
+    "label": "Research shortlist",
+    "disclaimer": "Research shortlist is not a buy call, target price, or portfolio instruction. Thresholds are research-policy hypotheses until Phase 2 validation."
+   }
+  },
+  {
+   "ticker": "DEMOD.NS",
+   "score": 64.263,
+   "coverage": 1.0,
+   "decision": {
+    "outcome": "shortlist",
+    "fail": [],
+    "unknown": [],
+    "watch": [],
+    "needs": [],
+    "coverage": 1.0,
+    "label": "Research shortlist",
+    "disclaimer": "Research shortlist is not a buy call, target price, or portfolio instruction. Thresholds are research-policy hypotheses until Phase 2 validation."
+   }
+  },
+  {
+   "ticker": "DEMOC.NS",
+   "score": 62.4101,
+   "coverage": 1.0,
+   "decision": {
+    "outcome": "shortlist",
+    "fail": [],
+    "unknown": [],
+    "watch": [],
+    "needs": [],
+    "coverage": 1.0,
+    "label": "Research shortlist",
+    "disclaimer": "Research shortlist is not a buy call, target price, or portfolio instruction. Thresholds are research-policy hypotheses until Phase 2 validation."
+   }
+  },
+  {
+   "ticker": "DEMOB.NS",
+   "score": 60.5572,
+   "coverage": 1.0,
+   "decision": {
+    "outcome": "shortlist",
+    "fail": [],
+    "unknown": [],
+    "watch": [],
+    "needs": [],
+    "coverage": 1.0,
+    "label": "Research shortlist",
+    "disclaimer": "Research shortlist is not a buy call, target price, or portfolio instruction. Thresholds are research-policy hypotheses until Phase 2 validation."
+   }
+  },
+  {
+   "ticker": "DEMOA.NS",
+   "score": 58.7043,
+   "coverage": 1.0,
+   "decision": {
+    "outcome": "shortlist",
+    "fail": [],
+    "unknown": [],
+    "watch": [],
+    "needs": [],
+    "coverage": 1.0,
+    "label": "Research shortlist",
+    "disclaimer": "Research shortlist is not a buy call, target price, or portfolio instruction. Thresholds are research-policy hypotheses until Phase 2 validation."
+   }
+  }
+ ],
+ "rejected_counts": {},
+ "universe": 5,
+ "liquid": 5
+}

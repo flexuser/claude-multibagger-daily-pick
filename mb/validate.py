@@ -88,9 +88,18 @@ def sanitize_metrics(m: dict) -> dict:
                 cleared.append(k)
             out[k] = None
             continue
+        # Extreme but plausible: keep value, flag it (do not erase risk signals)
+        EXTREME_KEEP = {
+            "recv_days_chg_pct", "profit_cagr", "rev_cagr", "cwip_growth",
+            "capex_rev_pct", "gppe_growth", "q_profit_yoy", "q_rev_yoy",
+        }
         if v < lo or v > hi:
-            cleared.append(k)
-            out[k] = None
+            if k in EXTREME_KEEP and abs(v) < 1e6:
+                out[k] = v
+                out.setdefault("_sanity_extreme", []).append(k)
+            else:
+                cleared.append(k)
+                out[k] = None
         else:
             out[k] = v
 

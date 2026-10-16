@@ -91,7 +91,7 @@ def _multibagger_html(r: dict) -> str:
     h: List[str] = []
 
     if not pick:
-        h.append('<div class="panel"><p>No multibagger pick today.</p></div>')
+        h.append('<div class="panel"><p>No research shortlist name today.</p></div>')
         return "".join(h)
 
     m = pick.get("m") or pick
@@ -103,7 +103,7 @@ def _multibagger_html(r: dict) -> str:
 
     h.append('<div class="panel">')
     h.append('<div class="row">')
-    h.append(f'<div><div class="nm">{name}</div><div class="tk">{ticker} · Multibagger candidate</div></div>')
+    h.append(f'<div><div class="nm">{name}</div><div class="tk">{ticker} · Research shortlist (not a buy call)</div></div>')
     if score is not None:
         h.append(f'<div class="score">{score:.0f}<small>score</small></div>')
     h.append("</div>")
@@ -115,6 +115,8 @@ def _multibagger_html(r: dict) -> str:
             price_fmt = str(price)
         h.append(f'<p class="meta">Last ~₹{price_fmt} · Longer-term horizon (months+)</p>')
 
+    if pick.get('disclaimer') or True:
+        h.append('<p class="note">Research shortlist only — not a buy call, target, or portfolio instruction. Thresholds are research-policy hypotheses until Phase 2 validation.</p>')
     if thesis:
         h.append(f'<p>{thesis}</p>')
 

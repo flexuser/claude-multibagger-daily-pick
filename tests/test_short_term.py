@@ -66,4 +66,4 @@ if __name__ == "__main__":
     test_swing_levels()
     test_generate_buy()
     test_position_size()
-    print("All short-term tests passed")
+    print("test_short_term: OK")

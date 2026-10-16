@@ -117,13 +117,17 @@ def _sig_to_row(s: dict) -> dict:
 
 
 def load_swing_history() -> List[Dict[str, Any]]:
-    """Load history from Supabase if configured, else JSON."""
+    """
+    Load history from Supabase if configured, merged with local JSON.
+    Merge key = (date, ticker). Supabase wins on conflict; JSON fills gaps
+    so a new empty table does not wipe prior JSON history.
+    """
+    local = load_json(SWING_HISTORY_JSON, []) or []
     client = _get_client()
     if client is None:
-        return load_json(SWING_HISTORY_JSON, [])
+        return local
 
     try:
-        # Active + last 100 closed
         r1 = (
             client.table("swing_signals")
             .select("*")
@@ -138,11 +142,25 @@ def load_swing_history() -> List[Dict[str, Any]]:
             .limit(100)
             .execute()
         )
-        rows = (r1.data or []) + (r2.data or [])
-        return [_row_to_sig(r) for r in rows]
+        remote = [_row_to_sig(r) for r in ((r1.data or []) + (r2.data or []))]
+        by_key = {}
+        # Local first, then remote overwrites
+        for s in local:
+            k = (str(s.get("date") or "")[:10], s.get("ticker"))
+            if k[1]:
+                by_key[k] = s
+        for s in remote:
+            k = (str(s.get("date") or "")[:10], s.get("ticker"))
+            if k[1]:
+                by_key[k] = s
+        merged = list(by_key.values())
+        print(
+            f"History load: JSON={len(local)} Supabase={len(remote)} merged={len(merged)}"
+        )
+        return merged
     except Exception as e:
         print(f"Supabase load failed, falling back to JSON: {e}")
-        return load_json(SWING_HISTORY_JSON, [])
+        return local
 
 
 def save_swing_history(history: List[Dict[str, Any]]) -> None:
