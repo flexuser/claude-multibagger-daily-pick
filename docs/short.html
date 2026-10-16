@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>Short-term Signals — 2026-10-14</title><style>
+<!DOCTYPE html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>Swing Signals — 2026-10-16</title><style>
 :root{--bg:#ECF0F2;--surface:#F8FAFB;--ink:#0F1E29;--muted:#5A6B77;--line:#CDD6DC;--accent:#0B5FA5;
 --good:#1B7F55;--warn:#B26A00;--bad:#B3261E;--empty:#D8E0E5;--soft:#E2E9ED;
 --display:'Avenir Next','Segoe UI',system-ui,sans-serif;--body:system-ui,-apple-system,'Segoe UI',sans-serif}
@@ -6,40 +6,58 @@
 --accent:#5DB0F0;--good:#4CC38A;--warn:#E3A33B;--bad:#F2726B;--empty:#26333E;--soft:#1D2A35}}
 *{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.55 var(--body)}
-.wrap{max-width:720px;margin:0 auto;padding:18px 16px 60px}
+.wrap{max-width:720px;margin:0 auto;padding:16px 14px 50px}
 h1,h2,h3{font-family:var(--display);margin:0;letter-spacing:-.01em}
-h1{font-size:26px;line-height:1.15}h2{font-size:19px;margin:0 0 8px}h3{font-size:15px;margin:14px 0 4px}
-.meta{color:var(--muted);font-size:13px;margin:4px 0 14px}
-.panel{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px;margin-bottom:12px}
-.banner{background:var(--soft);border:1px dashed var(--warn);color:var(--warn);border-radius:10px;padding:8px 12px;margin-bottom:12px;font-weight:600}
-.row{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}
-.nm{font-family:var(--display);font-weight:700;font-size:22px;line-height:1.15}
-.tk{color:var(--muted);font-size:13px}
-.score{font-family:var(--display);font-weight:700;font-size:44px;line-height:1;text-align:right}
-.score small{display:block;font:500 11px var(--body);color:var(--muted);margin-top:3px}
-.thesis{margin:12px 0 4px}
-svg.spark{width:100%;height:80px;display:block;margin:10px 0 2px}
-.pil{display:grid;grid-template-columns:1fr auto;gap:2px 10px;padding:7px 0;border-top:1px solid var(--line)}
-.pil:first-of-type{border-top:0}.pil .v{font-family:var(--display);font-weight:700}
-.bar{grid-column:1/-1;height:6px;background:var(--empty);border-radius:3px;overflow:hidden}
-.bar span{display:block;height:100%;background:var(--accent)}.bar .g{background:var(--good)}.bar .l{background:var(--warn)}
-table{width:100%;border-collapse:collapse;font-size:14px}
-td,th{padding:7px 4px;border-top:1px solid var(--line);vertical-align:top;text-align:left}
-th{font-weight:600;color:var(--muted);font-size:12.5px;border-top:0}
-td.mk{width:22px;font-weight:700;text-align:center}.ok{color:var(--good)}.no{color:var(--warn)}.na{color:var(--muted)}
-td.val{white-space:nowrap;font-weight:600}
-.why{display:block;color:var(--muted);font-size:12.5px;font-weight:400}
-.grp td{background:var(--soft);font-weight:700;font-size:13px;border-top:1px solid var(--line)}
-.flag{padding:6px 0 6px 16px;position:relative;border-top:1px solid var(--line)}
-.flag:first-of-type{border-top:0}.flag:before{content:"";position:absolute;left:0;top:13px;width:8px;height:8px;border-radius:50%;background:var(--warn)}
-.flag.high:before{background:var(--bad)}
-ul{margin:6px 0 0;padding-left:20px}li{margin:4px 0}
-.note{color:var(--muted);font-size:12.5px}
+h1{font-size:22px;line-height:1.2}h2{font-size:17px;margin:0 0 8px}h3{font-size:14px;margin:12px 0 4px}
+.meta{color:var(--muted);font-size:12.5px;margin:3px 0 12px}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:13px;margin-bottom:11px}
+.row{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}
+.nm{font-family:var(--display);font-weight:700;font-size:20px;line-height:1.15}
+.tk{color:var(--muted);font-size:12.5px}
+.score{font-family:var(--display);font-weight:700;font-size:36px;line-height:1;text-align:right}
+.score small{display:block;font:500 11px var(--body);color:var(--muted);margin-top:2px}
+table{width:100%;border-collapse:collapse;font-size:13.5px}
+td,th{padding:6px 3px;border-top:1px solid var(--line);vertical-align:top;text-align:left}
+th{font-weight:600;color:var(--muted);font-size:12px;border-top:0}
+td.val{font-weight:600;white-space:nowrap}
 .pos{color:var(--good);font-weight:600}.neg{color:var(--bad);font-weight:600}
-.scroll{overflow-x:auto}
-.chip{display:inline-block;font-weight:700;font-size:12.5px;border:1px solid currentColor;border-radius:6px;padding:2px 9px}
+.note{color:var(--muted);font-size:12px}
+.chip{display:inline-block;font-weight:700;font-size:11.5px;border:1px solid currentColor;border-radius:5px;padding:1px 7px}
 .chip.green{color:var(--good)}.chip.yellow{color:var(--warn)}.chip.red{color:var(--bad)}.chip.none{color:var(--muted)}
-.dd h3{margin:12px 0 2px;color:var(--muted);font-size:12.5px;text-transform:uppercase;letter-spacing:.04em}
-.dd p{margin:0 0 4px}
-a{color:var(--accent);word-break:break-all}
-</style></head><body><div class='wrap'><h1>Short-term Technical Signals</h1><p class='meta'>2026-10-14 · Regime: <strong>risk_off</strong> · Nifty 22745 (-1.6% 1m)</p><div class='panel'><p class='note'>Signals are for <strong>1 day to ~2 weeks</strong> holding. Entry = breakout level. SL = ATR-based. Targets = progressive ATR multiples. Always use the stop-loss. This is a screening aid, not advice.</p></div><div class='panel'><div class='row'><div><div class='nm'>DEMOA</div><div class='tk'>Confidence 78/100</div></div><div class='score'>78<small>score</small></div></div><table style='margin-top:10px'><tr><th>Entry (Buy above)</th><td class='val'>312.5</td></tr><tr><th>Stop Loss</th><td class='val' style='color:var(--bad)'>289.0</td></tr><tr><th>Target 1</th><td class='val' style='color:var(--good)'>328.0</td></tr><tr><th>Target 2</th><td class='val' style='color:var(--good)'>345.0</td></tr><tr><th>Target 3</th><td class='val' style='color:var(--good)'>368.0</td></tr><tr><th>Risk:Reward (T1)</th><td class='val'>1 : 1.6</td></tr><tr><th>Holding</th><td>3-12 trading days</td></tr><tr><th>Invalidation</th><td class='note'>Daily close below 289.00</td></tr></table><p style='margin-top:10px'><strong>Why</strong></p><ul><li>Breakout above 308.0</li><li>Volume surge 1.90x</li><li>RSI healthy (58.2)</li><li>Above 20 DMA</li><li>Above 50 DMA</li></ul><p class='note'>RSI 58.2 · Vol 1.9x · ATR 9.8</p></div><div class='panel'><div class='row'><div><div class='nm'>DEMOB</div><div class='tk'>Confidence 71/100</div></div><div class='score'>71<small>score</small></div></div><table style='margin-top:10px'><tr><th>Entry (Buy above)</th><td class='val'>187.2</td></tr><tr><th>Stop Loss</th><td class='val' style='color:var(--bad)'>174.5</td></tr><tr><th>Target 1</th><td class='val' style='color:var(--good)'>196.0</td></tr><tr><th>Target 2</th><td class='val' style='color:var(--good)'>206.5</td></tr><tr><th>Target 3</th><td class='val' style='color:var(--good)'>218.0</td></tr><tr><th>Risk:Reward (T1)</th><td class='val'>1 : 1.5</td></tr><tr><th>Holding</th><td>3-12 trading days</td></tr><tr><th>Invalidation</th><td class='note'>Daily close below 174.50</td></tr></table><p style='margin-top:10px'><strong>Why</strong></p><ul><li>Breakout above 185.0</li><li>Volume surge 1.55x</li><li>RSI healthy (61.4)</li><li>Above 20 DMA</li></ul><p class='note'>RSI 61.4 · Vol 1.55x · ATR 5.4</p></div><div class='panel'><h2>How to use</h2><ul><li>Buy only on a clear break above the Entry level with volume.</li><li>Place Stop Loss immediately. Never move it against you.</li><li>Book partial profits at T1, trail the rest toward T2/T3.</li><li>If market regime turns risk_off, reduce size or stay in cash.</li><li>This is a technical screening tool. Combine with your own judgement.</li></ul></div><p class='meta'><a href='index.html'>← Multibagger daily pick</a> · Generated 2026-10-14</p></div></body></html>
+ul{margin:5px 0 0;padding-left:18px}li{margin:3px 0}
+a{color:var(--accent)}
+.tabs{display:flex;gap:0;margin-bottom:14px;border-bottom:2px solid var(--line)}
+.tab{flex:1;text-align:center;padding:10px 6px;font-weight:600;font-size:14px;color:var(--muted);cursor:pointer;border:none;background:none;font-family:var(--body)}
+.tab.active{color:var(--accent);border-bottom:2px solid var(--accent);margin-bottom:-2px}
+.tab-panel{display:none}.tab-panel.active{display:block}
+.stale{background:var(--soft);border-left:3px solid var(--warn)}
+.fresh{border-left:3px solid var(--good)}
+.stale{border-left:3px solid var(--warn);opacity:.92}
+.levels{display:grid;grid-template-columns:1fr 1fr;gap:6px 12px;margin-top:8px;font-size:13.5px}
+.levels div{display:flex;justify-content:space-between;align-items:center}
+.levels .l{color:var(--muted)}
+.levels .v{font-weight:700}
+.tgt-hit{background:rgba(27,127,85,.15);border-radius:6px;padding:2px 6px}
+.tgt-hit.t1{color:var(--good);border:1px solid var(--good)}
+.tgt-hit.t2{color:#0d9488;border:1px solid #0d9488}
+.tgt-hit.t3{color:#ca8a04;border:1px solid #ca8a04}
+.tgt-miss{opacity:.55}
+.stats-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-bottom:12px}
+@media(max-width:520px){.stats-grid{grid-template-columns:repeat(2,1fr)}}
+.stat{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:10px 8px;text-align:center}
+.stat .n{font-family:var(--display);font-weight:700;font-size:22px;line-height:1.1}
+.stat .l{font-size:11px;color:var(--muted);margin-top:2px}
+.stat.win .n{color:var(--good)}
+.stat.loss .n{color:var(--bad)}
+details.hist{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:10px 13px;margin-bottom:11px}
+details.hist summary{cursor:pointer;font-weight:600;font-size:14px;list-style:none}
+details.hist summary::-webkit-details-marker{display:none}
+details.hist summary::before{content:"▸ ";color:var(--muted)}
+details.hist[open] summary::before{content:"▾ "}
+.compact-table td,.compact-table th{padding:5px 4px;font-size:12.5px}
+.badge{display:inline-block;font-size:10.5px;font-weight:700;border-radius:4px;padding:1px 5px;margin-left:4px}
+.badge.ok{background:rgba(27,127,85,.18);color:var(--good)}
+.badge.bad{background:rgba(179,38,30,.15);color:var(--bad)}
+.badge.exp{background:var(--soft);color:var(--muted)}
+.banner{background:var(--soft);border:1px dashed var(--warn);color:var(--warn);border-radius:8px;padding:7px 11px;margin-bottom:11px;font-size:13px;font-weight:600}
+</style></head><body><div class='wrap'><h1>Swing Signals</h1><p class='meta'>2026-10-16 · <a href='index.html'>Full scanner →</a></p><div class="banner">Swing · Hold <strong>1–12 trading days</strong> · Regime: risk_off · Max 3 picks/day</div><div class="stats-grid"><div class="stat win"><div class="n">100.0%</div><div class="l">Hit rate</div></div><div class="stat"><div class="n">1.11</div><div class="l">Avg R</div></div><div class="stat win"><div class="n">2</div><div class="l">Targets hit</div></div><div class="stat"><div class="n">12</div><div class="l">Open calls</div></div></div><p class="note" style="margin:-4px 0 12px">Based on <strong>2</strong> closed signals · Stopped 0 · Expired 0. Hit rate = T1/T2/T3 before stop.</p><h2 style='margin:4px 0 8px'>Today's top 3</h2><div class="panel"><p class="note"><strong>Rule:</strong> Act only if <em>live</em> price is still near Entry. If last close already past T1, skip. Always use Stop Loss.</p></div><div class="panel fresh"><div class="row"><div><div class="nm">BSOFT</div><div class="tk">Confidence 79/100 · Swing (1–12 days) · last ~316.65 as of 2026-10-16</div></div><div class="score">79<small>score</small></div></div><div class="levels"><div><span class="l">Entry (Buy above)</span><span class="v">303.15</span></div><div><span class="l">Now (as of 2026-10-16)</span><span class="v">316.65 (+4.5%)</span></div><div><span class="l">Stop Loss</span><span class="v" style="color:var(--bad)">286.11</span></div><div><span class="l">Target 1</span><span class="v">322.08</span></div><div><span class="l">Target 2</span><span class="v">334.7</span></div><div><span class="l">Target 3</span><span class="v">348.59</span></div><div><span class="l">Risk : Reward</span><span class="v">1 : 1.11</span></div></div><p style='margin-top:8px'><strong>Why</strong></p><ul><li>Breakout above 302.85</li><li>Volume surge 1.16x</li><li>RSI healthy (72.0)</li><li>Above 20 DMA</li><li>Above 50 DMA</li></ul><p class="note" style="margin-top:6px">Invalidation: Daily close below 286.11</p></div><div class="panel fresh"><div class="row"><div><div class="nm">CPPLUS</div><div class="tk">Confidence 71/100 · Swing (1–12 days) · last ~4052.1 as of 2026-10-16</div></div><div class="score">71<small>score</small></div></div><div class="levels"><div><span class="l">Entry (Buy above)</span><span class="v">3903.9</span></div><div><span class="l">Now (as of 2026-10-16)</span><span class="v">4,052.10 (+3.8%)</span></div><div><span class="l">Stop Loss</span><span class="v" style="color:var(--bad)">3582.94</span></div><div><span class="l">Target 1</span><span class="v">4260.52</span></div><div><span class="l">Target 2</span><span class="v">4498.27</span></div><div><span class="l">Target 3</span><span class="v">4759.8</span></div><div><span class="l">Risk : Reward</span><span class="v">1 : 1.11</span></div></div><p style='margin-top:8px'><strong>Why</strong></p><ul><li>Breakout above 3900.00</li><li>Volume mild (0.51x)</li><li>RSI healthy (57.6)</li><li>Above 20 DMA</li><li>Above 50 DMA</li></ul><p class="note" style="margin-top:6px">Invalidation: Daily close below 3582.94</p></div><h2 style='margin:16px 0 8px'>Open calls</h2><div class="panel"><table class="compact-table"><tr><th>Stock</th><th>Entry</th><th>Now</th><th>SL</th><th>T1</th><th>Day</th><th>Status</th></tr><tr><td><strong>BHEL</strong></td><td>440.34</td><td>444.60</td><td class='neg'>418.73</td><td>464.36</td><td>0</td><td>Day 0</td></tr><tr><td><strong>AWL</strong></td><td>189.52</td><td>190.30</td><td class='neg'>181.52</td><td>198.41</td><td>1</td><td>Day 1</td></tr><tr><td><strong>BSOFT</strong></td><td>303.15</td><td>315.50</td><td class='neg'>287.01</td><td>321.08</td><td>1</td><td>Day 1</td></tr><tr><td><strong>ELECON</strong></td><td>489.99</td><td>492.60</td><td class='neg'>458.84</td><td>524.6</td><td>1</td><td>Day 1</td></tr><tr><td><strong>PERSISTENT</strong></td><td>5764.76</td><td>5,877.50</td><td class='neg'>5524.8</td><td>6031.39</td><td>0</td><td>Day 0</td></tr><tr><td><strong>BHARTIHEXA</strong></td><td>1568.97</td><td>1,615.10</td><td class='neg'>1497.46</td><td>1648.43</td><td>0</td><td>Day 0</td></tr><tr><td><strong>PTCIL</strong></td><td>24149.12</td><td>24,890.00</td><td class='neg'>22931.23</td><td>25502.33</td><td>1</td><td>Day 1</td></tr><tr><td><strong>PVRINOX</strong></td><td>1359.16</td><td>1,369.60</td><td class='neg'>1283.54</td><td>1443.18</td><td>1</td><td>Day 1</td></tr><tr><td><strong>SHYAMMETL</strong></td><td>1149.15</td><td>1,157.70</td><td class='neg'>1104.84</td><td>1198.38</td><td>1</td><td>Day 1</td></tr><tr><td><strong>BLUESTARCO</strong></td><td>1595.09</td><td>1,613.80</td><td class='neg'>1529.84</td><td>1667.59</td><td>0</td><td>Day 0</td></tr><tr><td><strong>GLAND</strong></td><td>3045.04</td><td>3,052.30</td><td class='neg'>2921.96</td><td>3181.8</td><td>1</td><td>Day 1</td></tr><tr><td><strong>JAYNECOIND</strong></td><td>96.48</td><td>97.52</td><td class='neg'>91.18</td><td>102.37</td><td>0</td><td>Day 0</td></tr></table></div><details class="hist"><summary>Track record · 2 closed · Hit rate 100.0%</summary><table class="compact-table" style="margin-top:8px"><tr><th>Date</th><th>Stock</th><th>Result</th><th>R</th><th>Days</th><th>T1</th><th>T2</th><th>T3</th></tr><tr><td>2026-10-16</td><td>LEMONTREE</td><td><span class="badge ok">T1 hit</span></td><td class='pos'>+1.11R</td><td>0</td><td>✓</td><td>—</td><td>—</td></tr><tr><td>2026-10-15</td><td>LEMONTREE</td><td><span class="badge ok">T1 hit</span></td><td class='pos'>+1.11R</td><td>1</td><td>✓</td><td>✓</td><td>—</td></tr></table><p class="note" style="margin-top:8px">Prediction accuracy = % of closed signals that hit at least T1 before stop/expiry. R = (exit − entry) / (entry − SL).</p></details><div class="panel"><p class="note">Technical screening only. Daily bars lag live prices — always verify on your broker. Not investment advice.</p></div></div></body></html>
