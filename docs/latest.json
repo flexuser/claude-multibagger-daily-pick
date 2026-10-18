@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-16",
+ "generated": "2026-10-18",
  "demo": false,
  "universe": 651,
  "liquid": 634,
@@ -17,7 +17,7 @@
   "sales CAGR 11% below 15%": 9,
   "revenue growth looks like a data error": 6,
   "sales CAGR 14% below 15%": 2,
-  "pledge not verified": 5,
+  "pledge not verified": 6,
   "sales CAGR 0% below 15%": 1,
   "sales CAGR -3% below 15%": 3,
   "sales CAGR -13% below 15%": 1,
@@ -50,7 +50,7 @@
   "ROCE 3% below 15%": 4,
   "receivable days up 81% \u2014 extreme deterioration": 1,
   "ROCE 7% below 15%": 3,
-  "pledge 14% above 5%": 1,
+  "dilution 100% above 12%": 1,
   "CFO/PAT 0.32 too low": 1,
   "sales CAGR -1% below 15%": 4,
   "sales CAGR 5% below 15%": 1,
@@ -80,18 +80,17 @@
   "sales CAGR -45% below 15%": 1,
   "ROCE 2% below 15%": 1,
   "valuation not acceptable (PE 44, PEG None)": 1,
-  "pledge 6% above 5%": 1,
   "valuation not acceptable (PE 34, PEG None)": 1,
-  "pledge 9% above 5%": 1,
+  "negative governance/regulatory filing": 1,
   "ROCE 8% below 15%": 1
  },
  "signals": {
-  "attempted": 28,
+  "attempted": 35,
   "ok": {
-   "announcements": 28,
-   "pledge": 28,
-   "shareholding": 28,
-   "insider": 28
+   "announcements": 35,
+   "pledge": 35,
+   "shareholding": 35,
+   "insider": 35
   },
   "blocked": false,
   "checked": 35,
@@ -131,8 +130,8 @@
    "ticker": "ACUTAAS.NS",
    "name": "ACUTAAS CHEMICALS LIMITED",
    "days": 1,
-   "ret": 0.1283,
-   "nifty_ret": 3.022,
+   "ret": 0.2972,
+   "nifty_ret": 3.2299,
    "active": false
   },
   {
@@ -140,8 +139,8 @@
    "ticker": "SEDEMAC.NS",
    "name": "SEDEMAC MECHATRONICS LTD",
    "days": 7,
-   "ret": -4.0604,
-   "nifty_ret": 2.4523,
+   "ret": -3.9776,
+   "nifty_ret": 2.6589,
    "active": true
   }
  ],
@@ -149,12 +148,36 @@
   "episodes": 2,
   "measured": 2,
   "beat": 0,
-  "avg_excess": -4.7032
+  "avg_excess": -4.7846
  },
  "dd_rejected": [],
  "dd_blocked": false,
  "dd_provider": null,
- "neg_filing_rejects": [],
+ "neg_filing_rejects": [
+  {
+   "ticker": "VIKRAMSOLR.NS",
+   "name": "VIKRAM SOLAR LIMITED",
+   "score": null,
+   "events": [
+    {
+     "date": "2026-06-30",
+     "labels": [
+      "Distress"
+     ],
+     "text": "Vikram Solar Limited has informed the Exchange about NCLAT order dated June 29, 2026 for setting aside NCLT order dated June 12, 2026",
+     "url": "https://nsearchives.nseindia.com/corporate/VSLCS_30062026173927_VSL_submission_of_NCLAT_order_dated_June_29_2026.pdf"
+    },
+    {
+     "date": "2026-06-29",
+     "labels": [
+      "Distress"
+     ],
+     "text": "Vikram Solar Limited has informed the Exchange about update on Corporate Insolvency Resolution Process",
+     "url": "https://nsearchives.nseindia.com/corporate/VSLCS_29062026172834_VSLINTIMATIONDTED29062026.pdf"
+    }
+   ]
+  }
+ ],
  "rulebook_version": "2026-10-16.1",
  "outcome_policy": "Research shortlist is not a buy call. Thresholds are hypotheses until Phase 2."
 }
