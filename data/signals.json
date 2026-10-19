@@ -2463,7 +2463,7 @@
   }
  },
  "SJS.NS": {
-  "fetched": "2026-10-18",
+  "fetched": "2026-10-19",
   "data": {
    "status": {
     "announcements": true,
@@ -2699,7 +2699,7 @@
   }
  },
  "GOLDIAM.NS": {
-  "fetched": "2026-10-18",
+  "fetched": "2026-10-19",
   "data": {
    "status": {
     "announcements": true,
@@ -2833,7 +2833,7 @@
   }
  },
  "JSLL.NS": {
-  "fetched": "2026-10-18",
+  "fetched": "2026-10-19",
   "data": {
    "status": {
     "announcements": true,
@@ -2915,8 +2915,8 @@
    "neg_events": 0,
    "pledge": null,
    "pledge_chg": null,
-   "promoter_chg": 0.09,
-   "promoter_now": 63.62,
+   "promoter_chg": 0.06,
+   "promoter_now": 63.67,
    "pit_net_cr": 0.0,
    "pit_buys": 0,
    "pit_sells": 0
@@ -3344,7 +3344,7 @@
   }
  },
  "SKIPPER.NS": {
-  "fetched": "2026-10-18",
+  "fetched": "2026-10-19",
   "data": {
    "status": {
     "announcements": true,
@@ -3472,7 +3472,7 @@
   }
  },
  "SHILCTECH.NS": {
-  "fetched": "2026-10-18",
+  "fetched": "2026-10-19",
   "data": {
    "status": {
     "announcements": true,
@@ -3564,7 +3564,7 @@
   }
  },
  "THYROCARE.NS": {
-  "fetched": "2026-10-18",
+  "fetched": "2026-10-19",
   "data": {
    "status": {
     "announcements": true,
@@ -3669,7 +3669,7 @@
   }
  },
  "VIKRAMSOLR.NS": {
-  "fetched": "2026-10-18",
+  "fetched": "2026-10-19",
   "data": {
    "status": {
     "announcements": true,
@@ -3749,24 +3749,6 @@
      "type": "Corporate Insolvency Resolution Process",
      "text": "Vikram Solar Limited has informed the Exchange about Public Announcement on  Corporate Insolvency Resolution Process",
      "url": "https://nsearchives.nseindia.com/corporate/VSLCS_22062026182405_VSL_Intimation_of_Public_Announcement_22_June_2026.pdf"
-    },
-    {
-     "date": "2026-06-19",
-     "cats": [
-      "distress"
-     ],
-     "type": "Corporate Insolvency Resolution Process",
-     "text": "Vikram Solar Limited has informed the Exchange about copy of the order passed by Hon'ble National Company Law Tribunal, Kolkata Bench",
-     "url": "https://nsearchives.nseindia.com/corporate/VSLCS_19062026181440_VSLINTIMATION19062026.pdf"
-    },
-    {
-     "date": "2026-06-19",
-     "cats": [
-      "distress"
-     ],
-     "type": "Corporate Insolvency Resolution Process",
-     "text": "Vikram Solar Limited has informed the Exchange about Corporate Insolvency Resolution Process",
-     "url": "https://nsearchives.nseindia.com/corporate/VSLCS_19062026171601_VSLINTIMATIONUR30DTED19062026.pdf"
     }
    ],
    "event_score": 0,
@@ -3774,9 +3756,9 @@
     "order_win": 1,
     "acquisition": 1,
     "expansion": 1,
-    "distress": 7
+    "distress": 5
    },
-   "neg_events": 7,
+   "neg_events": 5,
    "pledge": null,
    "pledge_chg": null,
    "promoter_chg": -0.11,
@@ -3831,7 +3813,7 @@
   }
  },
  "SUPRIYA.NS": {
-  "fetched": "2026-10-18",
+  "fetched": "2026-10-19",
   "data": {
    "status": {
     "announcements": true,
@@ -3853,7 +3835,7 @@
   }
  },
  "OSWALPUMPS.NS": {
-  "fetched": "2026-10-18",
+  "fetched": "2026-10-19",
   "data": {
    "status": {
     "announcements": true,
@@ -3875,7 +3857,7 @@
   }
  },
  "TRANSRAILL.NS": {
-  "fetched": "2026-10-18",
+  "fetched": "2026-10-19",
   "data": {
    "status": {
     "announcements": true,
@@ -4405,7 +4387,7 @@
   }
  },
  "SPARC.NS": {
-  "fetched": "2026-10-18",
+  "fetched": "2026-10-19",
   "data": {
    "status": {
     "announcements": true,
@@ -4621,7 +4603,7 @@
   }
  },
  "TTML.NS": {
-  "fetched": "2026-10-18",
+  "fetched": "2026-10-19",
   "data": {
    "status": {
     "announcements": true,
@@ -4686,7 +4668,7 @@
   }
  },
  "WEBELSOLAR.NS": {
-  "fetched": "2026-10-18",
+  "fetched": "2026-10-19",
   "data": {
    "status": {
     "announcements": true,
@@ -4720,7 +4702,7 @@
   }
  },
  "ASHOKA.NS": {
-  "fetched": "2026-10-18",
+  "fetched": "2026-10-19",
   "data": {
    "status": {
     "announcements": true,
@@ -5330,7 +5312,7 @@
   }
  },
  "CRAMC.NS": {
-  "fetched": "2026-10-18",
+  "fetched": "2026-10-19",
   "data": {
    "status": {
     "announcements": true,
@@ -5352,7 +5334,7 @@
   }
  },
  "GOKULAGRO.NS": {
-  "fetched": "2026-10-18",
+  "fetched": "2026-10-19",
   "data": {
    "status": {
     "announcements": true,
@@ -5374,7 +5356,7 @@
   }
  },
  "BAJAJCON.NS": {
-  "fetched": "2026-10-18",
+  "fetched": "2026-10-19",
   "data": {
    "status": {
     "announcements": true,
@@ -5396,7 +5378,7 @@
   }
  },
  "JAMNAAUTO.NS": {
-  "fetched": "2026-10-18",
+  "fetched": "2026-10-19",
   "data": {
    "status": {
     "announcements": true,
@@ -5430,7 +5412,7 @@
   }
  },
  "MSTCLTD.NS": {
-  "fetched": "2026-10-18",
+  "fetched": "2026-10-19",
   "data": {
    "status": {
     "announcements": true,
@@ -5452,7 +5434,7 @@
   }
  },
  "JYOTHYLAB.NS": {
-  "fetched": "2026-10-18",
+  "fetched": "2026-10-19",
   "data": {
    "status": {
     "announcements": true,
@@ -5474,7 +5456,7 @@
   }
  },
  "SHARDACROP.NS": {
-  "fetched": "2026-10-18",
+  "fetched": "2026-10-19",
   "data": {
    "status": {
     "announcements": true,
@@ -5496,7 +5478,7 @@
   }
  },
  "FIEMIND.NS": {
-  "fetched": "2026-10-18",
+  "fetched": "2026-10-19",
   "data": {
    "status": {
     "announcements": true,
@@ -5518,7 +5500,7 @@
   }
  },
  "SONATSOFTW.NS": {
-  "fetched": "2026-10-18",
+  "fetched": "2026-10-19",
   "data": {
    "status": {
     "announcements": true,
@@ -5552,7 +5534,7 @@
   }
  },
  "TANLA.NS": {
-  "fetched": "2026-10-18",
+  "fetched": "2026-10-19",
   "data": {
    "status": {
     "announcements": true,
@@ -5586,7 +5568,7 @@
   }
  },
  "STYLAMIND.NS": {
-  "fetched": "2026-10-18",
+  "fetched": "2026-10-19",
   "data": {
    "status": {
     "announcements": true,
@@ -5608,7 +5590,7 @@
   }
  },
  "CENTUM.NS": {
-  "fetched": "2026-10-18",
+  "fetched": "2026-10-19",
   "data": {
    "status": {
     "announcements": true,
@@ -5652,7 +5634,7 @@
   }
  },
  "NEWGEN.NS": {
-  "fetched": "2026-10-18",
+  "fetched": "2026-10-19",
   "data": {
    "status": {
     "announcements": true,
@@ -5727,7 +5709,7 @@
   }
  },
  "QUESS.NS": {
-  "fetched": "2026-10-18",
+  "fetched": "2026-10-19",
   "data": {
    "status": {
     "announcements": true,
@@ -5749,7 +5731,7 @@
   }
  },
  "MAPMYINDIA.NS": {
-  "fetched": "2026-10-18",
+  "fetched": "2026-10-19",
   "data": {
    "status": {
     "announcements": true,
@@ -5771,7 +5753,7 @@
   }
  },
  "REFEX.NS": {
-  "fetched": "2026-10-18",
+  "fetched": "2026-10-19",
   "data": {
    "status": {
     "announcements": true,
@@ -5933,7 +5915,7 @@
   }
  },
  "RAILTEL.NS": {
-  "fetched": "2026-10-18",
+  "fetched": "2026-10-19",
   "data": {
    "status": {
     "announcements": true,
@@ -6174,7 +6156,7 @@
   }
  },
  "POWERMECH.NS": {
-  "fetched": "2026-10-18",
+  "fetched": "2026-10-19",
   "data": {
    "status": {
     "announcements": true,
@@ -6183,6 +6165,15 @@
     "insider": true
    },
    "events": [
+    {
+     "date": "2026-10-19",
+     "cats": [
+      "order_win"
+     ],
+     "type": "Bagging/Receiving of orders/contracts",
+     "text": "Power Mech Projects Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
+     "url": "https://nsearchives.nseindia.com/corporate/POWERMECH_19102026123348_DISCLOSURE___1_.pdf"
+    },
     {
      "date": "2026-09-29",
      "cats": [
@@ -6222,7 +6213,7 @@
    ],
    "event_score": 42,
    "event_counts": {
-    "order_win": 4
+    "order_win": 5
    },
    "neg_events": 0,
    "pledge": null,
@@ -6235,7 +6226,7 @@
   }
  },
  "CAMPUS.NS": {
-  "fetched": "2026-10-18",
+  "fetched": "2026-10-19",
   "data": {
    "status": {
     "announcements": true,
@@ -6257,7 +6248,7 @@
   }
  },
  "BSOFT.NS": {
-  "fetched": "2026-10-18",
+  "fetched": "2026-10-19",
   "data": {
    "status": {
     "announcements": true,
@@ -6279,7 +6270,7 @@
   }
  },
  "SHAKTIPUMP.NS": {
-  "fetched": "2026-10-18",
+  "fetched": "2026-10-19",
   "data": {
    "status": {
     "announcements": true,
