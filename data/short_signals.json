@@ -880,7 +880,7 @@
    "t1": 4247.24,
    "t2": 4476.13,
    "t3": 4727.91,
-   "confidence": 71.0,
+   "confidence": 71,
    "status": "active",
    "outcome": null,
    "hit_t1": false,
@@ -890,6 +890,8 @@
    "exit_price": null,
    "exit_date": null,
    "r_multiple": null,
+   "last_price": 4010,
+   "as_of": "2026-10-19",
    "reasons": [
     "Breakout above 3900.00",
     "Volume mild (0.50x)",
@@ -898,9 +900,7 @@
     "Above 50 DMA",
     "HH-HL structure",
     "Risk-off regime \u2192 higher quality required"
-   ],
-   "last_price": 4010.0,
-   "as_of": "2026-10-19"
+   ]
   },
   {
    "date": "2026-10-20",
@@ -910,7 +910,7 @@
    "t1": 114.04,
    "t2": 117.41,
    "t3": 121.12,
-   "confidence": 71.0,
+   "confidence": 71,
    "status": "active",
    "outcome": null,
    "hit_t1": false,
@@ -920,6 +920,8 @@
    "exit_price": null,
    "exit_date": null,
    "r_multiple": null,
+   "last_price": 111.67,
+   "as_of": "2026-10-19",
    "reasons": [
     "Breakout above 108.87",
     "Volume mild (0.39x)",
@@ -928,9 +930,7 @@
     "Above 50 DMA",
     "HH-HL structure",
     "Risk-off regime \u2192 higher quality required"
-   ],
-   "last_price": 111.67,
-   "as_of": "2026-10-19"
+   ]
   },
   {
    "date": "2026-10-20",
@@ -940,7 +940,7 @@
    "t1": 322.58,
    "t2": 335.53,
    "t3": 349.78,
-   "confidence": 63.0,
+   "confidence": 63,
    "status": "active",
    "outcome": null,
    "hit_t1": false,
@@ -950,6 +950,8 @@
    "exit_price": null,
    "exit_date": null,
    "r_multiple": null,
+   "last_price": 312.6,
+   "as_of": "2026-10-19",
    "reasons": [
     "Breakout above 302.85",
     "Volume mild (0.48x)",
@@ -957,9 +959,7 @@
     "Above 20 DMA",
     "Above 50 DMA",
     "Risk-off regime \u2192 higher quality required"
-   ],
-   "last_price": 312.6,
-   "as_of": "2026-10-19"
+   ]
   },
   {
    "date": "2026-10-15",
@@ -978,7 +978,7 @@
    "days_held": 5,
    "exit_price": 458.84,
    "exit_date": "2026-10-19",
-   "r_multiple": -1.0,
+   "r_multiple": -1,
    "last_price": 492.6,
    "as_of": "2026-10-15",
    "reasons": [

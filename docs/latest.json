@@ -6,25 +6,25 @@
  "with_data": 634,
  "eligible": 0,
  "fund_stats": {
-  "attempted": 150,
+  "attempted": 147,
   "failed": 0
  },
  "rejected": {
-  "mcap outside shortlist band (300-8000 cr)": 477,
+  "mcap outside shortlist band (300-8000 cr)": 481,
   "sales CAGR 3% below 15%": 6,
   "missing critical field: q_rev_yoy": 1,
-  "sales CAGR 11% below 15%": 9,
   "revenue growth looks like a data error": 6,
   "sales CAGR 14% below 15%": 2,
-  "pledge not verified": 5,
   "sales CAGR 1% below 15%": 2,
   "sales CAGR 0% below 15%": 1,
-  "sales CAGR -3% below 15%": 3,
+  "sales CAGR -3% below 15%": 2,
   "sales CAGR -13% below 15%": 1,
   "CFO/PAT 0.09 too low": 1,
+  "sales CAGR 11% below 15%": 7,
   "valuation not acceptable (PE 102, PEG None)": 1,
   "sales CAGR -9% below 15%": 1,
   "sales CAGR 9% below 15%": 8,
+  "pledge not verified": 4,
   "sales CAGR -2% below 15%": 3,
   "ROCE 15% below 15%": 1,
   "sales CAGR 7% below 15%": 3,
@@ -86,12 +86,12 @@
   "ROCE 8% below 15%": 1
  },
  "signals": {
-  "attempted": 35,
+  "attempted": 1,
   "ok": {
-   "announcements": 35,
-   "pledge": 35,
-   "shareholding": 35,
-   "insider": 35
+   "announcements": 1,
+   "pledge": 1,
+   "shareholding": 1,
+   "insider": 1
   },
   "blocked": false,
   "checked": 35,

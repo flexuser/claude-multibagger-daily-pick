@@ -6456,9 +6456,9 @@
    "Export manufacturing"
   ],
   "moat_kw": 0,
-  "mcap_cr": 30526.7638,
+  "mcap_cr": 30446.1447,
   "revenue_cr": 88627.372,
-  "pe": 9.7144,
+  "pe": 6.8964,
   "peg": null,
   "rev_cagr": -6.6575,
   "profit_cagr": -10.1741,
@@ -6468,8 +6468,8 @@
   "roce_chg": -9.024,
   "de": 1.0806,
   "dilution": 0.0,
-  "insider_pct": 89.967,
-  "inst_pct": 2.034,
+  "insider_pct": 89.965,
+  "inst_pct": 1.773,
   "analysts": 2.0,
   "fcf_positive": 1,
   "q_rev_yoy": 55.528,
@@ -6488,7 +6488,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "MINDACORP.NS": {
   "name": "MINDA CORPORATION LTD",
@@ -6500,9 +6500,9 @@
    "Export manufacturing"
   ],
   "moat_kw": 0,
-  "mcap_cr": 15269.0393,
+  "mcap_cr": 14914.8205,
   "revenue_cr": 6066.1,
-  "pe": 30.9666,
+  "pe": 30.2482,
   "peg": null,
   "rev_cagr": 12.7877,
   "profit_cagr": 8.1917,
@@ -6513,7 +6513,7 @@
   "de": 0.5535,
   "dilution": 0.1315,
   "insider_pct": 67.469,
-  "inst_pct": 21.502,
+  "inst_pct": 21.736,
   "analysts": 8.0,
   "fcf_positive": 1,
   "q_rev_yoy": 39.7386,
@@ -6532,7 +6532,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "MSUMI.NS": {
   "name": "MOTHERSON SUMI WRNG IND L",
@@ -6543,9 +6543,9 @@
    "Healthcare and diagnostics"
   ],
   "moat_kw": 0,
-  "mcap_cr": 22395.1225,
+  "mcap_cr": 23462.8219,
   "revenue_cr": 11428.7,
-  "pe": 35.5474,
+  "pe": 37.2421,
   "peg": null,
   "rev_cagr": 17.625,
   "profit_cagr": 8.6834,
@@ -6556,7 +6556,7 @@
   "de": 0.1079,
   "dilution": 0.0,
   "insider_pct": 61.749,
-  "inst_pct": 20.835,
+  "inst_pct": 21.132,
   "analysts": 14.0,
   "fcf_positive": 1,
   "q_rev_yoy": 35.3372,
@@ -6575,7 +6575,7 @@
   "acquisition": null,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "NATCOPHARM.NS": {
   "name": "NATCO PHARMA LTD.",
@@ -6586,9 +6586,9 @@
    "Healthcare and diagnostics"
   ],
   "moat_kw": 0,
-  "mcap_cr": 14711.7195,
+  "mcap_cr": 14735.6402,
   "revenue_cr": 4044.5,
-  "pe": 12.6172,
+  "pe": 12.6377,
   "peg": null,
   "rev_cagr": 14.4634,
   "profit_cagr": 25.6359,
@@ -6599,7 +6599,7 @@
   "de": 0.0774,
   "dilution": -1.8415,
   "insider_pct": 50.878,
-  "inst_pct": 12.994,
+  "inst_pct": 13.323,
   "analysts": 9.0,
   "fcf_positive": 1,
   "q_rev_yoy": -44.676,
@@ -6618,7 +6618,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "NBCC.NS": {
   "name": "NBCC (INDIA) LIMITED",
@@ -6629,9 +6629,9 @@
    "Healthcare and diagnostics"
   ],
   "moat_kw": 0,
-  "mcap_cr": 20592.8989,
+  "mcap_cr": 19898.9988,
   "revenue_cr": 12608.0839,
-  "pe": 27.8358,
+  "pe": 26.8978,
   "peg": null,
   "rev_cagr": 12.8598,
   "profit_cagr": 39.25,
@@ -6642,7 +6642,7 @@
   "de": 0.0001,
   "dilution": 0.0,
   "insider_pct": 61.754,
-  "inst_pct": 14.513,
+  "inst_pct": 14.377,
   "analysts": 1.0,
   "fcf_positive": 1,
   "q_rev_yoy": -5.5573,
@@ -6661,7 +6661,7 @@
   "acquisition": null,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "NCC.NS": {
   "name": "NCC LIMITED",
@@ -6673,9 +6673,9 @@
    "Healthcare and diagnostics"
   ],
   "moat_kw": 0,
-  "mcap_cr": 7767.09,
+  "mcap_cr": 8023.8797,
   "revenue_cr": 20766.97,
-  "pe": 11.105,
+  "pe": 11.4722,
   "peg": null,
   "rev_cagr": 10.5038,
   "profit_cagr": 3.4943,
@@ -6686,7 +6686,7 @@
   "de": 0.5739,
   "dilution": 0.0,
   "insider_pct": 35.761,
-  "inst_pct": 22.981,
+  "inst_pct": 23.428,
   "analysts": 10.0,
   "fcf_positive": 0,
   "q_rev_yoy": -5.204,
@@ -6705,7 +6705,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "NSLNISP.NS": {
   "name": "NMDC STEEL LIMITED",
@@ -6715,9 +6715,9 @@
    "Railways and infrastructure"
   ],
   "moat_kw": 0,
-  "mcap_cr": 11552.4477,
+  "mcap_cr": 11786.897,
   "revenue_cr": 13641.81,
-  "pe": 135.931,
+  "pe": 138.6897,
   "peg": null,
   "rev_cagr": null,
   "profit_cagr": null,
@@ -6728,7 +6728,7 @@
   "de": 0.3502,
   "dilution": 0.0,
   "insider_pct": 60.794,
-  "inst_pct": 17.083,
+  "inst_pct": 17.082,
   "analysts": null,
   "fcf_positive": 1,
   "q_rev_yoy": 8.8143,
@@ -6747,7 +6747,7 @@
   "acquisition": null,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "NAVA.NS": {
   "name": "NAVA LIMITED",
@@ -6757,9 +6757,9 @@
    "Healthcare and diagnostics"
   ],
   "moat_kw": 0,
-  "mcap_cr": 15375.3764,
+  "mcap_cr": 15191.2219,
   "revenue_cr": 4269.0182,
-  "pe": 20.2954,
+  "pe": 20.0524,
   "peg": null,
   "rev_cagr": 6.7602,
   "profit_cagr": -5.3475,
@@ -6769,8 +6769,8 @@
   "roce_chg": -8.6944,
   "de": 0.2068,
   "dilution": -2.481,
-  "insider_pct": 50.502,
-  "inst_pct": 5.7,
+  "insider_pct": 50.497,
+  "inst_pct": 5.692,
   "analysts": null,
   "fcf_positive": 1,
   "q_rev_yoy": 1.5565,
@@ -6789,7 +6789,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "NAVINFLUOR.NS": {
   "name": "NAVIN FLUORINE INT. LTD",
@@ -6800,9 +6800,9 @@
    "Healthcare and diagnostics"
   ],
   "moat_kw": 0,
-  "mcap_cr": 43658.0712,
+  "mcap_cr": 41828.9385,
   "revenue_cr": 3262.23,
-  "pe": 55.264,
+  "pe": 52.9486,
   "peg": null,
   "rev_cagr": 16.4586,
   "profit_cagr": 20.933,
@@ -6813,7 +6813,7 @@
   "de": 0.3209,
   "dilution": 3.3838,
   "insider_pct": 28.594,
-  "inst_pct": 40.081,
+  "inst_pct": 40.739,
   "analysts": 29.0,
   "fcf_positive": 1,
   "q_rev_yoy": 49.0969,
@@ -6832,7 +6832,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "NETWEB.NS": {
   "name": "NETWEB TECH INDIA LTD",
@@ -6845,9 +6845,9 @@
    "Digital and data centres"
   ],
   "moat_kw": 0,
-  "mcap_cr": 29741.6098,
+  "mcap_cr": 27939.7532,
   "revenue_cr": 2183.563,
-  "pe": 108.9978,
+  "pe": 102.3943,
   "peg": null,
   "rev_cagr": 70.4414,
   "profit_cagr": 63.6783,
@@ -6858,7 +6858,7 @@
   "de": 0.3902,
   "dilution": 1.562,
   "insider_pct": 64.16,
-  "inst_pct": 11.485,
+  "inst_pct": 11.718,
   "analysts": 4.0,
   "fcf_positive": 1,
   "q_rev_yoy": 97.6809,
@@ -6877,7 +6877,7 @@
   "acquisition": null,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "NEULANDLAB.NS": {
   "name": "NEULAND LAB LTD.",
@@ -6887,9 +6887,9 @@
    "Healthcare and diagnostics"
   ],
   "moat_kw": 0,
-  "mcap_cr": 26583.5299,
+  "mcap_cr": 24659.0472,
   "revenue_cr": 1932.119,
-  "pe": 53.4062,
+  "pe": 49.5399,
   "peg": null,
   "rev_cagr": 18.5077,
   "profit_cagr": 30.5705,
@@ -6900,7 +6900,7 @@
   "de": 0.1607,
   "dilution": 0.0,
   "insider_pct": 37.736,
-  "inst_pct": 28.131,
+  "inst_pct": 27.954,
   "analysts": 4.0,
   "fcf_positive": 0,
   "q_rev_yoy": 119.1533,
@@ -6919,7 +6919,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "NUVAMA.NS": {
   "name": "NUVAMA WEALTH MANAGE LTD",
@@ -6927,9 +6927,9 @@
   "blurb": "Nuvama Wealth Management Limited engages in wealth management, asset management and services, and capital markets businesses in India and internationally. It operates through wealth management, asset management, and capital markets segments. The company offers financial products, investment advisory, lending against se",
   "themes": [],
   "moat_kw": 0,
-  "mcap_cr": 34135.4054,
+  "mcap_cr": 31068.7531,
   "revenue_cr": 2283.52,
-  "pe": 31.9021,
+  "pe": 29.036,
   "peg": null,
   "rev_cagr": 19.9555,
   "profit_cagr": 50.5495,
@@ -6940,7 +6940,7 @@
   "de": 2.8232,
   "dilution": 3.8029,
   "insider_pct": 57.122,
-  "inst_pct": 18.458,
+  "inst_pct": 18.247,
   "analysts": 9.0,
   "fcf_positive": 0,
   "q_rev_yoy": 0.4819,
@@ -6962,7 +6962,7 @@
    "ratio": 5.0
   },
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "NUVOCO.NS": {
   "name": "NUVOCO VISTAS CORP LTD",
@@ -6970,9 +6970,9 @@
   "blurb": "Nuvoco Vistas Corporation Limited manufactures and sale of cement and building materials products in India. It operates through Cement, and RMX and Other divisions. The company offers ordinary Portland, Portland slag, Portland pozzolana, and Portland composite cement products under the Concreto Uno, Duraguard, Double B",
   "themes": [],
   "moat_kw": 0,
-  "mcap_cr": 11289.7065,
+  "mcap_cr": 12195.0978,
   "revenue_cr": 11142.04,
-  "pe": 29.2414,
+  "pe": 31.5865,
   "peg": null,
   "rev_cagr": 2.6906,
   "profit_cagr": 182.9685,
@@ -6983,7 +6983,7 @@
   "de": 0.4806,
   "dilution": 0.0,
   "insider_pct": 72.018,
-  "inst_pct": 19.537,
+  "inst_pct": 19.765,
   "analysts": 19.0,
   "fcf_positive": 1,
   "q_rev_yoy": 2.842,
@@ -7002,7 +7002,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "OLAELEC.NS": {
   "name": "OLA ELECTRIC MOBILITY LTD",
@@ -7012,9 +7012,9 @@
    "Energy transition"
   ],
   "moat_kw": 0,
-  "mcap_cr": 15748.1779,
+  "mcap_cr": 15519.6998,
   "revenue_cr": 2061.0,
-  "pe": -13.3541,
+  "pe": -13.0822,
   "peg": null,
   "rev_cagr": -7.4574,
   "profit_cagr": null,
@@ -7024,8 +7024,8 @@
   "roce_chg": 5.5292,
   "de": 0.8245,
   "dilution": 1.772,
-  "insider_pct": 39.256,
-  "inst_pct": 24.659,
+  "insider_pct": 16.003,
+  "inst_pct": 24.378,
   "analysts": 8.0,
   "fcf_positive": 0,
   "q_rev_yoy": -25.5319,
@@ -7044,7 +7044,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "OLECTRA.NS": {
   "name": "OLECTRA GREENTECH LIMITED",
@@ -7055,9 +7055,9 @@
    "Railways and infrastructure"
   ],
   "moat_kw": 0,
-  "mcap_cr": 8654.5932,
+  "mcap_cr": 8570.8702,
   "revenue_cr": 2307.6801,
-  "pe": 48.7922,
+  "pe": 48.3202,
   "peg": null,
   "rev_cagr": 28.4197,
   "profit_cagr": 39.3496,
@@ -7068,7 +7068,7 @@
   "de": 0.3084,
   "dilution": 0.0,
   "insider_pct": 50.267,
-  "inst_pct": 5.186,
+  "inst_pct": 5.176,
   "analysts": null,
   "fcf_positive": 0,
   "q_rev_yoy": 65.7452,
@@ -7087,7 +7087,7 @@
   "acquisition": null,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "ONESOURCE.NS": {
   "name": "ONESOURCE SPECL PHARMA L",
@@ -7098,9 +7098,9 @@
    "Healthcare and diagnostics"
   ],
   "moat_kw": 0,
-  "mcap_cr": 17140.2904,
+  "mcap_cr": 15671.3206,
   "revenue_cr": 1421.59,
-  "pe": 19.7974,
+  "pe": 18.1007,
   "peg": null,
   "rev_cagr": 232.3804,
   "profit_cagr": null,
@@ -7111,7 +7111,7 @@
   "de": 0.2579,
   "dilution": 0.1618,
   "insider_pct": 35.49,
-  "inst_pct": 33.261,
+  "inst_pct": 33.339,
   "analysts": 4.0,
   "fcf_positive": 0,
   "q_rev_yoy": 37.2026,
@@ -7130,7 +7130,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "PCBL.NS": {
   "name": "PCBL CHEMICAL LIMITED",
@@ -7143,9 +7143,9 @@
    "Export manufacturing"
   ],
   "moat_kw": 0,
-  "mcap_cr": 12425.5478,
+  "mcap_cr": 11912.0798,
   "revenue_cr": 8126.35,
-  "pe": 47.632,
+  "pe": 45.6636,
   "peg": null,
   "rev_cagr": 12.2095,
   "profit_cagr": -23.49,
@@ -7156,7 +7156,7 @@
   "de": 1.2413,
   "dilution": 4.2388,
   "insider_pct": 7.055,
-  "inst_pct": 64.26,
+  "inst_pct": 64.484,
   "analysts": 11.0,
   "fcf_positive": 1,
   "q_rev_yoy": 18.4854,
@@ -7175,7 +7175,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "PGEL.NS": {
   "name": "PG ELECTROPLAST LTD",
@@ -7185,9 +7185,9 @@
    "Electronics and semiconductors"
   ],
   "moat_kw": 0,
-  "mcap_cr": 14999.534,
+  "mcap_cr": 14554.0334,
   "revenue_cr": 5105.282,
-  "pe": 73.2238,
+  "pe": 71.049,
   "peg": null,
   "rev_cagr": 33.761,
   "profit_cagr": 36.3939,
@@ -7197,8 +7197,8 @@
   "roce_chg": -6.2356,
   "de": 0.1957,
   "dilution": 25.4728,
-  "insider_pct": 45.056,
-  "inst_pct": 27.721,
+  "insider_pct": 44.58,
+  "inst_pct": 28.849,
   "analysts": 9.0,
   "fcf_positive": 0,
   "q_rev_yoy": 35.25,
@@ -7217,7 +7217,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "PNBHOUSING.NS": {
   "name": "PNB HOUSING FIN LTD.",
@@ -7225,9 +7225,9 @@
   "blurb": "PNB Housing Finance Limited operates as a housing finance company in India. It offers loans to individuals and corporate bodies for purchase, construction, repair, and upgradation of houses; loans for commercial space, and loans against property, as well as for purchase of residential plots; and home loans, property-re",
   "themes": [],
   "moat_kw": 0,
-  "mcap_cr": 31369.4978,
+  "mcap_cr": 29937.6837,
   "revenue_cr": 3617.44,
-  "pe": 13.5664,
+  "pe": 13.2155,
   "peg": null,
   "rev_cagr": 12.4937,
   "profit_cagr": 29.8712,
@@ -7238,7 +7238,7 @@
   "de": 2.8773,
   "dilution": 27.8,
   "insider_pct": 28.011,
-  "inst_pct": 54.979,
+  "inst_pct": 55.424,
   "analysts": 13.0,
   "fcf_positive": 0,
   "q_rev_yoy": 8.1033,
@@ -7257,7 +7257,7 @@
   "acquisition": null,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "PTCIL.NS": {
   "name": "PTC INDUSTRIES LIMITED",
@@ -7269,9 +7269,9 @@
    "Export manufacturing"
   ],
   "moat_kw": 2,
-  "mcap_cr": 40378.7907,
+  "mcap_cr": 39689.4339,
   "revenue_cr": 598.6437,
-  "pe": 304.2751,
+  "pe": 299.1162,
   "peg": null,
   "rev_cagr": 40.6797,
   "profit_cagr": 57.8633,
@@ -7279,10 +7279,10 @@
   "op_margin_chg": -4.5781,
   "roce": 7.5422,
   "roce_chg": -0.624,
-  "de": 0.1734,
+  "de": 0.1782,
   "dilution": 12.033,
-  "insider_pct": 66.765,
-  "inst_pct": 9.21,
+  "insider_pct": 63.164,
+  "inst_pct": 8.708,
   "analysts": 3.0,
   "fcf_positive": 0,
   "q_rev_yoy": 97.4316,
@@ -7301,7 +7301,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "PVRINOX.NS": {
   "name": "PVR INOX LIMITED",
@@ -7311,9 +7311,9 @@
    "Electronics and semiconductors"
   ],
   "moat_kw": 0,
-  "mcap_cr": 13410.2745,
+  "mcap_cr": 13478.527,
   "revenue_cr": 6603.8,
-  "pe": 50.3428,
+  "pe": 50.5991,
   "peg": null,
   "rev_cagr": 20.896,
   "profit_cagr": null,
@@ -7323,8 +7323,8 @@
   "roce_chg": 1.9869,
   "de": 0.9187,
   "dilution": 0.2375,
-  "insider_pct": 29.404,
-  "inst_pct": 42.275,
+  "insider_pct": 28.872,
+  "inst_pct": 41.678,
   "analysts": 16.0,
   "fcf_positive": 1,
   "q_rev_yoy": 31.8969,
@@ -7343,7 +7343,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "PARADEEP.NS": {
   "name": "PARADEEP PHOSPHATES LTD",
@@ -7351,9 +7351,9 @@
   "blurb": "Paradeep Phosphates Limited manufactures, trades, distributes, and sells urea and complex fertilizers in India. It sells its products through dealers and retailers under the Navratna and Jai Kisaan and Mangala brand names. The company offers di-ammonium phosphate; nitrogen, phosphorus, and potassium fertilizers; muriat",
   "themes": [],
   "moat_kw": 0,
-  "mcap_cr": 15251.7083,
+  "mcap_cr": 14981.6934,
   "revenue_cr": 10191.1729,
-  "pe": 14.2306,
+  "pe": 13.9787,
   "peg": null,
   "rev_cagr": 28.797,
   "profit_cagr": 48.5099,
@@ -7364,7 +7364,7 @@
   "de": 1.0182,
   "dilution": 27.4615,
   "insider_pct": 58.433,
-  "inst_pct": 22.322,
+  "inst_pct": 22.571,
   "analysts": 4.0,
   "fcf_positive": 0,
   "q_rev_yoy": 46.0255,
@@ -7383,7 +7383,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "PWL.NS": {
   "name": "PHYSICSWALLAH LIMITED",
@@ -7395,9 +7395,9 @@
    "Healthcare and diagnostics"
   ],
   "moat_kw": 0,
-  "mcap_cr": 40922.1169,
+  "mcap_cr": 37818.5646,
   "revenue_cr": 3876.97,
-  "pe": 1758.6251,
+  "pe": 1625.2501,
   "peg": null,
   "rev_cagr": 73.6064,
   "profit_cagr": null,
@@ -7408,7 +7408,7 @@
   "de": 0.2302,
   "dilution": 0.0,
   "insider_pct": 71.082,
-  "inst_pct": 21.785,
+  "inst_pct": 22.286,
   "analysts": 9.0,
   "fcf_positive": 1,
   "q_rev_yoy": 72.8855,
@@ -7427,7 +7427,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "PINELABS.NS": {
   "name": "PINE LABS LIMITED",
@@ -7437,9 +7437,9 @@
    "Railways and infrastructure"
   ],
   "moat_kw": 0,
-  "mcap_cr": 18824.7146,
+  "mcap_cr": 18913.6306,
   "revenue_cr": 2396.23,
-  "pe": 146.8649,
+  "pe": 147.5585,
   "peg": null,
   "rev_cagr": 20.9671,
   "profit_cagr": null,
@@ -7450,7 +7450,7 @@
   "de": 0.0747,
   "dilution": 0.0,
   "insider_pct": 27.246,
-  "inst_pct": 56.7,
+  "inst_pct": 64.322,
   "analysts": 11.0,
   "fcf_positive": 1,
   "q_rev_yoy": 23.099,
@@ -7469,7 +7469,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "PPLPHARMA.NS": {
   "name": "PIRAMAL PHARMA LIMITED",
@@ -7479,9 +7479,9 @@
    "Healthcare and diagnostics"
   ],
   "moat_kw": 0,
-  "mcap_cr": 26181.0405,
+  "mcap_cr": 25763.6598,
   "revenue_cr": 8758.82,
-  "pe": 48.6435,
+  "pe": 47.868,
   "peg": null,
   "rev_cagr": 7.5921,
   "profit_cagr": null,
@@ -7492,7 +7492,7 @@
   "de": 0.6998,
   "dilution": 8.845,
   "insider_pct": 54.529,
-  "inst_pct": 19.856,
+  "inst_pct": 19.939,
   "analysts": 11.0,
   "fcf_positive": 1,
   "q_rev_yoy": -17.5794,
@@ -7511,7 +7511,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "POLYMED.NS": {
   "name": "POLY MEDICURE LIMITED",
@@ -7521,9 +7521,9 @@
    "Healthcare and diagnostics"
   ],
   "moat_kw": 0,
-  "mcap_cr": 16571.5853,
+  "mcap_cr": 15718.1215,
   "revenue_cr": 1875.2592,
-  "pe": 52.6368,
+  "pe": 49.926,
   "peg": null,
   "rev_cagr": 19.1483,
   "profit_cagr": 22.7131,
@@ -7534,7 +7534,7 @@
   "de": 0.1123,
   "dilution": 5.6441,
   "insider_pct": 63.575,
-  "inst_pct": 18.206,
+  "inst_pct": 18.082,
   "analysts": 6.0,
   "fcf_positive": 0,
   "q_rev_yoy": 30.298,
@@ -7553,7 +7553,7 @@
   "acquisition": true,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "POONAWALLA.NS": {
   "name": "POONAWALLA FINCORP LTD",
@@ -7561,9 +7561,9 @@
   "blurb": "Poonawalla Fincorp Limited, a non-banking finance company, provides consumer and MSME financing services in India. The company offers prime personal, gold, education, consumer durable, commercial vehicle, shopkeeper, instant consumer, pre-owned car, business, mid-market, machinery and medical equipment, and professiona",
   "themes": [],
   "moat_kw": 0,
-  "mcap_cr": 39829.6121,
+  "mcap_cr": 39248.4159,
   "revenue_cr": 6490.61,
-  "pe": 35.3636,
+  "pe": 34.8475,
   "peg": null,
   "rev_cagr": 51.3629,
   "profit_cagr": -7.4731,
@@ -7573,8 +7573,8 @@
   "roce_chg": -7.9245,
   "de": 4.3121,
   "dilution": 5.2139,
-  "insider_pct": 60.361,
-  "inst_pct": 20.05,
+  "insider_pct": 60.364,
+  "inst_pct": 19.623,
   "analysts": 9.0,
   "fcf_positive": 0,
   "q_rev_yoy": 100.5416,
@@ -7593,7 +7593,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "PFOCUS.NS": {
   "name": "PRIME FOCUS LIMITED",
@@ -7603,9 +7603,9 @@
    "Specialty chemicals and CDMO"
   ],
   "moat_kw": 0,
-  "mcap_cr": 22853.1208,
+  "mcap_cr": 22455.9448,
   "revenue_cr": 4587.32,
-  "pe": 164.8596,
+  "pe": 161.9944,
   "peg": null,
   "rev_cagr": -0.2947,
   "profit_cagr": 14.0911,
@@ -7616,7 +7616,7 @@
   "de": 2.2457,
   "dilution": 159.0636,
   "insider_pct": 85.556,
-  "inst_pct": 0.52,
+  "inst_pct": 0.522,
   "analysts": 1.0,
   "fcf_positive": 1,
   "q_rev_yoy": 28.5889,
@@ -7635,7 +7635,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "PRIVISCL.NS": {
   "name": "PRIVI SPECIALITY CHE LTD",
@@ -7646,9 +7646,9 @@
    "Export manufacturing"
   ],
   "moat_kw": 0,
-  "mcap_cr": 13214.5218,
+  "mcap_cr": 12824.286,
   "revenue_cr": 2541.7638,
-  "pe": 37.7724,
+  "pe": 36.657,
   "peg": null,
   "rev_cagr": 16.5515,
   "profit_cagr": 145.2107,
@@ -7659,7 +7659,7 @@
   "de": 0.744,
   "dilution": 0.0,
   "insider_pct": 58.543,
-  "inst_pct": 9.356,
+  "inst_pct": 8.578,
   "analysts": 3.0,
   "fcf_positive": 1,
   "q_rev_yoy": 8.5844,
@@ -7678,7 +7678,7 @@
   "acquisition": null,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "RRKABEL.NS": {
   "name": "R R KABEL LIMITED",
@@ -7689,9 +7689,9 @@
    "Railways and infrastructure"
   ],
   "moat_kw": 0,
-  "mcap_cr": 30982.9927,
+  "mcap_cr": 27007.3332,
   "revenue_cr": 9587.0018,
-  "pe": 51.0017,
+  "pe": 44.4573,
   "peg": null,
   "rev_cagr": 20.0805,
   "profit_cagr": 37.3722,
@@ -7702,7 +7702,7 @@
   "de": 0.1309,
   "dilution": 0.254,
   "insider_pct": 69.992,
-  "inst_pct": 17.843,
+  "inst_pct": 17.608,
   "analysts": 15.0,
   "fcf_positive": 1,
   "q_rev_yoy": 42.851,
@@ -7721,7 +7721,7 @@
   "acquisition": null,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "RBLBANK.NS": {
   "name": "RBL BANK LIMITED",
@@ -7731,9 +7731,9 @@
    "Railways and infrastructure"
   ],
   "moat_kw": 0,
-  "mcap_cr": 65451.9501,
+  "mcap_cr": 58326.9745,
   "revenue_cr": 10495.1962,
-  "pe": 30.6878,
+  "pe": 27.13,
   "peg": null,
   "rev_cagr": 12.1628,
   "profit_cagr": -1.4902,
@@ -7744,7 +7744,7 @@
   "de": null,
   "dilution": 3.0928,
   "insider_pct": 59.872,
-  "inst_pct": 17.163,
+  "inst_pct": 17.385,
   "analysts": 20.0,
   "fcf_positive": 1,
   "q_rev_yoy": 0.4666,
@@ -7763,7 +7763,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "RHIM.NS": {
   "name": "RHI MAGNESITA INDIA LTD",
@@ -7771,9 +7771,9 @@
   "blurb": "RHI Magnesita India Limited engages in the manufacture and trading of refractories, monolithics, bricks, and ceramic paper in India and internationally. The company provides isostatically pressed continuous casting refractories, slide gate plates, nozzles and well blocks, tundish nozzles, bottom purging refractories an",
   "themes": [],
   "moat_kw": 0,
-  "mcap_cr": 7699.406,
+  "mcap_cr": 7462.9612,
   "revenue_cr": 3974.5215,
-  "pe": 21.0056,
+  "pe": 20.3606,
   "peg": null,
   "rev_cagr": 13.8999,
   "profit_cagr": null,
@@ -7784,7 +7784,7 @@
   "de": 0.126,
   "dilution": 9.8433,
   "insider_pct": 57.609,
-  "inst_pct": 15.443,
+  "inst_pct": 25.481,
   "analysts": 2.0,
   "fcf_positive": 1,
   "q_rev_yoy": 5.5869,
@@ -7803,7 +7803,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "RITES.NS": {
   "name": "RITES LIMITED",
@@ -7814,9 +7814,9 @@
    "Export manufacturing"
   ],
   "moat_kw": 0,
-  "mcap_cr": 9545.2717,
+  "mcap_cr": 9799.0304,
   "revenue_cr": 2404.82,
-  "pe": 22.9077,
+  "pe": 23.5167,
   "peg": null,
   "rev_cagr": -2.5478,
   "profit_cagr": -8.8662,
@@ -7827,7 +7827,7 @@
   "de": 0.0024,
   "dilution": 0.0,
   "insider_pct": 72.203,
-  "inst_pct": 10.376,
+  "inst_pct": 10.326,
   "analysts": 2.0,
   "fcf_positive": 1,
   "q_rev_yoy": 8.6699,
@@ -7846,7 +7846,7 @@
   "acquisition": null,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "RAILTEL.NS": {
   "name": "RAILTEL CORP OF IND LTD",
@@ -7859,9 +7859,9 @@
    "Healthcare and diagnostics"
   ],
   "moat_kw": 0,
-  "mcap_cr": 7999.3897,
+  "mcap_cr": 8039.5067,
   "revenue_cr": 4268.68,
-  "pe": 23.1215,
+  "pe": 23.2375,
   "peg": null,
   "rev_cagr": 29.8123,
   "profit_cagr": 22.5314,
@@ -7872,7 +7872,7 @@
   "de": 0.0282,
   "dilution": 0.0,
   "insider_pct": 72.844,
-  "inst_pct": 2.95,
+  "inst_pct": 2.956,
   "analysts": 2.0,
   "fcf_positive": 1,
   "q_rev_yoy": -31.7218,
@@ -7891,7 +7891,7 @@
   "acquisition": null,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "RAINBOW.NS": {
   "name": "RAINBOW CHILDRENS MED LTD",
@@ -7901,9 +7901,9 @@
    "Healthcare and diagnostics"
   ],
   "moat_kw": 0,
-  "mcap_cr": 12474.3098,
+  "mcap_cr": 12503.878,
   "revenue_cr": 1677.709,
-  "pe": 43.7424,
+  "pe": 43.9701,
   "peg": null,
   "rev_cagr": 13.0628,
   "profit_cagr": 9.699,
@@ -7913,8 +7913,8 @@
   "roce_chg": -0.3159,
   "de": 0.5356,
   "dilution": -0.0607,
-  "insider_pct": 52.183,
-  "inst_pct": 34.211,
+  "insider_pct": 52.294,
+  "inst_pct": 33.719,
   "analysts": 14.0,
   "fcf_positive": 1,
   "q_rev_yoy": 33.167,
@@ -7933,7 +7933,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "RKFORGE.NS": {
   "name": "RAMKRISHNA FORGINGS LTD",
@@ -7945,9 +7945,9 @@
    "Export manufacturing"
   ],
   "moat_kw": 0,
-  "mcap_cr": 12924.8436,
+  "mcap_cr": 12686.8496,
   "revenue_cr": 3853.6054,
-  "pe": 119.9055,
+  "pe": 117.6976,
   "peg": null,
   "rev_cagr": 10.4578,
   "profit_cagr": -33.8562,
@@ -7957,8 +7957,8 @@
   "roce_chg": -8.7481,
   "de": 0.7442,
   "dilution": 13.6521,
-  "insider_pct": 58.149,
-  "inst_pct": 11.604,
+  "insider_pct": 56.404,
+  "inst_pct": 12.795,
   "analysts": 4.0,
   "fcf_positive": 0,
   "q_rev_yoy": 19.8383,
@@ -7977,7 +7977,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "REDINGTON.NS": {
   "name": "REDINGTON LIMITED",
@@ -7991,9 +7991,9 @@
    "Export manufacturing"
   ],
   "moat_kw": 0,
-  "mcap_cr": 30516.5631,
+  "mcap_cr": 29007.7377,
   "revenue_cr": 119114.12,
-  "pe": 17.9389,
+  "pe": 17.0519,
   "peg": null,
   "rev_cagr": 14.5063,
   "profit_cagr": 2.285,
@@ -8004,8 +8004,8 @@
   "de": 0.2726,
   "dilution": 0.0273,
   "insider_pct": 26.005,
-  "inst_pct": 37.979,
-  "analysts": 5.0,
+  "inst_pct": 38.453,
+  "analysts": 6.0,
   "fcf_positive": 1,
   "q_rev_yoy": 32.0836,
   "q_profit_yoy": -26.9884,
@@ -8023,7 +8023,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "RPOWER.NS": {
   "name": "RELIANCE POWER LTD.",
@@ -8076,9 +8076,9 @@
    "Healthcare and diagnostics"
   ],
   "moat_kw": 1,
-  "mcap_cr": 25840.6547,
+  "mcap_cr": 24610.698,
   "revenue_cr": 1731.166,
-  "pe": 89.9193,
+  "pe": 85.6394,
   "peg": null,
   "rev_cagr": 36.6238,
   "profit_cagr": null,
@@ -8089,7 +8089,7 @@
   "de": 0.2413,
   "dilution": null,
   "insider_pct": 69.149,
-  "inst_pct": 18.096,
+  "inst_pct": 18.285,
   "analysts": 2.0,
   "fcf_positive": 0,
   "q_rev_yoy": 49.1952,
@@ -8108,7 +8108,7 @@
   "acquisition": null,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "SJVN.NS": {
   "name": "SJVN LTD",
@@ -8118,9 +8118,9 @@
    "Energy transition"
   ],
   "moat_kw": 0,
-  "mcap_cr": 21653.1698,
+  "mcap_cr": 20085.1833,
   "revenue_cr": 4244.17,
-  "pe": 34.0123,
+  "pe": 31.5494,
   "peg": null,
   "rev_cagr": 14.59,
   "profit_cagr": -22.1202,
@@ -8131,7 +8131,7 @@
   "de": 2.2653,
   "dilution": 0.0,
   "insider_pct": 81.845,
-  "inst_pct": 5.714,
+  "inst_pct": 5.819,
   "analysts": 2.0,
   "fcf_positive": 0,
   "q_rev_yoy": 51.9843,
@@ -8150,7 +8150,7 @@
   "acquisition": null,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "SHRIPISTON.NS": {
   "name": "SPR AUTO TECHNOLOGIES LTD",
@@ -8160,9 +8160,9 @@
    "Export manufacturing"
   ],
   "moat_kw": 0,
-  "mcap_cr": 20272.6556,
+  "mcap_cr": 21435.0971,
   "revenue_cr": 4408.606,
-  "pe": 34.1598,
+  "pe": 36.1185,
   "peg": null,
   "rev_cagr": 19.7978,
   "profit_cagr": 23.48,
@@ -8173,7 +8173,7 @@
   "de": 0.6522,
   "dilution": 0.0,
   "insider_pct": 61.858,
-  "inst_pct": 16.258,
+  "inst_pct": 16.621,
   "analysts": 2.0,
   "fcf_positive": 1,
   "q_rev_yoy": 49.1704,
@@ -8192,7 +8192,7 @@
   "acquisition": true,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "SAGILITY.NS": {
   "name": "SAGILITY LIMITED",
@@ -8202,9 +8202,9 @@
    "Healthcare and diagnostics"
   ],
   "moat_kw": 0,
-  "mcap_cr": 20312.2852,
+  "mcap_cr": 20593.1659,
   "revenue_cr": 7192.851,
-  "pe": 20.467,
+  "pe": 20.75,
   "peg": null,
   "rev_cagr": 19.4678,
   "profit_cagr": 86.0606,
@@ -8215,7 +8215,7 @@
   "de": 0.115,
   "dilution": 0.0,
   "insider_pct": 50.95,
-  "inst_pct": 23.117,
+  "inst_pct": 23.734,
   "analysts": 12.0,
   "fcf_positive": 1,
   "q_rev_yoy": 25.1841,
@@ -8234,7 +8234,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "SAILIFE.NS": {
   "name": "SAI LIFE SCIENCES LIMITED",
@@ -8244,9 +8244,9 @@
    "Healthcare and diagnostics"
   ],
   "moat_kw": 0,
-  "mcap_cr": 31669.4299,
+  "mcap_cr": 29659.0672,
   "revenue_cr": 2136.826,
-  "pe": 88.0626,
+  "pe": 82.4513,
   "peg": null,
   "rev_cagr": 21.3103,
   "profit_cagr": 226.8866,
@@ -8256,8 +8256,8 @@
   "roce_chg": 7.9769,
   "de": 0.1161,
   "dilution": 1.8221,
-  "insider_pct": 36.291,
-  "inst_pct": 43.849,
+  "insider_pct": 36.282,
+  "inst_pct": 43.58,
   "analysts": 6.0,
   "fcf_positive": 0,
   "q_rev_yoy": -4.3523,
@@ -8276,7 +8276,7 @@
   "acquisition": null,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "SAMMAANCAP.NS": {
   "name": "SAMMAAN CAPITAL LIMITED",
@@ -8284,7 +8284,7 @@
   "blurb": "Sammaan Capital Limited, together with its subsidiaries, operates as a non-banking financial company in India. The company is involved in the business of providing finance, as well as undertakes lending and finance to persons, co-operative society, association of persons, body of individuals, companies, institutions, a",
   "themes": [],
   "moat_kw": 0,
-  "mcap_cr": 15208.6135,
+  "mcap_cr": 14450.4816,
   "revenue_cr": 5463.9,
   "pe": null,
   "peg": null,
@@ -8297,7 +8297,7 @@
   "de": 2.7303,
   "dilution": 127.8216,
   "insider_pct": 35.666,
-  "inst_pct": 11.215,
+  "inst_pct": 11.198,
   "analysts": null,
   "fcf_positive": 0,
   "q_rev_yoy": -25.8603,
@@ -8316,7 +8316,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "SANSERA.NS": {
   "name": "SANSERA ENGINEERING LTD",
@@ -8327,9 +8327,9 @@
    "Energy transition"
   ],
   "moat_kw": 0,
-  "mcap_cr": 26470.7457,
+  "mcap_cr": 25905.2405,
   "revenue_cr": 3296.461,
-  "pe": 81.6972,
+  "pe": 79.9518,
   "peg": null,
   "rev_cagr": 14.822,
   "profit_cagr": 30.3898,
@@ -8340,7 +8340,7 @@
   "de": 0.1902,
   "dilution": 17.7642,
   "insider_pct": 29.202,
-  "inst_pct": 50.347,
+  "inst_pct": 50.578,
   "analysts": 13.0,
   "fcf_positive": 0,
   "q_rev_yoy": 27.7732,
@@ -8359,7 +8359,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "SARDAEN.NS": {
   "name": "SARDA ENERGY & MIN LTD",
@@ -8369,9 +8369,9 @@
    "Energy transition"
   ],
   "moat_kw": 0,
-  "mcap_cr": 16972.4445,
+  "mcap_cr": 16949.5396,
   "revenue_cr": 5643.76,
-  "pe": 15.0281,
+  "pe": 15.0078,
   "peg": null,
   "rev_cagr": 10.4431,
   "profit_cagr": 22.4639,
@@ -8382,7 +8382,7 @@
   "de": 0.352,
   "dilution": 0.0,
   "insider_pct": 74.848,
-  "inst_pct": 2.884,
+  "inst_pct": 2.796,
   "analysts": null,
   "fcf_positive": 1,
   "q_rev_yoy": -2.2165,
@@ -8401,7 +8401,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "SCHNEIDER.NS": {
   "name": "SCHNEIDER ELECTRIC INFRA",
@@ -8413,9 +8413,9 @@
    "Railways and infrastructure"
   ],
   "moat_kw": 0,
-  "mcap_cr": 28482.0701,
+  "mcap_cr": 27045.0557,
   "revenue_cr": 2869.95,
-  "pe": 154.9025,
+  "pe": 147.0871,
   "peg": null,
   "rev_cagr": 17.609,
   "profit_cagr": 19.7988,
@@ -8426,7 +8426,7 @@
   "de": 0.7079,
   "dilution": 0.0,
   "insider_pct": 76.943,
-  "inst_pct": 6.156,
+  "inst_pct": 6.184,
   "analysts": 3.0,
   "fcf_positive": 1,
   "q_rev_yoy": 4.7826,
@@ -8445,7 +8445,7 @@
   "acquisition": null,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "SCI.NS": {
   "name": "SHIPPING CORP OF INDIA LT",
@@ -8455,9 +8455,9 @@
    "Export manufacturing"
   ],
   "moat_kw": 0,
-  "mcap_cr": 13119.2291,
+  "mcap_cr": 12846.7362,
   "revenue_cr": 5747.56,
-  "pe": 8.1074,
+  "pe": 7.939,
   "peg": null,
   "rev_cagr": -0.1322,
   "profit_cagr": 15.8487,
@@ -8468,7 +8468,7 @@
   "de": 0.2945,
   "dilution": 0.0,
   "insider_pct": 63.749,
-  "inst_pct": 4.762,
+  "inst_pct": 4.415,
   "analysts": null,
   "fcf_positive": 0,
   "q_rev_yoy": 40.3118,
@@ -8487,7 +8487,7 @@
   "acquisition": null,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "SHYAMMETL.NS": {
   "name": "SHYAM METALICS AND ENGY L",
@@ -8499,9 +8499,9 @@
    "Export manufacturing"
   ],
   "moat_kw": 0,
-  "mcap_cr": 30232.3237,
+  "mcap_cr": 34146.3794,
   "revenue_cr": 18487.46,
-  "pe": 27.1026,
+  "pe": 30.6038,
   "peg": null,
   "rev_cagr": 13.6045,
   "profit_cagr": 7.8694,
@@ -8511,8 +8511,8 @@
   "roce_chg": 2.6847,
   "de": 0.0813,
   "dilution": 9.0974,
-  "insider_pct": 75.998,
-  "inst_pct": 14.669,
+  "insider_pct": 76.132,
+  "inst_pct": 12.235,
   "analysts": 9.0,
   "fcf_positive": 0,
   "q_rev_yoy": 23.3349,
@@ -8531,7 +8531,7 @@
   "acquisition": null,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "SIGNATURE.NS": {
   "name": "SIGNATUREGLOBAL INDIA LTD",
@@ -8541,9 +8541,9 @@
    "Railways and infrastructure"
   ],
   "moat_kw": 0,
-  "mcap_cr": 9986.5977,
+  "mcap_cr": 10112.512,
   "revenue_cr": 2578.905,
-  "pe": 9.5667,
+  "pe": 9.6873,
   "peg": null,
   "rev_cagr": 18.6113,
   "profit_cagr": null,
@@ -8554,7 +8554,7 @@
   "de": 1.6104,
   "dilution": 0.0,
   "insider_pct": 76.808,
-  "inst_pct": 12.381,
+  "inst_pct": 12.407,
   "analysts": 5.0,
   "fcf_positive": 1,
   "q_rev_yoy": -36.2356,
@@ -8573,7 +8573,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "SOBHA.NS": {
   "name": "SOBHA LIMITED",
@@ -8583,9 +8583,9 @@
    "Energy transition"
   ],
   "moat_kw": 0,
-  "mcap_cr": 12468.6787,
+  "mcap_cr": 12577.7707,
   "revenue_cr": 5152.13,
-  "pe": 54.0724,
+  "pe": 65.8455,
   "peg": null,
   "rev_cagr": 16.3043,
   "profit_cagr": 22.8934,
@@ -8596,7 +8596,7 @@
   "de": 0.2462,
   "dilution": 9.7799,
   "insider_pct": 58.476,
-  "inst_pct": 27.293,
+  "inst_pct": 27.215,
   "analysts": 18.0,
   "fcf_positive": 1,
   "q_rev_yoy": 3.0255,
@@ -8615,7 +8615,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "SONACOMS.NS": {
   "name": "SONA BLW PRECISION FRGS L",
@@ -8629,9 +8629,9 @@
    "Export manufacturing"
   ],
   "moat_kw": 0,
-  "mcap_cr": 49134.6887,
+  "mcap_cr": 49559.1227,
   "revenue_cr": 4308.373,
-  "pe": 70.2857,
+  "pe": 70.8929,
   "peg": null,
   "rev_cagr": 18.8259,
   "profit_cagr": 17.4334,
@@ -8642,7 +8642,7 @@
   "de": 0.0721,
   "dilution": 6.2232,
   "insider_pct": 27.911,
-  "inst_pct": 69.286,
+  "inst_pct": 70.123,
   "analysts": 18.0,
   "fcf_positive": 1,
   "q_rev_yoy": 50.4714,
@@ -8661,7 +8661,7 @@
   "acquisition": true,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "STARHEALTH.NS": {
   "name": "STAR HEALTH & AL INS CO L",
@@ -8669,9 +8669,9 @@
   "blurb": "Star Health and Allied Insurance Company Limited provides health insurance products in India. It offers retail health insurance products for individuals and families; group health insurance products for employer/employee and non-employer/employee groups, including small-to-medium enterprises; and personal accident and ",
   "themes": [],
   "moat_kw": 0,
-  "mcap_cr": 32838.7985,
+  "mcap_cr": 31894.4117,
   "revenue_cr": 18148.47,
-  "pe": 38.9735,
+  "pe": 37.8527,
   "peg": null,
   "rev_cagr": 14.0267,
   "profit_cagr": -3.4368,
@@ -8682,7 +8682,7 @@
   "de": null,
   "dilution": 1.1563,
   "insider_pct": 62.183,
-  "inst_pct": 24.209,
+  "inst_pct": 24.245,
   "analysts": 22.0,
   "fcf_positive": 1,
   "q_rev_yoy": 29.5092,
@@ -8701,7 +8701,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "STLTECH.NS": {
   "name": "STERLITE TECHNOLOGIES LTD",
@@ -8711,9 +8711,9 @@
    "Digital and data centres"
   ],
   "moat_kw": 0,
-  "mcap_cr": 51930.0841,
+  "mcap_cr": 45609.7464,
   "revenue_cr": 4663.0,
-  "pe": 219.1323,
+  "pe": 192.462,
   "peg": null,
   "rev_cagr": -11.7736,
   "profit_cagr": -26.494,
@@ -8724,7 +8724,7 @@
   "de": 0.8563,
   "dilution": 22.4925,
   "insider_pct": 50.834,
-  "inst_pct": 20.792,
+  "inst_pct": 21.222,
   "analysts": 3.0,
   "fcf_positive": 1,
   "q_rev_yoy": 81.5589,
@@ -8743,7 +8743,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "SUMICHEM.NS": {
   "name": "SUMITOMO CHEM INDIA LTD",
@@ -8751,9 +8751,9 @@
   "blurb": "Sumitomo Chemical India Limited engages in the manufacture and sale of household and public health insecticides, agricultural pesticides, and animal nutrition products in India and internationally. It also offers crop protection products, such as insecticides, herbicides, fungicides, and miticides; household pesticides",
   "themes": [],
   "moat_kw": 0,
-  "mcap_cr": 20981.5912,
+  "mcap_cr": 19583.9836,
   "revenue_cr": 3208.887,
-  "pe": 36.2059,
+  "pe": 33.7941,
   "peg": null,
   "rev_cagr": -2.6052,
   "profit_cagr": 2.635,
@@ -8763,8 +8763,8 @@
   "roce_chg": 0.7707,
   "de": 0.0186,
   "dilution": 0.0,
-  "insider_pct": 75.463,
-  "inst_pct": 9.692,
+  "insider_pct": 75.476,
+  "inst_pct": 10.606,
   "analysts": 8.0,
   "fcf_positive": 1,
   "q_rev_yoy": 56.5077,
@@ -8783,7 +8783,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "SUNTV.NS": {
   "name": "SUN TV NETWORK LIMITED",
@@ -8791,9 +8791,9 @@
   "blurb": "Sun TV Network Limited, together with its subsidiaries, engages in producing and broadcasting satellite television and radio software programming in the regional languages. The company's flagship channel is Sun TV. It also operates various other satellite channels, such as Surya TV, Gemini TV, Udaya TV, SUN Bangla, Sun",
   "themes": [],
   "moat_kw": 0,
-  "mcap_cr": 24965.2593,
+  "mcap_cr": 25219.4456,
   "revenue_cr": 4334.82,
-  "pe": 16.3105,
+  "pe": 16.4766,
   "peg": null,
   "rev_cagr": 4.7445,
   "profit_cagr": -5.5104,
@@ -8804,7 +8804,7 @@
   "de": 0.0084,
   "dilution": 0.0,
   "insider_pct": 78.471,
-  "inst_pct": 13.565,
+  "inst_pct": 14.1,
   "analysts": 11.0,
   "fcf_positive": 0,
   "q_rev_yoy": 12.9894,
@@ -8823,7 +8823,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "SWANCORP.NS": {
   "name": "SWAN CORP LIMITED",
@@ -8834,9 +8834,9 @@
    "Railways and infrastructure"
   ],
   "moat_kw": 0,
-  "mcap_cr": 8483.7106,
+  "mcap_cr": 8032.333,
   "revenue_cr": 4333.5589,
-  "pe": 39.8601,
+  "pe": 37.7393,
   "peg": null,
   "rev_cagr": 45.5939,
   "profit_cagr": null,
@@ -8847,7 +8847,7 @@
   "de": 0.2456,
   "dilution": 18.771,
   "insider_pct": 55.617,
-  "inst_pct": 18.275,
+  "inst_pct": 18.368,
   "analysts": null,
   "fcf_positive": 0,
   "q_rev_yoy": -16.4391,
@@ -8866,7 +8866,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "SYNGENE.NS": {
   "name": "SYNGENE INTERNATIONAL LTD",
@@ -8877,9 +8877,9 @@
    "Healthcare and diagnostics"
   ],
   "moat_kw": 0,
-  "mcap_cr": 14900.9498,
+  "mcap_cr": 15976.0679,
   "revenue_cr": 3610.7,
-  "pe": 67.5319,
+  "pe": 72.4044,
   "peg": null,
   "rev_cagr": 5.4397,
   "profit_cagr": -11.9792,
@@ -8889,8 +8889,8 @@
   "roce_chg": -5.2334,
   "de": 0.0947,
   "dilution": 0.546,
-  "insider_pct": 52.819,
-  "inst_pct": 38.376,
+  "insider_pct": 52.807,
+  "inst_pct": 38.706,
   "analysts": 8.0,
   "fcf_positive": 1,
   "q_rev_yoy": -27.7014,
@@ -8909,7 +8909,7 @@
   "acquisition": null,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "SYRMA.NS": {
   "name": "SYRMA SGS TECHNOLOGY LTD",
@@ -8920,9 +8920,9 @@
    "Electronics and semiconductors"
   ],
   "moat_kw": 0,
-  "mcap_cr": 33285.5968,
+  "mcap_cr": 29810.6421,
   "revenue_cr": 4704.657,
-  "pe": 89.8596,
+  "pe": 80.4784,
   "peg": null,
   "rev_cagr": 32.7771,
   "profit_cagr": 38.6132,
@@ -8933,8 +8933,8 @@
   "de": 0.1305,
   "dilution": 8.9644,
   "insider_pct": 59.611,
-  "inst_pct": 17.336,
-  "analysts": 27.0,
+  "inst_pct": 17.652,
+  "analysts": 26.0,
   "fcf_positive": 1,
   "q_rev_yoy": 68.2894,
   "q_profit_yoy": 101.1942,
@@ -8952,7 +8952,7 @@
   "acquisition": true,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "TBOTEK.NS": {
   "name": "TBO TEK LIMITED",
@@ -8960,9 +8960,9 @@
   "blurb": "TBO Tek Limited operates travel distribution platforms in India and internationally. It offers an online technology platform which provides its customers with access to book global travel inventory through travel suppliers, such as airlines, hotels, car rentals, transfers, cruises, insurance, rail services, and others.",
   "themes": [],
   "moat_kw": 0,
-  "mcap_cr": 17670.6142,
+  "mcap_cr": 17230.6629,
   "revenue_cr": 2512.099,
-  "pe": 67.2956,
+  "pe": 65.6202,
   "peg": null,
   "rev_cagr": 36.7294,
   "profit_cagr": 19.1988,
@@ -8973,7 +8973,7 @@
   "de": 0.4876,
   "dilution": 0.0,
   "insider_pct": 67.677,
-  "inst_pct": 27.983,
+  "inst_pct": 29.157,
   "analysts": 13.0,
   "fcf_positive": 0,
   "q_rev_yoy": 107.514,
@@ -8992,7 +8992,7 @@
   "acquisition": true,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "TDPOWERSYS.NS": {
   "name": "TD POWER SYSTEMS LTD.",
@@ -9005,9 +9005,9 @@
    "Digital and data centres"
   ],
   "moat_kw": 0,
-  "mcap_cr": 25835.3267,
+  "mcap_cr": 23690.7758,
   "revenue_cr": 1832.517,
-  "pe": 93.6917,
+  "pe": 83.75,
   "peg": null,
   "rev_cagr": 29.2197,
   "profit_cagr": 35.1095,
@@ -9017,8 +9017,8 @@
   "roce_chg": 7.0505,
   "de": 0.0169,
   "dilution": 0.1104,
-  "insider_pct": 27.227,
-  "inst_pct": 37.831,
+  "insider_pct": 26.571,
+  "inst_pct": 39.408,
   "analysts": 2.0,
   "fcf_positive": 1,
   "q_rev_yoy": 83.8139,
@@ -9040,7 +9040,7 @@
    "ratio": 2.0
   },
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "TATACHEM.NS": {
   "name": "TATA CHEMICALS LTD",
@@ -9051,9 +9051,9 @@
    "Healthcare and diagnostics"
   ],
   "moat_kw": 0,
-  "mcap_cr": 16253.4506,
+  "mcap_cr": 16244.5345,
   "revenue_cr": 14397.0,
-  "pe": 20.5188,
+  "pe": 20.3846,
   "peg": null,
   "rev_cagr": -4.7879,
   "profit_cagr": null,
@@ -9064,7 +9064,7 @@
   "de": 0.3608,
   "dilution": 0.0,
   "insider_pct": 38.71,
-  "inst_pct": 26.905,
+  "inst_pct": 25.713,
   "analysts": 9.0,
   "fcf_positive": 1,
   "q_rev_yoy": 21.2596,
@@ -9083,7 +9083,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "TATAELXSI.NS": {
   "name": "TATA ELXSI LIMITED",
@@ -9097,9 +9097,9 @@
    "Healthcare and diagnostics"
   ],
   "moat_kw": 0,
-  "mcap_cr": 20361.9877,
+  "mcap_cr": 23611.5329,
   "revenue_cr": 3757.4237,
-  "pe": 31.1039,
+  "pe": 35.2329,
   "peg": null,
   "rev_cagr": 6.1132,
   "profit_cagr": -5.9411,
@@ -9107,10 +9107,10 @@
   "op_margin_chg": -7.7014,
   "roce": 26.2621,
   "roce_chg": -12.8983,
-  "de": 0.0534,
+  "de": 0.049,
   "dilution": 0.0325,
   "insider_pct": 44.85,
-  "inst_pct": 14.703,
+  "inst_pct": 14.438,
   "analysts": 16.0,
   "fcf_positive": 1,
   "q_rev_yoy": 12.4152,
@@ -9129,7 +9129,7 @@
   "acquisition": null,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "TATATECH.NS": {
   "name": "TATA TECHNOLOGIES LIMITED",
@@ -9142,9 +9142,9 @@
    "Digital and data centres"
   ],
   "moat_kw": 0,
-  "mcap_cr": 29229.6393,
+  "mcap_cr": 28632.7472,
   "revenue_cr": 5505.57,
-  "pe": 52.4672,
+  "pe": 50.8766,
   "peg": null,
   "rev_cagr": 7.6555,
   "profit_cagr": -4.3205,
@@ -9152,10 +9152,10 @@
   "op_margin_chg": -4.0884,
   "roce": 16.4325,
   "roce_chg": -10.908,
-  "de": 0.2391,
+  "de": 0.2896,
   "dilution": 0.0766,
   "insider_pct": 60.145,
-  "inst_pct": 7.802,
+  "inst_pct": 7.781,
   "analysts": 14.0,
   "fcf_positive": 1,
   "q_rev_yoy": 29.4621,
@@ -9174,7 +9174,7 @@
   "acquisition": true,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "TTML.NS": {
   "name": "TATA TELESERV(MAHARASTRA)",
@@ -9185,9 +9185,9 @@
    "Healthcare and diagnostics"
   ],
   "moat_kw": 0,
-  "mcap_cr": 6505.9992,
+  "mcap_cr": 6425.8474,
   "revenue_cr": 1150.14,
-  "pe": 175.1579,
+  "pe": 173.0,
   "peg": 1.37,
   "rev_cagr": 1.4588,
   "profit_cagr": null,
@@ -9198,7 +9198,7 @@
   "de": null,
   "dilution": 0.0,
   "insider_pct": 74.358,
-  "inst_pct": 1.978,
+  "inst_pct": 1.968,
   "analysts": null,
   "fcf_positive": 1,
   "q_rev_yoy": -2.1734,
@@ -9217,7 +9217,7 @@
   "acquisition": null,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "TECHNOE.NS": {
   "name": "TECHNO ELEC & ENG CO. LTD",
@@ -9229,9 +9229,9 @@
    "Digital and data centres"
   ],
   "moat_kw": 0,
-  "mcap_cr": 11144.9883,
+  "mcap_cr": 10932.1601,
   "revenue_cr": 3159.808,
-  "pe": 25.8581,
+  "pe": 25.3643,
   "peg": null,
   "rev_cagr": 56.311,
   "profit_cagr": 36.3682,
@@ -9242,7 +9242,7 @@
   "de": 0.0174,
   "dilution": 8.066,
   "insider_pct": 56.96,
-  "inst_pct": 26.023,
+  "inst_pct": 26.162,
   "analysts": 4.0,
   "fcf_positive": 0,
   "q_rev_yoy": 19.8426,
@@ -9261,7 +9261,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "TEGA.NS": {
   "name": "TEGA INDUSTRIES LIMITED",
@@ -9269,9 +9269,9 @@
   "blurb": "Tega Industries Limited designs, manufactures, and installs process equipment and accessories for the mineral processing, mining, and material handling industries. It offers a range of grinding mill liners, such as DynaPrime, DynaSteel, DynaPulp, and DynaWear. The company also offers conveyor components products compri",
   "themes": [],
   "moat_kw": 0,
-  "mcap_cr": 14310.3246,
+  "mcap_cr": 14014.3198,
   "revenue_cr": 1669.844,
-  "pe": 502.5858,
+  "pe": 492.19,
   "peg": null,
   "rev_cagr": 11.8208,
   "profit_cagr": -8.1391,
@@ -9281,8 +9281,8 @@
   "roce_chg": -12.5602,
   "de": 0.1169,
   "dilution": 13.2224,
-  "insider_pct": 67.437,
-  "inst_pct": 18.502,
+  "insider_pct": 67.01,
+  "inst_pct": 17.793,
   "analysts": 4.0,
   "fcf_positive": 1,
   "q_rev_yoy": 383.9878,
@@ -9301,7 +9301,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "TEJASNET.NS": {
   "name": "TEJAS NETWORKS LIMITED",
@@ -9314,7 +9314,7 @@
    "Digital and data centres"
   ],
   "moat_kw": 0,
-  "mcap_cr": 8220.3091,
+  "mcap_cr": 8063.7493,
   "revenue_cr": 1097.47,
   "pe": null,
   "peg": null,
@@ -9324,10 +9324,10 @@
   "op_margin_chg": -104.2618,
   "roce": -15.1207,
   "roce_chg": -18.031,
-  "de": 1.4252,
+  "de": 1.9662,
   "dilution": 5.4282,
   "insider_pct": 1.57,
-  "inst_pct": 60.707,
+  "inst_pct": 60.787,
   "analysts": null,
   "fcf_positive": 0,
   "q_rev_yoy": -77.7561,
@@ -9346,7 +9346,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "TENNIND.NS": {
   "name": "TENNECO CLEAN AIR INDIA L",
@@ -9354,9 +9354,9 @@
   "blurb": "Tenneco Clean Air India Limited operates as a manufacturer and supplier of clean air and powertrain solutions. The company operates in two segments, clean air and powertrain solutions; and advanced ride technologies. The company designs, manufactures, and sells exhaust aftertreatment systems, such as catalytic converte",
   "themes": [],
   "moat_kw": 0,
-  "mcap_cr": 19058.1965,
+  "mcap_cr": 18160.1763,
   "revenue_cr": 5381.219,
-  "pe": 31.7126,
+  "pe": 30.2183,
   "peg": null,
   "rev_cagr": 3.8928,
   "profit_cagr": 16.5664,
@@ -9367,7 +9367,7 @@
   "de": 0.0429,
   "dilution": 0.0,
   "insider_pct": 58.058,
-  "inst_pct": 26.262,
+  "inst_pct": 26.459,
   "analysts": 7.0,
   "fcf_positive": 1,
   "q_rev_yoy": 16.5081,
@@ -9386,7 +9386,7 @@
   "acquisition": null,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "THANGAMAYL.NS": {
   "name": "THANGAMAYIL JEWELLERY LTD",
@@ -9394,9 +9394,9 @@
   "blurb": "Thangamayil Jewellery Limited operates a chain of retail jewelry stores in India. The company offers gold, diamond, silver, precious stones, and platinum jewelries, as well as silver articles and gold coins. It also involved in the manufacture and sale of jewelry, and other accessories and products. In addition, it off",
   "themes": [],
   "moat_kw": 0,
-  "mcap_cr": 15205.3236,
+  "mcap_cr": 15595.4037,
   "revenue_cr": 8499.33,
-  "pe": 38.8871,
+  "pe": 39.8847,
   "peg": null,
   "rev_cagr": 39.1792,
   "profit_cagr": 63.9878,
@@ -9407,7 +9407,7 @@
   "de": 0.6449,
   "dilution": 9.7498,
   "insider_pct": 63.651,
-  "inst_pct": 19.448,
+  "inst_pct": 20.227,
   "analysts": 3.0,
   "fcf_positive": 1,
   "q_rev_yoy": 92.8613,
@@ -9426,7 +9426,7 @@
   "acquisition": null,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "NIACL.NS": {
   "name": "THE NEW INDIA ASSU CO LTD",
@@ -9434,9 +9434,9 @@
   "blurb": "The New India Assurance Company Limited, together with its subsidiaries, engages in the general insurance industry in India and internationally. The company offers motor, health, travel, rural, credit, engineering, aviation, personal accident, liability, marine hull, fire, marine cargo, and miscellaneous insurances, as",
   "themes": [],
   "moat_kw": 0,
-  "mcap_cr": 30557.2151,
+  "mcap_cr": 28676.8464,
   "revenue_cr": 51077.87,
-  "pe": 39.6197,
+  "pe": 37.1816,
   "peg": null,
   "rev_cagr": 6.8804,
   "profit_cagr": 10.4547,
@@ -9447,7 +9447,7 @@
   "de": null,
   "dilution": 0.0,
   "insider_pct": 85.437,
-  "inst_pct": 10.826,
+  "inst_pct": 10.837,
   "analysts": 3.0,
   "fcf_positive": 0,
   "q_rev_yoy": 1.4756,
@@ -9466,7 +9466,7 @@
   "acquisition": true,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "RAMCOCEM.NS": {
   "name": "THE RAMCO CEMENTS LIMITED",
@@ -9478,9 +9478,9 @@
    "Export manufacturing"
   ],
   "moat_kw": 0,
-  "mcap_cr": 19064.0685,
+  "mcap_cr": 18604.4809,
   "revenue_cr": 8947.17,
-  "pe": 29.5748,
+  "pe": 28.8618,
   "peg": null,
   "rev_cagr": 3.2764,
   "profit_cagr": 30.478,
@@ -9491,7 +9491,7 @@
   "de": 0.479,
   "dilution": 0.0,
   "insider_pct": 49.148,
-  "inst_pct": 31.046,
+  "inst_pct": 31.028,
   "analysts": 31.0,
   "fcf_positive": 1,
   "q_rev_yoy": -5.1817,
@@ -9510,7 +9510,7 @@
   "acquisition": null,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "TIMKEN.NS": {
   "name": "TIMKEN INDIA LTD.",
@@ -9521,9 +9521,9 @@
    "Energy transition"
   ],
   "moat_kw": 0,
-  "mcap_cr": 21994.7106,
+  "mcap_cr": 21518.5768,
   "revenue_cr": 3462.364,
-  "pe": 52.123,
+  "pe": 50.9947,
   "peg": null,
   "rev_cagr": 7.4899,
   "profit_cagr": 2.0183,
@@ -9534,7 +9534,7 @@
   "de": 0.005,
   "dilution": 0.0,
   "insider_pct": 52.395,
-  "inst_pct": 30.577,
+  "inst_pct": 30.755,
   "analysts": 7.0,
   "fcf_positive": 1,
   "q_rev_yoy": -0.8552,
@@ -9553,7 +9553,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "TITAGARH.NS": {
   "name": "TITAGARH RAIL SYSTEMS LTD",
@@ -9566,9 +9566,9 @@
    "Digital and data centres"
   ],
   "moat_kw": 0,
-  "mcap_cr": 10346.9851,
+  "mcap_cr": 9977.3055,
   "revenue_cr": 3160.85,
-  "pe": 54.9571,
+  "pe": 52.9936,
   "peg": null,
   "rev_cagr": 4.6833,
   "profit_cagr": -1.8846,
@@ -9579,8 +9579,8 @@
   "de": 0.2536,
   "dilution": 12.6307,
   "insider_pct": 40.615,
-  "inst_pct": 20.506,
-  "analysts": 10.0,
+  "inst_pct": 20.737,
+  "analysts": 9.0,
   "fcf_positive": 0,
   "q_rev_yoy": 12.6262,
   "q_profit_yoy": null,
@@ -9598,7 +9598,7 @@
   "acquisition": null,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "TARIL.NS": {
   "name": "TRANS & RECTI. LTD",
@@ -9611,9 +9611,9 @@
    "Healthcare and diagnostics"
   ],
   "moat_kw": 0,
-  "mcap_cr": 8778.3498,
+  "mcap_cr": 9788.4078,
   "revenue_cr": 2459.74,
-  "pe": 33.9269,
+  "pe": 32.1281,
   "peg": null,
   "rev_cagr": 21.4672,
   "profit_cagr": 86.5291,
@@ -9621,10 +9621,10 @@
   "op_margin_chg": 8.0502,
   "roce": 20.1838,
   "roce_chg": 7.5119,
-  "de": 0.2959,
+  "de": 0.3445,
   "dilution": 13.2153,
   "insider_pct": 64.405,
-  "inst_pct": 6.398,
+  "inst_pct": 6.612,
   "analysts": 3.0,
   "fcf_positive": 0,
   "q_rev_yoy": 8.1254,
@@ -9643,7 +9643,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "TRIDENT.NS": {
   "name": "TRIDENT LIMITED",
@@ -9654,9 +9654,9 @@
    "Export manufacturing"
   ],
   "moat_kw": 1,
-  "mcap_cr": 11230.6684,
+  "mcap_cr": 11169.5208,
   "revenue_cr": 6304.67,
-  "pe": 28.2564,
+  "pe": 28.1026,
   "peg": null,
   "rev_cagr": 1.7642,
   "profit_cagr": -5.0645,
@@ -9667,7 +9667,7 @@
   "de": 0.3832,
   "dilution": 1.263,
   "insider_pct": 75.533,
-  "inst_pct": 2.51,
+  "inst_pct": 2.507,
   "analysts": 2.0,
   "fcf_positive": 1,
   "q_rev_yoy": 4.6834,
@@ -9686,7 +9686,7 @@
   "acquisition": null,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "TRITURBINE.NS": {
   "name": "TRIVENI TURBINE LIMITED",
@@ -9698,9 +9698,9 @@
    "Healthcare and diagnostics"
   ],
   "moat_kw": 0,
-  "mcap_cr": 16603.9405,
+  "mcap_cr": 15408.6359,
   "revenue_cr": 2159.037,
-  "pe": 49.4134,
+  "pe": 45.8562,
   "peg": null,
   "rev_cagr": 20.4176,
   "profit_cagr": 22.0069,
@@ -9711,7 +9711,7 @@
   "de": 0.0248,
   "dilution": 0.0057,
   "insider_pct": 59.731,
-  "inst_pct": 25.998,
+  "inst_pct": 26.74,
   "analysts": 9.0,
   "fcf_positive": 1,
   "q_rev_yoy": 19.2297,
@@ -9730,7 +9730,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "UCOBANK.NS": {
   "name": "UCO BANK",
@@ -9741,9 +9741,9 @@
    "Export manufacturing"
   ],
   "moat_kw": 0,
-  "mcap_cr": 29104.3148,
+  "mcap_cr": 29605.8978,
   "revenue_cr": 12328.8658,
-  "pe": 10.3616,
+  "pe": 9.9202,
   "peg": null,
   "rev_cagr": 7.7643,
   "profit_cagr": 14.8661,
@@ -9754,7 +9754,7 @@
   "de": null,
   "dilution": 4.8813,
   "insider_pct": 90.951,
-  "inst_pct": 2.616,
+  "inst_pct": 2.614,
   "analysts": null,
   "fcf_positive": 0,
   "q_rev_yoy": 2.2385,
@@ -9773,7 +9773,7 @@
   "acquisition": null,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "UTIAMC.NS": {
   "name": "UTI ASSET MNGMT CO LTD",
@@ -9781,9 +9781,9 @@
   "blurb": "UTI Asset Management Company (P) Ltd. is a privately owned investment manager. It manages mutual funds for its clients. The firm invests in money market, fixed income, and public equity markets of India. It employs in-house research while making its investments. UTI Asset Management Company (P) Ltd. was incorporated on",
   "themes": [],
   "moat_kw": 0,
-  "mcap_cr": 11300.6141,
+  "mcap_cr": 11147.0084,
   "revenue_cr": 1538.92,
-  "pe": 24.5504,
+  "pe": 24.2167,
   "peg": null,
   "rev_cagr": 10.7993,
   "profit_cagr": -2.6004,
@@ -9794,7 +9794,7 @@
   "de": 0.0313,
   "dilution": 1.2099,
   "insider_pct": 34.737,
-  "inst_pct": 51.758,
+  "inst_pct": 52.649,
   "analysts": 17.0,
   "fcf_positive": 1,
   "q_rev_yoy": 5.1617,
@@ -9813,7 +9813,7 @@
   "acquisition": null,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "URBANCO.NS": {
   "name": "URBAN COMPANY LIMITED",
@@ -9821,9 +9821,9 @@
   "blurb": "Urban Company Limited operates an online services marketplace that provides various home and beauty services and solutions in India, the Kingdom of Saudi Arabia, Singapore, and the United Arab Emirates. It operates through four segments: India consumer services; Native; International; and InstaHelp. The company offers ",
   "themes": [],
   "moat_kw": 0,
-  "mcap_cr": 24015.6574,
+  "mcap_cr": 21126.8223,
   "revenue_cr": 1555.54,
-  "pe": -187.546,
+  "pe": -60.4115,
   "peg": null,
   "rev_cagr": 34.6911,
   "profit_cagr": null,
@@ -9831,10 +9831,10 @@
   "op_margin_chg": -0.3654,
   "roce": -7.1335,
   "roce_chg": -1.1535,
-  "de": 0.0634,
+  "de": 0.0715,
   "dilution": 1.8301,
-  "insider_pct": 32.806,
-  "inst_pct": 51.828,
+  "insider_pct": 32.579,
+  "inst_pct": 51.961,
   "analysts": 9.0,
   "fcf_positive": 0,
   "q_rev_yoy": 77.028,
@@ -9853,7 +9853,7 @@
   "acquisition": null,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "USHAMART.NS": {
   "name": "USHA MARTIN LTD.",
@@ -9863,9 +9863,9 @@
    "Railways and infrastructure"
   ],
   "moat_kw": 0,
-  "mcap_cr": 14935.4004,
+  "mcap_cr": 14767.9805,
   "revenue_cr": 3595.63,
-  "pe": 28.1014,
+  "pe": 27.7864,
   "peg": null,
   "rev_cagr": 4.0993,
   "profit_cagr": 9.9964,
@@ -9876,7 +9876,7 @@
   "de": 0.0692,
   "dilution": -0.1121,
   "insider_pct": 40.173,
-  "inst_pct": 26.83,
+  "inst_pct": 28.896,
   "analysts": 4.0,
   "fcf_positive": 1,
   "q_rev_yoy": 15.2799,
@@ -9895,7 +9895,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "VTL.NS": {
   "name": "VARDHMAN TEXTILES LIMITED",
@@ -9906,9 +9906,9 @@
    "Export manufacturing"
   ],
   "moat_kw": 0,
-  "mcap_cr": 15340.7701,
+  "mcap_cr": 15282.8756,
   "revenue_cr": 9689.34,
-  "pe": 17.8015,
+  "pe": 17.7343,
   "peg": null,
   "rev_cagr": -0.7995,
   "profit_cagr": -2.1376,
@@ -9919,7 +9919,7 @@
   "de": 0.1752,
   "dilution": 0.0535,
   "insider_pct": 65.511,
-  "inst_pct": 16.164,
+  "inst_pct": 15.958,
   "analysts": 6.0,
   "fcf_positive": 0,
   "q_rev_yoy": 7.7538,
@@ -9938,7 +9938,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "VIJAYA.NS": {
   "name": "VIJAYA DIAGNOSTIC CEN LTD",
@@ -9948,9 +9948,9 @@
    "Healthcare and diagnostics"
   ],
   "moat_kw": 0,
-  "mcap_cr": 14974.8384,
+  "mcap_cr": 14092.1471,
   "revenue_cr": 813.8805,
-  "pe": 79.9285,
+  "pe": 75.2172,
   "peg": null,
   "rev_cagr": 21.0361,
   "profit_cagr": 26.9068,
@@ -9961,7 +9961,7 @@
   "de": 0.4415,
   "dilution": 0.8088,
   "insider_pct": 53.48,
-  "inst_pct": 39.417,
+  "inst_pct": 39.504,
   "analysts": 10.0,
   "fcf_positive": 1,
   "q_rev_yoy": 33.3287,
@@ -9980,7 +9980,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "WELCORP.NS": {
   "name": "WELSPUN CORP LIMITED",
@@ -9991,9 +9991,9 @@
    "Energy transition"
   ],
   "moat_kw": 0,
-  "mcap_cr": 73636.6821,
+  "mcap_cr": 68375.7928,
   "revenue_cr": 16209.22,
-  "pe": 31.9022,
+  "pe": 29.623,
   "peg": null,
   "rev_cagr": 19.5483,
   "profit_cagr": 98.3548,
@@ -10004,7 +10004,7 @@
   "de": 0.2504,
   "dilution": 0.8315,
   "insider_pct": 49.845,
-  "inst_pct": 28.478,
+  "inst_pct": 32.405,
   "analysts": 8.0,
   "fcf_positive": 1,
   "q_rev_yoy": 3.9784,
@@ -10023,7 +10023,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "WELSPUNLIV.NS": {
   "name": "WELSPUN LIVING LIMITED",
@@ -10031,9 +10031,9 @@
   "blurb": "Welspun Living Limited manufactures and sells home textile products in India and internationally. It operates through two segments, Home Textiles and Flooring. The company offers bath solutions, such as towels, bathrobes, and bath rugs; bed linen, duvet covers, pillows, pillowcases, top-of-bed products, utility and fas",
   "themes": [],
   "moat_kw": 1,
-  "mcap_cr": 21370.8014,
+  "mcap_cr": 20459.484,
   "revenue_cr": 8436.22,
-  "pe": 78.2759,
+  "pe": 74.9379,
   "peg": null,
   "rev_cagr": 5.6892,
   "profit_cagr": 0.9318,
@@ -10044,7 +10044,7 @@
   "de": 0.465,
   "dilution": -2.2961,
   "insider_pct": 68.976,
-  "inst_pct": 14.966,
+  "inst_pct": 14.959,
   "analysts": 11.0,
   "fcf_positive": 1,
   "q_rev_yoy": 23.6613,
@@ -10063,7 +10063,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "WHIRLPOOL.NS": {
   "name": "WHIRLPOOL OF INDIA LTD",
@@ -10071,9 +10071,9 @@
   "blurb": "Whirlpool of India Limited manufactures and markets home appliances in India and internationally. It offers refrigerators, washing machines, air conditioners, microwave ovens, air fryer, kitchen, built-in, and small appliances, as well as dishwasher. The company sells its products through Internet. The company was inco",
   "themes": [],
   "moat_kw": 0,
-  "mcap_cr": 10457.6016,
+  "mcap_cr": 10645.4442,
   "revenue_cr": 8033.24,
-  "pe": 41.6557,
+  "pe": 42.4039,
   "peg": null,
   "rev_cagr": 6.4263,
   "profit_cagr": 10.2803,
@@ -10084,7 +10084,7 @@
   "de": 0.0862,
   "dilution": 0.0,
   "insider_pct": 42.37,
-  "inst_pct": 39.122,
+  "inst_pct": 39.647,
   "analysts": 11.0,
   "fcf_positive": 1,
   "q_rev_yoy": 36.0199,
@@ -10103,7 +10103,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "WOCKPHARMA.NS": {
   "name": "WOCKHARDT LIMITED",
@@ -10113,9 +10113,9 @@
    "Healthcare and diagnostics"
   ],
   "moat_kw": 0,
-  "mcap_cr": 32552.0589,
+  "mcap_cr": 30975.8853,
   "revenue_cr": 3317.0,
-  "pe": 79.5276,
+  "pe": 75.6769,
   "peg": null,
   "rev_cagr": 7.8248,
   "profit_cagr": null,
@@ -10126,7 +10126,7 @@
   "de": 0.4228,
   "dilution": 12.7726,
   "insider_pct": 51.02,
-  "inst_pct": 13.377,
+  "inst_pct": 13.098,
   "analysts": null,
   "fcf_positive": 1,
   "q_rev_yoy": 25.0336,
@@ -10145,7 +10145,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "ZFCVINDIA.NS": {
   "name": "ZF COM VE CTR SYS IND LTD",
@@ -10157,9 +10157,9 @@
    "Export manufacturing"
   ],
   "moat_kw": 0,
-  "mcap_cr": 24241.7123,
+  "mcap_cr": 24363.4831,
   "revenue_cr": 4090.8991,
-  "pe": 2.2359,
+  "pe": 2.2471,
   "peg": null,
   "rev_cagr": 6.192,
   "profit_cagr": 17.6374,
@@ -10170,7 +10170,7 @@
   "de": 0.0149,
   "dilution": 0.0,
   "insider_pct": 60.268,
-  "inst_pct": 26.211,
+  "inst_pct": 26.362,
   "analysts": 4.0,
   "fcf_positive": 1,
   "q_rev_yoy": 5.5498,
@@ -10192,7 +10192,7 @@
    "ratio": 6.0
   },
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "ZEEL.NS": {
   "name": "ZEE ENTERTAINMENT ENT LTD",
@@ -10200,9 +10200,9 @@
   "blurb": "Zee Entertainment Enterprises Limited, together with its subsidiaries, engages in broadcasting satellite television channels and digital media in India and internationally. The company broadcasts Hindi general entertainment channels, such as Zee TV, Zee TV HD, &tv, &tv HD, and BIG Magic; Hindi movie channels comprising",
   "themes": [],
   "moat_kw": 0,
-  "mcap_cr": 7131.8569,
+  "mcap_cr": 7024.2779,
   "revenue_cr": 8088.0,
-  "pe": 35.0236,
+  "pe": 34.4953,
   "peg": null,
   "rev_cagr": 0.0004,
   "profit_cagr": 78.7714,
@@ -10213,7 +10213,7 @@
   "de": 0.0226,
   "dilution": 0.0,
   "insider_pct": 5.035,
-  "inst_pct": 14.845,
+  "inst_pct": 14.813,
   "analysts": 12.0,
   "fcf_positive": 1,
   "q_rev_yoy": -12.6734,
@@ -10232,7 +10232,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "ZENTEC.NS": {
   "name": "ZEN TECHNOLOGIES LIMITED",
@@ -10243,9 +10243,9 @@
    "Railways and infrastructure"
   ],
   "moat_kw": 0,
-  "mcap_cr": 14448.7072,
+  "mcap_cr": 14637.5901,
   "revenue_cr": 687.69,
-  "pe": 80.1597,
+  "pe": 81.2076,
   "peg": null,
   "rev_cagr": 46.4709,
   "profit_cagr": 65.4192,
@@ -10255,8 +10255,8 @@
   "roce_chg": -25.0491,
   "de": 0.0095,
   "dilution": 13.796,
-  "insider_pct": 49.91,
-  "inst_pct": 11.595,
+  "insider_pct": 49.978,
+  "inst_pct": 11.632,
   "analysts": 6.0,
   "fcf_positive": 1,
   "q_rev_yoy": -56.4154,
@@ -10275,7 +10275,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "ZENSARTECH.NS": {
   "name": "ZENSAR TECHNOLOGIES  LTD",
@@ -10287,9 +10287,9 @@
    "Healthcare and diagnostics"
   ],
   "moat_kw": 0,
-  "mcap_cr": 10283.6519,
+  "mcap_cr": 11646.5598,
   "revenue_cr": 5687.4,
-  "pe": 13.4292,
+  "pe": 15.209,
   "peg": null,
   "rev_cagr": 5.4657,
   "profit_cagr": 33.2226,
@@ -10299,8 +10299,8 @@
   "roce_chg": -2.367,
   "de": 0.0168,
   "dilution": 0.1094,
-  "insider_pct": 50.11,
-  "inst_pct": 25.315,
+  "insider_pct": 50.125,
+  "inst_pct": 25.63,
   "analysts": 12.0,
   "fcf_positive": 1,
   "q_rev_yoy": 10.9942,
@@ -10319,7 +10319,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "ZYDUSWELL.NS": {
   "name": "ZYDUS WELLNESS LIMITED",
@@ -10329,9 +10329,9 @@
    "Electronics and semiconductors"
   ],
   "moat_kw": 0,
-  "mcap_cr": 15768.0452,
+  "mcap_cr": 16398.0034,
   "revenue_cr": 3940.0,
-  "pe": 83.7162,
+  "pe": 87.0608,
   "peg": null,
   "rev_cagr": 20.665,
   "profit_cagr": -14.0337,
@@ -10342,7 +10342,7 @@
   "de": 0.5497,
   "dilution": 0.0,
   "insider_pct": 69.853,
-  "inst_pct": 21.284,
+  "inst_pct": 21.392,
   "analysts": 8.0,
   "fcf_positive": 1,
   "q_rev_yoy": 57.0283,
@@ -10361,7 +10361,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "ECLERX.NS": {
   "name": "ECLERX SERVICES LTD",
@@ -10371,9 +10371,9 @@
    "Digital and data centres"
   ],
   "moat_kw": 0,
-  "mcap_cr": 17170.0765,
+  "mcap_cr": 17668.8529,
   "revenue_cr": 4117.026,
-  "pe": 24.3609,
+  "pe": 25.0685,
   "peg": null,
   "rev_cagr": 15.8377,
   "profit_cagr": 13.0477,
@@ -10383,8 +10383,8 @@
   "roce_chg": 4.8059,
   "de": 0.1501,
   "dilution": -4.2135,
-  "insider_pct": 58.247,
-  "inst_pct": 32.581,
+  "insider_pct": 58.374,
+  "inst_pct": 32.658,
   "analysts": 10.0,
   "fcf_positive": 1,
   "q_rev_yoy": 28.2841,
@@ -10406,7 +10406,7 @@
    "ratio": 2.0
   },
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "360ONE.NS": {
   "name": "360 ONE WAM LIMITED",
@@ -10414,9 +10414,9 @@
   "blurb": "360 One Wam Limited, together with its subsidiaries, provides wealth and asset management services in India. It operates through the Wealth Management and Asset Management segments. The Wealth Management segment engages in the distribution of financial products, advisory, broking and research, discretionary and non-dis",
   "themes": [],
   "moat_kw": 0,
-  "mcap_cr": 43043.1044,
+  "mcap_cr": 43034.9484,
   "revenue_cr": 3138.13,
-  "pe": 35.0915,
+  "pe": 35.6419,
   "peg": null,
   "rev_cagr": 23.9689,
   "profit_cagr": 22.7265,
@@ -10424,10 +10424,10 @@
   "op_margin_chg": 2.835,
   "roce": 10.3723,
   "roce_chg": -2.4621,
-  "de": 1.6198,
+  "de": 1.6738,
   "dilution": 14.0551,
   "insider_pct": 14.709,
-  "inst_pct": 66.43,
+  "inst_pct": 64.541,
   "analysts": 10.0,
   "fcf_positive": 0,
   "q_rev_yoy": 24.5729,
@@ -10446,7 +10446,7 @@
   "acquisition": true,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "AIAENG.NS": {
   "name": "AIA ENGINEERING LIMITED",
@@ -10456,9 +10456,9 @@
    "Healthcare and diagnostics"
   ],
   "moat_kw": 0,
-  "mcap_cr": null,
+  "mcap_cr": 34203.7823,
   "revenue_cr": 4367.2327,
-  "pe": 27.7242,
+  "pe": 27.0116,
   "peg": null,
   "rev_cagr": -3.4465,
   "profit_cagr": 6.3509,
@@ -10469,7 +10469,7 @@
   "de": 0.0013,
   "dilution": -1.0602,
   "insider_pct": 58.527,
-  "inst_pct": 34.856,
+  "inst_pct": 34.125,
   "analysts": 13.0,
   "fcf_positive": 1,
   "q_rev_yoy": 12.4005,
@@ -10488,7 +10488,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "APLAPOLLO.NS": {
   "name": "APL APOLLO TUBES LTD",
@@ -10500,9 +10500,9 @@
    "Digital and data centres"
   ],
   "moat_kw": 0,
-  "mcap_cr": 59971.4365,
+  "mcap_cr": 59546.6256,
   "revenue_cr": 22385.36,
-  "pe": 48.7892,
+  "pe": 48.4436,
   "peg": null,
   "rev_cagr": 12.6138,
   "profit_cagr": 23.2967,
@@ -10513,7 +10513,7 @@
   "de": 0.094,
   "dilution": 0.1181,
   "insider_pct": 36.91,
-  "inst_pct": 43.97,
+  "inst_pct": 44.681,
   "analysts": 18.0,
   "fcf_positive": 1,
   "q_rev_yoy": 2.1385,
@@ -10532,7 +10532,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "AUBANK.NS": {
   "name": "AU SMALL FINANCE BANK LTD",
@@ -10543,9 +10543,9 @@
    "Export manufacturing"
   ],
   "moat_kw": 0,
-  "mcap_cr": 73038.0698,
+  "mcap_cr": 72820.7393,
   "revenue_cr": 12096.9752,
-  "pe": 25.7354,
+  "pe": 25.6588,
   "peg": null,
   "rev_cagr": 30.3619,
   "profit_cagr": 22.7538,
@@ -10555,8 +10555,8 @@
   "roce_chg": null,
   "de": null,
   "dilution": 12.2269,
-  "insider_pct": 31.408,
-  "inst_pct": 49.674,
+  "insider_pct": 31.391,
+  "inst_pct": 49.555,
   "analysts": 29.0,
   "fcf_positive": 1,
   "q_rev_yoy": 18.5708,
@@ -10575,7 +10575,7 @@
   "acquisition": null,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "ABBOTINDIA.NS": {
   "name": "ABBOTT INDIA LIMITED",
@@ -10585,9 +10585,9 @@
    "Healthcare and diagnostics"
   ],
   "moat_kw": 0,
-  "mcap_cr": 54929.444,
+  "mcap_cr": 55046.3144,
   "revenue_cr": 6926.9,
-  "pe": 34.0199,
+  "pe": 34.0923,
   "peg": null,
   "rev_cagr": 9.0143,
   "profit_cagr": 17.8007,
@@ -10598,7 +10598,7 @@
   "de": 0.036,
   "dilution": 0.0,
   "insider_pct": 75.539,
-  "inst_pct": 6.849,
+  "inst_pct": 7.009,
   "analysts": 8.0,
   "fcf_positive": 1,
   "q_rev_yoy": 4.3334,
@@ -10617,7 +10617,7 @@
   "acquisition": null,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "ATGL.NS": {
   "name": "ADANI TOTAL GAS LIMITED",
@@ -10625,9 +10625,9 @@
   "blurb": "Adani Total Gas Limited engages in the city gas distribution (CGD) business in India. It supplies piped natural gas and compressed natural gas to the domestic, commercial, industrial, and transportation sectors. The company also provides biogas, biofuel, biomass, LCNG, HCNG, EV, and hydrogen. In addition, it manufactur",
   "themes": [],
   "moat_kw": 1,
-  "mcap_cr": 62106.2717,
+  "mcap_cr": 63090.6094,
   "revenue_cr": 5856.01,
-  "pe": 98.2087,
+  "pe": 99.7652,
   "peg": null,
   "rev_cagr": 10.4091,
   "profit_cagr": 6.2622,
@@ -10638,7 +10638,7 @@
   "de": 0.5865,
   "dilution": 0.0,
   "insider_pct": 79.768,
-  "inst_pct": 7.4,
+  "inst_pct": 7.399,
   "analysts": null,
   "fcf_positive": 1,
   "q_rev_yoy": 30.7375,
@@ -10657,7 +10657,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "ABCAPITAL.NS": {
   "name": "ADITYA BIRLA CAPITAL LTD.",
@@ -10667,9 +10667,9 @@
    "Energy transition"
   ],
   "moat_kw": 0,
-  "mcap_cr": 104015.1282,
+  "mcap_cr": 102139.6189,
   "revenue_cr": 45927.42,
-  "pe": 24.5413,
+  "pe": 24.0988,
   "peg": null,
   "rev_cagr": 17.1328,
   "profit_cagr": -7.7536,
@@ -10680,7 +10680,7 @@
   "de": 4.9594,
   "dilution": 8.338,
   "insider_pct": 68.712,
-  "inst_pct": 15.8,
+  "inst_pct": 15.967,
   "analysts": 14.0,
   "fcf_positive": 0,
   "q_rev_yoy": -0.7517,
@@ -10699,7 +10699,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "AJANTPHARM.NS": {
   "name": "AJANTA PHARMA LIMITED",
@@ -10709,9 +10709,9 @@
    "Healthcare and diagnostics"
   ],
   "moat_kw": 0,
-  "mcap_cr": 42422.3375,
+  "mcap_cr": 41222.7305,
   "revenue_cr": 5407.26,
-  "pe": 37.3929,
+  "pe": 36.3355,
   "peg": null,
   "rev_cagr": 13.4048,
   "profit_cagr": 21.5534,
@@ -10722,7 +10722,7 @@
   "de": 0.0587,
   "dilution": -1.3779,
   "insider_pct": 54.291,
-  "inst_pct": 24.436,
+  "inst_pct": 24.263,
   "analysts": 13.0,
   "fcf_positive": 1,
   "q_rev_yoy": 38.9223,
@@ -10741,7 +10741,7 @@
   "acquisition": null,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "ALKEM.NS": {
   "name": "ALKEM LABORATORIES LTD.",
@@ -10751,9 +10751,9 @@
    "Healthcare and diagnostics"
   ],
   "moat_kw": 0,
-  "mcap_cr": 62556.4058,
+  "mcap_cr": 59830.3244,
   "revenue_cr": 14532.34,
-  "pe": 28.9958,
+  "pe": 27.7322,
   "peg": null,
   "rev_cagr": 8.3009,
   "profit_cagr": 32.7392,
@@ -10764,7 +10764,7 @@
   "de": 0.1427,
   "dilution": 0.0,
   "insider_pct": 61.409,
-  "inst_pct": 27.862,
+  "inst_pct": 28.44,
   "analysts": 20.0,
   "fcf_positive": 1,
   "q_rev_yoy": 10.9461,
@@ -10783,7 +10783,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "ANTHEM.NS": {
   "name": "ANTHEM BIOSCIENCES LTD",
@@ -10794,9 +10794,9 @@
    "Healthcare and diagnostics"
   ],
   "moat_kw": 0,
-  "mcap_cr": 49135.9207,
+  "mcap_cr": 45561.2432,
   "revenue_cr": 2124.333,
-  "pe": 86.1823,
+  "pe": 79.6552,
   "peg": null,
   "rev_cagr": 26.2001,
   "profit_cagr": 15.3896,
@@ -10806,8 +10806,8 @@
   "roce_chg": 4.3357,
   "de": 0.0177,
   "dilution": 0.0185,
-  "insider_pct": 80.935,
-  "inst_pct": 12.974,
+  "insider_pct": 80.887,
+  "inst_pct": 12.828,
   "analysts": 8.0,
   "fcf_positive": 1,
   "q_rev_yoy": -22.5822,
@@ -10826,7 +10826,7 @@
   "acquisition": null,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "APARINDS.NS": {
   "name": "APAR INDUSTRIES LTD.",
@@ -10839,9 +10839,9 @@
    "Healthcare and diagnostics"
   ],
   "moat_kw": 0,
-  "mcap_cr": 75236.2127,
+  "mcap_cr": 65894.495,
   "revenue_cr": 22810.23,
-  "pe": 61.2323,
+  "pe": 53.6275,
   "peg": null,
   "rev_cagr": 16.9568,
   "profit_cagr": 15.2775,
@@ -10852,7 +10852,7 @@
   "de": 0.1772,
   "dilution": 4.9641,
   "insider_pct": 55.689,
-  "inst_pct": 28.775,
+  "inst_pct": 28.66,
   "analysts": 8.0,
   "fcf_positive": 1,
   "q_rev_yoy": 26.5557,
@@ -10871,7 +10871,7 @@
   "acquisition": null,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "ASHOKLEY.NS": {
   "name": "ASHOK LEYLAND LTD",
@@ -10882,9 +10882,9 @@
    "Export manufacturing"
   ],
   "moat_kw": 0,
-  "mcap_cr": null,
+  "mcap_cr": 86768.5761,
   "revenue_cr": 56076.03,
-  "pe": 24.522,
+  "pe": 24.9527,
   "peg": null,
   "rev_cagr": 10.5649,
   "profit_cagr": 40.9818,
@@ -10895,8 +10895,8 @@
   "de": 3.4474,
   "dilution": 0.0272,
   "insider_pct": 36.364,
-  "inst_pct": 31.715,
-  "analysts": 33.0,
+  "inst_pct": 31.541,
+  "analysts": 34.0,
   "fcf_positive": 0,
   "q_rev_yoy": 11.6952,
   "q_profit_yoy": 0.7757,
@@ -10914,7 +10914,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "ASTERDM.NS": {
   "name": "ASTER DM QUALITY CARE LTD",
@@ -10924,9 +10924,9 @@
    "Healthcare and diagnostics"
   ],
   "moat_kw": 0,
-  "mcap_cr": 60380.7547,
+  "mcap_cr": 58153.6317,
   "revenue_cr": 4577.72,
-  "pe": 112.269,
+  "pe": 108.128,
   "peg": null,
   "rev_cagr": 15.7499,
   "profit_cagr": -2.972,
@@ -10937,7 +10937,7 @@
   "de": 0.4592,
   "dilution": 3.9346,
   "insider_pct": 64.261,
-  "inst_pct": 20.961,
+  "inst_pct": 21.16,
   "analysts": 12.0,
   "fcf_positive": 1,
   "q_rev_yoy": 31.0235,
@@ -10956,7 +10956,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "ASTRAL.NS": {
   "name": "ASTRAL LIMITED",
@@ -10966,9 +10966,9 @@
    "Railways and infrastructure"
   ],
   "moat_kw": 0,
-  "mcap_cr": 38478.7644,
+  "mcap_cr": 38363.2441,
   "revenue_cr": 6553.6,
-  "pe": 66.8362,
+  "pe": 66.6356,
   "peg": null,
   "rev_cagr": 8.3999,
   "profit_cagr": 5.5289,
@@ -10979,7 +10979,7 @@
   "de": 0.0617,
   "dilution": 0.0144,
   "insider_pct": 54.336,
-  "inst_pct": 28.03,
+  "inst_pct": 29.005,
   "analysts": 29.0,
   "fcf_positive": 1,
   "q_rev_yoy": -6.1496,
@@ -10998,7 +10998,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "AUROPHARMA.NS": {
   "name": "AUROBINDO PHARMA LTD",
@@ -11008,9 +11008,9 @@
    "Healthcare and diagnostics"
   ],
   "moat_kw": 0,
-  "mcap_cr": 98614.0246,
+  "mcap_cr": 93291.7805,
   "revenue_cr": 33384.74,
-  "pe": 26.7797,
+  "pe": 25.3344,
   "peg": null,
   "rev_cagr": 10.6888,
   "profit_cagr": 22.0546,
@@ -11021,7 +11021,7 @@
   "de": 0.2131,
   "dilution": -0.8767,
   "insider_pct": 54.785,
-  "inst_pct": 28.958,
+  "inst_pct": 29.253,
   "analysts": 27.0,
   "fcf_positive": 1,
   "q_rev_yoy": 8.6468,
@@ -11040,7 +11040,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "AIIL.NS": {
   "name": "AUTHUM INVEST & INFRA LTD",
@@ -11050,9 +11050,9 @@
    "Railways and infrastructure"
   ],
   "moat_kw": 0,
-  "mcap_cr": 46851.7716,
+  "mcap_cr": 46618.2341,
   "revenue_cr": 1298.31,
-  "pe": 22.2819,
+  "pe": 22.1708,
   "peg": null,
   "rev_cagr": 44.3953,
   "profit_cagr": -23.4676,
@@ -11063,7 +11063,7 @@
   "de": 0.2459,
   "dilution": 0.0,
   "insider_pct": 83.07,
-  "inst_pct": 7.136,
+  "inst_pct": 7.141,
   "analysts": null,
   "fcf_positive": 1,
   "q_rev_yoy": 20.9369,
@@ -11085,7 +11085,7 @@
    "ratio": 5.0
   },
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "BAJAJHFL.NS": {
   "name": "BAJAJ HOUSING FINANCE LTD",
@@ -11093,9 +11093,9 @@
   "blurb": "Bajaj Housing Finance Limited provides housing finance services in India. It offers finance to individuals and corporate entities for the purchase and renovation of homes or commercial spaces. The company also provides loans against property for business or personal needs, as well as working capital for business expans",
   "themes": [],
   "moat_kw": 0,
-  "mcap_cr": 68020.1814,
+  "mcap_cr": 68889.1691,
   "revenue_cr": 10838.7,
-  "pe": 25.2848,
+  "pe": 24.543,
   "peg": null,
   "rev_cagr": 25.5144,
   "profit_cagr": 26.7346,
@@ -11103,10 +11103,10 @@
   "op_margin_chg": 1.1438,
   "roce": 2.6346,
   "roce_chg": -0.0313,
-  "de": 4.6074,
+  "de": 4.9213,
   "dilution": 0.0062,
-  "insider_pct": 86.743,
-  "inst_pct": 1.021,
+  "insider_pct": 86.741,
+  "inst_pct": 1.128,
   "analysts": 17.0,
   "fcf_positive": 0,
   "q_rev_yoy": 22.5859,
@@ -11125,7 +11125,7 @@
   "acquisition": null,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "BALKRISIND.NS": {
   "name": "BALKRISHNA IND. LTD",
@@ -11133,9 +11133,9 @@
   "blurb": "Balkrishna Industries Limited manufactures and sells tires under the BKT brand in India, Europe, North America, and internationally. The company provides manufacturing and selling of off-highway tires (OHT) for use in various applications, such as agriculture, construction, earthmoving, mining and quarrying, industry, ",
   "themes": [],
   "moat_kw": 0,
-  "mcap_cr": 38588.0424,
+  "mcap_cr": 40039.8549,
   "revenue_cr": 10729.61,
-  "pe": 27.4529,
+  "pe": 28.4858,
   "peg": null,
   "rev_cagr": 3.6119,
   "profit_cagr": 5.5413,
@@ -11146,7 +11146,7 @@
   "de": 0.3752,
   "dilution": 0.0,
   "insider_pct": 58.544,
-  "inst_pct": 30.997,
+  "inst_pct": 31.178,
   "analysts": 19.0,
   "fcf_positive": 0,
   "q_rev_yoy": 25.5375,
@@ -11165,7 +11165,7 @@
   "acquisition": null,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "BANKINDIA.NS": {
   "name": "BANK OF INDIA",
@@ -11175,9 +11175,9 @@
    "Healthcare and diagnostics"
   ],
   "moat_kw": 0,
-  "mcap_cr": 60609.6654,
+  "mcap_cr": 62271.3897,
   "revenue_cr": 32598.1955,
-  "pe": 5.1461,
+  "pe": 5.2872,
   "peg": null,
   "rev_cagr": 7.3364,
   "profit_cagr": 38.9956,
@@ -11188,7 +11188,7 @@
   "de": null,
   "dilution": 10.9442,
   "insider_pct": 73.383,
-  "inst_pct": 15.206,
+  "inst_pct": 15.031,
   "analysts": 4.0,
   "fcf_positive": 1,
   "q_rev_yoy": -0.4634,
@@ -11207,7 +11207,7 @@
   "acquisition": null,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "MAHABANK.NS": {
   "name": "BANK OF MAHARASHTRA",
@@ -11219,9 +11219,9 @@
    "Export manufacturing"
   ],
   "moat_kw": 0,
-  "mcap_cr": 63824.5274,
+  "mcap_cr": 62270.8261,
   "revenue_cr": 15801.9124,
-  "pe": 8.476,
+  "pe": 8.2697,
   "peg": null,
   "rev_cagr": 15.5753,
   "profit_cagr": 39.1377,
@@ -11232,7 +11232,7 @@
   "de": null,
   "dilution": 14.2792,
   "insider_pct": 73.601,
-  "inst_pct": 17.197,
+  "inst_pct": 16.567,
   "analysts": 3.0,
   "fcf_positive": 0,
   "q_rev_yoy": 17.1189,
@@ -11251,7 +11251,7 @@
   "acquisition": null,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "BERGEPAINT.NS": {
   "name": "BERGER PAINTS (I) LTD",
@@ -11261,9 +11261,9 @@
    "Specialty chemicals and CDMO"
   ],
   "moat_kw": 0,
-  "mcap_cr": 54977.0297,
+  "mcap_cr": 54802.1338,
   "revenue_cr": 11789.68,
-  "pe": 45.1628,
+  "pe": 45.0192,
   "peg": null,
   "rev_cagr": 4.2179,
   "profit_cagr": 9.4518,
@@ -11274,7 +11274,7 @@
   "de": 0.0916,
   "dilution": 0.0254,
   "insider_pct": 75.599,
-  "inst_pct": 15.618,
+  "inst_pct": 15.569,
   "analysts": 22.0,
   "fcf_positive": 1,
   "q_rev_yoy": 32.5337,
@@ -11293,7 +11293,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "BDL.NS": {
   "name": "BHARAT DYNAMICS LIMITED",
@@ -11304,9 +11304,9 @@
    "Export manufacturing"
   ],
   "moat_kw": 0,
-  "mcap_cr": 40211.9066,
+  "mcap_cr": 39881.9983,
   "revenue_cr": 2415.3596,
-  "pe": 77.1992,
+  "pe": 76.5658,
   "peg": null,
   "rev_cagr": -0.8663,
   "profit_cagr": 6.0751,
@@ -11317,7 +11317,7 @@
   "de": 0.0001,
   "dilution": 0.0,
   "insider_pct": 74.926,
-  "inst_pct": 10.948,
+  "inst_pct": 10.7,
   "analysts": 16.0,
   "fcf_positive": 1,
   "q_rev_yoy": 144.8107,
@@ -11336,7 +11336,7 @@
   "acquisition": null,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "BHARATFORG.NS": {
   "name": "BHARAT FORGE LTD",
@@ -11348,9 +11348,9 @@
    "Export manufacturing"
   ],
   "moat_kw": 0,
-  "mcap_cr": 88693.7223,
+  "mcap_cr": 87892.3022,
   "revenue_cr": 16223.806,
-  "pe": 122.8842,
+  "pe": 121.7739,
   "peg": null,
   "rev_cagr": 9.7016,
   "profit_cagr": 26.897,
@@ -11360,8 +11360,8 @@
   "roce_chg": -0.8944,
   "de": 0.7647,
   "dilution": 2.6848,
-  "insider_pct": 46.696,
-  "inst_pct": 36.018,
+  "insider_pct": 47.027,
+  "inst_pct": 37.311,
   "analysts": 24.0,
   "fcf_positive": 1,
   "q_rev_yoy": 18.7065,
@@ -11380,7 +11380,7 @@
   "acquisition": true,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "BHEL.NS": {
   "name": "BHEL",
@@ -11393,9 +11393,9 @@
    "Export manufacturing"
   ],
   "moat_kw": 0,
-  "mcap_cr": 153210.7817,
+  "mcap_cr": 148805.9761,
   "revenue_cr": 32359.83,
-  "pe": 62.9471,
+  "pe": 61.1373,
   "peg": null,
   "rev_cagr": 13.4925,
   "profit_cagr": 35.9097,
@@ -11403,11 +11403,11 @@
   "op_margin_chg": 4.6952,
   "roce": 8.4301,
   "roce_chg": 5.505,
-  "de": 0.3131,
+  "de": 0.225,
   "dilution": 0.0,
   "insider_pct": 59.821,
-  "inst_pct": 22.873,
-  "analysts": 20.0,
+  "inst_pct": 22.704,
+  "analysts": 19.0,
   "fcf_positive": 1,
   "q_rev_yoy": -14.4067,
   "q_profit_yoy": -25.3226,
@@ -11425,7 +11425,7 @@
   "acquisition": null,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "BHARTIHEXA.NS": {
   "name": "BHARTI HEXACOM LIMITED",
@@ -11433,9 +11433,9 @@
   "blurb": "Bharti Hexacom Limited provides mobile services, fixed-line telephone, and broadband services to end consumers under the Airtel brand in India and internationally. It operates through Mobile Services; and Homes, Office and Other Services segments. The Mobile Services segment provides voice and data telecom services thr",
   "themes": [],
   "moat_kw": 0,
-  "mcap_cr": 76020.0036,
+  "mcap_cr": 81629.9966,
   "revenue_cr": 9353.8,
-  "pe": 41.6891,
+  "pe": 44.7656,
   "peg": null,
   "rev_cagr": 12.4457,
   "profit_cagr": 46.6806,
@@ -11446,8 +11446,8 @@
   "de": 0.8565,
   "dilution": 0.0,
   "insider_pct": 86.518,
-  "inst_pct": 11.193,
-  "analysts": 14.0,
+  "inst_pct": 11.227,
+  "analysts": 15.0,
   "fcf_positive": 1,
   "q_rev_yoy": 9.6505,
   "q_profit_yoy": 2.9889,
@@ -11465,7 +11465,7 @@
   "acquisition": null,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "GROWW.NS": {
   "name": "BILLIONBRAINS GARAGE VN L",
@@ -11473,9 +11473,9 @@
   "blurb": "Billionbrains Garage Ventures Limited develops a direct-to-customer digital investment platform that provides wealth creation opportunities through multiple financial products and services in India. Its platform Groww, allows users to invest in and trade stocks, including cash, intraday, and IPO; equity and commodity d",
   "themes": [],
   "moat_kw": 0,
-  "mcap_cr": 119188.3702,
+  "mcap_cr": 123026.7482,
   "revenue_cr": 4270.378,
-  "pe": 49.3316,
+  "pe": 46.2804,
   "peg": null,
   "rev_cagr": 19.2265,
   "profit_cagr": null,
@@ -11486,7 +11486,7 @@
   "de": 0.0303,
   "dilution": 0.2912,
   "insider_pct": 49.224,
-  "inst_pct": 38.757,
+  "inst_pct": 40.335,
   "analysts": 11.0,
   "fcf_positive": 0,
   "q_rev_yoy": 87.4418,
@@ -11505,7 +11505,7 @@
   "acquisition": null,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "BIOCON.NS": {
   "name": "BIOCON LIMITED.",
@@ -11516,9 +11516,9 @@
    "Healthcare and diagnostics"
   ],
   "moat_kw": 0,
-  "mcap_cr": 57051.1589,
+  "mcap_cr": 55683.6323,
   "revenue_cr": 16779.9,
-  "pe": 103.0621,
+  "pe": 100.5917,
   "peg": null,
   "rev_cagr": 15.3459,
   "profit_cagr": -5.895,
@@ -11529,7 +11529,7 @@
   "de": 0.4215,
   "dilution": 35.6385,
   "insider_pct": 48.115,
-  "inst_pct": 30.736,
+  "inst_pct": 31.939,
   "analysts": 19.0,
   "fcf_positive": 1,
   "q_rev_yoy": 9.7619,
@@ -11548,7 +11548,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "BLUESTARCO.NS": {
   "name": "BLUE STAR LIMITED",
@@ -11561,9 +11561,9 @@
    "Export manufacturing"
   ],
   "moat_kw": 0,
-  "mcap_cr": 32074.5079,
+  "mcap_cr": 32302.7665,
   "revenue_cr": 12250.02,
-  "pe": 62.9834,
+  "pe": 63.4316,
   "peg": null,
   "rev_cagr": 15.7527,
   "profit_cagr": 9.632,
@@ -11574,7 +11574,7 @@
   "de": 0.2359,
   "dilution": 6.7307,
   "insider_pct": 36.986,
-  "inst_pct": 34.646,
+  "inst_pct": 34.834,
   "analysts": 26.0,
   "fcf_positive": 0,
   "q_rev_yoy": -15.9504,
@@ -11593,7 +11593,7 @@
   "acquisition": null,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "CRISIL.NS": {
   "name": "CRISIL LTD",
@@ -11601,9 +11601,9 @@
   "blurb": "CRISIL Limited, an analytical company, provides ratings, research, and risk and policy consulting services in India, Europe, North America, and internationally. It operates through two segment, Rating Services; and Research, Analytics and Solutions. The company offers credit ratings for corporates, banks, and bank loan",
   "themes": [],
   "moat_kw": 0,
-  "mcap_cr": 32762.2459,
+  "mcap_cr": 33108.8822,
   "revenue_cr": 3649.01,
-  "pe": 37.0462,
+  "pe": 37.4382,
   "peg": null,
   "rev_cagr": 9.6391,
   "profit_cagr": 10.718,
@@ -11614,7 +11614,7 @@
   "de": 0.1023,
   "dilution": 0.0903,
   "insider_pct": 71.884,
-  "inst_pct": 15.61,
+  "inst_pct": 15.399,
   "analysts": 2.0,
   "fcf_positive": 1,
   "q_rev_yoy": 32.245,
@@ -11633,7 +11633,7 @@
   "acquisition": true,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "COCHINSHIP.NS": {
   "name": "COCHIN SHIPYARD LIMITED",
@@ -11644,9 +11644,9 @@
    "Export manufacturing"
   ],
   "moat_kw": 0,
-  "mcap_cr": 32737.7748,
+  "mcap_cr": 32266.8593,
   "revenue_cr": 4774.5895,
-  "pe": 48.1206,
+  "pe": 47.4285,
   "peg": null,
   "rev_cagr": 26.9406,
   "profit_cagr": 32.9919,
@@ -11657,7 +11657,7 @@
   "de": 0.2847,
   "dilution": 0.0,
   "insider_pct": 63.335,
-  "inst_pct": 11.114,
+  "inst_pct": 10.707,
   "analysts": 4.0,
   "fcf_positive": 0,
   "q_rev_yoy": 2.3975,
@@ -11676,7 +11676,7 @@
   "acquisition": null,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "COFORGE.NS": {
   "name": "COFORGE LIMITED",
@@ -11687,9 +11687,9 @@
    "Healthcare and diagnostics"
   ],
   "moat_kw": 0,
-  "mcap_cr": 81621.0051,
+  "mcap_cr": 85284.9328,
   "revenue_cr": 16390.6,
-  "pe": 37.7289,
+  "pe": 39.4225,
   "peg": null,
   "rev_cagr": 26.932,
   "profit_cagr": 30.8872,
@@ -11700,7 +11700,7 @@
   "de": 0.0752,
   "dilution": 9.945,
   "insider_pct": 21.339,
-  "inst_pct": 59.32,
+  "inst_pct": 59.941,
   "analysts": 35.0,
   "fcf_positive": 1,
   "q_rev_yoy": 61.5248,
@@ -11719,7 +11719,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "COLPAL.NS": {
   "name": "COLGATE PALMOLIVE LTD.",
@@ -11729,9 +11729,9 @@
    "Export manufacturing"
   ],
   "moat_kw": 0,
-  "mcap_cr": 48503.2002,
+  "mcap_cr": 47355.419,
   "revenue_cr": 5983.57,
-  "pe": 35.9899,
+  "pe": 35.1382,
   "peg": null,
   "rev_cagr": 4.8715,
   "profit_cagr": 8.1691,
@@ -11742,7 +11742,7 @@
   "de": 0.0299,
   "dilution": 0.0,
   "insider_pct": 51.411,
-  "inst_pct": 21.919,
+  "inst_pct": 22.443,
   "analysts": 26.0,
   "fcf_positive": 1,
   "q_rev_yoy": 9.5412,
@@ -11761,7 +11761,7 @@
   "acquisition": null,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "CONCOR.NS": {
   "name": "CONTAINER CORP OF IND LTD",
@@ -11769,9 +11769,9 @@
   "blurb": "Container Corporation of India Limited engages in handling, transportation, and warehousing activities in India. The company provides inland transport by rail for containers; manages ports and air cargo complexes; develops multimodal logistics support for containerization and trade; and operates logistics facilities, i",
   "themes": [],
   "moat_kw": 0,
-  "mcap_cr": 33674.9363,
+  "mcap_cr": 33636.8534,
   "revenue_cr": 8393.79,
-  "pe": 26.9933,
+  "pe": 26.9628,
   "peg": null,
   "rev_cagr": 4.0616,
   "profit_cagr": 1.8906,
@@ -11782,8 +11782,8 @@
   "de": 0.0739,
   "dilution": 0.0,
   "insider_pct": 57.4,
-  "inst_pct": 42.457,
-  "analysts": 15.0,
+  "inst_pct": 42.161,
+  "analysts": 14.0,
   "fcf_positive": 1,
   "q_rev_yoy": 0.2846,
   "q_profit_yoy": 0.075,
@@ -11801,7 +11801,7 @@
   "acquisition": null,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "COROMANDEL.NS": {
   "name": "COROMANDEL INTERNTL. LTD",
@@ -11812,9 +11812,9 @@
    "Healthcare and diagnostics"
   ],
   "moat_kw": 0,
-  "mcap_cr": 49865.805,
+  "mcap_cr": 52166.171,
   "revenue_cr": 20223.21,
-  "pe": 27.2581,
+  "pe": 28.5155,
   "peg": null,
   "rev_cagr": 10.2306,
   "profit_cagr": -0.9492,
@@ -11825,7 +11825,7 @@
   "de": 0.1147,
   "dilution": 0.1636,
   "insider_pct": 59.558,
-  "inst_pct": 25.222,
+  "inst_pct": 25.502,
   "analysts": 9.0,
   "fcf_positive": 1,
   "q_rev_yoy": 63.6755,
@@ -11844,7 +11844,7 @@
   "acquisition": true,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "DABUR.NS": {
   "name": "DABUR INDIA LTD",
@@ -11854,9 +11854,9 @@
    "Healthcare and diagnostics"
   ],
   "moat_kw": 0,
-  "mcap_cr": 66798.3479,
+  "mcap_cr": 67144.2731,
   "revenue_cr": 13042.0,
-  "pe": 33.9234,
+  "pe": 34.0991,
   "peg": 3.16,
   "rev_cagr": 4.5066,
   "profit_cagr": 3.5416,
@@ -11867,7 +11867,7 @@
   "de": 0.1091,
   "dilution": 0.1087,
   "insider_pct": 67.668,
-  "inst_pct": 22.511,
+  "inst_pct": 22.269,
   "analysts": 37.0,
   "fcf_positive": 1,
   "q_rev_yoy": 33.0107,
@@ -11886,7 +11886,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "DALBHARAT.NS": {
   "name": "DALMIA BHARAT LIMITED",
@@ -11896,9 +11896,9 @@
    "Railways and infrastructure"
   ],
   "moat_kw": 0,
-  "mcap_cr": 30582.8987,
+  "mcap_cr": 30460.8739,
   "revenue_cr": 14467.0,
-  "pe": 32.6604,
+  "pe": 32.5301,
   "peg": null,
   "rev_cagr": 3.0061,
   "profit_cagr": 3.2431,
@@ -11909,7 +11909,7 @@
   "de": 0.4099,
   "dilution": 0.0457,
   "insider_pct": 60.458,
-  "inst_pct": 29.404,
+  "inst_pct": 29.462,
   "analysts": 34.0,
   "fcf_positive": 1,
   "q_rev_yoy": -4.9132,
@@ -11928,7 +11928,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "DIXON.NS": {
   "name": "DIXON TECHNO (INDIA) LTD",
@@ -11939,9 +11939,9 @@
    "Export manufacturing"
   ],
   "moat_kw": 0,
-  "mcap_cr": 77479.8508,
+  "mcap_cr": 74016.4043,
   "revenue_cr": 48537.39,
-  "pe": 37.2581,
+  "pe": 35.377,
   "peg": null,
   "rev_cagr": 58.5704,
   "profit_cagr": 77.8999,
@@ -11952,8 +11952,8 @@
   "de": 0.1846,
   "dilution": 2.0848,
   "insider_pct": 40.119,
-  "inst_pct": 34.581,
-  "analysts": 28.0,
+  "inst_pct": 35.329,
+  "analysts": 27.0,
   "fcf_positive": 1,
   "q_rev_yoy": 51.0576,
   "q_profit_yoy": 65.5157,
@@ -11971,7 +11971,7 @@
   "acquisition": true,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "EMBASSY.NS": {
   "name": "EMBASSY.NS,0P0001H6LJ,387837",
@@ -12011,7 +12011,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "ENDURANCE.NS": {
   "name": "ENDURANCE TECHNO. LTD.",
@@ -12022,9 +12022,9 @@
    "Export manufacturing"
   ],
   "moat_kw": 0,
-  "mcap_cr": 33936.3201,
+  "mcap_cr": 33320.2162,
   "revenue_cr": 14339.85,
-  "pe": 34.9906,
+  "pe": 34.3553,
   "peg": null,
   "rev_cagr": 18.2335,
   "profit_cagr": 25.6655,
@@ -12035,7 +12035,7 @@
   "de": 0.1939,
   "dilution": 0.0,
   "insider_pct": 75.001,
-  "inst_pct": 19.191,
+  "inst_pct": 19.358,
   "analysts": 14.0,
   "fcf_positive": 1,
   "q_rev_yoy": 30.01,
@@ -12054,7 +12054,7 @@
   "acquisition": true,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "ESCORTS.NS": {
   "name": "ESCORTS KUBOTA LIMITED",
@@ -12062,9 +12062,9 @@
   "blurb": "Escorts Kubota Limited manufactures and sells agricultural and construction equipment in India and internationally. The company offers rotavators, straw reapers, super seeders, MB ploughs, orchard sprayers, paddy harvesters, seed drills, and rice transplanters; filters, pumps, engine assemblies, gear parts, clutch syst",
   "themes": [],
   "moat_kw": 0,
-  "mcap_cr": 29740.4039,
+  "mcap_cr": 29782.2159,
   "revenue_cr": 11413.55,
-  "pe": 21.5104,
+  "pe": 21.5407,
   "peg": 1.61,
   "rev_cagr": 11.2865,
   "profit_cagr": 55.4952,
@@ -12075,7 +12075,7 @@
   "de": 0.0131,
   "dilution": -15.2105,
   "insider_pct": 74.511,
-  "inst_pct": 12.572,
+  "inst_pct": 13.788,
   "analysts": 17.0,
   "fcf_positive": 1,
   "q_rev_yoy": 31.1946,
@@ -12094,7 +12094,7 @@
   "acquisition": null,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "EXIDEIND.NS": {
   "name": "EXIDE INDUSTRIES LTD",
@@ -12104,9 +12104,9 @@
    "Energy transition"
   ],
   "moat_kw": 0,
-  "mcap_cr": 33473.0002,
+  "mcap_cr": 30612.7503,
   "revenue_cr": 17907.99,
-  "pe": 35.9307,
+  "pe": 32.8604,
   "peg": null,
   "rev_cagr": 6.1299,
   "profit_cagr": 1.2599,
@@ -12117,7 +12117,7 @@
   "de": 0.1131,
   "dilution": 0.0,
   "insider_pct": 50.942,
-  "inst_pct": 23.797,
+  "inst_pct": 23.357,
   "analysts": 16.0,
   "fcf_positive": 1,
   "q_rev_yoy": 17.7474,
@@ -12136,7 +12136,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "NYKAA.NS": {
   "name": "FSN E COMMERCE VENTURES",
@@ -12144,9 +12144,9 @@
   "blurb": "FSN E-Commerce Ventures Limited, through its subsidiaries, manufactures, sells, and distributes beauty and lifestyle products in India and internationally. It operates through three segments: Beauty, Fashion, and Others. The company offers makeup for face, eyes, lips, and nails, as well as makeup palettes and tools and",
   "themes": [],
   "moat_kw": 0,
-  "mcap_cr": 96730.4413,
+  "mcap_cr": 96472.5309,
   "revenue_cr": 9929.42,
-  "pe": 379.2697,
+  "pe": 378.2584,
   "peg": null,
   "rev_cagr": 24.7256,
   "profit_cagr": 117.9567,
@@ -12157,8 +12157,8 @@
   "de": 0.8283,
   "dilution": 0.3779,
   "insider_pct": 56.128,
-  "inst_pct": 32.293,
-  "analysts": 25.0,
+  "inst_pct": 32.35,
+  "analysts": 26.0,
   "fcf_positive": 1,
   "q_rev_yoy": 29.0987,
   "q_profit_yoy": 243.2247,
@@ -12176,7 +12176,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "FEDERALBNK.NS": {
   "name": "FEDERAL BANK LTD",
@@ -12184,9 +12184,9 @@
   "blurb": "The Federal Bank Limited provides various banking and financial services in India. It operates through four segments: Treasury, Corporate/Wholesale Banking, Retail Banking, and Other Banking Operations segments. The company offers savings, current, salary, GBD super 51, RFC domestic, RFC, EEFC, and gilt accounts, as we",
   "themes": [],
   "moat_kw": 0,
-  "mcap_cr": 81547.6507,
+  "mcap_cr": 86179.6368,
   "revenue_cr": 16297.5802,
-  "pe": 17.6619,
+  "pe": 17.0337,
   "peg": null,
   "rev_cagr": 16.6083,
   "profit_cagr": 11.1463,
@@ -12196,8 +12196,8 @@
   "roce_chg": null,
   "de": null,
   "dilution": 16.4484,
-  "insider_pct": 10.905,
-  "inst_pct": 60.549,
+  "insider_pct": 10.901,
+  "inst_pct": 60.535,
   "analysts": 35.0,
   "fcf_positive": 1,
   "q_rev_yoy": 19.1064,
@@ -12216,7 +12216,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "FACT.NS": {
   "name": "FACT LTD",
@@ -12224,7 +12224,7 @@
   "blurb": "The Fertilisers and Chemicals Travancore Limited manufactures and markets fertilizers and petrochemicals in India. It operates through Fertilizer and Petrochemical segments. The company offers complex fertilizers, including ammonium phosphate and sulphate, and zincated factamfos; straight fertilizers, such as ammonium ",
   "themes": [],
   "moat_kw": 0,
-  "mcap_cr": 47398.024,
+  "mcap_cr": 46802.7179,
   "revenue_cr": 3150.8371,
   "pe": null,
   "peg": null,
@@ -12237,7 +12237,7 @@
   "de": 2.9515,
   "dilution": 0.0,
   "insider_pct": 0.0,
-  "inst_pct": 0.096,
+  "inst_pct": 0.087,
   "analysts": null,
   "fcf_positive": 0,
   "q_rev_yoy": 18.9997,
@@ -12256,7 +12256,7 @@
   "acquisition": null,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "FORTIS.NS": {
   "name": "FORTIS HEALTHCARE LTD",
@@ -12266,9 +12266,9 @@
    "Healthcare and diagnostics"
   ],
   "moat_kw": 0,
-  "mcap_cr": 58796.1401,
+  "mcap_cr": 55700.8093,
   "revenue_cr": 9048.0789,
-  "pe": 56.1095,
+  "pe": 53.1556,
   "peg": 0.42,
   "rev_cagr": 13.3482,
   "profit_cagr": 20.9536,
@@ -12279,7 +12279,7 @@
   "de": 0.3415,
   "dilution": 0.0,
   "insider_pct": 35.187,
-  "inst_pct": 51.076,
+  "inst_pct": 51.495,
   "analysts": 20.0,
   "fcf_positive": 1,
   "q_rev_yoy": 17.46,
@@ -12298,7 +12298,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "GVT&D.NS": {
   "name": "GE VERNOVA T&D INDIA LTD",
@@ -12309,9 +12309,9 @@
    "Railways and infrastructure"
   ],
   "moat_kw": 0,
-  "mcap_cr": 109329.3048,
+  "mcap_cr": 100498.2632,
   "revenue_cr": 6200.89,
-  "pe": 83.3639,
+  "pe": 76.6302,
   "peg": null,
   "rev_cagr": 31.1469,
   "profit_cagr": null,
@@ -12322,8 +12322,8 @@
   "de": 0.0089,
   "dilution": 0.0,
   "insider_pct": 51.738,
-  "inst_pct": 29.836,
-  "analysts": 17.0,
+  "inst_pct": 29.767,
+  "analysts": 18.0,
   "fcf_positive": 1,
   "q_rev_yoy": 59.3125,
   "q_profit_yoy": 94.6431,
@@ -12341,7 +12341,7 @@
   "acquisition": null,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "GMRAIRPORT.NS": {
   "name": "GMR AIRPORTS LIMITED",
@@ -12351,9 +12351,9 @@
    "Railways and infrastructure"
   ],
   "moat_kw": 0,
-  "mcap_cr": 96332.5788,
+  "mcap_cr": 95136.3699,
   "revenue_cr": 13344.58,
-  "pe": 237.7895,
+  "pe": 237.1053,
   "peg": null,
   "rev_cagr": 31.7752,
   "profit_cagr": null,
@@ -12364,7 +12364,7 @@
   "de": null,
   "dilution": 74.9349,
   "insider_pct": 69.816,
-  "inst_pct": 15.834,
+  "inst_pct": 15.668,
   "analysts": 9.0,
   "fcf_positive": 1,
   "q_rev_yoy": 23.6726,
@@ -12383,7 +12383,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "GICRE.NS": {
   "name": "GENERAL INS CORP OF INDIA",
@@ -12391,9 +12391,9 @@
   "blurb": "General Insurance Corporation of India engages in the provision of reinsurance services in India and internationally. It provides property, energy, marine, engineering, liability, spares, health, agriculture/weather, motor and workmen compensation, aviation, life, marine hull, cargo and offshore energy, credit, and mis",
   "themes": [],
   "moat_kw": 0,
-  "mcap_cr": 55202.1918,
+  "mcap_cr": 57403.972,
   "revenue_cr": 54813.02,
-  "pe": 6.2184,
+  "pe": 6.4664,
   "peg": null,
   "rev_cagr": 4.2763,
   "profit_cagr": 11.8386,
@@ -12404,7 +12404,7 @@
   "de": null,
   "dilution": 0.0,
   "insider_pct": 77.397,
-  "inst_pct": 17.051,
+  "inst_pct": 17.133,
   "analysts": 6.0,
   "fcf_positive": 1,
   "q_rev_yoy": -1.0193,
@@ -12423,7 +12423,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "GLAXO.NS": {
   "name": "GLAXOSMITHKLINE PHARMA LT",
@@ -12433,9 +12433,9 @@
    "Healthcare and diagnostics"
   ],
   "moat_kw": 0,
-  "mcap_cr": 43276.4682,
+  "mcap_cr": 42273.5806,
   "revenue_cr": 3807.5535,
-  "pe": 40.517,
+  "pe": 39.5781,
   "peg": null,
   "rev_cagr": 5.6761,
   "profit_cagr": 19.2645,
@@ -12446,7 +12446,7 @@
   "de": 0.0147,
   "dilution": 0.0,
   "insider_pct": 75.626,
-  "inst_pct": 9.821,
+  "inst_pct": 10.146,
   "analysts": 4.0,
   "fcf_positive": 1,
   "q_rev_yoy": -3.6875,
@@ -12465,7 +12465,7 @@
   "acquisition": null,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "GLENMARK.NS": {
   "name": "GLENMARK PHARMACEUTICALS",
@@ -12475,9 +12475,9 @@
    "Healthcare and diagnostics"
   ],
   "moat_kw": 0,
-  "mcap_cr": 64048.0641,
+  "mcap_cr": 62377.2959,
   "revenue_cr": 16711.403,
-  "pe": 35.632,
+  "pe": 34.7025,
   "peg": null,
   "rev_cagr": 13.4918,
   "profit_cagr": 66.088,
@@ -12488,7 +12488,7 @@
   "de": 0.0565,
   "dilution": 0.0116,
   "insider_pct": 48.958,
-  "inst_pct": 27.419,
+  "inst_pct": 26.987,
   "analysts": 11.0,
   "fcf_positive": 1,
   "q_rev_yoy": 28.5159,
@@ -12507,7 +12507,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "MEDANTA.NS": {
   "name": "GLOBAL HEALTH LIMITED",
@@ -12517,9 +12517,9 @@
    "Healthcare and diagnostics"
   ],
   "moat_kw": 0,
-  "mcap_cr": 35162.2496,
+  "mcap_cr": 33270.4481,
   "revenue_cr": 4318.471,
-  "pe": 63.2737,
+  "pe": 59.8694,
   "peg": null,
   "rev_cagr": 17.1962,
   "profit_cagr": 19.5007,
@@ -12530,7 +12530,7 @@
   "de": 0.2987,
   "dilution": 0.1649,
   "insider_pct": 66.385,
-  "inst_pct": 23.509,
+  "inst_pct": 23.33,
   "analysts": 19.0,
   "fcf_positive": 0,
   "q_rev_yoy": 26.5041,
@@ -12549,7 +12549,7 @@
   "acquisition": null,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "GODFRYPHLP.NS": {
   "name": "GODFREY PHILLIPS INDIA LT",
@@ -12559,9 +12559,9 @@
    "Export manufacturing"
   ],
   "moat_kw": 0,
-  "mcap_cr": 27983.1282,
+  "mcap_cr": 28192.2798,
   "revenue_cr": 6352.63,
-  "pe": 20.4608,
+  "pe": 20.6147,
   "peg": 0.27,
   "rev_cagr": 21.6304,
   "profit_cagr": 30.2596,
@@ -12571,8 +12571,8 @@
   "roce_chg": 4.818,
   "de": 0.0376,
   "dilution": 0.0,
-  "insider_pct": 73.544,
-  "inst_pct": 10.166,
+  "insider_pct": 73.547,
+  "inst_pct": 10.126,
   "analysts": null,
   "fcf_positive": 1,
   "q_rev_yoy": -23.8833,
@@ -12591,7 +12591,7 @@
   "acquisition": null,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "GODREJIND.NS": {
   "name": "GODREJ INDUSTRIES LTD",
@@ -12602,9 +12602,9 @@
    "Healthcare and diagnostics"
   ],
   "moat_kw": 0,
-  "mcap_cr": 33257.3016,
+  "mcap_cr": 34358.8045,
   "revenue_cr": 22098.23,
-  "pe": 28.2975,
+  "pe": 29.2347,
   "peg": null,
   "rev_cagr": 9.7671,
   "profit_cagr": 8.3678,
@@ -12615,7 +12615,7 @@
   "de": 2.2241,
   "dilution": 0.0495,
   "insider_pct": 87.194,
-  "inst_pct": 6.307,
+  "inst_pct": 6.375,
   "analysts": null,
   "fcf_positive": 0,
   "q_rev_yoy": 22.16,
@@ -12634,7 +12634,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "GODREJPROP.NS": {
   "name": "GODREJ PROPERTIES LTD",
@@ -12644,9 +12644,9 @@
    "Healthcare and diagnostics"
   ],
   "moat_kw": 0,
-  "mcap_cr": 46662.9951,
+  "mcap_cr": 47864.8893,
   "revenue_cr": 5025.61,
-  "pe": 29.1568,
+  "pe": 29.9078,
   "peg": null,
   "rev_cagr": 32.3779,
   "profit_cagr": 47.9433,
@@ -12657,7 +12657,7 @@
   "de": 0.8212,
   "dilution": 8.3398,
   "insider_pct": 57.581,
-  "inst_pct": 24.033,
+  "inst_pct": 24.36,
   "analysts": 22.0,
   "fcf_positive": 0,
   "q_rev_yoy": -76.1435,
@@ -12676,7 +12676,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "FLUOROCHEM.NS": {
   "name": "GUJARAT FLUOROCHEM LTD",
@@ -12690,9 +12690,9 @@
    "Healthcare and diagnostics"
   ],
   "moat_kw": 0,
-  "mcap_cr": 50667.212,
+  "mcap_cr": 48928.2896,
   "revenue_cr": 4875.46,
-  "pe": 82.8228,
+  "pe": 79.9803,
   "peg": null,
   "rev_cagr": -4.4806,
   "profit_cagr": -24.2596,
@@ -12703,7 +12703,7 @@
   "de": 0.2894,
   "dilution": 0.0,
   "insider_pct": 66.44,
-  "inst_pct": 15.199,
+  "inst_pct": 15.736,
   "analysts": 17.0,
   "fcf_positive": 0,
   "q_rev_yoy": 23.9657,
@@ -12722,7 +12722,7 @@
   "acquisition": null,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-12"
+  "fetched": "2026-10-20"
  },
  "JPPOWER.NS": {
   "name": "JAIPRAKASH POWER VEN. LTD",
