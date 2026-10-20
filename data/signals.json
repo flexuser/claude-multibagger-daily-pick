@@ -2463,7 +2463,7 @@
   }
  },
  "SJS.NS": {
-  "fetched": "2026-10-19",
+  "fetched": "2026-10-20",
   "data": {
    "status": {
     "announcements": true,
@@ -2535,7 +2535,7 @@
     "acquisition": 5
    },
    "neg_events": 0,
-   "pledge": null,
+   "pledge": 4.5,
    "pledge_chg": null,
    "promoter_chg": -1.57,
    "promoter_now": 19.99,
@@ -2699,7 +2699,7 @@
   }
  },
  "GOLDIAM.NS": {
-  "fetched": "2026-10-19",
+  "fetched": "2026-10-20",
   "data": {
    "status": {
     "announcements": true,
@@ -2770,7 +2770,7 @@
     "bonus_split": 2
    },
    "neg_events": 0,
-   "pledge": null,
+   "pledge": 0.0,
    "pledge_chg": null,
    "promoter_chg": 0.0,
    "promoter_now": 58.51,
@@ -2833,7 +2833,7 @@
   }
  },
  "JSLL.NS": {
-  "fetched": "2026-10-19",
+  "fetched": "2026-10-20",
   "data": {
    "status": {
     "announcements": true,
@@ -3344,7 +3344,7 @@
   }
  },
  "SKIPPER.NS": {
-  "fetched": "2026-10-19",
+  "fetched": "2026-10-20",
   "data": {
    "status": {
     "announcements": true,
@@ -3472,7 +3472,7 @@
   }
  },
  "SHILCTECH.NS": {
-  "fetched": "2026-10-19",
+  "fetched": "2026-10-20",
   "data": {
    "status": {
     "announcements": true,
@@ -3564,7 +3564,7 @@
   }
  },
  "THYROCARE.NS": {
-  "fetched": "2026-10-19",
+  "fetched": "2026-10-20",
   "data": {
    "status": {
     "announcements": true,
@@ -3606,7 +3606,7 @@
     "acquisition": 3
    },
    "neg_events": 0,
-   "pledge": null,
+   "pledge": 0.0,
    "pledge_chg": null,
    "promoter_chg": -9.91,
    "promoter_now": 51.02,
@@ -3669,7 +3669,7 @@
   }
  },
  "VIKRAMSOLR.NS": {
-  "fetched": "2026-10-19",
+  "fetched": "2026-10-20",
   "data": {
    "status": {
     "announcements": true,
@@ -3759,7 +3759,7 @@
     "distress": 5
    },
    "neg_events": 5,
-   "pledge": null,
+   "pledge": 9.24,
    "pledge_chg": null,
    "promoter_chg": -0.11,
    "promoter_now": 63.01,
@@ -3813,7 +3813,7 @@
   }
  },
  "SUPRIYA.NS": {
-  "fetched": "2026-10-19",
+  "fetched": "2026-10-20",
   "data": {
    "status": {
     "announcements": true,
@@ -3835,7 +3835,7 @@
   }
  },
  "OSWALPUMPS.NS": {
-  "fetched": "2026-10-19",
+  "fetched": "2026-10-20",
   "data": {
    "status": {
     "announcements": true,
@@ -3857,7 +3857,7 @@
   }
  },
  "TRANSRAILL.NS": {
-  "fetched": "2026-10-19",
+  "fetched": "2026-10-20",
   "data": {
    "status": {
     "announcements": true,
@@ -3866,6 +3866,15 @@
     "insider": true
    },
    "events": [
+    {
+     "date": "2026-10-19",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Outcome of Board Meeting",
+     "text": "The Board has approved Acquisition of 49% equity stake in NOPL Pace Green Energy Private Limited",
+     "url": "https://nsearchives.nseindia.com/corporate/TRANSRAIL_19102026190308_OutcomeBM19102026.pdf"
+    },
     {
      "date": "2026-08-04",
      "cats": [
@@ -3914,12 +3923,12 @@
    ],
    "event_score": 22,
    "event_counts": {
+    "acquisition": 4,
     "rating_up": 1,
-    "acquisition": 3,
     "approval": 1
    },
    "neg_events": 0,
-   "pledge": null,
+   "pledge": 5.97,
    "pledge_chg": null,
    "promoter_chg": 0.0,
    "promoter_now": 71.12,
@@ -4387,7 +4396,7 @@
   }
  },
  "SPARC.NS": {
-  "fetched": "2026-10-19",
+  "fetched": "2026-10-20",
   "data": {
    "status": {
     "announcements": true,
@@ -4411,7 +4420,7 @@
     "approval": 1
    },
    "neg_events": 0,
-   "pledge": null,
+   "pledge": 0.0,
    "pledge_chg": null,
    "promoter_chg": 0.0,
    "promoter_now": 65.67,
@@ -4603,7 +4612,7 @@
   }
  },
  "TTML.NS": {
-  "fetched": "2026-10-19",
+  "fetched": "2026-10-20",
   "data": {
    "status": {
     "announcements": true,
@@ -4615,7 +4624,7 @@
    "event_score": 0,
    "event_counts": {},
    "neg_events": 0,
-   "pledge": null,
+   "pledge": 0.0,
    "pledge_chg": null,
    "promoter_chg": 0.0,
    "promoter_now": 74.36,
@@ -4668,7 +4677,7 @@
   }
  },
  "WEBELSOLAR.NS": {
-  "fetched": "2026-10-19",
+  "fetched": "2026-10-20",
   "data": {
    "status": {
     "announcements": true,
@@ -4692,7 +4701,7 @@
     "expansion": 1
    },
    "neg_events": 0,
-   "pledge": null,
+   "pledge": 15.64,
    "pledge_chg": null,
    "promoter_chg": 2.01,
    "promoter_now": 29.72,
@@ -4702,7 +4711,7 @@
   }
  },
  "ASHOKA.NS": {
-  "fetched": "2026-10-19",
+  "fetched": "2026-10-20",
   "data": {
    "status": {
     "announcements": true,
@@ -4745,7 +4754,7 @@
     "acquisition": 1
    },
    "neg_events": 0,
-   "pledge": null,
+   "pledge": 0.0,
    "pledge_chg": null,
    "promoter_chg": 0.0,
    "promoter_now": 54.48,
@@ -5312,7 +5321,7 @@
   }
  },
  "CRAMC.NS": {
-  "fetched": "2026-10-19",
+  "fetched": "2026-10-20",
   "data": {
    "status": {
     "announcements": true,
@@ -5334,7 +5343,7 @@
   }
  },
  "GOKULAGRO.NS": {
-  "fetched": "2026-10-19",
+  "fetched": "2026-10-20",
   "data": {
    "status": {
     "announcements": true,
@@ -5346,7 +5355,7 @@
    "event_score": 0,
    "event_counts": {},
    "neg_events": 0,
-   "pledge": null,
+   "pledge": 13.69,
    "pledge_chg": null,
    "promoter_chg": 0.57,
    "promoter_now": 74.24,
@@ -5356,7 +5365,7 @@
   }
  },
  "BAJAJCON.NS": {
-  "fetched": "2026-10-19",
+  "fetched": "2026-10-20",
   "data": {
    "status": {
     "announcements": true,
@@ -5368,7 +5377,7 @@
    "event_score": 0,
    "event_counts": {},
    "neg_events": 0,
-   "pledge": null,
+   "pledge": 0.0,
    "pledge_chg": null,
    "promoter_chg": 2.02,
    "promoter_now": 42.97,
@@ -5378,7 +5387,7 @@
   }
  },
  "JAMNAAUTO.NS": {
-  "fetched": "2026-10-19",
+  "fetched": "2026-10-20",
   "data": {
    "status": {
     "announcements": true,
@@ -5402,7 +5411,7 @@
     "acquisition": 1
    },
    "neg_events": 0,
-   "pledge": null,
+   "pledge": 1.69,
    "pledge_chg": null,
    "promoter_chg": -5.13,
    "promoter_now": 44.81,
@@ -5412,7 +5421,7 @@
   }
  },
  "MSTCLTD.NS": {
-  "fetched": "2026-10-19",
+  "fetched": "2026-10-20",
   "data": {
    "status": {
     "announcements": true,
@@ -5434,7 +5443,7 @@
   }
  },
  "JYOTHYLAB.NS": {
-  "fetched": "2026-10-19",
+  "fetched": "2026-10-20",
   "data": {
    "status": {
     "announcements": true,
@@ -5446,7 +5455,7 @@
    "event_score": 0,
    "event_counts": {},
    "neg_events": 0,
-   "pledge": null,
+   "pledge": 0.0,
    "pledge_chg": null,
    "promoter_chg": 0.0,
    "promoter_now": 62.89,
@@ -5456,7 +5465,7 @@
   }
  },
  "SHARDACROP.NS": {
-  "fetched": "2026-10-19",
+  "fetched": "2026-10-20",
   "data": {
    "status": {
     "announcements": true,
@@ -5468,7 +5477,7 @@
    "event_score": 0,
    "event_counts": {},
    "neg_events": 0,
-   "pledge": null,
+   "pledge": 0.0,
    "pledge_chg": null,
    "promoter_chg": 0.0,
    "promoter_now": 74.82,
@@ -5478,7 +5487,7 @@
   }
  },
  "FIEMIND.NS": {
-  "fetched": "2026-10-19",
+  "fetched": "2026-10-20",
   "data": {
    "status": {
     "announcements": true,
@@ -5490,7 +5499,7 @@
    "event_score": 0,
    "event_counts": {},
    "neg_events": 0,
-   "pledge": null,
+   "pledge": 0.0,
    "pledge_chg": null,
    "promoter_chg": 0.0,
    "promoter_now": 54.52,
@@ -5500,7 +5509,7 @@
   }
  },
  "SONATSOFTW.NS": {
-  "fetched": "2026-10-19",
+  "fetched": "2026-10-20",
   "data": {
    "status": {
     "announcements": true,
@@ -5524,7 +5533,7 @@
     "acquisition": 1
    },
    "neg_events": 0,
-   "pledge": null,
+   "pledge": 0.0,
    "pledge_chg": null,
    "promoter_chg": 0.0,
    "promoter_now": 28.17,
@@ -5534,7 +5543,7 @@
   }
  },
  "TANLA.NS": {
-  "fetched": "2026-10-19",
+  "fetched": "2026-10-20",
   "data": {
    "status": {
     "announcements": true,
@@ -5558,7 +5567,7 @@
     "acquisition": 1
    },
    "neg_events": 0,
-   "pledge": null,
+   "pledge": 0.0,
    "pledge_chg": null,
    "promoter_chg": 0.0,
    "promoter_now": 46.17,
@@ -5568,7 +5577,7 @@
   }
  },
  "STYLAMIND.NS": {
-  "fetched": "2026-10-19",
+  "fetched": "2026-10-20",
   "data": {
    "status": {
     "announcements": true,
@@ -5590,7 +5599,7 @@
   }
  },
  "CENTUM.NS": {
-  "fetched": "2026-10-19",
+  "fetched": "2026-10-20",
   "data": {
    "status": {
     "announcements": true,
@@ -5624,7 +5633,7 @@
     "approval": 1
    },
    "neg_events": 0,
-   "pledge": null,
+   "pledge": 0.0,
    "pledge_chg": null,
    "promoter_chg": -0.18,
    "promoter_now": 46.81,
@@ -5634,7 +5643,7 @@
   }
  },
  "NEWGEN.NS": {
-  "fetched": "2026-10-19",
+  "fetched": "2026-10-20",
   "data": {
    "status": {
     "announcements": true,
@@ -5709,7 +5718,7 @@
   }
  },
  "QUESS.NS": {
-  "fetched": "2026-10-19",
+  "fetched": "2026-10-20",
   "data": {
    "status": {
     "announcements": true,
@@ -5731,7 +5740,7 @@
   }
  },
  "MAPMYINDIA.NS": {
-  "fetched": "2026-10-19",
+  "fetched": "2026-10-20",
   "data": {
    "status": {
     "announcements": true,
@@ -5753,7 +5762,7 @@
   }
  },
  "REFEX.NS": {
-  "fetched": "2026-10-19",
+  "fetched": "2026-10-20",
   "data": {
    "status": {
     "announcements": true,
@@ -5887,25 +5896,16 @@
      "type": "General Updates",
      "text": "Disclosure under Regulation 30 of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015 ( SEBI Listing Regulations ) regarding the order passed",
      "url": "https://nsearchives.nseindia.com/corporate/REFEX2002_24062026193439_RIL_NCLT_order.pdf"
-    },
-    {
-     "date": "2026-06-20",
-     "cats": [
-      "order_win"
-     ],
-     "type": "Bagging/Receiving of orders/contracts",
-     "text": "Disclosure under Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 -  Bagging of order for Transportation of pond ash to NHAI Road Projects",
-     "url": "https://nsearchives.nseindia.com/corporate/REFEX2002_20062026155606_RIL_BOD_20062026_sd.pdf"
     }
    ],
    "event_score": 2,
    "event_counts": {
-    "order_win": 11,
+    "order_win": 10,
     "acquisition": 1,
     "distress": 3
    },
    "neg_events": 3,
-   "pledge": null,
+   "pledge": 43.51,
    "pledge_chg": null,
    "promoter_chg": 0.65,
    "promoter_now": 56.57,
@@ -5915,7 +5915,7 @@
   }
  },
  "RAILTEL.NS": {
-  "fetched": "2026-10-19",
+  "fetched": "2026-10-20",
   "data": {
    "status": {
     "announcements": true,
@@ -6156,7 +6156,7 @@
   }
  },
  "POWERMECH.NS": {
-  "fetched": "2026-10-19",
+  "fetched": "2026-10-20",
   "data": {
    "status": {
     "announcements": true,
@@ -6200,20 +6200,11 @@
      "type": "Bagging/Receiving of orders/contracts",
      "text": "Power Mech Projects Limited has informed the Exchange about Receiving of orders/contracts",
      "url": "https://nsearchives.nseindia.com/corporate/POWERMECH_09092026113918_DISCLOSURE.pdf"
-    },
-    {
-     "date": "2026-06-20",
-     "cats": [
-      "order_win"
-     ],
-     "type": "Bagging/Receiving of orders/contracts",
-     "text": "Power Mech Projects Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
-     "url": "https://nsearchives.nseindia.com/corporate/POWERMECH_20062026172258_DISCLOSURE.pdf"
     }
    ],
    "event_score": 42,
    "event_counts": {
-    "order_win": 5
+    "order_win": 4
    },
    "neg_events": 0,
    "pledge": null,
@@ -6226,7 +6217,7 @@
   }
  },
  "CAMPUS.NS": {
-  "fetched": "2026-10-19",
+  "fetched": "2026-10-20",
   "data": {
    "status": {
     "announcements": true,
@@ -6270,7 +6261,7 @@
   }
  },
  "SHAKTIPUMP.NS": {
-  "fetched": "2026-10-19",
+  "fetched": "2026-10-20",
   "data": {
    "status": {
     "announcements": true,
@@ -6377,10 +6368,32 @@
     "rating_up": 1
    },
    "neg_events": 0,
-   "pledge": null,
+   "pledge": 0.0,
    "pledge_chg": null,
    "promoter_chg": 0.1,
    "promoter_now": 50.4,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "IFBIND.NS": {
+  "fetched": "2026-10-20",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [],
+   "event_score": 0,
+   "event_counts": {},
+   "neg_events": 0,
+   "pledge": 0.0,
+   "pledge_chg": null,
+   "promoter_chg": 0.0,
+   "promoter_now": 74.96,
    "pit_net_cr": 0.0,
    "pit_buys": 0,
    "pit_sells": 0
