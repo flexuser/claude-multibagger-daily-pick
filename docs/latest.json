@@ -2,20 +2,20 @@
  "generated": "2026-10-21",
  "demo": false,
  "universe": 651,
- "liquid": 632,
- "with_data": 632,
+ "liquid": 634,
+ "with_data": 634,
  "eligible": 0,
  "fund_stats": {
   "attempted": 0,
   "failed": 0
  },
  "rejected": {
-  "mcap outside shortlist band (300-8000 cr)": 480,
+  "mcap outside shortlist band (300-8000 cr)": 481,
   "sales CAGR 3% below 15%": 6,
   "missing critical field: q_rev_yoy": 1,
   "revenue growth looks like a data error": 6,
   "sales CAGR 14% below 15%": 2,
-  "sales CAGR 1% below 15%": 1,
+  "sales CAGR 1% below 15%": 2,
   "sales CAGR 0% below 15%": 1,
   "sales CAGR -3% below 15%": 2,
   "sales CAGR -13% below 15%": 1,
@@ -85,13 +85,8 @@
   "ROCE 8% below 15%": 1
  },
  "signals": {
-  "attempted": 35,
-  "ok": {
-   "announcements": 35,
-   "pledge": 35,
-   "shareholding": 35,
-   "insider": 35
-  },
+  "attempted": 0,
+  "ok": {},
   "blocked": false,
   "checked": 35,
   "demo": false
@@ -130,8 +125,8 @@
    "ticker": "ACUTAAS.NS",
    "name": "ACUTAAS CHEMICALS LIMITED",
    "days": 1,
-   "ret": -1.4234,
-   "nifty_ret": 1.1743,
+   "ret": 1.7801,
+   "nifty_ret": 2.0828,
    "active": false
   },
   {
@@ -139,8 +134,8 @@
    "ticker": "SEDEMAC.NS",
    "name": "SEDEMAC MECHATRONICS LTD",
    "days": 7,
-   "ret": -10.055,
-   "nifty_ret": 0.6147,
+   "ret": -5.2966,
+   "nifty_ret": 1.5182,
    "active": true
   }
  ],
@@ -148,7 +143,7 @@
   "episodes": 2,
   "measured": 2,
   "beat": 0,
-  "avg_excess": -6.6337
+  "avg_excess": -3.5588
  },
  "dd_rejected": [],
  "dd_blocked": false,
