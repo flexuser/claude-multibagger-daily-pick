@@ -2463,7 +2463,7 @@
   }
  },
  "SJS.NS": {
-  "fetched": "2026-10-20",
+  "fetched": "2026-10-21",
   "data": {
    "status": {
     "announcements": true,
@@ -2535,7 +2535,7 @@
     "acquisition": 5
    },
    "neg_events": 0,
-   "pledge": 4.5,
+   "pledge": null,
    "pledge_chg": null,
    "promoter_chg": -1.57,
    "promoter_now": 19.99,
@@ -2699,7 +2699,7 @@
   }
  },
  "GOLDIAM.NS": {
-  "fetched": "2026-10-20",
+  "fetched": "2026-10-21",
   "data": {
    "status": {
     "announcements": true,
@@ -2770,7 +2770,7 @@
     "bonus_split": 2
    },
    "neg_events": 0,
-   "pledge": 0.0,
+   "pledge": null,
    "pledge_chg": null,
    "promoter_chg": 0.0,
    "promoter_now": 58.51,
@@ -2833,7 +2833,7 @@
   }
  },
  "JSLL.NS": {
-  "fetched": "2026-10-20",
+  "fetched": "2026-10-21",
   "data": {
    "status": {
     "announcements": true,
@@ -3344,7 +3344,7 @@
   }
  },
  "SKIPPER.NS": {
-  "fetched": "2026-10-20",
+  "fetched": "2026-10-21",
   "data": {
    "status": {
     "announcements": true,
@@ -3472,7 +3472,7 @@
   }
  },
  "SHILCTECH.NS": {
-  "fetched": "2026-10-20",
+  "fetched": "2026-10-21",
   "data": {
    "status": {
     "announcements": true,
@@ -3564,7 +3564,7 @@
   }
  },
  "THYROCARE.NS": {
-  "fetched": "2026-10-20",
+  "fetched": "2026-10-21",
   "data": {
    "status": {
     "announcements": true,
@@ -3606,7 +3606,7 @@
     "acquisition": 3
    },
    "neg_events": 0,
-   "pledge": 0.0,
+   "pledge": null,
    "pledge_chg": null,
    "promoter_chg": -9.91,
    "promoter_now": 51.02,
@@ -3669,7 +3669,7 @@
   }
  },
  "VIKRAMSOLR.NS": {
-  "fetched": "2026-10-20",
+  "fetched": "2026-10-21",
   "data": {
    "status": {
     "announcements": true,
@@ -3759,7 +3759,7 @@
     "distress": 5
    },
    "neg_events": 5,
-   "pledge": 9.24,
+   "pledge": null,
    "pledge_chg": null,
    "promoter_chg": -0.11,
    "promoter_now": 63.01,
@@ -3813,7 +3813,7 @@
   }
  },
  "SUPRIYA.NS": {
-  "fetched": "2026-10-20",
+  "fetched": "2026-10-21",
   "data": {
    "status": {
     "announcements": true,
@@ -3835,7 +3835,7 @@
   }
  },
  "OSWALPUMPS.NS": {
-  "fetched": "2026-10-20",
+  "fetched": "2026-10-21",
   "data": {
    "status": {
     "announcements": true,
@@ -3857,7 +3857,7 @@
   }
  },
  "TRANSRAILL.NS": {
-  "fetched": "2026-10-20",
+  "fetched": "2026-10-21",
   "data": {
    "status": {
     "announcements": true,
@@ -3928,7 +3928,7 @@
     "approval": 1
    },
    "neg_events": 0,
-   "pledge": 5.97,
+   "pledge": null,
    "pledge_chg": null,
    "promoter_chg": 0.0,
    "promoter_now": 71.12,
@@ -4396,7 +4396,7 @@
   }
  },
  "SPARC.NS": {
-  "fetched": "2026-10-20",
+  "fetched": "2026-10-21",
   "data": {
    "status": {
     "announcements": true,
@@ -4420,7 +4420,7 @@
     "approval": 1
    },
    "neg_events": 0,
-   "pledge": 0.0,
+   "pledge": null,
    "pledge_chg": null,
    "promoter_chg": 0.0,
    "promoter_now": 65.67,
@@ -4612,7 +4612,7 @@
   }
  },
  "TTML.NS": {
-  "fetched": "2026-10-20",
+  "fetched": "2026-10-21",
   "data": {
    "status": {
     "announcements": true,
@@ -4624,7 +4624,7 @@
    "event_score": 0,
    "event_counts": {},
    "neg_events": 0,
-   "pledge": 0.0,
+   "pledge": null,
    "pledge_chg": null,
    "promoter_chg": 0.0,
    "promoter_now": 74.36,
@@ -4677,7 +4677,7 @@
   }
  },
  "WEBELSOLAR.NS": {
-  "fetched": "2026-10-20",
+  "fetched": "2026-10-21",
   "data": {
    "status": {
     "announcements": true,
@@ -4701,7 +4701,7 @@
     "expansion": 1
    },
    "neg_events": 0,
-   "pledge": 15.64,
+   "pledge": null,
    "pledge_chg": null,
    "promoter_chg": 2.01,
    "promoter_now": 29.72,
@@ -4711,7 +4711,7 @@
   }
  },
  "ASHOKA.NS": {
-  "fetched": "2026-10-20",
+  "fetched": "2026-10-21",
   "data": {
    "status": {
     "announcements": true,
@@ -4754,7 +4754,7 @@
     "acquisition": 1
    },
    "neg_events": 0,
-   "pledge": 0.0,
+   "pledge": null,
    "pledge_chg": null,
    "promoter_chg": 0.0,
    "promoter_now": 54.48,
@@ -5321,7 +5321,7 @@
   }
  },
  "CRAMC.NS": {
-  "fetched": "2026-10-20",
+  "fetched": "2026-10-21",
   "data": {
    "status": {
     "announcements": true,
@@ -5343,7 +5343,7 @@
   }
  },
  "GOKULAGRO.NS": {
-  "fetched": "2026-10-20",
+  "fetched": "2026-10-21",
   "data": {
    "status": {
     "announcements": true,
@@ -5355,7 +5355,7 @@
    "event_score": 0,
    "event_counts": {},
    "neg_events": 0,
-   "pledge": 13.69,
+   "pledge": null,
    "pledge_chg": null,
    "promoter_chg": 0.57,
    "promoter_now": 74.24,
@@ -5365,7 +5365,7 @@
   }
  },
  "BAJAJCON.NS": {
-  "fetched": "2026-10-20",
+  "fetched": "2026-10-21",
   "data": {
    "status": {
     "announcements": true,
@@ -5377,7 +5377,7 @@
    "event_score": 0,
    "event_counts": {},
    "neg_events": 0,
-   "pledge": 0.0,
+   "pledge": null,
    "pledge_chg": null,
    "promoter_chg": 2.02,
    "promoter_now": 42.97,
@@ -5387,7 +5387,7 @@
   }
  },
  "JAMNAAUTO.NS": {
-  "fetched": "2026-10-20",
+  "fetched": "2026-10-21",
   "data": {
    "status": {
     "announcements": true,
@@ -5411,7 +5411,7 @@
     "acquisition": 1
    },
    "neg_events": 0,
-   "pledge": 1.69,
+   "pledge": null,
    "pledge_chg": null,
    "promoter_chg": -5.13,
    "promoter_now": 44.81,
@@ -5421,7 +5421,7 @@
   }
  },
  "MSTCLTD.NS": {
-  "fetched": "2026-10-20",
+  "fetched": "2026-10-21",
   "data": {
    "status": {
     "announcements": true,
@@ -5443,7 +5443,7 @@
   }
  },
  "JYOTHYLAB.NS": {
-  "fetched": "2026-10-20",
+  "fetched": "2026-10-21",
   "data": {
    "status": {
     "announcements": true,
@@ -5455,7 +5455,7 @@
    "event_score": 0,
    "event_counts": {},
    "neg_events": 0,
-   "pledge": 0.0,
+   "pledge": null,
    "pledge_chg": null,
    "promoter_chg": 0.0,
    "promoter_now": 62.89,
@@ -5465,7 +5465,7 @@
   }
  },
  "SHARDACROP.NS": {
-  "fetched": "2026-10-20",
+  "fetched": "2026-10-21",
   "data": {
    "status": {
     "announcements": true,
@@ -5477,7 +5477,7 @@
    "event_score": 0,
    "event_counts": {},
    "neg_events": 0,
-   "pledge": 0.0,
+   "pledge": null,
    "pledge_chg": null,
    "promoter_chg": 0.0,
    "promoter_now": 74.82,
@@ -5487,7 +5487,7 @@
   }
  },
  "FIEMIND.NS": {
-  "fetched": "2026-10-20",
+  "fetched": "2026-10-21",
   "data": {
    "status": {
     "announcements": true,
@@ -5499,7 +5499,7 @@
    "event_score": 0,
    "event_counts": {},
    "neg_events": 0,
-   "pledge": 0.0,
+   "pledge": null,
    "pledge_chg": null,
    "promoter_chg": 0.0,
    "promoter_now": 54.52,
@@ -5509,7 +5509,7 @@
   }
  },
  "SONATSOFTW.NS": {
-  "fetched": "2026-10-20",
+  "fetched": "2026-10-21",
   "data": {
    "status": {
     "announcements": true,
@@ -5533,7 +5533,7 @@
     "acquisition": 1
    },
    "neg_events": 0,
-   "pledge": 0.0,
+   "pledge": null,
    "pledge_chg": null,
    "promoter_chg": 0.0,
    "promoter_now": 28.17,
@@ -5543,7 +5543,7 @@
   }
  },
  "TANLA.NS": {
-  "fetched": "2026-10-20",
+  "fetched": "2026-10-21",
   "data": {
    "status": {
     "announcements": true,
@@ -5567,7 +5567,7 @@
     "acquisition": 1
    },
    "neg_events": 0,
-   "pledge": 0.0,
+   "pledge": null,
    "pledge_chg": null,
    "promoter_chg": 0.0,
    "promoter_now": 46.17,
@@ -5577,7 +5577,7 @@
   }
  },
  "STYLAMIND.NS": {
-  "fetched": "2026-10-20",
+  "fetched": "2026-10-21",
   "data": {
    "status": {
     "announcements": true,
@@ -5599,7 +5599,7 @@
   }
  },
  "CENTUM.NS": {
-  "fetched": "2026-10-20",
+  "fetched": "2026-10-21",
   "data": {
    "status": {
     "announcements": true,
@@ -5633,7 +5633,7 @@
     "approval": 1
    },
    "neg_events": 0,
-   "pledge": 0.0,
+   "pledge": null,
    "pledge_chg": null,
    "promoter_chg": -0.18,
    "promoter_now": 46.81,
@@ -5643,7 +5643,7 @@
   }
  },
  "NEWGEN.NS": {
-  "fetched": "2026-10-20",
+  "fetched": "2026-10-21",
   "data": {
    "status": {
     "announcements": true,
@@ -5718,7 +5718,7 @@
   }
  },
  "QUESS.NS": {
-  "fetched": "2026-10-20",
+  "fetched": "2026-10-21",
   "data": {
    "status": {
     "announcements": true,
@@ -5740,7 +5740,7 @@
   }
  },
  "MAPMYINDIA.NS": {
-  "fetched": "2026-10-20",
+  "fetched": "2026-10-21",
   "data": {
    "status": {
     "announcements": true,
@@ -5762,7 +5762,7 @@
   }
  },
  "REFEX.NS": {
-  "fetched": "2026-10-20",
+  "fetched": "2026-10-21",
   "data": {
    "status": {
     "announcements": true,
@@ -5905,7 +5905,7 @@
     "distress": 3
    },
    "neg_events": 3,
-   "pledge": 43.51,
+   "pledge": null,
    "pledge_chg": null,
    "promoter_chg": 0.65,
    "promoter_now": 56.57,
@@ -6156,7 +6156,7 @@
   }
  },
  "POWERMECH.NS": {
-  "fetched": "2026-10-20",
+  "fetched": "2026-10-21",
   "data": {
    "status": {
     "announcements": true,
@@ -6217,7 +6217,7 @@
   }
  },
  "CAMPUS.NS": {
-  "fetched": "2026-10-20",
+  "fetched": "2026-10-21",
   "data": {
    "status": {
     "announcements": true,
@@ -6232,7 +6232,7 @@
    "pledge": null,
    "pledge_chg": null,
    "promoter_chg": -0.05,
-   "promoter_now": 72.08,
+   "promoter_now": 72.07,
    "pit_net_cr": 0.0,
    "pit_buys": 0,
    "pit_sells": 0
@@ -6261,7 +6261,7 @@
   }
  },
  "SHAKTIPUMP.NS": {
-  "fetched": "2026-10-20",
+  "fetched": "2026-10-21",
   "data": {
    "status": {
     "announcements": true,
@@ -6368,7 +6368,7 @@
     "rating_up": 1
    },
    "neg_events": 0,
-   "pledge": 0.0,
+   "pledge": null,
    "pledge_chg": null,
    "promoter_chg": 0.1,
    "promoter_now": 50.4,
@@ -6378,7 +6378,7 @@
   }
  },
  "IFBIND.NS": {
-  "fetched": "2026-10-20",
+  "fetched": "2026-10-21",
   "data": {
    "status": {
     "announcements": true,
@@ -6390,7 +6390,7 @@
    "event_score": 0,
    "event_counts": {},
    "neg_events": 0,
-   "pledge": 0.0,
+   "pledge": null,
    "pledge_chg": null,
    "promoter_chg": 0.0,
    "promoter_now": 74.96,
@@ -6400,7 +6400,7 @@
   }
  },
  "SAFARI.NS": {
-  "fetched": "2026-10-20",
+  "fetched": "2026-10-21",
   "data": {
    "status": {
     "announcements": true,
