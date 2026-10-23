@@ -218,6 +218,14 @@ def _swing_html(short_payload: Optional[dict]) -> str:
     expired = int(stats.get("expired") or 0)
     active_all = [s for s in history if s.get("status") == "active"]
     active_prev = [s for s in active_all if s.get("date") != today]
+    # One open row per ticker (keep earliest entry / original call)
+    _open_by_tk = {}
+    for s in sorted(active_all, key=lambda x: x.get("date") or ""):
+        tk = s.get("ticker")
+        if tk and tk not in _open_by_tk:
+            _open_by_tk[tk] = s
+    open_unique = list(_open_by_tk.values())
+    open_tickers = set(_open_by_tk.keys())
 
     h.append('<div class="stats-grid">')
     wr_txt = f"{wr}%" if wr is not None else "—"
@@ -225,7 +233,7 @@ def _swing_html(short_payload: Optional[dict]) -> str:
     h.append(f'<div class="stat {wr_cls}"><div class="n">{wr_txt}</div><div class="l">Hit rate</div></div>')
     h.append(f'<div class="stat"><div class="n">{avg_r if avg_r is not None else "—"}</div><div class="l">Avg R</div></div>')
     h.append(f'<div class="stat win"><div class="n">{t1_hits}</div><div class="l">Targets hit</div></div>')
-    h.append(f'<div class="stat"><div class="n">{len(active_prev)}</div><div class="l">Open calls</div></div>')
+    h.append(f'<div class="stat"><div class="n">{len(open_unique)}</div><div class="l">Open calls</div></div>')
     h.append("</div>")
     if closed:
         h.append(
@@ -247,17 +255,29 @@ def _swing_html(short_payload: Optional[dict]) -> str:
             "If last close already past T1, skip. Always use Stop Loss."
             "</p></div>"
         )
-        for s in signals[:3]:
+        # Skip names already in an open call (one live thesis per stock)
+        fresh = [s for s in signals if s.get("ticker") not in open_tickers]
+        for s in fresh[:3]:
             h.append(_signal_card(s, is_today=True))
+        if not fresh:
+            h.append(
+                '<p class="note">No new setups today — open calls below still running '
+                "(not re-issued until closed).</p>"
+            )
 
-    # ----- Open calls (compact table, not full cards) -----
-    if active_prev:
-        h.append("<h2 style='margin:16px 0 8px'>Open calls</h2>")
-        h.append('<div class="panel"><table class="compact-table">')
+    # ----- Open calls (collapsible, one row per ticker) -----
+    if open_unique:
+        h.append('<details class="hist">')
+        h.append(
+            f"<summary>Open calls · {len(open_unique)} active · "
+            f"expand for entry / SL / T1</summary>"
+        )
+        h.append('<div class="panel" style="margin-top:8px;border:none;padding:0">'
+                 '<table class="compact-table">')
         h.append(
             "<tr><th>Stock</th><th>Entry</th><th>Now</th><th>SL</th><th>T1</th><th>Day</th><th>Status</th></tr>"
         )
-        for s in sorted(active_prev, key=lambda x: -(x.get("confidence") or 0)):
+        for s in sorted(open_unique, key=lambda x: -(x.get("confidence") or 0)):
             tk = e(str(s.get("ticker", "")).replace(".NS", ""))
             day = s.get("days_held", 0)
             outcome = s.get("outcome")
@@ -281,7 +301,7 @@ def _swing_html(short_payload: Optional[dict]) -> str:
                 f"<td>{day}</td>"
                 f"<td>{status}</td></tr>"
             )
-        h.append("</table></div>")
+        h.append("</table></div></details>")
 
     # ----- History (collapsible) -----
     closed_list = [

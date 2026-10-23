@@ -823,7 +823,13 @@ def run_short(
         "date": today,
         "regime": regime,
         "nifty": nifty,
-        "signals": signals[: SHORT_TERM.get("max_show", 3)],
+        "signals": [
+            s for s in signals
+            if s.get("ticker") not in {
+                h.get("ticker") for h in history
+                if h.get("status") == "active" and h.get("date") != today
+            }
+        ][: SHORT_TERM.get("max_show", 3)],
         "history": history,
         "stats": stats,
         "near_misses": near[:15] if debug else [],

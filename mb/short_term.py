@@ -720,15 +720,15 @@ def update_swing_history(
         else:
             updated.append(sig)
 
-    # Avoid duplicate: if same ticker already active today, skip re-adding
+    # Avoid duplicate: if ticker already has an open (active) call, do not open another
     active_tickers = {
         s["ticker"] for s in updated
-        if s.get("status") == "active" and s.get("date") == today
+        if s.get("status") == "active" and s.get("ticker")
     }
 
     for s in new_signals:
         tk = s.get("ticker")
-        if tk in active_tickers:
+        if not tk or tk in active_tickers:
             continue
         rec = {
             "date": today,
