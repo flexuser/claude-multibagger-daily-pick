@@ -16,7 +16,7 @@ SIGNALS_JSON = DATA / "signals.json"
 DD_JSON = DATA / "diligence.json"
 SIGNALS_DEBUG = DATA / "signals_debug.json"
 SNAPSHOT_DIR = DATA / "snapshots"
-RULEBOOK_VERSION = "2026-10-16.1"
+RULEBOOK_VERSION = "2026-10-23.1"
 
 # Research-shortlist gates.
 # Safety rules → Fail. Cohort preferences → Watchlist if the rest is intact.
@@ -34,7 +34,7 @@ GATES = dict(
     min_promoter=40,
     min_promoter_fail=25,
     max_dilution=12,
-    max_pe=25,
+    max_pe=32,  # hypothesis; was 25
     max_peg=1.2,
     max_recv_chg=80,
 )

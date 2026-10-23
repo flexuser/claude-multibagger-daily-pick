@@ -86,12 +86,49 @@ def _pct(v):
     return f'<span class="{"pos" if v >= 0 else "neg"}">{v:+.1f}%</span>'
 
 
+def _watchlist_html(r: dict) -> str:
+    """Near-misses: could be next shortlist if listed gaps are resolved."""
+    wl = r.get("watchlist") or []
+    if not wl:
+        return ""
+    h: List[str] = []
+    h.append('<div class="panel">')
+    h.append("<h2>Watchlist — close, but not shortlist yet</h2>")
+    h.append(
+        '<p class="note">These names clear most gates but are missing specific evidence. '
+        "Not a buy list. Resolve the gaps before treating as research shortlist.</p>"
+    )
+    h.append("<table><tr><th>Stock</th><th>ROCE</th><th>Sales CAGR</th><th>PE</th><th>Missing / what must change</th></tr>")
+    for w in wl[:10]:
+        tk = e(str(w.get("ticker") or "").replace(".NS", ""))
+        name = e(str(w.get("name") or tk)[:28])
+        gaps = w.get("needs") or w.get("gaps") or []
+        gap_txt = e("; ".join(str(g) for g in gaps[:4]) or "see coverage")
+        roce = w.get("roce")
+        cagr = w.get("rev_cagr")
+        pe = w.get("pe")
+        h.append(
+            f"<tr><td><strong>{tk}</strong><br><span class='note'>{name}</span></td>"
+            f"<td>{'' if roce is None else f'{roce:.0f}%'}</td>"
+            f"<td>{'' if cagr is None else f'{cagr:.0f}%'}</td>"
+            f"<td>{'' if pe is None else f'{pe:.0f}'}</td>"
+            f"<td class='note'>{gap_txt}</td></tr>"
+        )
+    h.append("</table></div>")
+    return "".join(h)
+
+
 def _multibagger_html(r: dict) -> str:
     pick = r.get("pick")
     h: List[str] = []
 
     if not pick:
-        h.append('<div class="panel"><p>No research shortlist name today.</p></div>')
+        h.append('<div class="panel"><p>No research shortlist name today.</p>')
+        h.append(
+            '<p class="note">Shortlist requires every mandatory gate. '
+            "See Watchlist below for names that are close.</p></div>"
+        )
+        h.append(_watchlist_html(r))
         return "".join(h)
 
     m = pick.get("m") or pick

@@ -23,7 +23,6 @@ from mb.utils import avg, ramp, ramp_inv
 CRITICAL_FIELDS = (
     "rev_cagr",          # multi-year sales growth
     "q_rev_yoy",         # recent same-quarter YoY revenue
-    "q_profit_yoy",      # recent profit evidence (proxy for OP until explicit OP field)
     "roce",
     "cfo_pat",
     "de",
@@ -32,7 +31,8 @@ CRITICAL_FIELDS = (
     "pe",
     "mcap_cr",
 )
-# pledge often only from NSE signals — missing means cannot shortlist (watchlist), not data error
+# q_profit_yoy: preferred; if missing with sales OK → watchlist (not unknown)
+# pledge: often only from NSE — missing → watchlist, not shortlist
 
 # Source trust: until filing parsers exist, free vendors are unverified.
 # Critical gates cannot PASS shortlist on a single unverified vendor alone
@@ -232,8 +232,14 @@ def classify(m: dict, flags: Optional[list] = None) -> dict[str, Any]:
         watch.append(f"recent sales growth {m['q_rev_yoy']:.0f}% weak vs {G['min_recent_sales']}% floor")
         needs.append("stronger same-quarter YoY revenue growth")
 
-    # Profit evidence: q_profit_yoy required; margin alone cannot substitute
-    if m.get("q_profit_yoy") is not None and m["q_profit_yoy"] < 0:
+    # Profit evidence: present + non-negative preferred; missing → watchlist if sales OK
+    if m.get("q_profit_yoy") is None:
+        if m.get("rev_cagr") is not None and m.get("q_rev_yoy") is not None:
+            watch.append("recent profit growth not verified")
+            needs.append("latest same-quarter YoY operating/profit growth")
+        else:
+            unknown.append("missing critical field: q_profit_yoy")
+    elif m["q_profit_yoy"] < 0:
         watch.append("recent profit growth negative")
         needs.append("positive recent operating/profit growth")
 

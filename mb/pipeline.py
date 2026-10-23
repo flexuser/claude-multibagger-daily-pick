@@ -223,6 +223,7 @@ def run(
             weights=WEIGHTS, pillar_names=PILLAR_NAMES, verify=VERIFY,
             pick=None, bench=[], track=[], track_summary={},
             dd_rejected=[], dd_blocked=False, dd_provider=None, neg_filing_rejects=[],
+            watchlist=[],
         )
         short_payload = load_json(SHORT_JSON, {})
         html = render_page(result, short_payload=short_payload)
@@ -281,9 +282,9 @@ def run(
 
     theme_rs_map = theme_peer_rs(liquid, cache)
 
-    def evaluate(sigs: dict) -> tuple[list, dict]:
+    def evaluate(sigs: dict) -> tuple[list, dict, list]:
         neg_detail.clear()
-        scored_, rejected_ = [], {}
+        scored_, rejected_, watch_ = [], {}, []
         for tk, t in liquid.items():
             f = cache.get(tk)
             if not f or f.get("failed"):
@@ -295,21 +296,20 @@ def run(
             m["nifty_6m"] = nifty["ret_6m"] if nifty else None
             sig = {k: v for k, v in (sigs.get(tk) or {}).items() if k != "status"}
             m.update(sig)
-            # signals.py uses neg_events; scoring uses neg_count
             if m.get("neg_count") is None and m.get("neg_events") is not None:
                 m["neg_count"] = m["neg_events"]
             if m.get("delivery_pct") is None and t.get("delivery_pct") is not None:
                 m["delivery_pct"] = t["delivery_pct"]
             attach_context(m, theme_rs_map, nifty)
             m = sanitize_metrics(m)
-            # Merge ownership from signals if present
             if m.get("pledge") is None and (sigs.get(tk) or {}).get("pledge") is not None:
                 m["pledge"] = sigs[tk]["pledge"]
             fl = red_flags(m)
             decision = classify(m, fl)
             m["_decision"] = decision
-            if decision["outcome"] != "shortlist":
-                why = (decision["fail"] or decision["unknown"] or decision["watch"] or ["other"])[0]
+            outcome = decision["outcome"]
+            if outcome == "fail":
+                why = (decision["fail"] or ["fail"])[0]
                 rejected_[why] = rejected_.get(why, 0) + 1
                 if "negative" in why:
                     bad = [
@@ -328,24 +328,58 @@ def run(
                         ],
                     ))
                 continue
+            if outcome in ("watchlist", "unknown"):
+                why = (decision["fail"] or decision["unknown"] or decision["watch"] or ["other"])[0]
+                rejected_[why] = rejected_.get(why, 0) + 1
+                # Soft score for ranking near-misses (prefer fewer gaps)
+                soft = 50.0 + 40.0 * float(decision.get("coverage") or 0)
+                if m.get("roce") is not None:
+                    soft += min(20.0, float(m["roce"]) / 2)
+                watch_.append(dict(
+                    ticker=tk,
+                    name=m.get("name"),
+                    price=m.get("price"),
+                    mcap_cr=m.get("mcap_cr"),
+                    roce=m.get("roce"),
+                    rev_cagr=m.get("rev_cagr"),
+                    q_rev_yoy=m.get("q_rev_yoy"),
+                    pe=m.get("pe"),
+                    outcome=outcome,
+                    label=decision.get("label"),
+                    needs=list(decision.get("needs") or [])[:6],
+                    watch=list(decision.get("watch") or [])[:6],
+                    unknown=list(decision.get("unknown") or [])[:4],
+                    coverage=decision.get("coverage"),
+                    soft_score=round(soft, 1),
+                    spark=t.get("spark"),
+                ))
+                continue
+            # shortlist
             pil = score_pillars(m)
             sc = composite(pil)
             if sc is None:
                 rejected_["incomplete dimensions"] = rejected_.get("incomplete dimensions", 0) + 1
+                watch_.append(dict(
+                    ticker=tk, name=m.get("name"), outcome="watchlist",
+                    label="Watchlist", needs=["complete scoring dimensions"],
+                    watch=["incomplete score dimensions"], unknown=[],
+                    coverage=decision.get("coverage"), soft_score=40.0,
+                ))
                 continue
             scored_.append(dict(
                 ticker=tk, m=m, pil=pil, score=sc, flags=fl, spark=t.get("spark"),
                 decision=decision, coverage=decision.get("coverage"),
             ))
         scored_.sort(key=lambda x: -x["score"])
-        return scored_, rejected_
+        watch_.sort(key=lambda x: -x.get("soft_score", 0))
+        return scored_, rejected_, watch_
 
     sigs: dict = {}
     # Demo: ownership signals available immediately (no NSE)
     if demo:
         for tk in liquid:
             sigs[tk] = demo_signals(tk)
-    scored, rejected = evaluate(sigs)
+    scored, rejected, watch_list = evaluate(sigs)
     print(
         f"With fundamentals: {sum(1 for k in liquid if k in cache and not cache[k].get('failed'))}; "
         f"eligible before signals: {len(scored)}; rejected_sample={list(rejected.items())[:5]}"
@@ -410,7 +444,7 @@ def run(
 
         checked = {tk for tk, d in sigs.items() if any((d.get("status") or {}).values())}
         status["checked"] = len(checked)
-        scored, rejected = evaluate(sigs)
+        scored, rejected, watch_list = evaluate(sigs)
         # Prefer names we actually got live signals for, but if NSE is blocked
         # (or almost nothing came back) keep the fundamentals-only ranking.
         if checked and not status.get("blocked") and len(checked) >= max(3, len(top) // 4):
@@ -419,7 +453,7 @@ def run(
                 scored = filtered
         print(
             f"Signals seen for {len(checked)}; eligible after signals: {len(scored)}; "
-            f"rejected: {rejected}"
+            f"watchlist: {len(watch_list)}; rejected: {dict(list(rejected.items())[:8])}"
         )
         for d in neg_detail:
             for e in d["events"]:
@@ -437,6 +471,24 @@ def run(
         pick=None, bench=[], track=[], track_summary={},
         dd_rejected=[], dd_blocked=False, dd_provider=None,
         neg_filing_rejects=neg_detail[:10],
+        watchlist=[
+            dict(
+                ticker=w["ticker"],
+                name=w.get("name"),
+                price=w.get("price"),
+                mcap_cr=w.get("mcap_cr"),
+                roce=w.get("roce"),
+                rev_cagr=w.get("rev_cagr"),
+                pe=w.get("pe"),
+                outcome=w.get("outcome"),
+                label=w.get("label"),
+                needs=w.get("needs") or [],
+                gaps=(w.get("watch") or []) + (w.get("unknown") or []),
+                coverage=w.get("coverage"),
+                soft_score=w.get("soft_score"),
+            )
+            for w in watch_list[:12]
+        ],
     )
 
     # No hysteresis: research shortlist is pure rank of names that passed gates
