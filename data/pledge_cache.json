@@ -3,5 +3,397 @@
   "pledge": 3.5,
   "as_of": "2026-03-31",
   "source": "manual"
+ },
+ "INDIAGLYCO": {
+  "pledge": 0.0,
+  "pledge_chg": null,
+  "as_of": "31-08-2020",
+  "source": "nse_pledge_api",
+  "updated": "2026-10-23"
+ },
+ "ZAGGLE": {
+  "pledge": 1.61,
+  "pledge_chg": null,
+  "as_of": "2026-10-23",
+  "source": "nse_pledge_api",
+  "updated": "2026-10-23"
+ },
+ "KITEX": {
+  "pledge": 0.0,
+  "pledge_chg": null,
+  "as_of": "2026-10-23",
+  "source": "nse_pledge_api",
+  "updated": "2026-10-23"
+ },
+ "ASHOKA": {
+  "pledge": 0.0,
+  "pledge_chg": null,
+  "as_of": "2026-10-23",
+  "source": "nse_pledge_api",
+  "updated": "2026-10-23"
+ },
+ "ADVENZYMES": {
+  "pledge": 0.0,
+  "pledge_chg": null,
+  "as_of": "30-03-2017",
+  "source": "nse_pledge_api",
+  "updated": "2026-10-23"
+ },
+ "WEBELSOLAR": {
+  "pledge": 15.64,
+  "pledge_chg": null,
+  "as_of": "30-10-2023",
+  "source": "nse_pledge_api",
+  "updated": "2026-10-23"
+ },
+ "NFL": {
+  "pledge": 0.0,
+  "pledge_chg": null,
+  "as_of": "2026-10-23",
+  "source": "nse_pledge_api",
+  "updated": "2026-10-23"
+ },
+ "KNRCON": {
+  "pledge": 0.0,
+  "pledge_chg": null,
+  "as_of": "2026-10-23",
+  "source": "nse_pledge_api",
+  "updated": "2026-10-23"
+ },
+ "AURIONPRO": {
+  "pledge": 0.0,
+  "pledge_chg": null,
+  "as_of": "27-08-2014",
+  "source": "nse_pledge_api",
+  "updated": "2026-10-23"
+ },
+ "RAYMONDLSL": {
+  "pledge": 27.35,
+  "pledge_chg": null,
+  "as_of": "30-06-2026",
+  "source": "nse_pledge_api",
+  "updated": "2026-10-23"
+ },
+ "REFEX": {
+  "pledge": 47.39,
+  "pledge_chg": null,
+  "as_of": "29-09-2026",
+  "source": "nse_pledge_api",
+  "updated": "2026-10-23"
+ },
+ "VAIBHAVGBL": {
+  "pledge": 0.0,
+  "pledge_chg": null,
+  "as_of": "30-04-2014",
+  "source": "nse_pledge_api",
+  "updated": "2026-10-23"
+ },
+ "PNCINFRA": {
+  "pledge": 0.0,
+  "pledge_chg": null,
+  "as_of": "2026-10-23",
+  "source": "nse_pledge_api",
+  "updated": "2026-10-23"
+ },
+ "HERITGFOOD": {
+  "pledge": 0.0,
+  "pledge_chg": null,
+  "as_of": "2026-10-23",
+  "source": "nse_pledge_api",
+  "updated": "2026-10-23"
+ },
+ "KSCL": {
+  "pledge": 0.0,
+  "pledge_chg": null,
+  "as_of": "2026-10-23",
+  "source": "nse_pledge_api",
+  "updated": "2026-10-23"
+ },
+ "VIPIND": {
+  "pledge": 0.0,
+  "pledge_chg": null,
+  "as_of": "2026-10-23",
+  "source": "nse_pledge_api",
+  "updated": "2026-10-23"
+ },
+ "SWSOLAR": {
+  "pledge": 27.62,
+  "pledge_chg": null,
+  "as_of": "30-09-2024",
+  "source": "nse_pledge_api",
+  "updated": "2026-10-23"
+ },
+ "RALLIS": {
+  "pledge": 0.0,
+  "pledge_chg": null,
+  "as_of": "2026-10-23",
+  "source": "nse_pledge_api",
+  "updated": "2026-10-23"
+ },
+ "RESPONIND": {
+  "pledge": 6.49,
+  "pledge_chg": null,
+  "as_of": "21-10-2026",
+  "source": "nse_pledge_api",
+  "updated": "2026-10-23"
+ },
+ "SUNTECK": {
+  "pledge": 0.0,
+  "pledge_chg": null,
+  "as_of": "2026-10-23",
+  "source": "nse_pledge_api",
+  "updated": "2026-10-23"
+ },
+ "NETWORK18": {
+  "pledge": 0.0,
+  "pledge_chg": null,
+  "as_of": "2026-10-23",
+  "source": "nse_pledge_api",
+  "updated": "2026-10-23"
+ },
+ "SHAREINDIA": {
+  "pledge": 40.37,
+  "pledge_chg": null,
+  "as_of": "30-11-2023",
+  "source": "nse_pledge_api",
+  "updated": "2026-10-23"
+ },
+ "GUJALKALI": {
+  "pledge": 0.0,
+  "pledge_chg": null,
+  "as_of": "2026-10-23",
+  "source": "nse_pledge_api",
+  "updated": "2026-10-23"
+ },
+ "SUBROS": {
+  "pledge": 0.0,
+  "pledge_chg": null,
+  "as_of": "2026-10-23",
+  "source": "nse_pledge_api",
+  "updated": "2026-10-23"
+ },
+ "PTC": {
+  "pledge": 0.0,
+  "pledge_chg": null,
+  "as_of": "2026-10-23",
+  "source": "nse_pledge_api",
+  "updated": "2026-10-23"
+ },
+ "ASHAPURMIN": {
+  "pledge": 0.0,
+  "pledge_chg": null,
+  "as_of": "30-08-2024",
+  "source": "nse_pledge_api",
+  "updated": "2026-10-23"
+ },
+ "SURYAROSNI": {
+  "pledge": 0.0,
+  "pledge_chg": null,
+  "as_of": "31-01-2018",
+  "source": "nse_pledge_api",
+  "updated": "2026-10-23"
+ },
+ "TEXRAIL": {
+  "pledge": 0.0,
+  "pledge_chg": null,
+  "as_of": "24-12-2018",
+  "source": "nse_pledge_api",
+  "updated": "2026-10-23"
+ },
+ "THOMASCOOK": {
+  "pledge": 0.0,
+  "pledge_chg": null,
+  "as_of": "2026-10-23",
+  "source": "nse_pledge_api",
+  "updated": "2026-10-23"
+ },
+ "DBREALTY": {
+  "pledge": 32.56,
+  "pledge_chg": null,
+  "as_of": "31-12-2024",
+  "source": "nse_pledge_api",
+  "updated": "2026-10-23"
+ },
+ "DATAMATICS": {
+  "pledge": 0.0,
+  "pledge_chg": null,
+  "as_of": "26-02-2016",
+  "source": "nse_pledge_api",
+  "updated": "2026-10-23"
+ },
+ "GREAVESCOT": {
+  "pledge": 0.0,
+  "pledge_chg": null,
+  "as_of": "2026-10-23",
+  "source": "nse_pledge_api",
+  "updated": "2026-10-23"
+ },
+ "MOIL": {
+  "pledge": 0.0,
+  "pledge_chg": null,
+  "as_of": "2026-10-23",
+  "source": "nse_pledge_api",
+  "updated": "2026-10-23"
+ },
+ "RENUKA": {
+  "pledge": 0.0,
+  "pledge_chg": null,
+  "as_of": "28-07-2016",
+  "source": "nse_pledge_api",
+  "updated": "2026-10-23"
+ },
+ "PURVA": {
+  "pledge": 0.0,
+  "pledge_chg": null,
+  "as_of": "2026-10-23",
+  "source": "nse_pledge_api",
+  "updated": "2026-10-23"
+ },
+ "ELECTCAST": {
+  "pledge": 9.69,
+  "pledge_chg": null,
+  "as_of": "31-12-2020",
+  "source": "nse_pledge_api",
+  "updated": "2026-10-23"
+ },
+ "PDSL": {
+  "pledge": 0.0,
+  "pledge_chg": null,
+  "as_of": "2026-10-23",
+  "source": "nse_pledge_api",
+  "updated": "2026-10-23"
+ },
+ "GOLDIAM": {
+  "pledge": 0.0,
+  "pledge_chg": null,
+  "as_of": "2026-10-23",
+  "source": "nse_pledge_api",
+  "updated": "2026-10-23"
+ },
+ "IFBIND": {
+  "pledge": 0.0,
+  "pledge_chg": null,
+  "as_of": "2026-10-23",
+  "source": "nse_pledge_api",
+  "updated": "2026-10-23"
+ },
+ "FIEMIND": {
+  "pledge": 0.0,
+  "pledge_chg": null,
+  "as_of": "2026-10-23",
+  "source": "nse_pledge_api",
+  "updated": "2026-10-23"
+ },
+ "HAPPSTMNDS": {
+  "pledge": 0.0,
+  "pledge_chg": null,
+  "as_of": "15-02-2023",
+  "source": "nse_pledge_api",
+  "updated": "2026-10-23"
+ },
+ "VIKRAMSOLR": {
+  "pledge": 9.24,
+  "pledge_chg": null,
+  "as_of": "23-02-2026",
+  "source": "nse_pledge_api",
+  "updated": "2026-10-23"
+ },
+ "LUMAXIND": {
+  "pledge": 0.0,
+  "pledge_chg": null,
+  "as_of": "2026-10-23",
+  "source": "nse_pledge_api",
+  "updated": "2026-10-23"
+ },
+ "GOKEX": {
+  "pledge": 96.28,
+  "pledge_chg": null,
+  "as_of": "30-12-2024",
+  "source": "nse_pledge_api",
+  "updated": "2026-10-23"
+ },
+ "SHAKTIPUMP": {
+  "pledge": 0.0,
+  "pledge_chg": null,
+  "as_of": "30-04-2015",
+  "source": "nse_pledge_api",
+  "updated": "2026-10-23"
+ },
+ "CCAVENUE": {
+  "pledge": 0.0,
+  "pledge_chg": null,
+  "as_of": "27-10-2018",
+  "source": "nse_pledge_api",
+  "updated": "2026-10-23"
+ },
+ "PRAJIND": {
+  "pledge": 0.0,
+  "pledge_chg": null,
+  "as_of": "2026-10-23",
+  "source": "nse_pledge_api",
+  "updated": "2026-10-23"
+ },
+ "HCC": {
+  "pledge": 82.43,
+  "pledge_chg": null,
+  "as_of": "28-08-2019",
+  "source": "nse_pledge_api",
+  "updated": "2026-10-23"
+ },
+ "ARVINDFASN": {
+  "pledge": 8.31,
+  "pledge_chg": null,
+  "as_of": "17-03-2020",
+  "source": "nse_pledge_api",
+  "updated": "2026-10-23"
+ },
+ "ABFRL": {
+  "pledge": 0.0,
+  "pledge_chg": null,
+  "as_of": "29-06-2017",
+  "source": "nse_pledge_api",
+  "updated": "2026-10-23"
+ },
+ "TVSSCS": {
+  "pledge": 31.87,
+  "pledge_chg": null,
+  "as_of": "28-09-2023",
+  "source": "nse_pledge_api",
+  "updated": "2026-10-23"
+ },
+ "MASTEK": {
+  "pledge": 0.0,
+  "pledge_chg": null,
+  "as_of": "30-07-2020",
+  "source": "nse_pledge_api",
+  "updated": "2026-10-23"
+ },
+ "JAMNAAUTO": {
+  "pledge": 1.69,
+  "pledge_chg": null,
+  "as_of": "31-08-2018",
+  "source": "nse_pledge_api",
+  "updated": "2026-10-23"
+ },
+ "RCF": {
+  "pledge": 0.0,
+  "pledge_chg": null,
+  "as_of": "2026-10-23",
+  "source": "nse_pledge_api",
+  "updated": "2026-10-23"
+ },
+ "GSFC": {
+  "pledge": 0.0,
+  "pledge_chg": null,
+  "as_of": "2026-10-23",
+  "source": "nse_pledge_api",
+  "updated": "2026-10-23"
+ },
+ "BALUFORGE": {
+  "pledge": 2.86,
+  "pledge_chg": null,
+  "as_of": "16-03-2026",
+  "source": "nse_pledge_api",
+  "updated": "2026-10-23"
  }
 }
