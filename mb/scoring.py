@@ -217,6 +217,10 @@ def classify(m: dict, flags: Optional[list] = None) -> dict[str, Any]:
     if m.get("pledge") is None:
         watch.append("pledge not verified")
         needs.append("verified promoter pledge % from shareholding filing")
+    elif m.get("pledge_conflict"):
+        watch.append("pledge sources disagree — reconcile filings")
+        needs.append("reconcile pledge % across sources / SHP filing")
+    # Attach source for UI when present
 
     # Size
     mc = m.get("mcap_cr")

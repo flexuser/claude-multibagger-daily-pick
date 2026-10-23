@@ -302,9 +302,29 @@ def fetch_signals(client, ticker, debug):
     if ann is not None:
         out["events"] = ann
         out["event_score"], out["event_counts"], out["neg_events"] = score_events(ann)
-    pl = src("pledge", "/api/corporate-pledgedata", dict(index="equities", symbol=sym), parse_pledge)
-    if pl is not None:
-        out["pledge"], out["pledge_chg"] = pl
+    # Multi-source pledge (NSE API + SHP master + local cache + optional CSV)
+    try:
+        from mb.pledge_sources import resolve_pledge
+        pre = resolve_pledge(client, sym, debug)
+        out["status"]["pledge"] = pre.get("pledge") is not None
+        out["status"]["pledge_multi"] = True
+        if pre.get("pledge") is not None:
+            out["pledge"] = pre["pledge"]
+            out["pledge_chg"] = pre.get("pledge_chg")
+            out["pledge_source"] = pre.get("pledge_source")
+            out["pledge_as_of"] = pre.get("pledge_as_of")
+            out["pledge_confidence"] = pre.get("pledge_confidence")
+            out["pledge_conflict"] = pre.get("pledge_conflict")
+            if pre.get("pledge_notes"):
+                out["pledge_notes"] = pre["pledge_notes"]
+        else:
+            out["status"]["pledge"] = False
+    except Exception as e:
+        out["status"]["pledge"] = False
+        out["status"]["pledge_error"] = str(e)[:80]
+        pl = src("pledge", "/api/corporate-pledgedata", dict(index="equities", symbol=sym), parse_pledge)
+        if pl is not None:
+            out["pledge"], out["pledge_chg"] = pl
     sh = src("shareholding", "/api/corporate-share-holdings-master", dict(index="equities", symbol=sym), parse_shareholding)
     if sh:
         out.update(sh)
