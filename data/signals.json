@@ -2463,7 +2463,7 @@
   }
  },
  "SJS.NS": {
-  "fetched": "2026-10-12",
+  "fetched": "2026-10-22",
   "data": {
    "status": {
     "announcements": true,
@@ -2535,10 +2535,10 @@
     "acquisition": 5
    },
    "neg_events": 0,
-   "pledge": null,
+   "pledge": 4.5,
    "pledge_chg": null,
-   "promoter_chg": -1.45,
-   "promoter_now": 20.15,
+   "promoter_chg": -1.57,
+   "promoter_now": 19.99,
    "pit_net_cr": 0.0,
    "pit_buys": 0,
    "pit_sells": 0
@@ -2699,7 +2699,7 @@
   }
  },
  "GOLDIAM.NS": {
-  "fetched": "2026-10-12",
+  "fetched": "2026-10-22",
   "data": {
    "status": {
     "announcements": true,
@@ -2770,7 +2770,7 @@
     "bonus_split": 2
    },
    "neg_events": 0,
-   "pledge": null,
+   "pledge": 0.0,
    "pledge_chg": null,
    "promoter_chg": 0.0,
    "promoter_now": 58.51,
@@ -2833,7 +2833,7 @@
   }
  },
  "JSLL.NS": {
-  "fetched": "2026-10-16",
+  "fetched": "2026-10-22",
   "data": {
    "status": {
     "announcements": true,
@@ -2915,8 +2915,8 @@
    "neg_events": 0,
    "pledge": null,
    "pledge_chg": null,
-   "promoter_chg": 0.09,
-   "promoter_now": 63.62,
+   "promoter_chg": 0.06,
+   "promoter_now": 63.67,
    "pit_net_cr": 0.0,
    "pit_buys": 0,
    "pit_sells": 0
@@ -3344,7 +3344,7 @@
   }
  },
  "SKIPPER.NS": {
-  "fetched": "2026-10-12",
+  "fetched": "2026-10-22",
   "data": {
    "status": {
     "announcements": true,
@@ -3472,7 +3472,7 @@
   }
  },
  "SHILCTECH.NS": {
-  "fetched": "2026-10-16",
+  "fetched": "2026-10-22",
   "data": {
    "status": {
     "announcements": true,
@@ -3564,7 +3564,7 @@
   }
  },
  "THYROCARE.NS": {
-  "fetched": "2026-10-12",
+  "fetched": "2026-10-22",
   "data": {
    "status": {
     "announcements": true,
@@ -3576,16 +3576,6 @@
     {
      "date": "2026-09-21",
      "cats": [
-      "acquisition",
-      "approval"
-     ],
-     "type": "Sale or disposal",
-     "text": "Thyrocare Technologies Limited has informed about the sale of the entire shareholding held by the Company in Nueclear Healthcare Limited (a material wholly owned subsidiary), subject to the approval o",
-     "url": "https://nsearchives.nseindia.com/corporate/THYROCARE_21092026150858_Outcome_Intimation-BM.pdf"
-    },
-    {
-     "date": "2026-09-21",
-     "cats": [
       "acquisition"
      ],
      "type": "Acquisition",
@@ -3593,60 +3583,30 @@
      "url": "https://nsearchives.nseindia.com/corporate/THYROCARE_21092026150326_Outcome_Intimation-BM.pdf"
     },
     {
-     "date": "2026-09-04",
-     "cats": [
-      "acquisition"
-     ],
-     "type": "Disclosure under SEBI Takeover Regulations",
-     "text": "API Holdings limited\u00a0has submitted to the Exchange a copy of Disclosures under Regulation 10(6)-Report to stock Exchange in respect of any acquisition made in reliance upon exemption provided for in r",
-     "url": "https://nsearchives.nseindia.com/corporate/team_bbodade_04092026162536_THYROCARE.pdf"
-    },
-    {
      "date": "2026-09-01",
      "cats": [
-      "acquisition",
-      "approval"
+      "acquisition"
      ],
      "type": "Updates",
      "text": "Thyrocare Technologies Limited has informed the Exchange regarding Communication Received from API Holdings Limited regarding Approval of Scheme of Amalgamation of Docon Technologies Private Limited w",
      "url": "https://nsearchives.nseindia.com/corporate/THYROCARE_01092026172441_SE_Intimation-Reg-30_signed.pdf"
     },
     {
-     "date": "2026-08-18",
-     "cats": [
-      "acquisition"
-     ],
-     "type": "Disclosure under SEBI Takeover Regulations",
-     "text": "Thyrocare Technologies Limited has Submitted to the Exchange a copy of Disclosure under Regulation 31(1) and 31(2) of SEBI (SAST) Regulations, 2011.",
-     "url": "https://nsearchives.nseindia.com/corporate/team_bbodade_18082026110634_THYROCARE31.pdf"
-    },
-    {
-     "date": "2026-08-18",
-     "cats": [
-      "acquisition"
-     ],
-     "type": "Disclosure under SEBI Takeover Regulations",
-     "text": "Docon Technologies Private Ltd has submitted to\u00a0 the Exchange a copy of Disclosure under Regulation 31(1) and 31(2) of SEBI (SAST) Regulations, 2011.",
-     "url": "https://nsearchives.nseindia.com/corporate/team_bbodade_18082026110951_THYROCARE.pdf"
-    },
-    {
      "date": "2026-07-23",
      "cats": [
-      "acquisition",
-      "approval"
+      "acquisition"
      ],
      "type": "General Updates",
      "text": "Please refer the enclosed intimation regarding the in-principle approval of the Board of Directors of the Company for evaluation of the proposed restructuring of the radiology business undertaking of",
      "url": "https://nsearchives.nseindia.com/corporate/THYROCARE_23072026163123_NHLDemerger.pdf"
     }
    ],
-   "event_score": 22,
+   "event_score": 10,
    "event_counts": {
-    "acquisition": 7,
-    "approval": 3
+    "acquisition": 3
    },
    "neg_events": 0,
-   "pledge": null,
+   "pledge": 0.0,
    "pledge_chg": null,
    "promoter_chg": -9.91,
    "promoter_now": 51.02,
@@ -3709,7 +3669,7 @@
   }
  },
  "VIKRAMSOLR.NS": {
-  "fetched": "2026-10-12",
+  "fetched": "2026-10-22",
   "data": {
    "status": {
     "announcements": true,
@@ -3780,33 +3740,6 @@
      "type": "Corporate Insolvency Resolution Process",
      "text": "Vikram Solar Limited has informed the Exchange about the updates on theproceedings before the Hon ble NCLAT",
      "url": "https://nsearchives.nseindia.com/corporate/VSLCS_24062026201441_VSL_intimation_of_the_updates_on_proceedings_June_24_2026_final.pdf"
-    },
-    {
-     "date": "2026-06-22",
-     "cats": [
-      "distress"
-     ],
-     "type": "Corporate Insolvency Resolution Process",
-     "text": "Vikram Solar Limited has informed the Exchange about Public Announcement on  Corporate Insolvency Resolution Process",
-     "url": "https://nsearchives.nseindia.com/corporate/VSLCS_22062026182405_VSL_Intimation_of_Public_Announcement_22_June_2026.pdf"
-    },
-    {
-     "date": "2026-06-19",
-     "cats": [
-      "distress"
-     ],
-     "type": "Corporate Insolvency Resolution Process",
-     "text": "Vikram Solar Limited has informed the Exchange about copy of the order passed by Hon'ble National Company Law Tribunal, Kolkata Bench",
-     "url": "https://nsearchives.nseindia.com/corporate/VSLCS_19062026181440_VSLINTIMATION19062026.pdf"
-    },
-    {
-     "date": "2026-06-19",
-     "cats": [
-      "distress"
-     ],
-     "type": "Corporate Insolvency Resolution Process",
-     "text": "Vikram Solar Limited has informed the Exchange about Corporate Insolvency Resolution Process",
-     "url": "https://nsearchives.nseindia.com/corporate/VSLCS_19062026171601_VSLINTIMATIONUR30DTED19062026.pdf"
     }
    ],
    "event_score": 0,
@@ -3814,10 +3747,10 @@
     "order_win": 1,
     "acquisition": 1,
     "expansion": 1,
-    "distress": 7
+    "distress": 4
    },
-   "neg_events": 7,
-   "pledge": null,
+   "neg_events": 4,
+   "pledge": 9.24,
    "pledge_chg": null,
    "promoter_chg": -0.11,
    "promoter_now": 63.01,
@@ -3871,7 +3804,7 @@
   }
  },
  "SUPRIYA.NS": {
-  "fetched": "2026-10-12",
+  "fetched": "2026-10-22",
   "data": {
    "status": {
     "announcements": true,
@@ -3879,21 +3812,9 @@
     "shareholding": true,
     "insider": true
    },
-   "events": [
-    {
-     "date": "2026-06-29",
-     "cats": [
-      "acquisition"
-     ],
-     "type": "Disclosure under SEBI Takeover Regulations",
-     "text": "Satish Waman Wagh has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regulations,",
-     "url": "https://nsearchives.nseindia.com/corporate/team_sandeshc_11052026122402_28.pdf"
-    }
-   ],
-   "event_score": 10,
-   "event_counts": {
-    "acquisition": 1
-   },
+   "events": [],
+   "event_score": 0,
+   "event_counts": {},
    "neg_events": 0,
    "pledge": null,
    "pledge_chg": null,
@@ -3905,7 +3826,7 @@
   }
  },
  "OSWALPUMPS.NS": {
-  "fetched": "2026-10-12",
+  "fetched": "2026-10-22",
   "data": {
    "status": {
     "announcements": true,
@@ -3927,7 +3848,7 @@
   }
  },
  "TRANSRAILL.NS": {
-  "fetched": "2026-10-12",
+  "fetched": "2026-10-22",
   "data": {
    "status": {
     "announcements": true,
@@ -3936,6 +3857,15 @@
     "insider": true
    },
    "events": [
+    {
+     "date": "2026-10-19",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Outcome of Board Meeting",
+     "text": "The Board has approved Acquisition of 49% equity stake in NOPL Pace Green Energy Private Limited",
+     "url": "https://nsearchives.nseindia.com/corporate/TRANSRAIL_19102026190308_OutcomeBM19102026.pdf"
+    },
     {
      "date": "2026-08-04",
      "cats": [
@@ -3971,34 +3901,16 @@
      "type": "General Updates",
      "text": "Transrail Lighting Limited has informed the Exchange about further Investment in Wholly Owned Subsidiary of the company",
      "url": "https://nsearchives.nseindia.com/corporate/TRANSRAIL_02072026155040_Reg30IntimationofInvestmentinTransrailTradingLLC.pdf"
-    },
-    {
-     "date": "2026-06-22",
-     "cats": [
-      "acquisition"
-     ],
-     "type": "General Updates",
-     "text": "Transrail Lighting Limited has informed the Exchange about acquisition of 100% equity stake in Gactel Turnkey Projects Limited",
-     "url": "https://nsearchives.nseindia.com/corporate/TRANSRAIL_22062026191922_OutcomeBM22062026Final.pdf"
-    },
-    {
-     "date": "2026-06-15",
-     "cats": [
-      "acquisition"
-     ],
-     "type": "Disclosure under SEBI Takeover Regulations",
-     "text": "Ajanma Holdings Private Limited\u00a0has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeover",
-     "url": "https://nsearchives.nseindia.com/corporate/team_bbodade_23042026160125_TRANSRAILL.pdf"
     }
    ],
    "event_score": 22,
    "event_counts": {
+    "acquisition": 3,
     "rating_up": 1,
-    "acquisition": 4,
     "approval": 1
    },
    "neg_events": 0,
-   "pledge": null,
+   "pledge": 5.97,
    "pledge_chg": null,
    "promoter_chg": 0.0,
    "promoter_now": 71.12,
@@ -4466,7 +4378,7 @@
   }
  },
  "SPARC.NS": {
-  "fetched": "2026-10-16",
+  "fetched": "2026-10-22",
   "data": {
    "status": {
     "announcements": true,
@@ -4682,7 +4594,7 @@
   }
  },
  "TTML.NS": {
-  "fetched": "2026-10-16",
+  "fetched": "2026-10-22",
   "data": {
    "status": {
     "announcements": true,
@@ -4747,7 +4659,7 @@
   }
  },
  "WEBELSOLAR.NS": {
-  "fetched": "2026-10-16",
+  "fetched": "2026-10-22",
   "data": {
    "status": {
     "announcements": true,
@@ -4781,7 +4693,7 @@
   }
  },
  "ASHOKA.NS": {
-  "fetched": "2026-10-16",
+  "fetched": "2026-10-22",
   "data": {
    "status": {
     "announcements": true,
@@ -5391,7 +5303,7 @@
   }
  },
  "CRAMC.NS": {
-  "fetched": "2026-10-16",
+  "fetched": "2026-10-22",
   "data": {
    "status": {
     "announcements": true,
@@ -5407,6 +5319,1103 @@
    "pledge_chg": null,
    "promoter_chg": 0.0,
    "promoter_now": 75.0,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "GOKULAGRO.NS": {
+  "fetched": "2026-10-22",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [],
+   "event_score": 0,
+   "event_counts": {},
+   "neg_events": 0,
+   "pledge": 13.69,
+   "pledge_chg": null,
+   "promoter_chg": 0.57,
+   "promoter_now": 74.24,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "BAJAJCON.NS": {
+  "fetched": "2026-10-22",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [],
+   "event_score": 0,
+   "event_counts": {},
+   "neg_events": 0,
+   "pledge": 0.0,
+   "pledge_chg": null,
+   "promoter_chg": 2.02,
+   "promoter_now": 42.97,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "JAMNAAUTO.NS": {
+  "fetched": "2026-10-22",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [
+    {
+     "date": "2026-09-01",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "General Updates",
+     "text": "We wish to inform you that the Company has successfully completed the acquisition of 100% of the issued share capital of Owen Springs Limited, a company incorporated in England and Wales.",
+     "url": "https://nsearchives.nseindia.com/corporate/JAMNAAUTO_01092026172229_Intimation_1_Sept.pdf"
+    }
+   ],
+   "event_score": 10,
+   "event_counts": {
+    "acquisition": 1
+   },
+   "neg_events": 0,
+   "pledge": 1.69,
+   "pledge_chg": null,
+   "promoter_chg": -5.13,
+   "promoter_now": 44.81,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "MSTCLTD.NS": {
+  "fetched": "2026-10-22",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [],
+   "event_score": 0,
+   "event_counts": {},
+   "neg_events": 0,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": 0.0,
+   "promoter_now": 64.75,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "JYOTHYLAB.NS": {
+  "fetched": "2026-10-22",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [],
+   "event_score": 0,
+   "event_counts": {},
+   "neg_events": 0,
+   "pledge": 0.0,
+   "pledge_chg": null,
+   "promoter_chg": 0.0,
+   "promoter_now": 62.89,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "SHARDACROP.NS": {
+  "fetched": "2026-10-22",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [],
+   "event_score": 0,
+   "event_counts": {},
+   "neg_events": 0,
+   "pledge": 0.0,
+   "pledge_chg": null,
+   "promoter_chg": 0.0,
+   "promoter_now": 74.82,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "FIEMIND.NS": {
+  "fetched": "2026-10-22",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [],
+   "event_score": 0,
+   "event_counts": {},
+   "neg_events": 0,
+   "pledge": 0.0,
+   "pledge_chg": null,
+   "promoter_chg": 0.0,
+   "promoter_now": 54.52,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "SONATSOFTW.NS": {
+  "fetched": "2026-10-22",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [
+    {
+     "date": "2026-08-25",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Updates",
+     "text": "Sonata Software Limited has informed the Exchange regarding 'intimation on effective date of merger of wholly owned subsidiary with the Company'.",
+     "url": "https://nsearchives.nseindia.com/corporate/SONATSOFTW_25082026131832_intimationoneffectivedateofmerger.pdf"
+    }
+   ],
+   "event_score": 10,
+   "event_counts": {
+    "acquisition": 1
+   },
+   "neg_events": 0,
+   "pledge": 0.0,
+   "pledge_chg": null,
+   "promoter_chg": 0.0,
+   "promoter_now": 28.17,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "TANLA.NS": {
+  "fetched": "2026-10-22",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [
+    {
+     "date": "2026-07-28",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Acquisition",
+     "text": "Tanla Platforms Limited has informed the Exchange about Acquisition. Further to our disclosure dated June 8, 2023 in relation to the proposed acquisition of ValueFirst MiddleEast FZC ( VF FZC ) by the",
+     "url": "https://nsearchives.nseindia.com/corporate/TanlaPlatforms_28072026201758_VF_FZC-_Reg_30_Disclosurefinal.pdf"
+    }
+   ],
+   "event_score": 10,
+   "event_counts": {
+    "acquisition": 1
+   },
+   "neg_events": 0,
+   "pledge": 0.0,
+   "pledge_chg": null,
+   "promoter_chg": 0.0,
+   "promoter_now": 46.17,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "STYLAMIND.NS": {
+  "fetched": "2026-10-22",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [],
+   "event_score": 0,
+   "event_counts": {},
+   "neg_events": 0,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": 4.67,
+   "promoter_now": 56.86,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "CENTUM.NS": {
+  "fetched": "2026-10-22",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [
+    {
+     "date": "2026-09-01",
+     "cats": [
+      "order_win"
+     ],
+     "type": "Bagging/Receiving of orders/contracts",
+     "text": "Centum Electronics Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
+     "url": "https://nsearchives.nseindia.com/corporate/CENTUME_01092026213338_Intimation.pdf"
+    },
+    {
+     "date": "2026-08-13",
+     "cats": [
+      "approval"
+     ],
+     "type": "Monitoring Agency Report",
+     "text": "Monitoring Agency Report w.r.t. utilization of proceeds raised through qualified institutions placement",
+     "url": "https://nsearchives.nseindia.com/corporate/CENTUME_13082026180223_MARIntimationtoSE.pdf"
+    }
+   ],
+   "event_score": 20,
+   "event_counts": {
+    "order_win": 1,
+    "approval": 1
+   },
+   "neg_events": 0,
+   "pledge": 0.0,
+   "pledge_chg": null,
+   "promoter_chg": -0.18,
+   "promoter_now": 46.81,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "NEWGEN.NS": {
+  "fetched": "2026-10-22",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [
+    {
+     "date": "2026-10-16",
+     "cats": [
+      "order_win",
+      "acquisition",
+      "approval"
+     ],
+     "type": "Bagging/Receiving of orders/contracts",
+     "text": "Newgen Software Technologies Limited has informed the Exchange about Newgen Software Technologies (UK) Limited, a wholly owned subsidiary of the Newgen Software Technologies Limited ( the Company ) in",
+     "url": "https://nsearchives.nseindia.com/corporate/NEWGEN2_16102026131011_Stock_Exchange_Material_disclosure_NewgenUKSIGN.pdf"
+    },
+    {
+     "date": "2026-09-28",
+     "cats": [
+      "order_win"
+     ],
+     "type": "Bagging/Receiving of orders/contracts",
+     "text": "Newgen Software Technologies Limited has informed the Exchange about Newgen Software Inc. (NSI), incorporated in the USA, a material Subsidiary of the Newgen Software Technologies Limited ( the Compan",
+     "url": "https://nsearchives.nseindia.com/corporate/NEWGEN2_28092026225702_Stock_Exchange_Material_disclosure-NSI.pdf"
+    },
+    {
+     "date": "2026-09-21",
+     "cats": [
+      "order_win",
+      "approval"
+     ],
+     "type": "Bagging/Receiving of orders/contracts",
+     "text": "Newgen Software Technologies Limited has informed the Exchange about an agreement entered with a customer situated in Qatar for Newgen Platform License, implementation, maintenance and support",
+     "url": "https://nsearchives.nseindia.com/corporate/NEWGEN2_21092026200344_Stock_Exchange_Material_disclosure_Newgen.pdf"
+    },
+    {
+     "date": "2026-06-30",
+     "cats": [
+      "order_win"
+     ],
+     "type": "Bagging/Receiving of orders/contracts",
+     "text": "Newgen Software Technologies Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
+     "url": "https://nsearchives.nseindia.com/corporate/NEWGEN2_30062026230039_STOCKEXCHANGE30062026WARBA.pdf"
+    },
+    {
+     "date": "2026-06-29",
+     "cats": [
+      "order_win"
+     ],
+     "type": "Bagging/Receiving of orders/contracts",
+     "text": "Newgen Software Technologies Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
+     "url": "https://nsearchives.nseindia.com/corporate/NEWGEN2_29062026204242_Stockexchangeintimationfinalsigned29062026.pdf"
+    }
+   ],
+   "event_score": 64,
+   "event_counts": {
+    "order_win": 5,
+    "acquisition": 1,
+    "approval": 2
+   },
+   "neg_events": 0,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": -0.31,
+   "promoter_now": 53.45,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "QUESS.NS": {
+  "fetched": "2026-10-22",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [],
+   "event_score": 0,
+   "event_counts": {},
+   "neg_events": 0,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": -0.11,
+   "promoter_now": 56.81,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "MAPMYINDIA.NS": {
+  "fetched": "2026-10-22",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [],
+   "event_score": 0,
+   "event_counts": {},
+   "neg_events": 0,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": 0.0,
+   "promoter_now": 51.36,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "REFEX.NS": {
+  "fetched": "2026-10-22",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [
+    {
+     "date": "2026-10-22",
+     "cats": [
+      "order_win"
+     ],
+     "type": "Bagging/Receiving of orders/contracts",
+     "text": "Refex Industries Limited (RIL)  received a Slab-wise Rate Contract for Ash Transportation from an entity based in Maharashtra",
+     "url": "https://nsearchives.nseindia.com/corporate/REFEX2002_22102026121651_RIL_order_Pond_Ash_FlyAsh_22102026.pdf"
+    },
+    {
+     "date": "2026-10-21",
+     "cats": [
+      "order_win"
+     ],
+     "type": "Bagging/Receiving of orders/contracts",
+     "text": "Refex Industries Limited bags a slab wise rate contract for ash transportation from one of the Maharatna Companies under the Ministry of Power",
+     "url": "https://nsearchives.nseindia.com/corporate/REFEX2002_21102026150504_RIL_order_Ash_211026.pdf"
+    },
+    {
+     "date": "2026-10-17",
+     "cats": [
+      "order_win"
+     ],
+     "type": "Bagging/Receiving of orders/contracts",
+     "text": "Refex Industries Limited (RIL) bags a rate contract for transportation of ash from one of the Maharatna Company under the Ministry of Power",
+     "url": "https://nsearchives.nseindia.com/corporate/REFEX2002_17102026124640_RIL_order_Pond_Ash_Fly_Ash.pdf"
+    },
+    {
+     "date": "2026-09-19",
+     "cats": [
+      "order_win"
+     ],
+     "type": "Bagging/Receiving of orders/contracts",
+     "text": "Clarification to the prior intimation dated September 19,2026 for bagging of contract for lifting of 10 lakh Metric Tons of Pond Ash and Fly Ash by Refex Industries Limited",
+     "url": "https://nsearchives.nseindia.com/corporate/REFEX2002_19092026200659_RIL_order_PondAsh_FlyAsh_Revised.pdf"
+    },
+    {
+     "date": "2026-09-19",
+     "cats": [
+      "order_win"
+     ],
+     "type": "Bagging/Receiving of orders/contracts",
+     "text": "Refex Industries Limited bags contract for lifting of 10 MT of Pond Ash and Fly Ash",
+     "url": "https://nsearchives.nseindia.com/corporate/REFEX2002_19092026140257_RIL_order_190926.pdf"
+    },
+    {
+     "date": "2026-08-24",
+     "cats": [
+      "order_win"
+     ],
+     "type": "Bagging/Receiving of orders/contracts",
+     "text": "Refex Industries Limited bags contract for loading, transportation and excavation of Fly ash",
+     "url": "https://nsearchives.nseindia.com/corporate/REFEX2002_24082026194804_RIL_order_Fly_Ash_sd.pdf"
+    },
+    {
+     "date": "2026-08-18",
+     "cats": [
+      "order_win"
+     ],
+     "type": "Bagging/Receiving of orders/contracts",
+     "text": "Refex Industries Limited bags order for Rate contract for Transportation of Ash",
+     "url": "https://nsearchives.nseindia.com/corporate/REFEX2002_18082026162106_RILorder180826.pdf"
+    },
+    {
+     "date": "2026-08-18",
+     "cats": [
+      "order_win"
+     ],
+     "type": "Bagging/Receiving of orders/contracts",
+     "text": "Refex Industries Limited bags order for Rate Contract for Ash Transportation to Road Construction Sites.",
+     "url": "https://nsearchives.nseindia.com/corporate/REFEX2002_18082026115738_RIL_order_180826.pdf"
+    },
+    {
+     "date": "2026-08-14",
+     "cats": [
+      "order_win"
+     ],
+     "type": "Bagging/Receiving of orders/contracts",
+     "text": "Refex Industries Limited bags order for Rate Contract for Ash Transportation to Road Construction Sites.",
+     "url": "https://nsearchives.nseindia.com/corporate/REFEX2002_14082026124103_RIL_Order_140826.pdf"
+    },
+    {
+     "date": "2026-08-07",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Shareholders meeting",
+     "text": "Submission of Voting Results along with the Consolidated Scrutinizer's Report for the Court Convened meetings of Equity Shareholders, Secured Creditors and Unsecured Creditors held on August 05, 2026",
+     "url": "https://nsearchives.nseindia.com/corporate/REFEX2002_07082026175813_RIL-NCLT_Convened_meeting_Scrutinizers_Report.pdf"
+    },
+    {
+     "date": "2026-08-05",
+     "cats": [
+      "distress"
+     ],
+     "type": "Shareholders meeting",
+     "text": "Intimation under Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 - Proceedings of NCLT convened Equity Shareholders, Secured Creditors and Unsecured Creditors",
+     "url": "https://nsearchives.nseindia.com/corporate/REFEX2002_05082026230439_RIL.pdf"
+    },
+    {
+     "date": "2026-07-30",
+     "cats": [
+      "order_win"
+     ],
+     "type": "Bagging/Receiving of orders/contracts",
+     "text": "Refex Industries Limited bags order for Rate Contract for Ash Transportation to Road Construction Sites",
+     "url": "https://nsearchives.nseindia.com/corporate/REFEX2002_30072026163214_RIL_Order_300726.pdf"
+    },
+    {
+     "date": "2026-07-07",
+     "cats": [
+      "order_win"
+     ],
+     "type": "Bagging/Receiving of orders/contracts",
+     "text": "Refex Industries Limited bags order for Ash Transportation for the construction site of road projects of NHAI and other Central or State Government Road construction department / Authority / PMGSY Roa",
+     "url": "https://nsearchives.nseindia.com/corporate/REFEX2002_07072026164214_RIL_sd.pdf"
+    },
+    {
+     "date": "2026-07-06",
+     "cats": [
+      "distress"
+     ],
+     "type": "Copy of Newspaper Publication",
+     "text": "Newspaper Publication-Disclosure under Regulation 47 of SEBI (Listing Obligations & Disclosure Requirements) Regulations, 2015-Notice of meetings of Equity shareholders, Secured Creditors and Unsecure",
+     "url": "https://nsearchives.nseindia.com/corporate/REFEX2002_06072026125121_Newspaper_Publication_STX.pdf"
+    },
+    {
+     "date": "2026-06-26",
+     "cats": [
+      "order_win"
+     ],
+     "type": "Bagging/Receiving of orders/contracts",
+     "text": "Disclosure under Regulation 30 of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015 - Bagging of Order for Transportation of ash to constru",
+     "url": "https://nsearchives.nseindia.com/corporate/REFEX2002_26062026105304_RIL_BOD_26062026_sd.pdf"
+    },
+    {
+     "date": "2026-06-24",
+     "cats": [
+      "distress"
+     ],
+     "type": "General Updates",
+     "text": "Disclosure under Regulation 30 of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015 ( SEBI Listing Regulations ) regarding the order passed",
+     "url": "https://nsearchives.nseindia.com/corporate/REFEX2002_24062026193439_RIL_NCLT_order.pdf"
+    }
+   ],
+   "event_score": 2,
+   "event_counts": {
+    "order_win": 12,
+    "acquisition": 1,
+    "distress": 3
+   },
+   "neg_events": 3,
+   "pledge": 47.39,
+   "pledge_chg": null,
+   "promoter_chg": 0.76,
+   "promoter_now": 56.56,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "RAILTEL.NS": {
+  "fetched": "2026-10-20",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [
+    {
+     "date": "2026-10-17",
+     "cats": [
+      "order_win"
+     ],
+     "type": "Bagging/Receiving of orders/contracts",
+     "text": "Railtel Corporation Of India Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
+     "url": "https://nsearchives.nseindia.com/corporate/RAILTEL_17102026133732_Railtel_Order_Book_Company_Rep_161026.pdf"
+    },
+    {
+     "date": "2026-10-14",
+     "cats": [
+      "order_win"
+     ],
+     "type": "Bagging/Receiving of orders/contracts",
+     "text": "Railtel Corporation Of India Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
+     "url": "https://nsearchives.nseindia.com/corporate/RAILTEL_14102026110115_Railtel_Order_Book_Company_Rep_141026__1_.pdf"
+    },
+    {
+     "date": "2026-10-13",
+     "cats": [
+      "order_win"
+     ],
+     "type": "Bagging/Receiving of orders/contracts",
+     "text": "Railtel Corporation Of India Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
+     "url": "https://nsearchives.nseindia.com/corporate/RAILTEL_13102026173316_Railtel_Order_Book_Company_Rep_131026.pdf"
+    },
+    {
+     "date": "2026-10-09",
+     "cats": [
+      "order_win"
+     ],
+     "type": "Bagging/Receiving of orders/contracts",
+     "text": "Railtel Corporation Of India Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
+     "url": "https://nsearchives.nseindia.com/corporate/RAILTEL_09102026185931_Railtel_Order_Book_Company_Rep_0910261.pdf"
+    },
+    {
+     "date": "2026-10-08",
+     "cats": [
+      "order_win"
+     ],
+     "type": "Bagging/Receiving of orders/contracts",
+     "text": "Railtel Corporation Of India Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
+     "url": "https://nsearchives.nseindia.com/corporate/RAILTEL_08102026120917_Railtel_Order_Book_Company_Rep_081026.pdf"
+    },
+    {
+     "date": "2026-10-06",
+     "cats": [
+      "order_win"
+     ],
+     "type": "Bagging/Receiving of orders/contracts",
+     "text": "Railtel Corporation Of India Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
+     "url": "https://nsearchives.nseindia.com/corporate/RAILTEL_06102026105301_Railtel_Order_Book_Company_Rep_051026.pdf"
+    },
+    {
+     "date": "2026-09-26",
+     "cats": [
+      "order_win"
+     ],
+     "type": "Bagging/Receiving of orders/contracts",
+     "text": "Railtel Corporation Of India Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
+     "url": "https://nsearchives.nseindia.com/corporate/RAILTEL_26092026104400_Intimation_of_order_dated_26092026.pdf"
+    },
+    {
+     "date": "2026-09-22",
+     "cats": [
+      "order_win"
+     ],
+     "type": "Bagging/Receiving of orders/contracts",
+     "text": "Railtel Corporation Of India Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
+     "url": "https://nsearchives.nseindia.com/corporate/RAILTEL_22092026113642_Order_Book_Company_Report_26103__2_.pdf"
+    },
+    {
+     "date": "2026-09-17",
+     "cats": [
+      "order_win"
+     ],
+     "type": "Bagging/Receiving of orders/contracts",
+     "text": "Railtel Corporation Of India Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
+     "url": "https://nsearchives.nseindia.com/corporate/RAILTEL_17092026060020_Railtel_Order_Book_Company_Rep_160926.pdf"
+    },
+    {
+     "date": "2026-08-27",
+     "cats": [
+      "order_win"
+     ],
+     "type": "Bagging/Receiving of orders/contracts",
+     "text": "Railtel Corporation Of India Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
+     "url": "https://nsearchives.nseindia.com/corporate/RAILTEL_27082026184145_Railtel_Order_Book_Company_Rep_270826.pdf"
+    },
+    {
+     "date": "2026-08-20",
+     "cats": [
+      "order_win"
+     ],
+     "type": "Bagging/Receiving of orders/contracts",
+     "text": "Railtel Corporation Of India Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
+     "url": "https://nsearchives.nseindia.com/corporate/RAILTEL_20082026172054_Railtel_Order_Book_Company_Rep_200826__1_.pdf"
+    },
+    {
+     "date": "2026-08-18",
+     "cats": [
+      "order_win"
+     ],
+     "type": "Bagging/Receiving of orders/contracts",
+     "text": "Railtel Corporation Of India Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
+     "url": "https://nsearchives.nseindia.com/corporate/RAILTEL_18082026190925_Railtel_Order_Book_Company_Rep_180826__1_.pdf"
+    },
+    {
+     "date": "2026-08-13",
+     "cats": [
+      "order_win"
+     ],
+     "type": "Bagging/Receiving of orders/contracts",
+     "text": "Railtel Corporation Of India Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
+     "url": "https://nsearchives.nseindia.com/corporate/RAILTEL_13082026091349_Railtel_Order_Book_Company_Rep_120826.pdf"
+    },
+    {
+     "date": "2026-08-10",
+     "cats": [
+      "order_win"
+     ],
+     "type": "Bagging/Receiving of orders/contracts",
+     "text": "Railtel Corporation Of India Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
+     "url": "https://nsearchives.nseindia.com/corporate/RAILTEL_10082026205441_Railtel_Order_Book_Company_Rep_100826.pdf"
+    },
+    {
+     "date": "2026-08-06",
+     "cats": [
+      "order_win"
+     ],
+     "type": "Bagging/Receiving of orders/contracts",
+     "text": "Railtel Corporation Of India Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
+     "url": "https://nsearchives.nseindia.com/corporate/RAILTEL_06082026180757_Order_Book_Company_Report_25366.pdf"
+    },
+    {
+     "date": "2026-07-31",
+     "cats": [
+      "order_win"
+     ],
+     "type": "Bagging/Receiving of orders/contracts",
+     "text": "Railtel Corporation Of India Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
+     "url": "https://nsearchives.nseindia.com/corporate/RAILTEL_31072026141321_Order_Book_Company_Report_25272.pdf"
+    },
+    {
+     "date": "2026-07-28",
+     "cats": [
+      "order_win"
+     ],
+     "type": "Bagging/Receiving of orders/contracts",
+     "text": "Railtel Corporation Of India Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
+     "url": "https://nsearchives.nseindia.com/corporate/RAILTEL_28072026160741_Railtel_Order_Book_Company_Rep_280726.pdf"
+    },
+    {
+     "date": "2026-07-23",
+     "cats": [
+      "order_win"
+     ],
+     "type": "Bagging/Receiving of orders/contracts",
+     "text": "Railtel Corporation Of India Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
+     "url": "https://nsearchives.nseindia.com/corporate/RAILTEL_23072026200759_Railtel_Order_Book_Company_Rep_230726.pdf"
+    },
+    {
+     "date": "2026-07-10",
+     "cats": [
+      "order_win"
+     ],
+     "type": "Bagging/Receiving of orders/contracts",
+     "text": "Railtel Corporation Of India Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
+     "url": "https://nsearchives.nseindia.com/corporate/RAILTEL_10072026092239_Railtel_Order_Book_Company_Rep_090726.pdf"
+    },
+    {
+     "date": "2026-07-02",
+     "cats": [
+      "order_win"
+     ],
+     "type": "Bagging/Receiving of orders/contracts",
+     "text": "Railtel Corporation Of India Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
+     "url": "https://nsearchives.nseindia.com/corporate/RAILTEL_02072026172158_Railtel_Order_Book_Company_Rep_020726.pdf"
+    },
+    {
+     "date": "2026-06-30",
+     "cats": [
+      "order_win"
+     ],
+     "type": "Bagging/Receiving of orders/contracts",
+     "text": "Railtel Corporation Of India Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
+     "url": "https://nsearchives.nseindia.com/corporate/RAILTEL_30062026194553_Railtel_Order_Book_Company_Rep_300626.pdf"
+    },
+    {
+     "date": "2026-06-29",
+     "cats": [
+      "order_win"
+     ],
+     "type": "Bagging/Receiving of orders/contracts",
+     "text": "Railtel Corporation Of India Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
+     "url": "https://nsearchives.nseindia.com/corporate/RAILTEL_29062026192354_Railtel_Order_Book_Company_Rep_290626.pdf"
+    },
+    {
+     "date": "2026-06-25",
+     "cats": [
+      "order_win"
+     ],
+     "type": "Bagging/Receiving of orders/contracts",
+     "text": "Railtel Corporation Of India Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
+     "url": "https://nsearchives.nseindia.com/corporate/RAILTEL_25062026125729_Order_Book_Company_Report_24669.pdf"
+    },
+    {
+     "date": "2026-06-23",
+     "cats": [
+      "order_win"
+     ],
+     "type": "Bagging/Receiving of orders/contracts",
+     "text": "Railtel Corporation Of India Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
+     "url": "https://nsearchives.nseindia.com/corporate/RAILTEL_23062026123704_Railtel_Order_Book_Company_Rep_230626.pdf"
+    }
+   ],
+   "event_score": 42,
+   "event_counts": {
+    "order_win": 24
+   },
+   "neg_events": 0,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": 0.0,
+   "promoter_now": 72.84,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "POWERMECH.NS": {
+  "fetched": "2026-10-22",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [
+    {
+     "date": "2026-10-19",
+     "cats": [
+      "order_win"
+     ],
+     "type": "Bagging/Receiving of orders/contracts",
+     "text": "Power Mech Projects Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
+     "url": "https://nsearchives.nseindia.com/corporate/POWERMECH_19102026123348_DISCLOSURE___1_.pdf"
+    },
+    {
+     "date": "2026-09-29",
+     "cats": [
+      "order_win"
+     ],
+     "type": "Bagging/Receiving of orders/contracts",
+     "text": "Power Mech Projects Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
+     "url": "https://nsearchives.nseindia.com/corporate/POWERMECH_29092026175552_DISCLOSURE_.pdf"
+    },
+    {
+     "date": "2026-09-28",
+     "cats": [
+      "order_win"
+     ],
+     "type": "Bagging/Receiving of orders/contracts",
+     "text": "Power Mech Projects Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
+     "url": "https://nsearchives.nseindia.com/corporate/POWERMECH_28092026183107_DISCLOSURE.pdf"
+    },
+    {
+     "date": "2026-09-09",
+     "cats": [
+      "order_win"
+     ],
+     "type": "Bagging/Receiving of orders/contracts",
+     "text": "Power Mech Projects Limited has informed the Exchange about Receiving of orders/contracts",
+     "url": "https://nsearchives.nseindia.com/corporate/POWERMECH_09092026113918_DISCLOSURE.pdf"
+    }
+   ],
+   "event_score": 42,
+   "event_counts": {
+    "order_win": 4
+   },
+   "neg_events": 0,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": 0.09,
+   "promoter_now": 58.42,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "CAMPUS.NS": {
+  "fetched": "2026-10-22",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [],
+   "event_score": 0,
+   "event_counts": {},
+   "neg_events": 0,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": -0.05,
+   "promoter_now": 72.07,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "BSOFT.NS": {
+  "fetched": "2026-10-19",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [],
+   "event_score": 0,
+   "event_counts": {},
+   "neg_events": 0,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": -0.25,
+   "promoter_now": 40.38,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "SHAKTIPUMP.NS": {
+  "fetched": "2026-10-22",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [
+    {
+     "date": "2026-10-12",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Acquisition",
+     "text": "Shakti Pumps (India) Limited has informed the Exchange that the Company has invested Rs. 10 Crores in it's Wholly Owned Subsidiary i.e Shakti Energy Solutions Limited.",
+     "url": "https://nsearchives.nseindia.com/corporate/SHAKTIPUMP_12102026154933_IntimationunderReg30.pdf"
+    },
+    {
+     "date": "2026-10-08",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Acquisition",
+     "text": "Shakti Pumps (India) Limited has informed the Exchange that the Company has invested Rs. 10 Crores in its wholly owned subsidiary i.e. Shakti Energy Solutions Limited.",
+     "url": "https://nsearchives.nseindia.com/corporate/SHAKTIPUMP_08102026154638_IntimationunderReg30ShaktiEnergy.pdf"
+    },
+    {
+     "date": "2026-10-06",
+     "cats": [
+      "order_win"
+     ],
+     "type": "Bagging/Receiving of orders/contracts",
+     "text": "Shakti Pumps (India) Limited has informed the Exchange that Company has received a Letter of Empanelment from Maharashtra State Electricity Distribution Company Limited for 4,755 Off-Grid Solar Photov",
+     "url": "https://nsearchives.nseindia.com/corporate/SHAKTIPUMP_06102026122041_LetterofEmpanelmentfromMSEDCL.pdf"
+    },
+    {
+     "date": "2026-09-14",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Acquisition",
+     "text": "Shakti Pumps (India) Limited has informed the Exchange that Company has invested Rs. 11 crores in its wholly owned subsidiary i.e Shakti Energy Solutions Limited.",
+     "url": "https://nsearchives.nseindia.com/corporate/SHAKTIPUMP_14092026174733_IntimationunderReg30ShaktiEnergy.pdf"
+    },
+    {
+     "date": "2026-09-09",
+     "cats": [
+      "order_win"
+     ],
+     "type": "Bagging/Receiving of orders/contracts",
+     "text": "Shakti Pumps (India) Limited has informed the Exchange that Company has received a Letter of Empanelment from Maharashtra State Electricity Distribution Company Limited for 10,000 Off-Grid Solar Photo",
+     "url": "https://nsearchives.nseindia.com/corporate/SHAKTIPUMP_09092026172455_LetterofAwardfromMSEDCL.pdf"
+    },
+    {
+     "date": "2026-09-05",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Acquisition",
+     "text": "Shakti Pumps (India) Limited has informed the Exchange that Company has invested Rs. 11 Crores in its wholly owned subsidiary i.e. Shakti Energy Solutions Limited.",
+     "url": "https://nsearchives.nseindia.com/corporate/SHAKTIPUMP_05092026145433_IntimationunderReg30ShaktiEnergy.pdf"
+    },
+    {
+     "date": "2026-08-27",
+     "cats": [
+      "rating_up"
+     ],
+     "type": "General Updates",
+     "text": "Shakti Pumps (India) Limited has informed the Exchange that ICRA ESG Rating Limited has upgraded the Company's overall ESG Rating.",
+     "url": "https://nsearchives.nseindia.com/corporate/SHAKTIPUMP_27082026180357_Intimation_Letter_ESG_Rating.pdf"
+    },
+    {
+     "date": "2026-08-20",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Acquisition",
+     "text": "Shakti Pumps (India) Limited has informed the Exchange that Company has invested Rs. 5.00 Crores in its wholly owned subsidiary i.e. Shakti EV Mobility Private Limited.",
+     "url": "https://nsearchives.nseindia.com/corporate/SHAKTIPUMP_20082026160248_IntimationunderReg30ShaktiEV.pdf"
+    },
+    {
+     "date": "2026-07-17",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Acquisition",
+     "text": "Shakti Pumps (India) Limited has informed the Exchange that the Company has invested Rs. 5.00 Crores in its wholly owned subsidiary i.e. Shakti EV Mobility Private Limited.",
+     "url": "https://nsearchives.nseindia.com/corporate/SHAKTIPUMP_17072026141839_IntimationunderReg30ShaktiEV.pdf"
+    },
+    {
+     "date": "2026-07-04",
+     "cats": [
+      "order_win"
+     ],
+     "type": "Bagging/Receiving of orders/contracts",
+     "text": "Shakti Pumps (India) Limited has informed the Exchange that Company has received a Letter of Empanelment from Maharashtra State Electricity Distribution Company Limited for 15,000 Off-Grid Solar Photo",
+     "url": "https://nsearchives.nseindia.com/corporate/SHAKTIPUMP_04072026145311_LetterofAwardfromMSEDCL.pdf"
+    }
+   ],
+   "event_score": 58,
+   "event_counts": {
+    "acquisition": 6,
+    "order_win": 3,
+    "rating_up": 1
+   },
+   "neg_events": 0,
+   "pledge": 0.0,
+   "pledge_chg": null,
+   "promoter_chg": 0.1,
+   "promoter_now": 50.4,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "IFBIND.NS": {
+  "fetched": "2026-10-22",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [],
+   "event_score": 0,
+   "event_counts": {},
+   "neg_events": 0,
+   "pledge": 0.0,
+   "pledge_chg": null,
+   "promoter_chg": 0.0,
+   "promoter_now": 74.96,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "SAFARI.NS": {
+  "fetched": "2026-10-22",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [],
+   "event_score": 0,
+   "event_counts": {},
+   "neg_events": 0,
+   "pledge": null,
+   "pledge_chg": null,
+   "promoter_chg": -0.21,
+   "promoter_now": 44.7,
    "pit_net_cr": 0.0,
    "pit_buys": 0,
    "pit_sells": 0
