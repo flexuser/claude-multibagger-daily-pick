@@ -1,0 +1,11 @@
+# One NSE symbol per line — used by scripts/refresh_pledge_cache.py --file
+JSLL
+SHILCTECH
+NEWGEN
+POWERMECH
+SKIPPER
+CMPDI
+ASHAPURMIN
+LUMAXIND
+LATENTVIEW
+CRAMC

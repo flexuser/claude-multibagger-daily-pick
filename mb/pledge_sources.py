@@ -168,6 +168,63 @@ def from_env_csv(sym: str) -> dict[str, Any]:
     return dict(ok=False, source="env_csv", error="symbol_not_found")
 
 
+
+
+def from_screener(sym: str) -> dict[str, Any]:
+    """
+    Fetch promoter pledged % from Screener.in company page (HTML).
+
+    Same underlying data as Trendlyne (exchange SHP republished).
+    Not an official API — HTML can change; use only for small batches
+    (watchlist / signal top-N), not full universe. Respect rate limits.
+    Disable with PLEDGE_SKIP_SCREENER=1.
+    """
+    if os.environ.get("PLEDGE_SKIP_SCREENER") == "1":
+        return dict(ok=False, source="screener", error="disabled")
+    headers = {
+        "User-Agent": UA,
+        "Accept": "text/html,application/xhtml+xml",
+        "Accept-Language": "en-US,en;q=0.9",
+    }
+    urls = [
+        f"https://www.screener.in/company/{sym}/consolidated/",
+        f"https://www.screener.in/company/{sym}/",
+    ]
+    text = None
+    used = None
+    for url in urls:
+        try:
+            r = requests.get(url, headers=headers, timeout=25)
+            if r.status_code == 200 and len(r.text) > 500:
+                text = r.text
+                used = url
+                break
+        except Exception as e:
+            last_err = str(e)[:80]
+            continue
+    if not text:
+        return dict(ok=False, source="screener", error="fetch_failed")
+
+    # Common patterns on Screener shareholding / ratios blocks
+    patterns = [
+        r"Pledged\s*percentage[^0-9%]*([0-9]+(?:\.[0-9]+)?)\s*%",
+        r"Pledged\s*shares[^0-9%]*([0-9]+(?:\.[0-9]+)?)\s*%",
+        r"Promoter\s*pledged[^0-9%]*([0-9]+(?:\.[0-9]+)?)\s*%",
+        r"data-group=\"pledged\"[^>]*>\s*([0-9]+(?:\.[0-9]+)?)",
+        r"pledged[^0-9]{0,40}([0-9]+(?:\.[0-9]+)?)\s*%",
+    ]
+    for pat in patterns:
+        m = re.search(pat, text, re.I)
+        if m:
+            v = _f(m.group(1))
+            if v is not None and 0 <= v <= 100:
+                return dict(
+                    ok=True, source="screener", pledge=v, pledge_chg=None,
+                    as_of=dt.date.today().isoformat(), origin=used,
+                )
+    return dict(ok=False, source="screener", error="not_found_in_html", url=used)
+
+
 def from_nse_archives_xbrl_hint(sym: str) -> dict[str, Any]:
     """
     Lightweight: try nsearchives static path patterns are unreliable without
@@ -196,6 +253,7 @@ def resolve_pledge(client, ticker: str, debug: Optional[dict] = None) -> dict[st
     for fn in (
         lambda: from_nse_pledge_api(client, sym),
         lambda: from_nse_shareholding_master(client, sym),
+        lambda: from_screener(sym),
         lambda: from_local_cache(sym),
         lambda: from_env_csv(sym),
         lambda: from_nse_archives_xbrl_hint(sym),
@@ -230,7 +288,7 @@ def resolve_pledge(client, ticker: str, debug: Optional[dict] = None) -> dict[st
 
     # Prefer nse_pledge_api if present and no conflict
     primary = None
-    for pref in ("nse_pledge_api", "nse_shp_master", "local_cache", "env_csv"):
+    for pref in ("nse_pledge_api", "nse_shp_master", "screener", "local_cache", "env_csv"):
         for t in ok_vals:
             if t["source"] == pref:
                 primary = t
@@ -270,7 +328,7 @@ def resolve_pledge(client, ticker: str, debug: Optional[dict] = None) -> dict[st
         }
 
     # Refresh local cache on successful live fetch
-    if out["pledge"] is not None and out["pledge_source"] in ("nse_pledge_api", "nse_shp_master"):
+    if out["pledge"] is not None and out["pledge_source"] in ("nse_pledge_api", "nse_shp_master", "screener"):
         try:
             cache = load_json(CACHE_JSON, {})
             cache[sym] = {
