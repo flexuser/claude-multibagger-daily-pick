@@ -2463,11 +2463,12 @@
   }
  },
  "SJS.NS": {
-  "fetched": "2026-10-23",
+  "fetched": "2026-10-25",
   "data": {
    "status": {
     "announcements": true,
-    "pledge": true,
+    "pledge": false,
+    "pledge_multi": true,
     "shareholding": true,
     "insider": true
    },
@@ -2535,8 +2536,6 @@
     "acquisition": 5
    },
    "neg_events": 0,
-   "pledge": 4.5,
-   "pledge_chg": null,
    "promoter_chg": -1.57,
    "promoter_now": 19.99,
    "pit_net_cr": 0.0,
@@ -2699,11 +2698,12 @@
   }
  },
  "GOLDIAM.NS": {
-  "fetched": "2026-10-23",
+  "fetched": "2026-10-25",
   "data": {
    "status": {
     "announcements": true,
     "pledge": true,
+    "pledge_multi": true,
     "shareholding": true,
     "insider": true
    },
@@ -2772,6 +2772,10 @@
    "neg_events": 0,
    "pledge": 0.0,
    "pledge_chg": null,
+   "pledge_source": "local_cache",
+   "pledge_as_of": "2026-10-23",
+   "pledge_confidence": "single",
+   "pledge_conflict": false,
    "promoter_chg": 0.0,
    "promoter_now": 58.51,
    "pit_net_cr": 0.0,
@@ -2833,11 +2837,12 @@
   }
  },
  "JSLL.NS": {
-  "fetched": "2026-10-23",
+  "fetched": "2026-10-25",
   "data": {
    "status": {
     "announcements": true,
-    "pledge": true,
+    "pledge": false,
+    "pledge_multi": true,
     "shareholding": true,
     "insider": true
    },
@@ -2913,8 +2918,6 @@
     "expansion": 4
    },
    "neg_events": 0,
-   "pledge": null,
-   "pledge_chg": null,
    "promoter_chg": 0.06,
    "promoter_now": 63.67,
    "pit_net_cr": 0.0,
@@ -3344,11 +3347,12 @@
   }
  },
  "SKIPPER.NS": {
-  "fetched": "2026-10-23",
+  "fetched": "2026-10-25",
   "data": {
    "status": {
     "announcements": true,
-    "pledge": true,
+    "pledge": false,
+    "pledge_multi": true,
     "shareholding": true,
     "insider": true
    },
@@ -3368,8 +3372,6 @@
     "order_win": 1
    },
    "neg_events": 0,
-   "pledge": null,
-   "pledge_chg": null,
    "promoter_chg": -5.0,
    "promoter_now": 61.48,
    "pit_net_cr": 0.0,
@@ -3472,11 +3474,12 @@
   }
  },
  "SHILCTECH.NS": {
-  "fetched": "2026-10-23",
+  "fetched": "2026-10-25",
   "data": {
    "status": {
     "announcements": true,
-    "pledge": true,
+    "pledge": false,
+    "pledge_multi": true,
     "shareholding": true,
     "insider": true
    },
@@ -3484,8 +3487,6 @@
    "event_score": 0,
    "event_counts": {},
    "neg_events": 0,
-   "pledge": null,
-   "pledge_chg": null,
    "promoter_chg": 0.0,
    "promoter_now": 62.12,
    "pit_net_cr": 0.0,
@@ -3564,11 +3565,12 @@
   }
  },
  "THYROCARE.NS": {
-  "fetched": "2026-10-23",
+  "fetched": "2026-10-25",
   "data": {
    "status": {
     "announcements": true,
-    "pledge": true,
+    "pledge": false,
+    "pledge_multi": true,
     "shareholding": true,
     "insider": true
    },
@@ -3606,8 +3608,6 @@
     "acquisition": 3
    },
    "neg_events": 0,
-   "pledge": 0.0,
-   "pledge_chg": null,
    "promoter_chg": -9.91,
    "promoter_now": 51.02,
    "pit_net_cr": 0.0,
@@ -3669,11 +3669,12 @@
   }
  },
  "VIKRAMSOLR.NS": {
-  "fetched": "2026-10-23",
+  "fetched": "2026-10-25",
   "data": {
    "status": {
     "announcements": true,
     "pledge": true,
+    "pledge_multi": true,
     "shareholding": true,
     "insider": true
    },
@@ -3722,24 +3723,6 @@
      "type": "Corporate Insolvency Resolution Process",
      "text": "Vikram Solar Limited has informed the Exchange about update on Corporate Insolvency Resolution Process",
      "url": "https://nsearchives.nseindia.com/corporate/VSLCS_29062026172834_VSLINTIMATIONDTED29062026.pdf"
-    },
-    {
-     "date": "2026-06-25",
-     "cats": [
-      "distress"
-     ],
-     "type": "Corporate Insolvency Resolution Process",
-     "text": "Vikram Solar Limited has informed the Exchange about the submission of Order copy of the NCLAT in the Corporate Insolvency Resolution Process",
-     "url": "https://nsearchives.nseindia.com/corporate/VSLCS_25062026125422_VSL_submission_of_NCLAT_order_June_24_2026_signed.pdf"
-    },
-    {
-     "date": "2026-06-24",
-     "cats": [
-      "distress"
-     ],
-     "type": "Corporate Insolvency Resolution Process",
-     "text": "Vikram Solar Limited has informed the Exchange about the updates on theproceedings before the Hon ble NCLAT",
-     "url": "https://nsearchives.nseindia.com/corporate/VSLCS_24062026201441_VSL_intimation_of_the_updates_on_proceedings_June_24_2026_final.pdf"
     }
    ],
    "event_score": 0,
@@ -3747,11 +3730,15 @@
     "order_win": 1,
     "acquisition": 1,
     "expansion": 1,
-    "distress": 4
+    "distress": 2
    },
-   "neg_events": 4,
+   "neg_events": 2,
    "pledge": 9.24,
    "pledge_chg": null,
+   "pledge_source": "local_cache",
+   "pledge_as_of": "23-02-2026",
+   "pledge_confidence": "single",
+   "pledge_conflict": false,
    "promoter_chg": -0.11,
    "promoter_now": 63.01,
    "pit_net_cr": 0.0,
@@ -3804,11 +3791,12 @@
   }
  },
  "SUPRIYA.NS": {
-  "fetched": "2026-10-23",
+  "fetched": "2026-10-25",
   "data": {
    "status": {
     "announcements": true,
-    "pledge": true,
+    "pledge": false,
+    "pledge_multi": true,
     "shareholding": true,
     "insider": true
    },
@@ -3816,8 +3804,6 @@
    "event_score": 0,
    "event_counts": {},
    "neg_events": 0,
-   "pledge": null,
-   "pledge_chg": null,
    "promoter_chg": 0.0,
    "promoter_now": 68.3,
    "pit_net_cr": 0.0,
@@ -3826,11 +3812,12 @@
   }
  },
  "OSWALPUMPS.NS": {
-  "fetched": "2026-10-23",
+  "fetched": "2026-10-25",
   "data": {
    "status": {
     "announcements": true,
-    "pledge": true,
+    "pledge": false,
+    "pledge_multi": true,
     "shareholding": true,
     "insider": true
    },
@@ -3838,8 +3825,6 @@
    "event_score": 0,
    "event_counts": {},
    "neg_events": 0,
-   "pledge": null,
-   "pledge_chg": null,
    "promoter_chg": -0.02,
    "promoter_now": 75.65,
    "pit_net_cr": 0.0,
@@ -3848,11 +3833,12 @@
   }
  },
  "TRANSRAILL.NS": {
-  "fetched": "2026-10-23",
+  "fetched": "2026-10-25",
   "data": {
    "status": {
     "announcements": true,
-    "pledge": true,
+    "pledge": false,
+    "pledge_multi": true,
     "shareholding": true,
     "insider": true
    },
@@ -3910,8 +3896,6 @@
     "approval": 1
    },
    "neg_events": 0,
-   "pledge": 5.97,
-   "pledge_chg": null,
    "promoter_chg": 0.0,
    "promoter_now": 71.12,
    "pit_net_cr": 0.0,
@@ -4378,32 +4362,19 @@
   }
  },
  "SPARC.NS": {
-  "fetched": "2026-10-23",
+  "fetched": "2026-10-25",
   "data": {
    "status": {
     "announcements": true,
-    "pledge": true,
+    "pledge": false,
+    "pledge_multi": true,
     "shareholding": true,
     "insider": true
    },
-   "events": [
-    {
-     "date": "2026-06-25",
-     "cats": [
-      "approval"
-     ],
-     "type": "Rescission/termination(s)",
-     "text": "Sun Pharma Advanced Research Company Limited has informed the Exchange about Termination of License Agreement with CMS Bridging DMCC",
-     "url": "https://nsearchives.nseindia.com/corporate/SPARC_25062026183059_Reg30Intimation.pdf"
-    }
-   ],
-   "event_score": 6,
-   "event_counts": {
-    "approval": 1
-   },
+   "events": [],
+   "event_score": 0,
+   "event_counts": {},
    "neg_events": 0,
-   "pledge": 0.0,
-   "pledge_chg": null,
    "promoter_chg": 0.0,
    "promoter_now": 65.67,
    "pit_net_cr": 0.0,
@@ -4594,11 +4565,12 @@
   }
  },
  "TTML.NS": {
-  "fetched": "2026-10-23",
+  "fetched": "2026-10-25",
   "data": {
    "status": {
     "announcements": true,
-    "pledge": true,
+    "pledge": false,
+    "pledge_multi": true,
     "shareholding": true,
     "insider": true
    },
@@ -4606,8 +4578,6 @@
    "event_score": 0,
    "event_counts": {},
    "neg_events": 0,
-   "pledge": 0.0,
-   "pledge_chg": null,
    "promoter_chg": 0.0,
    "promoter_now": 74.36,
    "pit_net_cr": 0.0,
@@ -4659,11 +4629,12 @@
   }
  },
  "WEBELSOLAR.NS": {
-  "fetched": "2026-10-23",
+  "fetched": "2026-10-25",
   "data": {
    "status": {
     "announcements": true,
     "pledge": true,
+    "pledge_multi": true,
     "shareholding": true,
     "insider": true
    },
@@ -4704,6 +4675,10 @@
    "neg_events": 0,
    "pledge": 15.64,
    "pledge_chg": null,
+   "pledge_source": "local_cache",
+   "pledge_as_of": "30-10-2023",
+   "pledge_confidence": "single",
+   "pledge_conflict": false,
    "promoter_chg": 2.01,
    "promoter_now": 29.72,
    "pit_net_cr": 0.0,
@@ -4712,11 +4687,12 @@
   }
  },
  "ASHOKA.NS": {
-  "fetched": "2026-10-23",
+  "fetched": "2026-10-25",
   "data": {
    "status": {
     "announcements": true,
     "pledge": true,
+    "pledge_multi": true,
     "shareholding": true,
     "insider": true
    },
@@ -4757,6 +4733,10 @@
    "neg_events": 0,
    "pledge": 0.0,
    "pledge_chg": null,
+   "pledge_source": "local_cache",
+   "pledge_as_of": "2026-10-23",
+   "pledge_confidence": "single",
+   "pledge_conflict": false,
    "promoter_chg": 0.0,
    "promoter_now": 54.48,
    "pit_net_cr": 0.0,
@@ -5322,11 +5302,12 @@
   }
  },
  "CRAMC.NS": {
-  "fetched": "2026-10-23",
+  "fetched": "2026-10-25",
   "data": {
    "status": {
     "announcements": true,
-    "pledge": true,
+    "pledge": false,
+    "pledge_multi": true,
     "shareholding": true,
     "insider": true
    },
@@ -5334,8 +5315,6 @@
    "event_score": 0,
    "event_counts": {},
    "neg_events": 0,
-   "pledge": null,
-   "pledge_chg": null,
    "promoter_chg": 0.0,
    "promoter_now": 75.0,
    "pit_net_cr": 0.0,
@@ -5344,11 +5323,12 @@
   }
  },
  "GOKULAGRO.NS": {
-  "fetched": "2026-10-23",
+  "fetched": "2026-10-25",
   "data": {
    "status": {
     "announcements": true,
-    "pledge": true,
+    "pledge": false,
+    "pledge_multi": true,
     "shareholding": true,
     "insider": true
    },
@@ -5356,8 +5336,6 @@
    "event_score": 0,
    "event_counts": {},
    "neg_events": 0,
-   "pledge": 13.69,
-   "pledge_chg": null,
    "promoter_chg": 0.57,
    "promoter_now": 74.24,
    "pit_net_cr": 0.0,
@@ -5366,11 +5344,12 @@
   }
  },
  "BAJAJCON.NS": {
-  "fetched": "2026-10-23",
+  "fetched": "2026-10-25",
   "data": {
    "status": {
     "announcements": true,
-    "pledge": true,
+    "pledge": false,
+    "pledge_multi": true,
     "shareholding": true,
     "insider": true
    },
@@ -5378,8 +5357,6 @@
    "event_score": 0,
    "event_counts": {},
    "neg_events": 0,
-   "pledge": 0.0,
-   "pledge_chg": null,
    "promoter_chg": 2.02,
    "promoter_now": 42.97,
    "pit_net_cr": 0.0,
@@ -5388,11 +5365,12 @@
   }
  },
  "JAMNAAUTO.NS": {
-  "fetched": "2026-10-23",
+  "fetched": "2026-10-25",
   "data": {
    "status": {
     "announcements": true,
     "pledge": true,
+    "pledge_multi": true,
     "shareholding": true,
     "insider": true
    },
@@ -5414,6 +5392,10 @@
    "neg_events": 0,
    "pledge": 1.69,
    "pledge_chg": null,
+   "pledge_source": "local_cache",
+   "pledge_as_of": "31-08-2018",
+   "pledge_confidence": "single",
+   "pledge_conflict": false,
    "promoter_chg": -5.13,
    "promoter_now": 44.81,
    "pit_net_cr": 0.0,
@@ -5422,11 +5404,12 @@
   }
  },
  "MSTCLTD.NS": {
-  "fetched": "2026-10-23",
+  "fetched": "2026-10-25",
   "data": {
    "status": {
     "announcements": true,
-    "pledge": true,
+    "pledge": false,
+    "pledge_multi": true,
     "shareholding": true,
     "insider": true
    },
@@ -5434,8 +5417,6 @@
    "event_score": 0,
    "event_counts": {},
    "neg_events": 0,
-   "pledge": null,
-   "pledge_chg": null,
    "promoter_chg": 0.0,
    "promoter_now": 64.75,
    "pit_net_cr": 0.0,
@@ -5444,11 +5425,12 @@
   }
  },
  "JYOTHYLAB.NS": {
-  "fetched": "2026-10-23",
+  "fetched": "2026-10-25",
   "data": {
    "status": {
     "announcements": true,
-    "pledge": true,
+    "pledge": false,
+    "pledge_multi": true,
     "shareholding": true,
     "insider": true
    },
@@ -5456,8 +5438,6 @@
    "event_score": 0,
    "event_counts": {},
    "neg_events": 0,
-   "pledge": 0.0,
-   "pledge_chg": null,
    "promoter_chg": 0.0,
    "promoter_now": 62.89,
    "pit_net_cr": 0.0,
@@ -5466,11 +5446,12 @@
   }
  },
  "SHARDACROP.NS": {
-  "fetched": "2026-10-23",
+  "fetched": "2026-10-25",
   "data": {
    "status": {
     "announcements": true,
-    "pledge": true,
+    "pledge": false,
+    "pledge_multi": true,
     "shareholding": true,
     "insider": true
    },
@@ -5478,8 +5459,6 @@
    "event_score": 0,
    "event_counts": {},
    "neg_events": 0,
-   "pledge": 0.0,
-   "pledge_chg": null,
    "promoter_chg": 0.0,
    "promoter_now": 74.82,
    "pit_net_cr": 0.0,
@@ -5488,11 +5467,12 @@
   }
  },
  "FIEMIND.NS": {
-  "fetched": "2026-10-23",
+  "fetched": "2026-10-25",
   "data": {
    "status": {
     "announcements": true,
     "pledge": true,
+    "pledge_multi": true,
     "shareholding": true,
     "insider": true
    },
@@ -5502,6 +5482,10 @@
    "neg_events": 0,
    "pledge": 0.0,
    "pledge_chg": null,
+   "pledge_source": "local_cache",
+   "pledge_as_of": "2026-10-23",
+   "pledge_confidence": "single",
+   "pledge_conflict": false,
    "promoter_chg": 0.0,
    "promoter_now": 54.52,
    "pit_net_cr": 0.0,
@@ -5510,11 +5494,12 @@
   }
  },
  "SONATSOFTW.NS": {
-  "fetched": "2026-10-23",
+  "fetched": "2026-10-25",
   "data": {
    "status": {
     "announcements": true,
-    "pledge": true,
+    "pledge": false,
+    "pledge_multi": true,
     "shareholding": true,
     "insider": true
    },
@@ -5534,8 +5519,6 @@
     "acquisition": 1
    },
    "neg_events": 0,
-   "pledge": 0.0,
-   "pledge_chg": null,
    "promoter_chg": 0.0,
    "promoter_now": 28.17,
    "pit_net_cr": 0.0,
@@ -5544,11 +5527,12 @@
   }
  },
  "TANLA.NS": {
-  "fetched": "2026-10-23",
+  "fetched": "2026-10-25",
   "data": {
    "status": {
     "announcements": true,
-    "pledge": true,
+    "pledge": false,
+    "pledge_multi": true,
     "shareholding": true,
     "insider": true
    },
@@ -5568,8 +5552,6 @@
     "acquisition": 1
    },
    "neg_events": 0,
-   "pledge": 0.0,
-   "pledge_chg": null,
    "promoter_chg": 0.0,
    "promoter_now": 46.17,
    "pit_net_cr": 0.0,
@@ -5578,11 +5560,12 @@
   }
  },
  "STYLAMIND.NS": {
-  "fetched": "2026-10-23",
+  "fetched": "2026-10-25",
   "data": {
    "status": {
     "announcements": true,
-    "pledge": true,
+    "pledge": false,
+    "pledge_multi": true,
     "shareholding": true,
     "insider": true
    },
@@ -5590,8 +5573,6 @@
    "event_score": 0,
    "event_counts": {},
    "neg_events": 0,
-   "pledge": null,
-   "pledge_chg": null,
    "promoter_chg": 4.67,
    "promoter_now": 56.86,
    "pit_net_cr": 0.0,
@@ -5600,11 +5581,12 @@
   }
  },
  "CENTUM.NS": {
-  "fetched": "2026-10-23",
+  "fetched": "2026-10-25",
   "data": {
    "status": {
     "announcements": true,
-    "pledge": true,
+    "pledge": false,
+    "pledge_multi": true,
     "shareholding": true,
     "insider": true
    },
@@ -5634,8 +5616,6 @@
     "approval": 1
    },
    "neg_events": 0,
-   "pledge": 0.0,
-   "pledge_chg": null,
    "promoter_chg": -0.18,
    "promoter_now": 46.81,
    "pit_net_cr": 0.0,
@@ -5644,15 +5624,25 @@
   }
  },
  "NEWGEN.NS": {
-  "fetched": "2026-10-23",
+  "fetched": "2026-10-25",
   "data": {
    "status": {
     "announcements": true,
-    "pledge": true,
+    "pledge": false,
+    "pledge_multi": true,
     "shareholding": true,
     "insider": true
    },
    "events": [
+    {
+     "date": "2026-10-23",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Amalgamation/Merger",
+     "text": "Newgen Software Technologies Limited has informed the Exchange about Approval of the Scheme of Arrangement for Amalgamation of Newgen Computers Technologies Limited ( Transferor Company ) with and int",
+     "url": "https://nsearchives.nseindia.com/corporate/NEWGEN2_23102026134931_FinancialResult_23102026.pdf"
+    },
     {
      "date": "2026-10-16",
      "cats": [
@@ -5704,13 +5694,11 @@
    ],
    "event_score": 64,
    "event_counts": {
+    "acquisition": 2,
     "order_win": 5,
-    "acquisition": 1,
     "approval": 2
    },
    "neg_events": 0,
-   "pledge": null,
-   "pledge_chg": null,
    "promoter_chg": -0.31,
    "promoter_now": 53.45,
    "pit_net_cr": 0.0,
@@ -5719,11 +5707,12 @@
   }
  },
  "QUESS.NS": {
-  "fetched": "2026-10-23",
+  "fetched": "2026-10-25",
   "data": {
    "status": {
     "announcements": true,
-    "pledge": true,
+    "pledge": false,
+    "pledge_multi": true,
     "shareholding": true,
     "insider": true
    },
@@ -5731,8 +5720,6 @@
    "event_score": 0,
    "event_counts": {},
    "neg_events": 0,
-   "pledge": null,
-   "pledge_chg": null,
    "promoter_chg": -0.11,
    "promoter_now": 56.81,
    "pit_net_cr": 0.0,
@@ -5741,11 +5728,12 @@
   }
  },
  "MAPMYINDIA.NS": {
-  "fetched": "2026-10-23",
+  "fetched": "2026-10-25",
   "data": {
    "status": {
     "announcements": true,
-    "pledge": true,
+    "pledge": false,
+    "pledge_multi": true,
     "shareholding": true,
     "insider": true
    },
@@ -5753,8 +5741,6 @@
    "event_score": 0,
    "event_counts": {},
    "neg_events": 0,
-   "pledge": null,
-   "pledge_chg": null,
    "promoter_chg": 0.0,
    "promoter_now": 51.36,
    "pit_net_cr": 0.0,
@@ -5763,11 +5749,12 @@
   }
  },
  "REFEX.NS": {
-  "fetched": "2026-10-23",
+  "fetched": "2026-10-25",
   "data": {
    "status": {
     "announcements": true,
     "pledge": true,
+    "pledge_multi": true,
     "shareholding": true,
     "insider": true
    },
@@ -5906,26 +5893,21 @@
      "type": "Bagging/Receiving of orders/contracts",
      "text": "Disclosure under Regulation 30 of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015 - Bagging of Order for Transportation of ash to constru",
      "url": "https://nsearchives.nseindia.com/corporate/REFEX2002_26062026105304_RIL_BOD_26062026_sd.pdf"
-    },
-    {
-     "date": "2026-06-24",
-     "cats": [
-      "distress"
-     ],
-     "type": "General Updates",
-     "text": "Disclosure under Regulation 30 of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015 ( SEBI Listing Regulations ) regarding the order passed",
-     "url": "https://nsearchives.nseindia.com/corporate/REFEX2002_24062026193439_RIL_NCLT_order.pdf"
     }
    ],
    "event_score": 2,
    "event_counts": {
     "order_win": 12,
     "acquisition": 1,
-    "distress": 3
+    "distress": 2
    },
-   "neg_events": 3,
-   "pledge": 47.39,
+   "neg_events": 2,
+   "pledge": 47.4,
    "pledge_chg": null,
+   "pledge_source": "screener",
+   "pledge_as_of": "2026-10-25",
+   "pledge_confidence": "high",
+   "pledge_conflict": false,
    "promoter_chg": 0.76,
    "promoter_now": 56.56,
    "pit_net_cr": 0.0,
@@ -6175,11 +6157,12 @@
   }
  },
  "POWERMECH.NS": {
-  "fetched": "2026-10-23",
+  "fetched": "2026-10-25",
   "data": {
    "status": {
     "announcements": true,
-    "pledge": true,
+    "pledge": false,
+    "pledge_multi": true,
     "shareholding": true,
     "insider": true
    },
@@ -6226,8 +6209,6 @@
     "order_win": 4
    },
    "neg_events": 0,
-   "pledge": null,
-   "pledge_chg": null,
    "promoter_chg": 0.09,
    "promoter_now": 58.42,
    "pit_net_cr": 0.0,
@@ -6236,11 +6217,12 @@
   }
  },
  "CAMPUS.NS": {
-  "fetched": "2026-10-23",
+  "fetched": "2026-10-25",
   "data": {
    "status": {
     "announcements": true,
-    "pledge": true,
+    "pledge": false,
+    "pledge_multi": true,
     "shareholding": true,
     "insider": true
    },
@@ -6248,8 +6230,6 @@
    "event_score": 0,
    "event_counts": {},
    "neg_events": 0,
-   "pledge": null,
-   "pledge_chg": null,
    "promoter_chg": -0.05,
    "promoter_now": 72.07,
    "pit_net_cr": 0.0,
@@ -6280,11 +6260,12 @@
   }
  },
  "SHAKTIPUMP.NS": {
-  "fetched": "2026-10-23",
+  "fetched": "2026-10-25",
   "data": {
    "status": {
     "announcements": true,
     "pledge": true,
+    "pledge_multi": true,
     "shareholding": true,
     "insider": true
    },
@@ -6398,6 +6379,10 @@
    "neg_events": 0,
    "pledge": 0.0,
    "pledge_chg": null,
+   "pledge_source": "local_cache",
+   "pledge_as_of": "30-04-2015",
+   "pledge_confidence": "single",
+   "pledge_conflict": false,
    "promoter_chg": 0.1,
    "promoter_now": 50.4,
    "pit_net_cr": 0.0,
@@ -6406,11 +6391,12 @@
   }
  },
  "IFBIND.NS": {
-  "fetched": "2026-10-23",
+  "fetched": "2026-10-25",
   "data": {
    "status": {
     "announcements": true,
     "pledge": true,
+    "pledge_multi": true,
     "shareholding": true,
     "insider": true
    },
@@ -6420,6 +6406,10 @@
    "neg_events": 0,
    "pledge": 0.0,
    "pledge_chg": null,
+   "pledge_source": "local_cache",
+   "pledge_as_of": "2026-10-23",
+   "pledge_confidence": "single",
+   "pledge_conflict": false,
    "promoter_chg": 0.0,
    "promoter_now": 74.96,
    "pit_net_cr": 0.0,
@@ -6428,11 +6418,12 @@
   }
  },
  "SAFARI.NS": {
-  "fetched": "2026-10-23",
+  "fetched": "2026-10-25",
   "data": {
    "status": {
     "announcements": true,
-    "pledge": true,
+    "pledge": false,
+    "pledge_multi": true,
     "shareholding": true,
     "insider": true
    },
@@ -6440,8 +6431,6 @@
    "event_score": 0,
    "event_counts": {},
    "neg_events": 0,
-   "pledge": null,
-   "pledge_chg": null,
    "promoter_chg": -0.21,
    "promoter_now": 44.7,
    "pit_net_cr": 0.0,

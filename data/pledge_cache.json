@@ -75,11 +75,11 @@
   "updated": "2026-10-23"
  },
  "REFEX": {
-  "pledge": 47.39,
+  "pledge": 47.4,
   "pledge_chg": null,
-  "as_of": "29-09-2026",
-  "source": "nse_pledge_api",
-  "updated": "2026-10-23"
+  "as_of": "2026-10-25",
+  "source": "screener",
+  "updated": "2026-10-25"
  },
  "VAIBHAVGBL": {
   "pledge": 0.0,

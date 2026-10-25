@@ -90,10 +90,16 @@
   "xbrl",
   "xbrlFileSize"
  ],
- "updated": "2026-10-23",
+ "updated": "2026-10-25",
  "status": {
-  "attempted": 0,
-  "ok": {},
+  "attempted": 35,
+  "ok": {
+   "announcements": 35,
+   "pledge": 9,
+   "pledge_multi": 35,
+   "shareholding": 35,
+   "insider": 35
+  },
   "blocked": false,
   "checked": 0,
   "demo": false
@@ -120,5 +126,1193 @@
   "totPromoterHolding",
   "totPromoterShares",
   "totPublicHolding"
- ]
+ ],
+ "pledge_multi": {
+  "SPARC": [
+   {
+    "source": "nse_pledge_api",
+    "ok": false,
+    "error": "empty"
+   },
+   {
+    "source": "nse_shp_master",
+    "ok": false,
+    "error": "no_pledge_field"
+   },
+   {
+    "source": "screener",
+    "ok": false,
+    "error": "not_found_in_html"
+   },
+   {
+    "source": "local_cache",
+    "ok": false,
+    "error": "not_in_cache"
+   },
+   {
+    "source": "env_csv",
+    "ok": false,
+    "error": "no_file"
+   },
+   {
+    "source": "nse_xbrl",
+    "ok": false,
+    "error": "disabled"
+   }
+  ],
+  "JSLL": [
+   {
+    "source": "nse_pledge_api",
+    "ok": false,
+    "error": "empty"
+   },
+   {
+    "source": "nse_shp_master",
+    "ok": false,
+    "error": "no_pledge_field"
+   },
+   {
+    "source": "screener",
+    "ok": false,
+    "error": "not_found_in_html"
+   },
+   {
+    "source": "local_cache",
+    "ok": false,
+    "error": "not_in_cache"
+   },
+   {
+    "source": "env_csv",
+    "ok": false,
+    "error": "no_file"
+   },
+   {
+    "source": "nse_xbrl",
+    "ok": false,
+    "error": "disabled"
+   }
+  ],
+  "WEBELSOLAR": [
+   {
+    "source": "nse_pledge_api",
+    "ok": false,
+    "error": "empty"
+   },
+   {
+    "source": "nse_shp_master",
+    "ok": false,
+    "error": "no_pledge_field"
+   },
+   {
+    "source": "screener",
+    "ok": false,
+    "error": "not_found_in_html"
+   },
+   {
+    "source": "local_cache",
+    "ok": true,
+    "pledge": 15.64,
+    "as_of": "30-10-2023"
+   },
+   {
+    "source": "env_csv",
+    "ok": false,
+    "error": "no_file"
+   },
+   {
+    "source": "nse_xbrl",
+    "ok": false,
+    "error": "disabled"
+   }
+  ],
+  "ASHOKA": [
+   {
+    "source": "nse_pledge_api",
+    "ok": false,
+    "error": "empty"
+   },
+   {
+    "source": "nse_shp_master",
+    "ok": false,
+    "error": "no_pledge_field"
+   },
+   {
+    "source": "screener",
+    "ok": false,
+    "error": "not_found_in_html"
+   },
+   {
+    "source": "local_cache",
+    "ok": true,
+    "pledge": 0.0,
+    "as_of": "2026-10-23"
+   },
+   {
+    "source": "env_csv",
+    "ok": false,
+    "error": "no_file"
+   },
+   {
+    "source": "nse_xbrl",
+    "ok": false,
+    "error": "disabled"
+   }
+  ],
+  "TTML": [
+   {
+    "source": "nse_pledge_api",
+    "ok": false,
+    "error": "empty"
+   },
+   {
+    "source": "nse_shp_master",
+    "ok": false,
+    "error": "no_pledge_field"
+   },
+   {
+    "source": "screener",
+    "ok": false,
+    "error": "not_found_in_html"
+   },
+   {
+    "source": "local_cache",
+    "ok": false,
+    "error": "not_in_cache"
+   },
+   {
+    "source": "env_csv",
+    "ok": false,
+    "error": "no_file"
+   },
+   {
+    "source": "nse_xbrl",
+    "ok": false,
+    "error": "disabled"
+   }
+  ],
+  "SHILCTECH": [
+   {
+    "source": "nse_pledge_api",
+    "ok": false,
+    "error": "empty"
+   },
+   {
+    "source": "nse_shp_master",
+    "ok": false,
+    "error": "no_pledge_field"
+   },
+   {
+    "source": "screener",
+    "ok": false,
+    "error": "not_found_in_html"
+   },
+   {
+    "source": "local_cache",
+    "ok": false,
+    "error": "not_in_cache"
+   },
+   {
+    "source": "env_csv",
+    "ok": false,
+    "error": "no_file"
+   },
+   {
+    "source": "nse_xbrl",
+    "ok": false,
+    "error": "disabled"
+   }
+  ],
+  "CRAMC": [
+   {
+    "source": "nse_pledge_api",
+    "ok": false,
+    "error": "empty"
+   },
+   {
+    "source": "nse_shp_master",
+    "ok": false,
+    "error": "no_pledge_field"
+   },
+   {
+    "source": "screener",
+    "ok": false,
+    "error": "not_found_in_html"
+   },
+   {
+    "source": "local_cache",
+    "ok": false,
+    "error": "not_in_cache"
+   },
+   {
+    "source": "env_csv",
+    "ok": false,
+    "error": "no_file"
+   },
+   {
+    "source": "nse_xbrl",
+    "ok": false,
+    "error": "disabled"
+   }
+  ],
+  "THYROCARE": [
+   {
+    "source": "nse_pledge_api",
+    "ok": false,
+    "error": "empty"
+   },
+   {
+    "source": "nse_shp_master",
+    "ok": false,
+    "error": "no_pledge_field"
+   },
+   {
+    "source": "screener",
+    "ok": false,
+    "error": "not_found_in_html"
+   },
+   {
+    "source": "local_cache",
+    "ok": false,
+    "error": "not_in_cache"
+   },
+   {
+    "source": "env_csv",
+    "ok": false,
+    "error": "no_file"
+   },
+   {
+    "source": "nse_xbrl",
+    "ok": false,
+    "error": "disabled"
+   }
+  ],
+  "GOKULAGRO": [
+   {
+    "source": "nse_pledge_api",
+    "ok": false,
+    "error": "empty"
+   },
+   {
+    "source": "nse_shp_master",
+    "ok": false,
+    "error": "no_pledge_field"
+   },
+   {
+    "source": "screener",
+    "ok": false,
+    "error": "not_found_in_html"
+   },
+   {
+    "source": "local_cache",
+    "ok": false,
+    "error": "not_in_cache"
+   },
+   {
+    "source": "env_csv",
+    "ok": false,
+    "error": "no_file"
+   },
+   {
+    "source": "nse_xbrl",
+    "ok": false,
+    "error": "disabled"
+   }
+  ],
+  "BAJAJCON": [
+   {
+    "source": "nse_pledge_api",
+    "ok": false,
+    "error": "empty"
+   },
+   {
+    "source": "nse_shp_master",
+    "ok": false,
+    "error": "no_pledge_field"
+   },
+   {
+    "source": "screener",
+    "ok": false,
+    "error": "not_found_in_html"
+   },
+   {
+    "source": "local_cache",
+    "ok": false,
+    "error": "not_in_cache"
+   },
+   {
+    "source": "env_csv",
+    "ok": false,
+    "error": "no_file"
+   },
+   {
+    "source": "nse_xbrl",
+    "ok": false,
+    "error": "disabled"
+   }
+  ],
+  "JAMNAAUTO": [
+   {
+    "source": "nse_pledge_api",
+    "ok": false,
+    "error": "empty"
+   },
+   {
+    "source": "nse_shp_master",
+    "ok": false,
+    "error": "no_pledge_field"
+   },
+   {
+    "source": "screener",
+    "ok": false,
+    "error": "not_found_in_html"
+   },
+   {
+    "source": "local_cache",
+    "ok": true,
+    "pledge": 1.69,
+    "as_of": "31-08-2018"
+   },
+   {
+    "source": "env_csv",
+    "ok": false,
+    "error": "no_file"
+   },
+   {
+    "source": "nse_xbrl",
+    "ok": false,
+    "error": "disabled"
+   }
+  ],
+  "MSTCLTD": [
+   {
+    "source": "nse_pledge_api",
+    "ok": false,
+    "error": "empty"
+   },
+   {
+    "source": "nse_shp_master",
+    "ok": false,
+    "error": "no_pledge_field"
+   },
+   {
+    "source": "screener",
+    "ok": false,
+    "error": "not_found_in_html"
+   },
+   {
+    "source": "local_cache",
+    "ok": false,
+    "error": "not_in_cache"
+   },
+   {
+    "source": "env_csv",
+    "ok": false,
+    "error": "no_file"
+   },
+   {
+    "source": "nse_xbrl",
+    "ok": false,
+    "error": "disabled"
+   }
+  ],
+  "JYOTHYLAB": [
+   {
+    "source": "nse_pledge_api",
+    "ok": false,
+    "error": "empty"
+   },
+   {
+    "source": "nse_shp_master",
+    "ok": false,
+    "error": "no_pledge_field"
+   },
+   {
+    "source": "screener",
+    "ok": false,
+    "error": "not_found_in_html"
+   },
+   {
+    "source": "local_cache",
+    "ok": false,
+    "error": "not_in_cache"
+   },
+   {
+    "source": "env_csv",
+    "ok": false,
+    "error": "no_file"
+   },
+   {
+    "source": "nse_xbrl",
+    "ok": false,
+    "error": "disabled"
+   }
+  ],
+  "SHARDACROP": [
+   {
+    "source": "nse_pledge_api",
+    "ok": false,
+    "error": "empty"
+   },
+   {
+    "source": "nse_shp_master",
+    "ok": false,
+    "error": "no_pledge_field"
+   },
+   {
+    "source": "screener",
+    "ok": false,
+    "error": "not_found_in_html"
+   },
+   {
+    "source": "local_cache",
+    "ok": false,
+    "error": "not_in_cache"
+   },
+   {
+    "source": "env_csv",
+    "ok": false,
+    "error": "no_file"
+   },
+   {
+    "source": "nse_xbrl",
+    "ok": false,
+    "error": "disabled"
+   }
+  ],
+  "OSWALPUMPS": [
+   {
+    "source": "nse_pledge_api",
+    "ok": false,
+    "error": "empty"
+   },
+   {
+    "source": "nse_shp_master",
+    "ok": false,
+    "error": "no_pledge_field"
+   },
+   {
+    "source": "screener",
+    "ok": false,
+    "error": "not_found_in_html"
+   },
+   {
+    "source": "local_cache",
+    "ok": false,
+    "error": "not_in_cache"
+   },
+   {
+    "source": "env_csv",
+    "ok": false,
+    "error": "no_file"
+   },
+   {
+    "source": "nse_xbrl",
+    "ok": false,
+    "error": "disabled"
+   }
+  ],
+  "FIEMIND": [
+   {
+    "source": "nse_pledge_api",
+    "ok": false,
+    "error": "empty"
+   },
+   {
+    "source": "nse_shp_master",
+    "ok": false,
+    "error": "no_pledge_field"
+   },
+   {
+    "source": "screener",
+    "ok": false,
+    "error": "not_found_in_html"
+   },
+   {
+    "source": "local_cache",
+    "ok": true,
+    "pledge": 0.0,
+    "as_of": "2026-10-23"
+   },
+   {
+    "source": "env_csv",
+    "ok": false,
+    "error": "no_file"
+   },
+   {
+    "source": "nse_xbrl",
+    "ok": false,
+    "error": "disabled"
+   }
+  ],
+  "SJS": [
+   {
+    "source": "nse_pledge_api",
+    "ok": false,
+    "error": "empty"
+   },
+   {
+    "source": "nse_shp_master",
+    "ok": false,
+    "error": "no_pledge_field"
+   },
+   {
+    "source": "screener",
+    "ok": false,
+    "error": "not_found_in_html"
+   },
+   {
+    "source": "local_cache",
+    "ok": false,
+    "error": "not_in_cache"
+   },
+   {
+    "source": "env_csv",
+    "ok": false,
+    "error": "no_file"
+   },
+   {
+    "source": "nse_xbrl",
+    "ok": false,
+    "error": "disabled"
+   }
+  ],
+  "SONATSOFTW": [
+   {
+    "source": "nse_pledge_api",
+    "ok": false,
+    "error": "empty"
+   },
+   {
+    "source": "nse_shp_master",
+    "ok": false,
+    "error": "no_pledge_field"
+   },
+   {
+    "source": "screener",
+    "ok": false,
+    "error": "not_found_in_html"
+   },
+   {
+    "source": "local_cache",
+    "ok": false,
+    "error": "not_in_cache"
+   },
+   {
+    "source": "env_csv",
+    "ok": false,
+    "error": "no_file"
+   },
+   {
+    "source": "nse_xbrl",
+    "ok": false,
+    "error": "disabled"
+   }
+  ],
+  "TRANSRAILL": [
+   {
+    "source": "nse_pledge_api",
+    "ok": false,
+    "error": "empty"
+   },
+   {
+    "source": "nse_shp_master",
+    "ok": false,
+    "error": "no_pledge_field"
+   },
+   {
+    "source": "screener",
+    "ok": false,
+    "error": "not_found_in_html"
+   },
+   {
+    "source": "local_cache",
+    "ok": false,
+    "error": "not_in_cache"
+   },
+   {
+    "source": "env_csv",
+    "ok": false,
+    "error": "no_file"
+   },
+   {
+    "source": "nse_xbrl",
+    "ok": false,
+    "error": "disabled"
+   }
+  ],
+  "TANLA": [
+   {
+    "source": "nse_pledge_api",
+    "ok": false,
+    "error": "empty"
+   },
+   {
+    "source": "nse_shp_master",
+    "ok": false,
+    "error": "no_pledge_field"
+   },
+   {
+    "source": "screener",
+    "ok": false,
+    "error": "not_found_in_html"
+   },
+   {
+    "source": "local_cache",
+    "ok": false,
+    "error": "not_in_cache"
+   },
+   {
+    "source": "env_csv",
+    "ok": false,
+    "error": "no_file"
+   },
+   {
+    "source": "nse_xbrl",
+    "ok": false,
+    "error": "disabled"
+   }
+  ],
+  "STYLAMIND": [
+   {
+    "source": "nse_pledge_api",
+    "ok": false,
+    "error": "empty"
+   },
+   {
+    "source": "nse_shp_master",
+    "ok": false,
+    "error": "no_pledge_field"
+   },
+   {
+    "source": "screener",
+    "ok": false,
+    "error": "not_found_in_html"
+   },
+   {
+    "source": "local_cache",
+    "ok": false,
+    "error": "not_in_cache"
+   },
+   {
+    "source": "env_csv",
+    "ok": false,
+    "error": "no_file"
+   },
+   {
+    "source": "nse_xbrl",
+    "ok": false,
+    "error": "disabled"
+   }
+  ],
+  "CENTUM": [
+   {
+    "source": "nse_pledge_api",
+    "ok": false,
+    "error": "empty"
+   },
+   {
+    "source": "nse_shp_master",
+    "ok": false,
+    "error": "no_pledge_field"
+   },
+   {
+    "source": "screener",
+    "ok": false,
+    "error": "not_found_in_html"
+   },
+   {
+    "source": "local_cache",
+    "ok": false,
+    "error": "not_in_cache"
+   },
+   {
+    "source": "env_csv",
+    "ok": false,
+    "error": "no_file"
+   },
+   {
+    "source": "nse_xbrl",
+    "ok": false,
+    "error": "disabled"
+   }
+  ],
+  "SUPRIYA": [
+   {
+    "source": "nse_pledge_api",
+    "ok": false,
+    "error": "empty"
+   },
+   {
+    "source": "nse_shp_master",
+    "ok": false,
+    "error": "no_pledge_field"
+   },
+   {
+    "source": "screener",
+    "ok": false,
+    "error": "not_found_in_html"
+   },
+   {
+    "source": "local_cache",
+    "ok": false,
+    "error": "not_in_cache"
+   },
+   {
+    "source": "env_csv",
+    "ok": false,
+    "error": "no_file"
+   },
+   {
+    "source": "nse_xbrl",
+    "ok": false,
+    "error": "disabled"
+   }
+  ],
+  "NEWGEN": [
+   {
+    "source": "nse_pledge_api",
+    "ok": false,
+    "error": "empty"
+   },
+   {
+    "source": "nse_shp_master",
+    "ok": false,
+    "error": "no_pledge_field"
+   },
+   {
+    "source": "screener",
+    "ok": false,
+    "error": "not_found_in_html"
+   },
+   {
+    "source": "local_cache",
+    "ok": false,
+    "error": "not_in_cache"
+   },
+   {
+    "source": "env_csv",
+    "ok": false,
+    "error": "no_file"
+   },
+   {
+    "source": "nse_xbrl",
+    "ok": false,
+    "error": "disabled"
+   }
+  ],
+  "QUESS": [
+   {
+    "source": "nse_pledge_api",
+    "ok": false,
+    "error": "empty"
+   },
+   {
+    "source": "nse_shp_master",
+    "ok": false,
+    "error": "no_pledge_field"
+   },
+   {
+    "source": "screener",
+    "ok": false,
+    "error": "not_found_in_html"
+   },
+   {
+    "source": "local_cache",
+    "ok": false,
+    "error": "not_in_cache"
+   },
+   {
+    "source": "env_csv",
+    "ok": false,
+    "error": "no_file"
+   },
+   {
+    "source": "nse_xbrl",
+    "ok": false,
+    "error": "disabled"
+   }
+  ],
+  "MAPMYINDIA": [
+   {
+    "source": "nse_pledge_api",
+    "ok": false,
+    "error": "empty"
+   },
+   {
+    "source": "nse_shp_master",
+    "ok": false,
+    "error": "no_pledge_field"
+   },
+   {
+    "source": "screener",
+    "ok": false,
+    "error": "not_found_in_html"
+   },
+   {
+    "source": "local_cache",
+    "ok": false,
+    "error": "not_in_cache"
+   },
+   {
+    "source": "env_csv",
+    "ok": false,
+    "error": "no_file"
+   },
+   {
+    "source": "nse_xbrl",
+    "ok": false,
+    "error": "disabled"
+   }
+  ],
+  "REFEX": [
+   {
+    "source": "nse_pledge_api",
+    "ok": false,
+    "error": "empty"
+   },
+   {
+    "source": "nse_shp_master",
+    "ok": false,
+    "error": "no_pledge_field"
+   },
+   {
+    "source": "screener",
+    "ok": true,
+    "pledge": 47.4,
+    "as_of": "2026-10-25"
+   },
+   {
+    "source": "local_cache",
+    "ok": true,
+    "pledge": 47.39,
+    "as_of": "29-09-2026"
+   },
+   {
+    "source": "env_csv",
+    "ok": false,
+    "error": "no_file"
+   },
+   {
+    "source": "nse_xbrl",
+    "ok": false,
+    "error": "disabled"
+   }
+  ],
+  "POWERMECH": [
+   {
+    "source": "nse_pledge_api",
+    "ok": false,
+    "error": "empty"
+   },
+   {
+    "source": "nse_shp_master",
+    "ok": false,
+    "error": "no_pledge_field"
+   },
+   {
+    "source": "screener",
+    "ok": false,
+    "error": "not_found_in_html"
+   },
+   {
+    "source": "local_cache",
+    "ok": false,
+    "error": "not_in_cache"
+   },
+   {
+    "source": "env_csv",
+    "ok": false,
+    "error": "no_file"
+   },
+   {
+    "source": "nse_xbrl",
+    "ok": false,
+    "error": "disabled"
+   }
+  ],
+  "VIKRAMSOLR": [
+   {
+    "source": "nse_pledge_api",
+    "ok": false,
+    "error": "empty"
+   },
+   {
+    "source": "nse_shp_master",
+    "ok": false,
+    "error": "no_pledge_field"
+   },
+   {
+    "source": "screener",
+    "ok": false,
+    "error": "not_found_in_html"
+   },
+   {
+    "source": "local_cache",
+    "ok": true,
+    "pledge": 9.24,
+    "as_of": "23-02-2026"
+   },
+   {
+    "source": "env_csv",
+    "ok": false,
+    "error": "no_file"
+   },
+   {
+    "source": "nse_xbrl",
+    "ok": false,
+    "error": "disabled"
+   }
+  ],
+  "CAMPUS": [
+   {
+    "source": "nse_pledge_api",
+    "ok": false,
+    "error": "empty"
+   },
+   {
+    "source": "nse_shp_master",
+    "ok": false,
+    "error": "no_pledge_field"
+   },
+   {
+    "source": "screener",
+    "ok": false,
+    "error": "not_found_in_html"
+   },
+   {
+    "source": "local_cache",
+    "ok": false,
+    "error": "not_in_cache"
+   },
+   {
+    "source": "env_csv",
+    "ok": false,
+    "error": "no_file"
+   },
+   {
+    "source": "nse_xbrl",
+    "ok": false,
+    "error": "disabled"
+   }
+  ],
+  "GOLDIAM": [
+   {
+    "source": "nse_pledge_api",
+    "ok": false,
+    "error": "empty"
+   },
+   {
+    "source": "nse_shp_master",
+    "ok": false,
+    "error": "no_pledge_field"
+   },
+   {
+    "source": "screener",
+    "ok": false,
+    "error": "not_found_in_html"
+   },
+   {
+    "source": "local_cache",
+    "ok": true,
+    "pledge": 0.0,
+    "as_of": "2026-10-23"
+   },
+   {
+    "source": "env_csv",
+    "ok": false,
+    "error": "no_file"
+   },
+   {
+    "source": "nse_xbrl",
+    "ok": false,
+    "error": "disabled"
+   }
+  ],
+  "SKIPPER": [
+   {
+    "source": "nse_pledge_api",
+    "ok": false,
+    "error": "empty"
+   },
+   {
+    "source": "nse_shp_master",
+    "ok": false,
+    "error": "no_pledge_field"
+   },
+   {
+    "source": "screener",
+    "ok": false,
+    "error": "not_found_in_html"
+   },
+   {
+    "source": "local_cache",
+    "ok": false,
+    "error": "not_in_cache"
+   },
+   {
+    "source": "env_csv",
+    "ok": false,
+    "error": "no_file"
+   },
+   {
+    "source": "nse_xbrl",
+    "ok": false,
+    "error": "disabled"
+   }
+  ],
+  "SHAKTIPUMP": [
+   {
+    "source": "nse_pledge_api",
+    "ok": false,
+    "error": "empty"
+   },
+   {
+    "source": "nse_shp_master",
+    "ok": false,
+    "error": "no_pledge_field"
+   },
+   {
+    "source": "screener",
+    "ok": false,
+    "error": "not_found_in_html"
+   },
+   {
+    "source": "local_cache",
+    "ok": true,
+    "pledge": 0.0,
+    "as_of": "30-04-2015"
+   },
+   {
+    "source": "env_csv",
+    "ok": false,
+    "error": "no_file"
+   },
+   {
+    "source": "nse_xbrl",
+    "ok": false,
+    "error": "disabled"
+   }
+  ],
+  "IFBIND": [
+   {
+    "source": "nse_pledge_api",
+    "ok": false,
+    "error": "empty"
+   },
+   {
+    "source": "nse_shp_master",
+    "ok": false,
+    "error": "no_pledge_field"
+   },
+   {
+    "source": "screener",
+    "ok": false,
+    "error": "not_found_in_html"
+   },
+   {
+    "source": "local_cache",
+    "ok": true,
+    "pledge": 0.0,
+    "as_of": "2026-10-23"
+   },
+   {
+    "source": "env_csv",
+    "ok": false,
+    "error": "no_file"
+   },
+   {
+    "source": "nse_xbrl",
+    "ok": false,
+    "error": "disabled"
+   }
+  ],
+  "SAFARI": [
+   {
+    "source": "nse_pledge_api",
+    "ok": false,
+    "error": "empty"
+   },
+   {
+    "source": "nse_shp_master",
+    "ok": false,
+    "error": "no_pledge_field"
+   },
+   {
+    "source": "screener",
+    "ok": false,
+    "error": "not_found_in_html"
+   },
+   {
+    "source": "local_cache",
+    "ok": false,
+    "error": "not_in_cache"
+   },
+   {
+    "source": "env_csv",
+    "ok": false,
+    "error": "no_file"
+   },
+   {
+    "source": "nse_xbrl",
+    "ok": false,
+    "error": "disabled"
+   }
+  ]
+ },
+ "pledge_resolved": {
+  "WEBELSOLAR": {
+   "pledge": 15.64,
+   "source": "local_cache",
+   "confidence": "single",
+   "conflict": false
+  },
+  "ASHOKA": {
+   "pledge": 0.0,
+   "source": "local_cache",
+   "confidence": "single",
+   "conflict": false
+  },
+  "JAMNAAUTO": {
+   "pledge": 1.69,
+   "source": "local_cache",
+   "confidence": "single",
+   "conflict": false
+  },
+  "FIEMIND": {
+   "pledge": 0.0,
+   "source": "local_cache",
+   "confidence": "single",
+   "conflict": false
+  },
+  "REFEX": {
+   "pledge": 47.4,
+   "source": "screener",
+   "confidence": "high",
+   "conflict": false
+  },
+  "VIKRAMSOLR": {
+   "pledge": 9.24,
+   "source": "local_cache",
+   "confidence": "single",
+   "conflict": false
+  },
+  "GOLDIAM": {
+   "pledge": 0.0,
+   "source": "local_cache",
+   "confidence": "single",
+   "conflict": false
+  },
+  "SHAKTIPUMP": {
+   "pledge": 0.0,
+   "source": "local_cache",
+   "confidence": "single",
+   "conflict": false
+  },
+  "IFBIND": {
+   "pledge": 0.0,
+   "source": "local_cache",
+   "confidence": "single",
+   "conflict": false
+  }
+ }
 }
