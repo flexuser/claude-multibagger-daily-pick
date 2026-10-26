@@ -90,12 +90,12 @@
   "xbrl",
   "xbrlFileSize"
  ],
- "updated": "2026-10-25",
+ "updated": "2026-10-26",
  "status": {
   "attempted": 35,
   "ok": {
    "announcements": 35,
-   "pledge": 9,
+   "pledge": 6,
    "pledge_multi": 35,
    "shareholding": 35,
    "insider": 35
@@ -979,13 +979,13 @@
     "source": "screener",
     "ok": true,
     "pledge": 47.4,
-    "as_of": "2026-10-25"
+    "as_of": "2026-10-26"
    },
    {
     "source": "local_cache",
     "ok": true,
-    "pledge": 47.39,
-    "as_of": "29-09-2026"
+    "pledge": 47.4,
+    "as_of": "2026-10-25"
    },
    {
     "source": "env_csv",
@@ -1227,6 +1227,198 @@
    }
   ],
   "SAFARI": [
+   {
+    "source": "nse_pledge_api",
+    "ok": false,
+    "error": "empty"
+   },
+   {
+    "source": "nse_shp_master",
+    "ok": false,
+    "error": "no_pledge_field"
+   },
+   {
+    "source": "screener",
+    "ok": false,
+    "error": "not_found_in_html"
+   },
+   {
+    "source": "local_cache",
+    "ok": false,
+    "error": "not_in_cache"
+   },
+   {
+    "source": "env_csv",
+    "ok": false,
+    "error": "no_file"
+   },
+   {
+    "source": "nse_xbrl",
+    "ok": false,
+    "error": "disabled"
+   }
+  ],
+  "SMLMAH": [
+   {
+    "source": "nse_pledge_api",
+    "ok": false,
+    "error": "empty"
+   },
+   {
+    "source": "nse_shp_master",
+    "ok": false,
+    "error": "no_pledge_field"
+   },
+   {
+    "source": "screener",
+    "ok": false,
+    "error": "not_found_in_html"
+   },
+   {
+    "source": "local_cache",
+    "ok": false,
+    "error": "not_in_cache"
+   },
+   {
+    "source": "env_csv",
+    "ok": false,
+    "error": "no_file"
+   },
+   {
+    "source": "nse_xbrl",
+    "ok": false,
+    "error": "disabled"
+   }
+  ],
+  "GPPL": [
+   {
+    "source": "nse_pledge_api",
+    "ok": false,
+    "error": "empty"
+   },
+   {
+    "source": "nse_shp_master",
+    "ok": false,
+    "error": "no_pledge_field"
+   },
+   {
+    "source": "screener",
+    "ok": false,
+    "error": "not_found_in_html"
+   },
+   {
+    "source": "local_cache",
+    "ok": false,
+    "error": "not_in_cache"
+   },
+   {
+    "source": "env_csv",
+    "ok": false,
+    "error": "no_file"
+   },
+   {
+    "source": "nse_xbrl",
+    "ok": false,
+    "error": "disabled"
+   }
+  ],
+  "KIRLPNU": [
+   {
+    "source": "nse_pledge_api",
+    "ok": false,
+    "error": "empty"
+   },
+   {
+    "source": "nse_shp_master",
+    "ok": false,
+    "error": "no_pledge_field"
+   },
+   {
+    "source": "screener",
+    "ok": false,
+    "error": "not_found_in_html"
+   },
+   {
+    "source": "local_cache",
+    "ok": false,
+    "error": "not_in_cache"
+   },
+   {
+    "source": "env_csv",
+    "ok": false,
+    "error": "no_file"
+   },
+   {
+    "source": "nse_xbrl",
+    "ok": false,
+    "error": "disabled"
+   }
+  ],
+  "PRECWIRE": [
+   {
+    "source": "nse_pledge_api",
+    "ok": false,
+    "error": "empty"
+   },
+   {
+    "source": "nse_shp_master",
+    "ok": false,
+    "error": "no_pledge_field"
+   },
+   {
+    "source": "screener",
+    "ok": false,
+    "error": "not_found_in_html"
+   },
+   {
+    "source": "local_cache",
+    "ok": false,
+    "error": "not_in_cache"
+   },
+   {
+    "source": "env_csv",
+    "ok": false,
+    "error": "no_file"
+   },
+   {
+    "source": "nse_xbrl",
+    "ok": false,
+    "error": "disabled"
+   }
+  ],
+  "SANDUMA": [
+   {
+    "source": "nse_pledge_api",
+    "ok": false,
+    "error": "empty"
+   },
+   {
+    "source": "nse_shp_master",
+    "ok": false,
+    "error": "no_pledge_field"
+   },
+   {
+    "source": "screener",
+    "ok": false,
+    "error": "not_found_in_html"
+   },
+   {
+    "source": "local_cache",
+    "ok": false,
+    "error": "not_in_cache"
+   },
+   {
+    "source": "env_csv",
+    "ok": false,
+    "error": "no_file"
+   },
+   {
+    "source": "nse_xbrl",
+    "ok": false,
+    "error": "disabled"
+   }
+  ],
+  "GENUSPOWER": [
    {
     "source": "nse_pledge_api",
     "ok": false,

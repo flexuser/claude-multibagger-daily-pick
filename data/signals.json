@@ -2463,7 +2463,7 @@
   }
  },
  "SJS.NS": {
-  "fetched": "2026-10-25",
+  "fetched": "2026-10-26",
   "data": {
    "status": {
     "announcements": true,
@@ -2587,32 +2587,19 @@
   }
  },
  "GPPL.NS": {
-  "fetched": "2026-10-12",
+  "fetched": "2026-10-26",
   "data": {
    "status": {
     "announcements": true,
-    "pledge": true,
+    "pledge": false,
+    "pledge_multi": true,
     "shareholding": true,
     "insider": true
    },
-   "events": [
-    {
-     "date": "2026-09-09",
-     "cats": [
-      "approval"
-     ],
-     "type": "Shareholders meeting",
-     "text": "The previous submission of AGM proceedings did not include the resolutions proposed for approval of shareholders. Hence the proceedings of the AGM are being re-submitted herewith.",
-     "url": "https://nsearchives.nseindia.com/corporate/GPPL_09092026195321_AGM_Proceedings.pdf"
-    }
-   ],
-   "event_score": 6,
-   "event_counts": {
-    "approval": 1
-   },
+   "events": [],
+   "event_score": 0,
+   "event_counts": {},
    "neg_events": 0,
-   "pledge": null,
-   "pledge_chg": null,
    "promoter_chg": 0.0,
    "promoter_now": 44.01,
    "pit_net_cr": 0.0,
@@ -2837,7 +2824,7 @@
   }
  },
  "JSLL.NS": {
-  "fetched": "2026-10-25",
+  "fetched": "2026-10-26",
   "data": {
    "status": {
     "announcements": true,
@@ -3026,11 +3013,12 @@
   }
  },
  "PRECWIRE.NS": {
-  "fetched": "2026-10-09",
+  "fetched": "2026-10-26",
   "data": {
    "status": {
     "announcements": true,
-    "pledge": true,
+    "pledge": false,
+    "pledge_multi": true,
     "shareholding": true,
     "insider": true
    },
@@ -3061,25 +3049,14 @@
      "type": "Granting/withdrawal/surrender/cancellation/suspension of key",
      "text": "This is to inform you that the Company has received Factory License on July 09, 2026 for the Zaroli Unit.",
      "url": "https://nsearchives.nseindia.com/corporate/PRECWIRE_10072026164819_Factory_license_Intimation.pdf"
-    },
-    {
-     "date": "2026-07-06",
-     "cats": [
-      "acquisition"
-     ],
-     "type": "Disclosure under SEBI Takeover Regulations",
-     "text": "Milan Mahendra Mehta\u00a0has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regulati",
-     "url": "https://nsearchives.nseindia.com/corporate/team_bbodade_28042026172428_PRECWIRE.pdf"
     }
    ],
    "event_score": 22,
    "event_counts": {
     "approval": 2,
-    "acquisition": 2
+    "acquisition": 1
    },
    "neg_events": 0,
-   "pledge": 0.0,
-   "pledge_chg": null,
    "promoter_chg": -0.87,
    "promoter_now": 56.62,
    "pit_net_cr": 0.0,
@@ -3474,7 +3451,7 @@
   }
  },
  "SHILCTECH.NS": {
-  "fetched": "2026-10-25",
+  "fetched": "2026-10-26",
   "data": {
    "status": {
     "announcements": true,
@@ -3565,7 +3542,7 @@
   }
  },
  "THYROCARE.NS": {
-  "fetched": "2026-10-25",
+  "fetched": "2026-10-26",
   "data": {
    "status": {
     "announcements": true,
@@ -3669,7 +3646,7 @@
   }
  },
  "VIKRAMSOLR.NS": {
-  "fetched": "2026-10-25",
+  "fetched": "2026-10-26",
   "data": {
    "status": {
     "announcements": true,
@@ -3791,7 +3768,7 @@
   }
  },
  "SUPRIYA.NS": {
-  "fetched": "2026-10-25",
+  "fetched": "2026-10-26",
   "data": {
    "status": {
     "announcements": true,
@@ -3812,7 +3789,7 @@
   }
  },
  "OSWALPUMPS.NS": {
-  "fetched": "2026-10-25",
+  "fetched": "2026-10-26",
   "data": {
    "status": {
     "announcements": true,
@@ -3833,7 +3810,7 @@
   }
  },
  "TRANSRAILL.NS": {
-  "fetched": "2026-10-25",
+  "fetched": "2026-10-26",
   "data": {
    "status": {
     "announcements": true,
@@ -4144,11 +4121,12 @@
   }
  },
  "SMLMAH.NS": {
-  "fetched": "2026-10-12",
+  "fetched": "2026-10-26",
   "data": {
    "status": {
     "announcements": true,
-    "pledge": true,
+    "pledge": false,
+    "pledge_multi": true,
     "shareholding": true,
     "insider": true
    },
@@ -4170,25 +4148,14 @@
      "type": "Outcome of Board Meeting",
      "text": "SML Mahindra Limited has informed the Exchange regarding Acquisition of Mahindra & Mahindra s Truck and Bus Division by the Company on a Slump Sale basis under Business Transfer Agreement",
      "url": "https://nsearchives.nseindia.com/corporate/SMLISUZU_29072026135542_SMlSEIntimation29072026.pdf"
-    },
-    {
-     "date": "2026-06-18",
-     "cats": [
-      "acquisition"
-     ],
-     "type": "Disclosure under SEBI Takeover Regulations",
-     "text": "Mahindra and Mahindra Limited\u00a0has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers)",
-     "url": "https://nsearchives.nseindia.com/corporate/team_bbodade_15062026164118_SMLMAH.pdf"
     }
    ],
    "event_score": 10,
    "event_counts": {
-    "acquisition": 3
+    "acquisition": 2
    },
    "neg_events": 0,
-   "pledge": null,
-   "pledge_chg": null,
-   "promoter_chg": 15.01,
+   "promoter_chg": 0.0,
    "promoter_now": 58.97,
    "pit_net_cr": 0.0,
    "pit_buys": 0,
@@ -4362,7 +4329,7 @@
   }
  },
  "SPARC.NS": {
-  "fetched": "2026-10-25",
+  "fetched": "2026-10-26",
   "data": {
    "status": {
     "announcements": true,
@@ -4565,7 +4532,7 @@
   }
  },
  "TTML.NS": {
-  "fetched": "2026-10-25",
+  "fetched": "2026-10-26",
   "data": {
    "status": {
     "announcements": true,
@@ -4629,7 +4596,7 @@
   }
  },
  "WEBELSOLAR.NS": {
-  "fetched": "2026-10-25",
+  "fetched": "2026-10-26",
   "data": {
    "status": {
     "announcements": true,
@@ -4687,7 +4654,7 @@
   }
  },
  "ASHOKA.NS": {
-  "fetched": "2026-10-25",
+  "fetched": "2026-10-26",
   "data": {
    "status": {
     "announcements": true,
@@ -5302,7 +5269,7 @@
   }
  },
  "CRAMC.NS": {
-  "fetched": "2026-10-25",
+  "fetched": "2026-10-26",
   "data": {
    "status": {
     "announcements": true,
@@ -5323,7 +5290,7 @@
   }
  },
  "GOKULAGRO.NS": {
-  "fetched": "2026-10-25",
+  "fetched": "2026-10-26",
   "data": {
    "status": {
     "announcements": true,
@@ -5344,7 +5311,7 @@
   }
  },
  "BAJAJCON.NS": {
-  "fetched": "2026-10-25",
+  "fetched": "2026-10-26",
   "data": {
    "status": {
     "announcements": true,
@@ -5365,7 +5332,7 @@
   }
  },
  "JAMNAAUTO.NS": {
-  "fetched": "2026-10-25",
+  "fetched": "2026-10-26",
   "data": {
    "status": {
     "announcements": true,
@@ -5404,7 +5371,7 @@
   }
  },
  "MSTCLTD.NS": {
-  "fetched": "2026-10-25",
+  "fetched": "2026-10-26",
   "data": {
    "status": {
     "announcements": true,
@@ -5425,7 +5392,7 @@
   }
  },
  "JYOTHYLAB.NS": {
-  "fetched": "2026-10-25",
+  "fetched": "2026-10-26",
   "data": {
    "status": {
     "announcements": true,
@@ -5446,7 +5413,7 @@
   }
  },
  "SHARDACROP.NS": {
-  "fetched": "2026-10-25",
+  "fetched": "2026-10-26",
   "data": {
    "status": {
     "announcements": true,
@@ -5467,7 +5434,7 @@
   }
  },
  "FIEMIND.NS": {
-  "fetched": "2026-10-25",
+  "fetched": "2026-10-26",
   "data": {
    "status": {
     "announcements": true,
@@ -5494,7 +5461,7 @@
   }
  },
  "SONATSOFTW.NS": {
-  "fetched": "2026-10-25",
+  "fetched": "2026-10-26",
   "data": {
    "status": {
     "announcements": true,
@@ -5527,7 +5494,7 @@
   }
  },
  "TANLA.NS": {
-  "fetched": "2026-10-25",
+  "fetched": "2026-10-26",
   "data": {
    "status": {
     "announcements": true,
@@ -5560,7 +5527,7 @@
   }
  },
  "STYLAMIND.NS": {
-  "fetched": "2026-10-25",
+  "fetched": "2026-10-26",
   "data": {
    "status": {
     "announcements": true,
@@ -5581,7 +5548,7 @@
   }
  },
  "CENTUM.NS": {
-  "fetched": "2026-10-25",
+  "fetched": "2026-10-26",
   "data": {
    "status": {
     "announcements": true,
@@ -5624,7 +5591,7 @@
   }
  },
  "NEWGEN.NS": {
-  "fetched": "2026-10-25",
+  "fetched": "2026-10-26",
   "data": {
    "status": {
     "announcements": true,
@@ -5707,7 +5674,7 @@
   }
  },
  "QUESS.NS": {
-  "fetched": "2026-10-25",
+  "fetched": "2026-10-26",
   "data": {
    "status": {
     "announcements": true,
@@ -5728,7 +5695,7 @@
   }
  },
  "MAPMYINDIA.NS": {
-  "fetched": "2026-10-25",
+  "fetched": "2026-10-26",
   "data": {
    "status": {
     "announcements": true,
@@ -5749,7 +5716,7 @@
   }
  },
  "REFEX.NS": {
-  "fetched": "2026-10-25",
+  "fetched": "2026-10-26",
   "data": {
    "status": {
     "announcements": true,
@@ -5884,20 +5851,11 @@
      "type": "Copy of Newspaper Publication",
      "text": "Newspaper Publication-Disclosure under Regulation 47 of SEBI (Listing Obligations & Disclosure Requirements) Regulations, 2015-Notice of meetings of Equity shareholders, Secured Creditors and Unsecure",
      "url": "https://nsearchives.nseindia.com/corporate/REFEX2002_06072026125121_Newspaper_Publication_STX.pdf"
-    },
-    {
-     "date": "2026-06-26",
-     "cats": [
-      "order_win"
-     ],
-     "type": "Bagging/Receiving of orders/contracts",
-     "text": "Disclosure under Regulation 30 of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015 - Bagging of Order for Transportation of ash to constru",
-     "url": "https://nsearchives.nseindia.com/corporate/REFEX2002_26062026105304_RIL_BOD_26062026_sd.pdf"
     }
    ],
    "event_score": 2,
    "event_counts": {
-    "order_win": 12,
+    "order_win": 11,
     "acquisition": 1,
     "distress": 2
    },
@@ -5905,7 +5863,7 @@
    "pledge": 47.4,
    "pledge_chg": null,
    "pledge_source": "screener",
-   "pledge_as_of": "2026-10-25",
+   "pledge_as_of": "2026-10-26",
    "pledge_confidence": "high",
    "pledge_conflict": false,
    "promoter_chg": 0.76,
@@ -6157,7 +6115,7 @@
   }
  },
  "POWERMECH.NS": {
-  "fetched": "2026-10-25",
+  "fetched": "2026-10-26",
   "data": {
    "status": {
     "announcements": true,
@@ -6433,6 +6391,161 @@
    "neg_events": 0,
    "promoter_chg": -0.21,
    "promoter_now": 44.7,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "KIRLPNU.NS": {
+  "fetched": "2026-10-26",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": false,
+    "pledge_multi": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [
+    {
+     "date": "2026-08-05",
+     "cats": [
+      "bonus_split"
+     ],
+     "type": "Record Date",
+     "text": "Kirloskar Pneumatic Company Limited has informed the Exchange that Record date for the purpose of Split/Subdivision  is 18-Aug-2026.",
+     "url": "https://nsearchives.nseindia.com/corporate/revatideshpande_05082026183636_SEDisclosureRecorddate.pdf"
+    },
+    {
+     "date": "2026-08-03",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Press Release",
+     "text": "Kirloskar Pneumatic Company Limited has informed the Exchange regarding a press release dated August 03, 2026, titled \"Press Release in respect of acquisition of 99.49% of the total voting power in Ki",
+     "url": "https://nsearchives.nseindia.com/corporate/truneshgujar_03082026163505_Press_Release_-_SE.pdf"
+    },
+    {
+     "date": "2026-07-21",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Acquisition",
+     "text": "Kirloskar Pneumatic Company Limited has informed the Exchange about Acquisition",
+     "url": "https://nsearchives.nseindia.com/corporate/truneshgujar_21072026133207_KPCL_Outcome.pdf"
+    }
+   ],
+   "event_score": 14,
+   "event_counts": {
+    "bonus_split": 1,
+    "acquisition": 2
+   },
+   "neg_events": 0,
+   "promoter_chg": -0.04,
+   "promoter_now": 38.8,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "SANDUMA.NS": {
+  "fetched": "2026-10-26",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": false,
+    "pledge_multi": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [
+    {
+     "date": "2026-09-26",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Acquisition",
+     "text": "Sandur Manganese & Iron Ores Limited has informed the Exchange about incorporation of Royal Sandur MedTech Private Limited, Wholly Owned Subsidiary of theCompany",
+     "url": "https://nsearchives.nseindia.com/corporate/SANDUR_26092026120111_Ltr2SEsIncorporationOfRSMPL.pdf"
+    },
+    {
+     "date": "2026-09-17",
+     "cats": [
+      "acquisition",
+      "approval"
+     ],
+     "type": "Acquisition",
+     "text": "Sandur Manganese & Iron Ores Limited has informed the Exchange about approval for incorporation of Wholly Owned Subsidiary",
+     "url": "https://nsearchives.nseindia.com/corporate/SANDUR_17092026172357_Ltr2SEsToBeIncorpWOS.pdf"
+    },
+    {
+     "date": "2026-09-09",
+     "cats": [
+      "regulatory"
+     ],
+     "type": "Action(s) taken or orders passed",
+     "text": "Sandur Manganese & Iron Ores Limited has informed the Exchange about receipt of penalty order by Royal Sandur Metals Private Limited (formerly Arjas Steel Private Limited), Material Subsidiary of the",
+     "url": "https://nsearchives.nseindia.com/corporate/SANDUR_09092026172345_Ltr2SEsCustomsPenaltySigned.pdf"
+    },
+    {
+     "date": "2026-08-21",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Acquisition",
+     "text": "Sandur Manganese & Iron Ores Limited has informed the Exchange about icorporation of Royal Sandur Hospitality Private Limited, Wholly Owned Subsidiary of the Company",
+     "url": "https://nsearchives.nseindia.com/corporate/SANDUR_21082026164145_Ltr2SEsIncorporationofRSHPLSigned.pdf"
+    },
+    {
+     "date": "2026-08-14",
+     "cats": [
+      "acquisition"
+     ],
+     "type": "Acquisition",
+     "text": "Sandur Manganese & Iron Ores Limited has informed the Exchange about incorporation of Royal Sandur Academy Private Limited, Wholly Owned Subsidiary of the Company",
+     "url": "https://nsearchives.nseindia.com/corporate/SANDUR_14082026172837_LtrSEIncorporation.pdf"
+    },
+    {
+     "date": "2026-08-06",
+     "cats": [
+      "acquisition",
+      "approval"
+     ],
+     "type": "Acquisition",
+     "text": "Sandur Manganese & Iron Ores Limited has informed the Exchange about approval for incorporation of Wholly Owned Subsidiaries",
+     "url": "https://nsearchives.nseindia.com/corporate/SANDUR_06082026182758_Ltr2SEsToBeIncorpWOSigned.pdf"
+    }
+   ],
+   "event_score": 0,
+   "event_counts": {
+    "acquisition": 5,
+    "approval": 2,
+    "regulatory": 1
+   },
+   "neg_events": 1,
+   "promoter_chg": 0.0,
+   "promoter_now": 74.22,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "GENUSPOWER.NS": {
+  "fetched": "2026-10-26",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": false,
+    "pledge_multi": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [],
+   "event_score": 0,
+   "event_counts": {},
+   "neg_events": 0,
+   "promoter_chg": -0.02,
+   "promoter_now": 39.34,
    "pit_net_cr": 0.0,
    "pit_buys": 0,
    "pit_sells": 0
