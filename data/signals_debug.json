@@ -92,13 +92,13 @@
  ],
  "updated": "2026-10-26",
  "status": {
-  "attempted": 35,
+  "attempted": 2,
   "ok": {
-   "announcements": 35,
-   "pledge": 6,
-   "pledge_multi": 35,
-   "shareholding": 35,
-   "insider": 35
+   "announcements": 2,
+   "pledge": 1,
+   "pledge_multi": 2,
+   "shareholding": 2,
+   "insider": 2
   },
   "blocked": false,
   "checked": 0,
@@ -1449,6 +1449,71 @@
     "ok": false,
     "error": "disabled"
    }
+  ],
+  "WAAREERTL": [
+   {
+    "source": "nse_pledge_api",
+    "ok": false,
+    "error": "empty"
+   },
+   {
+    "source": "nse_shp_master",
+    "ok": false,
+    "error": "no_pledge_field"
+   },
+   {
+    "source": "screener",
+    "ok": false,
+    "error": "not_found_in_html"
+   },
+   {
+    "source": "local_cache",
+    "ok": false,
+    "error": "not_in_cache"
+   },
+   {
+    "source": "env_csv",
+    "ok": false,
+    "error": "no_file"
+   },
+   {
+    "source": "nse_xbrl",
+    "ok": false,
+    "error": "disabled"
+   }
+  ],
+  "VESUVIUS": [
+   {
+    "source": "nse_pledge_api",
+    "ok": true,
+    "pledge": 0.0,
+    "as_of": null
+   },
+   {
+    "source": "nse_shp_master",
+    "ok": false,
+    "error": "no_pledge_field"
+   },
+   {
+    "source": "screener",
+    "ok": false,
+    "error": "not_found_in_html"
+   },
+   {
+    "source": "local_cache",
+    "ok": false,
+    "error": "not_in_cache"
+   },
+   {
+    "source": "env_csv",
+    "ok": false,
+    "error": "no_file"
+   },
+   {
+    "source": "nse_xbrl",
+    "ok": false,
+    "error": "disabled"
+   }
   ]
  },
  "pledge_resolved": {
@@ -1503,6 +1568,12 @@
   "IFBIND": {
    "pledge": 0.0,
    "source": "local_cache",
+   "confidence": "single",
+   "conflict": false
+  },
+  "VESUVIUS": {
+   "pledge": 0.0,
+   "source": "nse_pledge_api",
    "confidence": "single",
    "conflict": false
   }

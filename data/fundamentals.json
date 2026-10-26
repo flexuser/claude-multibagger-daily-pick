@@ -25582,9 +25582,9 @@
    "Export manufacturing"
   ],
   "moat_kw": 0,
-  "mcap_cr": 4602.9992,
+  "mcap_cr": 4345.9715,
   "revenue_cr": 7500.28,
-  "pe": 14.7696,
+  "pe": 13.9448,
   "peg": null,
   "rev_cagr": -2.0234,
   "profit_cagr": -5.2048,
@@ -25594,8 +25594,8 @@
   "roce_chg": -6.3291,
   "de": 0.0303,
   "dilution": 1.1122,
-  "insider_pct": 67.789,
-  "inst_pct": 1.418,
+  "insider_pct": 67.782,
+  "inst_pct": 1.415,
   "analysts": 1.0,
   "fcf_positive": 1,
   "q_rev_yoy": 27.5447,
@@ -25614,7 +25614,7 @@
   "acquisition": null,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-16"
+  "fetched": "2026-10-26"
  },
  "SUVEN.NS": {
   "name": "SUVEN LIFE SCIENCES LTD",
@@ -25624,9 +25624,9 @@
    "Healthcare and diagnostics"
   ],
   "moat_kw": 0,
-  "mcap_cr": 8659.1341,
+  "mcap_cr": 7403.1423,
   "revenue_cr": 7.1147,
-  "pe": 15.8372,
+  "pe": 13.5401,
   "peg": null,
   "rev_cagr": -19.3035,
   "profit_cagr": null,
@@ -25656,7 +25656,7 @@
   "acquisition": null,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-16"
+  "fetched": "2026-10-26"
  },
  "TARC.NS": {
   "name": "TARC LIMITED",
@@ -25664,9 +25664,9 @@
   "blurb": "TARC Limited engages in real estate development in India. It is involved in the construction and development of residential projects, commercial projects, township projects, SEZ, IT park, and malls; sale of real estate units, including land, plots, apartments, commercial units, and development rights; and Co-developmen",
   "themes": [],
   "moat_kw": 0,
-  "mcap_cr": 3706.7047,
+  "mcap_cr": 3389.4762,
   "revenue_cr": 323.7653,
-  "pe": 1.7842,
+  "pe": 1.6315,
   "peg": null,
   "rev_cagr": 20.6129,
   "profit_cagr": -2.1238,
@@ -25677,7 +25677,7 @@
   "de": 1.7838,
   "dilution": 0.0,
   "insider_pct": 66.792,
-  "inst_pct": 5.901,
+  "inst_pct": 5.885,
   "analysts": 1.0,
   "fcf_positive": 1,
   "q_rev_yoy": 186.088,
@@ -25696,7 +25696,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-16"
+  "fetched": "2026-10-26"
  },
  "TTKPRESTIG.NS": {
   "name": "TTK PRESTIGE LTD",
@@ -25704,9 +25704,9 @@
   "blurb": "TTK Prestige Limited, together with its subsidiaries, manufactures and sells kitchen and home appliances under the Prestige and Judge brands in India and internationally. The company offers pressure cookers; cookware; cooking appliances, such as gas stoves, induction/infrared cooktops, rice cookers, OTG, and air fryers",
   "themes": [],
   "moat_kw": 0,
-  "mcap_cr": 7203.0626,
+  "mcap_cr": 7194.8444,
   "revenue_cr": 2950.0,
-  "pe": 37.2714,
+  "pe": 37.2289,
   "peg": 0.94,
   "rev_cagr": 2.3081,
   "profit_cagr": -14.1913,
@@ -25717,7 +25717,7 @@
   "de": 0.088,
   "dilution": -1.1998,
   "insider_pct": 70.923,
-  "inst_pct": 19.769,
+  "inst_pct": 19.757,
   "analysts": 8.0,
   "fcf_positive": 1,
   "q_rev_yoy": 25.2925,
@@ -25736,7 +25736,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-16"
+  "fetched": "2026-10-26"
  },
  "TVSSCS.NS": {
   "name": "TVS SUPPLY CHAIN SOL L",
@@ -25747,9 +25747,9 @@
    "Healthcare and diagnostics"
   ],
   "moat_kw": 0,
-  "mcap_cr": 5457.4969,
+  "mcap_cr": 4876.4051,
   "revenue_cr": 11000.46,
-  "pe": 84.7192,
+  "pe": 75.6986,
   "peg": null,
   "rev_cagr": 3.3225,
   "profit_cagr": 42.1214,
@@ -25760,7 +25760,7 @@
   "de": 1.3361,
   "dilution": 0.8619,
   "insider_pct": 65.986,
-  "inst_pct": 13.501,
+  "inst_pct": 13.518,
   "analysts": null,
   "fcf_positive": 1,
   "q_rev_yoy": 28.6582,
@@ -25779,7 +25779,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-16"
+  "fetched": "2026-10-26"
  },
  "TMB.NS": {
   "name": "TAMILNAD MERCA BANK LTD",
@@ -25789,9 +25789,9 @@
    "Healthcare and diagnostics"
   ],
   "moat_kw": 0,
-  "mcap_cr": 13557.2603,
+  "mcap_cr": 12732.2489,
   "revenue_cr": 3403.9393,
-  "pe": 9.2898,
+  "pe": 8.8154,
   "peg": null,
   "rev_cagr": 7.7223,
   "profit_cagr": 9.126,
@@ -25801,8 +25801,8 @@
   "roce_chg": null,
   "de": null,
   "dilution": 0.0,
-  "insider_pct": 29.589,
-  "inst_pct": 4.144,
+  "insider_pct": 29.759,
+  "inst_pct": 4.012,
   "analysts": null,
   "fcf_positive": 0,
   "q_rev_yoy": 30.6069,
@@ -25821,7 +25821,7 @@
   "acquisition": null,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-16"
+  "fetched": "2026-10-26"
  },
  "TANLA.NS": {
   "name": "TANLA PLATFORMS LIMITED",
@@ -25832,9 +25832,9 @@
    "Digital and data centres"
   ],
   "moat_kw": 0,
-  "mcap_cr": 7415.9677,
+  "mcap_cr": 7497.8394,
   "revenue_cr": 4417.7064,
-  "pe": 13.9771,
+  "pe": 14.1314,
   "peg": null,
   "rev_cagr": 9.611,
   "profit_cagr": 4.3843,
@@ -25845,7 +25845,7 @@
   "de": 0.0212,
   "dilution": -1.7876,
   "insider_pct": 55.555,
-  "inst_pct": 5.562,
+  "inst_pct": 5.557,
   "analysts": 2.0,
   "fcf_positive": 1,
   "q_rev_yoy": 19.7221,
@@ -25864,7 +25864,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-16"
+  "fetched": "2026-10-26"
  },
  "TEXRAIL.NS": {
   "name": "TEXMACO RAIL & ENG. LTD.",
@@ -25875,9 +25875,9 @@
    "Export manufacturing"
   ],
   "moat_kw": 0,
-  "mcap_cr": 4649.2414,
+  "mcap_cr": 4021.8563,
   "revenue_cr": 4358.8141,
-  "pe": 21.439,
+  "pe": 18.546,
   "peg": null,
   "rev_cagr": 25.1263,
   "profit_cagr": 95.7269,
@@ -25888,7 +25888,7 @@
   "de": 0.3709,
   "dilution": 26.4065,
   "insider_pct": 48.525,
-  "inst_pct": 9.083,
+  "inst_pct": 9.107,
   "analysts": 3.0,
   "fcf_positive": 1,
   "q_rev_yoy": -16.9031,
@@ -25907,7 +25907,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-16"
+  "fetched": "2026-10-26"
  },
  "THOMASCOOK.NS": {
   "name": "THOMAS COOK (INDIA) LTD",
@@ -25917,9 +25917,9 @@
    "Healthcare and diagnostics"
   ],
   "moat_kw": 0,
-  "mcap_cr": 4715.2636,
+  "mcap_cr": 4205.6729,
   "revenue_cr": 8231.19,
-  "pe": 21.5757,
+  "pe": 19.8689,
   "peg": 1.91,
   "rev_cagr": 18.4534,
   "profit_cagr": 223.5723,
@@ -25930,7 +25930,7 @@
   "de": 0.2137,
   "dilution": 1.3466,
   "insider_pct": 65.729,
-  "inst_pct": 11.314,
+  "inst_pct": 11.42,
   "analysts": 2.0,
   "fcf_positive": 1,
   "q_rev_yoy": -13.126,
@@ -25949,7 +25949,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-16"
+  "fetched": "2026-10-26"
  },
  "THYROCARE.NS": {
   "name": "THYROCARE TECH LTD",
@@ -25959,9 +25959,9 @@
    "Healthcare and diagnostics"
   ],
   "moat_kw": 0,
-  "mcap_cr": 7721.9054,
+  "mcap_cr": 7491.1154,
   "revenue_cr": 821.89,
-  "pe": 44.0245,
+  "pe": 42.7087,
   "peg": null,
   "rev_cagr": 16.6949,
   "profit_cagr": 36.2283,
@@ -25972,7 +25972,7 @@
   "de": 0.0865,
   "dilution": 0.2347,
   "insider_pct": 51.183,
-  "inst_pct": 22.013,
+  "inst_pct": 27.066,
   "analysts": 5.0,
   "fcf_positive": 1,
   "q_rev_yoy": 28.2432,
@@ -25994,7 +25994,7 @@
    "ratio": 3.0
   },
   "news": [],
-  "fetched": "2026-10-16"
+  "fetched": "2026-10-26"
  },
  "TI.NS": {
   "name": "TILAKNAGAR INDUSTRIES LTD",
@@ -26004,9 +26004,9 @@
    "Export manufacturing"
   ],
   "moat_kw": 0,
-  "mcap_cr": 13693.8807,
+  "mcap_cr": 12052.7962,
   "revenue_cr": 2268.0201,
-  "pe": 32.6864,
+  "pe": 28.7692,
   "peg": null,
   "rev_cagr": 25.195,
   "profit_cagr": -48.1706,
@@ -26017,7 +26017,7 @@
   "de": 0.7718,
   "dilution": 33.3608,
   "insider_pct": 38.925,
-  "inst_pct": 23.879,
+  "inst_pct": 23.986,
   "analysts": 7.0,
   "fcf_positive": 0,
   "q_rev_yoy": 165.5428,
@@ -26036,7 +26036,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-16"
+  "fetched": "2026-10-26"
  },
  "TIMETECHNO.NS": {
   "name": "TIME TECHNOPLAST LTD.",
@@ -26052,9 +26052,9 @@
    "Healthcare and diagnostics"
   ],
   "moat_kw": 0,
-  "mcap_cr": 8877.5385,
+  "mcap_cr": 7839.9177,
   "revenue_cr": 6105.2049,
-  "pe": 17.4433,
+  "pe": 15.4045,
   "peg": null,
   "rev_cagr": 12.4863,
   "profit_cagr": 28.8645,
@@ -26065,7 +26065,7 @@
   "de": 0.1761,
   "dilution": 9.1405,
   "insider_pct": 48.605,
-  "inst_pct": 20.44,
+  "inst_pct": 20.474,
   "analysts": 1.0,
   "fcf_positive": 0,
   "q_rev_yoy": 25.1403,
@@ -26084,7 +26084,7 @@
   "acquisition": null,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-16"
+  "fetched": "2026-10-26"
  },
  "TIPSMUSIC.NS": {
   "name": "TIPS MUSIC LIMITED",
@@ -26092,9 +26092,9 @@
   "blurb": "Tips Music Limited engages in the acquisition and exploitation of music rights in India and internationally. The company involved in the production and acquisition of audiovisual music content and monetisation of the content library digitally. It also provides live events and concerts services. The company was formerly",
   "themes": [],
   "moat_kw": 0,
-  "mcap_cr": 9362.1289,
+  "mcap_cr": 9116.0756,
   "revenue_cr": 375.5149,
-  "pe": 43.8505,
+  "pe": 40.3433,
   "peg": null,
   "rev_cagr": 26.2112,
   "profit_cagr": 41.4888,
@@ -26102,21 +26102,21 @@
   "op_margin_chg": 7.0469,
   "roce": 110.1943,
   "roce_chg": 17.5813,
-  "de": 0.0196,
+  "de": 0.0126,
   "dilution": -0.4633,
   "insider_pct": 65.709,
-  "inst_pct": 7.148,
+  "inst_pct": 7.301,
   "analysts": 3.0,
   "fcf_positive": 1,
-  "q_rev_yoy": 35.7025,
-  "q_profit_yoy": 42.7561,
-  "q_opm_chg": 2.1113,
+  "q_rev_yoy": 36.3299,
+  "q_profit_yoy": 43.4145,
+  "q_opm_chg": 3.4726,
   "cfo_pat": 1.0778,
   "interest_coverage": 1461.8253,
   "recv_days": 33.3799,
   "recv_days_chg_pct": -15.727,
   "fin_date": "2026-03-31",
-  "q_date": "2026-06-30",
+  "q_date": "2026-09-30",
   "fin_sector": "Communication Services",
   "capex_rev_pct": 1.7009,
   "cwip_growth": -100.0,
@@ -26124,7 +26124,7 @@
   "acquisition": null,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-16"
+  "fetched": "2026-10-26"
  },
  "TRANSRAILL.NS": {
   "name": "TRANSRAIL LIGHTING LTD",
@@ -26135,9 +26135,9 @@
    "Railways and infrastructure"
   ],
   "moat_kw": 0,
-  "mcap_cr": 6301.3474,
+  "mcap_cr": 5765.9781,
   "revenue_cr": 6779.95,
-  "pe": 15.615,
+  "pe": 14.2883,
   "peg": null,
   "rev_cagr": 29.9981,
   "profit_cagr": 55.3886,
@@ -26148,7 +26148,7 @@
   "de": 0.2973,
   "dilution": 0.0,
   "insider_pct": 75.842,
-  "inst_pct": 0.344,
+  "inst_pct": 0.375,
   "analysts": 1.0,
   "fcf_positive": 1,
   "q_rev_yoy": 3.9944,
@@ -26167,7 +26167,7 @@
   "acquisition": null,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-16"
+  "fetched": "2026-10-26"
  },
  "UJJIVANSFB.NS": {
   "name": "UJJIVAN SMALL FINANC BANK",
@@ -26175,9 +26175,9 @@
   "blurb": "Ujjivan Small Finance Bank Limited provides various banking and financial services in India. The company operates through Treasury, Retail Banking, and Corporate/Wholesale Banking segments. It provides current, savings, salary, TACS savings and current, and NRI accounts; and fixed, recurring, TASC fixed, NRI and NRO fi",
   "themes": [],
   "moat_kw": 0,
-  "mcap_cr": 12745.0489,
+  "mcap_cr": 10741.307,
   "revenue_cr": 4907.4381,
-  "pe": 14.2179,
+  "pe": 9.4664,
   "peg": null,
   "rev_cagr": 14.2838,
   "profit_cagr": -14.2869,
@@ -26188,18 +26188,18 @@
   "de": null,
   "dilution": -0.6135,
   "insider_pct": 0.043,
-  "inst_pct": 41.29,
+  "inst_pct": 41.313,
   "analysts": 19.0,
   "fcf_positive": 1,
-  "q_rev_yoy": 27.2804,
-  "q_profit_yoy": 279.5899,
+  "q_rev_yoy": 39.7352,
+  "q_profit_yoy": 253.6621,
   "q_opm_chg": null,
   "cfo_pat": 2.0236,
   "interest_coverage": null,
   "recv_days": 46.7935,
   "recv_days_chg_pct": 29.9306,
   "fin_date": "2026-03-31",
-  "q_date": "2026-06-30",
+  "q_date": "2026-09-30",
   "fin_sector": "Financial Services",
   "capex_rev_pct": 3.7408,
   "cwip_growth": -58.5891,
@@ -26207,7 +26207,7 @@
   "acquisition": null,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-16"
+  "fetched": "2026-10-26"
  },
  "UNIMECH.NS": {
   "name": "UNIMECH AEROSPACE N MFG L",
@@ -26219,9 +26219,9 @@
    "Export manufacturing"
   ],
   "moat_kw": 0,
-  "mcap_cr": 9172.0311,
+  "mcap_cr": 8225.2538,
   "revenue_cr": 239.8316,
-  "pe": 127.4328,
+  "pe": 114.2786,
   "peg": null,
   "rev_cagr": 37.1298,
   "profit_cagr": 40.5082,
@@ -26232,7 +26232,7 @@
   "de": 0.1719,
   "dilution": 0.0,
   "insider_pct": 79.745,
-  "inst_pct": 8.218,
+  "inst_pct": 6.171,
   "analysts": 3.0,
   "fcf_positive": 1,
   "q_rev_yoy": 70.8572,
@@ -26251,7 +26251,7 @@
   "acquisition": null,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-16"
+  "fetched": "2026-10-26"
  },
  "VGUARD.NS": {
   "name": "V-GUARD IND LTD.",
@@ -26262,9 +26262,9 @@
    "Energy transition"
   ],
   "moat_kw": 0,
-  "mcap_cr": 12654.5486,
+  "mcap_cr": 11619.1175,
   "revenue_cr": 5918.36,
-  "pe": 34.9397,
+  "pe": 32.0808,
   "peg": null,
   "rev_cagr": 13.0898,
   "profit_cagr": 17.6954,
@@ -26275,8 +26275,8 @@
   "de": 0.0696,
   "dilution": 1.0712,
   "insider_pct": 55.435,
-  "inst_pct": 31.191,
-  "analysts": 17.0,
+  "inst_pct": 31.173,
+  "analysts": 16.0,
   "fcf_positive": 1,
   "q_rev_yoy": 17.7214,
   "q_profit_yoy": 42.9277,
@@ -26294,7 +26294,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-16"
+  "fetched": "2026-10-26"
  },
  "VMART.NS": {
   "name": "VMART RETAIL LTD",
@@ -26302,9 +26302,9 @@
   "blurb": "V-Mart Retail Limited operates a chain of retail departmental stores in India. The company offers casual, formal, ethnic, sports, inner, and night wear for men, women, and kids. It also provides accessories and non-apparel products, such as beauty and fashion accessories, footwear, home needs, bags/luggage, toys, and t",
   "themes": [],
   "moat_kw": 0,
-  "mcap_cr": 6286.456,
+  "mcap_cr": 6167.0928,
   "revenue_cr": 3784.34,
-  "pe": 45.6647,
+  "pe": 44.7977,
   "peg": null,
   "rev_cagr": 15.4734,
   "profit_cagr": null,
@@ -26315,7 +26315,7 @@
   "de": 1.0068,
   "dilution": 0.4658,
   "insider_pct": 51.902,
-  "inst_pct": 35.445,
+  "inst_pct": 35.57,
   "analysts": 14.0,
   "fcf_positive": 1,
   "q_rev_yoy": 22.9988,
@@ -26334,7 +26334,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-16"
+  "fetched": "2026-10-26"
  },
  "VIPIND.NS": {
   "name": "VIP INDUSTRIES LTD",
@@ -26344,9 +26344,9 @@
    "Export manufacturing"
   ],
   "moat_kw": 0,
-  "mcap_cr": 3837.6264,
+  "mcap_cr": 3709.7763,
   "revenue_cr": 1851.9,
-  "pe": 109.9449,
+  "pe": 106.2821,
   "peg": null,
   "rev_cagr": -3.7778,
   "profit_cagr": null,
@@ -26357,7 +26357,7 @@
   "de": 3.3561,
   "dilution": 0.28,
   "insider_pct": 12.198,
-  "inst_pct": 39.551,
+  "inst_pct": 39.477,
   "analysts": 7.0,
   "fcf_positive": 1,
   "q_rev_yoy": 3.0155,
@@ -26376,7 +26376,7 @@
   "acquisition": null,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-16"
+  "fetched": "2026-10-26"
  },
  "V2RETAIL.NS": {
   "name": "V2 RETAIL LIMITED",
@@ -26384,9 +26384,9 @@
   "blurb": "V2 Retail Limited, together with its subsidiary, V2 Smart Manufacturing Private Limited, engages in the retail trade of garments, textiles, and accessories in India. It is involved in the retail sale of ready-made garments, hosiery goods, and other articles of clothing and clothing accessories under the Godspeed, Herrl",
   "themes": [],
   "moat_kw": 0,
-  "mcap_cr": 6272.4952,
+  "mcap_cr": 5883.7914,
   "revenue_cr": 3060.1521,
-  "pe": 33.996,
+  "pe": 31.8893,
   "peg": null,
   "rev_cagr": 54.1075,
   "profit_cagr": null,
@@ -26397,7 +26397,7 @@
   "de": 1.1022,
   "dilution": 6.0321,
   "insider_pct": 54.098,
-  "inst_pct": 10.901,
+  "inst_pct": 10.945,
   "analysts": 2.0,
   "fcf_positive": 0,
   "q_rev_yoy": 57.7302,
@@ -26419,7 +26419,7 @@
    "ratio": 10.0
   },
   "news": [],
-  "fetched": "2026-10-16"
+  "fetched": "2026-10-26"
  },
  "DBREALTY.NS": {
   "name": "VALOR ESTATE LIMITED",
@@ -26429,9 +26429,9 @@
    "Healthcare and diagnostics"
   ],
   "moat_kw": 0,
-  "mcap_cr": 4731.4145,
+  "mcap_cr": 4257.8932,
   "revenue_cr": 1504.8904,
-  "pe": 363.4583,
+  "pe": 341.3043,
   "peg": null,
   "rev_cagr": 29.7589,
   "profit_cagr": null,
@@ -26442,7 +26442,7 @@
   "de": 0.1841,
   "dilution": 54.0251,
   "insider_pct": 62.13,
-  "inst_pct": 2.053,
+  "inst_pct": 2.058,
   "analysts": null,
   "fcf_positive": 1,
   "q_rev_yoy": -86.8162,
@@ -26461,7 +26461,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-16"
+  "fetched": "2026-10-26"
  },
  "WABAG.NS": {
   "name": "VA TECH WABAG LTD",
@@ -26472,9 +26472,9 @@
    "Energy transition"
   ],
   "moat_kw": 0,
-  "mcap_cr": 12019.7259,
+  "mcap_cr": 10673.782,
   "revenue_cr": 3908.4,
-  "pe": 29.7954,
+  "pe": 26.459,
   "peg": null,
   "rev_cagr": 9.8771,
   "profit_cagr": 205.4557,
@@ -26485,7 +26485,7 @@
   "de": 0.0887,
   "dilution": 0.1916,
   "insider_pct": 27.047,
-  "inst_pct": 18.344,
+  "inst_pct": 18.355,
   "analysts": 9.0,
   "fcf_positive": 1,
   "q_rev_yoy": 20.8174,
@@ -26504,7 +26504,7 @@
   "acquisition": null,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-16"
+  "fetched": "2026-10-26"
  },
  "VAIBHAVGBL.NS": {
   "name": "VAIBHAV GLOBAL LIMITED",
@@ -26514,9 +26514,9 @@
    "Export manufacturing"
   ],
   "moat_kw": 1,
-  "mcap_cr": 3595.5438,
+  "mcap_cr": 3146.6041,
   "revenue_cr": 3671.8057,
-  "pe": 12.7089,
+  "pe": 11.1221,
   "peg": null,
   "rev_cagr": 11.0829,
   "profit_cagr": 36.3599,
@@ -26526,8 +26526,8 @@
   "roce_chg": 1.3617,
   "de": 0.2523,
   "dilution": 1.2848,
-  "insider_pct": 59.249,
-  "inst_pct": 15.182,
+  "insider_pct": 59.286,
+  "inst_pct": 15.194,
   "analysts": null,
   "fcf_positive": 1,
   "q_rev_yoy": 7.9169,
@@ -26546,7 +26546,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-16"
+  "fetched": "2026-10-26"
  },
  "MANYAVAR.NS": {
   "name": "VEDANT FASHIONS LIMITED",
@@ -26554,9 +26554,9 @@
   "blurb": "Vedant Fashions Limited engages in the manufacture, trading, and sale of wedding and celebration wear in India, Nepal, the United States, Canada, the United Arab Emirates, the United Kingdom, and internationally. The company offers kurta sets, indo-western, sherwani sets, jackets, accessories, jodhpuris suits, and shor",
   "themes": [],
   "moat_kw": 0,
-  "mcap_cr": 12661.6117,
+  "mcap_cr": 11699.4171,
   "revenue_cr": 1433.457,
-  "pe": 32.7324,
+  "pe": 30.3212,
   "peg": null,
   "rev_cagr": 1.945,
   "profit_cagr": -4.3472,
@@ -26567,7 +26567,7 @@
   "de": 0.233,
   "dilution": 0.0795,
   "insider_pct": 74.939,
-  "inst_pct": 18.568,
+  "inst_pct": 18.597,
   "analysts": 9.0,
   "fcf_positive": 1,
   "q_rev_yoy": -17.9816,
@@ -26586,7 +26586,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-16"
+  "fetched": "2026-10-26"
  },
  "VESUVIUS.NS": {
   "name": "VESUVIUS INDIA LTD",
@@ -26596,9 +26596,9 @@
    "Export manufacturing"
   ],
   "moat_kw": 0,
-  "mcap_cr": 8357.9257,
+  "mcap_cr": 7822.1091,
   "revenue_cr": 2099.95,
-  "pe": 33.1295,
+  "pe": 30.563,
   "peg": null,
   "rev_cagr": 16.2929,
   "profit_cagr": 31.2532,
@@ -26609,7 +26609,7 @@
   "de": 0.0082,
   "dilution": 0.0,
   "insider_pct": 56.067,
-  "inst_pct": 24.788,
+  "inst_pct": 24.822,
   "analysts": null,
   "fcf_positive": 1,
   "q_rev_yoy": 2.2769,
@@ -26628,7 +26628,7 @@
   "acquisition": null,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-16"
+  "fetched": "2026-10-26"
  },
  "VIKRAMSOLR.NS": {
   "name": "VIKRAM SOLAR LIMITED",
@@ -26640,9 +26640,9 @@
    "Railways and infrastructure"
   ],
   "moat_kw": 0,
-  "mcap_cr": 5181.6673,
+  "mcap_cr": 4651.9054,
   "revenue_cr": 4802.251,
-  "pe": 14.1724,
+  "pe": 12.7235,
   "peg": null,
   "rev_cagr": 32.3173,
   "profit_cagr": 219.004,
@@ -26652,8 +26652,8 @@
   "roce_chg": 2.2302,
   "de": 0.2037,
   "dilution": 0.1695,
-  "insider_pct": 64.851,
-  "inst_pct": 3.768,
+  "insider_pct": 64.976,
+  "inst_pct": 3.716,
   "analysts": 6.0,
   "fcf_positive": 0,
   "q_rev_yoy": 30.9648,
@@ -26672,7 +26672,7 @@
   "acquisition": null,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-16"
+  "fetched": "2026-10-26"
  },
  "VIYASH.NS": {
   "name": "VIYASH SCIENTIFIC LIMITED",
@@ -26682,9 +26682,9 @@
    "Healthcare and diagnostics"
   ],
   "moat_kw": 0,
-  "mcap_cr": 10005.4335,
+  "mcap_cr": 9174.3691,
   "revenue_cr": 3356.961,
-  "pe": 53.7204,
+  "pe": 50.824,
   "peg": null,
   "rev_cagr": 33.2688,
   "profit_cagr": null,
@@ -26714,7 +26714,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-16"
+  "fetched": "2026-10-26"
  },
  "VOLTAMP.NS": {
   "name": "VOLTAMP TRANSFORMERS LTD",
@@ -26725,9 +26725,9 @@
    "Healthcare and diagnostics"
   ],
   "moat_kw": 0,
-  "mcap_cr": 10717.0652,
+  "mcap_cr": 9913.7659,
   "revenue_cr": 2145.6582,
-  "pe": 32.5898,
+  "pe": 31.2668,
   "peg": null,
   "rev_cagr": 15.9569,
   "profit_cagr": 15.1632,
@@ -26738,7 +26738,7 @@
   "de": 0.0003,
   "dilution": 0.0,
   "insider_pct": 30.015,
-  "inst_pct": 47.269,
+  "inst_pct": 47.281,
   "analysts": 8.0,
   "fcf_positive": 1,
   "q_rev_yoy": 28.3793,
@@ -26757,7 +26757,7 @@
   "acquisition": null,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-16"
+  "fetched": "2026-10-26"
  },
  "WAAREERTL.NS": {
   "name": "WAAREE RENEWABLE TECH LTD",
@@ -26768,9 +26768,9 @@
    "Railways and infrastructure"
   ],
   "moat_kw": 0,
-  "mcap_cr": 8561.1831,
+  "mcap_cr": 6842.0575,
   "revenue_cr": 3330.4375,
-  "pe": 16.8939,
+  "pe": 14.6973,
   "peg": null,
   "rev_cagr": 111.7434,
   "profit_cagr": 105.1744,
@@ -26778,21 +26778,21 @@
   "op_margin_chg": -3.9516,
   "roce": 59.6289,
   "roce_chg": -11.4827,
-  "de": 0.156,
+  "de": 0.8553,
   "dilution": 0.261,
   "insider_pct": 75.35,
-  "inst_pct": 1.094,
+  "inst_pct": 1.117,
   "analysts": null,
   "fcf_positive": 1,
-  "q_rev_yoy": 93.934,
-  "q_profit_yoy": 23.5431,
-  "q_opm_chg": -7.6273,
+  "q_rev_yoy": 36.5342,
+  "q_profit_yoy": -36.4715,
+  "q_opm_chg": -7.2353,
   "cfo_pat": 0.8411,
   "interest_coverage": 146.7867,
   "recv_days": 128.447,
   "recv_days_chg_pct": 101.3583,
   "fin_date": "2026-03-31",
-  "q_date": "2026-06-30",
+  "q_date": "2026-09-30",
   "fin_sector": "Industrials",
   "capex_rev_pct": 3.6782,
   "cwip_growth": 217.8002,
@@ -26800,7 +26800,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-16"
+  "fetched": "2026-10-26"
  },
  "WAKEFIT.NS": {
   "name": "WAKEFIT INNOVATIONS LTD",
@@ -26808,9 +26808,9 @@
   "blurb": "Wakefit Innovations Limited manufactures and markets home furnishing products. Its products include mattresses, beds, rollup, side tables, sofas, wardrobes, dressing tables, pillows, cabinets and shelves, kitchen and dining cushions, home essentials, TV units, office chairs, coffee tables, mats, rugs and carpets, yoga ",
   "themes": [],
   "moat_kw": 0,
-  "mcap_cr": 4510.3751,
+  "mcap_cr": 4423.152,
   "revenue_cr": 1475.164,
-  "pe": 23.1293,
+  "pe": 22.682,
   "peg": null,
   "rev_cagr": 22.7909,
   "profit_cagr": null,
@@ -26820,9 +26820,9 @@
   "roce_chg": 8.2233,
   "de": 0.2402,
   "dilution": 0.9602,
-  "insider_pct": 46.11,
-  "inst_pct": 44.187,
-  "analysts": 3.0,
+  "insider_pct": 46.334,
+  "inst_pct": 45.028,
+  "analysts": 4.0,
   "fcf_positive": 1,
   "q_rev_yoy": 16.6477,
   "q_profit_yoy": 19.1986,
@@ -26840,7 +26840,7 @@
   "acquisition": null,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-16"
+  "fetched": "2026-10-26"
  },
  "WEWORK.NS": {
   "name": "WEWORK INDIA MANAGEMENT L",
@@ -26851,9 +26851,9 @@
    "Healthcare and diagnostics"
   ],
   "moat_kw": 0,
-  "mcap_cr": 9253.616,
+  "mcap_cr": 8657.1688,
   "revenue_cr": 2440.18,
-  "pe": 106.616,
+  "pe": 101.531,
   "peg": null,
   "rev_cagr": null,
   "profit_cagr": null,
@@ -26864,11 +26864,11 @@
   "de": 18.5496,
   "dilution": null,
   "insider_pct": 63.431,
-  "inst_pct": 25.873,
+  "inst_pct": 25.875,
   "analysts": 9.0,
   "fcf_positive": 1,
-  "q_rev_yoy": null,
-  "q_profit_yoy": null,
+  "q_rev_yoy": 26.7842,
+  "q_profit_yoy": -111.7914,
   "q_opm_chg": null,
   "cfo_pat": null,
   "interest_coverage": 1.0882,
@@ -26883,7 +26883,7 @@
   "acquisition": null,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-16"
+  "fetched": "2026-10-26"
  },
  "WEBELSOLAR.NS": {
   "name": "WEBSOL ENERGY SYSTEM LTD",
@@ -26894,9 +26894,9 @@
    "Energy transition"
   ],
   "moat_kw": 0,
-  "mcap_cr": 2980.9664,
+  "mcap_cr": 2756.5038,
   "revenue_cr": 1049.07,
-  "pe": 9.5097,
+  "pe": 8.8922,
   "peg": null,
   "rev_cagr": 293.4483,
   "profit_cagr": null,
@@ -26907,7 +26907,7 @@
   "de": 0.2073,
   "dilution": 11.9052,
   "insider_pct": 32.303,
-  "inst_pct": 3.062,
+  "inst_pct": 3.035,
   "analysts": null,
   "fcf_positive": 1,
   "q_rev_yoy": 115.3882,
@@ -26929,7 +26929,7 @@
    "ratio": 10.0
   },
   "news": [],
-  "fetched": "2026-10-16"
+  "fetched": "2026-10-26"
  },
  "WELENT.NS": {
   "name": "WELSPUN ENTERPRISES LTD.",
@@ -26940,9 +26940,9 @@
    "Railways and infrastructure"
   ],
   "moat_kw": 0,
-  "mcap_cr": 9905.2331,
+  "mcap_cr": 8476.5409,
   "revenue_cr": 3408.09,
-  "pe": 29.7273,
+  "pe": 25.4396,
   "peg": 0.48,
   "rev_cagr": 8.045,
   "profit_cagr": -21.4817,
@@ -26953,7 +26953,7 @@
   "de": 0.6092,
   "dilution": -9.5806,
   "insider_pct": 64.685,
-  "inst_pct": 10.5,
+  "inst_pct": 10.528,
   "analysts": null,
   "fcf_positive": 1,
   "q_rev_yoy": -8.4409,
@@ -26972,7 +26972,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-16"
+  "fetched": "2026-10-26"
  },
  "WESTLIFE.NS": {
   "name": "WESTLIFE FOODWORLD LTD",
@@ -26980,9 +26980,9 @@
   "blurb": "Westlife Foodworld Limited, through its subsidiary, Hardcastle Restaurants Private Limited, owns and operates a chain of McDonald's restaurants in Western and Southern India. The company operates through various restaurants, such as freestanding, food court, in-store, and mall stores. It also offers brand extensions, i",
   "themes": [],
   "moat_kw": 0,
-  "mcap_cr": 9044.4227,
+  "mcap_cr": 9120.478,
   "revenue_cr": 2600.352,
-  "pe": 285.6373,
+  "pe": 4520.0,
   "peg": null,
   "rev_cagr": 4.7964,
   "profit_cagr": -33.8261,
@@ -26993,18 +26993,18 @@
   "de": 2.9152,
   "dilution": -0.1527,
   "insider_pct": 63.634,
-  "inst_pct": 30.603,
+  "inst_pct": 30.636,
   "analysts": 20.0,
   "fcf_positive": 1,
-  "q_rev_yoy": 22.3524,
-  "q_profit_yoy": -61.4581,
-  "q_opm_chg": -0.3073,
+  "q_rev_yoy": 13.5408,
+  "q_profit_yoy": -266.1752,
+  "q_opm_chg": -0.6492,
   "cfo_pat": 9.1163,
   "interest_coverage": 1.275,
   "recv_days": 2.4143,
   "recv_days_chg_pct": 39.749,
   "fin_date": "2026-03-31",
-  "q_date": "2026-06-30",
+  "q_date": "2026-09-30",
   "fin_sector": "Consumer Cyclical",
   "capex_rev_pct": 9.0948,
   "cwip_growth": 256.178,
@@ -27012,7 +27012,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-16"
+  "fetched": "2026-10-26"
  },
  "YATHARTH.NS": {
   "name": "YATHARTH HOSP & TRA C S L",
@@ -27022,9 +27022,9 @@
    "Healthcare and diagnostics"
   ],
   "moat_kw": 0,
-  "mcap_cr": 9606.5298,
+  "mcap_cr": 8924.341,
   "revenue_cr": 1196.373,
-  "pe": 53.0319,
+  "pe": 49.266,
   "peg": null,
   "rev_cagr": 31.9895,
   "profit_cagr": 38.6719,
@@ -27035,7 +27035,7 @@
   "de": 0.1461,
   "dilution": 12.2354,
   "insider_pct": 56.938,
-  "inst_pct": 12.819,
+  "inst_pct": 12.859,
   "analysts": 4.0,
   "fcf_positive": 0,
   "q_rev_yoy": 51.4594,
@@ -27054,7 +27054,7 @@
   "acquisition": true,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-16"
+  "fetched": "2026-10-26"
  },
  "ZAGGLE.NS": {
   "name": "ZAGGLE PREPA OCEAN SER L",
@@ -27065,9 +27065,9 @@
    "Digital and data centres"
   ],
   "moat_kw": 0,
-  "mcap_cr": 2298.6547,
+  "mcap_cr": 2040.5244,
   "revenue_cr": 1907.646,
-  "pe": 17.4458,
+  "pe": 15.6629,
   "peg": null,
   "rev_cagr": 51.0557,
   "profit_cagr": 82.01,
@@ -27078,7 +27078,7 @@
   "de": 0.0388,
   "dilution": 10.1245,
   "insider_pct": 52.069,
-  "inst_pct": 4.316,
+  "inst_pct": 4.298,
   "analysts": 2.0,
   "fcf_positive": 0,
   "q_rev_yoy": 27.5029,
@@ -27097,7 +27097,7 @@
   "acquisition": true,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-16"
+  "fetched": "2026-10-26"
  },
  "PFIZER.NS": {
   "name": "PFIZER LTD",

@@ -2,45 +2,15 @@
  "date": "2026-10-26",
  "regime": "risk_off",
  "nifty": {
-  "last": 22708.6504,
-  "ret_6m": -4.9766,
-  "ret_3m": -5.3647,
-  "ret_1m": -1.5369,
-  "above_200dma": -5.8,
-  "ma50_vs_200": -3.1,
+  "last": 22600.0,
+  "ret_6m": -6.5075,
+  "ret_3m": -4.912,
+  "ret_1m": -3.6116,
+  "above_200dma": -6.3,
+  "ma50_vs_200": -3.0,
   "regime": "risk_off"
  },
- "signals": [
-  {
-   "ticker": "ATHERENERG.NS",
-   "signal": "BUY",
-   "entry": 1552.35,
-   "stop_loss": 1448.9,
-   "t1": 1667.29,
-   "t2": 1743.92,
-   "t3": 1828.21,
-   "confidence": 79.0,
-   "holding_days": "3-12 trading days",
-   "risk_reward_t1": 1.11,
-   "atr": 76.63,
-   "rsi": 66.3,
-   "volume_surge": 1.82,
-   "regime": "risk_off",
-   "reasons": [
-    "Breakout above 1550.80",
-    "Volume surge 1.82x",
-    "RSI healthy (66.3)",
-    "Above 20 DMA",
-    "Above 50 DMA",
-    "Risk-off regime \u2192 higher quality required"
-   ],
-   "invalidation": "Daily close below 1448.9",
-   "resistance": 1550.8,
-   "support": 1368.6,
-   "last_price": 1587.0,
-   "as_of": "2026-10-26"
-  }
- ],
+ "signals": [],
  "history": [
   {
    "date": "2026-10-15",
@@ -879,7 +849,7 @@
    "t1": 1667.29,
    "t2": 1743.92,
    "t3": 1828.21,
-   "confidence": 79.0,
+   "confidence": 79,
    "status": "active",
    "outcome": null,
    "hit_t1": false,
@@ -889,6 +859,8 @@
    "exit_price": null,
    "exit_date": null,
    "r_multiple": null,
+   "last_price": 1587,
+   "as_of": "2026-10-26",
    "reasons": [
     "Breakout above 1550.80",
     "Volume surge 1.82x",
@@ -896,9 +868,7 @@
     "Above 20 DMA",
     "Above 50 DMA",
     "Risk-off regime \u2192 higher quality required"
-   ],
-   "last_price": 1587.0,
-   "as_of": "2026-10-26"
+   ]
   },
   {
    "date": "2026-10-23",
