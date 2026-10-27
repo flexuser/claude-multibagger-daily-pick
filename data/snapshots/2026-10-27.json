@@ -4,7 +4,7 @@
  "demo": false,
  "shortlist": [],
  "rejected_counts": {
-  "mcap outside shortlist band (300-8000 cr)": 466,
+  "mcap outside shortlist band (300-8000 cr)": 467,
   "sales CAGR 3% below 15%": 6,
   "missing critical field: q_rev_yoy": 1,
   "revenue growth looks like a data error": 7,
@@ -85,5 +85,5 @@
   "ROCE 8% below 15%": 1
  },
  "universe": 651,
- "liquid": 632
+ "liquid": 633
 }
