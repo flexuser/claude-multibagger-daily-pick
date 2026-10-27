@@ -90,15 +90,15 @@
   "xbrl",
   "xbrlFileSize"
  ],
- "updated": "2026-10-26",
+ "updated": "2026-10-27",
  "status": {
-  "attempted": 2,
+  "attempted": 35,
   "ok": {
-   "announcements": 2,
-   "pledge": 1,
-   "pledge_multi": 2,
-   "shareholding": 2,
-   "insider": 2
+   "announcements": 35,
+   "pledge": 21,
+   "pledge_multi": 35,
+   "shareholding": 35,
+   "insider": 35
   },
   "blocked": false,
   "checked": 0,
@@ -131,8 +131,9 @@
   "SPARC": [
    {
     "source": "nse_pledge_api",
-    "ok": false,
-    "error": "empty"
+    "ok": true,
+    "pledge": 0.0,
+    "as_of": "29-01-2016"
    },
    {
     "source": "nse_shp_master",
@@ -195,8 +196,9 @@
   "WEBELSOLAR": [
    {
     "source": "nse_pledge_api",
-    "ok": false,
-    "error": "empty"
+    "ok": true,
+    "pledge": 15.64,
+    "as_of": "30-10-2023"
    },
    {
     "source": "nse_shp_master",
@@ -228,8 +230,9 @@
   "ASHOKA": [
    {
     "source": "nse_pledge_api",
-    "ok": false,
-    "error": "empty"
+    "ok": true,
+    "pledge": 0.0,
+    "as_of": null
    },
    {
     "source": "nse_shp_master",
@@ -261,8 +264,9 @@
   "TTML": [
    {
     "source": "nse_pledge_api",
-    "ok": false,
-    "error": "empty"
+    "ok": true,
+    "pledge": 0.0,
+    "as_of": "18-02-2019"
    },
    {
     "source": "nse_shp_master",
@@ -357,8 +361,9 @@
   "THYROCARE": [
    {
     "source": "nse_pledge_api",
-    "ok": false,
-    "error": "empty"
+    "ok": true,
+    "pledge": 0.0,
+    "as_of": "29-09-2025"
    },
    {
     "source": "nse_shp_master",
@@ -389,8 +394,9 @@
   "GOKULAGRO": [
    {
     "source": "nse_pledge_api",
-    "ok": false,
-    "error": "empty"
+    "ok": true,
+    "pledge": 13.69,
+    "as_of": "29-11-2016"
    },
    {
     "source": "nse_shp_master",
@@ -421,8 +427,9 @@
   "BAJAJCON": [
    {
     "source": "nse_pledge_api",
-    "ok": false,
-    "error": "empty"
+    "ok": true,
+    "pledge": 0.0,
+    "as_of": "30-11-2016"
    },
    {
     "source": "nse_shp_master",
@@ -453,8 +460,9 @@
   "JAMNAAUTO": [
    {
     "source": "nse_pledge_api",
-    "ok": false,
-    "error": "empty"
+    "ok": true,
+    "pledge": 1.69,
+    "as_of": "31-08-2018"
    },
    {
     "source": "nse_shp_master",
@@ -518,8 +526,9 @@
   "JYOTHYLAB": [
    {
     "source": "nse_pledge_api",
-    "ok": false,
-    "error": "empty"
+    "ok": true,
+    "pledge": 0.0,
+    "as_of": "26-11-2019"
    },
    {
     "source": "nse_shp_master",
@@ -550,8 +559,9 @@
   "SHARDACROP": [
    {
     "source": "nse_pledge_api",
-    "ok": false,
-    "error": "empty"
+    "ok": true,
+    "pledge": 0.0,
+    "as_of": null
    },
    {
     "source": "nse_shp_master",
@@ -614,8 +624,9 @@
   "FIEMIND": [
    {
     "source": "nse_pledge_api",
-    "ok": false,
-    "error": "empty"
+    "ok": true,
+    "pledge": 0.0,
+    "as_of": null
    },
    {
     "source": "nse_shp_master",
@@ -647,8 +658,9 @@
   "SJS": [
    {
     "source": "nse_pledge_api",
-    "ok": false,
-    "error": "empty"
+    "ok": true,
+    "pledge": 4.5,
+    "as_of": "12-12-2024"
    },
    {
     "source": "nse_shp_master",
@@ -679,8 +691,9 @@
   "SONATSOFTW": [
    {
     "source": "nse_pledge_api",
-    "ok": false,
-    "error": "empty"
+    "ok": true,
+    "pledge": 0.0,
+    "as_of": "07-04-2016"
    },
    {
     "source": "nse_shp_master",
@@ -711,8 +724,9 @@
   "TRANSRAILL": [
    {
     "source": "nse_pledge_api",
-    "ok": false,
-    "error": "empty"
+    "ok": true,
+    "pledge": 5.97,
+    "as_of": null
    },
    {
     "source": "nse_shp_master",
@@ -743,8 +757,9 @@
   "TANLA": [
    {
     "source": "nse_pledge_api",
-    "ok": false,
-    "error": "empty"
+    "ok": true,
+    "pledge": 0.0,
+    "as_of": null
    },
    {
     "source": "nse_shp_master",
@@ -807,8 +822,9 @@
   "CENTUM": [
    {
     "source": "nse_pledge_api",
-    "ok": false,
-    "error": "empty"
+    "ok": true,
+    "pledge": 0.0,
+    "as_of": "10-03-2021"
    },
    {
     "source": "nse_shp_master",
@@ -967,8 +983,9 @@
   "REFEX": [
    {
     "source": "nse_pledge_api",
-    "ok": false,
-    "error": "empty"
+    "ok": true,
+    "pledge": 47.39,
+    "as_of": "29-09-2026"
    },
    {
     "source": "nse_shp_master",
@@ -979,13 +996,13 @@
     "source": "screener",
     "ok": true,
     "pledge": 47.4,
-    "as_of": "2026-10-26"
+    "as_of": "2026-10-27"
    },
    {
     "source": "local_cache",
     "ok": true,
     "pledge": 47.4,
-    "as_of": "2026-10-25"
+    "as_of": "2026-10-26"
    },
    {
     "source": "env_csv",
@@ -1261,8 +1278,9 @@
   "SMLMAH": [
    {
     "source": "nse_pledge_api",
-    "ok": false,
-    "error": "empty"
+    "ok": true,
+    "pledge": 0.0,
+    "as_of": null
    },
    {
     "source": "nse_shp_master",
@@ -1293,8 +1311,9 @@
   "GPPL": [
    {
     "source": "nse_pledge_api",
-    "ok": false,
-    "error": "empty"
+    "ok": true,
+    "pledge": 0.0,
+    "as_of": null
    },
    {
     "source": "nse_shp_master",
@@ -1357,8 +1376,9 @@
   "PRECWIRE": [
    {
     "source": "nse_pledge_api",
-    "ok": false,
-    "error": "empty"
+    "ok": true,
+    "pledge": 0.0,
+    "as_of": null
    },
    {
     "source": "nse_shp_master",
@@ -1501,8 +1521,9 @@
    },
    {
     "source": "local_cache",
-    "ok": false,
-    "error": "not_in_cache"
+    "ok": true,
+    "pledge": 0.0,
+    "as_of": "2026-10-26"
    },
    {
     "source": "env_csv",
@@ -1519,31 +1540,31 @@
  "pledge_resolved": {
   "WEBELSOLAR": {
    "pledge": 15.64,
-   "source": "local_cache",
-   "confidence": "single",
+   "source": "nse_pledge_api",
+   "confidence": "high",
    "conflict": false
   },
   "ASHOKA": {
    "pledge": 0.0,
-   "source": "local_cache",
-   "confidence": "single",
+   "source": "nse_pledge_api",
+   "confidence": "high",
    "conflict": false
   },
   "JAMNAAUTO": {
    "pledge": 1.69,
-   "source": "local_cache",
-   "confidence": "single",
+   "source": "nse_pledge_api",
+   "confidence": "high",
    "conflict": false
   },
   "FIEMIND": {
    "pledge": 0.0,
-   "source": "local_cache",
-   "confidence": "single",
+   "source": "nse_pledge_api",
+   "confidence": "high",
    "conflict": false
   },
   "REFEX": {
-   "pledge": 47.4,
-   "source": "screener",
+   "pledge": 47.39,
+   "source": "nse_pledge_api",
    "confidence": "high",
    "conflict": false
   },
@@ -1572,6 +1593,96 @@
    "conflict": false
   },
   "VESUVIUS": {
+   "pledge": 0.0,
+   "source": "nse_pledge_api",
+   "confidence": "high",
+   "conflict": false
+  },
+  "SPARC": {
+   "pledge": 0.0,
+   "source": "nse_pledge_api",
+   "confidence": "single",
+   "conflict": false
+  },
+  "TTML": {
+   "pledge": 0.0,
+   "source": "nse_pledge_api",
+   "confidence": "single",
+   "conflict": false
+  },
+  "THYROCARE": {
+   "pledge": 0.0,
+   "source": "nse_pledge_api",
+   "confidence": "single",
+   "conflict": false
+  },
+  "GOKULAGRO": {
+   "pledge": 13.69,
+   "source": "nse_pledge_api",
+   "confidence": "single",
+   "conflict": false
+  },
+  "BAJAJCON": {
+   "pledge": 0.0,
+   "source": "nse_pledge_api",
+   "confidence": "single",
+   "conflict": false
+  },
+  "SMLMAH": {
+   "pledge": 0.0,
+   "source": "nse_pledge_api",
+   "confidence": "single",
+   "conflict": false
+  },
+  "GPPL": {
+   "pledge": 0.0,
+   "source": "nse_pledge_api",
+   "confidence": "single",
+   "conflict": false
+  },
+  "JYOTHYLAB": {
+   "pledge": 0.0,
+   "source": "nse_pledge_api",
+   "confidence": "single",
+   "conflict": false
+  },
+  "SHARDACROP": {
+   "pledge": 0.0,
+   "source": "nse_pledge_api",
+   "confidence": "single",
+   "conflict": false
+  },
+  "SJS": {
+   "pledge": 4.5,
+   "source": "nse_pledge_api",
+   "confidence": "single",
+   "conflict": false
+  },
+  "SONATSOFTW": {
+   "pledge": 0.0,
+   "source": "nse_pledge_api",
+   "confidence": "single",
+   "conflict": false
+  },
+  "TRANSRAILL": {
+   "pledge": 5.97,
+   "source": "nse_pledge_api",
+   "confidence": "single",
+   "conflict": false
+  },
+  "TANLA": {
+   "pledge": 0.0,
+   "source": "nse_pledge_api",
+   "confidence": "single",
+   "conflict": false
+  },
+  "PRECWIRE": {
+   "pledge": 0.0,
+   "source": "nse_pledge_api",
+   "confidence": "single",
+   "conflict": false
+  },
+  "CENTUM": {
    "pledge": 0.0,
    "source": "nse_pledge_api",
    "confidence": "single",

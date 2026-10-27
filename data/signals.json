@@ -2463,11 +2463,11 @@
   }
  },
  "SJS.NS": {
-  "fetched": "2026-10-26",
+  "fetched": "2026-10-27",
   "data": {
    "status": {
     "announcements": true,
-    "pledge": false,
+    "pledge": true,
     "pledge_multi": true,
     "shareholding": true,
     "insider": true
@@ -2536,6 +2536,12 @@
     "acquisition": 5
    },
    "neg_events": 0,
+   "pledge": 4.5,
+   "pledge_chg": null,
+   "pledge_source": "nse_pledge_api",
+   "pledge_as_of": "12-12-2024",
+   "pledge_confidence": "single",
+   "pledge_conflict": false,
    "promoter_chg": -1.57,
    "promoter_now": 19.99,
    "pit_net_cr": 0.0,
@@ -2587,11 +2593,11 @@
   }
  },
  "GPPL.NS": {
-  "fetched": "2026-10-26",
+  "fetched": "2026-10-27",
   "data": {
    "status": {
     "announcements": true,
-    "pledge": false,
+    "pledge": true,
     "pledge_multi": true,
     "shareholding": true,
     "insider": true
@@ -2600,6 +2606,12 @@
    "event_score": 0,
    "event_counts": {},
    "neg_events": 0,
+   "pledge": 0.0,
+   "pledge_chg": null,
+   "pledge_source": "nse_pledge_api",
+   "pledge_as_of": null,
+   "pledge_confidence": "single",
+   "pledge_conflict": false,
    "promoter_chg": 0.0,
    "promoter_now": 44.01,
    "pit_net_cr": 0.0,
@@ -2824,7 +2836,7 @@
   }
  },
  "JSLL.NS": {
-  "fetched": "2026-10-26",
+  "fetched": "2026-10-27",
   "data": {
    "status": {
     "announcements": true,
@@ -3013,11 +3025,11 @@
   }
  },
  "PRECWIRE.NS": {
-  "fetched": "2026-10-26",
+  "fetched": "2026-10-27",
   "data": {
    "status": {
     "announcements": true,
-    "pledge": false,
+    "pledge": true,
     "pledge_multi": true,
     "shareholding": true,
     "insider": true
@@ -3057,6 +3069,12 @@
     "acquisition": 1
    },
    "neg_events": 0,
+   "pledge": 0.0,
+   "pledge_chg": null,
+   "pledge_source": "nse_pledge_api",
+   "pledge_as_of": null,
+   "pledge_confidence": "single",
+   "pledge_conflict": false,
    "promoter_chg": -0.87,
    "promoter_now": 56.62,
    "pit_net_cr": 0.0,
@@ -3451,7 +3469,7 @@
   }
  },
  "SHILCTECH.NS": {
-  "fetched": "2026-10-26",
+  "fetched": "2026-10-27",
   "data": {
    "status": {
     "announcements": true,
@@ -3542,11 +3560,11 @@
   }
  },
  "THYROCARE.NS": {
-  "fetched": "2026-10-26",
+  "fetched": "2026-10-27",
   "data": {
    "status": {
     "announcements": true,
-    "pledge": false,
+    "pledge": true,
     "pledge_multi": true,
     "shareholding": true,
     "insider": true
@@ -3585,6 +3603,12 @@
     "acquisition": 3
    },
    "neg_events": 0,
+   "pledge": 0.0,
+   "pledge_chg": null,
+   "pledge_source": "nse_pledge_api",
+   "pledge_as_of": "29-09-2025",
+   "pledge_confidence": "single",
+   "pledge_conflict": false,
    "promoter_chg": -9.91,
    "promoter_now": 51.02,
    "pit_net_cr": 0.0,
@@ -3768,7 +3792,7 @@
   }
  },
  "SUPRIYA.NS": {
-  "fetched": "2026-10-26",
+  "fetched": "2026-10-27",
   "data": {
    "status": {
     "announcements": true,
@@ -3789,7 +3813,7 @@
   }
  },
  "OSWALPUMPS.NS": {
-  "fetched": "2026-10-26",
+  "fetched": "2026-10-27",
   "data": {
    "status": {
     "announcements": true,
@@ -3810,11 +3834,11 @@
   }
  },
  "TRANSRAILL.NS": {
-  "fetched": "2026-10-26",
+  "fetched": "2026-10-27",
   "data": {
    "status": {
     "announcements": true,
-    "pledge": false,
+    "pledge": true,
     "pledge_multi": true,
     "shareholding": true,
     "insider": true
@@ -3873,6 +3897,12 @@
     "approval": 1
    },
    "neg_events": 0,
+   "pledge": 5.97,
+   "pledge_chg": null,
+   "pledge_source": "nse_pledge_api",
+   "pledge_as_of": null,
+   "pledge_confidence": "single",
+   "pledge_conflict": false,
    "promoter_chg": 0.0,
    "promoter_now": 71.12,
    "pit_net_cr": 0.0,
@@ -3952,7 +3982,7 @@
   }
  },
  "WAAREERTL.NS": {
-  "fetched": "2026-10-26",
+  "fetched": "2026-10-27",
   "data": {
    "status": {
     "announcements": true,
@@ -4111,11 +4141,11 @@
   }
  },
  "SMLMAH.NS": {
-  "fetched": "2026-10-26",
+  "fetched": "2026-10-27",
   "data": {
    "status": {
     "announcements": true,
-    "pledge": false,
+    "pledge": true,
     "pledge_multi": true,
     "shareholding": true,
     "insider": true
@@ -4145,6 +4175,12 @@
     "acquisition": 2
    },
    "neg_events": 0,
+   "pledge": 0.0,
+   "pledge_chg": null,
+   "pledge_source": "nse_pledge_api",
+   "pledge_as_of": null,
+   "pledge_confidence": "single",
+   "pledge_conflict": false,
    "promoter_chg": 0.0,
    "promoter_now": 58.97,
    "pit_net_cr": 0.0,
@@ -4319,11 +4355,11 @@
   }
  },
  "SPARC.NS": {
-  "fetched": "2026-10-26",
+  "fetched": "2026-10-27",
   "data": {
    "status": {
     "announcements": true,
-    "pledge": false,
+    "pledge": true,
     "pledge_multi": true,
     "shareholding": true,
     "insider": true
@@ -4332,6 +4368,12 @@
    "event_score": 0,
    "event_counts": {},
    "neg_events": 0,
+   "pledge": 0.0,
+   "pledge_chg": null,
+   "pledge_source": "nse_pledge_api",
+   "pledge_as_of": "29-01-2016",
+   "pledge_confidence": "single",
+   "pledge_conflict": false,
    "promoter_chg": 0.0,
    "promoter_now": 65.67,
    "pit_net_cr": 0.0,
@@ -4522,11 +4564,11 @@
   }
  },
  "TTML.NS": {
-  "fetched": "2026-10-26",
+  "fetched": "2026-10-27",
   "data": {
    "status": {
     "announcements": true,
-    "pledge": false,
+    "pledge": true,
     "pledge_multi": true,
     "shareholding": true,
     "insider": true
@@ -4535,6 +4577,12 @@
    "event_score": 0,
    "event_counts": {},
    "neg_events": 0,
+   "pledge": 0.0,
+   "pledge_chg": null,
+   "pledge_source": "nse_pledge_api",
+   "pledge_as_of": "18-02-2019",
+   "pledge_confidence": "single",
+   "pledge_conflict": false,
    "promoter_chg": 0.0,
    "promoter_now": 74.36,
    "pit_net_cr": 0.0,
@@ -4586,7 +4634,7 @@
   }
  },
  "WEBELSOLAR.NS": {
-  "fetched": "2026-10-26",
+  "fetched": "2026-10-27",
   "data": {
    "status": {
     "announcements": true,
@@ -4632,9 +4680,9 @@
    "neg_events": 0,
    "pledge": 15.64,
    "pledge_chg": null,
-   "pledge_source": "local_cache",
+   "pledge_source": "nse_pledge_api",
    "pledge_as_of": "30-10-2023",
-   "pledge_confidence": "single",
+   "pledge_confidence": "high",
    "pledge_conflict": false,
    "promoter_chg": 2.01,
    "promoter_now": 29.72,
@@ -4644,7 +4692,7 @@
   }
  },
  "ASHOKA.NS": {
-  "fetched": "2026-10-26",
+  "fetched": "2026-10-27",
   "data": {
    "status": {
     "announcements": true,
@@ -4690,9 +4738,9 @@
    "neg_events": 0,
    "pledge": 0.0,
    "pledge_chg": null,
-   "pledge_source": "local_cache",
-   "pledge_as_of": "2026-10-23",
-   "pledge_confidence": "single",
+   "pledge_source": "nse_pledge_api",
+   "pledge_as_of": null,
+   "pledge_confidence": "high",
    "pledge_conflict": false,
    "promoter_chg": 0.0,
    "promoter_now": 54.48,
@@ -5259,7 +5307,7 @@
   }
  },
  "CRAMC.NS": {
-  "fetched": "2026-10-26",
+  "fetched": "2026-10-27",
   "data": {
    "status": {
     "announcements": true,
@@ -5280,11 +5328,11 @@
   }
  },
  "GOKULAGRO.NS": {
-  "fetched": "2026-10-26",
+  "fetched": "2026-10-27",
   "data": {
    "status": {
     "announcements": true,
-    "pledge": false,
+    "pledge": true,
     "pledge_multi": true,
     "shareholding": true,
     "insider": true
@@ -5293,6 +5341,12 @@
    "event_score": 0,
    "event_counts": {},
    "neg_events": 0,
+   "pledge": 13.69,
+   "pledge_chg": null,
+   "pledge_source": "nse_pledge_api",
+   "pledge_as_of": "29-11-2016",
+   "pledge_confidence": "single",
+   "pledge_conflict": false,
    "promoter_chg": 0.57,
    "promoter_now": 74.24,
    "pit_net_cr": 0.0,
@@ -5301,11 +5355,11 @@
   }
  },
  "BAJAJCON.NS": {
-  "fetched": "2026-10-26",
+  "fetched": "2026-10-27",
   "data": {
    "status": {
     "announcements": true,
-    "pledge": false,
+    "pledge": true,
     "pledge_multi": true,
     "shareholding": true,
     "insider": true
@@ -5314,6 +5368,12 @@
    "event_score": 0,
    "event_counts": {},
    "neg_events": 0,
+   "pledge": 0.0,
+   "pledge_chg": null,
+   "pledge_source": "nse_pledge_api",
+   "pledge_as_of": "30-11-2016",
+   "pledge_confidence": "single",
+   "pledge_conflict": false,
    "promoter_chg": 2.02,
    "promoter_now": 42.97,
    "pit_net_cr": 0.0,
@@ -5322,7 +5382,7 @@
   }
  },
  "JAMNAAUTO.NS": {
-  "fetched": "2026-10-26",
+  "fetched": "2026-10-27",
   "data": {
    "status": {
     "announcements": true,
@@ -5349,9 +5409,9 @@
    "neg_events": 0,
    "pledge": 1.69,
    "pledge_chg": null,
-   "pledge_source": "local_cache",
+   "pledge_source": "nse_pledge_api",
    "pledge_as_of": "31-08-2018",
-   "pledge_confidence": "single",
+   "pledge_confidence": "high",
    "pledge_conflict": false,
    "promoter_chg": -5.13,
    "promoter_now": 44.81,
@@ -5361,7 +5421,7 @@
   }
  },
  "MSTCLTD.NS": {
-  "fetched": "2026-10-26",
+  "fetched": "2026-10-27",
   "data": {
    "status": {
     "announcements": true,
@@ -5382,49 +5442,7 @@
   }
  },
  "JYOTHYLAB.NS": {
-  "fetched": "2026-10-26",
-  "data": {
-   "status": {
-    "announcements": true,
-    "pledge": false,
-    "pledge_multi": true,
-    "shareholding": true,
-    "insider": true
-   },
-   "events": [],
-   "event_score": 0,
-   "event_counts": {},
-   "neg_events": 0,
-   "promoter_chg": 0.0,
-   "promoter_now": 62.89,
-   "pit_net_cr": 0.0,
-   "pit_buys": 0,
-   "pit_sells": 0
-  }
- },
- "SHARDACROP.NS": {
-  "fetched": "2026-10-26",
-  "data": {
-   "status": {
-    "announcements": true,
-    "pledge": false,
-    "pledge_multi": true,
-    "shareholding": true,
-    "insider": true
-   },
-   "events": [],
-   "event_score": 0,
-   "event_counts": {},
-   "neg_events": 0,
-   "promoter_chg": 0.0,
-   "promoter_now": 74.82,
-   "pit_net_cr": 0.0,
-   "pit_buys": 0,
-   "pit_sells": 0
-  }
- },
- "FIEMIND.NS": {
-  "fetched": "2026-10-26",
+  "fetched": "2026-10-27",
   "data": {
    "status": {
     "announcements": true,
@@ -5439,9 +5457,63 @@
    "neg_events": 0,
    "pledge": 0.0,
    "pledge_chg": null,
-   "pledge_source": "local_cache",
-   "pledge_as_of": "2026-10-23",
+   "pledge_source": "nse_pledge_api",
+   "pledge_as_of": "26-11-2019",
    "pledge_confidence": "single",
+   "pledge_conflict": false,
+   "promoter_chg": 0.0,
+   "promoter_now": 62.89,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "SHARDACROP.NS": {
+  "fetched": "2026-10-27",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "pledge_multi": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [],
+   "event_score": 0,
+   "event_counts": {},
+   "neg_events": 0,
+   "pledge": 0.0,
+   "pledge_chg": null,
+   "pledge_source": "nse_pledge_api",
+   "pledge_as_of": null,
+   "pledge_confidence": "single",
+   "pledge_conflict": false,
+   "promoter_chg": 0.0,
+   "promoter_now": 74.82,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "FIEMIND.NS": {
+  "fetched": "2026-10-27",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "pledge_multi": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [],
+   "event_score": 0,
+   "event_counts": {},
+   "neg_events": 0,
+   "pledge": 0.0,
+   "pledge_chg": null,
+   "pledge_source": "nse_pledge_api",
+   "pledge_as_of": null,
+   "pledge_confidence": "high",
    "pledge_conflict": false,
    "promoter_chg": 0.0,
    "promoter_now": 54.52,
@@ -5451,11 +5523,11 @@
   }
  },
  "SONATSOFTW.NS": {
-  "fetched": "2026-10-26",
+  "fetched": "2026-10-27",
   "data": {
    "status": {
     "announcements": true,
-    "pledge": false,
+    "pledge": true,
     "pledge_multi": true,
     "shareholding": true,
     "insider": true
@@ -5476,6 +5548,12 @@
     "acquisition": 1
    },
    "neg_events": 0,
+   "pledge": 0.0,
+   "pledge_chg": null,
+   "pledge_source": "nse_pledge_api",
+   "pledge_as_of": "07-04-2016",
+   "pledge_confidence": "single",
+   "pledge_conflict": false,
    "promoter_chg": 0.0,
    "promoter_now": 28.17,
    "pit_net_cr": 0.0,
@@ -5484,11 +5562,11 @@
   }
  },
  "TANLA.NS": {
-  "fetched": "2026-10-26",
+  "fetched": "2026-10-27",
   "data": {
    "status": {
     "announcements": true,
-    "pledge": false,
+    "pledge": true,
     "pledge_multi": true,
     "shareholding": true,
     "insider": true
@@ -5509,6 +5587,12 @@
     "acquisition": 1
    },
    "neg_events": 0,
+   "pledge": 0.0,
+   "pledge_chg": null,
+   "pledge_source": "nse_pledge_api",
+   "pledge_as_of": null,
+   "pledge_confidence": "single",
+   "pledge_conflict": false,
    "promoter_chg": 0.0,
    "promoter_now": 46.17,
    "pit_net_cr": 0.0,
@@ -5517,7 +5601,7 @@
   }
  },
  "STYLAMIND.NS": {
-  "fetched": "2026-10-26",
+  "fetched": "2026-10-27",
   "data": {
    "status": {
     "announcements": true,
@@ -5538,11 +5622,11 @@
   }
  },
  "CENTUM.NS": {
-  "fetched": "2026-10-26",
+  "fetched": "2026-10-27",
   "data": {
    "status": {
     "announcements": true,
-    "pledge": false,
+    "pledge": true,
     "pledge_multi": true,
     "shareholding": true,
     "insider": true
@@ -5573,6 +5657,12 @@
     "approval": 1
    },
    "neg_events": 0,
+   "pledge": 0.0,
+   "pledge_chg": null,
+   "pledge_source": "nse_pledge_api",
+   "pledge_as_of": "10-03-2021",
+   "pledge_confidence": "single",
+   "pledge_conflict": false,
    "promoter_chg": -0.18,
    "promoter_now": 46.81,
    "pit_net_cr": 0.0,
@@ -5581,7 +5671,7 @@
   }
  },
  "NEWGEN.NS": {
-  "fetched": "2026-10-26",
+  "fetched": "2026-10-27",
   "data": {
    "status": {
     "announcements": true,
@@ -5664,7 +5754,7 @@
   }
  },
  "QUESS.NS": {
-  "fetched": "2026-10-26",
+  "fetched": "2026-10-27",
   "data": {
    "status": {
     "announcements": true,
@@ -5685,7 +5775,7 @@
   }
  },
  "MAPMYINDIA.NS": {
-  "fetched": "2026-10-26",
+  "fetched": "2026-10-27",
   "data": {
    "status": {
     "announcements": true,
@@ -5706,7 +5796,7 @@
   }
  },
  "REFEX.NS": {
-  "fetched": "2026-10-26",
+  "fetched": "2026-10-27",
   "data": {
    "status": {
     "announcements": true,
@@ -5850,10 +5940,10 @@
     "distress": 2
    },
    "neg_events": 2,
-   "pledge": 47.4,
+   "pledge": 47.39,
    "pledge_chg": null,
-   "pledge_source": "screener",
-   "pledge_as_of": "2026-10-26",
+   "pledge_source": "nse_pledge_api",
+   "pledge_as_of": "29-09-2026",
    "pledge_confidence": "high",
    "pledge_conflict": false,
    "promoter_chg": 0.76,
@@ -6105,7 +6195,7 @@
   }
  },
  "POWERMECH.NS": {
-  "fetched": "2026-10-26",
+  "fetched": "2026-10-27",
   "data": {
    "status": {
     "announcements": true,
@@ -6387,7 +6477,7 @@
   }
  },
  "KIRLPNU.NS": {
-  "fetched": "2026-10-26",
+  "fetched": "2026-10-27",
   "data": {
    "status": {
     "announcements": true,
@@ -6439,7 +6529,7 @@
   }
  },
  "SANDUMA.NS": {
-  "fetched": "2026-10-26",
+  "fetched": "2026-10-27",
   "data": {
    "status": {
     "announcements": true,
@@ -6542,7 +6632,7 @@
   }
  },
  "VESUVIUS.NS": {
-  "fetched": "2026-10-26",
+  "fetched": "2026-10-27",
   "data": {
    "status": {
     "announcements": true,
@@ -6559,7 +6649,7 @@
    "pledge_chg": null,
    "pledge_source": "nse_pledge_api",
    "pledge_as_of": null,
-   "pledge_confidence": "single",
+   "pledge_confidence": "high",
    "pledge_conflict": false,
    "promoter_chg": 0.0,
    "promoter_now": 55.57,
