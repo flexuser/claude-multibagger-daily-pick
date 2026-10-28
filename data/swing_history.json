@@ -715,7 +715,7 @@
   "t1": 499.85,
   "t2": 515.77,
   "t3": 533.27,
-  "confidence": 71.0,
+  "confidence": 71,
   "status": "active",
   "outcome": null,
   "hit_t1": false,
@@ -725,6 +725,8 @@
   "exit_price": null,
   "exit_date": null,
   "r_multiple": null,
+  "last_price": 476.05,
+  "as_of": "2026-10-28",
   "reasons": [
    "Breakout above 475.50",
    "Volume mild (0.78x)",
@@ -733,9 +735,7 @@
    "Above 50 DMA",
    "HH-HL structure",
    "Risk-off regime \u2192 higher quality required"
-  ],
-  "last_price": 476.05,
-  "as_of": "2026-10-28"
+  ]
  },
  {
   "date": "2026-10-16",
@@ -752,7 +752,7 @@
   "hit_t2": false,
   "hit_t3": false,
   "days_held": 12,
-  "exit_price": 3979.0,
+  "exit_price": 3979,
   "exit_date": "2026-10-28",
   "r_multiple": 0.23,
   "last_price": 4075.6,
@@ -784,7 +784,7 @@
   "days_held": 10,
   "exit_price": 104.4,
   "exit_date": "2026-10-28",
-  "r_multiple": -1.0,
+  "r_multiple": -1,
   "last_price": 113.42,
   "as_of": "2026-10-16",
   "reasons": [
@@ -814,7 +814,7 @@
   "days_held": 9,
   "exit_price": 104.4,
   "exit_date": "2026-10-28",
-  "r_multiple": -1.0,
+  "r_multiple": -1,
   "last_price": 113.42,
   "as_of": "2026-10-16",
   "reasons": [
@@ -844,7 +844,7 @@
   "days_held": 8,
   "exit_price": 104.43,
   "exit_date": "2026-10-28",
-  "r_multiple": -1.0,
+  "r_multiple": -1,
   "last_price": 111.67,
   "as_of": "2026-10-19",
   "reasons": [
@@ -874,7 +874,7 @@
   "days_held": 7,
   "exit_price": 104.35,
   "exit_date": "2026-10-28",
-  "r_multiple": -1.0,
+  "r_multiple": -1,
   "last_price": 109.74,
   "as_of": "2026-10-21",
   "reasons": [

@@ -2,12 +2,12 @@
  "date": "2026-10-28",
  "regime": "risk_off",
  "nifty": {
-  "last": 22698.8496,
-  "ret_6m": -5.4045,
-  "ret_3m": -6.3973,
-  "ret_1m": -0.3573,
-  "above_200dma": -5.7,
-  "ma50_vs_200": -3.2,
+  "last": 22749.75,
+  "ret_6m": -5.5741,
+  "ret_3m": -5.1515,
+  "ret_1m": -1.6886,
+  "above_200dma": -5.6,
+  "ma50_vs_200": -3.1,
   "regime": "risk_off"
  },
  "signals": [
@@ -15,31 +15,31 @@
    "ticker": "COHANCE.NS",
    "signal": "BUY",
    "entry": 475.98,
-   "stop_loss": 454.5,
-   "t1": 499.85,
-   "t2": 515.77,
-   "t3": 533.27,
-   "confidence": 71.0,
+   "stop_loss": 453.86,
+   "t1": 500.56,
+   "t2": 516.94,
+   "t3": 534.97,
+   "confidence": 87.0,
    "holding_days": "3-12 trading days",
    "risk_reward_t1": 1.11,
-   "atr": 15.91,
-   "rsi": 59.7,
-   "volume_surge": 0.78,
+   "atr": 16.39,
+   "rsi": 60.6,
+   "volume_surge": 1.53,
    "regime": "risk_off",
    "reasons": [
     "Breakout above 475.50",
-    "Volume mild (0.78x)",
-    "RSI healthy (59.7)",
+    "Volume surge 1.53x",
+    "RSI healthy (60.6)",
     "Above 20 DMA",
     "Above 50 DMA",
     "HH-HL structure",
     "Risk-off regime \u2192 higher quality required"
    ],
-   "invalidation": "Daily close below 454.5",
+   "invalidation": "Daily close below 453.86",
    "resistance": 475.5,
    "support": 427.5,
-   "last_price": 476.05,
-   "as_of": "2026-10-28"
+   "last_price": 479.25,
+   "as_of": "2026-10-27"
   }
  ],
  "history": [
@@ -759,7 +759,7 @@
    "t1": 499.85,
    "t2": 515.77,
    "t3": 533.27,
-   "confidence": 71.0,
+   "confidence": 71,
    "status": "active",
    "outcome": null,
    "hit_t1": false,
@@ -769,6 +769,8 @@
    "exit_price": null,
    "exit_date": null,
    "r_multiple": null,
+   "last_price": 476.05,
+   "as_of": "2026-10-28",
    "reasons": [
     "Breakout above 475.50",
     "Volume mild (0.78x)",
@@ -777,9 +779,7 @@
     "Above 50 DMA",
     "HH-HL structure",
     "Risk-off regime \u2192 higher quality required"
-   ],
-   "last_price": 476.05,
-   "as_of": "2026-10-28"
+   ]
   },
   {
    "date": "2026-10-16",
@@ -796,7 +796,7 @@
    "hit_t2": false,
    "hit_t3": false,
    "days_held": 12,
-   "exit_price": 3979.0,
+   "exit_price": 3979,
    "exit_date": "2026-10-28",
    "r_multiple": 0.23,
    "last_price": 4075.6,
@@ -828,7 +828,7 @@
    "days_held": 10,
    "exit_price": 104.4,
    "exit_date": "2026-10-28",
-   "r_multiple": -1.0,
+   "r_multiple": -1,
    "last_price": 113.42,
    "as_of": "2026-10-16",
    "reasons": [
@@ -858,7 +858,7 @@
    "days_held": 9,
    "exit_price": 104.4,
    "exit_date": "2026-10-28",
-   "r_multiple": -1.0,
+   "r_multiple": -1,
    "last_price": 113.42,
    "as_of": "2026-10-16",
    "reasons": [
@@ -888,7 +888,7 @@
    "days_held": 8,
    "exit_price": 104.43,
    "exit_date": "2026-10-28",
-   "r_multiple": -1.0,
+   "r_multiple": -1,
    "last_price": 111.67,
    "as_of": "2026-10-19",
    "reasons": [
@@ -918,7 +918,7 @@
    "days_held": 7,
    "exit_price": 104.35,
    "exit_date": "2026-10-28",
-   "r_multiple": -1.0,
+   "r_multiple": -1,
    "last_price": 109.74,
    "as_of": "2026-10-21",
    "reasons": [

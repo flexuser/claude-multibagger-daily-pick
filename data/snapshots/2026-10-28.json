@@ -4,7 +4,7 @@
  "demo": false,
  "shortlist": [],
  "rejected_counts": {
-  "mcap outside shortlist band (300-8000 cr)": 462,
+  "mcap outside shortlist band (300-8000 cr)": 455,
   "revenue growth looks like a data error": 8,
   "sales CAGR -2% below 15%": 4,
   "sales CAGR 3% below 15%": 6,
@@ -12,16 +12,18 @@
   "sales CAGR 1% below 15%": 2,
   "sales CAGR 12% below 15%": 6,
   "sales CAGR -90% below 15%": 1,
+  "sales CAGR 11% below 15%": 9,
   "sales CAGR 14% below 15%": 2,
+  "pledge not verified": 9,
+  "ROCE 5% below 15%": 3,
+  "sales CAGR 6% below 15%": 5,
   "sales CAGR 0% below 15%": 1,
-  "sales CAGR -3% below 15%": 2,
+  "sales CAGR -3% below 15%": 3,
   "sales CAGR -13% below 15%": 1,
   "CFO/PAT 0.09 too low": 1,
-  "sales CAGR 11% below 15%": 7,
   "valuation not acceptable (PE 88, PEG None)": 1,
   "sales CAGR -9% below 15%": 2,
   "sales CAGR 9% below 15%": 9,
-  "pledge not verified": 8,
   "ROCE 15% below 15%": 1,
   "sales CAGR 7% below 15%": 4,
   "sales CAGR -16% below 15%": 1,
@@ -30,9 +32,7 @@
   "ROCE 9% below 15%": 1,
   "valuation not acceptable (PE 33, PEG None)": 2,
   "CFO/PAT -2.11 too low": 1,
-  "sales CAGR 6% below 15%": 4,
   "missing critical field: dilution": 1,
-  "ROCE 5% below 15%": 2,
   "CFO/PAT -0.88 too low": 1,
   "sales CAGR 2% below 15%": 3,
   "promoter holding 20% too low": 1,
@@ -85,5 +85,5 @@
   "ROCE 8% below 15%": 1
  },
  "universe": 651,
- "liquid": 633
+ "liquid": 632
 }

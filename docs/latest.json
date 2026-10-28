@@ -2,15 +2,15 @@
  "generated": "2026-10-28",
  "demo": false,
  "universe": 651,
- "liquid": 633,
- "with_data": 633,
+ "liquid": 632,
+ "with_data": 632,
  "eligible": 0,
  "fund_stats": {
-  "attempted": 150,
+  "attempted": 147,
   "failed": 0
  },
  "rejected": {
-  "mcap outside shortlist band (300-8000 cr)": 462,
+  "mcap outside shortlist band (300-8000 cr)": 455,
   "revenue growth looks like a data error": 8,
   "sales CAGR -2% below 15%": 4,
   "sales CAGR 3% below 15%": 6,
@@ -18,16 +18,18 @@
   "sales CAGR 1% below 15%": 2,
   "sales CAGR 12% below 15%": 6,
   "sales CAGR -90% below 15%": 1,
+  "sales CAGR 11% below 15%": 9,
   "sales CAGR 14% below 15%": 2,
+  "pledge not verified": 9,
+  "ROCE 5% below 15%": 3,
+  "sales CAGR 6% below 15%": 5,
   "sales CAGR 0% below 15%": 1,
-  "sales CAGR -3% below 15%": 2,
+  "sales CAGR -3% below 15%": 3,
   "sales CAGR -13% below 15%": 1,
   "CFO/PAT 0.09 too low": 1,
-  "sales CAGR 11% below 15%": 7,
   "valuation not acceptable (PE 88, PEG None)": 1,
   "sales CAGR -9% below 15%": 2,
   "sales CAGR 9% below 15%": 9,
-  "pledge not verified": 8,
   "ROCE 15% below 15%": 1,
   "sales CAGR 7% below 15%": 4,
   "sales CAGR -16% below 15%": 1,
@@ -36,9 +38,7 @@
   "ROCE 9% below 15%": 1,
   "valuation not acceptable (PE 33, PEG None)": 2,
   "CFO/PAT -2.11 too low": 1,
-  "sales CAGR 6% below 15%": 4,
   "missing critical field: dilution": 1,
-  "ROCE 5% below 15%": 2,
   "CFO/PAT -0.88 too low": 1,
   "sales CAGR 2% below 15%": 3,
   "promoter holding 20% too low": 1,
@@ -91,14 +91,8 @@
   "ROCE 8% below 15%": 1
  },
  "signals": {
-  "attempted": 35,
-  "ok": {
-   "announcements": 35,
-   "pledge": 22,
-   "pledge_multi": 35,
-   "shareholding": 35,
-   "insider": 35
-  },
+  "attempted": 0,
+  "ok": {},
   "blocked": false,
   "checked": 35,
   "demo": false
@@ -137,8 +131,8 @@
    "ticker": "ACUTAAS.NS",
    "name": "ACUTAAS CHEMICALS LIMITED",
    "days": 1,
-   "ret": 16.4899,
-   "nifty_ret": 1.2704,
+   "ret": 18.6704,
+   "nifty_ret": 1.462,
    "active": false
   },
   {
@@ -146,8 +140,8 @@
    "ticker": "SEDEMAC.NS",
    "name": "SEDEMAC MECHATRONICS LTD",
    "days": 7,
-   "ret": -8.7331,
-   "nifty_ret": 0.7103,
+   "ret": -7.8104,
+   "nifty_ret": 0.9008,
    "active": true
   }
  ],
@@ -155,7 +149,7 @@
   "episodes": 2,
   "measured": 2,
   "beat": 1,
-  "avg_excess": 2.8881
+  "avg_excess": 4.2486
  },
  "dd_rejected": [],
  "dd_blocked": false,
@@ -181,7 +175,7 @@
   {
    "ticker": "JSLL.NS",
    "name": "JEENA SIKHO LIFECARE LTD",
-   "price": 345.65,
+   "price": 344.5,
    "mcap_cr": 4287.9382,
    "roce": 52.1794,
    "rev_cagr": 57.6631,
@@ -200,7 +194,7 @@
   {
    "ticker": "SHILCTECH.NS",
    "name": "SHILCHAR TECHNOLOGIES LTD",
-   "price": 3783.2,
+   "price": 3924.5,
    "mcap_cr": 4248.8902,
    "roce": 43.1846,
    "rev_cagr": 32.5028,
@@ -224,7 +218,7 @@
   {
    "ticker": "CRAMC.NS",
    "name": "CANARA ROBECO AMC LIMITED",
-   "price": 208.39,
+   "price": 207.5,
    "mcap_cr": 4082.0744,
    "roce": 36.2299,
    "rev_cagr": 16.5686,
@@ -244,7 +238,7 @@
   {
    "ticker": "CMPDI.NS",
    "name": "CENTRAL MINE P N D INST L",
-   "price": 185.83,
+   "price": 184.37,
    "mcap_cr": null,
    "roce": 36.0539,
    "rev_cagr": 18.6722,
@@ -266,7 +260,7 @@
   {
    "ticker": "NEWGEN.NS",
    "name": "NEWGEN SOFTWARE TECH LTD",
-   "price": 458.0,
+   "price": 470.0,
    "mcap_cr": 6755.9059,
    "roce": 21.5641,
    "rev_cagr": 17.3604,
@@ -285,7 +279,7 @@
   {
    "ticker": "VESUVIUS.NS",
    "name": "VESUVIUS INDIA LTD",
-   "price": 382.35,
+   "price": 383.35,
    "mcap_cr": 7822.1091,
    "roce": 21.3152,
    "rev_cagr": 16.2929,
@@ -306,9 +300,28 @@
    "soft_score": 100.7
   },
   {
+   "ticker": "RAILTEL.NS",
+   "name": "RAILTEL CORP OF IND LTD",
+   "price": 229.95,
+   "mcap_cr": 7359.1177,
+   "roce": 20.5932,
+   "rev_cagr": 29.8123,
+   "pe": 21.7346,
+   "outcome": "watchlist",
+   "label": "Watchlist",
+   "needs": [
+    "verified promoter pledge % from shareholding filing"
+   ],
+   "gaps": [
+    "pledge not verified"
+   ],
+   "coverage": 1.0,
+   "soft_score": 100.3
+  },
+  {
    "ticker": "POWERMECH.NS",
    "name": "POWER MECH PROJECTS LTD.",
-   "price": 2204.8,
+   "price": 2166.5,
    "mcap_cr": 6626.7746,
    "roce": 20.5228,
    "rev_cagr": 18.886,
@@ -329,7 +342,7 @@
   {
    "ticker": "VIKRAMSOLR.NS",
    "name": "VIKRAM SOLAR LIMITED",
-   "price": 127.5,
+   "price": 130.47,
    "mcap_cr": 4651.9054,
    "roce": 20.1598,
    "rev_cagr": 32.3173,
@@ -350,7 +363,7 @@
   {
    "ticker": "SKIPPER.NS",
    "name": "SKIPPER LIMITED",
-   "price": 506.35,
+   "price": 507.9,
    "mcap_cr": 5773.3116,
    "roce": 18.8062,
    "rev_cagr": 39.9442,
@@ -373,7 +386,7 @@
   {
    "ticker": "ASHAPURMIN.NS",
    "name": "ASHAPURA MINECHEM LTD",
-   "price": 428.35,
+   "price": 424.75,
    "mcap_cr": 4038.3656,
    "roce": 18.1689,
    "rev_cagr": 42.3883,
@@ -394,7 +407,7 @@
   {
    "ticker": "LUMAXIND.NS",
    "name": "LUMAX INDUSTRIES LTD",
-   "price": 5100.0,
+   "price": 5051.0,
    "mcap_cr": 4687.8876,
    "roce": 15.6859,
    "rev_cagr": 21.427,
@@ -411,27 +424,6 @@
    ],
    "coverage": 1.0,
    "soft_score": 97.8
-  },
-  {
-   "ticker": "LATENTVIEW.NS",
-   "name": "LATENT VIEW ANALYTICS LTD",
-   "price": 220.23,
-   "mcap_cr": 4659.3729,
-   "roce": 15.1502,
-   "rev_cagr": 25.3129,
-   "pe": 23.86,
-   "outcome": "watchlist",
-   "label": "Watchlist",
-   "needs": [
-    "verified promoter pledge % from shareholding filing",
-    "positive recent operating/profit growth"
-   ],
-   "gaps": [
-    "pledge not verified",
-    "recent profit growth negative"
-   ],
-   "coverage": 1.0,
-   "soft_score": 97.6
   }
  ],
  "rulebook_version": "2026-10-23.1",
