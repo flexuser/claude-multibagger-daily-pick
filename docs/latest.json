@@ -1,21 +1,24 @@
 {
- "generated": "2026-10-27",
+ "generated": "2026-10-28",
  "demo": false,
  "universe": 651,
  "liquid": 633,
  "with_data": 633,
  "eligible": 0,
  "fund_stats": {
-  "attempted": 0,
+  "attempted": 150,
   "failed": 0
  },
  "rejected": {
-  "mcap outside shortlist band (300-8000 cr)": 467,
+  "mcap outside shortlist band (300-8000 cr)": 462,
+  "revenue growth looks like a data error": 8,
+  "sales CAGR -2% below 15%": 4,
   "sales CAGR 3% below 15%": 6,
-  "missing critical field: q_rev_yoy": 1,
-  "revenue growth looks like a data error": 7,
+  "missing critical field: mcap_cr": 2,
+  "sales CAGR 1% below 15%": 2,
+  "sales CAGR 12% below 15%": 6,
+  "sales CAGR -90% below 15%": 1,
   "sales CAGR 14% below 15%": 2,
-  "sales CAGR 1% below 15%": 1,
   "sales CAGR 0% below 15%": 1,
   "sales CAGR -3% below 15%": 2,
   "sales CAGR -13% below 15%": 1,
@@ -25,7 +28,6 @@
   "sales CAGR -9% below 15%": 2,
   "sales CAGR 9% below 15%": 9,
   "pledge not verified": 8,
-  "sales CAGR -2% below 15%": 3,
   "ROCE 15% below 15%": 1,
   "sales CAGR 7% below 15%": 4,
   "sales CAGR -16% below 15%": 1,
@@ -45,7 +47,6 @@
   "ROCE -3% below 15%": 1,
   "ROCE 10% below 15%": 2,
   "CFO/PAT -0.48 too low": 1,
-  "sales CAGR 12% below 15%": 5,
   "ROCE 3% below 15%": 3,
   "receivable days up 81% \u2014 extreme deterioration": 1,
   "CFO/PAT -0.82 too low": 1,
@@ -70,7 +71,6 @@
   "valuation not acceptable (PE 38, PEG None)": 1,
   "sales CAGR 8% below 15%": 1,
   "valuation not acceptable (PE 41, PEG None)": 1,
-  "missing critical field: mcap_cr": 1,
   "promoter holding 24% too low": 1,
   "valuation not acceptable (PE 45, PEG None)": 1,
   "valuation not acceptable (PE 36, PEG None)": 1,
@@ -91,8 +91,14 @@
   "ROCE 8% below 15%": 1
  },
  "signals": {
-  "attempted": 0,
-  "ok": {},
+  "attempted": 35,
+  "ok": {
+   "announcements": 35,
+   "pledge": 22,
+   "pledge_multi": 35,
+   "shareholding": 35,
+   "insider": 35
+  },
   "blocked": false,
   "checked": 35,
   "demo": false
@@ -131,8 +137,8 @@
    "ticker": "ACUTAAS.NS",
    "name": "ACUTAAS CHEMICALS LIMITED",
    "days": 1,
-   "ret": 4.7646,
-   "nifty_ret": 1.4773,
+   "ret": 16.4899,
+   "nifty_ret": 1.2704,
    "active": false
   },
   {
@@ -140,8 +146,8 @@
    "ticker": "SEDEMAC.NS",
    "name": "SEDEMAC MECHATRONICS LTD",
    "days": 7,
-   "ret": -8.183,
-   "nifty_ret": 0.9161,
+   "ret": -8.7331,
+   "nifty_ret": 0.7103,
    "active": true
   }
  ],
@@ -149,7 +155,7 @@
   "episodes": 2,
   "measured": 2,
   "beat": 1,
-  "avg_excess": -2.9059
+  "avg_excess": 2.8881
  },
  "dd_rejected": [],
  "dd_blocked": false,
@@ -175,7 +181,7 @@
   {
    "ticker": "JSLL.NS",
    "name": "JEENA SIKHO LIFECARE LTD",
-   "price": 344.7,
+   "price": 345.65,
    "mcap_cr": 4287.9382,
    "roce": 52.1794,
    "rev_cagr": 57.6631,
@@ -194,7 +200,7 @@
   {
    "ticker": "SHILCTECH.NS",
    "name": "SHILCHAR TECHNOLOGIES LTD",
-   "price": 3687.0,
+   "price": 3783.2,
    "mcap_cr": 4248.8902,
    "roce": 43.1846,
    "rev_cagr": 32.5028,
@@ -218,7 +224,7 @@
   {
    "ticker": "CRAMC.NS",
    "name": "CANARA ROBECO AMC LIMITED",
-   "price": 204.17,
+   "price": 208.39,
    "mcap_cr": 4082.0744,
    "roce": 36.2299,
    "rev_cagr": 16.5686,
@@ -236,9 +242,31 @@
    "soft_score": 103.7
   },
   {
+   "ticker": "CMPDI.NS",
+   "name": "CENTRAL MINE P N D INST L",
+   "price": 185.83,
+   "mcap_cr": null,
+   "roce": 36.0539,
+   "rev_cagr": 18.6722,
+   "pe": 19.729,
+   "outcome": "unknown",
+   "label": "Unknown",
+   "needs": [
+    "verified promoter pledge % from shareholding filing",
+    "stronger same-quarter YoY revenue growth"
+   ],
+   "gaps": [
+    "pledge not verified",
+    "recent sales growth 8% weak vs 8% floor",
+    "missing critical field: mcap_cr"
+   ],
+   "coverage": 0.889,
+   "soft_score": 103.6
+  },
+  {
    "ticker": "NEWGEN.NS",
    "name": "NEWGEN SOFTWARE TECH LTD",
-   "price": 475.9,
+   "price": 458.0,
    "mcap_cr": 6755.9059,
    "roce": 21.5641,
    "rev_cagr": 17.3604,
@@ -257,7 +285,7 @@
   {
    "ticker": "VESUVIUS.NS",
    "name": "VESUVIUS INDIA LTD",
-   "price": 385.4,
+   "price": 382.35,
    "mcap_cr": 7822.1091,
    "roce": 21.3152,
    "rev_cagr": 16.2929,
@@ -280,7 +308,7 @@
   {
    "ticker": "POWERMECH.NS",
    "name": "POWER MECH PROJECTS LTD.",
-   "price": 2118.3,
+   "price": 2204.8,
    "mcap_cr": 6626.7746,
    "roce": 20.5228,
    "rev_cagr": 18.886,
@@ -301,7 +329,7 @@
   {
    "ticker": "VIKRAMSOLR.NS",
    "name": "VIKRAM SOLAR LIMITED",
-   "price": 128.38,
+   "price": 127.5,
    "mcap_cr": 4651.9054,
    "roce": 20.1598,
    "rev_cagr": 32.3173,
@@ -322,7 +350,7 @@
   {
    "ticker": "SKIPPER.NS",
    "name": "SKIPPER LIMITED",
-   "price": 472.9,
+   "price": 506.35,
    "mcap_cr": 5773.3116,
    "roce": 18.8062,
    "rev_cagr": 39.9442,
@@ -343,31 +371,9 @@
    "soft_score": 99.4
   },
   {
-   "ticker": "CMPDI.NS",
-   "name": "CENTRAL MINE P N D INST L",
-   "price": 183.66,
-   "mcap_cr": null,
-   "roce": 36.0539,
-   "rev_cagr": 18.6722,
-   "pe": 21.4869,
-   "outcome": "unknown",
-   "label": "Unknown",
-   "needs": [
-    "verified promoter pledge % from shareholding filing"
-   ],
-   "gaps": [
-    "pledge not verified",
-    "missing critical field: q_rev_yoy",
-    "missing critical field: mcap_cr",
-    "missing critical field: q_profit_yoy"
-   ],
-   "coverage": 0.778,
-   "soft_score": 99.1
-  },
-  {
    "ticker": "ASHAPURMIN.NS",
    "name": "ASHAPURA MINECHEM LTD",
-   "price": 417.1,
+   "price": 428.35,
    "mcap_cr": 4038.3656,
    "roce": 18.1689,
    "rev_cagr": 42.3883,
@@ -388,7 +394,7 @@
   {
    "ticker": "LUMAXIND.NS",
    "name": "LUMAX INDUSTRIES LTD",
-   "price": 4921.0,
+   "price": 5100.0,
    "mcap_cr": 4687.8876,
    "roce": 15.6859,
    "rev_cagr": 21.427,
@@ -409,7 +415,7 @@
   {
    "ticker": "LATENTVIEW.NS",
    "name": "LATENT VIEW ANALYTICS LTD",
-   "price": 225.3,
+   "price": 220.23,
    "mcap_cr": 4659.3729,
    "roce": 15.1502,
    "rev_cagr": 25.3129,

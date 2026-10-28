@@ -2463,7 +2463,7 @@
   }
  },
  "SJS.NS": {
-  "fetched": "2026-10-27",
+  "fetched": "2026-10-28",
   "data": {
    "status": {
     "announcements": true,
@@ -2540,7 +2540,7 @@
    "pledge_chg": null,
    "pledge_source": "nse_pledge_api",
    "pledge_as_of": "12-12-2024",
-   "pledge_confidence": "single",
+   "pledge_confidence": "high",
    "pledge_conflict": false,
    "promoter_chg": -1.57,
    "promoter_now": 19.99,
@@ -2593,7 +2593,7 @@
   }
  },
  "GPPL.NS": {
-  "fetched": "2026-10-27",
+  "fetched": "2026-10-28",
   "data": {
    "status": {
     "announcements": true,
@@ -2610,7 +2610,7 @@
    "pledge_chg": null,
    "pledge_source": "nse_pledge_api",
    "pledge_as_of": null,
-   "pledge_confidence": "single",
+   "pledge_confidence": "high",
    "pledge_conflict": false,
    "promoter_chg": 0.0,
    "promoter_now": 44.01,
@@ -2836,7 +2836,7 @@
   }
  },
  "JSLL.NS": {
-  "fetched": "2026-10-27",
+  "fetched": "2026-10-28",
   "data": {
    "status": {
     "announcements": true,
@@ -3025,7 +3025,7 @@
   }
  },
  "PRECWIRE.NS": {
-  "fetched": "2026-10-27",
+  "fetched": "2026-10-28",
   "data": {
    "status": {
     "announcements": true,
@@ -3073,7 +3073,7 @@
    "pledge_chg": null,
    "pledge_source": "nse_pledge_api",
    "pledge_as_of": null,
-   "pledge_confidence": "single",
+   "pledge_confidence": "high",
    "pledge_conflict": false,
    "promoter_chg": -0.87,
    "promoter_now": 56.62,
@@ -3469,7 +3469,7 @@
   }
  },
  "SHILCTECH.NS": {
-  "fetched": "2026-10-27",
+  "fetched": "2026-10-28",
   "data": {
    "status": {
     "announcements": true,
@@ -3560,7 +3560,7 @@
   }
  },
  "THYROCARE.NS": {
-  "fetched": "2026-10-27",
+  "fetched": "2026-10-28",
   "data": {
    "status": {
     "announcements": true,
@@ -3607,7 +3607,7 @@
    "pledge_chg": null,
    "pledge_source": "nse_pledge_api",
    "pledge_as_of": "29-09-2025",
-   "pledge_confidence": "single",
+   "pledge_confidence": "high",
    "pledge_conflict": false,
    "promoter_chg": -9.91,
    "promoter_now": 51.02,
@@ -3792,7 +3792,7 @@
   }
  },
  "SUPRIYA.NS": {
-  "fetched": "2026-10-27",
+  "fetched": "2026-10-28",
   "data": {
    "status": {
     "announcements": true,
@@ -3813,7 +3813,7 @@
   }
  },
  "OSWALPUMPS.NS": {
-  "fetched": "2026-10-27",
+  "fetched": "2026-10-28",
   "data": {
    "status": {
     "announcements": true,
@@ -3834,7 +3834,7 @@
   }
  },
  "TRANSRAILL.NS": {
-  "fetched": "2026-10-27",
+  "fetched": "2026-10-28",
   "data": {
    "status": {
     "announcements": true,
@@ -3901,7 +3901,7 @@
    "pledge_chg": null,
    "pledge_source": "nse_pledge_api",
    "pledge_as_of": null,
-   "pledge_confidence": "single",
+   "pledge_confidence": "high",
    "pledge_conflict": false,
    "promoter_chg": 0.0,
    "promoter_now": 71.12,
@@ -3982,7 +3982,7 @@
   }
  },
  "WAAREERTL.NS": {
-  "fetched": "2026-10-27",
+  "fetched": "2026-10-28",
   "data": {
    "status": {
     "announcements": true,
@@ -3992,6 +3992,15 @@
     "insider": true
    },
    "events": [
+    {
+     "date": "2026-10-27",
+     "cats": [
+      "order_win"
+     ],
+     "type": "Bagging/Receiving of orders/contracts",
+     "text": "Waaree Renewable Technologies Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
+     "url": "https://nsearchives.nseindia.com/corporate/WAAREERTL_27102026150033_Intimation-s.pdf"
+    },
     {
      "date": "2026-10-23",
      "cats": [
@@ -4085,7 +4094,7 @@
    ],
    "event_score": 52,
    "event_counts": {
-    "order_win": 7,
+    "order_win": 8,
     "acquisition": 3
    },
    "neg_events": 0,
@@ -4141,7 +4150,7 @@
   }
  },
  "SMLMAH.NS": {
-  "fetched": "2026-10-27",
+  "fetched": "2026-10-28",
   "data": {
    "status": {
     "announcements": true,
@@ -4179,7 +4188,7 @@
    "pledge_chg": null,
    "pledge_source": "nse_pledge_api",
    "pledge_as_of": null,
-   "pledge_confidence": "single",
+   "pledge_confidence": "high",
    "pledge_conflict": false,
    "promoter_chg": 0.0,
    "promoter_now": 58.97,
@@ -4355,7 +4364,7 @@
   }
  },
  "SPARC.NS": {
-  "fetched": "2026-10-27",
+  "fetched": "2026-10-28",
   "data": {
    "status": {
     "announcements": true,
@@ -4372,7 +4381,7 @@
    "pledge_chg": null,
    "pledge_source": "nse_pledge_api",
    "pledge_as_of": "29-01-2016",
-   "pledge_confidence": "single",
+   "pledge_confidence": "high",
    "pledge_conflict": false,
    "promoter_chg": 0.0,
    "promoter_now": 65.67,
@@ -4564,7 +4573,7 @@
   }
  },
  "TTML.NS": {
-  "fetched": "2026-10-27",
+  "fetched": "2026-10-28",
   "data": {
    "status": {
     "announcements": true,
@@ -4581,7 +4590,7 @@
    "pledge_chg": null,
    "pledge_source": "nse_pledge_api",
    "pledge_as_of": "18-02-2019",
-   "pledge_confidence": "single",
+   "pledge_confidence": "high",
    "pledge_conflict": false,
    "promoter_chg": 0.0,
    "promoter_now": 74.36,
@@ -4634,7 +4643,7 @@
   }
  },
  "WEBELSOLAR.NS": {
-  "fetched": "2026-10-27",
+  "fetched": "2026-10-28",
   "data": {
    "status": {
     "announcements": true,
@@ -4692,7 +4701,7 @@
   }
  },
  "ASHOKA.NS": {
-  "fetched": "2026-10-27",
+  "fetched": "2026-10-28",
   "data": {
    "status": {
     "announcements": true,
@@ -5307,7 +5316,7 @@
   }
  },
  "CRAMC.NS": {
-  "fetched": "2026-10-27",
+  "fetched": "2026-10-28",
   "data": {
    "status": {
     "announcements": true,
@@ -5328,7 +5337,7 @@
   }
  },
  "GOKULAGRO.NS": {
-  "fetched": "2026-10-27",
+  "fetched": "2026-10-28",
   "data": {
    "status": {
     "announcements": true,
@@ -5345,7 +5354,7 @@
    "pledge_chg": null,
    "pledge_source": "nse_pledge_api",
    "pledge_as_of": "29-11-2016",
-   "pledge_confidence": "single",
+   "pledge_confidence": "high",
    "pledge_conflict": false,
    "promoter_chg": 0.57,
    "promoter_now": 74.24,
@@ -5355,7 +5364,7 @@
   }
  },
  "BAJAJCON.NS": {
-  "fetched": "2026-10-27",
+  "fetched": "2026-10-28",
   "data": {
    "status": {
     "announcements": true,
@@ -5372,7 +5381,7 @@
    "pledge_chg": null,
    "pledge_source": "nse_pledge_api",
    "pledge_as_of": "30-11-2016",
-   "pledge_confidence": "single",
+   "pledge_confidence": "high",
    "pledge_conflict": false,
    "promoter_chg": 2.02,
    "promoter_now": 42.97,
@@ -5382,7 +5391,7 @@
   }
  },
  "JAMNAAUTO.NS": {
-  "fetched": "2026-10-27",
+  "fetched": "2026-10-28",
   "data": {
    "status": {
     "announcements": true,
@@ -5421,7 +5430,7 @@
   }
  },
  "MSTCLTD.NS": {
-  "fetched": "2026-10-27",
+  "fetched": "2026-10-28",
   "data": {
    "status": {
     "announcements": true,
@@ -5442,7 +5451,7 @@
   }
  },
  "JYOTHYLAB.NS": {
-  "fetched": "2026-10-27",
+  "fetched": "2026-10-28",
   "data": {
    "status": {
     "announcements": true,
@@ -5459,7 +5468,7 @@
    "pledge_chg": null,
    "pledge_source": "nse_pledge_api",
    "pledge_as_of": "26-11-2019",
-   "pledge_confidence": "single",
+   "pledge_confidence": "high",
    "pledge_conflict": false,
    "promoter_chg": 0.0,
    "promoter_now": 62.89,
@@ -5469,7 +5478,7 @@
   }
  },
  "SHARDACROP.NS": {
-  "fetched": "2026-10-27",
+  "fetched": "2026-10-28",
   "data": {
    "status": {
     "announcements": true,
@@ -5486,7 +5495,7 @@
    "pledge_chg": null,
    "pledge_source": "nse_pledge_api",
    "pledge_as_of": null,
-   "pledge_confidence": "single",
+   "pledge_confidence": "high",
    "pledge_conflict": false,
    "promoter_chg": 0.0,
    "promoter_now": 74.82,
@@ -5496,7 +5505,7 @@
   }
  },
  "FIEMIND.NS": {
-  "fetched": "2026-10-27",
+  "fetched": "2026-10-28",
   "data": {
    "status": {
     "announcements": true,
@@ -5523,7 +5532,7 @@
   }
  },
  "SONATSOFTW.NS": {
-  "fetched": "2026-10-27",
+  "fetched": "2026-10-28",
   "data": {
    "status": {
     "announcements": true,
@@ -5552,7 +5561,7 @@
    "pledge_chg": null,
    "pledge_source": "nse_pledge_api",
    "pledge_as_of": "07-04-2016",
-   "pledge_confidence": "single",
+   "pledge_confidence": "high",
    "pledge_conflict": false,
    "promoter_chg": 0.0,
    "promoter_now": 28.17,
@@ -5562,7 +5571,7 @@
   }
  },
  "TANLA.NS": {
-  "fetched": "2026-10-27",
+  "fetched": "2026-10-28",
   "data": {
    "status": {
     "announcements": true,
@@ -5591,7 +5600,7 @@
    "pledge_chg": null,
    "pledge_source": "nse_pledge_api",
    "pledge_as_of": null,
-   "pledge_confidence": "single",
+   "pledge_confidence": "high",
    "pledge_conflict": false,
    "promoter_chg": 0.0,
    "promoter_now": 46.17,
@@ -5601,7 +5610,7 @@
   }
  },
  "STYLAMIND.NS": {
-  "fetched": "2026-10-27",
+  "fetched": "2026-10-28",
   "data": {
    "status": {
     "announcements": true,
@@ -5610,9 +5619,21 @@
     "shareholding": true,
     "insider": true
    },
-   "events": [],
-   "event_score": 0,
-   "event_counts": {},
+   "events": [
+    {
+     "date": "2026-10-28",
+     "cats": [
+      "bonus_split"
+     ],
+     "type": "Stock split",
+     "text": "Stylam Industries Limited has informed the Exchange that the Board of Directors at its meeting held on October 28, 2026, has considered and approved subdivision of 1 equity shares of Rs. 5 each into 8",
+     "url": "https://nsearchives.nseindia.com/corporate/STYLAMIND_28102026121349_Outcome.pdf"
+    }
+   ],
+   "event_score": 4,
+   "event_counts": {
+    "bonus_split": 1
+   },
    "neg_events": 0,
    "promoter_chg": 4.67,
    "promoter_now": 56.86,
@@ -5622,7 +5643,7 @@
   }
  },
  "CENTUM.NS": {
-  "fetched": "2026-10-27",
+  "fetched": "2026-10-28",
   "data": {
    "status": {
     "announcements": true,
@@ -5661,7 +5682,7 @@
    "pledge_chg": null,
    "pledge_source": "nse_pledge_api",
    "pledge_as_of": "10-03-2021",
-   "pledge_confidence": "single",
+   "pledge_confidence": "high",
    "pledge_conflict": false,
    "promoter_chg": -0.18,
    "promoter_now": 46.81,
@@ -5671,7 +5692,7 @@
   }
  },
  "NEWGEN.NS": {
-  "fetched": "2026-10-27",
+  "fetched": "2026-10-28",
   "data": {
    "status": {
     "announcements": true,
@@ -5754,7 +5775,7 @@
   }
  },
  "QUESS.NS": {
-  "fetched": "2026-10-27",
+  "fetched": "2026-10-28",
   "data": {
    "status": {
     "announcements": true,
@@ -5775,7 +5796,7 @@
   }
  },
  "MAPMYINDIA.NS": {
-  "fetched": "2026-10-27",
+  "fetched": "2026-10-28",
   "data": {
    "status": {
     "announcements": true,
@@ -5796,7 +5817,7 @@
   }
  },
  "REFEX.NS": {
-  "fetched": "2026-10-27",
+  "fetched": "2026-10-28",
   "data": {
    "status": {
     "announcements": true,
@@ -5806,6 +5827,15 @@
     "insider": true
    },
    "events": [
+    {
+     "date": "2026-10-28",
+     "cats": [
+      "approval"
+     ],
+     "type": "Outcome of Board Meeting",
+     "text": "Outcome of the meeting of the Board of Directors held on  October 28, 2026: Approval of unaudited Financial Results for Q2 and half year ended September 30,2026 of FY 2026- 27, both on standalone and",
+     "url": "https://nsearchives.nseindia.com/corporate/REFEX2002_28102026131634_RIL_Outcome_28102026_sd.pdf"
+    },
     {
      "date": "2026-10-22",
      "cats": [
@@ -5933,8 +5963,9 @@
      "url": "https://nsearchives.nseindia.com/corporate/REFEX2002_06072026125121_Newspaper_Publication_STX.pdf"
     }
    ],
-   "event_score": 2,
+   "event_score": 8,
    "event_counts": {
+    "approval": 1,
     "order_win": 11,
     "acquisition": 1,
     "distress": 2
@@ -6477,7 +6508,7 @@
   }
  },
  "KIRLPNU.NS": {
-  "fetched": "2026-10-27",
+  "fetched": "2026-10-28",
   "data": {
    "status": {
     "announcements": true,
@@ -6529,7 +6560,7 @@
   }
  },
  "SANDUMA.NS": {
-  "fetched": "2026-10-27",
+  "fetched": "2026-10-28",
   "data": {
    "status": {
     "announcements": true,
@@ -6632,7 +6663,7 @@
   }
  },
  "VESUVIUS.NS": {
-  "fetched": "2026-10-27",
+  "fetched": "2026-10-28",
   "data": {
    "status": {
     "announcements": true,
@@ -6653,6 +6684,54 @@
    "pledge_conflict": false,
    "promoter_chg": 0.0,
    "promoter_now": 55.57,
+   "pit_net_cr": 0.0,
+   "pit_buys": 0,
+   "pit_sells": 0
+  }
+ },
+ "MMTC.NS": {
+  "fetched": "2026-10-28",
+  "data": {
+   "status": {
+    "announcements": true,
+    "pledge": true,
+    "pledge_multi": true,
+    "shareholding": true,
+    "insider": true
+   },
+   "events": [
+    {
+     "date": "2026-08-11",
+     "cats": [
+      "approval"
+     ],
+     "type": "General Updates",
+     "text": "Statement on Impact of Audit Qualification (Standalone & Consolidated) for the quarter ended 30 June 2026",
+     "url": "https://nsearchives.nseindia.com/corporate/ajaymisra_11082026193713_sfs_siaq.pdf"
+    },
+    {
+     "date": "2026-07-15",
+     "cats": [
+      "approval"
+     ],
+     "type": "Reply to Clarification- Financial results",
+     "text": "The Exchange had sought clarification from MMTC Limited for the quarter ended 31-Mar-2026 with respect to Regulation 33 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015.",
+     "url": "https://nsearchives.nseindia.com/corporate/ajaymisra_15072026102201_Reply_to_NSE.pdf"
+    }
+   ],
+   "event_score": 12,
+   "event_counts": {
+    "approval": 2
+   },
+   "neg_events": 0,
+   "pledge": 0.0,
+   "pledge_chg": null,
+   "pledge_source": "nse_pledge_api",
+   "pledge_as_of": null,
+   "pledge_confidence": "single",
+   "pledge_conflict": false,
+   "promoter_chg": 0.0,
+   "promoter_now": 89.93,
    "pit_net_cr": 0.0,
    "pit_buys": 0,
    "pit_sells": 0
