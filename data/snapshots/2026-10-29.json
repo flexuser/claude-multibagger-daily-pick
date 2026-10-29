@@ -78,7 +78,6 @@
   "sales CAGR -19% below 15%": 1,
   "ROCE 2% below 15%": 1,
   "valuation not acceptable (PE 43, PEG None)": 1,
-  "valuation not acceptable (PE 74, PEG None)": 1,
   "pledge 6% above 5%": 1,
   "receivable days up 544% \u2014 extreme deterioration": 1,
   "recent sales growth 2% weak vs 8% floor": 1,
@@ -86,5 +85,5 @@
   "ROCE 8% below 15%": 1
  },
  "universe": 651,
- "liquid": 633
+ "liquid": 632
 }

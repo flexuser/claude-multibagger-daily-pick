@@ -92,13 +92,13 @@
  ],
  "updated": "2026-10-29",
  "status": {
-  "attempted": 35,
+  "attempted": 1,
   "ok": {
-   "announcements": 35,
-   "pledge": 21,
-   "pledge_multi": 35,
-   "shareholding": 35,
-   "insider": 35
+   "announcements": 1,
+   "pledge": 1,
+   "pledge_multi": 1,
+   "shareholding": 1,
+   "insider": 1
   },
   "blocked": false,
   "checked": 0,
@@ -1008,7 +1008,7 @@
     "source": "screener",
     "ok": true,
     "pledge": 47.4,
-    "as_of": "2026-10-28"
+    "as_of": "2026-10-29"
    },
    {
     "source": "local_cache",

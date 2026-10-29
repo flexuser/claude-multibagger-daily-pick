@@ -686,7 +686,7 @@
   "t1": 1659.59,
   "t2": 1709.6,
   "t3": 1764.61,
-  "confidence": 87.0,
+  "confidence": 87,
   "status": "active",
   "outcome": null,
   "hit_t1": false,
@@ -696,6 +696,8 @@
   "exit_price": null,
   "exit_date": null,
   "r_multiple": null,
+  "last_price": 1618.8,
+  "as_of": "2026-10-29",
   "reasons": [
    "Breakout above 1583.00",
    "Volume surge 1.83x",
@@ -704,9 +706,7 @@
    "Above 50 DMA",
    "HH-HL structure",
    "Risk-off regime \u2192 higher quality required"
-  ],
-  "last_price": 1618.8,
-  "as_of": "2026-10-29"
+  ]
  },
  {
   "date": "2026-10-29",
@@ -716,7 +716,7 @@
   "t1": 1370.41,
   "t2": 1437.3,
   "t3": 1510.88,
-  "confidence": 79.0,
+  "confidence": 79,
   "status": "active",
   "outcome": null,
   "hit_t1": false,
@@ -726,6 +726,8 @@
   "exit_price": null,
   "exit_date": null,
   "r_multiple": null,
+  "last_price": 1287.4,
+  "as_of": "2026-10-29",
   "reasons": [
    "Breakout above 1268.80",
    "Volume surge 1.47x",
@@ -733,9 +735,7 @@
    "Above 20 DMA",
    "Above 50 DMA",
    "Risk-off regime \u2192 higher quality required"
-  ],
-  "last_price": 1287.4,
-  "as_of": "2026-10-29"
+  ]
  },
  {
   "date": "2026-10-29",
@@ -745,6 +745,35 @@
   "t1": 2333.15,
   "t2": 2377.67,
   "t3": 2426.64,
+  "confidence": 63,
+  "status": "active",
+  "outcome": null,
+  "hit_t1": false,
+  "hit_t2": false,
+  "hit_t3": false,
+  "days_held": 0,
+  "exit_price": null,
+  "exit_date": null,
+  "r_multiple": null,
+  "last_price": 2270,
+  "as_of": "2026-10-29",
+  "reasons": [
+   "Breakout above 2264.11",
+   "Volume mild (0.59x)",
+   "RSI healthy (69.6)",
+   "Above 20 DMA",
+   "Above 50 DMA",
+   "Risk-off regime \u2192 higher quality required"
+  ]
+ },
+ {
+  "date": "2026-10-29",
+  "ticker": "BSOFT.NS",
+  "entry": 303.15,
+  "stop_loss": 282.92,
+  "t1": 325.62,
+  "t2": 340.61,
+  "t3": 357.09,
   "confidence": 63.0,
   "status": "active",
   "outcome": null,
@@ -756,15 +785,15 @@
   "exit_date": null,
   "r_multiple": null,
   "reasons": [
-   "Breakout above 2264.11",
-   "Volume mild (0.59x)",
-   "RSI healthy (69.6)",
+   "Breakout above 302.85",
+   "Volume mild (0.30x)",
+   "RSI healthy (62.6)",
    "Above 20 DMA",
    "Above 50 DMA",
    "Risk-off regime \u2192 higher quality required"
   ],
-  "last_price": 2270.0,
-  "as_of": "2026-10-29"
+  "last_price": 306.1,
+  "as_of": "2026-10-28"
  },
  {
   "date": "2026-10-23",
@@ -783,7 +812,7 @@
   "days_held": 6,
   "exit_price": 1147.6,
   "exit_date": "2026-10-29",
-  "r_multiple": -1.0,
+  "r_multiple": -1,
   "last_price": 1222.2,
   "as_of": "2026-10-23",
   "reasons": [
