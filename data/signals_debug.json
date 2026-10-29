@@ -90,10 +90,16 @@
   "xbrl",
   "xbrlFileSize"
  ],
- "updated": "2026-10-28",
+ "updated": "2026-10-29",
  "status": {
-  "attempted": 0,
-  "ok": {},
+  "attempted": 35,
+  "ok": {
+   "announcements": 35,
+   "pledge": 21,
+   "pledge_multi": 35,
+   "shareholding": 35,
+   "insider": 35
+  },
   "blocked": false,
   "checked": 0,
   "demo": false
@@ -243,7 +249,7 @@
     "source": "local_cache",
     "ok": true,
     "pledge": 0.0,
-    "as_of": "2026-10-27"
+    "as_of": "2026-10-28"
    },
    {
     "source": "env_csv",
@@ -577,7 +583,7 @@
     "source": "local_cache",
     "ok": true,
     "pledge": 0.0,
-    "as_of": "2026-10-27"
+    "as_of": "2026-10-28"
    },
    {
     "source": "env_csv",
@@ -643,7 +649,7 @@
     "source": "local_cache",
     "ok": true,
     "pledge": 0.0,
-    "as_of": "2026-10-27"
+    "as_of": "2026-10-28"
    },
    {
     "source": "env_csv",
@@ -745,7 +751,7 @@
     "source": "local_cache",
     "ok": true,
     "pledge": 5.97,
-    "as_of": "2026-10-27"
+    "as_of": "2026-10-28"
    },
    {
     "source": "env_csv",
@@ -779,7 +785,7 @@
     "source": "local_cache",
     "ok": true,
     "pledge": 0.0,
-    "as_of": "2026-10-27"
+    "as_of": "2026-10-28"
    },
    {
     "source": "env_csv",
@@ -1302,7 +1308,7 @@
     "source": "local_cache",
     "ok": true,
     "pledge": 0.0,
-    "as_of": "2026-10-27"
+    "as_of": "2026-10-28"
    },
    {
     "source": "env_csv",
@@ -1336,7 +1342,7 @@
     "source": "local_cache",
     "ok": true,
     "pledge": 0.0,
-    "as_of": "2026-10-27"
+    "as_of": "2026-10-28"
    },
    {
     "source": "env_csv",
@@ -1402,7 +1408,7 @@
     "source": "local_cache",
     "ok": true,
     "pledge": 0.0,
-    "as_of": "2026-10-27"
+    "as_of": "2026-10-28"
    },
    {
     "source": "env_csv",
@@ -1532,7 +1538,7 @@
     "source": "local_cache",
     "ok": true,
     "pledge": 0.0,
-    "as_of": "2026-10-27"
+    "as_of": "2026-10-28"
    },
    {
     "source": "env_csv",
@@ -1556,6 +1562,39 @@
     "source": "nse_shp_master",
     "ok": false,
     "error": "no_pledge_field"
+   },
+   {
+    "source": "screener",
+    "ok": false,
+    "error": "not_found_in_html"
+   },
+   {
+    "source": "local_cache",
+    "ok": true,
+    "pledge": 0.0,
+    "as_of": "2026-10-28"
+   },
+   {
+    "source": "env_csv",
+    "ok": false,
+    "error": "no_file"
+   },
+   {
+    "source": "nse_xbrl",
+    "ok": false,
+    "error": "disabled"
+   }
+  ],
+  "TIMEX": [
+   {
+    "source": "nse_pledge_api",
+    "ok": false,
+    "error": "empty"
+   },
+   {
+    "source": "nse_shp_master",
+    "ok": false,
+    "error": "no_response"
    },
    {
     "source": "screener",
@@ -1733,7 +1772,7 @@
   "MMTC": {
    "pledge": 0.0,
    "source": "nse_pledge_api",
-   "confidence": "single",
+   "confidence": "high",
    "conflict": false
   }
  }

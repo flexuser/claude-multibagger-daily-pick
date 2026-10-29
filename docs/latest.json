@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-28",
+ "generated": "2026-10-29",
  "demo": false,
  "universe": 651,
- "liquid": 632,
- "with_data": 632,
+ "liquid": 633,
+ "with_data": 633,
  "eligible": 0,
  "fund_stats": {
-  "attempted": 147,
+  "attempted": 1,
   "failed": 0
  },
  "rejected": {
@@ -84,6 +84,7 @@
   "sales CAGR -19% below 15%": 1,
   "ROCE 2% below 15%": 1,
   "valuation not acceptable (PE 43, PEG None)": 1,
+  "valuation not acceptable (PE 74, PEG None)": 1,
   "pledge 6% above 5%": 1,
   "receivable days up 544% \u2014 extreme deterioration": 1,
   "recent sales growth 2% weak vs 8% floor": 1,
@@ -91,8 +92,14 @@
   "ROCE 8% below 15%": 1
  },
  "signals": {
-  "attempted": 0,
-  "ok": {},
+  "attempted": 35,
+  "ok": {
+   "announcements": 35,
+   "pledge": 21,
+   "pledge_multi": 35,
+   "shareholding": 35,
+   "insider": 35
+  },
   "blocked": false,
   "checked": 35,
   "demo": false
@@ -131,8 +138,8 @@
    "ticker": "ACUTAAS.NS",
    "name": "ACUTAAS CHEMICALS LIMITED",
    "days": 1,
-   "ret": 18.6704,
-   "nifty_ret": 1.462,
+   "ret": 24.4079,
+   "nifty_ret": 2.296,
    "active": false
   },
   {
@@ -140,8 +147,8 @@
    "ticker": "SEDEMAC.NS",
    "name": "SEDEMAC MECHATRONICS LTD",
    "days": 7,
-   "ret": -7.8104,
-   "nifty_ret": 0.9008,
+   "ret": -5.2848,
+   "nifty_ret": 1.7302,
    "active": true
   }
  ],
@@ -149,7 +156,7 @@
   "episodes": 2,
   "measured": 2,
   "beat": 1,
-  "avg_excess": 4.2486
+  "avg_excess": 7.5485
  },
  "dd_rejected": [],
  "dd_blocked": false,
@@ -175,7 +182,7 @@
   {
    "ticker": "JSLL.NS",
    "name": "JEENA SIKHO LIFECARE LTD",
-   "price": 344.5,
+   "price": 347.75,
    "mcap_cr": 4287.9382,
    "roce": 52.1794,
    "rev_cagr": 57.6631,
@@ -194,7 +201,7 @@
   {
    "ticker": "SHILCTECH.NS",
    "name": "SHILCHAR TECHNOLOGIES LTD",
-   "price": 3924.5,
+   "price": 3650.9,
    "mcap_cr": 4248.8902,
    "roce": 43.1846,
    "rev_cagr": 32.5028,
@@ -218,7 +225,7 @@
   {
    "ticker": "CRAMC.NS",
    "name": "CANARA ROBECO AMC LIMITED",
-   "price": 207.5,
+   "price": 208.01,
    "mcap_cr": 4082.0744,
    "roce": 36.2299,
    "rev_cagr": 16.5686,
@@ -238,7 +245,7 @@
   {
    "ticker": "CMPDI.NS",
    "name": "CENTRAL MINE P N D INST L",
-   "price": 184.37,
+   "price": 189.53,
    "mcap_cr": null,
    "roce": 36.0539,
    "rev_cagr": 18.6722,
@@ -260,7 +267,7 @@
   {
    "ticker": "NEWGEN.NS",
    "name": "NEWGEN SOFTWARE TECH LTD",
-   "price": 470.0,
+   "price": 455.45,
    "mcap_cr": 6755.9059,
    "roce": 21.5641,
    "rev_cagr": 17.3604,
@@ -279,7 +286,7 @@
   {
    "ticker": "VESUVIUS.NS",
    "name": "VESUVIUS INDIA LTD",
-   "price": 383.35,
+   "price": 378.05,
    "mcap_cr": 7822.1091,
    "roce": 21.3152,
    "rev_cagr": 16.2929,
@@ -302,7 +309,7 @@
   {
    "ticker": "RAILTEL.NS",
    "name": "RAILTEL CORP OF IND LTD",
-   "price": 229.95,
+   "price": 230.2,
    "mcap_cr": 7359.1177,
    "roce": 20.5932,
    "rev_cagr": 29.8123,
@@ -321,7 +328,7 @@
   {
    "ticker": "POWERMECH.NS",
    "name": "POWER MECH PROJECTS LTD.",
-   "price": 2166.5,
+   "price": 2191.5,
    "mcap_cr": 6626.7746,
    "roce": 20.5228,
    "rev_cagr": 18.886,
@@ -342,7 +349,7 @@
   {
    "ticker": "VIKRAMSOLR.NS",
    "name": "VIKRAM SOLAR LIMITED",
-   "price": 130.47,
+   "price": 128.0,
    "mcap_cr": 4651.9054,
    "roce": 20.1598,
    "rev_cagr": 32.3173,
@@ -363,7 +370,7 @@
   {
    "ticker": "SKIPPER.NS",
    "name": "SKIPPER LIMITED",
-   "price": 507.9,
+   "price": 510.0,
    "mcap_cr": 5773.3116,
    "roce": 18.8062,
    "rev_cagr": 39.9442,
@@ -386,7 +393,7 @@
   {
    "ticker": "ASHAPURMIN.NS",
    "name": "ASHAPURA MINECHEM LTD",
-   "price": 424.75,
+   "price": 428.1,
    "mcap_cr": 4038.3656,
    "roce": 18.1689,
    "rev_cagr": 42.3883,
@@ -407,7 +414,7 @@
   {
    "ticker": "LUMAXIND.NS",
    "name": "LUMAX INDUSTRIES LTD",
-   "price": 5051.0,
+   "price": 5085.5,
    "mcap_cr": 4687.8876,
    "roce": 15.6859,
    "rev_cagr": 21.427,
