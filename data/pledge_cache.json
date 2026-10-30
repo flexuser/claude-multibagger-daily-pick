@@ -28,9 +28,9 @@
  "ASHOKA": {
   "pledge": 0.0,
   "pledge_chg": null,
-  "as_of": "2026-10-29",
+  "as_of": "2026-10-30",
   "source": "nse_pledge_api",
-  "updated": "2026-10-29"
+  "updated": "2026-10-30"
  },
  "ADVENZYMES": {
   "pledge": 0.0,
@@ -44,7 +44,7 @@
   "pledge_chg": null,
   "as_of": "30-10-2023",
   "source": "nse_pledge_api",
-  "updated": "2026-10-29"
+  "updated": "2026-10-30"
  },
  "NFL": {
   "pledge": 0.0,
@@ -280,9 +280,9 @@
  "FIEMIND": {
   "pledge": 0.0,
   "pledge_chg": null,
-  "as_of": "2026-10-29",
+  "as_of": "2026-10-30",
   "source": "nse_pledge_api",
-  "updated": "2026-10-29"
+  "updated": "2026-10-30"
  },
  "HAPPSTMNDS": {
   "pledge": 0.0,
@@ -373,7 +373,7 @@
   "pledge_chg": null,
   "as_of": "31-08-2018",
   "source": "nse_pledge_api",
-  "updated": "2026-10-29"
+  "updated": "2026-10-30"
  },
  "RCF": {
   "pledge": 0.0,
@@ -399,120 +399,120 @@
  "VESUVIUS": {
   "pledge": 0.0,
   "pledge_chg": null,
-  "as_of": "2026-10-29",
+  "as_of": "2026-10-30",
   "source": "nse_pledge_api",
-  "updated": "2026-10-29"
+  "updated": "2026-10-30"
  },
  "SPARC": {
   "pledge": 0.0,
   "pledge_chg": null,
   "as_of": "29-01-2016",
   "source": "nse_pledge_api",
-  "updated": "2026-10-29"
+  "updated": "2026-10-30"
  },
  "TTML": {
   "pledge": 0.0,
   "pledge_chg": null,
   "as_of": "18-02-2019",
   "source": "nse_pledge_api",
-  "updated": "2026-10-29"
+  "updated": "2026-10-30"
  },
  "THYROCARE": {
   "pledge": 0.0,
   "pledge_chg": null,
   "as_of": "29-09-2025",
   "source": "nse_pledge_api",
-  "updated": "2026-10-29"
+  "updated": "2026-10-30"
  },
  "GOKULAGRO": {
   "pledge": 13.69,
   "pledge_chg": null,
   "as_of": "29-11-2016",
   "source": "nse_pledge_api",
-  "updated": "2026-10-29"
+  "updated": "2026-10-30"
  },
  "BAJAJCON": {
   "pledge": 0.0,
   "pledge_chg": null,
   "as_of": "30-11-2016",
   "source": "nse_pledge_api",
-  "updated": "2026-10-29"
+  "updated": "2026-10-30"
  },
  "SMLMAH": {
   "pledge": 0.0,
   "pledge_chg": null,
-  "as_of": "2026-10-29",
+  "as_of": "2026-10-30",
   "source": "nse_pledge_api",
-  "updated": "2026-10-29"
+  "updated": "2026-10-30"
  },
  "GPPL": {
   "pledge": 0.0,
   "pledge_chg": null,
-  "as_of": "2026-10-29",
+  "as_of": "2026-10-30",
   "source": "nse_pledge_api",
-  "updated": "2026-10-29"
+  "updated": "2026-10-30"
  },
  "JYOTHYLAB": {
   "pledge": 0.0,
   "pledge_chg": null,
   "as_of": "26-11-2019",
   "source": "nse_pledge_api",
-  "updated": "2026-10-29"
+  "updated": "2026-10-30"
  },
  "SHARDACROP": {
   "pledge": 0.0,
   "pledge_chg": null,
-  "as_of": "2026-10-29",
+  "as_of": "2026-10-30",
   "source": "nse_pledge_api",
-  "updated": "2026-10-29"
+  "updated": "2026-10-30"
  },
  "SJS": {
   "pledge": 4.5,
   "pledge_chg": null,
   "as_of": "12-12-2024",
   "source": "nse_pledge_api",
-  "updated": "2026-10-29"
+  "updated": "2026-10-30"
  },
  "SONATSOFTW": {
   "pledge": 0.0,
   "pledge_chg": null,
   "as_of": "07-04-2016",
   "source": "nse_pledge_api",
-  "updated": "2026-10-29"
+  "updated": "2026-10-30"
  },
  "TRANSRAILL": {
   "pledge": 5.97,
   "pledge_chg": null,
-  "as_of": "2026-10-29",
+  "as_of": "2026-10-30",
   "source": "nse_pledge_api",
-  "updated": "2026-10-29"
+  "updated": "2026-10-30"
  },
  "TANLA": {
   "pledge": 0.0,
   "pledge_chg": null,
-  "as_of": "2026-10-29",
+  "as_of": "2026-10-30",
   "source": "nse_pledge_api",
-  "updated": "2026-10-29"
+  "updated": "2026-10-30"
  },
  "PRECWIRE": {
   "pledge": 0.0,
   "pledge_chg": null,
-  "as_of": "2026-10-29",
+  "as_of": "2026-10-30",
   "source": "nse_pledge_api",
-  "updated": "2026-10-29"
+  "updated": "2026-10-30"
  },
  "CENTUM": {
   "pledge": 0.0,
   "pledge_chg": null,
   "as_of": "10-03-2021",
   "source": "nse_pledge_api",
-  "updated": "2026-10-29"
+  "updated": "2026-10-30"
  },
  "MMTC": {
   "pledge": 0.0,
   "pledge_chg": null,
-  "as_of": "2026-10-29",
+  "as_of": "2026-10-30",
   "source": "nse_pledge_api",
-  "updated": "2026-10-29"
+  "updated": "2026-10-30"
  }
 }

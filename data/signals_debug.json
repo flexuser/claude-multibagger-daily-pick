@@ -90,15 +90,15 @@
   "xbrl",
   "xbrlFileSize"
  ],
- "updated": "2026-10-29",
+ "updated": "2026-10-30",
  "status": {
-  "attempted": 1,
+  "attempted": 35,
   "ok": {
-   "announcements": 1,
-   "pledge": 1,
-   "pledge_multi": 1,
-   "shareholding": 1,
-   "insider": 1
+   "announcements": 35,
+   "pledge": 21,
+   "pledge_multi": 35,
+   "shareholding": 35,
+   "insider": 35
   },
   "blocked": false,
   "checked": 0,
@@ -249,7 +249,7 @@
     "source": "local_cache",
     "ok": true,
     "pledge": 0.0,
-    "as_of": "2026-10-28"
+    "as_of": "2026-10-29"
    },
    {
     "source": "env_csv",
@@ -583,7 +583,7 @@
     "source": "local_cache",
     "ok": true,
     "pledge": 0.0,
-    "as_of": "2026-10-28"
+    "as_of": "2026-10-29"
    },
    {
     "source": "env_csv",
@@ -649,7 +649,7 @@
     "source": "local_cache",
     "ok": true,
     "pledge": 0.0,
-    "as_of": "2026-10-28"
+    "as_of": "2026-10-29"
    },
    {
     "source": "env_csv",
@@ -751,7 +751,7 @@
     "source": "local_cache",
     "ok": true,
     "pledge": 5.97,
-    "as_of": "2026-10-28"
+    "as_of": "2026-10-29"
    },
    {
     "source": "env_csv",
@@ -785,7 +785,7 @@
     "source": "local_cache",
     "ok": true,
     "pledge": 0.0,
-    "as_of": "2026-10-28"
+    "as_of": "2026-10-29"
    },
    {
     "source": "env_csv",
@@ -1308,7 +1308,7 @@
     "source": "local_cache",
     "ok": true,
     "pledge": 0.0,
-    "as_of": "2026-10-28"
+    "as_of": "2026-10-29"
    },
    {
     "source": "env_csv",
@@ -1342,7 +1342,7 @@
     "source": "local_cache",
     "ok": true,
     "pledge": 0.0,
-    "as_of": "2026-10-28"
+    "as_of": "2026-10-29"
    },
    {
     "source": "env_csv",
@@ -1408,7 +1408,7 @@
     "source": "local_cache",
     "ok": true,
     "pledge": 0.0,
-    "as_of": "2026-10-28"
+    "as_of": "2026-10-29"
    },
    {
     "source": "env_csv",
@@ -1538,7 +1538,7 @@
     "source": "local_cache",
     "ok": true,
     "pledge": 0.0,
-    "as_of": "2026-10-28"
+    "as_of": "2026-10-29"
    },
    {
     "source": "env_csv",
@@ -1572,7 +1572,7 @@
     "source": "local_cache",
     "ok": true,
     "pledge": 0.0,
-    "as_of": "2026-10-28"
+    "as_of": "2026-10-29"
    },
    {
     "source": "env_csv",
