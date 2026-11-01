@@ -90,7 +90,7 @@
   "xbrl",
   "xbrlFileSize"
  ],
- "updated": "2026-10-30",
+ "updated": "2026-11-01",
  "status": {
   "attempted": 35,
   "ok": {
@@ -131,9 +131,8 @@
   "SPARC": [
    {
     "source": "nse_pledge_api",
-    "ok": true,
-    "pledge": 0.0,
-    "as_of": "29-01-2016"
+    "ok": false,
+    "error": "empty"
    },
    {
     "source": "nse_shp_master",
@@ -197,9 +196,8 @@
   "WEBELSOLAR": [
    {
     "source": "nse_pledge_api",
-    "ok": true,
-    "pledge": 15.64,
-    "as_of": "30-10-2023"
+    "ok": false,
+    "error": "empty"
    },
    {
     "source": "nse_shp_master",
@@ -231,9 +229,8 @@
   "ASHOKA": [
    {
     "source": "nse_pledge_api",
-    "ok": true,
-    "pledge": 0.0,
-    "as_of": null
+    "ok": false,
+    "error": "empty"
    },
    {
     "source": "nse_shp_master",
@@ -249,7 +246,7 @@
     "source": "local_cache",
     "ok": true,
     "pledge": 0.0,
-    "as_of": "2026-10-29"
+    "as_of": "2026-10-30"
    },
    {
     "source": "env_csv",
@@ -265,9 +262,8 @@
   "TTML": [
    {
     "source": "nse_pledge_api",
-    "ok": true,
-    "pledge": 0.0,
-    "as_of": "18-02-2019"
+    "ok": false,
+    "error": "empty"
    },
    {
     "source": "nse_shp_master",
@@ -363,9 +359,8 @@
   "THYROCARE": [
    {
     "source": "nse_pledge_api",
-    "ok": true,
-    "pledge": 0.0,
-    "as_of": "29-09-2025"
+    "ok": false,
+    "error": "empty"
    },
    {
     "source": "nse_shp_master",
@@ -397,9 +392,8 @@
   "GOKULAGRO": [
    {
     "source": "nse_pledge_api",
-    "ok": true,
-    "pledge": 13.69,
-    "as_of": "29-11-2016"
+    "ok": false,
+    "error": "empty"
    },
    {
     "source": "nse_shp_master",
@@ -431,9 +425,8 @@
   "BAJAJCON": [
    {
     "source": "nse_pledge_api",
-    "ok": true,
-    "pledge": 0.0,
-    "as_of": "30-11-2016"
+    "ok": false,
+    "error": "empty"
    },
    {
     "source": "nse_shp_master",
@@ -465,9 +458,8 @@
   "JAMNAAUTO": [
    {
     "source": "nse_pledge_api",
-    "ok": true,
-    "pledge": 1.69,
-    "as_of": "31-08-2018"
+    "ok": false,
+    "error": "empty"
    },
    {
     "source": "nse_shp_master",
@@ -531,9 +523,8 @@
   "JYOTHYLAB": [
    {
     "source": "nse_pledge_api",
-    "ok": true,
-    "pledge": 0.0,
-    "as_of": "26-11-2019"
+    "ok": false,
+    "error": "empty"
    },
    {
     "source": "nse_shp_master",
@@ -565,9 +556,8 @@
   "SHARDACROP": [
    {
     "source": "nse_pledge_api",
-    "ok": true,
-    "pledge": 0.0,
-    "as_of": null
+    "ok": false,
+    "error": "empty"
    },
    {
     "source": "nse_shp_master",
@@ -583,7 +573,7 @@
     "source": "local_cache",
     "ok": true,
     "pledge": 0.0,
-    "as_of": "2026-10-29"
+    "as_of": "2026-10-30"
    },
    {
     "source": "env_csv",
@@ -631,9 +621,8 @@
   "FIEMIND": [
    {
     "source": "nse_pledge_api",
-    "ok": true,
-    "pledge": 0.0,
-    "as_of": null
+    "ok": false,
+    "error": "empty"
    },
    {
     "source": "nse_shp_master",
@@ -649,7 +638,7 @@
     "source": "local_cache",
     "ok": true,
     "pledge": 0.0,
-    "as_of": "2026-10-29"
+    "as_of": "2026-10-30"
    },
    {
     "source": "env_csv",
@@ -665,9 +654,8 @@
   "SJS": [
    {
     "source": "nse_pledge_api",
-    "ok": true,
-    "pledge": 4.5,
-    "as_of": "12-12-2024"
+    "ok": false,
+    "error": "empty"
    },
    {
     "source": "nse_shp_master",
@@ -699,9 +687,8 @@
   "SONATSOFTW": [
    {
     "source": "nse_pledge_api",
-    "ok": true,
-    "pledge": 0.0,
-    "as_of": "07-04-2016"
+    "ok": false,
+    "error": "empty"
    },
    {
     "source": "nse_shp_master",
@@ -733,9 +720,8 @@
   "TRANSRAILL": [
    {
     "source": "nse_pledge_api",
-    "ok": true,
-    "pledge": 5.97,
-    "as_of": null
+    "ok": false,
+    "error": "empty"
    },
    {
     "source": "nse_shp_master",
@@ -751,7 +737,7 @@
     "source": "local_cache",
     "ok": true,
     "pledge": 5.97,
-    "as_of": "2026-10-29"
+    "as_of": "2026-10-30"
    },
    {
     "source": "env_csv",
@@ -767,9 +753,8 @@
   "TANLA": [
    {
     "source": "nse_pledge_api",
-    "ok": true,
-    "pledge": 0.0,
-    "as_of": null
+    "ok": false,
+    "error": "empty"
    },
    {
     "source": "nse_shp_master",
@@ -785,7 +770,7 @@
     "source": "local_cache",
     "ok": true,
     "pledge": 0.0,
-    "as_of": "2026-10-29"
+    "as_of": "2026-10-30"
    },
    {
     "source": "env_csv",
@@ -833,9 +818,8 @@
   "CENTUM": [
    {
     "source": "nse_pledge_api",
-    "ok": true,
-    "pledge": 0.0,
-    "as_of": "10-03-2021"
+    "ok": false,
+    "error": "empty"
    },
    {
     "source": "nse_shp_master",
@@ -1290,9 +1274,8 @@
   "SMLMAH": [
    {
     "source": "nse_pledge_api",
-    "ok": true,
-    "pledge": 0.0,
-    "as_of": null
+    "ok": false,
+    "error": "empty"
    },
    {
     "source": "nse_shp_master",
@@ -1308,7 +1291,7 @@
     "source": "local_cache",
     "ok": true,
     "pledge": 0.0,
-    "as_of": "2026-10-29"
+    "as_of": "2026-10-30"
    },
    {
     "source": "env_csv",
@@ -1324,9 +1307,8 @@
   "GPPL": [
    {
     "source": "nse_pledge_api",
-    "ok": true,
-    "pledge": 0.0,
-    "as_of": null
+    "ok": false,
+    "error": "empty"
    },
    {
     "source": "nse_shp_master",
@@ -1342,7 +1324,7 @@
     "source": "local_cache",
     "ok": true,
     "pledge": 0.0,
-    "as_of": "2026-10-29"
+    "as_of": "2026-10-30"
    },
    {
     "source": "env_csv",
@@ -1390,9 +1372,8 @@
   "PRECWIRE": [
    {
     "source": "nse_pledge_api",
-    "ok": true,
-    "pledge": 0.0,
-    "as_of": null
+    "ok": false,
+    "error": "empty"
    },
    {
     "source": "nse_shp_master",
@@ -1408,7 +1389,7 @@
     "source": "local_cache",
     "ok": true,
     "pledge": 0.0,
-    "as_of": "2026-10-29"
+    "as_of": "2026-10-30"
    },
    {
     "source": "env_csv",
@@ -1520,9 +1501,8 @@
   "VESUVIUS": [
    {
     "source": "nse_pledge_api",
-    "ok": true,
-    "pledge": 0.0,
-    "as_of": null
+    "ok": false,
+    "error": "empty"
    },
    {
     "source": "nse_shp_master",
@@ -1538,7 +1518,7 @@
     "source": "local_cache",
     "ok": true,
     "pledge": 0.0,
-    "as_of": "2026-10-29"
+    "as_of": "2026-10-30"
    },
    {
     "source": "env_csv",
@@ -1554,9 +1534,8 @@
   "MMTC": [
    {
     "source": "nse_pledge_api",
-    "ok": true,
-    "pledge": 0.0,
-    "as_of": null
+    "ok": false,
+    "error": "empty"
    },
    {
     "source": "nse_shp_master",
@@ -1572,7 +1551,7 @@
     "source": "local_cache",
     "ok": true,
     "pledge": 0.0,
-    "as_of": "2026-10-29"
+    "as_of": "2026-10-30"
    },
    {
     "source": "env_csv",
@@ -1621,26 +1600,26 @@
  "pledge_resolved": {
   "WEBELSOLAR": {
    "pledge": 15.64,
-   "source": "nse_pledge_api",
-   "confidence": "high",
+   "source": "local_cache",
+   "confidence": "single",
    "conflict": false
   },
   "ASHOKA": {
    "pledge": 0.0,
-   "source": "nse_pledge_api",
-   "confidence": "high",
+   "source": "local_cache",
+   "confidence": "single",
    "conflict": false
   },
   "JAMNAAUTO": {
    "pledge": 1.69,
-   "source": "nse_pledge_api",
-   "confidence": "high",
+   "source": "local_cache",
+   "confidence": "single",
    "conflict": false
   },
   "FIEMIND": {
    "pledge": 0.0,
-   "source": "nse_pledge_api",
-   "confidence": "high",
+   "source": "local_cache",
+   "confidence": "single",
    "conflict": false
   },
   "REFEX": {
@@ -1675,104 +1654,104 @@
   },
   "VESUVIUS": {
    "pledge": 0.0,
-   "source": "nse_pledge_api",
-   "confidence": "high",
+   "source": "local_cache",
+   "confidence": "single",
    "conflict": false
   },
   "SPARC": {
    "pledge": 0.0,
-   "source": "nse_pledge_api",
-   "confidence": "high",
+   "source": "local_cache",
+   "confidence": "single",
    "conflict": false
   },
   "TTML": {
    "pledge": 0.0,
-   "source": "nse_pledge_api",
-   "confidence": "high",
+   "source": "local_cache",
+   "confidence": "single",
    "conflict": false
   },
   "THYROCARE": {
    "pledge": 0.0,
-   "source": "nse_pledge_api",
-   "confidence": "high",
+   "source": "local_cache",
+   "confidence": "single",
    "conflict": false
   },
   "GOKULAGRO": {
    "pledge": 13.69,
-   "source": "nse_pledge_api",
-   "confidence": "high",
+   "source": "local_cache",
+   "confidence": "single",
    "conflict": false
   },
   "BAJAJCON": {
    "pledge": 0.0,
-   "source": "nse_pledge_api",
-   "confidence": "high",
+   "source": "local_cache",
+   "confidence": "single",
    "conflict": false
   },
   "SMLMAH": {
    "pledge": 0.0,
-   "source": "nse_pledge_api",
-   "confidence": "high",
+   "source": "local_cache",
+   "confidence": "single",
    "conflict": false
   },
   "GPPL": {
    "pledge": 0.0,
-   "source": "nse_pledge_api",
-   "confidence": "high",
+   "source": "local_cache",
+   "confidence": "single",
    "conflict": false
   },
   "JYOTHYLAB": {
    "pledge": 0.0,
-   "source": "nse_pledge_api",
-   "confidence": "high",
+   "source": "local_cache",
+   "confidence": "single",
    "conflict": false
   },
   "SHARDACROP": {
    "pledge": 0.0,
-   "source": "nse_pledge_api",
-   "confidence": "high",
+   "source": "local_cache",
+   "confidence": "single",
    "conflict": false
   },
   "SJS": {
    "pledge": 4.5,
-   "source": "nse_pledge_api",
-   "confidence": "high",
+   "source": "local_cache",
+   "confidence": "single",
    "conflict": false
   },
   "SONATSOFTW": {
    "pledge": 0.0,
-   "source": "nse_pledge_api",
-   "confidence": "high",
+   "source": "local_cache",
+   "confidence": "single",
    "conflict": false
   },
   "TRANSRAILL": {
    "pledge": 5.97,
-   "source": "nse_pledge_api",
-   "confidence": "high",
+   "source": "local_cache",
+   "confidence": "single",
    "conflict": false
   },
   "TANLA": {
    "pledge": 0.0,
-   "source": "nse_pledge_api",
-   "confidence": "high",
+   "source": "local_cache",
+   "confidence": "single",
    "conflict": false
   },
   "PRECWIRE": {
    "pledge": 0.0,
-   "source": "nse_pledge_api",
-   "confidence": "high",
+   "source": "local_cache",
+   "confidence": "single",
    "conflict": false
   },
   "CENTUM": {
    "pledge": 0.0,
-   "source": "nse_pledge_api",
-   "confidence": "high",
+   "source": "local_cache",
+   "confidence": "single",
    "conflict": false
   },
   "MMTC": {
    "pledge": 0.0,
-   "source": "nse_pledge_api",
-   "confidence": "high",
+   "source": "local_cache",
+   "confidence": "single",
    "conflict": false
   }
  }

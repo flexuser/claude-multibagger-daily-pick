@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-30",
+ "generated": "2026-11-01",
  "demo": false,
  "universe": 650,
  "liquid": 633,
@@ -10,9 +10,8 @@
   "failed": 0
  },
  "rejected": {
-  "mcap outside shortlist band (300-8000 cr)": 455,
+  "mcap outside shortlist band (300-8000 cr)": 456,
   "revenue growth looks like a data error": 8,
-  "sales CAGR -2% below 15%": 4,
   "sales CAGR 3% below 15%": 6,
   "missing critical field: mcap_cr": 2,
   "sales CAGR 1% below 15%": 2,
@@ -30,6 +29,7 @@
   "valuation not acceptable (PE 88, PEG None)": 1,
   "sales CAGR -9% below 15%": 2,
   "sales CAGR 9% below 15%": 9,
+  "sales CAGR -2% below 15%": 3,
   "ROCE 15% below 15%": 1,
   "sales CAGR 7% below 15%": 4,
   "sales CAGR -16% below 15%": 1,
