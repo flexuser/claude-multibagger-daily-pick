@@ -1,72 +1,16 @@
 {
  "date": "2026-11-02",
- "regime": "neutral",
+ "regime": "risk_off",
  "nifty": {
-  "last": 23440.8008,
-  "ret_6m": -2.8131,
-  "ret_3m": -5.3826,
-  "ret_1m": 4.544,
-  "above_200dma": -2.4,
+  "last": 23053.0996,
+  "ret_6m": -3.9356,
+  "ret_3m": -5.4565,
+  "ret_1m": 1.9127,
+  "above_200dma": -4.1,
   "ma50_vs_200": -3.3,
-  "regime": "neutral"
+  "regime": "risk_off"
  },
- "signals": [
-  {
-   "ticker": "CHOICEIN.NS",
-   "signal": "BUY",
-   "entry": 747.45,
-   "stop_loss": 717.22,
-   "t1": 781.03,
-   "t2": 803.42,
-   "t3": 828.05,
-   "confidence": 79.0,
-   "holding_days": "3-12 trading days",
-   "risk_reward_t1": 1.11,
-   "atr": 22.39,
-   "rsi": 57.8,
-   "volume_surge": 2.35,
-   "regime": "neutral",
-   "reasons": [
-    "Breakout above 746.70",
-    "Volume surge 2.35x",
-    "RSI healthy (57.8)",
-    "Above 20 DMA",
-    "Above 50 DMA"
-   ],
-   "invalidation": "Daily close below 717.22",
-   "resistance": 746.7,
-   "support": 706.75,
-   "last_price": 751.15,
-   "as_of": "2026-11-02"
-  },
-  {
-   "ticker": "AFFLE.NS",
-   "signal": "BUY",
-   "entry": 1468.37,
-   "stop_loss": 1388.67,
-   "t1": 1556.92,
-   "t2": 1615.96,
-   "t3": 1680.9,
-   "confidence": 71.0,
-   "holding_days": "3-12 trading days",
-   "risk_reward_t1": 1.11,
-   "atr": 59.04,
-   "rsi": 58.1,
-   "volume_surge": 12.5,
-   "regime": "neutral",
-   "reasons": [
-    "Breakout above 1466.90",
-    "Volume surge 12.50x",
-    "RSI healthy (58.1)",
-    "Above 20 DMA"
-   ],
-   "invalidation": "Daily close below 1388.67",
-   "resistance": 1466.9,
-   "support": 1388.1,
-   "last_price": 1506.5,
-   "as_of": "2026-11-02"
-  }
- ],
+ "signals": [],
  "history": [
   {
    "date": "2026-10-15",
@@ -665,7 +609,7 @@
    "t1": 781.03,
    "t2": 803.42,
    "t3": 828.05,
-   "confidence": 79.0,
+   "confidence": 79,
    "status": "active",
    "outcome": null,
    "hit_t1": false,
@@ -675,15 +619,15 @@
    "exit_price": null,
    "exit_date": null,
    "r_multiple": null,
+   "last_price": 751.15,
+   "as_of": "2026-11-02",
    "reasons": [
     "Breakout above 746.70",
     "Volume surge 2.35x",
     "RSI healthy (57.8)",
     "Above 20 DMA",
     "Above 50 DMA"
-   ],
-   "last_price": 751.15,
-   "as_of": "2026-11-02"
+   ]
   },
   {
    "date": "2026-11-02",
@@ -693,7 +637,7 @@
    "t1": 1556.92,
    "t2": 1615.96,
    "t3": 1680.9,
-   "confidence": 71.0,
+   "confidence": 71,
    "status": "active",
    "outcome": null,
    "hit_t1": false,
@@ -703,14 +647,14 @@
    "exit_price": null,
    "exit_date": null,
    "r_multiple": null,
+   "last_price": 1506.5,
+   "as_of": "2026-11-02",
    "reasons": [
     "Breakout above 1466.90",
     "Volume surge 12.50x",
     "RSI healthy (58.1)",
     "Above 20 DMA"
-   ],
-   "last_price": 1506.5,
-   "as_of": "2026-11-02"
+   ]
   },
   {
    "date": "2026-10-21",
