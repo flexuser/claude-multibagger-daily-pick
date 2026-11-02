@@ -2463,7 +2463,7 @@
   }
  },
  "SJS.NS": {
-  "fetched": "2026-11-01",
+  "fetched": "2026-11-02",
   "data": {
    "status": {
     "announcements": true,
@@ -2538,9 +2538,9 @@
    "neg_events": 0,
    "pledge": 4.5,
    "pledge_chg": null,
-   "pledge_source": "local_cache",
+   "pledge_source": "nse_pledge_api",
    "pledge_as_of": "12-12-2024",
-   "pledge_confidence": "single",
+   "pledge_confidence": "high",
    "pledge_conflict": false,
    "promoter_chg": -1.57,
    "promoter_now": 19.99,
@@ -2593,7 +2593,7 @@
   }
  },
  "GPPL.NS": {
-  "fetched": "2026-11-01",
+  "fetched": "2026-11-02",
   "data": {
    "status": {
     "announcements": true,
@@ -2608,9 +2608,9 @@
    "neg_events": 0,
    "pledge": 0.0,
    "pledge_chg": null,
-   "pledge_source": "local_cache",
-   "pledge_as_of": "2026-10-30",
-   "pledge_confidence": "single",
+   "pledge_source": "nse_pledge_api",
+   "pledge_as_of": null,
+   "pledge_confidence": "high",
    "pledge_conflict": false,
    "promoter_chg": 0.0,
    "promoter_now": 44.01,
@@ -2836,7 +2836,7 @@
   }
  },
  "JSLL.NS": {
-  "fetched": "2026-11-01",
+  "fetched": "2026-11-02",
   "data": {
    "status": {
     "announcements": true,
@@ -3025,7 +3025,7 @@
   }
  },
  "PRECWIRE.NS": {
-  "fetched": "2026-11-01",
+  "fetched": "2026-11-02",
   "data": {
    "status": {
     "announcements": true,
@@ -3071,9 +3071,9 @@
    "neg_events": 0,
    "pledge": 0.0,
    "pledge_chg": null,
-   "pledge_source": "local_cache",
-   "pledge_as_of": "2026-10-30",
-   "pledge_confidence": "single",
+   "pledge_source": "nse_pledge_api",
+   "pledge_as_of": null,
+   "pledge_confidence": "high",
    "pledge_conflict": false,
    "promoter_chg": -0.87,
    "promoter_now": 56.62,
@@ -3469,7 +3469,7 @@
   }
  },
  "SHILCTECH.NS": {
-  "fetched": "2026-11-01",
+  "fetched": "2026-11-02",
   "data": {
    "status": {
     "announcements": true,
@@ -3560,7 +3560,7 @@
   }
  },
  "THYROCARE.NS": {
-  "fetched": "2026-11-01",
+  "fetched": "2026-11-02",
   "data": {
    "status": {
     "announcements": true,
@@ -3605,9 +3605,9 @@
    "neg_events": 0,
    "pledge": 0.0,
    "pledge_chg": null,
-   "pledge_source": "local_cache",
+   "pledge_source": "nse_pledge_api",
    "pledge_as_of": "29-09-2025",
-   "pledge_confidence": "single",
+   "pledge_confidence": "high",
    "pledge_conflict": false,
    "promoter_chg": -9.91,
    "promoter_now": 51.02,
@@ -3792,7 +3792,7 @@
   }
  },
  "SUPRIYA.NS": {
-  "fetched": "2026-11-01",
+  "fetched": "2026-11-02",
   "data": {
    "status": {
     "announcements": true,
@@ -3813,7 +3813,7 @@
   }
  },
  "OSWALPUMPS.NS": {
-  "fetched": "2026-11-01",
+  "fetched": "2026-11-02",
   "data": {
    "status": {
     "announcements": true,
@@ -3834,7 +3834,7 @@
   }
  },
  "TRANSRAILL.NS": {
-  "fetched": "2026-11-01",
+  "fetched": "2026-11-02",
   "data": {
    "status": {
     "announcements": true,
@@ -3890,9 +3890,9 @@
    "neg_events": 0,
    "pledge": 5.97,
    "pledge_chg": null,
-   "pledge_source": "local_cache",
-   "pledge_as_of": "2026-10-30",
-   "pledge_confidence": "single",
+   "pledge_source": "nse_pledge_api",
+   "pledge_as_of": null,
+   "pledge_confidence": "high",
    "pledge_conflict": false,
    "promoter_chg": 0.0,
    "promoter_now": 71.12,
@@ -3973,7 +3973,7 @@
   }
  },
  "WAAREERTL.NS": {
-  "fetched": "2026-11-01",
+  "fetched": "2026-11-02",
   "data": {
    "status": {
     "announcements": true,
@@ -4159,7 +4159,7 @@
   }
  },
  "SMLMAH.NS": {
-  "fetched": "2026-11-01",
+  "fetched": "2026-11-02",
   "data": {
    "status": {
     "announcements": true,
@@ -4195,9 +4195,9 @@
    "neg_events": 0,
    "pledge": 0.0,
    "pledge_chg": null,
-   "pledge_source": "local_cache",
-   "pledge_as_of": "2026-10-30",
-   "pledge_confidence": "single",
+   "pledge_source": "nse_pledge_api",
+   "pledge_as_of": null,
+   "pledge_confidence": "high",
    "pledge_conflict": false,
    "promoter_chg": 0.0,
    "promoter_now": 58.97,
@@ -4373,7 +4373,7 @@
   }
  },
  "SPARC.NS": {
-  "fetched": "2026-11-01",
+  "fetched": "2026-11-02",
   "data": {
    "status": {
     "announcements": true,
@@ -4388,9 +4388,9 @@
    "neg_events": 0,
    "pledge": 0.0,
    "pledge_chg": null,
-   "pledge_source": "local_cache",
+   "pledge_source": "nse_pledge_api",
    "pledge_as_of": "29-01-2016",
-   "pledge_confidence": "single",
+   "pledge_confidence": "high",
    "pledge_conflict": false,
    "promoter_chg": 0.0,
    "promoter_now": 65.67,
@@ -4582,7 +4582,7 @@
   }
  },
  "TTML.NS": {
-  "fetched": "2026-11-01",
+  "fetched": "2026-11-02",
   "data": {
    "status": {
     "announcements": true,
@@ -4597,9 +4597,9 @@
    "neg_events": 0,
    "pledge": 0.0,
    "pledge_chg": null,
-   "pledge_source": "local_cache",
+   "pledge_source": "nse_pledge_api",
    "pledge_as_of": "18-02-2019",
-   "pledge_confidence": "single",
+   "pledge_confidence": "high",
    "pledge_conflict": false,
    "promoter_chg": 0.0,
    "promoter_now": 74.36,
@@ -4652,7 +4652,7 @@
   }
  },
  "WEBELSOLAR.NS": {
-  "fetched": "2026-11-01",
+  "fetched": "2026-11-02",
   "data": {
    "status": {
     "announcements": true,
@@ -4698,9 +4698,9 @@
    "neg_events": 0,
    "pledge": 15.64,
    "pledge_chg": null,
-   "pledge_source": "local_cache",
+   "pledge_source": "nse_pledge_api",
    "pledge_as_of": "30-10-2023",
-   "pledge_confidence": "single",
+   "pledge_confidence": "high",
    "pledge_conflict": false,
    "promoter_chg": 2.01,
    "promoter_now": 29.72,
@@ -4710,7 +4710,7 @@
   }
  },
  "ASHOKA.NS": {
-  "fetched": "2026-11-01",
+  "fetched": "2026-11-02",
   "data": {
    "status": {
     "announcements": true,
@@ -4756,9 +4756,9 @@
    "neg_events": 0,
    "pledge": 0.0,
    "pledge_chg": null,
-   "pledge_source": "local_cache",
-   "pledge_as_of": "2026-10-30",
-   "pledge_confidence": "single",
+   "pledge_source": "nse_pledge_api",
+   "pledge_as_of": null,
+   "pledge_confidence": "high",
    "pledge_conflict": false,
    "promoter_chg": 0.0,
    "promoter_now": 54.48,
@@ -5325,7 +5325,7 @@
   }
  },
  "CRAMC.NS": {
-  "fetched": "2026-11-01",
+  "fetched": "2026-11-02",
   "data": {
    "status": {
     "announcements": true,
@@ -5346,7 +5346,7 @@
   }
  },
  "GOKULAGRO.NS": {
-  "fetched": "2026-11-01",
+  "fetched": "2026-11-02",
   "data": {
    "status": {
     "announcements": true,
@@ -5361,9 +5361,9 @@
    "neg_events": 0,
    "pledge": 13.69,
    "pledge_chg": null,
-   "pledge_source": "local_cache",
+   "pledge_source": "nse_pledge_api",
    "pledge_as_of": "29-11-2016",
-   "pledge_confidence": "single",
+   "pledge_confidence": "high",
    "pledge_conflict": false,
    "promoter_chg": 0.57,
    "promoter_now": 74.24,
@@ -5373,7 +5373,7 @@
   }
  },
  "BAJAJCON.NS": {
-  "fetched": "2026-11-01",
+  "fetched": "2026-11-02",
   "data": {
    "status": {
     "announcements": true,
@@ -5388,9 +5388,9 @@
    "neg_events": 0,
    "pledge": 0.0,
    "pledge_chg": null,
-   "pledge_source": "local_cache",
+   "pledge_source": "nse_pledge_api",
    "pledge_as_of": "30-11-2016",
-   "pledge_confidence": "single",
+   "pledge_confidence": "high",
    "pledge_conflict": false,
    "promoter_chg": 2.02,
    "promoter_now": 42.97,
@@ -5400,7 +5400,7 @@
   }
  },
  "JAMNAAUTO.NS": {
-  "fetched": "2026-11-01",
+  "fetched": "2026-11-02",
   "data": {
    "status": {
     "announcements": true,
@@ -5427,9 +5427,9 @@
    "neg_events": 0,
    "pledge": 1.69,
    "pledge_chg": null,
-   "pledge_source": "local_cache",
+   "pledge_source": "nse_pledge_api",
    "pledge_as_of": "31-08-2018",
-   "pledge_confidence": "single",
+   "pledge_confidence": "high",
    "pledge_conflict": false,
    "promoter_chg": -5.13,
    "promoter_now": 44.81,
@@ -5439,7 +5439,7 @@
   }
  },
  "MSTCLTD.NS": {
-  "fetched": "2026-11-01",
+  "fetched": "2026-11-02",
   "data": {
    "status": {
     "announcements": true,
@@ -5460,7 +5460,7 @@
   }
  },
  "JYOTHYLAB.NS": {
-  "fetched": "2026-11-01",
+  "fetched": "2026-11-02",
   "data": {
    "status": {
     "announcements": true,
@@ -5475,9 +5475,9 @@
    "neg_events": 0,
    "pledge": 0.0,
    "pledge_chg": null,
-   "pledge_source": "local_cache",
+   "pledge_source": "nse_pledge_api",
    "pledge_as_of": "26-11-2019",
-   "pledge_confidence": "single",
+   "pledge_confidence": "high",
    "pledge_conflict": false,
    "promoter_chg": 0.0,
    "promoter_now": 62.89,
@@ -5487,7 +5487,7 @@
   }
  },
  "SHARDACROP.NS": {
-  "fetched": "2026-11-01",
+  "fetched": "2026-11-02",
   "data": {
    "status": {
     "announcements": true,
@@ -5502,9 +5502,9 @@
    "neg_events": 0,
    "pledge": 0.0,
    "pledge_chg": null,
-   "pledge_source": "local_cache",
-   "pledge_as_of": "2026-10-30",
-   "pledge_confidence": "single",
+   "pledge_source": "nse_pledge_api",
+   "pledge_as_of": null,
+   "pledge_confidence": "high",
    "pledge_conflict": false,
    "promoter_chg": 0.0,
    "promoter_now": 74.82,
@@ -5514,7 +5514,7 @@
   }
  },
  "FIEMIND.NS": {
-  "fetched": "2026-11-01",
+  "fetched": "2026-11-02",
   "data": {
    "status": {
     "announcements": true,
@@ -5529,9 +5529,9 @@
    "neg_events": 0,
    "pledge": 0.0,
    "pledge_chg": null,
-   "pledge_source": "local_cache",
-   "pledge_as_of": "2026-10-30",
-   "pledge_confidence": "single",
+   "pledge_source": "nse_pledge_api",
+   "pledge_as_of": null,
+   "pledge_confidence": "high",
    "pledge_conflict": false,
    "promoter_chg": 0.0,
    "promoter_now": 54.52,
@@ -5541,7 +5541,7 @@
   }
  },
  "SONATSOFTW.NS": {
-  "fetched": "2026-11-01",
+  "fetched": "2026-11-02",
   "data": {
    "status": {
     "announcements": true,
@@ -5568,9 +5568,9 @@
    "neg_events": 0,
    "pledge": 0.0,
    "pledge_chg": null,
-   "pledge_source": "local_cache",
+   "pledge_source": "nse_pledge_api",
    "pledge_as_of": "07-04-2016",
-   "pledge_confidence": "single",
+   "pledge_confidence": "high",
    "pledge_conflict": false,
    "promoter_chg": 0.0,
    "promoter_now": 28.17,
@@ -5580,7 +5580,7 @@
   }
  },
  "TANLA.NS": {
-  "fetched": "2026-11-01",
+  "fetched": "2026-11-02",
   "data": {
    "status": {
     "announcements": true,
@@ -5607,9 +5607,9 @@
    "neg_events": 0,
    "pledge": 0.0,
    "pledge_chg": null,
-   "pledge_source": "local_cache",
-   "pledge_as_of": "2026-10-30",
-   "pledge_confidence": "single",
+   "pledge_source": "nse_pledge_api",
+   "pledge_as_of": null,
+   "pledge_confidence": "high",
    "pledge_conflict": false,
    "promoter_chg": 0.0,
    "promoter_now": 46.17,
@@ -5619,7 +5619,7 @@
   }
  },
  "STYLAMIND.NS": {
-  "fetched": "2026-11-01",
+  "fetched": "2026-11-02",
   "data": {
    "status": {
     "announcements": true,
@@ -5652,7 +5652,7 @@
   }
  },
  "CENTUM.NS": {
-  "fetched": "2026-11-01",
+  "fetched": "2026-11-02",
   "data": {
    "status": {
     "announcements": true,
@@ -5689,9 +5689,9 @@
    "neg_events": 0,
    "pledge": 0.0,
    "pledge_chg": null,
-   "pledge_source": "local_cache",
+   "pledge_source": "nse_pledge_api",
    "pledge_as_of": "10-03-2021",
-   "pledge_confidence": "single",
+   "pledge_confidence": "high",
    "pledge_conflict": false,
    "promoter_chg": -0.18,
    "promoter_now": 46.81,
@@ -5701,7 +5701,7 @@
   }
  },
  "NEWGEN.NS": {
-  "fetched": "2026-11-01",
+  "fetched": "2026-11-02",
   "data": {
    "status": {
     "announcements": true,
@@ -5766,7 +5766,7 @@
   }
  },
  "QUESS.NS": {
-  "fetched": "2026-11-01",
+  "fetched": "2026-11-02",
   "data": {
    "status": {
     "announcements": true,
@@ -5787,7 +5787,7 @@
   }
  },
  "MAPMYINDIA.NS": {
-  "fetched": "2026-11-01",
+  "fetched": "2026-11-02",
   "data": {
    "status": {
     "announcements": true,
@@ -6499,7 +6499,7 @@
   }
  },
  "KIRLPNU.NS": {
-  "fetched": "2026-11-01",
+  "fetched": "2026-11-02",
   "data": {
    "status": {
     "announcements": true,
@@ -6551,7 +6551,7 @@
   }
  },
  "SANDUMA.NS": {
-  "fetched": "2026-11-01",
+  "fetched": "2026-11-02",
   "data": {
    "status": {
     "announcements": true,
@@ -6654,7 +6654,7 @@
   }
  },
  "VESUVIUS.NS": {
-  "fetched": "2026-11-01",
+  "fetched": "2026-11-02",
   "data": {
    "status": {
     "announcements": true,
@@ -6669,9 +6669,9 @@
    "neg_events": 0,
    "pledge": 0.0,
    "pledge_chg": null,
-   "pledge_source": "local_cache",
-   "pledge_as_of": "2026-10-30",
-   "pledge_confidence": "single",
+   "pledge_source": "nse_pledge_api",
+   "pledge_as_of": null,
+   "pledge_confidence": "high",
    "pledge_conflict": false,
    "promoter_chg": 0.0,
    "promoter_now": 55.57,
@@ -6681,7 +6681,7 @@
   }
  },
  "MMTC.NS": {
-  "fetched": "2026-11-01",
+  "fetched": "2026-11-02",
   "data": {
    "status": {
     "announcements": true,
@@ -6717,9 +6717,9 @@
    "neg_events": 0,
    "pledge": 0.0,
    "pledge_chg": null,
-   "pledge_source": "local_cache",
-   "pledge_as_of": "2026-10-30",
-   "pledge_confidence": "single",
+   "pledge_source": "nse_pledge_api",
+   "pledge_as_of": null,
+   "pledge_confidence": "high",
    "pledge_conflict": false,
    "promoter_chg": 0.0,
    "promoter_now": 89.93,
@@ -6729,7 +6729,7 @@
   }
  },
  "TIMEX.NS": {
-  "fetched": "2026-11-01",
+  "fetched": "2026-11-02",
   "data": {
    "status": {
     "announcements": true,
