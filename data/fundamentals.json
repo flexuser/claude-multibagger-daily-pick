@@ -25580,9 +25580,9 @@
    "Export manufacturing"
   ],
   "moat_kw": 0,
-  "mcap_cr": 4345.9715,
+  "mcap_cr": 4454.3541,
   "revenue_cr": 7500.28,
-  "pe": 13.9448,
+  "pe": 14.2926,
   "peg": null,
   "rev_cagr": -2.0234,
   "profit_cagr": -5.2048,
@@ -25593,7 +25593,7 @@
   "de": 0.0303,
   "dilution": 1.1122,
   "insider_pct": 67.782,
-  "inst_pct": 1.415,
+  "inst_pct": 1.496,
   "analysts": 1.0,
   "fcf_positive": 1,
   "q_rev_yoy": 27.5447,
@@ -25611,8 +25611,13 @@
   "gppe_growth": 6.9436,
   "acquisition": null,
   "split_recent": null,
-  "news": [],
-  "fetched": "2026-10-26"
+  "news": [
+   "Surya Roshni Ltd (BOM:500336) (Q1 2027) Earnings Call Highlights: Record Steel Volumes and 77% ...",
+   "Surya Roshni Ltd (BOM:500336) Q4 2026 Earnings Call Highlights: Resilient Revenue and Strategic ...",
+   "Surya Roshni Ltd (BOM:500336) Q3 2026 Earnings Call Highlights: Revenue Growth Amidst Steel ...",
+   "Surya Roshni Ltd (BOM:500336) Q2 2026 Earnings Call Highlights: Strong Revenue Growth and ..."
+  ],
+  "fetched": "2026-11-03"
  },
  "SUVEN.NS": {
   "name": "SUVEN LIFE SCIENCES LTD",
@@ -25622,9 +25627,9 @@
    "Healthcare and diagnostics"
   ],
   "moat_kw": 0,
-  "mcap_cr": 7403.1423,
+  "mcap_cr": 7380.5382,
   "revenue_cr": 7.1147,
-  "pe": 13.5401,
+  "pe": 13.4987,
   "peg": null,
   "rev_cagr": -19.3035,
   "profit_cagr": null,
@@ -25654,7 +25659,7 @@
   "acquisition": null,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-26"
+  "fetched": "2026-11-03"
  },
  "TARC.NS": {
   "name": "TARC LIMITED",
@@ -25662,9 +25667,9 @@
   "blurb": "TARC Limited engages in real estate development in India. It is involved in the construction and development of residential projects, commercial projects, township projects, SEZ, IT park, and malls; sale of real estate units, including land, plots, apartments, commercial units, and development rights; and Co-developmen",
   "themes": [],
   "moat_kw": 0,
-  "mcap_cr": 3389.4762,
+  "mcap_cr": 3285.3074,
   "revenue_cr": 323.7653,
-  "pe": 1.6315,
+  "pe": 1.5814,
   "peg": null,
   "rev_cagr": 20.6129,
   "profit_cagr": -2.1238,
@@ -25694,7 +25699,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-26"
+  "fetched": "2026-11-03"
  },
  "TTKPRESTIG.NS": {
   "name": "TTK PRESTIGE LTD",
@@ -25702,9 +25707,9 @@
   "blurb": "TTK Prestige Limited, together with its subsidiaries, manufactures and sells kitchen and home appliances under the Prestige and Judge brands in India and internationally. The company offers pressure cookers; cookware; cooking appliances, such as gas stoves, induction/infrared cooktops, rice cookers, OTG, and air fryers",
   "themes": [],
   "moat_kw": 0,
-  "mcap_cr": 7194.8444,
+  "mcap_cr": 7144.8519,
   "revenue_cr": 2950.0,
-  "pe": 37.2289,
+  "pe": 36.9702,
   "peg": 0.94,
   "rev_cagr": 2.3081,
   "profit_cagr": -14.1913,
@@ -25714,9 +25719,9 @@
   "roce_chg": -2.9708,
   "de": 0.088,
   "dilution": -1.1998,
-  "insider_pct": 70.923,
-  "inst_pct": 19.757,
-  "analysts": 8.0,
+  "insider_pct": 70.918,
+  "inst_pct": 19.804,
+  "analysts": 7.0,
   "fcf_positive": 1,
   "q_rev_yoy": 25.2925,
   "q_profit_yoy": null,
@@ -25733,8 +25738,13 @@
   "gppe_growth": 8.5724,
   "acquisition": false,
   "split_recent": null,
-  "news": [],
-  "fetched": "2026-10-26"
+  "news": [
+   "TTK Prestige Ltd (BOM:517506) Q1 2027 Earnings Call Highlights: Strong Demand and Strategic ...",
+   "India's TTK Prestige quarterly profit more than doubles as consumers shift to induction cooktops",
+   "TTK Prestige Ltd (BOM:517506) Q4 2026 Earnings Call Highlights: Strong Domestic Growth and ...",
+   "TTK Prestige Ltd (BOM:517506) Q3 2026 Earnings Call Highlights: Strong Festive Demand and ..."
+  ],
+  "fetched": "2026-11-03"
  },
  "TVSSCS.NS": {
   "name": "TVS SUPPLY CHAIN SOL L",
@@ -25745,9 +25755,9 @@
    "Healthcare and diagnostics"
   ],
   "moat_kw": 0,
-  "mcap_cr": 4876.4051,
+  "mcap_cr": 4881.2585,
   "revenue_cr": 11000.46,
-  "pe": 75.6986,
+  "pe": 75.774,
   "peg": null,
   "rev_cagr": 3.3225,
   "profit_cagr": 42.1214,
@@ -25758,7 +25768,7 @@
   "de": 1.3361,
   "dilution": 0.8619,
   "insider_pct": 65.986,
-  "inst_pct": 13.518,
+  "inst_pct": 13.541,
   "analysts": null,
   "fcf_positive": 1,
   "q_rev_yoy": 28.6582,
@@ -25776,8 +25786,11 @@
   "gppe_growth": 36.5636,
   "acquisition": false,
   "split_recent": null,
-  "news": [],
-  "fetched": "2026-10-26"
+  "news": [
+   "TVS Supply Chain Solutions Ltd (BOM:543965) Q4 2026 Earnings Call Highlights: Strong Revenue ...",
+   "TVS Supply Chain Solutions Ltd (BOM:543965) Q2 2026 Earnings Call Highlights: Record PBT Growth ..."
+  ],
+  "fetched": "2026-11-03"
  },
  "TMB.NS": {
   "name": "TAMILNAD MERCA BANK LTD",
@@ -25787,9 +25800,9 @@
    "Healthcare and diagnostics"
   ],
   "moat_kw": 0,
-  "mcap_cr": 12732.2489,
+  "mcap_cr": 12418.7132,
   "revenue_cr": 3403.9393,
-  "pe": 8.8154,
+  "pe": 7.87,
   "peg": null,
   "rev_cagr": 7.7223,
   "profit_cagr": 9.126,
@@ -25800,18 +25813,18 @@
   "de": null,
   "dilution": 0.0,
   "insider_pct": 29.759,
-  "inst_pct": 4.012,
+  "inst_pct": 4.063,
   "analysts": null,
   "fcf_positive": 0,
-  "q_rev_yoy": 30.6069,
-  "q_profit_yoy": 40.9764,
+  "q_rev_yoy": 28.1988,
+  "q_profit_yoy": 47.9681,
   "q_opm_chg": null,
   "cfo_pat": 0.3306,
   "interest_coverage": null,
   "recv_days": 66.5658,
   "recv_days_chg_pct": -19.745,
   "fin_date": "2026-03-31",
-  "q_date": "2026-06-30",
+  "q_date": "2026-09-30",
   "fin_sector": "Financial Services",
   "capex_rev_pct": 3.7708,
   "cwip_growth": null,
@@ -25819,7 +25832,7 @@
   "acquisition": null,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-26"
+  "fetched": "2026-11-03"
  },
  "TANLA.NS": {
   "name": "TANLA PLATFORMS LIMITED",
@@ -25830,9 +25843,9 @@
    "Digital and data centres"
   ],
   "moat_kw": 0,
-  "mcap_cr": 7497.8394,
+  "mcap_cr": 8742.418,
   "revenue_cr": 4417.7064,
-  "pe": 14.1314,
+  "pe": 15.812,
   "peg": null,
   "rev_cagr": 9.611,
   "profit_cagr": 4.3843,
@@ -25840,29 +25853,33 @@
   "op_margin_chg": -3.0881,
   "roce": 25.1429,
   "roce_chg": -9.0326,
-  "de": 0.0212,
+  "de": 0.0275,
   "dilution": -1.7876,
   "insider_pct": 55.555,
-  "inst_pct": 5.557,
+  "inst_pct": 5.531,
   "analysts": 2.0,
   "fcf_positive": 1,
-  "q_rev_yoy": 19.7221,
-  "q_profit_yoy": 21.165,
-  "q_opm_chg": 0.4847,
+  "q_rev_yoy": 29.894,
+  "q_profit_yoy": 23.6593,
+  "q_opm_chg": -0.3125,
   "cfo_pat": 1.1543,
   "interest_coverage": 145.4645,
   "recv_days": 81.6502,
   "recv_days_chg_pct": 31.6491,
   "fin_date": "2026-03-31",
-  "q_date": "2026-06-30",
+  "q_date": "2026-09-30",
   "fin_sector": "Technology",
   "capex_rev_pct": 2.2104,
   "cwip_growth": -100.0,
   "gppe_growth": -2.8083,
   "acquisition": false,
   "split_recent": null,
-  "news": [],
-  "fetched": "2026-10-26"
+  "news": [
+   "Tanla Platforms And 2 Indian AI Stocks To Watch",
+   "Tanla Platforms Ltd (BOM:532790) Q4 2026 Earnings Call Highlights: Strategic Growth Amidst ...",
+   "Tanla Platforms Ltd (BOM:532790) Q3 2026 Earnings Call Highlights: Strong Growth Amidst Challenges"
+  ],
+  "fetched": "2026-11-03"
  },
  "TEXRAIL.NS": {
   "name": "TEXMACO RAIL & ENG. LTD.",
@@ -25873,9 +25890,9 @@
    "Export manufacturing"
   ],
   "moat_kw": 0,
-  "mcap_cr": 4021.8563,
+  "mcap_cr": 4202.9113,
   "revenue_cr": 4358.8141,
-  "pe": 18.546,
+  "pe": 19.3809,
   "peg": null,
   "rev_cagr": 25.1263,
   "profit_cagr": 95.7269,
@@ -25886,7 +25903,7 @@
   "de": 0.3709,
   "dilution": 26.4065,
   "insider_pct": 48.525,
-  "inst_pct": 9.107,
+  "inst_pct": 9.118,
   "analysts": 3.0,
   "fcf_positive": 1,
   "q_rev_yoy": -16.9031,
@@ -25904,8 +25921,15 @@
   "gppe_growth": 13.3289,
   "acquisition": false,
   "split_recent": null,
-  "news": [],
-  "fetched": "2026-10-26"
+  "news": [
+   "Texmaco Rail & Engineering Ltd (BOM:533326) (Q1 2027) Earnings Call Highlights: PAT Surges ...",
+   "How Investors May Respond To Trinity Industries (TRN) Entering India\u2019s Railcar Leasing Market Through TTRL",
+   "Why Trinity Industries (TRN) Is Expanding Its Long-Term Rail Growth Strategy Through India\u2019s Railcar Leasing Market",
+   "Texmaco Rail & Engineering Ltd (BOM:533326) Q4 2026 Earnings Call Highlights: Navigating ...",
+   "Texmaco Rail & Engineering Ltd (BOM:533326) Q3 2026 Earnings Call Highlights: Strategic ...",
+   "Texmaco Rail & Engineering Ltd (BOM:533326) Q2 2026 Earnings Call Highlights: Strong ..."
+  ],
+  "fetched": "2026-11-03"
  },
  "THOMASCOOK.NS": {
   "name": "THOMAS COOK (INDIA) LTD",
@@ -25915,9 +25939,9 @@
    "Healthcare and diagnostics"
   ],
   "moat_kw": 0,
-  "mcap_cr": 4205.6729,
+  "mcap_cr": 4077.8011,
   "revenue_cr": 8231.19,
-  "pe": 19.8689,
+  "pe": 18.6589,
   "peg": 1.91,
   "rev_cagr": 18.4534,
   "profit_cagr": 223.5723,
@@ -25928,7 +25952,7 @@
   "de": 0.2137,
   "dilution": 1.3466,
   "insider_pct": 65.729,
-  "inst_pct": 11.42,
+  "inst_pct": 11.402,
   "analysts": 2.0,
   "fcf_positive": 1,
   "q_rev_yoy": -13.126,
@@ -25946,8 +25970,10 @@
   "gppe_growth": 11.8275,
   "acquisition": false,
   "split_recent": null,
-  "news": [],
-  "fetched": "2026-10-26"
+  "news": [
+   "What Booking Holdings (BKNG)'s India Corporate Travel Tie-Up Signals About Its Enterprise Strategy"
+  ],
+  "fetched": "2026-11-03"
  },
  "THYROCARE.NS": {
   "name": "THYROCARE TECH LTD",
@@ -25957,9 +25983,9 @@
    "Healthcare and diagnostics"
   ],
   "moat_kw": 0,
-  "mcap_cr": 7491.1154,
+  "mcap_cr": 7686.0932,
   "revenue_cr": 821.89,
-  "pe": 42.7087,
+  "pe": 43.9399,
   "peg": null,
   "rev_cagr": 16.6949,
   "profit_cagr": 36.2283,
@@ -25967,21 +25993,21 @@
   "op_margin_chg": 8.6009,
   "roce": 33.9018,
   "roce_chg": 16.2989,
-  "de": 0.0865,
+  "de": 0.103,
   "dilution": 0.2347,
   "insider_pct": 51.183,
-  "inst_pct": 27.066,
+  "inst_pct": 27.163,
   "analysts": 5.0,
   "fcf_positive": 1,
-  "q_rev_yoy": 28.2432,
-  "q_profit_yoy": 140.5069,
-  "q_opm_chg": 3.4265,
+  "q_rev_yoy": 40.2943,
+  "q_profit_yoy": -59.1831,
+  "q_opm_chg": -13.55,
   "cfo_pat": 1.7238,
   "interest_coverage": 77.0286,
   "recv_days": 32.81,
   "recv_days_chg_pct": -45.3815,
   "fin_date": "2026-03-31",
-  "q_date": "2026-06-30",
+  "q_date": "2026-09-30",
   "fin_sector": "Healthcare",
   "capex_rev_pct": 2.5405,
   "cwip_growth": -78.3039,
@@ -25991,8 +26017,12 @@
    "date": "2025-11-28",
    "ratio": 3.0
   },
-  "news": [],
-  "fetched": "2026-10-26"
+  "news": [
+   "Thyrocare Technologies Ltd (BOM:539871) Q1 2027 Earnings Call Highlights: Strong Revenue Growth ...",
+   "Thyrocare Technologies Ltd (BOM:539871) Q4 2026 Earnings Call Highlights: Strong Revenue Growth ...",
+   "Thyrocare Technologies Ltd (BOM:539871) Q3 2026 Earnings Call Highlights: Robust Revenue Growth ..."
+  ],
+  "fetched": "2026-11-03"
  },
  "TI.NS": {
   "name": "TILAKNAGAR INDUSTRIES LTD",
@@ -26002,9 +26032,9 @@
    "Export manufacturing"
   ],
   "moat_kw": 0,
-  "mcap_cr": 12052.7962,
+  "mcap_cr": 11529.7313,
   "revenue_cr": 2268.0201,
-  "pe": 28.7692,
+  "pe": 28.2368,
   "peg": null,
   "rev_cagr": 25.195,
   "profit_cagr": -48.1706,
@@ -26012,29 +26042,35 @@
   "op_margin_chg": -6.7306,
   "roce": 1.8592,
   "roce_chg": -18.0278,
-  "de": 0.7718,
+  "de": 0.7314,
   "dilution": 33.3608,
   "insider_pct": 38.925,
-  "inst_pct": 23.986,
+  "inst_pct": 23.992,
   "analysts": 7.0,
   "fcf_positive": 0,
-  "q_rev_yoy": 165.5428,
-  "q_profit_yoy": -64.3066,
-  "q_opm_chg": -13.8568,
+  "q_rev_yoy": 172.7667,
+  "q_profit_yoy": -57.7314,
+  "q_opm_chg": -5.6469,
   "cfo_pat": -0.3828,
   "interest_coverage": 1.265,
   "recv_days": 204.6742,
   "recv_days_chg_pct": 91.2922,
   "fin_date": "2026-03-31",
-  "q_date": "2026-06-30",
+  "q_date": "2026-09-30",
   "fin_sector": "Consumer Defensive",
   "capex_rev_pct": 155.7927,
   "cwip_growth": 1554.0213,
   "gppe_growth": 29.5584,
   "acquisition": false,
   "split_recent": null,
-  "news": [],
-  "fetched": "2026-10-26"
+  "news": [
+   "Tilaknagar Industries Ltd (BOM:507205) (Q2 2027) Earnings Call Highlights: Revenue Surges 173% ...",
+   "India's Tilaknagar open to another large deal after Imperial Blue buyout, chairman says",
+   "Tilaknagar Industries Ltd (BOM:507205) (Q1 2027) Earnings Call Highlights: Record Volumes and ...",
+   "Tilaknagar Industries Ltd (BOM:507205) Q4 2025 Earnings Call Highlights: Record Growth and ...",
+   "Tilaknagar Industries Ltd (BOM:507205) Q2 2026 Earnings Call Highlights: Strong Volume Growth ..."
+  ],
+  "fetched": "2026-11-03"
  },
  "TIMETECHNO.NS": {
   "name": "TIME TECHNOPLAST LTD.",
@@ -26050,9 +26086,9 @@
    "Healthcare and diagnostics"
   ],
   "moat_kw": 0,
-  "mcap_cr": 7839.9177,
+  "mcap_cr": 8219.0295,
   "revenue_cr": 6105.2049,
-  "pe": 15.4045,
+  "pe": 16.1494,
   "peg": null,
   "rev_cagr": 12.4863,
   "profit_cagr": 28.8645,
@@ -26063,7 +26099,7 @@
   "de": 0.1761,
   "dilution": 9.1405,
   "insider_pct": 48.605,
-  "inst_pct": 20.474,
+  "inst_pct": 20.485,
   "analysts": 1.0,
   "fcf_positive": 0,
   "q_rev_yoy": 25.1403,
@@ -26081,8 +26117,12 @@
   "gppe_growth": 10.1465,
   "acquisition": null,
   "split_recent": null,
-  "news": [],
-  "fetched": "2026-10-26"
+  "news": [
+   "Time Technoplast Ltd (BOM:532856) (Q1 2027) Earnings Call Highlights: Composite Segment Surges ...",
+   "Time Technoplast Ltd (BOM:532856) Q4 2026 Earnings Call Highlights: Record Revenue and ...",
+   "Time Technoplast Ltd (BOM:532856) Q3 2026 Earnings Call Highlights: Strong Growth and Strategic ..."
+  ],
+  "fetched": "2026-11-03"
  },
  "TIPSMUSIC.NS": {
   "name": "TIPS MUSIC LIMITED",
@@ -26090,9 +26130,9 @@
   "blurb": "Tips Music Limited engages in the acquisition and exploitation of music rights in India and internationally. The company involved in the production and acquisition of audiovisual music content and monetisation of the content library digitally. It also provides live events and concerts services. The company was formerly",
   "themes": [],
   "moat_kw": 0,
-  "mcap_cr": 9116.0756,
+  "mcap_cr": 10010.6437,
   "revenue_cr": 375.5149,
-  "pe": 40.3433,
+  "pe": 44.3022,
   "peg": null,
   "rev_cagr": 26.2112,
   "profit_cagr": 41.4888,
@@ -26103,7 +26143,7 @@
   "de": 0.0126,
   "dilution": -0.4633,
   "insider_pct": 65.709,
-  "inst_pct": 7.301,
+  "inst_pct": 7.346,
   "analysts": 3.0,
   "fcf_positive": 1,
   "q_rev_yoy": 36.3299,
@@ -26121,8 +26161,12 @@
   "gppe_growth": 50.0253,
   "acquisition": null,
   "split_recent": null,
-  "news": [],
-  "fetched": "2026-10-26"
+  "news": [
+   "Tips Music Ltd (BOM:532375) Q1 2027 Earnings Call Highlights: Strong Revenue Growth Amid Rising ...",
+   "Tips Music Ltd (BOM:532375) Q4 2026 Earnings Call Highlights: Strong Revenue Growth Amidst ...",
+   "Tips Music Ltd (BOM:532375) Q3 2026 Earnings Call Highlights: Strong Revenue and Profit Growth ..."
+  ],
+  "fetched": "2026-11-03"
  },
  "TRANSRAILL.NS": {
   "name": "TRANSRAIL LIGHTING LTD",
@@ -26133,9 +26177,9 @@
    "Railways and infrastructure"
   ],
   "moat_kw": 0,
-  "mcap_cr": 5765.9781,
+  "mcap_cr": 5946.2279,
   "revenue_cr": 6779.95,
-  "pe": 14.2883,
+  "pe": 14.735,
   "peg": null,
   "rev_cagr": 29.9981,
   "profit_cagr": 55.3886,
@@ -26164,8 +26208,13 @@
   "gppe_growth": 34.8232,
   "acquisition": null,
   "split_recent": null,
-  "news": [],
-  "fetched": "2026-10-26"
+  "news": [
+   "Transrail Lighting Ltd (NSE:TRANSRAILL) (Q1 2027) Earnings Call Highlights: Record Q1 Revenue ...",
+   "Transrail Lighting Ltd (NSE:TRANSRAILL) Q4 2026 Earnings Call Highlights: Record Revenue Growth ...",
+   "Transrail Lighting Ltd (NSE:TRANSRAILL) Q3 2026 Earnings Call Highlights: Strong Revenue Growth ...",
+   "Transrail Lighting Ltd (NSE:TRANSRAILL) Q2 2026 Earnings Call Highlights: Robust Revenue Growth ..."
+  ],
+  "fetched": "2026-11-03"
  },
  "UJJIVANSFB.NS": {
   "name": "UJJIVAN SMALL FINANC BANK",
@@ -26173,9 +26222,9 @@
   "blurb": "Ujjivan Small Finance Bank Limited provides various banking and financial services in India. The company operates through Treasury, Retail Banking, and Corporate/Wholesale Banking segments. It provides current, savings, salary, TACS savings and current, and NRI accounts; and fixed, recurring, TASC fixed, NRI and NRO fi",
   "themes": [],
   "moat_kw": 0,
-  "mcap_cr": 10741.307,
+  "mcap_cr": 11092.8404,
   "revenue_cr": 4907.4381,
-  "pe": 9.4664,
+  "pe": 9.7762,
   "peg": null,
   "rev_cagr": 14.2838,
   "profit_cagr": -14.2869,
@@ -26186,8 +26235,8 @@
   "de": null,
   "dilution": -0.6135,
   "insider_pct": 0.043,
-  "inst_pct": 41.313,
-  "analysts": 19.0,
+  "inst_pct": 41.224,
+  "analysts": 18.0,
   "fcf_positive": 1,
   "q_rev_yoy": 39.7352,
   "q_profit_yoy": 253.6621,
@@ -26204,8 +26253,13 @@
   "gppe_growth": 12.8492,
   "acquisition": null,
   "split_recent": null,
-  "news": [],
-  "fetched": "2026-10-26"
+  "news": [
+   "3 Indian Bank Stocks That Could Benefit Most From Higher RBI Rates",
+   "Ujjivan Small Finance Bank Ltd (BOM:542904) Q1 2027 Earnings Call Highlights: Robust Growth in ...",
+   "Ujjivan Small Finance Bank Ltd (BOM:542904) Q4 2026 Earnings Call Highlights: Robust Growth in ...",
+   "Ujjivan Small Finance Bank Ltd (BOM:542904) Q3 2026 Earnings Call Highlights: Strong Growth in ..."
+  ],
+  "fetched": "2026-11-03"
  },
  "UNIMECH.NS": {
   "name": "UNIMECH AEROSPACE N MFG L",
@@ -26217,9 +26271,9 @@
    "Export manufacturing"
   ],
   "moat_kw": 0,
-  "mcap_cr": 8225.2538,
+  "mcap_cr": 8251.7221,
   "revenue_cr": 239.8316,
-  "pe": 114.2786,
+  "pe": 93.7052,
   "peg": null,
   "rev_cagr": 37.1298,
   "profit_cagr": 40.5082,
@@ -26227,29 +26281,34 @@
   "op_margin_chg": -1.9222,
   "roce": 9.9538,
   "roce_chg": -46.8592,
-  "de": 0.1719,
+  "de": 0.2228,
   "dilution": 0.0,
   "insider_pct": 79.745,
   "inst_pct": 6.171,
   "analysts": 3.0,
   "fcf_positive": 1,
-  "q_rev_yoy": 70.8572,
-  "q_profit_yoy": 45.6974,
-  "q_opm_chg": -4.3483,
+  "q_rev_yoy": 98.4423,
+  "q_profit_yoy": 102.7631,
+  "q_opm_chg": 2.5579,
   "cfo_pat": 0.9217,
   "interest_coverage": 15.4214,
   "recv_days": 98.6168,
   "recv_days_chg_pct": -21.7908,
   "fin_date": "2026-03-31",
-  "q_date": "2026-06-30",
+  "q_date": "2026-09-30",
   "fin_sector": "Industrials",
   "capex_rev_pct": 14.965,
   "cwip_growth": -82.815,
   "gppe_growth": 15.5174,
   "acquisition": null,
   "split_recent": null,
-  "news": [],
-  "fetched": "2026-10-26"
+  "news": [
+   "Unimech Aerospace And Manufacturing Ltd (NSE:UNIMECH) (Q1 FY27) Earnings Call Highlights: ...",
+   "Unimech Aerospace And Manufacturing Ltd (NSE:UNIMECH) Q4 2026 Earnings Call Highlights: Strong ...",
+   "Unimech Aerospace And Manufacturing Ltd (NSE:UNIMECH) Q3 2026 Earnings Call Highlights: ...",
+   "Unimech Aerospace And Manufacturing Ltd (NSE:UNIMECH) Q2 2026 Earnings Call Highlights: ..."
+  ],
+  "fetched": "2026-11-03"
  },
  "VGUARD.NS": {
   "name": "V-GUARD IND LTD.",
@@ -26260,9 +26319,9 @@
    "Energy transition"
   ],
   "moat_kw": 0,
-  "mcap_cr": 11619.1175,
+  "mcap_cr": 12543.1423,
   "revenue_cr": 5918.36,
-  "pe": 32.0808,
+  "pe": 30.7388,
   "peg": null,
   "rev_cagr": 13.0898,
   "profit_cagr": 17.6954,
@@ -26270,21 +26329,21 @@
   "op_margin_chg": -0.7768,
   "roce": 16.5571,
   "roce_chg": -0.5884,
-  "de": 0.0696,
+  "de": 0.0626,
   "dilution": 1.0712,
   "insider_pct": 55.435,
-  "inst_pct": 31.173,
+  "inst_pct": 31.146,
   "analysts": 16.0,
   "fcf_positive": 1,
-  "q_rev_yoy": 17.7214,
-  "q_profit_yoy": 42.9277,
-  "q_opm_chg": 1.8119,
+  "q_rev_yoy": 26.384,
+  "q_profit_yoy": 51.2119,
+  "q_opm_chg": 1.2472,
   "cfo_pat": 1.51,
   "interest_coverage": 33.9475,
   "recv_days": 32.8622,
   "recv_days_chg_pct": -33.8576,
   "fin_date": "2026-03-31",
-  "q_date": "2026-06-30",
+  "q_date": "2026-09-30",
   "fin_sector": "Industrials",
   "capex_rev_pct": 3.0388,
   "cwip_growth": -59.0086,
@@ -26292,7 +26351,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-26"
+  "fetched": "2026-11-03"
  },
  "VMART.NS": {
   "name": "VMART RETAIL LTD",
@@ -26300,9 +26359,9 @@
   "blurb": "V-Mart Retail Limited operates a chain of retail departmental stores in India. The company offers casual, formal, ethnic, sports, inner, and night wear for men, women, and kids. It also provides accessories and non-apparel products, such as beauty and fashion accessories, footwear, home needs, bags/luggage, toys, and t",
   "themes": [],
   "moat_kw": 0,
-  "mcap_cr": 6167.0928,
+  "mcap_cr": 5710.7284,
   "revenue_cr": 3784.34,
-  "pe": 44.7977,
+  "pe": 41.4827,
   "peg": null,
   "rev_cagr": 15.4734,
   "profit_cagr": null,
@@ -26313,7 +26372,7 @@
   "de": 1.0068,
   "dilution": 0.4658,
   "insider_pct": 51.902,
-  "inst_pct": 35.57,
+  "inst_pct": 35.562,
   "analysts": 14.0,
   "fcf_positive": 1,
   "q_rev_yoy": 22.9988,
@@ -26331,8 +26390,13 @@
   "gppe_growth": 32.2806,
   "acquisition": false,
   "split_recent": null,
-  "news": [],
-  "fetched": "2026-10-26"
+  "news": [
+   "3 Indian Retail Stocks That Could Hold Up Better As Inflation Squeezes Demand",
+   "V-Mart Retail Ltd (BOM:534976) Q1 2027 Earnings Call Highlights: Strong Revenue Growth Amidst ...",
+   "V-Mart Retail Ltd (BOM:534976) Q4 2026 Earnings Call Highlights: Record Sales Growth and ...",
+   "V-Mart Retail Ltd (BOM:534976) Q2 2026 Earnings Call Highlights: Strong Growth and Strategic ..."
+  ],
+  "fetched": "2026-11-03"
  },
  "VIPIND.NS": {
   "name": "VIP INDUSTRIES LTD",
@@ -26342,9 +26406,9 @@
    "Export manufacturing"
   ],
   "moat_kw": 0,
-  "mcap_cr": 3709.7763,
+  "mcap_cr": 3476.8056,
   "revenue_cr": 1851.9,
-  "pe": 106.2821,
+  "pe": 99.6077,
   "peg": null,
   "rev_cagr": -3.7778,
   "profit_cagr": null,
@@ -26374,7 +26438,7 @@
   "acquisition": null,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-26"
+  "fetched": "2026-11-03"
  },
  "V2RETAIL.NS": {
   "name": "V2 RETAIL LIMITED",
@@ -26382,9 +26446,9 @@
   "blurb": "V2 Retail Limited, together with its subsidiary, V2 Smart Manufacturing Private Limited, engages in the retail trade of garments, textiles, and accessories in India. It is involved in the retail sale of ready-made garments, hosiery goods, and other articles of clothing and clothing accessories under the Godspeed, Herrl",
   "themes": [],
   "moat_kw": 0,
-  "mcap_cr": 5883.7914,
+  "mcap_cr": 6002.663,
   "revenue_cr": 3060.1521,
-  "pe": 31.8893,
+  "pe": 32.5336,
   "peg": null,
   "rev_cagr": 54.1075,
   "profit_cagr": null,
@@ -26395,7 +26459,7 @@
   "de": 1.1022,
   "dilution": 6.0321,
   "insider_pct": 54.098,
-  "inst_pct": 10.945,
+  "inst_pct": 10.941,
   "analysts": 2.0,
   "fcf_positive": 0,
   "q_rev_yoy": 57.7302,
@@ -26416,8 +26480,13 @@
    "date": "2026-03-25",
    "ratio": 10.0
   },
-  "news": [],
-  "fetched": "2026-10-26"
+  "news": [
+   "3 Indian Retail Stocks That Could Hold Up Better As Inflation Squeezes Demand",
+   "V2 Retail Ltd (BOM:532867) (Q1 2027) Earnings Call Highlights: Revenue Surges 58% to INR997 ...",
+   "V2 Retail Ltd (BOM:532867) Q4 2026 Earnings Call Highlights: Record Growth and Strategic Expansion",
+   "V2 Retail Ltd (BOM:532867) Q3 2026 Earnings Call Highlights: Robust Revenue Growth and ..."
+  ],
+  "fetched": "2026-11-03"
  },
  "DBREALTY.NS": {
   "name": "VALOR ESTATE LIMITED",
@@ -26427,9 +26496,9 @@
    "Healthcare and diagnostics"
   ],
   "moat_kw": 0,
-  "mcap_cr": 4257.8932,
+  "mcap_cr": 4547.5381,
   "revenue_cr": 1504.8904,
-  "pe": 341.3043,
+  "pe": 364.5217,
   "peg": null,
   "rev_cagr": 29.7589,
   "profit_cagr": null,
@@ -26440,7 +26509,7 @@
   "de": 0.1841,
   "dilution": 54.0251,
   "insider_pct": 62.13,
-  "inst_pct": 2.058,
+  "inst_pct": 2.046,
   "analysts": null,
   "fcf_positive": 1,
   "q_rev_yoy": -86.8162,
@@ -26459,7 +26528,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-26"
+  "fetched": "2026-11-03"
  },
  "WABAG.NS": {
   "name": "VA TECH WABAG LTD",
@@ -26470,9 +26539,9 @@
    "Energy transition"
   ],
   "moat_kw": 0,
-  "mcap_cr": 10673.782,
+  "mcap_cr": 11218.9112,
   "revenue_cr": 3908.4,
-  "pe": 26.459,
+  "pe": 27.8103,
   "peg": null,
   "rev_cagr": 9.8771,
   "profit_cagr": 205.4557,
@@ -26483,7 +26552,7 @@
   "de": 0.0887,
   "dilution": 0.1916,
   "insider_pct": 27.047,
-  "inst_pct": 18.355,
+  "inst_pct": 19.132,
   "analysts": 9.0,
   "fcf_positive": 1,
   "q_rev_yoy": 20.8174,
@@ -26501,8 +26570,15 @@
   "gppe_growth": 2.7128,
   "acquisition": null,
   "split_recent": null,
-  "news": [],
-  "fetched": "2026-10-26"
+  "news": [
+   "Coromandel International Stock Leads India Agri Input Picks As Water Stress Grows",
+   "VA Tech Wabag (NSEI:WABAG) Stock Sees Modest Fair Value Lift On Backlog Confidence",
+   "VA Tech Wabag Ltd (BOM:533269) (Q1 2027) Earnings Call Highlights: Record Order Book and 37% ...",
+   "VA Tech Wabag (NSEI:WABAG) Stock Gets Fair Value Boost On Higher P E View",
+   "VA Tech Wabag (NSEI:WABAG) Stock Sees Modest Fair Value Lift After Mixed Analyst Target Changes",
+   "VA Tech Wabag Ltd (BOM:533269) Q2 2026 Earnings Call Highlights: Strategic Growth and Financial ..."
+  ],
+  "fetched": "2026-11-03"
  },
  "VAIBHAVGBL.NS": {
   "name": "VAIBHAV GLOBAL LIMITED",
@@ -26512,9 +26588,9 @@
    "Export manufacturing"
   ],
   "moat_kw": 1,
-  "mcap_cr": 3146.6041,
+  "mcap_cr": 2645.796,
   "revenue_cr": 3671.8057,
-  "pe": 11.1221,
+  "pe": 9.5594,
   "peg": null,
   "rev_cagr": 11.0829,
   "profit_cagr": 36.3599,
@@ -26522,29 +26598,33 @@
   "op_margin_chg": 1.7212,
   "roce": 14.3645,
   "roce_chg": 1.3617,
-  "de": 0.2523,
+  "de": 0.2486,
   "dilution": 1.2848,
-  "insider_pct": 59.286,
-  "inst_pct": 15.194,
+  "insider_pct": 59.272,
+  "inst_pct": 15.179,
   "analysts": null,
   "fcf_positive": 1,
-  "q_rev_yoy": 7.9169,
-  "q_profit_yoy": 65.4259,
-  "q_opm_chg": 2.9183,
+  "q_rev_yoy": 15.3161,
+  "q_profit_yoy": 10.8429,
+  "q_opm_chg": -0.8047,
   "cfo_pat": 1.3735,
   "interest_coverage": 20.3071,
   "recv_days": 33.7637,
   "recv_days_chg_pct": 3.0835,
   "fin_date": "2026-03-31",
-  "q_date": "2026-06-30",
+  "q_date": "2026-09-30",
   "fin_sector": "Consumer Cyclical",
   "capex_rev_pct": 0.9034,
   "cwip_growth": 1101.3757,
   "gppe_growth": 46.2289,
   "acquisition": false,
   "split_recent": null,
-  "news": [],
-  "fetched": "2026-10-26"
+  "news": [
+   "Vaibhav Global Ltd (BOM:532156) (Q1 2027) Earnings Call Highlights: Digital Growth and Tariff ...",
+   "Vaibhav Global Ltd (BOM:532156) Q4 2026 Earnings Call Highlights: Strong Profit Growth Amid ...",
+   "Vaibhav Global Ltd (BOM:532156) Q2 2026 Earnings Call Highlights: Strong Revenue Growth Amid ..."
+  ],
+  "fetched": "2026-11-03"
  },
  "MANYAVAR.NS": {
   "name": "VEDANT FASHIONS LIMITED",
@@ -26552,9 +26632,9 @@
   "blurb": "Vedant Fashions Limited engages in the manufacture, trading, and sale of wedding and celebration wear in India, Nepal, the United States, Canada, the United Arab Emirates, the United Kingdom, and internationally. The company offers kurta sets, indo-western, sherwani sets, jackets, accessories, jodhpuris suits, and shor",
   "themes": [],
   "moat_kw": 0,
-  "mcap_cr": 11699.4171,
+  "mcap_cr": 12073.6039,
   "revenue_cr": 1433.457,
-  "pe": 30.3212,
+  "pe": 31.2909,
   "peg": null,
   "rev_cagr": 1.945,
   "profit_cagr": -4.3472,
@@ -26565,7 +26645,7 @@
   "de": 0.233,
   "dilution": 0.0795,
   "insider_pct": 74.939,
-  "inst_pct": 18.597,
+  "inst_pct": 18.569,
   "analysts": 9.0,
   "fcf_positive": 1,
   "q_rev_yoy": -17.9816,
@@ -26583,8 +26663,11 @@
   "gppe_growth": 7.0205,
   "acquisition": false,
   "split_recent": null,
-  "news": [],
-  "fetched": "2026-10-26"
+  "news": [
+   "Vedant Fashions Ltd (BOM:543463) Q1 2027 Earnings Call Highlights: Strong Revenue Growth Amid ...",
+   "Vedant Fashions Ltd (BOM:543463) Q3 2026 Earnings Call Highlights: Strong Margins Amidst Market ..."
+  ],
+  "fetched": "2026-11-03"
  },
  "VESUVIUS.NS": {
   "name": "VESUVIUS INDIA LTD",
@@ -26594,9 +26677,9 @@
    "Export manufacturing"
   ],
   "moat_kw": 0,
-  "mcap_cr": 7822.1091,
+  "mcap_cr": 7449.6762,
   "revenue_cr": 2099.95,
-  "pe": 30.563,
+  "pe": 29.6008,
   "peg": null,
   "rev_cagr": 16.2929,
   "profit_cagr": 31.2532,
@@ -26606,8 +26689,8 @@
   "roce_chg": -2.3743,
   "de": 0.0082,
   "dilution": 0.0,
-  "insider_pct": 56.067,
-  "inst_pct": 24.822,
+  "insider_pct": 56.091,
+  "inst_pct": 24.966,
   "analysts": null,
   "fcf_positive": 1,
   "q_rev_yoy": 2.2769,
@@ -26626,7 +26709,7 @@
   "acquisition": null,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-26"
+  "fetched": "2026-11-03"
  },
  "VIKRAMSOLR.NS": {
   "name": "VIKRAM SOLAR LIMITED",
@@ -26638,9 +26721,9 @@
    "Railways and infrastructure"
   ],
   "moat_kw": 0,
-  "mcap_cr": 4651.9054,
+  "mcap_cr": 4687.7782,
   "revenue_cr": 4802.251,
-  "pe": 12.7235,
+  "pe": 12.8216,
   "peg": null,
   "rev_cagr": 32.3173,
   "profit_cagr": 219.004,
@@ -26651,8 +26734,8 @@
   "de": 0.2037,
   "dilution": 0.1695,
   "insider_pct": 64.976,
-  "inst_pct": 3.716,
-  "analysts": 6.0,
+  "inst_pct": 3.645,
+  "analysts": 5.0,
   "fcf_positive": 0,
   "q_rev_yoy": 30.9648,
   "q_profit_yoy": -78.1742,
@@ -26669,8 +26752,10 @@
   "gppe_growth": 113.3087,
   "acquisition": null,
   "split_recent": null,
-  "news": [],
-  "fetched": "2026-10-26"
+  "news": [
+   "Vikram Solar to begin production at 9GW TOPCon cell plant in December 2026"
+  ],
+  "fetched": "2026-11-03"
  },
  "VIYASH.NS": {
   "name": "VIYASH SCIENTIFIC LIMITED",
@@ -26680,9 +26765,9 @@
    "Healthcare and diagnostics"
   ],
   "moat_kw": 0,
-  "mcap_cr": 9174.3691,
+  "mcap_cr": 9685.454,
   "revenue_cr": 3356.961,
-  "pe": 50.824,
+  "pe": 53.6553,
   "peg": null,
   "rev_cagr": 33.2688,
   "profit_cagr": null,
@@ -26692,8 +26777,8 @@
   "roce_chg": 12.8565,
   "de": 0.1572,
   "dilution": 74.9719,
-  "insider_pct": 55.598,
-  "inst_pct": 10.814,
+  "insider_pct": 55.569,
+  "inst_pct": 10.62,
   "analysts": 4.0,
   "fcf_positive": 1,
   "q_rev_yoy": 19.5442,
@@ -26711,8 +26796,12 @@
   "gppe_growth": 8.8287,
   "acquisition": false,
   "split_recent": null,
-  "news": [],
-  "fetched": "2026-10-26"
+  "news": [
+   "Viyash Scientific Ltd (BOM:512529) (Q1 2027) Earnings Call Highlights: Profit Doubles as EBITDA ...",
+   "Viyash Scientific Ltd (BOM:512529) Q4 2026 Earnings Call Highlights: Record-Breaking EBITDA and ...",
+   "Viyash Scientific Ltd (BOM:512529) Q3 2026 Earnings Call Highlights: Strong Revenue Growth and ..."
+  ],
+  "fetched": "2026-11-03"
  },
  "VOLTAMP.NS": {
   "name": "VOLTAMP TRANSFORMERS LTD",
@@ -26723,9 +26812,9 @@
    "Healthcare and diagnostics"
   ],
   "moat_kw": 0,
-  "mcap_cr": 9913.7659,
+  "mcap_cr": 10151.5182,
   "revenue_cr": 2145.6582,
-  "pe": 31.2668,
+  "pe": 31.4004,
   "peg": null,
   "rev_cagr": 15.9569,
   "profit_cagr": 15.1632,
@@ -26733,21 +26822,21 @@
   "op_margin_chg": -5.8709,
   "roce": 22.7215,
   "roce_chg": -6.756,
-  "de": 0.0003,
+  "de": 0.0027,
   "dilution": 0.0,
-  "insider_pct": 30.015,
-  "inst_pct": 47.281,
+  "insider_pct": 30.016,
+  "inst_pct": 48.596,
   "analysts": 8.0,
   "fcf_positive": 1,
-  "q_rev_yoy": 28.3793,
-  "q_profit_yoy": 14.6753,
-  "q_opm_chg": -3.016,
+  "q_rev_yoy": 41.7831,
+  "q_profit_yoy": 7.9044,
+  "q_opm_chg": -5.6484,
   "cfo_pat": 0.6131,
   "interest_coverage": 280.9765,
   "recv_days": 46.2783,
   "recv_days_chg_pct": -22.9387,
   "fin_date": "2026-03-31",
-  "q_date": "2026-06-30",
+  "q_date": "2026-09-30",
   "fin_sector": "Industrials",
   "capex_rev_pct": 5.8284,
   "cwip_growth": 3063.048,
@@ -26755,7 +26844,7 @@
   "acquisition": null,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-26"
+  "fetched": "2026-11-03"
  },
  "WAAREERTL.NS": {
   "name": "WAAREE RENEWABLE TECH LTD",
@@ -26766,9 +26855,9 @@
    "Railways and infrastructure"
   ],
   "moat_kw": 0,
-  "mcap_cr": 6842.0575,
+  "mcap_cr": 7280.4499,
   "revenue_cr": 3330.4375,
-  "pe": 14.6973,
+  "pe": 15.639,
   "peg": null,
   "rev_cagr": 111.7434,
   "profit_cagr": 105.1744,
@@ -26779,7 +26868,7 @@
   "de": 0.8553,
   "dilution": 0.261,
   "insider_pct": 75.35,
-  "inst_pct": 1.117,
+  "inst_pct": 1.156,
   "analysts": null,
   "fcf_positive": 1,
   "q_rev_yoy": 36.5342,
@@ -26798,7 +26887,7 @@
   "acquisition": false,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-26"
+  "fetched": "2026-11-03"
  },
  "WAKEFIT.NS": {
   "name": "WAKEFIT INNOVATIONS LTD",
@@ -26806,9 +26895,9 @@
   "blurb": "Wakefit Innovations Limited manufactures and markets home furnishing products. Its products include mattresses, beds, rollup, side tables, sofas, wardrobes, dressing tables, pillows, cabinets and shelves, kitchen and dining cushions, home essentials, TV units, office chairs, coffee tables, mats, rugs and carpets, yoga ",
   "themes": [],
   "moat_kw": 0,
-  "mcap_cr": 4423.152,
+  "mcap_cr": 4476.2157,
   "revenue_cr": 1475.164,
-  "pe": 22.682,
+  "pe": 22.9541,
   "peg": null,
   "rev_cagr": 22.7909,
   "profit_cagr": null,
@@ -26838,7 +26927,7 @@
   "acquisition": null,
   "split_recent": null,
   "news": [],
-  "fetched": "2026-10-26"
+  "fetched": "2026-11-03"
  },
  "WEWORK.NS": {
   "name": "WEWORK INDIA MANAGEMENT L",
@@ -26849,9 +26938,9 @@
    "Healthcare and diagnostics"
   ],
   "moat_kw": 0,
-  "mcap_cr": 8657.1688,
+  "mcap_cr": 9212.6503,
   "revenue_cr": 2440.18,
-  "pe": 101.531,
+  "pe": 93.1742,
   "peg": null,
   "rev_cagr": null,
   "profit_cagr": null,
@@ -26859,29 +26948,32 @@
   "op_margin_chg": null,
   "roce": 11.1567,
   "roce_chg": null,
-  "de": 18.5496,
+  "de": 16.4393,
   "dilution": null,
   "insider_pct": 63.431,
-  "inst_pct": 25.875,
+  "inst_pct": 25.823,
   "analysts": 9.0,
   "fcf_positive": 1,
-  "q_rev_yoy": 26.7842,
-  "q_profit_yoy": -111.7914,
-  "q_opm_chg": null,
+  "q_rev_yoy": 33.6063,
+  "q_profit_yoy": 222.413,
+  "q_opm_chg": -2.2981,
   "cfo_pat": null,
   "interest_coverage": 1.0882,
   "recv_days": 12.6569,
   "recv_days_chg_pct": null,
   "fin_date": "2026-03-31",
-  "q_date": "2026-06-30",
+  "q_date": "2026-09-30",
   "fin_sector": "Real Estate",
   "capex_rev_pct": 24.4769,
   "cwip_growth": null,
   "gppe_growth": null,
   "acquisition": null,
   "split_recent": null,
-  "news": [],
-  "fetched": "2026-10-26"
+  "news": [
+   "Wework India Management Ltd (NSE:WEWORK) Full Year 2026 Earnings Call Highlights: Record ...",
+   "Wework India Management Ltd (NSE:WEWORK) Q3 2026 Earnings Call Highlights: Record Revenue and ..."
+  ],
+  "fetched": "2026-11-03"
  },
  "WEBELSOLAR.NS": {
   "name": "WEBSOL ENERGY SYSTEM LTD",
@@ -26892,9 +26984,9 @@
    "Energy transition"
   ],
   "moat_kw": 0,
-  "mcap_cr": 2756.5038,
+  "mcap_cr": 2915.4077,
   "revenue_cr": 1049.07,
-  "pe": 8.8922,
+  "pe": 9.4048,
   "peg": null,
   "rev_cagr": 293.4483,
   "profit_cagr": null,
@@ -26905,7 +26997,7 @@
   "de": 0.2073,
   "dilution": 11.9052,
   "insider_pct": 32.303,
-  "inst_pct": 3.035,
+  "inst_pct": 3.076,
   "analysts": null,
   "fcf_positive": 1,
   "q_rev_yoy": 115.3882,
@@ -26927,7 +27019,7 @@
    "ratio": 10.0
   },
   "news": [],
-  "fetched": "2026-10-26"
+  "fetched": "2026-11-03"
  },
  "WELENT.NS": {
   "name": "WELSPUN ENTERPRISES LTD.",
@@ -26938,9 +27030,9 @@
    "Railways and infrastructure"
   ],
   "moat_kw": 0,
-  "mcap_cr": 8476.5409,
+  "mcap_cr": 8538.2447,
   "revenue_cr": 3408.09,
-  "pe": 25.4396,
+  "pe": 25.6247,
   "peg": 0.48,
   "rev_cagr": 8.045,
   "profit_cagr": -21.4817,
@@ -26951,7 +27043,7 @@
   "de": 0.6092,
   "dilution": -9.5806,
   "insider_pct": 64.685,
-  "inst_pct": 10.528,
+  "inst_pct": 13.967,
   "analysts": null,
   "fcf_positive": 1,
   "q_rev_yoy": -8.4409,
@@ -26969,8 +27061,12 @@
   "gppe_growth": 11.6412,
   "acquisition": false,
   "split_recent": null,
-  "news": [],
-  "fetched": "2026-10-26"
+  "news": [
+   "Welspun Enterprises Ltd (BOM:532553) (Q1 2027) Earnings Call Highlights: Resilient Margins and ...",
+   "Welspun Enterprises Ltd (BOM:532553) Q4 2026 Earnings Call Highlights: Strong Revenue Growth ...",
+   "Welspun Enterprises Ltd (BOM:532553) Q2 2026 Earnings Call Highlights: Strong Order Book and ..."
+  ],
+  "fetched": "2026-11-03"
  },
  "WESTLIFE.NS": {
   "name": "WESTLIFE FOODWORLD LTD",
@@ -26978,9 +27074,9 @@
   "blurb": "Westlife Foodworld Limited, through its subsidiary, Hardcastle Restaurants Private Limited, owns and operates a chain of McDonald's restaurants in Western and Southern India. The company operates through various restaurants, such as freestanding, food court, in-store, and mall stores. It also offers brand extensions, i",
   "themes": [],
   "moat_kw": 0,
-  "mcap_cr": 9120.478,
+  "mcap_cr": 9388.2245,
   "revenue_cr": 2600.352,
-  "pe": 4520.0,
+  "pe": 4652.6924,
   "peg": null,
   "rev_cagr": 4.7964,
   "profit_cagr": -33.8261,
@@ -26988,10 +27084,10 @@
   "op_margin_chg": -1.5699,
   "roce": 7.5886,
   "roce_chg": -2.9044,
-  "de": 2.9152,
+  "de": 3.1456,
   "dilution": -0.1527,
-  "insider_pct": 63.634,
-  "inst_pct": 30.636,
+  "insider_pct": 66.017,
+  "inst_pct": 29.413,
   "analysts": 20.0,
   "fcf_positive": 1,
   "q_rev_yoy": 13.5408,
@@ -27009,8 +27105,12 @@
   "gppe_growth": 13.4464,
   "acquisition": false,
   "split_recent": null,
-  "news": [],
-  "fetched": "2026-10-26"
+  "news": [
+   "McDonald's India operator profit halves as higher costs weigh",
+   "Westlife Foodworld Ltd (BOM:505533) Q3 2026 Earnings Call Highlights: Navigating Growth ...",
+   "McDonald\u2019s India franchisee Westlife to roll out 20-minute deliveries"
+  ],
+  "fetched": "2026-11-03"
  },
  "YATHARTH.NS": {
   "name": "YATHARTH HOSP & TRA C S L",
@@ -27020,9 +27120,9 @@
    "Healthcare and diagnostics"
   ],
   "moat_kw": 0,
-  "mcap_cr": 8924.341,
+  "mcap_cr": 9460.5525,
   "revenue_cr": 1196.373,
-  "pe": 49.266,
+  "pe": 52.2261,
   "peg": null,
   "rev_cagr": 31.9895,
   "profit_cagr": 38.6719,
@@ -27033,7 +27133,7 @@
   "de": 0.1461,
   "dilution": 12.2354,
   "insider_pct": 56.938,
-  "inst_pct": 12.859,
+  "inst_pct": 12.85,
   "analysts": 4.0,
   "fcf_positive": 0,
   "q_rev_yoy": 51.4594,
@@ -27051,8 +27151,11 @@
   "gppe_growth": 39.9277,
   "acquisition": true,
   "split_recent": null,
-  "news": [],
-  "fetched": "2026-10-26"
+  "news": [
+   "Yatharth Hospital and Trauma Care Services Ltd (NSE:YATHARTH) (Q1 2027) Earnings Call ...",
+   "Yatharth Hospital and Trauma Care Services Ltd (NSE:YATHARTH) Q3 2026 Earnings Call Highlights: ..."
+  ],
+  "fetched": "2026-11-03"
  },
  "ZAGGLE.NS": {
   "name": "ZAGGLE PREPA OCEAN SER L",
@@ -27063,9 +27166,9 @@
    "Digital and data centres"
   ],
   "moat_kw": 0,
-  "mcap_cr": 2040.5244,
+  "mcap_cr": 2093.6055,
   "revenue_cr": 1907.646,
-  "pe": 15.6629,
+  "pe": 16.0703,
   "peg": null,
   "rev_cagr": 51.0557,
   "profit_cagr": 82.01,
@@ -27094,8 +27197,11 @@
   "gppe_growth": 3.6012,
   "acquisition": true,
   "split_recent": null,
-  "news": [],
-  "fetched": "2026-10-26"
+  "news": [
+   "Zaggle Prepaid Ocean Services Ltd (BOM:543985) (Q1 2027) Earnings Call Highlights: Revenue ...",
+   "Zaggle Prepaid Ocean Services Ltd (BOM:543985) Q2 2026 Earnings Call Highlights: Strong Revenue ..."
+  ],
+  "fetched": "2026-11-03"
  },
  "PFIZER.NS": {
   "name": "PFIZER LTD",
